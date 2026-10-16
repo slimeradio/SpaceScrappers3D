@@ -2,19 +2,48 @@
   {
     "file": "Blocks\\MF-01_Aureole\\MF-01_Aureole.blend",
     "reopened": true,
-    "meshes": 162,
+    "meshes": 263,
+    "clearance": [
+      {
+        "a": "Leg_-1_mount",
+        "b": "Leg_1_mount",
+        "surface_crossings": []
+      },
+      {
+        "a": "Leg_-1_mount",
+        "b": "Sword_-1_mount",
+        "surface_crossings": []
+      },
+      {
+        "a": "Leg_-1_mount",
+        "b": "Sword_1_mount",
+        "surface_crossings": []
+      },
+      {
+        "a": "Leg_1_mount",
+        "b": "Sword_-1_mount",
+        "surface_crossings": []
+      },
+      {
+        "a": "Leg_1_mount",
+        "b": "Sword_1_mount",
+        "surface_crossings": []
+      }
+    ],
     "errors": []
   },
   {
     "file": "Blocks\\MF-02_Kurenai\\MF-02_Kurenai.blend",
     "reopened": true,
-    "meshes": 169,
+    "meshes": 314,
+    "clearance": [],
     "errors": []
   },
   {
     "file": "Blocks\\MF-03_Obsidian\\MF-03_Obsidian.blend",
     "reopened": true,
-    "meshes": 186,
+    "meshes": 325,
+    "clearance": [],
     "errors": []
   }
 ]

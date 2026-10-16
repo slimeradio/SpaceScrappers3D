@@ -1,6 +1,6 @@
 {
   "robot": "MF-01_Aureole",
-  "mesh_objects": 162,
+  "mesh_objects": 263,
   "parts_prevalidated": true,
   "materials_embedded": true,
   "textures_external": 0,
@@ -8,12 +8,12 @@
   "animation": "Static articulated modules; no combat animation or game logic",
   "instances": [
     {
-      "part": "Core",
+      "part": "Core_A",
       "instance": "Torso",
       "position": [
         0,
         0,
-        3.35
+        3.75
       ],
       "rotation": [
         0,
@@ -21,18 +21,18 @@
         0
       ],
       "scale": [
-        1,
+        0.91,
         1,
         1
       ]
     },
     {
-      "part": "Head",
+      "part": "Head_A",
       "instance": "Head",
       "position": [
         0,
-        -0.02,
-        5.05
+        -0.015,
+        5.2
       ],
       "rotation": [
         0,
@@ -46,12 +46,12 @@
       ]
     },
     {
-      "part": "HipSkirt",
+      "part": "Skirt_A",
       "instance": "Pelvis",
       "position": [
         0,
         0,
-        3.3
+        3.69
       ],
       "rotation": [
         0,
@@ -59,37 +59,37 @@
         0
       ],
       "scale": [
-        1,
+        0.91,
         1,
         1
       ]
     },
     {
-      "part": "Leg",
+      "part": "Leg_A",
       "instance": "Leg_-1",
       "position": [
-        -0.43,
+        -0.36,
         0,
-        2.45
+        2.81
       ],
       "rotation": [
         0,
-        0,
+        0.025,
         0
       ],
       "scale": [
-        1,
+        0.92,
         1,
         1
       ]
     },
     {
-      "part": "Shoulder",
+      "part": "Shoulder_A",
       "instance": "Shoulder_-1",
       "position": [
-        -0.95,
+        -0.8,
         0,
-        4.45
+        4.84
       ],
       "rotation": [
         0,
@@ -103,17 +103,17 @@
       ]
     },
     {
-      "part": "Arm",
+      "part": "Arm_A",
       "instance": "Arm_-1",
       "position": [
-        -1.02,
+        -0.83,
         0,
-        4.28
+        4.66
       ],
       "rotation": [
         0,
-        0.09,
-        0.08
+        0.12,
+        0.075
       ],
       "scale": [
         1,
@@ -125,9 +125,9 @@
       "part": "Thruster",
       "instance": "Back_thruster_-1",
       "position": [
-        -0.48,
-        0.82,
-        3.96
+        -0.34,
+        0.77,
+        4.25
       ],
       "rotation": [
         0,
@@ -135,56 +135,37 @@
         0
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.75,
+        0.8,
+        0.85
       ]
     },
     {
-      "part": "Thruster",
-      "instance": "Slashwire_-1",
-      "position": [
-        -0.64,
-        -0.08,
-        3.55
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        0.42,
-        0.55,
-        0.55
-      ]
-    },
-    {
-      "part": "Leg",
+      "part": "Leg_A",
       "instance": "Leg_1",
       "position": [
-        0.43,
+        0.36,
         0,
-        2.45
+        2.81
       ],
       "rotation": [
         0,
-        0,
+        -0.025,
         0
       ],
       "scale": [
-        1,
+        0.92,
         1,
         1
       ]
     },
     {
-      "part": "Shoulder",
+      "part": "Shoulder_A",
       "instance": "Shoulder_1",
       "position": [
-        0.95,
+        0.8,
         0,
-        4.45
+        4.84
       ],
       "rotation": [
         0,
@@ -198,17 +179,17 @@
       ]
     },
     {
-      "part": "Arm",
+      "part": "Arm_A",
       "instance": "Arm_1",
       "position": [
-        1.02,
+        0.83,
         0,
-        4.28
+        4.66
       ],
       "rotation": [
         0,
-        -0.09,
-        -0.08
+        -0.12,
+        -0.075
       ],
       "scale": [
         1,
@@ -220,85 +201,9 @@
       "part": "Thruster",
       "instance": "Back_thruster_1",
       "position": [
-        0.48,
-        0.82,
-        3.96
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    {
-      "part": "Thruster",
-      "instance": "Slashwire_1",
-      "position": [
-        0.64,
-        -0.08,
-        3.55
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        0.42,
-        0.55,
-        0.55
-      ]
-    },
-    {
-      "part": "Sword",
-      "instance": "Sword_-1",
-      "position": [
-        -1.17,
-        -0.38,
-        2.72
-      ],
-      "rotation": [
-        3.141592653589793,
-        0.3,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    {
-      "part": "Sword",
-      "instance": "Sword_1",
-      "position": [
-        1.17,
-        -0.38,
-        2.72
-      ],
-      "rotation": [
-        3.141592653589793,
-        -0.3,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    {
-      "part": "Shield",
-      "instance": "Shield",
-      "position": [
-        -1.3,
-        -0.36,
-        3.29
+        0.34,
+        0.77,
+        4.25
       ],
       "rotation": [
         0,
@@ -308,8 +213,68 @@
       "scale": [
         0.75,
         0.8,
-        0.8
+        0.85
+      ]
+    },
+    {
+      "part": "Sword",
+      "instance": "Sword_-1",
+      "position": [
+        -1.05,
+        -0.38,
+        3.04
+      ],
+      "rotation": [
+        3.141592653589793,
+        0.27,
+        0
+      ],
+      "scale": [
+        0.85,
+        0.8,
+        1
+      ]
+    },
+    {
+      "part": "Sword",
+      "instance": "Sword_1",
+      "position": [
+        1.05,
+        -0.38,
+        3.04
+      ],
+      "rotation": [
+        3.141592653589793,
+        -0.27,
+        0
+      ],
+      "scale": [
+        0.85,
+        0.8,
+        1
+      ]
+    },
+    {
+      "part": "Shield",
+      "instance": "Left_shield",
+      "position": [
+        -1.03,
+        -0.42,
+        3.76
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.85,
+        1,
+        0.86
       ]
     }
-  ]
+  ],
+  "revision": 2,
+  "distinct_body_family": "A",
+  "validation": "part-validation-v2.json"
 }

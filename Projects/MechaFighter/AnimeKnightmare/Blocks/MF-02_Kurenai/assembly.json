@@ -1,6 +1,6 @@
 {
   "robot": "MF-02_Kurenai",
-  "mesh_objects": 169,
+  "mesh_objects": 314,
   "parts_prevalidated": true,
   "materials_embedded": true,
   "textures_external": 0,
@@ -8,12 +8,12 @@
   "animation": "Static articulated modules; no combat animation or game logic",
   "instances": [
     {
-      "part": "Core",
+      "part": "Core_K",
       "instance": "Torso",
       "position": [
         0,
         0,
-        3.35
+        3.75
       ],
       "rotation": [
         0,
@@ -21,18 +21,18 @@
         0
       ],
       "scale": [
-        1,
+        1.04,
         1,
         1
       ]
     },
     {
-      "part": "Head",
+      "part": "Head_K",
       "instance": "Head",
       "position": [
         0,
-        -0.02,
-        5.05
+        -0.015,
+        5.2
       ],
       "rotation": [
         0,
@@ -46,12 +46,12 @@
       ]
     },
     {
-      "part": "HipSkirt",
+      "part": "Skirt_K",
       "instance": "Pelvis",
       "position": [
         0,
         0,
-        3.3
+        3.69
       ],
       "rotation": [
         0,
@@ -59,37 +59,37 @@
         0
       ],
       "scale": [
-        1,
+        1.04,
         1,
         1
       ]
     },
     {
-      "part": "Leg",
+      "part": "Leg_K",
       "instance": "Leg_-1",
       "position": [
-        -0.43,
+        -0.36,
         0,
-        2.45
+        2.81
       ],
       "rotation": [
         0,
-        0,
+        0.025,
         0
       ],
       "scale": [
-        1,
+        0.92,
         1,
         1
       ]
     },
     {
-      "part": "Shoulder",
+      "part": "Shoulder_K",
       "instance": "Shoulder_-1",
       "position": [
-        -0.95,
+        -0.8,
         0,
-        4.45
+        4.84
       ],
       "rotation": [
         0,
@@ -103,17 +103,17 @@
       ]
     },
     {
-      "part": "Arm",
+      "part": "Arm_K",
       "instance": "Arm_-1",
       "position": [
-        -1.02,
+        -0.83,
         0,
-        4.28
+        4.66
       ],
       "rotation": [
         0,
-        0.09,
-        0.08
+        0.12,
+        0.075
       ],
       "scale": [
         1,
@@ -125,9 +125,9 @@
       "part": "Thruster",
       "instance": "Back_thruster_-1",
       "position": [
-        -0.48,
-        0.82,
-        3.96
+        -0.34,
+        0.77,
+        4.25
       ],
       "rotation": [
         0,
@@ -135,56 +135,37 @@
         0
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.75,
+        0.8,
+        0.85
       ]
     },
     {
-      "part": "Thruster",
-      "instance": "Slashwire_-1",
-      "position": [
-        -0.64,
-        -0.08,
-        3.55
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        0.42,
-        0.55,
-        0.55
-      ]
-    },
-    {
-      "part": "Leg",
+      "part": "Leg_K",
       "instance": "Leg_1",
       "position": [
-        0.43,
+        0.36,
         0,
-        2.45
+        2.81
       ],
       "rotation": [
         0,
-        0,
+        -0.025,
         0
       ],
       "scale": [
-        1,
+        0.92,
         1,
         1
       ]
     },
     {
-      "part": "Shoulder",
+      "part": "Shoulder_K",
       "instance": "Shoulder_1",
       "position": [
-        0.95,
+        0.8,
         0,
-        4.45
+        4.96
       ],
       "rotation": [
         0,
@@ -192,23 +173,23 @@
         0
       ],
       "scale": [
-        1,
+        1.18,
         1,
         1
       ]
     },
     {
-      "part": "Arm",
+      "part": "Arm_K",
       "instance": "Arm_1",
       "position": [
-        1.02,
+        0.83,
         0,
-        4.28
+        4.66
       ],
       "rotation": [
         0,
-        -0.09,
-        -0.08
+        -0.12,
+        -0.075
       ],
       "scale": [
         1,
@@ -220,9 +201,9 @@
       "part": "Thruster",
       "instance": "Back_thruster_1",
       "position": [
-        0.48,
-        0.82,
-        3.96
+        0.34,
+        0.77,
+        4.25
       ],
       "rotation": [
         0,
@@ -230,86 +211,70 @@
         0
       ],
       "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    {
-      "part": "Thruster",
-      "instance": "Slashwire_1",
-      "position": [
-        0.64,
-        -0.08,
-        3.55
-      ],
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        0.42,
-        0.55,
-        0.55
+        0.75,
+        0.8,
+        0.85
       ]
     },
     {
       "part": "Claw",
       "instance": "Radiation_claw",
       "position": [
-        1.16,
-        -0.15,
-        2.96
+        1.04,
+        -0.18,
+        3.48
       ],
       "rotation": [
         0,
-        0,
+        -0.12,
         0
       ],
       "scale": [
-        1.25,
-        1.25,
-        1.25
+        1.15,
+        1.15,
+        1.15
       ]
     },
     {
       "part": "Sword",
       "instance": "Left_blade",
       "position": [
-        -1.2,
-        -0.38,
-        2.68
+        -1.02,
+        -0.36,
+        3.04
       ],
       "rotation": [
         3.141592653589793,
-        0.5,
+        0.45,
         0
       ],
       "scale": [
-        0.8,
-        0.8,
+        0.85,
+        0.85,
         0.8
       ]
     },
     {
-      "part": "Shield",
-      "instance": "Left_guard",
+      "part": "Wing",
+      "instance": "Single_flight_fin",
       "position": [
-        -1.24,
-        -0.35,
-        3.35
+        -0.32,
+        0.8,
+        4.18
       ],
       "rotation": [
         0,
-        0,
+        -0.18,
         0
       ],
       "scale": [
+        -0.5,
         0.7,
-        0.8,
-        0.65
+        0.6
       ]
     }
-  ]
+  ],
+  "revision": 2,
+  "distinct_body_family": "K",
+  "validation": "part-validation-v2.json"
 }
