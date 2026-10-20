@@ -1,0 +1,67 @@
+{
+  "id": "MA-F01-P04",
+  "stage": "immediate part geometry validation before assembly",
+  "checks": [
+    {
+      "mesh": "Recessed intercell base",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.08812799258852023,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Protected bridge",
+      "vertices": 32,
+      "faces": 26,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.10399599115022025,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Intercell ceramic crown",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.011429001651525522,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Recessed bridge diagnostic",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 3.129606062936209e-05,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Recessed bridge diagnostic.001",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 3.129606313276228e-05,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Recessed bridge diagnostic.002",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 3.129606062936208e-05,
+      "materials_valid": true,
+      "pass": true
+    }
+  ],
+  "checks_passed": true
+}

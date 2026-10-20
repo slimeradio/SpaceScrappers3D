@@ -1,0 +1,528 @@
+{
+  "id": "MA-F02",
+  "checks_passed": true,
+  "verification": "Independent Blender process reopened one new standalone source and five reused sources and compatible shared service cartridge and final assembly. Geometry gates passed before dependent assembly. Mesh manifoldness, positive volume, nondegenerate faces, nondegenerate evaluated triangles and finite coordinates and material assignment checked. Full socket positions and orientations matched. All dependency versions and unit scales resolved.",
+  "standalone_parts": [
+    {
+      "id": "MA-F01-P01",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Recessed hull gasket",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.7120959985332493
+        },
+        {
+          "mesh": "Graphite load deck",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 1.0950119785661099
+        },
+        {
+          "mesh": "Cassette seating bed",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.18982001296341383
+        },
+        {
+          "mesh": "Cassette seating bed.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.18982001296341375
+        },
+        {
+          "mesh": "Flush end interface",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.024699999859928913
+        },
+        {
+          "mesh": "Recessed power socket",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0006480000571310534
+        },
+        {
+          "mesh": "Flush end interface.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.024699999859928913
+        },
+        {
+          "mesh": "Recessed power socket.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0006480000571310534
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-F01-P02",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Lower pressure enclosure",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.5953840107030867
+        },
+        {
+          "mesh": "Faceted process hood",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.6316959421730852
+        },
+        {
+          "mesh": "Dorsal service gasket",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.024297019135714283
+        },
+        {
+          "mesh": "Dorsal service plate",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.015004986276626022
+        },
+        {
+          "mesh": "Enclosed diagnostic recess",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0007343999596953392
+        },
+        {
+          "mesh": "Limited diagnostic slit",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 2.392000206358736e-05
+        },
+        {
+          "mesh": "Enclosed diagnostic recess.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0007343999596953392
+        },
+        {
+          "mesh": "Limited diagnostic slit.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 2.392000206358736e-05
+        },
+        {
+          "mesh": "Top panel seam",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 6.587999928161494e-05
+        },
+        {
+          "mesh": "Top panel seam.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 6.587999928161494e-05
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-F01-P03",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Dark inset shoulder structure",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.44778002642706083
+        },
+        {
+          "mesh": "Swept ceramic shoulder",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.04751824774125033
+        },
+        {
+          "mesh": "Diagonal titanium brace",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.005480298251212667
+        },
+        {
+          "mesh": "Flush shoulder end cap",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.007544001632824399
+        },
+        {
+          "mesh": "Swept ceramic shoulder.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.047518247741250325
+        },
+        {
+          "mesh": "Diagonal titanium brace.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.005480298251212667
+        },
+        {
+          "mesh": "Flush shoulder end cap.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.007544001632824401
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-F01-P04",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Recessed intercell base",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.08812799258852023
+        },
+        {
+          "mesh": "Protected bridge",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.10399599115022025
+        },
+        {
+          "mesh": "Intercell ceramic crown",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.011429001651525522
+        },
+        {
+          "mesh": "Recessed bridge diagnostic",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 3.129606062936209e-05
+        },
+        {
+          "mesh": "Recessed bridge diagnostic.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 3.129606313276228e-05
+        },
+        {
+          "mesh": "Recessed bridge diagnostic.002",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 3.129606062936208e-05
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-F02-P01",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Sealed lower service enclosure",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.5327120218644146
+        },
+        {
+          "mesh": "Recessed stepped service gasket",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.04507303473436906
+        },
+        {
+          "mesh": "Swept ceramic service shoulder",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.04715999568432578
+        },
+        {
+          "mesh": "Dorsal titanium inset",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0013482003854274462
+        },
+        {
+          "mesh": "Swept ceramic service shoulder.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.04715999568432578
+        },
+        {
+          "mesh": "Dorsal titanium inset.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0013482003854274464
+        },
+        {
+          "mesh": "Protected central service platform",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.049958984244585385
+        },
+        {
+          "mesh": "Cartridge seal",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.002647805422568432
+        },
+        {
+          "mesh": "Closed service end plate",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0394999994486569
+        },
+        {
+          "mesh": "Recessed end index",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0001555200068718192
+        },
+        {
+          "mesh": "Limited service diagnosis",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 4.608000298976902e-06
+        },
+        {
+          "mesh": "Limited service diagnosis.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 4.608000298976902e-06
+        },
+        {
+          "mesh": "Closed service end plate.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0394999994486569
+        },
+        {
+          "mesh": "Recessed end index.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0001555200068718192
+        },
+        {
+          "mesh": "Limited service diagnosis.002",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 4.608000298976902e-06
+        },
+        {
+          "mesh": "Limited service diagnosis.003",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 4.608000298976902e-06
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-R01-P05",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Flush pressure seal.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.013272000975389052
+        },
+        {
+          "mesh": "Hexagonal service cartridge.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.010070784395519613
+        },
+        {
+          "mesh": "Inset cartridge center.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0016776003010153817
+        },
+        {
+          "mesh": "Flush quarter turn lock.002",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 1.3033392208021095e-05
+        },
+        {
+          "mesh": "Flush quarter turn lock.003",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 1.3033392208021095e-05
+        },
+        {
+          "mesh": "Cartridge status.001",
+          "nonmanifold_edges": 0,
+          "inconsistent_normals": 0,
+          "zero_area_faces": 0,
+          "volume": 2.2100000194460142e-05
+        }
+      ],
+      "previews_present": true
+    }
+  ],
+  "connections": [
+    {
+      "connection": {
+        "parent_instance": "Chassis",
+        "parent_socket": "cassette-L",
+        "child_instance": "ProcessCassette",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Chassis",
+        "parent_socket": "cassette-R",
+        "child_instance": "ServiceBay",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Chassis",
+        "parent_socket": "shoulder-front",
+        "child_instance": "Shoulder.Front",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Chassis",
+        "parent_socket": "shoulder-back",
+        "child_instance": "Shoulder.Back",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Chassis",
+        "parent_socket": "bridge",
+        "child_instance": "IntercellBridge",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "ProcessCassette",
+        "parent_socket": "service",
+        "child_instance": "Service.Process",
+        "child_socket": "bottom"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "ServiceBay",
+        "parent_socket": "service",
+        "child_instance": "Service.Base",
+        "child_socket": "bottom"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    }
+  ],
+  "instance_count": 8,
+  "resolved_parts": [
+    "MA-F01-P01",
+    "MA-F01-P02",
+    "MA-F01-P03",
+    "MA-F01-P04",
+    "MA-F02-P01",
+    "MA-R01-P05"
+  ],
+  "bounds_BU": {
+    "min": [
+      -1.909999966621399,
+      -0.9500000476837158,
+      0.0
+    ],
+    "max": [
+      1.909999966621399,
+      0.9500001668930054,
+      1.100000023841858
+    ]
+  },
+  "preview_views": [
+    "top",
+    "perspective"
+  ],
+  "glb_generated": false,
+  "game_validation": false,
+  "collision_LOD_validation": false,
+  "notes": "Overlapping enclosure seats, pressure seals and armour layers are intentional contacts. No moving poses. Physical BU-to-metre conversion unspecified."
+}

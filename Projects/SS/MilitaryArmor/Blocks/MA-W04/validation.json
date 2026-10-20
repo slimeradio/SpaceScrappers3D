@@ -1,0 +1,115 @@
+{
+  "id": "MA-W04",
+  "source_saved": true,
+  "source_parts_saved_before_assembly": true,
+  "instance_count": 9,
+  "resolved_parts": [
+    "MA-P06",
+    "MA-P07",
+    "MA-W04-P01",
+    "MA-W04-P02",
+    "MA-W04-P03",
+    "MA-W04-P04"
+  ],
+  "missing_dependencies": [],
+  "glb": {
+    "magic": "glTF",
+    "version": 2,
+    "length_matches": true,
+    "mesh_count": 112,
+    "node_count": 141,
+    "animation_count": 2,
+    "embedded_buffers": true,
+    "external_images": []
+  },
+  "game_validation": false,
+  "checks_passed": true,
+  "parts_reopened_in_Blender": {
+    "MA-P06": {
+      "reopened": true,
+      "mesh_count": 7,
+      "materials_assigned": true,
+      "unit_scale": true,
+      "file_dependencies": []
+    },
+    "MA-P07": {
+      "reopened": true,
+      "mesh_count": 7,
+      "materials_assigned": true,
+      "unit_scale": true,
+      "file_dependencies": []
+    },
+    "MA-W04-P01": {
+      "reopened": true,
+      "mesh_count": 13,
+      "materials_assigned": true,
+      "unit_scale": true,
+      "file_dependencies": []
+    },
+    "MA-W04-P02": {
+      "reopened": true,
+      "mesh_count": 9,
+      "materials_assigned": true,
+      "unit_scale": true,
+      "file_dependencies": []
+    },
+    "MA-W04-P03": {
+      "reopened": true,
+      "mesh_count": 14,
+      "materials_assigned": true,
+      "unit_scale": true,
+      "file_dependencies": []
+    },
+    "MA-W04-P04": {
+      "reopened": true,
+      "mesh_count": 16,
+      "materials_assigned": true,
+      "unit_scale": true,
+      "file_dependencies": []
+    }
+  },
+  "assembly_reopened_in_Blender": true,
+  "catalogue_functional_barrel_count": 4,
+  "pose_checks": [
+    {
+      "frame": 1,
+      "finite_transforms": true,
+      "elevation_degrees": -7.999999938029066
+    },
+    {
+      "frame": 30,
+      "finite_transforms": true,
+      "elevation_degrees": -34.99999983559887
+    },
+    {
+      "frame": 60,
+      "finite_transforms": true,
+      "elevation_degrees": -15.999999876058132
+    },
+    {
+      "frame": 90,
+      "finite_transforms": true,
+      "elevation_degrees": -48.00000133572169
+    },
+    {
+      "frame": 120,
+      "finite_transforms": true,
+      "elevation_degrees": -7.999999938029066
+    }
+  ],
+  "visual_review": {
+    "final_oblique": "C:\\Users\\nebul\\AppData\\Local\\Temp\\MA-W04-final-review.png",
+    "final_top": "C:\\Users\\nebul\\AppData\\Local\\Temp\\MA-W04-top-review.png",
+    "visually_inspected_oblique_top_and_extreme": true,
+    "extreme_frame": 90,
+    "extreme_render": "C:\\Users\\nebul\\AppData\\Local\\Temp/MA-W04-extreme-review.png"
+  },
+  "glb_roundtrip": {
+    "imported_in_Blender": true,
+    "mesh_count": 112,
+    "source_mesh_count": 112,
+    "hierarchy_resolved": true,
+    "materials_assigned": true,
+    "actions": 2
+  }
+}

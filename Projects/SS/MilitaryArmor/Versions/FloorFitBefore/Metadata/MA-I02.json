@@ -1,0 +1,7979 @@
+{
+  "schema": "SpriteBake.BlockMetadata/1",
+  "id": "MA-I02",
+  "catalog_id": "cargo-2x2",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "bu_per_cell": 1.0,
+  "footprint_bu": [
+    -1.0,
+    -1.0,
+    1.0,
+    1.0
+  ],
+  "layers": [
+    {
+      "id": "body",
+      "draw_order": 0,
+      "rotates": false,
+      "pivot_bu": [
+        0,
+        0
+      ],
+      "instances": [
+        "Structure",
+        "LoadingHatchF",
+        "LoadingHatchB",
+        "CargoRailF",
+        "CargoRailB"
+      ]
+    }
+  ],
+  "states": {
+    "damage0": {
+      "frame": 1
+    },
+    "damage33": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "damage66": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "destroyed": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "clips": {},
+  "frames": {
+    "damage0": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Structure/mounts/root",
+          "role": "MilitaryArmor.cargo.hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.hull"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Structure/mounts/hatchF",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            -0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchF",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/mounts/hatchB",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchB",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/mounts/railF",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            -1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railF",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "Structure/mounts/railB",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railB",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/root-area",
+          "role": "MilitaryArmor.cargo.hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.hull"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/hatchF-area",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchF-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/hatchB-area",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchB-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/railF-area",
+          "role": "MilitaryArmor.cargo.rail",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railF-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/railB-area",
+          "role": "MilitaryArmor.cargo.rail",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railB-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "LoadingHatchF/mounts/root",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "LoadingHatchF",
+          "part": "MA-I01-R2-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "LoadingHatchF/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "LoadingHatchF",
+          "part": "MA-I01-R2-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "LoadingHatchB/mounts/root",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "LoadingHatchB",
+          "part": "MA-I01-R2-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "LoadingHatchB/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "LoadingHatchB",
+          "part": "MA-I01-R2-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "CargoRailF/mounts/root",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "CargoRailF",
+          "part": "MA-I01-R2-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "CargoRailF/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "CargoRailF",
+          "part": "MA-I01-R2-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "CargoRailB/mounts/root",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "CargoRailB",
+          "part": "MA-I01-R2-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "CargoRailB/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "CargoRailB",
+          "part": "MA-I01-R2-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-I02": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Structure": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LoadingHatchF": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.8299999833106995
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.3350000381469727
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LoadingHatchB": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.8299999833106995
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.3350000381469727
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "CargoRailF": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.7799999713897705
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1599999964237213
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "CargoRailB": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.7799999713897705
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1599999964237213
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "damage33": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Structure/mounts/root",
+          "role": "MilitaryArmor.cargo.hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.hull"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Structure/mounts/hatchF",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            -0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchF",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/mounts/hatchB",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchB",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/mounts/railF",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            -1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railF",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "Structure/mounts/railB",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railB",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/root-area",
+          "role": "MilitaryArmor.cargo.hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.hull"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/hatchF-area",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchF-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/hatchB-area",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchB-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/railF-area",
+          "role": "MilitaryArmor.cargo.rail",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railF-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/railB-area",
+          "role": "MilitaryArmor.cargo.rail",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railB-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "LoadingHatchF/mounts/root",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "LoadingHatchF",
+          "part": "MA-I01-R2-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "LoadingHatchF/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "LoadingHatchF",
+          "part": "MA-I01-R2-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "LoadingHatchB/mounts/root",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "LoadingHatchB",
+          "part": "MA-I01-R2-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "LoadingHatchB/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "LoadingHatchB",
+          "part": "MA-I01-R2-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "CargoRailF/mounts/root",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "CargoRailF",
+          "part": "MA-I01-R2-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "CargoRailF/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "CargoRailF",
+          "part": "MA-I01-R2-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "CargoRailB/mounts/root",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "CargoRailB",
+          "part": "MA-I01-R2-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "CargoRailB/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "CargoRailB",
+          "part": "MA-I01-R2-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-I02": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Structure": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LoadingHatchF": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.8299999833106995
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.3350000381469727
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LoadingHatchB": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.8299999833106995
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.3350000381469727
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "CargoRailF": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.7799999713897705
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1599999964237213
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "CargoRailB": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.7799999713897705
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1599999964237213
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "damage66": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Structure/mounts/root",
+          "role": "MilitaryArmor.cargo.hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.hull"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Structure/mounts/hatchF",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            -0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchF",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/mounts/hatchB",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchB",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/mounts/railF",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            -1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railF",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "Structure/mounts/railB",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railB",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/root-area",
+          "role": "MilitaryArmor.cargo.hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.hull"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/hatchF-area",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchF-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/hatchB-area",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchB-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/railF-area",
+          "role": "MilitaryArmor.cargo.rail",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railF-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/railB-area",
+          "role": "MilitaryArmor.cargo.rail",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railB-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "LoadingHatchF/mounts/root",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "LoadingHatchF",
+          "part": "MA-I01-R2-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "LoadingHatchF/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "LoadingHatchF",
+          "part": "MA-I01-R2-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "LoadingHatchB/mounts/root",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "LoadingHatchB",
+          "part": "MA-I01-R2-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "LoadingHatchB/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "LoadingHatchB",
+          "part": "MA-I01-R2-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "CargoRailF/mounts/root",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "CargoRailF",
+          "part": "MA-I01-R2-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "CargoRailF/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "CargoRailF",
+          "part": "MA-I01-R2-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "CargoRailB/mounts/root",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "CargoRailB",
+          "part": "MA-I01-R2-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "CargoRailB/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "CargoRailB",
+          "part": "MA-I01-R2-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-I02": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Structure": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LoadingHatchF": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.8299999833106995
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.3350000381469727
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LoadingHatchB": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.8299999833106995
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.3350000381469727
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "CargoRailF": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.7799999713897705
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1599999964237213
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "CargoRailB": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.7799999713897705
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1599999964237213
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "destroyed": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Structure/mounts/root",
+          "role": "MilitaryArmor.cargo.hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.hull"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Structure/mounts/hatchF",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            -0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchF",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/mounts/hatchB",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchB",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/mounts/railF",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            -1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railF",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "Structure/mounts/railB",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railB",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/root-area",
+          "role": "MilitaryArmor.cargo.hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.hull"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/hatchF-area",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchF-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/hatchB-area",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hatchB-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/railF-area",
+          "role": "MilitaryArmor.cargo.rail",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railF-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "Structure/attachment_areas/railB-area",
+          "role": "MilitaryArmor.cargo.rail",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "railB-area",
+          "instance": "Structure",
+          "part": "MA-I02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "LoadingHatchF/mounts/root",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "LoadingHatchF",
+          "part": "MA-I01-R2-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "LoadingHatchF/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "LoadingHatchF",
+          "part": "MA-I01-R2-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.17000001668930054,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "LoadingHatchB/mounts/root",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "LoadingHatchB",
+          "part": "MA-I01-R2-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "LoadingHatchB/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.8299999833106995,
+            1.3350000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.8299999833106995
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.3350000381469727
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "LoadingHatchB",
+          "part": "MA-I01-R2-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            1.8299999833106995,
+            1.3350000381469727
+          ]
+        },
+        {
+          "id": "CargoRailF/mounts/root",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "CargoRailF",
+          "part": "MA-I01-R2-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "CargoRailF/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "CargoRailF",
+          "part": "MA-I01-R2-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            -0.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "CargoRailB/mounts/root",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "CargoRailB",
+          "part": "MA-I01-R2-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        },
+        {
+          "id": "CargoRailB/attachment_areas/root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7799999713897705,
+            0.1599999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7799999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.1599999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "CargoRailB",
+          "part": "MA-I01-R2-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            2.7799999713897705,
+            0.1599999964237213
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-I02": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Structure": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LoadingHatchF": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.8299999833106995
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.3350000381469727
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LoadingHatchB": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.8299999833106995
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.3350000381469727
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "CargoRailF": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.7799999713897705
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1599999964237213
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "CargoRailB": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.7799999713897705
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.1599999964237213
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    }
+  },
+  "assembly": {
+    "schema": "MilitaryArmor.BlenderAuthoring/1",
+    "id": "MA-I02",
+    "version": "1.0+states1",
+    "title": "Грузовой контейнер 2×2",
+    "catalog_id": "cargo-2x2",
+    "catalog_grid": [
+      2,
+      2
+    ],
+    "catalog_status": "visual-only; no game XML",
+    "axes": {
+      "handedness": "right",
+      "up": "+Z",
+      "forward": "-Y",
+      "units": "BU; physical scale unspecified"
+    },
+    "instances": [
+      {
+        "id": "Structure",
+        "part_id": "MA-I02-P01",
+        "version": "1.0",
+        "source": "../../Parts/MA-I02-P01/MA-I02-P01.blend",
+        "parent": "MA-I02",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "LoadingHatchF",
+        "part_id": "MA-I01-R2-P02",
+        "version": "2.0",
+        "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+        "parent": "MA-I02",
+        "translation": [
+          0,
+          -0.83,
+          1.335
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "LoadingHatchB",
+        "part_id": "MA-I01-R2-P02",
+        "version": "2.0",
+        "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+        "parent": "MA-I02",
+        "translation": [
+          0,
+          0.83,
+          1.335
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "CargoRailF",
+        "part_id": "MA-I01-R2-P03",
+        "version": "2.0",
+        "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+        "parent": "MA-I02",
+        "translation": [
+          0,
+          -1.78,
+          0.16
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "CargoRailB",
+        "part_id": "MA-I01-R2-P03",
+        "version": "2.0",
+        "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+        "parent": "MA-I02",
+        "translation": [
+          0,
+          1.78,
+          0.16
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "parent_instance": "Structure",
+        "parent_socket": "hatchF",
+        "child_instance": "LoadingHatchF",
+        "child_socket": "root"
+      },
+      {
+        "parent_instance": "Structure",
+        "parent_socket": "hatchB",
+        "child_instance": "LoadingHatchB",
+        "child_socket": "root"
+      },
+      {
+        "parent_instance": "Structure",
+        "parent_socket": "railF",
+        "child_instance": "CargoRailF",
+        "child_socket": "root"
+      },
+      {
+        "parent_instance": "Structure",
+        "parent_socket": "railB",
+        "child_instance": "CargoRailB",
+        "child_socket": "root"
+      }
+    ],
+    "animations": {
+      "controller": "MA-I02",
+      "controls": {
+        "power": {
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "description": "Electrical availability; independent from retained heat/fill"
+        },
+        "activity": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Actual work/load; zero means idle"
+        },
+        "fault": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Externally supplied fault, not inferred"
+        },
+        "fill": {
+          "default": 0.5,
+          "min": 0,
+          "max": 1,
+          "description": "Stored amount/charge; independent from power"
+        }
+      },
+      "channels": [],
+      "clips": [
+        {
+          "name": "MA-I02::activate",
+          "parameters": [
+            "power",
+            "activity"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-I02::deactivate",
+          "parameters": [
+            "activity",
+            "power"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-I02::fill",
+          "parameters": [
+            "fill"
+          ],
+          "frames": [
+            1,
+            97
+          ],
+          "loop": false,
+          "authoring_only": true
+        }
+      ],
+      "independent_controls": true,
+      "demonstration_only": false,
+      "game_integration": false
+    },
+    "exports": [],
+    "notes": "Квадратный цельный грузовой объём с парой крупных загрузочных люков и двумя внешними направляющими. Семейство MA-I01, без аккумуляторных кассет.",
+    "state_authoring": "state-authoring.json"
+  },
+  "parts": {
+    "Structure": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-I02-P01",
+      "version": "1.0",
+      "name": "Квадратный силовой корпус контейнера",
+      "source": "MA-I02-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -1.8300000429153442,
+          -1.809999942779541,
+          0.0
+        ],
+        "max": [
+          1.8300000429153442,
+          1.809999942779541,
+          1.3799999952316284
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Continuous square cargo volume"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Reinforced cargo corner",
+            "Reinforced cargo corner.001",
+            "Reinforced cargo corner.002",
+            "Reinforced cargo corner.003"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Large hatch gasket",
+            "Large hatch gasket.001",
+            "Recessed side handling channel",
+            "Recessed side handling channel.001"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Cargo transverse stiffener",
+            "Cargo transverse stiffener.001",
+            "Cargo transverse stiffener.002",
+            "Cargo transverse stiffener.003",
+            "Cargo transverse stiffener.004",
+            "Cargo transverse stiffener.005",
+            "Structural roof divider"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "MilitaryArmor.cargo.hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.hull"
+          ],
+          "restrictions": "unit scale; full pose"
+        },
+        {
+          "id": "hatchF",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            -0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose"
+        },
+        {
+          "id": "hatchB",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose"
+        },
+        {
+          "id": "railF",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            -1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose"
+        },
+        {
+          "id": "railB",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose"
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-area",
+          "role": "MilitaryArmor.cargo.hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.hull"
+          ],
+          "restrictions": "unit scale, exact full socket pose"
+        },
+        {
+          "id": "hatchF-area",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale, exact full socket pose"
+        },
+        {
+          "id": "hatchB-area",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0.83,
+            1.335
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale, exact full socket pose"
+        },
+        {
+          "id": "railF-area",
+          "role": "MilitaryArmor.cargo.rail",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale, exact full socket pose"
+        },
+        {
+          "id": "railB-area",
+          "role": "MilitaryArmor.cargo.rail",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            1.78,
+            0.16
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale, exact full socket pose"
+        }
+      ],
+      "animations": [],
+      "notes": "Static MilitaryArmor authoring concept. Procedural PBR, no file textures or UV dependency. No animation or game mechanics. BU physical scale unspecified."
+    },
+    "LoadingHatchF": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "name": "Единый бронированный загрузочный люк",
+      "source": "MA-I01-R2-P02.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -1.434999942779541,
+          -0.6449999809265137,
+          0.0
+        ],
+        "max": [
+          1.434999942779541,
+          0.6449999809265137,
+          0.23849999904632568
+        ]
+      },
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "One full-size loading hatch"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Recessed locking shoe",
+            "Recessed locking shoe.001",
+            "Recessed locking shoe.002",
+            "Recessed locking shoe.003"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Cargo latch index",
+            "Cargo latch index.001"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705,
+            1.0
+          ],
+          "metalness": 0.3499999940395355,
+          "roughness": 0.25,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Flush transverse latch",
+            "Flush transverse latch.001",
+            "Long hatch access seam"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal",
+          "regions": [
+            "Cargo latch index",
+            "Cargo latch index.001"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose"
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose"
+        }
+      ],
+      "animations": [],
+      "notes": "Functional identity redesign 2.0; static editable part, no gameplay mechanics, procedural PBR; no UV/file texture dependency."
+    },
+    "LoadingHatchB": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "name": "Единый бронированный загрузочный люк",
+      "source": "MA-I01-R2-P02.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -1.434999942779541,
+          -0.6449999809265137,
+          0.0
+        ],
+        "max": [
+          1.434999942779541,
+          0.6449999809265137,
+          0.23849999904632568
+        ]
+      },
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "One full-size loading hatch"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Recessed locking shoe",
+            "Recessed locking shoe.001",
+            "Recessed locking shoe.002",
+            "Recessed locking shoe.003"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Cargo latch index",
+            "Cargo latch index.001"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705,
+            1.0
+          ],
+          "metalness": 0.3499999940395355,
+          "roughness": 0.25,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Flush transverse latch",
+            "Flush transverse latch.001",
+            "Long hatch access seam"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal",
+          "regions": [
+            "Cargo latch index",
+            "Cargo latch index.001"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "MilitaryArmor.cargo.wide-hatch",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "restrictions": "unit scale; full pose"
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.wide-hatch"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose"
+        }
+      ],
+      "animations": [],
+      "notes": "Functional identity redesign 2.0; static editable part, no gameplay mechanics, procedural PBR; no UV/file texture dependency."
+    },
+    "CargoRailF": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "name": "Наружная грузовая направляющая",
+      "source": "MA-I01-R2-P03.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -1.934999942779541,
+          -0.15000000596046448,
+          -0.11999999731779099
+        ],
+        "max": [
+          1.934999942779541,
+          0.15000000596046448,
+          0.5199999809265137
+        ]
+      },
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Rail end bumper",
+            "Rail end bumper.001"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Cargo handling rail"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Rail coupling foot",
+            "Rail coupling foot.001",
+            "Rail coupling foot.002"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose"
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose"
+        }
+      ],
+      "animations": [],
+      "notes": "Functional identity redesign 2.0; static editable part, no gameplay mechanics, procedural PBR; no UV/file texture dependency."
+    },
+    "CargoRailB": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "name": "Наружная грузовая направляющая",
+      "source": "MA-I01-R2-P03.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -1.934999942779541,
+          -0.15000000596046448,
+          -0.11999999731779099
+        ],
+        "max": [
+          1.934999942779541,
+          0.15000000596046448,
+          0.5199999809265137
+        ]
+      },
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Rail end bumper",
+            "Rail end bumper.001"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Cargo handling rail"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Rail coupling foot",
+            "Rail coupling foot.001",
+            "Rail coupling foot.002"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "MilitaryArmor.cargo.rail",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "restrictions": "unit scale; full pose"
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-area",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.cargo.rail"
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "restrictions": "unit scale, exact full socket pose"
+        }
+      ],
+      "animations": [],
+      "notes": "Functional identity redesign 2.0; static editable part, no gameplay mechanics, procedural PBR; no UV/file texture dependency."
+    }
+  },
+  "material_slots": {
+    "Structure": {
+      "Structural roof divider": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Reinforced cargo corner.003": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Reinforced cargo corner.002": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Reinforced cargo corner.001": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Reinforced cargo corner": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Recessed side handling channel.001": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed side handling channel": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Large hatch gasket.001": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Large hatch gasket": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Continuous square cargo volume": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Cargo transverse stiffener.005": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Cargo transverse stiffener.004": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Cargo transverse stiffener.003": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Cargo transverse stiffener.002": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Cargo transverse stiffener.001": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Cargo transverse stiffener": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "LoadingHatchF": {
+      "Recessed locking shoe.003": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed locking shoe.002": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed locking shoe.001": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed locking shoe": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "One full-size loading hatch": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Long hatch access seam": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Flush transverse latch.001": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Flush transverse latch": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Cargo latch index.001": [
+        {
+          "id": "Signal",
+          "role": "Emissive"
+        }
+      ],
+      "Cargo latch index": [
+        {
+          "id": "Signal",
+          "role": "Emissive"
+        }
+      ]
+    },
+    "LoadingHatchB": {
+      "Recessed locking shoe.003": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed locking shoe.002": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed locking shoe.001": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed locking shoe": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ],
+      "One full-size loading hatch": [
+        {
+          "id": "Ceramic.002",
+          "role": "Color1"
+        }
+      ],
+      "Long hatch access seam": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Flush transverse latch.001": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Flush transverse latch": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Cargo latch index.001": [
+        {
+          "id": "Signal.001",
+          "role": "Emissive"
+        }
+      ],
+      "Cargo latch index": [
+        {
+          "id": "Signal.001",
+          "role": "Emissive"
+        }
+      ]
+    },
+    "CargoRailF": {
+      "Rail end bumper.001": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ],
+      "Rail end bumper": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ],
+      "Rail coupling foot.002": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Rail coupling foot.001": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Rail coupling foot": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Cargo handling rail": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "CargoRailB": {
+      "Rail end bumper.001": [
+        {
+          "id": "Ceramic.004",
+          "role": "Color1"
+        }
+      ],
+      "Rail end bumper": [
+        {
+          "id": "Ceramic.004",
+          "role": "Color1"
+        }
+      ],
+      "Rail coupling foot.002": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Rail coupling foot.001": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Rail coupling foot": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Cargo handling rail": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "assembly": "Blocks/MA-I02/assembly.json",
+    "source": "Blocks/MA-I02/MA-I02.blend",
+    "bu_per_cell": 1.0,
+    "footprint_bu": [
+      -1.0,
+      -1.0,
+      1.0,
+      1.0
+    ],
+    "height_range_bu": [
+      -0.1,
+      1.6
+    ],
+    "layers": [
+      {
+        "id": "body",
+        "draw_order": 0,
+        "rotates": false,
+        "pivot_bu": [
+          0,
+          0
+        ],
+        "instances": [
+          "Structure",
+          "LoadingHatchF",
+          "LoadingHatchB",
+          "CargoRailF",
+          "CargoRailB"
+        ]
+      }
+    ],
+    "states": {
+      "damage0": {
+        "frame": 1
+      },
+      "damage33": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "damage66": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "destroyed": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "clips": {},
+    "use_author_animation": false
+  },
+  "inputs": {
+    "Blocks/MA-I02/assembly.json": "99bbb25a9d58f5e06810ae82280e74ad49b430b4def443e7081dad3012cb4a25",
+    "Blocks/MA-I02/MA-I02.blend": "0a29488c2c22a828e6baaaed2dabb5a4d1016f9d88cdf5fe034b8bade0cf02a0",
+    "Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend": "cfaf082313e4e9ceb7323c25b45bae737f8053b9cbc03a6e43ee835500083354",
+    "Parts/MA-I01-R2-P02/part.json": "e1e7fe546d27b997152da36894b9fea0d48c673a6eb2a68540c6474b978d8a79",
+    "Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend": "5e9fac826fac1bd2866c1a46834dcc9a0a85a28272a791e4ad18b1e785852610",
+    "Parts/MA-I01-R2-P03/part.json": "d9942ac7b1bba0bb5cd976ff27f4124267899a3f5004f86411d677e8203b6dbd",
+    "Parts/MA-I02-P01/MA-I02-P01.blend": "ff1341bb07d6501bdf1ed9d12271a166337ae42439026147e972e3080cc51cec",
+    "Parts/MA-I02-P01/part.json": "2cafa161fec623630b938928d1e176b97b58aa68dff230f400b5d41731f21103"
+  },
+  "dependencies": [
+    "Blocks/MA-I02/assembly.json",
+    "Blocks/MA-I02/MA-I02.blend",
+    "Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+    "Parts/MA-I01-R2-P02/part.json",
+    "Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+    "Parts/MA-I01-R2-P03/part.json",
+    "Parts/MA-I02-P01/MA-I02-P01.blend",
+    "Parts/MA-I02-P01/part.json"
+  ]
+}

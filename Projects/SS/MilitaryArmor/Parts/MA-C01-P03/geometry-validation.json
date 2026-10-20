@@ -1,0 +1,57 @@
+{
+  "id": "MA-C01-P03",
+  "stage": "immediate standalone geometry gate before assembly",
+  "checks": [
+    {
+      "mesh": "Shoulder structural backing",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.292787507344596,
+      "materials_valid": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "pass": true
+    },
+    {
+      "mesh": "Swept ceramic armor",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.05743499757975336,
+      "materials_valid": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "pass": true
+    },
+    {
+      "mesh": "Diagonal enclosed support",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.004179722169948117,
+      "materials_valid": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "pass": true
+    },
+    {
+      "mesh": "Swept ceramic armor.001",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.05743499757975336,
+      "materials_valid": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "pass": true
+    },
+    {
+      "mesh": "Diagonal enclosed support.001",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.004179722169948117,
+      "materials_valid": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "pass": true
+    }
+  ],
+  "checks_passed": true
+}

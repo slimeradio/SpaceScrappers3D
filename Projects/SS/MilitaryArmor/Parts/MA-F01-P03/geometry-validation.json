@@ -1,0 +1,77 @@
+{
+  "id": "MA-F01-P03",
+  "stage": "immediate part geometry validation before assembly",
+  "checks": [
+    {
+      "mesh": "Dark inset shoulder structure",
+      "vertices": 18,
+      "faces": 11,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.44778002642706083,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Swept ceramic shoulder",
+      "vertices": 10,
+      "faces": 7,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.04751824774125033,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Diagonal titanium brace",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.005480298251212667,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Flush shoulder end cap",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.007544001632824399,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Swept ceramic shoulder.001",
+      "vertices": 10,
+      "faces": 7,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.047518247741250325,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Diagonal titanium brace.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.005480298251212667,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Flush shoulder end cap.001",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.007544001632824401,
+      "materials_valid": true,
+      "pass": true
+    }
+  ],
+  "checks_passed": true
+}

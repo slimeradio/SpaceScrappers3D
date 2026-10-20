@@ -1,0 +1,86 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-A01",
+  "version": "1.0",
+  "title": "MilitaryArmor faceted armor 1x1",
+  "catalog_id": "armor-1x1",
+  "catalog_grid": [
+    1,
+    1
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "armor-shell",
+      "part_id": "MA-A01-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-A01-P01/MA-A01-P01.blend",
+      "parent": "MA-A01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MA-A01",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "armor-shell",
+      "parent": "MA-A01",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "animations": [],
+  "exports": [
+    "Exports/MA-A01.glb"
+  ],
+  "notes": "Catalog footprint retained. Static viewer authoring; physical scale and game acceptance unspecified."
+}

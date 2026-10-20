@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="programmable-2x1" Category="Управление" Type="ProgrammableBlock" MaxHealth="1000" BlockMass="2">
+    <!-- Initial tunable balance; the GDD does not specify per-block numerical prices. -->
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="6"/>
+        <DesignCost><Item Ref="11" Amount="60"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="6"/></BuildCost>
+    </Construction>
+    <Size X="2" Y="1"/>
+    <Colliders><ConvexCollider Data="0 0 2 0 2 1 0 1"/></Colliders>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="programmable-2x1"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

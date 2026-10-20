@@ -1,0 +1,6939 @@
+{
+  "schema": "SpriteBake.BlockMetadata/1",
+  "id": "MA-W11",
+  "catalog_id": "rocket-launcher",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "bu_per_cell": 1.0,
+  "footprint_bu": [
+    -0.5,
+    -1.5,
+    0.5,
+    1.5
+  ],
+  "layers": [
+    {
+      "id": "body",
+      "draw_order": 0,
+      "rotates": false,
+      "pivot_bu": [
+        0,
+        0
+      ],
+      "instances": [
+        "FixedFrame",
+        "FixedLauncher",
+        "ReserveLeft",
+        "ReserveRight",
+        "Service"
+      ]
+    }
+  ],
+  "states": {
+    "damage0": {
+      "frame": 1
+    },
+    "damage33": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "damage66": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "destroyed": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "clips": {
+    "fire": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "frames": {
+    "damage0": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "FixedFrame/mounts/hull",
+          "parent": "part",
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "hull",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "FixedFrame",
+          "part": "MA-W11-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "FixedFrame/mounts/fixed-launcher",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0.4
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.4000000059604645
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "fixed-launcher",
+          "instance": "FixedFrame",
+          "part": "MA-W11-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.4000000059604645
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/root",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.4000000059604645
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.4000000059604645
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/reserve-left",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            -0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-left",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            -0.24000000953674316,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/reserve-right",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-right",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.2400000095367432,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/service",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            1.74,
+            1.14
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7400000095367432,
+            1.5399999618530273
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            3.240000009536743,
+            1.5399999618530273
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/optic",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            -1.7,
+            1.17
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7000000476837158,
+            1.5699999332427979
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optic",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.20000004768371582,
+            1.5699999332427979
+          ]
+        },
+        {
+          "id": "FixedLauncher/functional_points/shoot",
+          "role": "muzzle",
+          "parent": "part",
+          "node": "point.shoot",
+          "position": [
+            0,
+            -2.86,
+            0.56
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.859999895095825,
+            0.9600000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shoot",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -1.3599998950958252,
+            0.9600000381469727
+          ]
+        },
+        {
+          "id": "ReserveLeft/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.33000001311302185
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8799999952316284
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ReserveLeft",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            -0.24000000953674316,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "ReserveRight/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.33000001311302185
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8799999952316284
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ReserveRight",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.2400000095367432,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7400000095367432,
+            1.5399999618530273
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7400000095367432
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.5399999618530273
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            3.240000009536743,
+            1.5399999618530273
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W11": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FixedFrame": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FixedLauncher": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.4000000059604645
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ReserveLeft": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.33000001311302185
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8799999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ReserveRight": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.33000001311302185
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8799999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.7400000095367432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.5399999618530273
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "damage33": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "FixedFrame/mounts/hull",
+          "parent": "part",
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "hull",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "FixedFrame",
+          "part": "MA-W11-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "FixedFrame/mounts/fixed-launcher",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0.4
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.4000000059604645
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "fixed-launcher",
+          "instance": "FixedFrame",
+          "part": "MA-W11-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.4000000059604645
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/root",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.4000000059604645
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.4000000059604645
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/reserve-left",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            -0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-left",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            -0.24000000953674316,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/reserve-right",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-right",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.2400000095367432,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/service",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            1.74,
+            1.14
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7400000095367432,
+            1.5399999618530273
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            3.240000009536743,
+            1.5399999618530273
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/optic",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            -1.7,
+            1.17
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7000000476837158,
+            1.5699999332427979
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optic",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.20000004768371582,
+            1.5699999332427979
+          ]
+        },
+        {
+          "id": "FixedLauncher/functional_points/shoot",
+          "role": "muzzle",
+          "parent": "part",
+          "node": "point.shoot",
+          "position": [
+            0,
+            -2.86,
+            0.56
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.859999895095825,
+            0.9600000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shoot",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -1.3599998950958252,
+            0.9600000381469727
+          ]
+        },
+        {
+          "id": "ReserveLeft/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.33000001311302185
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8799999952316284
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ReserveLeft",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            -0.24000000953674316,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "ReserveRight/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.33000001311302185
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8799999952316284
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ReserveRight",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.2400000095367432,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7400000095367432,
+            1.5399999618530273
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7400000095367432
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.5399999618530273
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            3.240000009536743,
+            1.5399999618530273
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W11": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FixedFrame": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FixedLauncher": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.4000000059604645
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ReserveLeft": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.33000001311302185
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8799999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ReserveRight": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.33000001311302185
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8799999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.7400000095367432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.5399999618530273
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "damage66": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "FixedFrame/mounts/hull",
+          "parent": "part",
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "hull",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "FixedFrame",
+          "part": "MA-W11-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "FixedFrame/mounts/fixed-launcher",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0.4
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.4000000059604645
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "fixed-launcher",
+          "instance": "FixedFrame",
+          "part": "MA-W11-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.4000000059604645
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/root",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.4000000059604645
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.4000000059604645
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/reserve-left",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            -0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-left",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            -0.24000000953674316,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/reserve-right",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-right",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.2400000095367432,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/service",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            1.74,
+            1.14
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7400000095367432,
+            1.5399999618530273
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            3.240000009536743,
+            1.5399999618530273
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/optic",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            -1.7,
+            1.17
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7000000476837158,
+            1.5699999332427979
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optic",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.20000004768371582,
+            1.5699999332427979
+          ]
+        },
+        {
+          "id": "FixedLauncher/functional_points/shoot",
+          "role": "muzzle",
+          "parent": "part",
+          "node": "point.shoot",
+          "position": [
+            0,
+            -2.86,
+            0.56
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.859999895095825,
+            0.9600000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shoot",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -1.3599998950958252,
+            0.9600000381469727
+          ]
+        },
+        {
+          "id": "ReserveLeft/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.33000001311302185
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8799999952316284
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ReserveLeft",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            -0.24000000953674316,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "ReserveRight/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.33000001311302185
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8799999952316284
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ReserveRight",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.2400000095367432,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7400000095367432,
+            1.5399999618530273
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7400000095367432
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.5399999618530273
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            3.240000009536743,
+            1.5399999618530273
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W11": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FixedFrame": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FixedLauncher": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.4000000059604645
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ReserveLeft": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.33000001311302185
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8799999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ReserveRight": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.33000001311302185
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8799999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.7400000095367432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.5399999618530273
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "destroyed": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "FixedFrame/mounts/hull",
+          "parent": "part",
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "hull",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "FixedFrame",
+          "part": "MA-W11-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "FixedFrame/mounts/fixed-launcher",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0.4
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.4000000059604645
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "fixed-launcher",
+          "instance": "FixedFrame",
+          "part": "MA-W11-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.4000000059604645
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/root",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.4000000059604645
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.4000000059604645
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/reserve-left",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            -0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-left",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            -0.24000000953674316,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/reserve-right",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-right",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.2400000095367432,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/service",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            1.74,
+            1.14
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7400000095367432,
+            1.5399999618530273
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            3.240000009536743,
+            1.5399999618530273
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/optic",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            -1.7,
+            1.17
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7000000476837158,
+            1.5699999332427979
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optic",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.20000004768371582,
+            1.5699999332427979
+          ]
+        },
+        {
+          "id": "FixedLauncher/functional_points/shoot",
+          "role": "muzzle",
+          "parent": "part",
+          "node": "point.shoot",
+          "position": [
+            0,
+            -2.86,
+            0.56
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.859999895095825,
+            0.9600000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shoot",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -1.3599998950958252,
+            0.9600000381469727
+          ]
+        },
+        {
+          "id": "ReserveLeft/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.33000001311302185
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8799999952316284
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ReserveLeft",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            -0.24000000953674316,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "ReserveRight/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.33000001311302185
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8799999952316284
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ReserveRight",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.2400000095367432,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7400000095367432,
+            1.5399999618530273
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7400000095367432
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.5399999618530273
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            3.240000009536743,
+            1.5399999618530273
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W11": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FixedFrame": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FixedLauncher": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.4000000059604645
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ReserveLeft": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.33000001311302185
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8799999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ReserveRight": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.33000001311302185
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8799999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.7400000095367432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.5399999618530273
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "clip-fire": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "FixedFrame/mounts/hull",
+          "parent": "part",
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "hull",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "FixedFrame",
+          "part": "MA-W11-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "FixedFrame/mounts/fixed-launcher",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0.4
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.4000000059604645
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "fixed-launcher",
+          "instance": "FixedFrame",
+          "part": "MA-W11-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.4000000059604645
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/root",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.4000000059604645
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.4000000059604645
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/reserve-left",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            -0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-left",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            -0.24000000953674316,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/reserve-right",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-right",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.2400000095367432,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/service",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            1.74,
+            1.14
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7400000095367432,
+            1.5399999618530273
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            3.240000009536743,
+            1.5399999618530273
+          ]
+        },
+        {
+          "id": "FixedLauncher/mounts/optic",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            -1.7,
+            1.17
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.7000000476837158,
+            1.5699999332427979
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optic",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.20000004768371582,
+            1.5699999332427979
+          ]
+        },
+        {
+          "id": "FixedLauncher/functional_points/shoot",
+          "role": "muzzle",
+          "parent": "part",
+          "node": "point.shoot",
+          "position": [
+            0,
+            -2.86,
+            0.56
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.859999895095825,
+            0.9600000381469727
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.4000000059604645
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shoot",
+          "instance": "FixedLauncher",
+          "part": "MA-W08-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -1.3599998950958252,
+            0.9600000381469727
+          ]
+        },
+        {
+          "id": "ReserveLeft/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.33000001311302185
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8799999952316284
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ReserveLeft",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            -0.24000000953674316,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "ReserveRight/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.33000001311302185,
+            0.8799999952316284
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.33000001311302185
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8799999952316284
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ReserveRight",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.2400000095367432,
+            1.8300000131130219,
+            0.8799999952316284
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.7400000095367432,
+            1.5399999618530273
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.7400000095367432
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.5399999618530273
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            3.240000009536743,
+            1.5399999618530273
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W11": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FixedFrame": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FixedLauncher": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.4000000059604645
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ReserveLeft": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.33000001311302185
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8799999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ReserveRight": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.33000001311302185
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8799999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.7400000095367432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.5399999618530273
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    }
+  },
+  "assembly": {
+    "schema": "MilitaryArmor.BlenderAuthoring/1",
+    "id": "MA-W11",
+    "version": "1.0+states1",
+    "title": "Курсовая ракетная установка 1×3",
+    "catalog_id": "rocket-launcher",
+    "catalog_grid": [
+      1,
+      3
+    ],
+    "axes": {
+      "handedness": "right",
+      "up": "+Z",
+      "forward": "-Y",
+      "units": "BU; physical scale unspecified"
+    },
+    "instances": [
+      {
+        "id": "FixedFrame",
+        "part_id": "MA-W11-P01",
+        "version": "1.0",
+        "source": "../../Parts/MA-W11-P01/MA-W11-P01.blend",
+        "parent": "MA-W11",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "FixedLauncher",
+        "part_id": "MA-W08-P02",
+        "version": "1.0",
+        "source": "../../Parts/MA-W08-P02/MA-W08-P02.blend",
+        "parent": "MA-W11",
+        "translation": [
+          0,
+          0,
+          0.4
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "ReserveLeft",
+        "part_id": "MA-W08-P03",
+        "version": "1.0",
+        "source": "../../Parts/MA-W08-P03/MA-W08-P03.blend",
+        "parent": "FixedLauncher",
+        "translation": [
+          -0.74,
+          0.33,
+          0.48
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "ReserveRight",
+        "part_id": "MA-W08-P03",
+        "version": "1.0",
+        "source": "../../Parts/MA-W08-P03/MA-W08-P03.blend",
+        "parent": "FixedLauncher",
+        "translation": [
+          0.74,
+          0.33,
+          0.48
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "Service",
+        "part_id": "MA-P06",
+        "version": "1.3",
+        "source": "../../Parts/MA-P06/MA-P06.blend",
+        "parent": "FixedLauncher",
+        "translation": [
+          0,
+          1.74,
+          1.14
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "id": "MA-W11",
+        "parent": null,
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "FixedFrame",
+        "parent": "MA-W11",
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "FixedLauncher",
+        "parent": "MA-W11",
+        "translation": [
+          0.0,
+          0.0,
+          0.4000000059604645
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "ReserveLeft",
+        "parent": "FixedLauncher",
+        "translation": [
+          -0.7400000095367432,
+          0.33000001311302185,
+          0.47999998927116394
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "ReserveRight",
+        "parent": "FixedLauncher",
+        "translation": [
+          0.7400000095367432,
+          0.33000001311302185,
+          0.47999998927116394
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "Service",
+        "parent": "FixedLauncher",
+        "translation": [
+          0.0,
+          1.7400000095367432,
+          1.1399999856948853
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "parent_instance": "FixedFrame",
+        "parent_socket": "fixed-launcher",
+        "child_instance": "FixedLauncher",
+        "child_socket": "root",
+        "constraint": "fixed; no rotational DOF"
+      },
+      {
+        "parent_instance": "FixedLauncher",
+        "parent_socket": "reserve-left",
+        "child_instance": "ReserveLeft",
+        "child_socket": "root"
+      },
+      {
+        "parent_instance": "FixedLauncher",
+        "parent_socket": "reserve-right",
+        "child_instance": "ReserveRight",
+        "child_socket": "root"
+      },
+      {
+        "parent_instance": "FixedLauncher",
+        "parent_socket": "service",
+        "child_instance": "Service",
+        "child_socket": "bottom"
+      }
+    ],
+    "animations": {
+      "controller": "MA-W11",
+      "controls": {
+        "power": {
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "description": "Electrical availability; independent from retained heat/fill"
+        },
+        "activity": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Actual work/load; zero means idle"
+        },
+        "fault": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Externally supplied fault, not inferred"
+        },
+        "heat": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Retained normalized heat; independent from power"
+        }
+      },
+      "channels": [],
+      "clips": [
+        {
+          "name": "MA-W11::activate",
+          "parameters": [
+            "power",
+            "activity"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-W11::deactivate",
+          "parameters": [
+            "activity",
+            "power"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-W11::heat_up",
+          "parameters": [
+            "heat"
+          ],
+          "frames": [
+            1,
+            49
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-W11::cool_down",
+          "parameters": [
+            "heat"
+          ],
+          "frames": [
+            1,
+            97
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-W11::fire",
+          "parameters": [
+            "activity"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        }
+      ],
+      "independent_controls": true,
+      "demonstration_only": false,
+      "game_integration": false
+    },
+    "functional_contract": {
+      "active_barrel_count": 1,
+      "projectiles_per_shot": 1,
+      "muzzle_instance": "FixedLauncher",
+      "muzzle_point": "shoot",
+      "yaw_arc_degrees": 0,
+      "yaw_speed_degrees_per_second": 0,
+      "elevation": "none",
+      "aiming": "ship rotation only",
+      "reserve_cassettes": "sealed visual stores; no independent firing points",
+      "xml_pivot": [
+        0.5,
+        2.5
+      ],
+      "xml_to_BU_mapping": "unspecified; BU placement is authoring only"
+    },
+    "exports": [],
+    "reused_source_sha256": {
+      "MA-W08-P02": "a6f0f15a80c5f2bd322b884abfdeb3ec938b6ed4e562913660bd4ee6354248ab",
+      "MA-W08-P03": "b0edb8be650195a38878c5744134205da67a3147a36b26b9b5a68d3e4ad8d167",
+      "MA-P06": "48dfec4c5340ed6316552d1c333ecb4b6113c29e901a7a66dffe56037c283c00"
+    },
+    "notes": "Static fixed-hull launcher. Root socket role yaw belongs to reused source interface, not a movable bearing. No game XML edits, GLB, physical scale, colliders or LOD.",
+    "state_authoring": "state-authoring.json"
+  },
+  "parts": {
+    "FixedFrame": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-W11-P01",
+      "version": "1.0",
+      "name": "Fixed launch cradle with splayed hull cheeks",
+      "source": "MA-W11-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -1.274999976158142,
+          -2.6700000762939453,
+          0.014999999664723873
+        ],
+        "max": [
+          1.274999976158142,
+          2.609999895095825,
+          0.5400000214576721
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Long fixed exterior cheek",
+            "Long fixed exterior cheek.001",
+            "Rear tapered hardpoint"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Separated ceramic cheek cap",
+            "Separated ceramic cheek cap.001",
+            "Separated ceramic cheek cap.002",
+            "Separated ceramic cheek cap.003",
+            "Separated ceramic cheek cap.004",
+            "Separated ceramic cheek cap.005",
+            "Separated ceramic cheek cap.006",
+            "Separated ceramic cheek cap.007"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Fixed transverse hull tie",
+            "Fixed transverse hull tie.001"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Diagonal fixed hull brace",
+            "Diagonal fixed hull brace.001",
+            "Diagonal fixed hull brace.002",
+            "Diagonal fixed hull brace.003"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Recessed inner launch support",
+            "Recessed inner launch support.001"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "hull",
+          "parent": "part",
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "hull",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "fixed-launcher",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0.4
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": [],
+      "notes": "Fixed static hull cradle. Socket role yaw is retained solely for compatibility with existing launcher root; no rotation node, bearing or animation. Procedural PBR, no emission, no textures or UV dependency."
+    },
+    "FixedLauncher": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-W08-P02",
+      "version": "1.0",
+      "name": "Single open polygonal rocket launch canister",
+      "source": "MA-W08-P02.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.8149999976158142,
+          -2.8399999141693115,
+          0.009999987669289112
+        ],
+        "max": [
+          0.8149999976158142,
+          2.3499999046325684,
+          1.1699999570846558
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "External canister reinforcing collar",
+            "External canister reinforcing collar.001",
+            "External canister reinforcing collar.002",
+            "External canister reinforcing collar.003",
+            "External canister reinforcing collar.004",
+            "Tapered rear locking breech"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Bright open muzzle seal",
+            "Rear service shelf",
+            "Segmented upper canister armor",
+            "Segmented upper canister armor.001",
+            "Segmented upper canister armor.002",
+            "Segmented upper canister armor.003",
+            "Segmented upper canister armor.004",
+            "Segmented upper canister armor.005"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Closed rear rocket chamber",
+            "Lower launch support",
+            "Lower launch support.001"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Optic",
+          "surfaces": [
+            "Small chamber state index"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.18000000715255737,
+            0.25,
+            1.0
+          ],
+          "metalness": 0.6499999761581421,
+          "roughness": 0.18000000715255737,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Reserve cassette coupling",
+            "Reserve cassette coupling.001"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Long octagonal launch tube",
+            "Forward optic seat"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Optic",
+          "regions": [
+            "Small chamber state index"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.18000000715255737,
+            0.25
+          ],
+          "strength": 0.699999988079071,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "root",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "reserve-left",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            -0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "reserve-right",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "service",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            1.74,
+            1.14
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "optic",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            -1.7,
+            1.17
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [
+        {
+          "id": "shoot",
+          "role": "muzzle",
+          "parent": "part",
+          "node": "point.shoot",
+          "position": [
+            0,
+            -2.86,
+            0.56
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "attachment_areas": [],
+      "animations": [],
+      "notes": "MilitaryArmor single-channel rocket authoring; editable procedural PBR, no file textures, no UV dependency; static source part, no GLB."
+    },
+    "ReserveLeft": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-W08-P03",
+      "version": "1.0",
+      "name": "Sealed elongated reserve rocket cassette",
+      "source": "MA-W08-P03.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.20000000298023224,
+          -1.9249999523162842,
+          -0.1850000023841858
+        ],
+        "max": [
+          0.20000000298023224,
+          1.7000000476837158,
+          0.4000000059604645
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Closed spare rocket cassette"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Spare cassette ceramic shell",
+            "Spare cassette ceramic shell.001",
+            "Spare cassette ceramic shell.002"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Recessed cassette division",
+            "Recessed cassette division.001",
+            "Recessed cassette division.002"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Blind faceted nose cap"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Rear release lock"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": [],
+      "notes": "MilitaryArmor single-channel rocket authoring; editable procedural PBR, no file textures, no UV dependency; static source part, no GLB."
+    },
+    "ReserveRight": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-W08-P03",
+      "version": "1.0",
+      "name": "Sealed elongated reserve rocket cassette",
+      "source": "MA-W08-P03.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.20000000298023224,
+          -1.9249999523162842,
+          -0.1850000023841858
+        ],
+        "max": [
+          0.20000000298023224,
+          1.7000000476837158,
+          0.4000000059604645
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Closed spare rocket cassette"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Spare cassette ceramic shell",
+            "Spare cassette ceramic shell.001",
+            "Spare cassette ceramic shell.002"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Recessed cassette division",
+            "Recessed cassette division.001",
+            "Recessed cassette division.002"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Blind faceted nose cap"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Rear release lock"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": [],
+      "notes": "MilitaryArmor single-channel rocket authoring; editable procedural PBR, no file textures, no UV dependency; static source part, no GLB."
+    },
+    "Service": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-P06",
+      "version": "1.3",
+      "name": "Flush service cartridge",
+      "source": "MA-P06.blend",
+      "units": "BU, physical scale unspecified",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "bounds_local": {
+        "min": [
+          -0.3700000047683716,
+          -0.30000001192092896,
+          0.0005000000237487257
+        ],
+        "max": [
+          0.3700000047683716,
+          0.30000001192092896,
+          0.08000000566244125
+        ]
+      },
+      "scale_policy": "unit scale only",
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Hexagonal service cartridge"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Flush pressure seal"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Cartridge status"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Inset cartridge center",
+            "Flush quarter turn lock",
+            "Flush quarter turn lock.001"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal",
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "regions": [
+            "Cartridge status"
+          ],
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": []
+    }
+  },
+  "material_slots": {
+    "FixedFrame": {
+      "Separated ceramic cheek cap.007": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Separated ceramic cheek cap.006": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Separated ceramic cheek cap.005": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Separated ceramic cheek cap.004": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Separated ceramic cheek cap.003": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Separated ceramic cheek cap.002": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Separated ceramic cheek cap.001": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Separated ceramic cheek cap": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Recessed inner launch support.001": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed inner launch support": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Rear tapered hardpoint": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Long fixed exterior cheek.001": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Long fixed exterior cheek": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Fixed transverse hull tie.001": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Fixed transverse hull tie": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Diagonal fixed hull brace.003": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Diagonal fixed hull brace.002": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Diagonal fixed hull brace.001": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Diagonal fixed hull brace": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "FixedLauncher": {
+      "Tapered rear locking breech": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "Small chamber state index": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Segmented upper canister armor.005": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Segmented upper canister armor.004": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Segmented upper canister armor.003": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Segmented upper canister armor.002": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Segmented upper canister armor.001": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Segmented upper canister armor": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Reserve cassette coupling.001": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Reserve cassette coupling": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Rear service shelf": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Lower launch support.001": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Lower launch support": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Long octagonal launch tube": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Forward optic seat": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "External canister reinforcing collar.004": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "External canister reinforcing collar.003": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "External canister reinforcing collar.002": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "External canister reinforcing collar.001": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "External canister reinforcing collar": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "Closed rear rocket chamber": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Bright open muzzle seal": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ]
+    },
+    "ReserveLeft": {
+      "Spare cassette ceramic shell.002": [
+        {
+          "id": "Ceramic.002",
+          "role": "Color1"
+        }
+      ],
+      "Spare cassette ceramic shell.001": [
+        {
+          "id": "Ceramic.002",
+          "role": "Color1"
+        }
+      ],
+      "Spare cassette ceramic shell": [
+        {
+          "id": "Ceramic.002",
+          "role": "Color1"
+        }
+      ],
+      "Recessed cassette division.002": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed cassette division.001": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed cassette division": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ],
+      "Rear release lock": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Closed spare rocket cassette": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Blind faceted nose cap": [
+        {
+          "id": "Steel.002",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "ReserveRight": {
+      "Spare cassette ceramic shell.002": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ],
+      "Spare cassette ceramic shell.001": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ],
+      "Spare cassette ceramic shell": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ],
+      "Recessed cassette division.002": [
+        {
+          "id": "Dark.003",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed cassette division.001": [
+        {
+          "id": "Dark.003",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed cassette division": [
+        {
+          "id": "Dark.003",
+          "role": "Fixed"
+        }
+      ],
+      "Rear release lock": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Closed spare rocket cassette": [
+        {
+          "id": "Armor.003",
+          "role": "Color2"
+        }
+      ],
+      "Blind faceted nose cap": [
+        {
+          "id": "Steel.003",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "Service": {
+      "Inset cartridge center": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal service cartridge": [
+        {
+          "id": "Ceramic.004",
+          "role": "Color1"
+        }
+      ],
+      "Flush quarter turn lock.001": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Flush quarter turn lock": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Flush pressure seal": [
+        {
+          "id": "Dark.004",
+          "role": "Fixed"
+        }
+      ],
+      "Cartridge status": [
+        {
+          "id": "Signal",
+          "role": "Emissive"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "assembly": "Blocks/MA-W11/assembly.json",
+    "source": "Blocks/MA-W11/MA-W11.blend",
+    "bu_per_cell": 1.0,
+    "footprint_bu": [
+      -0.5,
+      -1.5,
+      0.5,
+      1.5
+    ],
+    "height_range_bu": [
+      -0.1,
+      1.7
+    ],
+    "layers": [
+      {
+        "id": "body",
+        "draw_order": 0,
+        "rotates": false,
+        "pivot_bu": [
+          0,
+          0
+        ],
+        "instances": [
+          "FixedFrame",
+          "FixedLauncher",
+          "ReserveLeft",
+          "ReserveRight",
+          "Service"
+        ]
+      }
+    ],
+    "states": {
+      "damage0": {
+        "frame": 1
+      },
+      "damage33": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "damage66": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "destroyed": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "clips": {
+      "fire": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "use_author_animation": false
+  },
+  "inputs": {
+    "Blocks/MA-W11/assembly.json": "c658a33b9668ec7fade23f3c6cc4afb792bc577241a5e300ae7f568e387971ed",
+    "Blocks/MA-W11/MA-W11.blend": "ff8d926d4eec54a334ad7e608b63e5752c5ec2686b94ef81558894784e2be2b8",
+    "Parts/MA-P06/MA-P06.blend": "48dfec4c5340ed6316552d1c333ecb4b6113c29e901a7a66dffe56037c283c00",
+    "Parts/MA-P06/part.json": "bf321ae51346e168376a0566f7b7fd8be3fdf74432f73267f00314be8fce4cba",
+    "Parts/MA-W08-P02/MA-W08-P02.blend": "a6f0f15a80c5f2bd322b884abfdeb3ec938b6ed4e562913660bd4ee6354248ab",
+    "Parts/MA-W08-P02/part.json": "f24a799e66337633bd25c4cbad012396fccba059287fc19e8834cfba77e40925",
+    "Parts/MA-W08-P03/MA-W08-P03.blend": "b0edb8be650195a38878c5744134205da67a3147a36b26b9b5a68d3e4ad8d167",
+    "Parts/MA-W08-P03/part.json": "94dafab7a567efbe4226a8cf8897fa83daad4c805d9f5085b27e2fc1113010b1",
+    "Parts/MA-W11-P01/MA-W11-P01.blend": "7b1876349534a19f87c0e6643653d4ffcdb2c556263d2ed7ef5577170db73061",
+    "Parts/MA-W11-P01/part.json": "72a294b21a61571ad0a706e6ba05d4df3b357b841d5a1d287484a4ae825cc0e9"
+  },
+  "dependencies": [
+    "Blocks/MA-W11/assembly.json",
+    "Blocks/MA-W11/MA-W11.blend",
+    "Parts/MA-P06/MA-P06.blend",
+    "Parts/MA-P06/part.json",
+    "Parts/MA-W08-P02/MA-W08-P02.blend",
+    "Parts/MA-W08-P02/part.json",
+    "Parts/MA-W08-P03/MA-W08-P03.blend",
+    "Parts/MA-W08-P03/part.json",
+    "Parts/MA-W11-P01/MA-W11-P01.blend",
+    "Parts/MA-W11-P01/part.json"
+  ]
+}

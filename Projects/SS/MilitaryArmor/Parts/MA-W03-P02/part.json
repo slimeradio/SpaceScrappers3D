@@ -1,0 +1,211 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W03-P02",
+  "version": "1.0",
+  "name": "Cyclone / bifurcated high-speed receiver",
+  "source": "MA-W03-P02.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.9925686717033386,
+      -0.8199999928474426,
+      0.0
+    ],
+    "max": [
+      0.9925686717033386,
+      1.1200000047683716,
+      0.9285643696784973
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Swept central spine",
+        "Forward fork",
+        "Forward fork.001"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Dorsal ceramic spine",
+        "Swept fork ceramic outer skin",
+        "Swept fork ceramic outer skin.001"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Signal",
+      "surfaces": [
+        "Elevation encoder",
+        "Fork diagnostic strip",
+        "Elevation encoder.001",
+        "Fork diagnostic strip.001"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705,
+        1.0
+      ],
+      "metalness": 0.3499999940395355,
+      "roughness": 0.25,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Yaw torque drum",
+        "Sealed elevation journal",
+        "Rear coolant lobe",
+        "Sealed elevation journal.001",
+        "Rear coolant lobe.001"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Signal",
+      "regions": [
+        "Elevation encoder",
+        "Fork diagnostic strip",
+        "Elevation encoder.001",
+        "Fork diagnostic strip.001"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "mount.root",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "role": "structural",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "mount.elevation",
+      "position": [
+        0,
+        -0.22,
+        0.69
+      ],
+      "role": "elevation",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "mount.service",
+      "position": [
+        0,
+        0.48,
+        0.875
+      ],
+      "role": "accessory",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "mount.lidar",
+      "position": [
+        0,
+        -0.01,
+        0.9
+      ],
+      "role": "accessory",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": ""
+}

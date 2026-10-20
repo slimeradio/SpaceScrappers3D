@@ -1,0 +1,126 @@
+{
+  "id": "CHT-W04",
+  "catalogId": "fleet-shotgun-assault",
+  "instances": 7,
+  "parts": [
+    {
+      "id": "CHT-P01",
+      "version": "1.1.0",
+      "meshes": 23,
+      "triangles": 18008
+    },
+    {
+      "id": "CHT-P02",
+      "version": "1.1.0",
+      "meshes": 11,
+      "triangles": 11996
+    },
+    {
+      "id": "CHT-W04-HULL",
+      "version": "1.0.0",
+      "meshes": 16,
+      "triangles": 10704
+    },
+    {
+      "id": "CHT-W04-BARREL",
+      "version": "1.1.0",
+      "meshes": 8,
+      "triangles": 6112
+    },
+    {
+      "id": "CHT-W04-SIDE",
+      "version": "1.1.0",
+      "meshes": 4,
+      "triangles": 1864
+    },
+    {
+      "id": "CHT-W04-SIGHT",
+      "version": "1.0.0",
+      "meshes": 4,
+      "triangles": 3024
+    }
+  ],
+  "links": [
+    {
+      "instance": "yaw",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "head",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "barrel",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "side-L",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "side-R",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "sight",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    }
+  ],
+  "extent": [
+    1.758058205842972,
+    1.6450000110268594,
+    0.9549999977648258
+  ],
+  "clipChecks": [
+    {
+      "name": "yaw-demo",
+      "duration": 2,
+      "poses": [
+        {
+          "fraction": 0,
+          "finite": true
+        },
+        {
+          "fraction": 0.25,
+          "finite": true
+        },
+        {
+          "fraction": 0.5,
+          "finite": true
+        },
+        {
+          "fraction": 0.75,
+          "finite": true
+        },
+        {
+          "fraction": 1,
+          "finite": true
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "export": {
+    "path": "Exports/CHT-W04.gltf",
+    "meshes": 70,
+    "nodes": 79,
+    "animations": [
+      "yaw-demo"
+    ],
+    "sha256": "98af49996448efedfb77ca95b076e9787b03357bd7c1b7977e98c172338503f5"
+  },
+  "browserErrors": [],
+  "failedRequests": []
+}

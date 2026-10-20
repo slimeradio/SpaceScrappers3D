@@ -1,0 +1,640 @@
+{
+  "schema": "MilitaryArmor.StateAuthoring/1",
+  "id": "MA-H01",
+  "game_validated": false,
+  "authoring_units": "BU; normalized controls; not game timings",
+  "controls": {
+    "power": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "Electrical availability; independent from retained heat/fill"
+    },
+    "activity": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Actual work/load; zero means idle"
+    },
+    "fault": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Externally supplied fault, not inferred"
+    },
+    "heat": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Retained normalized heat; independent from power"
+    },
+    "deployment": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "0 closed, 1 open; reversible at any point"
+    }
+  },
+  "motion": [
+    {
+      "node": "Fin-0.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-0.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-1.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-1.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-2.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-2.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-3.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-3.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-4.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-4.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-5.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-5.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-6.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-6.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-7.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-7.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-8.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "Fin-8.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    }
+  ],
+  "materials": [
+    {
+      "object": "Fin-0.L::Thermal face",
+      "slot": 0,
+      "material": "MA-H01::Fin-0.L::Thermal face::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-0.L::Thermal face.001",
+      "slot": 0,
+      "material": "MA-H01::Fin-0.L::Thermal face.001::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-0.R::Thermal face.002",
+      "slot": 0,
+      "material": "MA-H01::Fin-0.R::Thermal face.002::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-0.R::Thermal face.003",
+      "slot": 0,
+      "material": "MA-H01::Fin-0.R::Thermal face.003::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-1.L::Thermal face.004",
+      "slot": 0,
+      "material": "MA-H01::Fin-1.L::Thermal face.004::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-1.L::Thermal face.005",
+      "slot": 0,
+      "material": "MA-H01::Fin-1.L::Thermal face.005::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-1.R::Thermal face.006",
+      "slot": 0,
+      "material": "MA-H01::Fin-1.R::Thermal face.006::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-1.R::Thermal face.007",
+      "slot": 0,
+      "material": "MA-H01::Fin-1.R::Thermal face.007::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-2.L::Thermal face.008",
+      "slot": 0,
+      "material": "MA-H01::Fin-2.L::Thermal face.008::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-2.L::Thermal face.009",
+      "slot": 0,
+      "material": "MA-H01::Fin-2.L::Thermal face.009::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-2.R::Thermal face.010",
+      "slot": 0,
+      "material": "MA-H01::Fin-2.R::Thermal face.010::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-2.R::Thermal face.011",
+      "slot": 0,
+      "material": "MA-H01::Fin-2.R::Thermal face.011::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-3.L::Thermal face.012",
+      "slot": 0,
+      "material": "MA-H01::Fin-3.L::Thermal face.012::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-3.L::Thermal face.013",
+      "slot": 0,
+      "material": "MA-H01::Fin-3.L::Thermal face.013::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-3.R::Thermal face.014",
+      "slot": 0,
+      "material": "MA-H01::Fin-3.R::Thermal face.014::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-3.R::Thermal face.015",
+      "slot": 0,
+      "material": "MA-H01::Fin-3.R::Thermal face.015::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-4.L::Thermal face.016",
+      "slot": 0,
+      "material": "MA-H01::Fin-4.L::Thermal face.016::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-4.L::Thermal face.017",
+      "slot": 0,
+      "material": "MA-H01::Fin-4.L::Thermal face.017::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-4.R::Thermal face.018",
+      "slot": 0,
+      "material": "MA-H01::Fin-4.R::Thermal face.018::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-4.R::Thermal face.019",
+      "slot": 0,
+      "material": "MA-H01::Fin-4.R::Thermal face.019::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-5.L::Thermal face.020",
+      "slot": 0,
+      "material": "MA-H01::Fin-5.L::Thermal face.020::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-5.L::Thermal face.021",
+      "slot": 0,
+      "material": "MA-H01::Fin-5.L::Thermal face.021::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-5.R::Thermal face.022",
+      "slot": 0,
+      "material": "MA-H01::Fin-5.R::Thermal face.022::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-5.R::Thermal face.023",
+      "slot": 0,
+      "material": "MA-H01::Fin-5.R::Thermal face.023::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-6.L::Thermal face.024",
+      "slot": 0,
+      "material": "MA-H01::Fin-6.L::Thermal face.024::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-6.L::Thermal face.025",
+      "slot": 0,
+      "material": "MA-H01::Fin-6.L::Thermal face.025::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-6.R::Thermal face.026",
+      "slot": 0,
+      "material": "MA-H01::Fin-6.R::Thermal face.026::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-6.R::Thermal face.027",
+      "slot": 0,
+      "material": "MA-H01::Fin-6.R::Thermal face.027::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-7.L::Thermal face.028",
+      "slot": 0,
+      "material": "MA-H01::Fin-7.L::Thermal face.028::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-7.L::Thermal face.029",
+      "slot": 0,
+      "material": "MA-H01::Fin-7.L::Thermal face.029::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-7.R::Thermal face.030",
+      "slot": 0,
+      "material": "MA-H01::Fin-7.R::Thermal face.030::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-7.R::Thermal face.031",
+      "slot": 0,
+      "material": "MA-H01::Fin-7.R::Thermal face.031::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-8.L::Thermal face.032",
+      "slot": 0,
+      "material": "MA-H01::Fin-8.L::Thermal face.032::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-8.L::Thermal face.033",
+      "slot": 0,
+      "material": "MA-H01::Fin-8.L::Thermal face.033::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-8.R::Thermal face.034",
+      "slot": 0,
+      "material": "MA-H01::Fin-8.R::Thermal face.034::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "Fin-8.R::Thermal face.035",
+      "slot": 0,
+      "material": "MA-H01::Fin-8.R::Thermal face.035::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "name": "MA-H01::open",
+      "parameters": [
+        "deployment"
+      ],
+      "frames": [
+        1,
+        31
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-H01::close",
+      "parameters": [
+        "deployment"
+      ],
+      "frames": [
+        1,
+        31
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-H01::activate",
+      "parameters": [
+        "power",
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-H01::deactivate",
+      "parameters": [
+        "activity",
+        "power"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-H01::heat_up",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-H01::cool_down",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        97
+      ],
+      "loop": false,
+      "authoring_only": true
+    }
+  ],
+  "events": [],
+  "hinge_design": "Two wings per former fin; Y hinges at x +/-0.18 and z +0.32 from former blade socket. Wings fold upward into separate vertical slots.",
+  "presets": {
+    "off": {
+      "power": 0,
+      "activity": 0
+    },
+    "idle": {
+      "power": 1,
+      "activity": 0
+    },
+    "working": {
+      "power": 1,
+      "activity": 1
+    },
+    "hot_off": {
+      "power": 0,
+      "activity": 0,
+      "heat": 1
+    },
+    "cold": {
+      "heat": 0
+    },
+    "hot": {
+      "heat": 1
+    },
+    "closed": {
+      "deployment": 0
+    },
+    "opened": {
+      "deployment": 1
+    }
+  },
+  "phase_policy": "cycle_turns is integrated phase, not speed. Stop retains phase. NLA cycle repetition must use cyclic extrapolation/REPEAT_OFFSET for spin; never reset turns on start. Clips start from relative phase 0; apply current phase offset when sequencing.",
+  "controller": "MA-H01",
+  "legacy_animation_metadata": []
+}

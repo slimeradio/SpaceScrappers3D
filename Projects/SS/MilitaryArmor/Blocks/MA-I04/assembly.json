@@ -1,0 +1,447 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-I04",
+  "version": "1.0+states1+floor1",
+  "title": "Грузовой контейнер 4×4",
+  "catalog_id": "cargo-4x4",
+  "catalog_grid": [
+    4,
+    4
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "Assembly: 1 BU = 1 gameplay cell; native part units transformed by ModelFit"
+  },
+  "instances": [
+    {
+      "id": "Structure",
+      "part_id": "MA-I04-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-I04-P01/MA-I04-P01.blend",
+      "parent": "MA-I04",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchL0",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I04",
+      "translation": [
+        -1.68,
+        -2.05,
+        2.19
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchL1",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I04",
+      "translation": [
+        -1.68,
+        0,
+        2.19
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchL2",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I04",
+      "translation": [
+        -1.68,
+        2.05,
+        2.19
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchR0",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I04",
+      "translation": [
+        1.68,
+        -2.05,
+        2.19
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchR1",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I04",
+      "translation": [
+        1.68,
+        0,
+        2.19
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchR2",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I04",
+      "translation": [
+        1.68,
+        2.05,
+        2.19
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "CargoRailF",
+      "part_id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+      "parent": "MA-I04",
+      "translation": [
+        0,
+        -3.56,
+        0.16
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "CargoRailB",
+      "part_id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+      "parent": "MA-I04",
+      "translation": [
+        0,
+        3.56,
+        0.16
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Floor",
+      "part_id": "MA-FLOOR-rect-4x4",
+      "version": "1.0",
+      "source": "../../Parts/MA-FLOOR-rect-4x4/MA-FLOOR-rect-4x4.blend",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchL0",
+      "child_instance": "LoadingHatchL0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchL1",
+      "child_instance": "LoadingHatchL1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchL2",
+      "child_instance": "LoadingHatchL2",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchR0",
+      "child_instance": "LoadingHatchR0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchR1",
+      "child_instance": "LoadingHatchR1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchR2",
+      "child_instance": "LoadingHatchR2",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "railF",
+      "child_instance": "CargoRailF",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "railB",
+      "child_instance": "CargoRailB",
+      "child_socket": "root"
+    }
+  ],
+  "animations": {
+    "controller": "MA-I04",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "fill": {
+        "default": 0.5,
+        "min": 0,
+        "max": 1,
+        "description": "Stored amount/charge; independent from power"
+      }
+    },
+    "channels": [],
+    "clips": [
+      {
+        "name": "MA-I04::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-I04::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-I04::fill",
+        "parameters": [
+          "fill"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Continuous wide cargo volume, twin loading lanes with six access hatches, central spine and diagonal buttresses. Static authoring concept; no capacity or mechanisms specified.",
+  "state_authoring": "state-authoring.json",
+  "nodes": [
+    {
+      "id": "MA-I04",
+      "parent": "ModelFit",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ModelFit",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.08264176685648204
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5150832345666536,
+        0.5150832345666536,
+        0.5150832345666536
+      ]
+    },
+    {
+      "id": "Floor",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "floor_fit": {
+    "floor": "MA-FLOOR-rect-4x4",
+    "margin_cells": 0.08,
+    "uniform_scale": 0.5150832345666536,
+    "translation": [
+      0.0,
+      0.0,
+      0.08264176685648204
+    ],
+    "body_instances": [
+      "Structure",
+      "LoadingHatchL0",
+      "LoadingHatchL1",
+      "LoadingHatchL2",
+      "LoadingHatchR0",
+      "LoadingHatchR1",
+      "LoadingHatchR2",
+      "CargoRailF",
+      "CargoRailB"
+    ],
+    "protrusion_instances": []
+  }
+}

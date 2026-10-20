@@ -1,0 +1,188 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-HS01",
+  "version": "1.0",
+  "title": "Накопитель тепла 1×1 — визуальная заготовка",
+  "catalog_id": "heat-store-1x1",
+  "catalog_grid": [
+    1,
+    1
+  ],
+  "catalog_status": "visual concept; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Cradle",
+      "part_id": "MA-HS01-P01",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-HS01-P01/MA-HS01-P01.blend",
+      "parent": "MA-HS01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Cassette-0",
+      "part_id": "MA-HS01-P02",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-HS01-P02/MA-HS01-P02.blend",
+      "parent": "MA-HS01",
+      "translation": [
+        -0.43,
+        0,
+        0.19
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Cassette-1",
+      "part_id": "MA-HS01-P02",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-HS01-P02/MA-HS01-P02.blend",
+      "parent": "MA-HS01",
+      "translation": [
+        0,
+        0,
+        0.19
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Cassette-2",
+      "part_id": "MA-HS01-P02",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-HS01-P02/MA-HS01-P02.blend",
+      "parent": "MA-HS01",
+      "translation": [
+        0.43,
+        0,
+        0.19
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Thermal-0",
+      "part_id": "MA-E01-P04",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-E01-P04/MA-E01-P04.blend",
+      "parent": "MA-HS01",
+      "translation": [
+        -0.79,
+        -0.075,
+        0.43
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Thermal-1",
+      "part_id": "MA-E01-P04",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-E01-P04/MA-E01-P04.blend",
+      "parent": "MA-HS01",
+      "translation": [
+        0.79,
+        -0.075,
+        0.43
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Cradle",
+      "parent_socket": "cassette-0",
+      "child_instance": "Cassette-0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Cradle",
+      "parent_socket": "cassette-1",
+      "child_instance": "Cassette-1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Cradle",
+      "parent_socket": "cassette-2",
+      "child_instance": "Cassette-2",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Cradle",
+      "parent_socket": "thermal-0",
+      "child_instance": "Thermal-0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Cradle",
+      "parent_socket": "thermal-1",
+      "child_instance": "Thermal-1",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Closed protected heat-store concept. No invented capacity, temperature or gameplay behavior. BU physical scale unspecified. No emission.",
+  "archive_note": "Original Blender source and part library preserved; source paths adjusted for archive location only."
+}

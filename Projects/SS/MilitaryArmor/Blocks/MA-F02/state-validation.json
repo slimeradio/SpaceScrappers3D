@@ -1,0 +1,75 @@
+{
+  "id": "MA-F02",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 4,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-F02::work_loop",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-F02::start",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-F02::stop",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-F02::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-F02::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-F02::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-F02::cool_down",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [
+    {
+      "node": "ProductionBed::WorkFeed",
+      "parameter": "cycle_turns",
+      "sampled_values": [
+        0.0,
+        0.02474873699247837,
+        0.03500000014901161,
+        0.0,
+        -8.57252763722393e-18
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "ProcessChamber::WorkRotor",
+      "parameter": "cycle_turns",
+      "sampled_values": [
+        0.0,
+        0.7853981852531433,
+        1.5707963705062866,
+        3.1415927410125732,
+        6.2831854820251465
+      ],
+      "driver_valid": true
+    }
+  ],
+  "materials": [
+    {
+      "object": "TechnologicalBridge::Small process index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    }
+  ],
+  "stopped_phase_retained": true,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

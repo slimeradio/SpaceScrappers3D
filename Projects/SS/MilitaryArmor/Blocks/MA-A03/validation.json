@@ -1,0 +1,123 @@
+{
+  "id": "MA-A03",
+  "source_saved": true,
+  "source_parts_saved_before_assembly": true,
+  "instance_count": 1,
+  "resolved_parts": [
+    "MA-A03-P01"
+  ],
+  "missing_dependencies": [],
+  "glb": {
+    "magic": "glTF",
+    "version": 2,
+    "length_matches": true,
+    "mesh_count": 1,
+    "node_count": 7,
+    "animation_count": 0,
+    "embedded_buffers": true,
+    "external_images": []
+  },
+  "game_validation": false,
+  "checks_passed": true,
+  "part_source": {
+    "mesh_count": 1,
+    "evaluated_triangles": 44,
+    "material_slots": 2,
+    "zero_area_triangles": 0,
+    "nonmanifold_edges": 0,
+    "nonunit_scales": [],
+    "emission": [],
+    "finite": true,
+    "boundary_overshoot": [],
+    "bounds": {
+      "min": [
+        -0.5,
+        -0.5,
+        0.0
+      ],
+      "max": [
+        0.5,
+        0.5,
+        0.2800000011920929
+      ]
+    }
+  },
+  "assembly_source": {
+    "mesh_count": 1,
+    "evaluated_triangles": 44,
+    "material_slots": 2,
+    "zero_area_triangles": 0,
+    "nonmanifold_edges": 0,
+    "nonunit_scales": [],
+    "emission": [],
+    "finite": true,
+    "boundary_overshoot": [],
+    "bounds": {
+      "min": [
+        -0.5,
+        -0.5,
+        0.0
+      ],
+      "max": [
+        0.5,
+        0.5,
+        0.2800000011920929
+      ]
+    }
+  },
+  "glb_roundtrip": {
+    "mesh_count": 1,
+    "evaluated_triangles": 44,
+    "material_slots": 2,
+    "zero_area_triangles": 0,
+    "nonmanifold_edges": 0,
+    "nonunit_scales": [],
+    "emission": [],
+    "finite": true,
+    "boundary_overshoot": [],
+    "bounds": {
+      "min": [
+        -0.5,
+        -0.5,
+        0.0
+      ],
+      "max": [
+        0.5,
+        0.5,
+        0.2800000011920929
+      ]
+    }
+  },
+  "join_contract": {
+    "exact_three_bottom_and_structural_corner_points": true,
+    "structural_z": [
+      0,
+      0.16
+    ],
+    "top_z": 0.28,
+    "nominal_polygon": [
+      [
+        -0.5,
+        -0.5
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        -0.5,
+        0.5
+      ]
+    ]
+  },
+  "internal_final_review": {
+    "paths": [
+      "C:\\Users\\nebul\\AppData\\Local\\Temp\\MilitaryArmor-A03-review\\oblique.png",
+      "C:\\Users\\nebul\\AppData\\Local\\Temp\\MilitaryArmor-A03-review\\top.png",
+      "C:\\Users\\nebul\\AppData\\Local\\Temp\\MilitaryArmor-A03-review\\neighbours.png"
+    ],
+    "human_visual_inspection": "Passed by authoring agent: final oblique, top and 8 neighbouring wedge instances viewed; clipped shoulders and recessed field remain readable; exact structural joins form tessellated square without overshoot.",
+    "display_props_exported": false
+  },
+  "manifold_test_note": "GLB splits vertices for flat normals/material boundaries; positional weld 1e-7 used only on temporary verification BMesh before manifold edge check. Saved mesh unchanged."
+}

@@ -1,0 +1,680 @@
+{
+  "id": "MA-FG01",
+  "checks_passed": true,
+  "verification": "Independent Blender process reopened all four new standalone sources and compatible shared service cartridge and final assembly. Geometry gates passed before dependent assembly. Mesh manifoldness, positive volume, nondegenerate faces, nondegenerate evaluated triangles and finite coordinates and material assignment checked. Full socket positions and orientations matched. All dependency versions and unit scales resolved.",
+  "assembly_geometry": [
+    {
+      "object": "Foundation::Pressure sealed foundation",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Foundation::Structural graphite core",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Foundation::Titanium process deck",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Foundation::Production chamber recessed seat",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Foundation::Production chamber recessed seat.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Foundation::Distribution seat",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Left::Closed chamber lower pressure body",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Left::Closed multi-facet process capsule",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Left::Segmented ceramic pressure crown",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Left::Inset transverse seam",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Left::Segmented ceramic pressure crown.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Left::Inset transverse seam.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Left::Segmented ceramic pressure crown.002",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Left::Inset transverse seam.002",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Left::Recessed chamber diagnostic",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Left::Small diagnostic index",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Right::Closed chamber lower pressure body",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Right::Closed multi-facet process capsule",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Right::Segmented ceramic pressure crown",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Right::Inset transverse seam",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Right::Segmented ceramic pressure crown.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Right::Inset transverse seam.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Right::Segmented ceramic pressure crown.002",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Right::Inset transverse seam.002",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Right::Recessed chamber diagnostic",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Chamber.Right::Small diagnostic index",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Guard.Left::Closed diagonal shoulder frame",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Guard.Left::Cold faceted swept shoulder armor",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Guard.Left::Closed diagonal load path",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Guard.Left::Closed diagonal load path.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Guard.Right::Closed diagonal shoulder frame",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Guard.Right::Cold faceted swept shoulder armor",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Guard.Right::Closed diagonal load path",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Guard.Right::Closed diagonal load path.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Distribution::Distribution pressure body",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Distribution::Distribution ceramic armor",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Distribution::Recessed enclosed distribution channel",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Distribution::Protected channel cover",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Distribution::Minimal distribution index",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Distribution::Recessed enclosed distribution channel.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Distribution::Protected channel cover.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Distribution::Minimal distribution index.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Distribution::Cartridge recessed landing",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Service::Flush pressure seal.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Service::Hexagonal service cartridge.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Service::Inset cartridge center.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Service::Flush quarter turn lock.002",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Service::Flush quarter turn lock.003",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    },
+    {
+      "object": "Service::Cartridge status.001",
+      "manifold": true,
+      "consistent_normals": true,
+      "positive_volume": true
+    }
+  ],
+  "standalone_parts": [
+    {
+      "id": "MA-FG01-P01",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Pressure sealed foundation",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 4.108324969565863,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Structural graphite core",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 7.490299510055776,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Titanium process deck",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 2.2766199465668144,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Production chamber recessed seat",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.11453044420404465,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Production chamber recessed seat.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.11453044420404464,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Distribution seat",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.05828942156906137,
+          "consistent_normals": true
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-FG01-P02",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Closed chamber lower pressure body",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 3.731296046121599,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Closed multi-facet process capsule",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 4.01212521854377,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Segmented ceramic pressure crown",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.16189610791968329,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Inset transverse seam",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0004046428792195151,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Segmented ceramic pressure crown.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.1618961182670569,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Inset transverse seam.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0004046428293746627,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Segmented ceramic pressure crown.002",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.16189610791968329,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Inset transverse seam.002",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0004046428792195145,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Recessed chamber diagnostic",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.00156479887523671,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Small diagnostic index",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 5.0176202057082846E-05,
+          "consistent_normals": true
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-FG01-P03",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Closed diagonal shoulder frame",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.4539493732164601,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Cold faceted swept shoulder armor",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.5056500601512673,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Closed diagonal load path",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.007840281573158988,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Closed diagonal load path.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.007840281573158988,
+          "consistent_normals": true
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-FG01-P04",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Distribution pressure body",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.1827200068092343,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Distribution ceramic armor",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.22455993078231418,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Recessed enclosed distribution channel",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.005448011009931492,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Protected channel cover",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0015896998189151438,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Minimal distribution index",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 3.04801396512338E-05,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Recessed enclosed distribution channel.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.005448011009931492,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Protected channel cover.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0015896998189151442,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Minimal distribution index.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 3.048013965123466E-05,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Cartridge recessed landing",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.008958603025960802,
+          "consistent_normals": true
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-R01-P05",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Flush pressure seal.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.013272000975389052,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Hexagonal service cartridge.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.010070784395519613,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Inset cartridge center.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0016776003010153817,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Flush quarter turn lock.002",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.3033392208021095E-05,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Flush quarter turn lock.003",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.3033392208021095E-05,
+          "consistent_normals": true
+        },
+        {
+          "mesh": "Cartridge status.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 2.2100000194460142E-05,
+          "consistent_normals": true
+        }
+      ],
+      "previews_present": true
+    }
+  ],
+  "connections": [
+    {
+      "connection": {
+        "parent_instance": "Foundation",
+        "parent_socket": "chamber-left",
+        "child_instance": "Chamber.Left",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Foundation",
+        "parent_socket": "chamber-right",
+        "child_instance": "Chamber.Right",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Foundation",
+        "parent_socket": "guard-left",
+        "child_instance": "Guard.Left",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Foundation",
+        "parent_socket": "guard-right",
+        "child_instance": "Guard.Right",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Foundation",
+        "parent_socket": "distribution",
+        "child_instance": "Distribution",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Distribution",
+        "parent_socket": "service",
+        "child_instance": "Service",
+        "child_socket": "bottom"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    }
+  ],
+  "instance_count": 7,
+  "resolved_parts": [
+    "MA-FG01-P01",
+    "MA-FG01-P02",
+    "MA-FG01-P03",
+    "MA-FG01-P04",
+    "MA-R01-P05"
+  ],
+  "bounds_BU": {
+    "min": [
+      -2.825000047683716,
+      -2.825000047683716,
+      0.0
+    ],
+    "max": [
+      2.825000047683716,
+      2.825000047683716,
+      1.725000023841858
+    ]
+  },
+  "preview_views": [
+    "top",
+    "perspective"
+  ],
+  "glb_generated": false,
+  "game_validation": false,
+  "collision_LOD_validation": false,
+  "notes": "Overlapping enclosure seats, pressure seals and armour layers are intentional contacts. No moving poses. Physical BU-to-metre conversion unspecified.",
+  "visual_review": "Viewed all eight standalone part PNG previews and final top/perspective PNGs. Closed production chambers, side shoulders and recessed distribution service panel are readable; only intended pressure-seal/armor seat contacts."
+}

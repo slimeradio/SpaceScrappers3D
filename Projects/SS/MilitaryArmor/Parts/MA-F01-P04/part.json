@@ -1,0 +1,183 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-F01-P04",
+  "version": "1.0",
+  "name": "Intercell power spine",
+  "source": "MA-F01-P04.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.14499999582767487,
+      -0.6499999761581421,
+      0.0
+    ],
+    "max": [
+      0.14499999582767487,
+      0.6499999761581421,
+      0.6420000195503235
+    ]
+  },
+  "materials": [
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Intercell ceramic crown"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Recessed intercell base"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Signal",
+      "surfaces": [
+        "Recessed bridge diagnostic",
+        "Recessed bridge diagnostic.001",
+        "Recessed bridge diagnostic.002"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705,
+        1.0
+      ],
+      "metalness": 0.3499999940395355,
+      "roughness": 0.25,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Protected bridge"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Signal",
+      "regions": [
+        "Recessed bridge diagnostic",
+        "Recessed bridge diagnostic.001",
+        "Recessed bridge diagnostic.002"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "bridge",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.production.bridge"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-plane",
+      "role": "bridge",
+      "parent": "MA-F01-P04",
+      "shape": "plane",
+      "size": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "restrictions": "Full socket pose alignment; unit scale; no arbitrary rotation",
+      "compatibility": [
+        "MilitaryArmor.production.bridge"
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Static production enclosure; authoring BU only. Procedural uniform PBR, no UV or file texture dependency. No invented gameplay ports or animations."
+}

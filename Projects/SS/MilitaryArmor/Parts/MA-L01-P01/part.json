@@ -1,0 +1,206 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-L01-P01",
+  "version": "1.0",
+  "name": "Short connector structural deck",
+  "source": "MA-L01-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.9100000262260437,
+      -0.9100000262260437,
+      0.0
+    ],
+    "max": [
+      0.9100000262260437,
+      0.9100000262260437,
+      0.18199999630451202
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Faceted graphite load deck"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Cold floor edge",
+        "Cold floor edge.001"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Recessed tread seam",
+        "Recessed tread seam.001",
+        "Recessed tread seam.002",
+        "Recessed tread seam.003",
+        "Recessed tread seam.004"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Inset passage tread"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "hull",
+      "node": "socket.hull",
+      "parent": null,
+      "role": "hull",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.corridor.hull"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "shell",
+      "node": "socket.shell",
+      "parent": null,
+      "role": "shell",
+      "position": [
+        0,
+        0,
+        0.15
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.corridor.shell"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-plane",
+      "parent": null,
+      "role": "hull",
+      "shape": "logical-plane",
+      "dimensions": [
+        0.08,
+        0.08
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.corridor.hull"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Static open hull connector; no door or crew simulation. Procedural PBR; no file texture or UV dependencies."
+}

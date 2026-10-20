@@ -1,0 +1,96 @@
+{
+  "id": "CHT-W02",
+  "catalogId": "sniper-turret",
+  "instances": 4,
+  "parts": [
+    {
+      "id": "CHT-W02-BASE",
+      "version": "1.0.0",
+      "meshes": 8,
+      "triangles": 3264
+    },
+    {
+      "id": "CHT-W02-HEAD",
+      "version": "1.1.0",
+      "meshes": 7,
+      "triangles": 5128
+    },
+    {
+      "id": "CHT-W02-PACK",
+      "version": "1.1.0",
+      "meshes": 8,
+      "triangles": 4376
+    },
+    {
+      "id": "CHT-W02-BARREL",
+      "version": "1.1.0",
+      "meshes": 18,
+      "triangles": 14648
+    }
+  ],
+  "links": [
+    {
+      "instance": "yaw",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 0.7071068025321279
+    },
+    {
+      "instance": "power-pack",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 0.9999999999999998
+    },
+    {
+      "instance": "barrel-0",
+      "gap": 0,
+      "normalDot": -1.0000000000000004,
+      "upDot": 1
+    }
+  ],
+  "extent": [
+    2.559020320378939,
+    2.5554842246261646,
+    0.9989999990165234
+  ],
+  "clipChecks": [
+    {
+      "name": "yaw-demo",
+      "duration": 2,
+      "poses": [
+        {
+          "fraction": 0,
+          "finite": true
+        },
+        {
+          "fraction": 0.25,
+          "finite": true
+        },
+        {
+          "fraction": 0.5,
+          "finite": true
+        },
+        {
+          "fraction": 0.75,
+          "finite": true
+        },
+        {
+          "fraction": 1,
+          "finite": true
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "export": {
+    "path": "Exports/CHT-W02.gltf",
+    "meshes": 41,
+    "nodes": 47,
+    "animations": [
+      "yaw-demo"
+    ],
+    "sha256": "418e43a2d0c8b246417e0a51eca57ef5723fb15729a810013b23083a0c5bcbb0"
+  },
+  "browserErrors": [],
+  "failedRequests": []
+}

@@ -1,0 +1,132 @@
+{
+  "id": "CHT-W03",
+  "catalogId": "fleet-minigun-cyclone",
+  "instances": 8,
+  "parts": [
+    {
+      "id": "CHT-P01",
+      "version": "1.1.0",
+      "meshes": 23,
+      "triangles": 18008
+    },
+    {
+      "id": "CHT-P02",
+      "version": "1.1.0",
+      "meshes": 11,
+      "triangles": 11996
+    },
+    {
+      "id": "CHT-W03-HULL",
+      "version": "1.1.0",
+      "meshes": 17,
+      "triangles": 12180
+    },
+    {
+      "id": "CHT-W03-BARREL",
+      "version": "1.1.0",
+      "meshes": 9,
+      "triangles": 9360
+    },
+    {
+      "id": "CHT-W03-SIDE",
+      "version": "1.1.0",
+      "meshes": 4,
+      "triangles": 2452
+    },
+    {
+      "id": "CHT-W03-SIGHT",
+      "version": "1.0.0",
+      "meshes": 4,
+      "triangles": 3024
+    }
+  ],
+  "links": [
+    {
+      "instance": "yaw",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "head",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "barrel-L",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "side-L",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "barrel-R",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "side-R",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "sight",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    }
+  ],
+  "extent": [
+    1.3499999916553498,
+    2.060000009916723,
+    1.022499998062849
+  ],
+  "clipChecks": [
+    {
+      "name": "yaw-demo",
+      "duration": 1.5,
+      "poses": [
+        {
+          "fraction": 0,
+          "finite": true
+        },
+        {
+          "fraction": 0.25,
+          "finite": true
+        },
+        {
+          "fraction": 0.5,
+          "finite": true
+        },
+        {
+          "fraction": 0.75,
+          "finite": true
+        },
+        {
+          "fraction": 1,
+          "finite": true
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "export": {
+    "path": "Exports/CHT-W03.gltf",
+    "meshes": 81,
+    "nodes": 91,
+    "animations": [
+      "yaw-demo"
+    ],
+    "sha256": "a6826b7c72ebb2c00935ad53bf3451157bb448c19fcd0fc80bf9bab963b16bc6"
+  },
+  "browserErrors": [],
+  "failedRequests": []
+}

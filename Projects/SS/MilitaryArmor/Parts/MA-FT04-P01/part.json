@@ -1,0 +1,688 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-FT04-P01",
+  "version": "1.0",
+  "name": "Eight-vessel segmented fuel cradle and central transfer header",
+  "source": "MA-FT04-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -3.240000009536743,
+      -2.7249999046325684,
+      0.0
+    ],
+    "max": [
+      3.240000009536743,
+      2.7249999046325684,
+      1.0149999856948853
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Independent transverse load bearer",
+        "Independent transverse load bearer.001",
+        "Independent transverse load bearer.002",
+        "Independent transverse load bearer.003",
+        "Protected central transfer header"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Small closed inspection slot",
+        "Small closed inspection slot.001",
+        "Small closed inspection slot.002",
+        "Small closed inspection slot.003"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Narrow lower structural stringer",
+        "Narrow lower structural stringer.001",
+        "Narrow lower structural stringer.002",
+        "Narrow lower structural stringer.003",
+        "Short sealed end transfer coupling",
+        "Short sealed end transfer coupling.001",
+        "Short sealed end transfer coupling.002",
+        "Short sealed end transfer coupling.003",
+        "Short sealed end transfer coupling.004",
+        "Short sealed end transfer coupling.005",
+        "Short sealed end transfer coupling.006",
+        "Short sealed end transfer coupling.007"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Individual vessel saddle",
+        "Individual vessel saddle.001",
+        "Individual vessel saddle.002",
+        "Individual vessel saddle.003",
+        "Individual vessel saddle.004",
+        "Individual vessel saddle.005",
+        "Individual vessel saddle.006",
+        "Individual vessel saddle.007",
+        "Individual vessel saddle.008",
+        "Individual vessel saddle.009",
+        "Individual vessel saddle.010",
+        "Individual vessel saddle.011",
+        "Individual vessel saddle.012",
+        "Individual vessel saddle.013",
+        "Individual vessel saddle.014",
+        "Individual vessel saddle.015",
+        "Header support post",
+        "Recessed valve housing",
+        "Header support post.001",
+        "Recessed valve housing.001",
+        "Header support post.002",
+        "Recessed valve housing.002",
+        "Header support post.003",
+        "Recessed valve housing.003"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "MilitaryArmor.fuel-tank.hull",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.hull"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "vessel-0-0",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "parent": "part",
+      "position": [
+        -2.475,
+        -1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "vessel-0-1",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "parent": "part",
+      "position": [
+        -2.475,
+        1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "vessel-1-0",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "parent": "part",
+      "position": [
+        -0.825,
+        -1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "vessel-1-1",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "parent": "part",
+      "position": [
+        -0.825,
+        1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "vessel-2-0",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "parent": "part",
+      "position": [
+        0.825,
+        -1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "vessel-2-1",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "parent": "part",
+      "position": [
+        0.825,
+        1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "vessel-3-0",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "parent": "part",
+      "position": [
+        2.475,
+        -1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "vessel-3-1",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "parent": "part",
+      "position": [
+        2.475,
+        1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "restrictions": "unit scale; full pose"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-area",
+      "role": "MilitaryArmor.fuel-tank.hull",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.hull"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "vessel-0-0-area",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        -2.475,
+        -1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "vessel-0-1-area",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        -2.475,
+        1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "vessel-1-0-area",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        -0.825,
+        -1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "vessel-1-1-area",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        -0.825,
+        1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "vessel-2-0-area",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0.825,
+        -1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "vessel-2-1-area",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0.825,
+        1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "vessel-3-0-area",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        2.475,
+        -1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "vessel-3-1-area",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        2.475,
+        1.8,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Static authoring fuel cradle. Procedural PBR, no emission/file textures/UV dependency. No capacity, pressure, fuel properties or mechanics specified. BU physical scale unspecified."
+}

@@ -1,0 +1,86 @@
+{
+  "schema": "MilitaryArmor.StructureServicesAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-L01",
+      "title": "Коридор",
+      "version": "1.0",
+      "catalog_id": "corridor-1x1",
+      "catalog_grid": [
+        1,
+        1
+      ],
+      "source": "Blocks/MA-L01/MA-L01.blend",
+      "assembly": "Blocks/MA-L01/assembly.json",
+      "parts": [
+        "MA-L01-P01",
+        "MA-L01-P02",
+        "MA-L01-P03"
+      ],
+      "instance_count": 4,
+      "validation": "Blocks/MA-L01/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-L01/Previews/perspective.png",
+        "Blocks/MA-L01/Previews/top.png"
+      ],
+      "functional_redesign": false
+    },
+    {
+      "id": "MA-G01",
+      "title": "Корабельный гараж 1×1",
+      "version": "1.0",
+      "catalog_id": "garage-ship",
+      "catalog_grid": [
+        1,
+        1
+      ],
+      "source": "Blocks/MA-G01/MA-G01.blend",
+      "assembly": "Blocks/MA-G01/assembly.json",
+      "parts": [
+        "MA-G01-P01",
+        "MA-G01-P02",
+        "MA-G01-P03",
+        "MA-R01-P05"
+      ],
+      "instance_count": 4,
+      "validation": "Blocks/MA-G01/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-G01/Previews/perspective.png",
+        "Blocks/MA-G01/Previews/top.png"
+      ],
+      "functional_redesign": false
+    },
+    {
+      "id": "MA-S01",
+      "title": "Блок аукциона базы",
+      "version": "3.0",
+      "catalog_id": "auction-base",
+      "catalog_grid": [
+        1,
+        1
+      ],
+      "source": "Blocks/MA-S01/MA-S01.blend",
+      "assembly": "Blocks/MA-S01/assembly.json",
+      "parts": [
+        "MA-S01-R3-P01",
+        "MA-S01-R3-P02",
+        "MA-S01-R3-P03",
+        "MA-S01-R3-P04"
+      ],
+      "instance_count": 6,
+      "validation": "Blocks/MA-S01/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-S01/Previews/perspective.png",
+        "Blocks/MA-S01/Previews/top.png"
+      ],
+      "functional_redesign": true
+    }
+  ],
+  "physical_scale": "BU unspecified",
+  "glb_generated": false,
+  "game_validation": false,
+  "revision_note": "Functional identity redesign v2.0; see FunctionalIdentity.md for revised models and prior versions."
+}

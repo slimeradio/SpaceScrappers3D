@@ -1,0 +1,74 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-R01",
+  "version": "2.0",
+  "title": "Реактор",
+  "catalog_id": "reactor-4x4-aaaa",
+  "catalog_grid": [
+    4,
+    4
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Annular-shield",
+      "part_id": "MA-R01-R2-P01",
+      "version": "2.0",
+      "source": "../../../../Parts/MA-R01-R2-P01/MA-R01-R2-P01.blend",
+      "parent": "MA-R01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Containment-vessel",
+      "part_id": "MA-R01-R2-P02",
+      "version": "2.0",
+      "source": "../../../../Parts/MA-R01-R2-P02/MA-R01-R2-P02.blend",
+      "parent": "MA-R01",
+      "translation": [
+        0,
+        0,
+        0.28
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Annular-shield",
+      "parent_socket": "Containment-vessel",
+      "child_instance": "Containment-vessel",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Реактор: высокая цельная цилиндрическая камера в концентрическом кольцевом экране, восемь радиальных силовых опор и вертикальные рёбра удержания. Центральная камера доминирует в силуэте; повторяющиеся грузовые коробки и общая сервисная крышка исключены. Бирюзовая эмиссия ограничена четырьмя малыми диагностическими индексами. Внешняя модель не задаёт топливо или новые игровые параметры."
+}

@@ -1,0 +1,483 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W09",
+  "version": "1.0+states1",
+  "title": "Short heavy single-bore shotgun turret",
+  "catalog_id": "shotgun-turret",
+  "catalog_grid": [
+    1,
+    2
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Hardpoint",
+      "part_id": "MA-W06-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-W06-P01/MA-W06-P01.blend",
+      "parent": "MA-W09",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Cradle",
+      "part_id": "MA-W09-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-W09-P01/MA-W09-P01.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Gun",
+      "part_id": "MA-W09-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-W09-P02/MA-W09-P02.blend",
+      "parent": "Recoil",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Magazine",
+      "part_id": "MA-W09-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-W09-P03/MA-W09-P03.blend",
+      "parent": "Yaw",
+      "translation": [
+        1.84,
+        0.65,
+        0.52
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Optic",
+      "part_id": "MA-P07",
+      "version": "1.3",
+      "source": "../../Parts/MA-P07/MA-P07.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        1,
+        1.24
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MA-W09",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Hardpoint",
+      "parent": "MA-W09",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Yaw",
+      "parent": "MA-W09",
+      "translation": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Cradle",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Elevation",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        -0.44999998807907104,
+        0.699999988079071
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Recoil",
+      "parent": "Elevation",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Gun",
+      "parent": "Recoil",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Magazine",
+      "parent": "Yaw",
+      "translation": [
+        1.840000033378601,
+        0.6499999761581421,
+        0.5199999809265137
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Optic",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        1.0,
+        1.2400000095367432
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Hardpoint",
+      "parent_socket": "yaw",
+      "child_instance": "Cradle",
+      "child_socket": "bottom"
+    },
+    {
+      "parent_instance": "Cradle",
+      "parent_socket": "elevation",
+      "child_instance": "Gun",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Cradle",
+      "parent_socket": "magazine",
+      "child_instance": "Magazine",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Cradle",
+      "parent_socket": "optic",
+      "child_instance": "Optic",
+      "child_socket": "bottom"
+    }
+  ],
+  "animations": {
+    "controller": "MA-W09",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      },
+      "aim_yaw": {
+        "default": 0,
+        "min": -70,
+        "max": 70
+      },
+      "aim_pitch": {
+        "default": 0,
+        "min": -10,
+        "max": 5
+      },
+      "recoil_Recoil": {
+        "default": 0,
+        "min": 0,
+        "max": 1
+      }
+    },
+    "channels": [
+      {
+        "node": "Yaw",
+        "path": "rotation_euler",
+        "axis": 2,
+        "parameter": "aim_yaw",
+        "expression": "0.0+t*0.017453292519943295"
+      },
+      {
+        "node": "Elevation",
+        "path": "rotation_euler",
+        "axis": 0,
+        "parameter": "aim_pitch",
+        "expression": "0.0+t*0.017453292519943295"
+      },
+      {
+        "node": "Recoil",
+        "path": "location",
+        "axis": 1,
+        "parameter": "recoil_Recoil",
+        "expression": "0.0+t*0.16"
+      }
+    ],
+    "clips": [
+      {
+        "name": "MA-W09::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W09::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W09::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W09::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W09::fire",
+        "parameters": [
+          "activity",
+          "recoil_Recoil"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "functional_points": [
+    {
+      "id": "shoot",
+      "part_instance": "Gun",
+      "part_point": "shoot"
+    }
+  ],
+  "catalog_contract": {
+    "barrel_count": 1,
+    "projectiles_per_shot": 8,
+    "firing_arc_degrees": 140,
+    "rotate_speed_degrees_per_second": 120,
+    "pivot_grid": [
+      0.5,
+      1
+    ]
+  },
+  "exports": [],
+  "notes": "Catalog grid is not BU metres. Yaw arc ±70 matches catalog. Elevation and recoil are artistic demonstration only. One barrel and eight pellets, not eight barrels. Colliders, LOD and engine integration unspecified.",
+  "state_authoring": "state-authoring.json"
+}

@@ -1,0 +1,259 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W09-P01",
+  "version": "1.0",
+  "name": "Dense shotgun cradle",
+  "source": "MA-W09-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -1.4600000381469727,
+      -1.3799999952316284,
+      0.03186051920056343
+    ],
+    "max": [
+      1.4600000381469727,
+      1.5,
+      1.2400000095367432
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Angular pivot lid",
+        "Angular pivot lid.001",
+        "Rear armored brow"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Short angular trunnion cheek",
+        "Short angular trunnion cheek.001"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Low dense receiver cradle"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Signal",
+      "surfaces": [
+        "Flush drive index",
+        "Flush drive index.001"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705,
+        1.0
+      ],
+      "metalness": 0.3499999940395355,
+      "roughness": 0.25,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Sealed elevation pivot",
+        "Sealed elevation pivot.001",
+        "Optic landing"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Signal",
+      "regions": [
+        "Flush drive index",
+        "Flush drive index.001"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "bottom",
+      "role": "yaw",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "yaw",
+      "compatibility": [
+        "yaw"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "node": "socket.bottom"
+    },
+    {
+      "id": "elevation",
+      "role": "elevation",
+      "position": [
+        0,
+        -0.45,
+        0.7
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "elevation",
+      "compatibility": [
+        "elevation"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "node": "socket.elevation"
+    },
+    {
+      "id": "magazine",
+      "role": "feed",
+      "position": [
+        1.22,
+        0.65,
+        0.52
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "feed",
+      "compatibility": [
+        "feed"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "node": "socket.magazine"
+    },
+    {
+      "id": "optic",
+      "role": "accessory",
+      "position": [
+        0,
+        1,
+        1.24
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "accessory",
+      "compatibility": [
+        "accessory"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "node": "socket.optic"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": "Unit scale. Uniform PBR procedural materials; no file textures or UV dependence. Standalone source validated before assembly."
+}

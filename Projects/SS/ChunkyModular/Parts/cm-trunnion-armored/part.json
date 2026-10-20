@@ -1,0 +1,113 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-trunnion-armored",
+  "version": "2.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-trunnion-armored.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "scale_policy": "positive uniform instance scale; nonuniform requires explicit parametric variant and revalidation",
+  "sockets": [
+    {
+      "id": "mount",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "space": "local"
+    }
+  ],
+  "mount_regions": [],
+  "functional_points": [],
+  "animations": [],
+  "bind_pose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotation_euler_xyz_radians": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "materials": [
+    "CM.amber",
+    "CM.graphite",
+    "CM.rubber",
+    "CM.steel"
+  ],
+  "emissive_regions": [
+    {
+      "object": "recessed amber diagnostic",
+      "material": "CM.amber",
+      "settings": "../../Materials/CM-T01/materials.json#emission"
+    },
+    {
+      "object": "recessed amber diagnostic.001",
+      "material": "CM.amber",
+      "settings": "../../Materials/CM-T01/materials.json#emission"
+    },
+    {
+      "object": "recessed amber diagnostic.002",
+      "material": "CM.amber",
+      "settings": "../../Materials/CM-T01/materials.json#emission"
+    }
+  ],
+  "dependencies": [
+    "../../Materials/CM-T01/materials.json"
+  ],
+  "compatibility": "authoring metadata only; game mapping pending",
+  "revision_note": "Revision 2: no typography; sharp structural chamfers retain 8 segments. Prior revision archived in Revisions/CM-T01-v1.0.0.zip.",
+  "bounds": {
+    "min": [
+      -0.12000001966953278,
+      -0.550000011920929,
+      -0.550000011920929
+    ],
+    "max": [
+      0.2875000238418579,
+      0.550000011920929,
+      0.550000011920929
+    ],
+    "dimensions": [
+      0.4075000286102295,
+      1.100000023841858,
+      1.100000023841858
+    ]
+  }
+}

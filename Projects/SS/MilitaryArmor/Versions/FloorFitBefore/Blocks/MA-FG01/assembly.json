@@ -1,0 +1,310 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-FG01",
+  "version": "2.0+states1",
+  "title": "Машинное отделение 3×3",
+  "catalog_id": "engine-room",
+  "catalog_grid": [
+    3,
+    3
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Structure",
+      "part_id": "MA-FG01-R2-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-FG01-R2-P01/MA-FG01-R2-P01.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MainMachineDrum",
+      "part_id": "MA-FG01-R2-P02-AN1",
+      "version": "3.0",
+      "source": "../../Parts/MA-FG01-R2-P02-AN1/MA-FG01-R2-P02-AN1.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        -0.73,
+        -0.22,
+        0.26
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ForwardPump",
+      "part_id": "MA-FG01-R2-P03-AN1",
+      "version": "3.0",
+      "source": "../../Parts/MA-FG01-R2-P03-AN1/MA-FG01-R2-P03-AN1.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        0.72,
+        -0.86,
+        0.24
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RearPump",
+      "part_id": "MA-FG01-R2-P03-AN1",
+      "version": "3.0",
+      "source": "../../Parts/MA-FG01-R2-P03-AN1/MA-FG01-R2-P03-AN1.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        0.72,
+        0.13,
+        0.24
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ProtectedTransferLines",
+      "part_id": "MA-FG01-R2-P04",
+      "version": "2.0",
+      "source": "../../Parts/MA-FG01-R2-P04/MA-FG01-R2-P04.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "drum",
+      "child_instance": "MainMachineDrum",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "pumpF",
+      "child_instance": "ForwardPump",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "pumpB",
+      "child_instance": "RearPump",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "pipes",
+      "child_instance": "ProtectedTransferLines",
+      "child_socket": "root"
+    }
+  ],
+  "animations": {
+    "controller": "MA-FG01",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      },
+      "cycle_turns": {
+        "default": 0,
+        "min": 0,
+        "max": 100000,
+        "description": "Accumulated turns; preserve phase when stopping"
+      }
+    },
+    "channels": [
+      {
+        "node": "MainMachineDrum::WorkDrum",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "cycle_turns",
+        "expression": "-0.0+t*6.283185307179586"
+      },
+      {
+        "node": "ForwardPump::WorkPump",
+        "path": "rotation_euler",
+        "axis": 2,
+        "parameter": "cycle_turns",
+        "expression": "0.0+t*6.283185307179586"
+      },
+      {
+        "node": "RearPump::WorkPump",
+        "path": "rotation_euler",
+        "axis": 2,
+        "parameter": "cycle_turns",
+        "expression": "0.0+t*6.283185307179586"
+      }
+    ],
+    "clips": [
+      {
+        "name": "MA-FG01::work_loop",
+        "parameters": [
+          "activity",
+          "cycle_turns"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": true,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-FG01::start",
+        "parameters": [
+          "activity",
+          "cycle_turns"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-FG01::stop",
+        "parameters": [
+          "activity",
+          "cycle_turns"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-FG01::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-FG01::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-FG01::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-FG01::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Асимметричный технологический силуэт: высокий продольный барабан слева, поперечный коллектор сзади и две малые насосные головы справа, защищённые магистрали между ними. Нет сетки одинаковых крышек. Static authoring source; no new gameplay mechanics.",
+  "state_authoring": "state-authoring.json"
+}

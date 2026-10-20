@@ -1,0 +1,4250 @@
+{
+  "id": "MA-HS04",
+  "version": "2.0",
+  "checks_passed": true,
+  "verification": "Independent Blender process reopened all standalone parts and final assembly. Source manifoldness, consistent normals, positive volume, zero-area source faces and evaluated triangles, finite coordinates and assigned materials checked. Full world socket poses, semantic compatibility, version/source paths and unit instance scales checked.",
+  "standalone_parts": [
+    {
+      "id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source_reopened": true,
+      "geometry": [
+        {
+          "mesh": "Massive faceted insulation ring",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.41694739358347715,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Insulation ceramic edge",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.03677435067556298,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Insulation ceramic edge.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.03677435067556298,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Thermal ring saddle",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.016848000720977762,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Thermal ring saddle.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.016848000720977762,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-HS04-P01",
+      "version": "2.0",
+      "source_reopened": true,
+      "geometry": [
+        {
+          "mesh": "Independent insulated bed",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 3.048384149724214,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Protected continuous thermal core",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 5.076973042602084,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Faceted isolated runner",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.534338678628029,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Faceted isolated runner.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.5343386786280299,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Inset protected core endcap",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.060647690075023755,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "End insulation lip",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.03458421916770407,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Inset protected core endcap.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.060647690075023755,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "End insulation lip.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.03458421916770407,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Independent insulated bed.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 3.04838391882849,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Protected continuous thermal core.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 5.076973042602084,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Faceted isolated runner.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.5343385685163375,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Faceted isolated runner.003",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.5343386084782706,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Inset protected core endcap.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.060647690075023755,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "End insulation lip.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.03458421916770407,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Inset protected core endcap.003",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.060647690075023755,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "End insulation lip.003",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.03458421916770407,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Independent insulated bed.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 3.048383918828491,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Protected continuous thermal core.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 5.076973042602084,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Faceted isolated runner.004",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.5343386084782705,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Faceted isolated runner.005",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.5343385685163377,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Inset protected core endcap.004",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.060647690075023755,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "End insulation lip.004",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.03458421916770407,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Inset protected core endcap.005",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.060647690075023755,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "End insulation lip.005",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.03458421916770407,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Independent insulated bed.003",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 3.0483841497242135,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Protected continuous thermal core.003",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 5.076973042602084,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Faceted isolated runner.006",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.5343386786280296,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Faceted isolated runner.007",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.5343386786280292,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Inset protected core endcap.006",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.060647690075023755,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "End insulation lip.006",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.03458421916770407,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Inset protected core endcap.007",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.060647690075023755,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "End insulation lip.007",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.03458421916770407,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Raised central insulated support",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.1380120402889513,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Raised central insulated support.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.13801200286319834,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Raised central insulated support.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.1380120402889514,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Raised central insulated support.003",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.1380120402889514,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Raised central insulated support.004",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.1380120028631983,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Raised central insulated support.005",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.13801204028895137,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed transverse tie",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.2999600421487557,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed transverse tie.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.2999600421487557,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-HS04-P02",
+      "version": "2.0",
+      "source_reopened": true,
+      "geometry": [
+        {
+          "mesh": "Rear protected return bridge",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.5963844536192263,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Rear isolated collector shoe",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.08960400282573808,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Short protected bank return",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.018001429733665288,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Broad ceramic return shield",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.027040004463195422,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Rear isolated collector shoe.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.08960402911138807,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Short protected bank return.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.018001429733665288,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Broad ceramic return shield.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.027040010507105944,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Raised bank collector step",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.04458995892524542,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Rear isolated collector shoe.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.08960402911138807,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Short protected bank return.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.018001429733665288,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Broad ceramic return shield.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.027040010507105895,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Raised bank collector step.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.04458995892524542,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Rear isolated collector shoe.003",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0896040028257381,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Short protected bank return.003",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.018001429733665288,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Broad ceramic return shield.003",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.027040004463195436,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed return shielding",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.04101599077510809,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed return shielding.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.041015991132735734,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed return shielding.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.041015990775108105,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        }
+      ],
+      "previews_present": true
+    }
+  ],
+  "assembly_meshes": [
+    {
+      "mesh": "QuadThermalBed::Independent insulated bed",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 3.048384149724214,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Protected continuous thermal core",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 5.076973042602084,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Faceted isolated runner",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.534338678628029,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Faceted isolated runner.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.5343386786280299,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Inset protected core endcap",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.060647690075023755,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::End insulation lip",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03458421916770407,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Inset protected core endcap.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.060647690075023755,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::End insulation lip.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03458421916770407,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Independent insulated bed.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 3.04838391882849,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Protected continuous thermal core.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 5.076973042602084,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Faceted isolated runner.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.5343385685163375,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Faceted isolated runner.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.5343386084782706,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Inset protected core endcap.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.060647690075023755,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::End insulation lip.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03458421916770407,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Inset protected core endcap.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.060647690075023755,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::End insulation lip.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03458421916770407,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Independent insulated bed.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 3.048383918828491,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Protected continuous thermal core.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 5.076973042602084,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Faceted isolated runner.004",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.5343386084782705,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Faceted isolated runner.005",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.5343385685163377,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Inset protected core endcap.004",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.060647690075023755,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::End insulation lip.004",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03458421916770407,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Inset protected core endcap.005",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.060647690075023755,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::End insulation lip.005",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03458421916770407,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Independent insulated bed.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 3.0483841497242135,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Protected continuous thermal core.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 5.076973042602084,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Faceted isolated runner.006",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.5343386786280296,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Faceted isolated runner.007",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.5343386786280292,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Inset protected core endcap.006",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.060647690075023755,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::End insulation lip.006",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03458421916770407,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Inset protected core endcap.007",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.060647690075023755,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::End insulation lip.007",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03458421916770407,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Raised central insulated support",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.1380120402889513,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Raised central insulated support.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.13801200286319834,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Raised central insulated support.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.1380120402889514,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Raised central insulated support.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.1380120402889514,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Raised central insulated support.004",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.1380120028631983,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Raised central insulated support.005",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.13801204028895137,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Recessed transverse tie",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.2999600421487557,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadThermalBed::Recessed transverse tie.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.2999600421487557,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-0::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-0::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-0::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-0::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-0::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-1::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-1::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-1::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-1::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-1::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-2::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-2::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-2::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-2::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-2::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-3::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-3::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-3::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-3::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-3::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-4::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-4::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-4::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-4::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-4::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-5::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-5::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-5::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-5::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-5::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-6::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-6::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-6::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-6::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-6::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-7::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-7::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-7::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-7::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-7::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-8::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-8::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-8::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-8::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-8::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-9::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-9::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-9::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-9::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-9::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-10::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-10::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-10::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-10::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-10::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-11::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-11::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-11::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-11::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B0-11::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-0::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-0::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-0::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-0::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-0::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-1::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-1::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-1::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-1::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-1::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-2::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-2::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-2::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-2::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-2::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-3::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-3::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-3::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-3::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-3::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-4::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-4::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-4::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-4::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-4::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-5::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-5::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-5::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-5::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-5::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-6::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-6::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-6::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-6::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-6::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-7::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-7::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-7::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-7::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-7::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-8::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-8::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-8::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-8::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-8::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-9::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-9::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-9::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-9::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-9::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-10::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-10::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-10::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-10::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-10::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-11::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-11::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-11::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-11::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B1-11::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-0::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-0::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-0::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-0::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-0::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-1::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-1::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-1::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-1::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-1::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-2::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-2::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-2::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-2::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-2::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-3::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-3::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-3::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-3::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-3::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-4::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-4::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-4::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-4::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-4::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-5::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-5::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-5::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-5::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-5::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-6::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-6::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-6::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-6::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-6::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-7::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-7::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-7::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-7::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-7::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-8::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-8::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-8::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-8::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-8::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-9::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-9::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-9::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-9::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-9::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-10::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-10::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-10::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-10::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-10::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-11::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-11::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-11::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-11::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B2-11::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-0::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-0::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-0::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-0::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-0::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-1::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-1::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-1::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-1::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-1::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-2::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-2::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-2::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-2::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-2::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-3::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-3::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-3::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-3::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-3::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-4::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-4::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-4::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-4::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-4::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-5::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-5::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-5::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-5::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-5::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-6::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-6::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-6::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-6::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-6::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-7::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-7::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-7::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-7::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-7::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-8::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-8::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-8::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-8::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-8::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-9::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-9::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-9::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-9::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-9::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-10::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-10::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-10::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-10::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-10::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-11::Massive faceted insulation ring",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.41694739358347715,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-11::Insulation ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-11::Insulation ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03677435067556298,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-11::Thermal ring saddle",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ThermalRing-B3-11::Thermal ring saddle.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.016848000720977762,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Rear protected return bridge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.5963844536192263,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Rear isolated collector shoe",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.08960400282573808,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Short protected bank return",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.018001429733665288,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Broad ceramic return shield",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.027040004463195422,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Rear isolated collector shoe.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.08960402911138807,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Short protected bank return.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.018001429733665288,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Broad ceramic return shield.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.027040010507105944,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Raised bank collector step",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.04458995892524542,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Rear isolated collector shoe.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.08960402911138807,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Short protected bank return.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.018001429733665288,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Broad ceramic return shield.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.027040010507105895,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Raised bank collector step.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.04458995892524542,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Rear isolated collector shoe.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0896040028257381,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Short protected bank return.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.018001429733665288,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Broad ceramic return shield.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.027040004463195436,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Recessed return shielding",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.04101599077510809,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Recessed return shielding.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.041015991132735734,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "QuadCollector::Recessed return shielding.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.041015990775108105,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    }
+  ],
+  "connections": [
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-0-section-0",
+        "child_instance": "ThermalRing-B0-0",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-0-section-1",
+        "child_instance": "ThermalRing-B0-1",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-0-section-2",
+        "child_instance": "ThermalRing-B0-2",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-0-section-3",
+        "child_instance": "ThermalRing-B0-3",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-0-section-4",
+        "child_instance": "ThermalRing-B0-4",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-0-section-5",
+        "child_instance": "ThermalRing-B0-5",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-0-section-6",
+        "child_instance": "ThermalRing-B0-6",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-0-section-7",
+        "child_instance": "ThermalRing-B0-7",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-0-section-8",
+        "child_instance": "ThermalRing-B0-8",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-0-section-9",
+        "child_instance": "ThermalRing-B0-9",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-0-section-10",
+        "child_instance": "ThermalRing-B0-10",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-0-section-11",
+        "child_instance": "ThermalRing-B0-11",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-1-section-0",
+        "child_instance": "ThermalRing-B1-0",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-1-section-1",
+        "child_instance": "ThermalRing-B1-1",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-1-section-2",
+        "child_instance": "ThermalRing-B1-2",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-1-section-3",
+        "child_instance": "ThermalRing-B1-3",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-1-section-4",
+        "child_instance": "ThermalRing-B1-4",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-1-section-5",
+        "child_instance": "ThermalRing-B1-5",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-1-section-6",
+        "child_instance": "ThermalRing-B1-6",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-1-section-7",
+        "child_instance": "ThermalRing-B1-7",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-1-section-8",
+        "child_instance": "ThermalRing-B1-8",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-1-section-9",
+        "child_instance": "ThermalRing-B1-9",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-1-section-10",
+        "child_instance": "ThermalRing-B1-10",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-1-section-11",
+        "child_instance": "ThermalRing-B1-11",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-2-section-0",
+        "child_instance": "ThermalRing-B2-0",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-2-section-1",
+        "child_instance": "ThermalRing-B2-1",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-2-section-2",
+        "child_instance": "ThermalRing-B2-2",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-2-section-3",
+        "child_instance": "ThermalRing-B2-3",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-2-section-4",
+        "child_instance": "ThermalRing-B2-4",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-2-section-5",
+        "child_instance": "ThermalRing-B2-5",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-2-section-6",
+        "child_instance": "ThermalRing-B2-6",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-2-section-7",
+        "child_instance": "ThermalRing-B2-7",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-2-section-8",
+        "child_instance": "ThermalRing-B2-8",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-2-section-9",
+        "child_instance": "ThermalRing-B2-9",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-2-section-10",
+        "child_instance": "ThermalRing-B2-10",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-2-section-11",
+        "child_instance": "ThermalRing-B2-11",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-3-section-0",
+        "child_instance": "ThermalRing-B3-0",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-3-section-1",
+        "child_instance": "ThermalRing-B3-1",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-3-section-2",
+        "child_instance": "ThermalRing-B3-2",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-3-section-3",
+        "child_instance": "ThermalRing-B3-3",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-3-section-4",
+        "child_instance": "ThermalRing-B3-4",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-3-section-5",
+        "child_instance": "ThermalRing-B3-5",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-3-section-6",
+        "child_instance": "ThermalRing-B3-6",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-3-section-7",
+        "child_instance": "ThermalRing-B3-7",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-3-section-8",
+        "child_instance": "ThermalRing-B3-8",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-3-section-9",
+        "child_instance": "ThermalRing-B3-9",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-3-section-10",
+        "child_instance": "ThermalRing-B3-10",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "bank-3-section-11",
+        "child_instance": "ThermalRing-B3-11",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "QuadThermalBed",
+        "parent_socket": "collector",
+        "child_instance": "QuadCollector",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    }
+  ],
+  "instance_count": 50,
+  "resolved_parts": [
+    "MA-HS01-R2-P02",
+    "MA-HS04-P01",
+    "MA-HS04-P02"
+  ],
+  "preview_views": [
+    "top",
+    "perspective",
+    "top-grayscale"
+  ],
+  "grayscale_override_temporary": true,
+  "glb_generated": false,
+  "game_validation": false,
+  "collision_LOD_validation": false,
+  "notes": "Static authoring model. Designed intersections at seats, pressure shields, thermal connections and service mounts are intentional. Physical BU scale unspecified."
+}

@@ -1,0 +1,5624 @@
+{
+  "schema": "SpriteBake.BlockMetadata/1",
+  "id": "MA-N01",
+  "catalog_id": "antenna-1x1",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "bu_per_cell": 1.0,
+  "footprint_bu": [
+    -0.5,
+    -0.5,
+    0.5,
+    0.5
+  ],
+  "layers": [
+    {
+      "id": "body",
+      "draw_order": 0,
+      "rotates": false,
+      "pivot_bu": [
+        0,
+        0
+      ],
+      "instances": [
+        "Chassis",
+        "Support",
+        "Aperture",
+        "Service"
+      ]
+    }
+  ],
+  "states": {
+    "damage0": {
+      "frame": 1
+    },
+    "damage33": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "damage66": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "destroyed": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "clips": {},
+  "frames": {
+    "damage0": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Chassis/mounts/hull",
+          "node": "socket.hull",
+          "parent": null,
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Chassis/mounts/support",
+          "node": "socket.support",
+          "parent": null,
+          "role": "support",
+          "position": [
+            0,
+            0.18,
+            0.285
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.18000000715255737,
+            0.2849999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "support",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.6800000071525574,
+            0.2849999964237213
+          ]
+        },
+        {
+          "id": "Chassis/mounts/service",
+          "node": "socket.service",
+          "parent": null,
+          "role": "accessory",
+          "position": [
+            0,
+            -0.43,
+            0.304
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.service-cartridge.v1"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.4300000071525574,
+            0.30399999022483826
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.06999999284744263,
+            0.30399999022483826
+          ]
+        },
+        {
+          "id": "Chassis/attachment_areas/root-plane",
+          "parent": null,
+          "role": "hull",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Support/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "support",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.18000000715255737,
+            0.2849999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.18000000715255737
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.2849999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Support",
+          "part": "MA-N01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.6800000071525574,
+            0.2849999964237213
+          ]
+        },
+        {
+          "id": "Support/mounts/aperture",
+          "node": "socket.aperture",
+          "parent": null,
+          "role": "aperture",
+          "position": [
+            0,
+            0.04,
+            0.62
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.2199999988079071,
+            0.9049999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.18000000715255737
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.2849999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture",
+          "instance": "Support",
+          "part": "MA-N01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.9049999713897705
+          ]
+        },
+        {
+          "id": "Support/attachment_areas/root-plane",
+          "parent": null,
+          "role": "support",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.18000000715255737,
+            0.2849999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.18000000715255737
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.2849999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Support",
+          "part": "MA-N01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.6800000071525574,
+            0.2849999964237213
+          ]
+        },
+        {
+          "id": "Aperture/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "aperture",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.2199999988079071,
+            0.9049999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.2199999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9049999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Aperture",
+          "part": "MA-N01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.9049999713897705
+          ]
+        },
+        {
+          "id": "Aperture/attachment_areas/root-plane",
+          "parent": null,
+          "role": "aperture",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.2199999988079071,
+            0.9049999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.2199999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9049999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Aperture",
+          "part": "MA-N01-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.9049999713897705
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.accessory",
+            "MilitaryArmor.reactor.accessory",
+            "MilitaryArmor.service-cartridge.v1",
+            "accessory"
+          ],
+          "restrictions": "full-pose alignment; unit scale only",
+          "parent": null,
+          "node": "socket.bottom",
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.4300000071525574,
+            0.30399999022483826
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.4300000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30399999022483826
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-R01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.06999999284744263,
+            0.30399999022483826
+          ]
+        },
+        {
+          "id": "Service/attachment_areas/root-plane",
+          "role": "accessory",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.12,
+            0.12
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "parent": null,
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.reactor.accessory",
+            "MilitaryArmor.service-cartridge.v1"
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.4300000071525574,
+            0.30399999022483826
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.4300000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30399999022483826
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Service",
+          "part": "MA-R01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.06999999284744263,
+            0.30399999022483826
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-N01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Chassis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Support": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.18000000715255737
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.2849999964237213
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Aperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.2199999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.9049999713897705
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.4300000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.30399999022483826
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "damage33": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Chassis/mounts/hull",
+          "node": "socket.hull",
+          "parent": null,
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Chassis/mounts/support",
+          "node": "socket.support",
+          "parent": null,
+          "role": "support",
+          "position": [
+            0,
+            0.18,
+            0.285
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.18000000715255737,
+            0.2849999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "support",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.6800000071525574,
+            0.2849999964237213
+          ]
+        },
+        {
+          "id": "Chassis/mounts/service",
+          "node": "socket.service",
+          "parent": null,
+          "role": "accessory",
+          "position": [
+            0,
+            -0.43,
+            0.304
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.service-cartridge.v1"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.4300000071525574,
+            0.30399999022483826
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.06999999284744263,
+            0.30399999022483826
+          ]
+        },
+        {
+          "id": "Chassis/attachment_areas/root-plane",
+          "parent": null,
+          "role": "hull",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Support/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "support",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.18000000715255737,
+            0.2849999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.18000000715255737
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.2849999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Support",
+          "part": "MA-N01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.6800000071525574,
+            0.2849999964237213
+          ]
+        },
+        {
+          "id": "Support/mounts/aperture",
+          "node": "socket.aperture",
+          "parent": null,
+          "role": "aperture",
+          "position": [
+            0,
+            0.04,
+            0.62
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.2199999988079071,
+            0.9049999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.18000000715255737
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.2849999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture",
+          "instance": "Support",
+          "part": "MA-N01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.9049999713897705
+          ]
+        },
+        {
+          "id": "Support/attachment_areas/root-plane",
+          "parent": null,
+          "role": "support",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.18000000715255737,
+            0.2849999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.18000000715255737
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.2849999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Support",
+          "part": "MA-N01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.6800000071525574,
+            0.2849999964237213
+          ]
+        },
+        {
+          "id": "Aperture/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "aperture",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.2199999988079071,
+            0.9049999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.2199999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9049999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Aperture",
+          "part": "MA-N01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.9049999713897705
+          ]
+        },
+        {
+          "id": "Aperture/attachment_areas/root-plane",
+          "parent": null,
+          "role": "aperture",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.2199999988079071,
+            0.9049999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.2199999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9049999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Aperture",
+          "part": "MA-N01-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.9049999713897705
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.accessory",
+            "MilitaryArmor.reactor.accessory",
+            "MilitaryArmor.service-cartridge.v1",
+            "accessory"
+          ],
+          "restrictions": "full-pose alignment; unit scale only",
+          "parent": null,
+          "node": "socket.bottom",
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.4300000071525574,
+            0.30399999022483826
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.4300000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30399999022483826
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-R01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.06999999284744263,
+            0.30399999022483826
+          ]
+        },
+        {
+          "id": "Service/attachment_areas/root-plane",
+          "role": "accessory",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.12,
+            0.12
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "parent": null,
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.reactor.accessory",
+            "MilitaryArmor.service-cartridge.v1"
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.4300000071525574,
+            0.30399999022483826
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.4300000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30399999022483826
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Service",
+          "part": "MA-R01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.06999999284744263,
+            0.30399999022483826
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-N01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Chassis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Support": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.18000000715255737
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.2849999964237213
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Aperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.2199999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.9049999713897705
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.4300000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.30399999022483826
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "damage66": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Chassis/mounts/hull",
+          "node": "socket.hull",
+          "parent": null,
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Chassis/mounts/support",
+          "node": "socket.support",
+          "parent": null,
+          "role": "support",
+          "position": [
+            0,
+            0.18,
+            0.285
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.18000000715255737,
+            0.2849999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "support",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.6800000071525574,
+            0.2849999964237213
+          ]
+        },
+        {
+          "id": "Chassis/mounts/service",
+          "node": "socket.service",
+          "parent": null,
+          "role": "accessory",
+          "position": [
+            0,
+            -0.43,
+            0.304
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.service-cartridge.v1"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.4300000071525574,
+            0.30399999022483826
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.06999999284744263,
+            0.30399999022483826
+          ]
+        },
+        {
+          "id": "Chassis/attachment_areas/root-plane",
+          "parent": null,
+          "role": "hull",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Support/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "support",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.18000000715255737,
+            0.2849999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.18000000715255737
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.2849999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Support",
+          "part": "MA-N01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.6800000071525574,
+            0.2849999964237213
+          ]
+        },
+        {
+          "id": "Support/mounts/aperture",
+          "node": "socket.aperture",
+          "parent": null,
+          "role": "aperture",
+          "position": [
+            0,
+            0.04,
+            0.62
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.2199999988079071,
+            0.9049999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.18000000715255737
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.2849999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture",
+          "instance": "Support",
+          "part": "MA-N01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.9049999713897705
+          ]
+        },
+        {
+          "id": "Support/attachment_areas/root-plane",
+          "parent": null,
+          "role": "support",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.18000000715255737,
+            0.2849999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.18000000715255737
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.2849999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Support",
+          "part": "MA-N01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.6800000071525574,
+            0.2849999964237213
+          ]
+        },
+        {
+          "id": "Aperture/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "aperture",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.2199999988079071,
+            0.9049999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.2199999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9049999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Aperture",
+          "part": "MA-N01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.9049999713897705
+          ]
+        },
+        {
+          "id": "Aperture/attachment_areas/root-plane",
+          "parent": null,
+          "role": "aperture",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.2199999988079071,
+            0.9049999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.2199999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9049999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Aperture",
+          "part": "MA-N01-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.9049999713897705
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.accessory",
+            "MilitaryArmor.reactor.accessory",
+            "MilitaryArmor.service-cartridge.v1",
+            "accessory"
+          ],
+          "restrictions": "full-pose alignment; unit scale only",
+          "parent": null,
+          "node": "socket.bottom",
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.4300000071525574,
+            0.30399999022483826
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.4300000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30399999022483826
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-R01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.06999999284744263,
+            0.30399999022483826
+          ]
+        },
+        {
+          "id": "Service/attachment_areas/root-plane",
+          "role": "accessory",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.12,
+            0.12
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "parent": null,
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.reactor.accessory",
+            "MilitaryArmor.service-cartridge.v1"
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.4300000071525574,
+            0.30399999022483826
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.4300000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30399999022483826
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Service",
+          "part": "MA-R01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.06999999284744263,
+            0.30399999022483826
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-N01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Chassis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Support": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.18000000715255737
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.2849999964237213
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Aperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.2199999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.9049999713897705
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.4300000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.30399999022483826
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "destroyed": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Chassis/mounts/hull",
+          "node": "socket.hull",
+          "parent": null,
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Chassis/mounts/support",
+          "node": "socket.support",
+          "parent": null,
+          "role": "support",
+          "position": [
+            0,
+            0.18,
+            0.285
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.18000000715255737,
+            0.2849999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "support",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.6800000071525574,
+            0.2849999964237213
+          ]
+        },
+        {
+          "id": "Chassis/mounts/service",
+          "node": "socket.service",
+          "parent": null,
+          "role": "accessory",
+          "position": [
+            0,
+            -0.43,
+            0.304
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.service-cartridge.v1"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.4300000071525574,
+            0.30399999022483826
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.06999999284744263,
+            0.30399999022483826
+          ]
+        },
+        {
+          "id": "Chassis/attachment_areas/root-plane",
+          "parent": null,
+          "role": "hull",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Chassis",
+          "part": "MA-N01-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Support/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "support",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.18000000715255737,
+            0.2849999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.18000000715255737
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.2849999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Support",
+          "part": "MA-N01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.6800000071525574,
+            0.2849999964237213
+          ]
+        },
+        {
+          "id": "Support/mounts/aperture",
+          "node": "socket.aperture",
+          "parent": null,
+          "role": "aperture",
+          "position": [
+            0,
+            0.04,
+            0.62
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.2199999988079071,
+            0.9049999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.18000000715255737
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.2849999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture",
+          "instance": "Support",
+          "part": "MA-N01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.9049999713897705
+          ]
+        },
+        {
+          "id": "Support/attachment_areas/root-plane",
+          "parent": null,
+          "role": "support",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.18000000715255737,
+            0.2849999964237213
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.18000000715255737
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.2849999964237213
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Support",
+          "part": "MA-N01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.6800000071525574,
+            0.2849999964237213
+          ]
+        },
+        {
+          "id": "Aperture/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "aperture",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.2199999988079071,
+            0.9049999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.2199999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9049999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Aperture",
+          "part": "MA-N01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.9049999713897705
+          ]
+        },
+        {
+          "id": "Aperture/attachment_areas/root-plane",
+          "parent": null,
+          "role": "aperture",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.2199999988079071,
+            0.9049999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.2199999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9049999713897705
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Aperture",
+          "part": "MA-N01-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.9049999713897705
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.accessory",
+            "MilitaryArmor.reactor.accessory",
+            "MilitaryArmor.service-cartridge.v1",
+            "accessory"
+          ],
+          "restrictions": "full-pose alignment; unit scale only",
+          "parent": null,
+          "node": "socket.bottom",
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.4300000071525574,
+            0.30399999022483826
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.4300000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30399999022483826
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-R01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.06999999284744263,
+            0.30399999022483826
+          ]
+        },
+        {
+          "id": "Service/attachment_areas/root-plane",
+          "role": "accessory",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.12,
+            0.12
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "parent": null,
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.reactor.accessory",
+            "MilitaryArmor.service-cartridge.v1"
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.4300000071525574,
+            0.30399999022483826
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.4300000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30399999022483826
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Service",
+          "part": "MA-R01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.06999999284744263,
+            0.30399999022483826
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-N01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Chassis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Support": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.18000000715255737
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.2849999964237213
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Aperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.2199999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.9049999713897705
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.4300000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.30399999022483826
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    }
+  },
+  "assembly": {
+    "schema": "MilitaryArmor.BlenderAuthoring/1",
+    "id": "MA-N01",
+    "version": "1.0+states1",
+    "title": "Антенна",
+    "catalog_id": "antenna-1x1",
+    "catalog_grid": [
+      1,
+      1
+    ],
+    "axes": {
+      "handedness": "right",
+      "up": "+Z",
+      "forward": "-Y",
+      "units": "BU; physical scale unspecified"
+    },
+    "instances": [
+      {
+        "id": "Chassis",
+        "part_id": "MA-N01-P01",
+        "version": "1.0",
+        "source": "../../Parts/MA-N01-P01/MA-N01-P01.blend",
+        "parent": "MA-N01",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "Support",
+        "part_id": "MA-N01-P03",
+        "version": "1.0",
+        "source": "../../Parts/MA-N01-P03/MA-N01-P03.blend",
+        "parent": "MA-N01",
+        "translation": [
+          0,
+          0.18,
+          0.285
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "Aperture",
+        "part_id": "MA-N01-P02",
+        "version": "1.0",
+        "source": "../../Parts/MA-N01-P02/MA-N01-P02.blend",
+        "parent": "MA-N01",
+        "translation": [
+          0,
+          0.22,
+          0.905
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "Service",
+        "part_id": "MA-R01-P05",
+        "version": "1.0",
+        "source": "../../Parts/MA-R01-P05/MA-R01-P05.blend",
+        "parent": "MA-N01",
+        "translation": [
+          0,
+          -0.43,
+          0.304
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "parent": "Chassis",
+        "socket": "support",
+        "child": "Support",
+        "child_socket": "root"
+      },
+      {
+        "parent": "Support",
+        "socket": "aperture",
+        "child": "Aperture",
+        "child_socket": "root"
+      },
+      {
+        "parent": "Chassis",
+        "socket": "service",
+        "child": "Service",
+        "child_socket": "bottom"
+      }
+    ],
+    "animations": {
+      "controller": "MA-N01",
+      "controls": {
+        "power": {
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "description": "Electrical availability; independent from retained heat/fill"
+        },
+        "activity": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Actual work/load; zero means idle"
+        },
+        "fault": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Externally supplied fault, not inferred"
+        },
+        "transmit": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "0 receive/ready, 1 transmit"
+        }
+      },
+      "channels": [],
+      "clips": [
+        {
+          "name": "MA-N01::activate",
+          "parameters": [
+            "power",
+            "activity"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-N01::deactivate",
+          "parameters": [
+            "activity",
+            "power"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        }
+      ],
+      "independent_controls": true,
+      "demonstration_only": false,
+      "game_integration": false
+    },
+    "exports": [],
+    "notes": "Static protected phased radio aperture; no game integration; physical BU unspecified. All part sources validated before assembly.",
+    "state_authoring": "state-authoring.json"
+  },
+  "parts": {
+    "Chassis": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-N01-P01",
+      "version": "1.0",
+      "name": "Protected communications chassis",
+      "source": "MA-N01-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.8700000047683716,
+          -0.824999988079071,
+          0.0
+        ],
+        "max": [
+          0.8700000047683716,
+          0.824999988079071,
+          0.304500013589859
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Graphite electronics housing"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Cold armor crown"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Hull pressure seal",
+            "Service recess"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Inset flank",
+            "Inset flank.001"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "hull",
+          "node": "socket.hull",
+          "parent": null,
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "support",
+          "node": "socket.support",
+          "parent": null,
+          "role": "support",
+          "position": [
+            0,
+            0.18,
+            0.285
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "service",
+          "node": "socket.service",
+          "parent": null,
+          "role": "accessory",
+          "position": [
+            0,
+            -0.43,
+            0.304
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.service-cartridge.v1"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-plane",
+          "parent": null,
+          "role": "hull",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Static protected communications module; no added gameplay mechanism. Procedural PBR; no file texture or UV dependencies."
+    },
+    "Support": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-N01-P03",
+      "version": "1.0",
+      "name": "Closed diagonal aperture support",
+      "source": "MA-N01-P03.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.6150000095367432,
+          -0.25999999046325684,
+          8.330090349772945e-05
+        ],
+        "max": [
+          0.6150000095367432,
+          0.30000001192092896,
+          0.6349999904632568
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Protected transverse hinge"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Faceted support armor",
+            "Faceted support armor.001"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Closed swept support",
+            "Closed swept support.001"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "support",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "aperture",
+          "node": "socket.aperture",
+          "parent": null,
+          "role": "aperture",
+          "position": [
+            0,
+            0.04,
+            0.62
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-plane",
+          "parent": null,
+          "role": "support",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.support"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Static protected communications module; no added gameplay mechanism. Procedural PBR; no file texture or UV dependencies."
+    },
+    "Aperture": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-N01-P02",
+      "version": "1.0",
+      "name": "Protected phased communications aperture",
+      "source": "MA-N01-P02.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.7250000238418579,
+          -0.37096115946769714,
+          -0.5040525794029236
+        ],
+        "max": [
+          0.7250000238418579,
+          0.3433973491191864,
+          0.5109379887580872
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Radio ceramic cell 0 0",
+            "Radio ceramic cell 0 1",
+            "Radio ceramic cell 0 2",
+            "Radio ceramic cell 0 3",
+            "Radio ceramic cell 0 4",
+            "Radio ceramic cell 1 0",
+            "Radio ceramic cell 1 1",
+            "Radio ceramic cell 1 2",
+            "Radio ceramic cell 1 3",
+            "Radio ceramic cell 1 4",
+            "Radio ceramic cell 2 0",
+            "Radio ceramic cell 2 1",
+            "Radio ceramic cell 2 2",
+            "Radio ceramic cell 2 3",
+            "Radio ceramic cell 2 4",
+            "Radio ceramic cell 3 0",
+            "Radio ceramic cell 3 1",
+            "Radio ceramic cell 3 2",
+            "Radio ceramic cell 3 3",
+            "Radio ceramic cell 3 4"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Cold ceramic aperture bezel"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Recessed radio aperture"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Diagnostic index"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705,
+            1.0
+          ],
+          "metalness": 0.3499999940395355,
+          "roughness": 0.25,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Faceted panel back"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal",
+          "regions": [
+            "Diagnostic index"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "aperture",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-plane",
+          "parent": null,
+          "role": "aperture",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.antenna.aperture"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Static protected communications module; no added gameplay mechanism. Procedural PBR; no file texture or UV dependencies."
+    },
+    "Service": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-R01-P05",
+      "version": "1.0",
+      "name": "Реактор — сервисный картридж, исправленные фаски",
+      "source": "MA-R01-P05.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.3700000047683716,
+          -0.30000001192092896,
+          0.0005000000237487257
+        ],
+        "max": [
+          0.3700000047683716,
+          0.30000001192092896,
+          0.08000000566244125
+        ]
+      },
+      "materials": [
+        {
+          "id": "Ceramic.001",
+          "surfaces": [
+            "Hexagonal service cartridge.001"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark.001",
+          "surfaces": [
+            "Flush pressure seal.001"
+          ],
+          "base_color_linear": [
+            0.017999999225139618,
+            0.02500000037252903,
+            0.02800000086426735,
+            1.0
+          ],
+          "metalness": 0.6499999761581421,
+          "roughness": 0.6000000238418579,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal.001",
+          "surfaces": [
+            "Cartridge status.001"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705,
+            1.0
+          ],
+          "metalness": 0.3499999940395355,
+          "roughness": 0.25,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium.001",
+          "surfaces": [
+            "Inset cartridge center.001",
+            "Flush quarter turn lock.002",
+            "Flush quarter turn lock.003"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal.001",
+          "regions": [
+            "Cartridge status.001"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.accessory",
+            "MilitaryArmor.reactor.accessory",
+            "MilitaryArmor.service-cartridge.v1",
+            "accessory"
+          ],
+          "restrictions": "full-pose alignment; unit scale only",
+          "parent": null,
+          "node": "socket.bottom",
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-plane",
+          "role": "accessory",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.12,
+            0.12
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "parent": null,
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.reactor.accessory",
+            "MilitaryArmor.service-cartridge.v1"
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Explicit MA-P06 v1.3 variant: identical geometry/material layout, bevel widths capped at 0.001 BU to eliminate degenerate inset and lock triangles. Original part untouched.",
+      "variant_of": {
+        "id": "MA-P06",
+        "version": "1.3"
+      }
+    }
+  },
+  "material_slots": {
+    "Chassis": {
+      "Service recess": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Inset flank.001": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Inset flank": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Hull pressure seal": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Graphite electronics housing": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Cold armor crown": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ]
+    },
+    "Support": {
+      "Protected transverse hinge": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "Faceted support armor.001": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Faceted support armor": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Closed swept support.001": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Closed swept support": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "Aperture": {
+      "Recessed radio aperture": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Radio ceramic cell 3 4": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 3 3": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 3 2": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 3 1": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 3 0": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 2 4": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 2 3": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 2 2": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 2 1": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 2 0": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 1 4": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 1 3": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 1 2": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 1 1": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 1 0": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 0 4": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 0 3": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 0 2": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 0 1": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Radio ceramic cell 0 0": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Faceted panel back": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Diagnostic index": [
+        {
+          "id": "Signal",
+          "role": "Emissive"
+        }
+      ],
+      "Cold ceramic aperture bezel": [
+        {
+          "id": "Ceramic.002",
+          "role": "Color1"
+        }
+      ]
+    },
+    "Service": {
+      "Inset cartridge center.001": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal service cartridge.001": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ],
+      "Flush quarter turn lock.003": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Flush quarter turn lock.002": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Flush pressure seal.001": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ],
+      "Cartridge status.001": [
+        {
+          "id": "Signal.001",
+          "role": "Emissive"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "assembly": "Blocks/MA-N01/assembly.json",
+    "source": "Blocks/MA-N01/MA-N01.blend",
+    "bu_per_cell": 1.0,
+    "footprint_bu": [
+      -0.5,
+      -0.5,
+      0.5,
+      0.5
+    ],
+    "height_range_bu": [
+      -0.1,
+      1.5
+    ],
+    "layers": [
+      {
+        "id": "body",
+        "draw_order": 0,
+        "rotates": false,
+        "pivot_bu": [
+          0,
+          0
+        ],
+        "instances": [
+          "Chassis",
+          "Support",
+          "Aperture",
+          "Service"
+        ]
+      }
+    ],
+    "states": {
+      "damage0": {
+        "frame": 1
+      },
+      "damage33": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "damage66": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "destroyed": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "clips": {},
+    "use_author_animation": false
+  },
+  "inputs": {
+    "Blocks/MA-N01/assembly.json": "58b9f5bba00f1c102331d911357af4802c7a01db27ea1625ec663fcc4b636feb",
+    "Blocks/MA-N01/MA-N01.blend": "3beec66aa75d7e53e46e523535d9d5794d9855438251788f53ccf79edd5df1e1",
+    "Parts/MA-N01-P01/MA-N01-P01.blend": "3ffe787941b3eddb7b3cf30b7e602a1d0c2109a76dd2d196152f81b2dab758c8",
+    "Parts/MA-N01-P01/part.json": "1bcc107108d4bcd9ce7a742f1fb4ec8176d40d287a95f1ace1c30e7a746c6472",
+    "Parts/MA-N01-P02/MA-N01-P02.blend": "7ce1d08319abb6b5e7b577a46803b26ef6c00d6e1bf4eede82b01b427772ca10",
+    "Parts/MA-N01-P02/part.json": "fde510701cd7fa62ddac2e46bcf256df42efbb406846bb6ec4d43d19dbed5358",
+    "Parts/MA-N01-P03/MA-N01-P03.blend": "96a76c0cb3a92b7b72276f84650d9c55aa23bd22ec068a25dbaab8ff3abf41e5",
+    "Parts/MA-N01-P03/part.json": "62f64de1d52d662f6be43b446f031fdb0d8d852a3c36b02e02342c28d664434c",
+    "Parts/MA-R01-P05/MA-R01-P05.blend": "df324b7699b3989c73d25a8e7b7849baab9ae8f3bd6b935d5ad506f83f83d8f7",
+    "Parts/MA-R01-P05/part.json": "85e7e3d0dce10bafe6dc16ce9bfe4f9fce0b0001a09a5eec9f6635649153a917"
+  },
+  "dependencies": [
+    "Blocks/MA-N01/assembly.json",
+    "Blocks/MA-N01/MA-N01.blend",
+    "Parts/MA-N01-P01/MA-N01-P01.blend",
+    "Parts/MA-N01-P01/part.json",
+    "Parts/MA-N01-P02/MA-N01-P02.blend",
+    "Parts/MA-N01-P02/part.json",
+    "Parts/MA-N01-P03/MA-N01-P03.blend",
+    "Parts/MA-N01-P03/part.json",
+    "Parts/MA-R01-P05/MA-R01-P05.blend",
+    "Parts/MA-R01-P05/part.json"
+  ]
+}

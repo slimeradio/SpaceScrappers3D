@@ -1,0 +1,2330 @@
+{
+  "id": "MA-SP04",
+  "version": "2.0",
+  "checks_passed": true,
+  "verification": "Independent Blender process reopened all standalone parts and final assembly. Source manifoldness, consistent normals, positive volume, zero-area source faces and evaluated triangles, finite coordinates and assigned materials checked. Full world socket poses, semantic compatibility, version/source paths and unit instance scales checked.",
+  "standalone_parts": [
+    {
+      "id": "MA-SP01-R2-P01",
+      "version": "2.0",
+      "source_reopened": true,
+      "geometry": [
+        {
+          "mesh": "Underside backbone",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.08207999868035303,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hull shoe",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.014382002268791274,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Slender crossbeam",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0105300004506111,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Field support",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0013199999830126757,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Field support.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0013199999830126757,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hull shoe.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.014382002268791275,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Slender crossbeam.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0105300004506111,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Field support.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0013199999830126757,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Field support.003",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0013199999830126757,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-SP04-P01",
+      "version": "2.0",
+      "source_reopened": true,
+      "geometry": [
+        {
+          "mesh": "Thin continuous substrate",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 4.01206003889024,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Single dielectric underlay",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 1.0457690739098564,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-00",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164497,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-00",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939161820151254,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-01",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164487,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-01",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939161820150994,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-02",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164466,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-02",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939161820150647,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-03",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164466,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-03",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939175553015482,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-04",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164476,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-04",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939161820150615,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-05",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164514,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-05",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939161820151103,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-06",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.02602036437016446,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-06",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939161820151027,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-07",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164466,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-07",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939161820150918,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-08",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020340505415063,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-08",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939148087281422,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-09",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020340505415056,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-09",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939148087281465,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-10",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020352437789707,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-10",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939154953713812,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-11",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020352437789707,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-11",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939154953713985,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-12",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020352437789714,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-12",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939154953713953,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-13",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020363759813123,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-13",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939154953713769,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-14",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.02602035213261409,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-14",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939151520498403,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-15",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.02602035243778973,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-15",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.000139391549537139,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-16",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.02602035542088341,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-16",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0001393915667032258,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-17",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020355545814916,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-17",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0001393915634845909,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-18",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020355545814913,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-18",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939156348459058,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-19",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020355420883413,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-19",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0001393915667032258,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-20",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020352437789742,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-20",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0001393915495371392,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-21",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020352132614073,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-21",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939151520498295,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-22",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.02602036375981312,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-22",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939154953713855,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-23",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020352437789725,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-23",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939154953713855,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-24",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020352437789718,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-24",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939154953714007,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-25",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020352437789718,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-25",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939154953713866,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-26",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020340505415056,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-26",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939148087281509,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-27",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.02602034050541507,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-27",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939148087281433,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-28",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164493,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-28",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939161820150853,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-29",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164466,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-29",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939161820150983,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-30",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164518,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-30",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0001393916182015107,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-31",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164473,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-31",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939161820150647,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-32",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164466,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-32",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939175553015536,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-33",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164483,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-33",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0001393916182015068,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-34",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164497,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-34",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0001393916182015094,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "PV-row-35",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.026020364370164497,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Trace-row-35",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00013939161820151254,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Thin ceramic edge",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.009656639805467115,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Thin ceramic edge.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.009656639805467115,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Thin terminal edge",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.006027839945800295,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Thin terminal edge.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.006027839945800295,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Longitudinal electrical collector",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0022118398745727547,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        }
+      ],
+      "previews_present": true
+    }
+  ],
+  "assembly_meshes": [
+    {
+      "mesh": "LargePVField::Thin continuous substrate",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 4.01206003889024,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Single dielectric underlay",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 1.0457690739098564,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-00",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164497,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-00",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939161820151254,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-01",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164487,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-01",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939161820150994,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-02",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164466,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-02",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939161820150647,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-03",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164466,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-03",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939175553015482,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-04",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164476,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-04",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939161820150615,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-05",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164514,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-05",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939161820151103,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-06",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.02602036437016446,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-06",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939161820151027,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-07",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164466,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-07",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939161820150918,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-08",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020340505415063,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-08",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939148087281422,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-09",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020340505415056,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-09",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939148087281465,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-10",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020352437789707,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-10",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939154953713812,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-11",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020352437789707,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-11",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939154953713985,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-12",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020352437789714,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-12",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939154953713953,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-13",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020363759813123,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-13",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939154953713769,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-14",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.02602035213261409,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-14",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939151520498403,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-15",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.02602035243778973,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-15",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.000139391549537139,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-16",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.02602035542088341,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-16",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0001393915667032258,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-17",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020355545814916,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-17",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0001393915634845909,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-18",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020355545814913,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-18",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939156348459058,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-19",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020355420883413,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-19",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0001393915667032258,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-20",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020352437789742,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-20",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0001393915495371392,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-21",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020352132614073,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-21",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939151520498295,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-22",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.02602036375981312,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-22",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939154953713855,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-23",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020352437789725,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-23",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939154953713855,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-24",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020352437789718,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-24",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939154953714007,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-25",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020352437789718,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-25",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939154953713866,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-26",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020340505415056,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-26",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939148087281509,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-27",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.02602034050541507,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-27",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939148087281433,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-28",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164493,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-28",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939161820150853,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-29",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164466,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-29",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939161820150983,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-30",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164518,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-30",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0001393916182015107,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-31",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164473,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-31",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939161820150647,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-32",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164466,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-32",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939175553015536,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-33",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164483,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-33",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0001393916182015068,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-34",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164497,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-34",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0001393916182015094,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::PV-row-35",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.026020364370164497,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Trace-row-35",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00013939161820151254,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Thin ceramic edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.009656639805467115,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Thin ceramic edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.009656639805467115,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Thin terminal edge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.006027839945800295,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Thin terminal edge.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.006027839945800295,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "LargePVField::Longitudinal electrical collector",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0022118398745727547,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-0::Underside backbone",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.08207999868035303,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-0::Hull shoe",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.014382002268791274,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-0::Slender crossbeam",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0105300004506111,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-0::Field support",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-0::Field support.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-0::Hull shoe.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.014382002268791275,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-0::Slender crossbeam.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0105300004506111,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-0::Field support.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-0::Field support.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-1::Underside backbone",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.08207999868035303,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-1::Hull shoe",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.014382002268791274,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-1::Slender crossbeam",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0105300004506111,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-1::Field support",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-1::Field support.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-1::Hull shoe.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.014382002268791275,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-1::Slender crossbeam.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0105300004506111,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-1::Field support.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-1::Field support.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-2::Underside backbone",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.08207999868035303,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-2::Hull shoe",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.014382002268791274,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-2::Slender crossbeam",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0105300004506111,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-2::Field support",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-2::Field support.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-2::Hull shoe.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.014382002268791275,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-2::Slender crossbeam.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0105300004506111,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-2::Field support.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-2::Field support.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-3::Underside backbone",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.08207999868035303,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-3::Hull shoe",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.014382002268791274,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-3::Slender crossbeam",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0105300004506111,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-3::Field support",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-3::Field support.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-3::Hull shoe.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.014382002268791275,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-3::Slender crossbeam.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0105300004506111,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-3::Field support.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-3::Field support.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-4::Underside backbone",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.08207999868035303,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-4::Hull shoe",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.014382002268791274,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-4::Slender crossbeam",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0105300004506111,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-4::Field support",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-4::Field support.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-4::Hull shoe.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.014382002268791275,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-4::Slender crossbeam.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0105300004506111,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-4::Field support.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-4::Field support.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-5::Underside backbone",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.08207999868035303,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-5::Hull shoe",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.014382002268791274,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-5::Slender crossbeam",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0105300004506111,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-5::Field support",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-5::Field support.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-5::Hull shoe.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.014382002268791275,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-5::Slender crossbeam.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0105300004506111,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-5::Field support.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "Support-5::Field support.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0013199999830126757,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    }
+  ],
+  "connections": [
+    {
+      "connection": {
+        "parent_instance": "Support-0",
+        "parent_socket": "Photovoltaic-field",
+        "child_instance": "LargePVField",
+        "child_socket": "support-0"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "Support-1",
+        "parent_socket": "Photovoltaic-field",
+        "child_instance": "LargePVField",
+        "child_socket": "support-1"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "Support-2",
+        "parent_socket": "Photovoltaic-field",
+        "child_instance": "LargePVField",
+        "child_socket": "support-2"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "Support-3",
+        "parent_socket": "Photovoltaic-field",
+        "child_instance": "LargePVField",
+        "child_socket": "support-3"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "Support-4",
+        "parent_socket": "Photovoltaic-field",
+        "child_instance": "LargePVField",
+        "child_socket": "support-4"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "Support-5",
+        "parent_socket": "Photovoltaic-field",
+        "child_instance": "LargePVField",
+        "child_socket": "support-5"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    }
+  ],
+  "instance_count": 7,
+  "resolved_parts": [
+    "MA-SP01-R2-P01",
+    "MA-SP04-P01"
+  ],
+  "preview_views": [
+    "top",
+    "perspective",
+    "top-grayscale"
+  ],
+  "grayscale_override_temporary": true,
+  "passive_cell_count": 576,
+  "trace_count": 1152,
+  "trace_cell_contact_verified": true,
+  "support_pair_nonintersection_verified": true,
+  "support_outline_containment_verified": true,
+  "glb_generated": false,
+  "game_validation": false,
+  "collision_LOD_validation": false,
+  "notes": "Static authoring model. Designed intersections at seats, pressure shields, thermal connections and service mounts are intentional. Physical BU scale unspecified."
+}

@@ -1,0 +1,294 @@
+{
+  "id": "MA-C01",
+  "checks_passed": true,
+  "verification": "Independent Blender process reopened all three new standalone sources and compatible shared service cartridge and final assembly. Geometry gates passed before dependent assembly. Mesh manifoldness, positive volume, nondegenerate faces, nondegenerate evaluated triangles and finite coordinates and material assignment checked. Full socket positions and orientations matched. All dependency versions and unit scales resolved.",
+  "standalone_parts": [
+    {
+      "id": "MA-C01-P01",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Pressure seal",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.6422200170180202
+        },
+        {
+          "mesh": "Titanium foundation",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.067327983147144
+        },
+        {
+          "mesh": "Compute cassette seat",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.4491840979285276
+        },
+        {
+          "mesh": "Shielded terminal cap",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.03513599852609635
+        },
+        {
+          "mesh": "Recessed maintenance blank",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0007301014054893015
+        },
+        {
+          "mesh": "Shielded terminal cap.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.03513599852609636
+        },
+        {
+          "mesh": "Recessed maintenance blank.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0007301014054893016
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-C01-P02",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Sealed vault lower casing",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.0586239823956487
+        },
+        {
+          "mesh": "Single protected vault",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.501571987732262
+        },
+        {
+          "mesh": "Compute bank ceramic shield",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.09575998288869926
+        },
+        {
+          "mesh": "Recessed shield seam",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.00011865603188282294
+        },
+        {
+          "mesh": "Compute bank ceramic shield.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.09575998964786535
+        },
+        {
+          "mesh": "Recessed shield seam.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.00011865604046590584
+        },
+        {
+          "mesh": "Compute bank ceramic shield.002",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.09575998288869927
+        },
+        {
+          "mesh": "Recessed shield seam.002",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0001186560318828235
+        },
+        {
+          "mesh": "Diagnostic recess",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0016759987126585842
+        },
+        {
+          "mesh": "Diagnostic cell",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 3.281613787951692e-05
+        },
+        {
+          "mesh": "Diagnostic cell.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 3.281603678984271e-05
+        },
+        {
+          "mesh": "Diagnostic cell.002",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 3.281603678983102e-05
+        },
+        {
+          "mesh": "Service cartridge pressure seat",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.01057602140712727
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-C01-P03",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Shoulder structural backing",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.292787507344596
+        },
+        {
+          "mesh": "Swept ceramic armor",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.05743499757975336
+        },
+        {
+          "mesh": "Diagonal enclosed support",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.004179722169948117
+        },
+        {
+          "mesh": "Swept ceramic armor.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.05743499757975336
+        },
+        {
+          "mesh": "Diagonal enclosed support.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.004179722169948117
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-R01-P05",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Flush pressure seal.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.013272000975389052
+        },
+        {
+          "mesh": "Hexagonal service cartridge.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.010070784395519613
+        },
+        {
+          "mesh": "Inset cartridge center.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0016776003010153817
+        },
+        {
+          "mesh": "Flush quarter turn lock.002",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.3033392208021095e-05
+        },
+        {
+          "mesh": "Flush quarter turn lock.003",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.3033392208021095e-05
+        },
+        {
+          "mesh": "Cartridge status.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 2.2100000194460142e-05
+        }
+      ],
+      "previews_present": true
+    }
+  ],
+  "connections": [
+    {
+      "connection": {
+        "parent_instance": "Foundation",
+        "parent_socket": "vault",
+        "child_instance": "ComputeVault",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Foundation",
+        "parent_socket": "guard-front",
+        "child_instance": "Guard.Front",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Foundation",
+        "parent_socket": "guard-back",
+        "child_instance": "Guard.Back",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "ComputeVault",
+        "parent_socket": "service",
+        "child_instance": "Service",
+        "child_socket": "bottom"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    }
+  ],
+  "instance_count": 5,
+  "resolved_parts": [
+    "MA-C01-P01",
+    "MA-C01-P02",
+    "MA-C01-P03",
+    "MA-R01-P05"
+  ],
+  "bounds_BU": {
+    "min": [
+      -1.9199999570846558,
+      -0.9300000071525574,
+      0.0
+    ],
+    "max": [
+      1.9199999570846558,
+      0.9300001859664917,
+      1.1970000267028809
+    ]
+  },
+  "preview_views": [
+    "top",
+    "perspective"
+  ],
+  "glb_generated": false,
+  "game_validation": false,
+  "collision_LOD_validation": false,
+  "notes": "Overlapping enclosure seats, pressure seals and armour layers are intentional contacts. No moving poses. Physical BU-to-metre conversion unspecified."
+}

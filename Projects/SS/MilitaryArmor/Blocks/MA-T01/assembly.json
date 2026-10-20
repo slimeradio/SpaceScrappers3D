@@ -1,0 +1,597 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-T01",
+  "version": "1.3+states1+floor1",
+  "catalog_id": "fleet-artillery-corvette",
+  "catalog_grid": [
+    2,
+    3
+  ],
+  "physical_scale": "unspecified; BU are authoring units",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y",
+    "handedness": "right",
+    "units": "Assembly: 1 BU = 1 gameplay cell; native part units transformed by ModelFit"
+  },
+  "nodes": [
+    {
+      "id": "MA-T01",
+      "parent": "ModelFit",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Azimuth",
+      "parent": "MA-T01",
+      "translation": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Hull",
+      "parent": "Azimuth",
+      "translation": [
+        0.0,
+        0.0,
+        0.6100000143051147
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Elevation",
+      "parent": "Hull",
+      "translation": [
+        0.0,
+        -0.9399999976158142,
+        0.8999999761581421
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "ModelFit",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.026313122936982437,
+        0.075
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.384133614750216,
+        0.384133614750216,
+        0.384133614750216
+      ]
+    },
+    {
+      "id": "Floor",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "Foundation",
+      "part_id": "MA-P01",
+      "version": "1.3",
+      "source": "../../Parts/MA-P01/MA-P01.blend",
+      "parent": "MA-T01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Bearing",
+      "part_id": "MA-P02",
+      "version": "1.3",
+      "source": "../../Parts/MA-P02/MA-P02.blend",
+      "parent": "Azimuth",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "TurretArmor",
+      "part_id": "MA-P03",
+      "version": "1.3",
+      "source": "../../Parts/MA-P03/MA-P03.blend",
+      "parent": "Hull",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Mantlet",
+      "part_id": "MA-P04",
+      "version": "1.3",
+      "source": "../../Parts/MA-P04/MA-P04.blend",
+      "parent": "Elevation",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Barrel.L",
+      "part_id": "MA-P05",
+      "version": "1.3",
+      "source": "../../Parts/MA-P05/MA-P05.blend",
+      "parent": "Elevation",
+      "translation": [
+        -0.58,
+        -0.77,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Barrel.R",
+      "part_id": "MA-P05",
+      "version": "1.3",
+      "source": "../../Parts/MA-P05/MA-P05.blend",
+      "parent": "Elevation",
+      "translation": [
+        0.58,
+        -0.77,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RoofHatch",
+      "part_id": "MA-P06",
+      "version": "1.3",
+      "source": "../../Parts/MA-P06/MA-P06.blend",
+      "parent": "Hull",
+      "translation": [
+        0,
+        0.96,
+        1.33
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RoofOptics",
+      "part_id": "MA-P07",
+      "version": "1.3",
+      "source": "../../Parts/MA-P07/MA-P07.blend",
+      "parent": "Hull",
+      "translation": [
+        0,
+        0.25,
+        1.33
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "TieDown.-1.52.-1.05",
+      "part_id": "MA-P08",
+      "version": "1.3",
+      "source": "../../Parts/MA-P08/MA-P08.blend",
+      "parent": "MA-T01",
+      "translation": [
+        -1.52,
+        -1.05,
+        0.88
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "TieDown.-1.52.1.05",
+      "part_id": "MA-P08",
+      "version": "1.3",
+      "source": "../../Parts/MA-P08/MA-P08.blend",
+      "parent": "MA-T01",
+      "translation": [
+        -1.52,
+        1.05,
+        0.88
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "TieDown.1.52.-1.05",
+      "part_id": "MA-P08",
+      "version": "1.3",
+      "source": "../../Parts/MA-P08/MA-P08.blend",
+      "parent": "MA-T01",
+      "translation": [
+        1.52,
+        -1.05,
+        0.88
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "TieDown.1.52.1.05",
+      "part_id": "MA-P08",
+      "version": "1.3",
+      "source": "../../Parts/MA-P08/MA-P08.blend",
+      "parent": "MA-T01",
+      "translation": [
+        1.52,
+        1.05,
+        0.88
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Floor",
+      "part_id": "MA-FLOOR-rect-2x3",
+      "version": "1.0",
+      "source": "../../Parts/MA-FLOOR-rect-2x3/MA-FLOOR-rect-2x3.blend",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "animations": {
+    "controller": "MA-T01",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      },
+      "aim_yaw": {
+        "default": 0,
+        "min": 0,
+        "max": 360
+      },
+      "aim_pitch": {
+        "default": 0,
+        "min": -8,
+        "max": 25
+      },
+      "recoil_Barrel_L": {
+        "default": 0,
+        "min": 0,
+        "max": 1
+      },
+      "recoil_Barrel_R": {
+        "default": 0,
+        "min": 0,
+        "max": 1
+      }
+    },
+    "channels": [
+      {
+        "node": "Azimuth",
+        "path": "rotation_euler",
+        "axis": 2,
+        "parameter": "aim_yaw",
+        "expression": "0.0+t*0.017453292519943295"
+      },
+      {
+        "node": "Elevation",
+        "path": "rotation_euler",
+        "axis": 0,
+        "parameter": "aim_pitch",
+        "expression": "0.0+t*0.017453292519943295"
+      },
+      {
+        "node": "Barrel.L",
+        "path": "location",
+        "axis": 1,
+        "parameter": "recoil_Barrel_L",
+        "expression": "-0.7699999809265137+t*0.17"
+      },
+      {
+        "node": "Barrel.R",
+        "path": "location",
+        "axis": 1,
+        "parameter": "recoil_Barrel_R",
+        "expression": "-0.7699999809265137+t*0.17"
+      }
+    ],
+    "clips": [
+      {
+        "name": "MA-T01::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-T01::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-T01::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-T01::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-T01::fire",
+        "parameters": [
+          "activity",
+          "recoil_Barrel_L",
+          "recoil_Barrel_R"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "state_authoring": "state-authoring.json",
+  "floor_fit": {
+    "floor": "MA-FLOOR-rect-2x3",
+    "margin_cells": 0.08,
+    "uniform_scale": 0.384133614750216,
+    "translation": [
+      0.0,
+      0.026313122936982437,
+      0.075
+    ],
+    "body_instances": [
+      "Foundation",
+      "Bearing",
+      "TurretArmor",
+      "Mantlet",
+      "RoofHatch",
+      "RoofOptics",
+      "TieDown.-1.52.-1.05",
+      "TieDown.-1.52.1.05",
+      "TieDown.1.52.-1.05",
+      "TieDown.1.52.1.05"
+    ],
+    "protrusion_instances": [
+      "Barrel.L",
+      "Barrel.R"
+    ]
+  }
+}

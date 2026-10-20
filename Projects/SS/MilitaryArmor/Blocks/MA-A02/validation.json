@@ -1,0 +1,115 @@
+{
+  "id": "MA-A02",
+  "source_saved": true,
+  "source_parts_saved_before_assembly": true,
+  "instance_count": 1,
+  "resolved_parts": [
+    "MA-A02-P01"
+  ],
+  "missing_dependencies": [],
+  "glb": {
+    "magic": "glTF",
+    "version": 2,
+    "length_matches": true,
+    "mesh_count": 1,
+    "node_count": 4,
+    "animation_count": 0,
+    "embedded_buffers": true,
+    "external_images": []
+  },
+  "game_validation": false,
+  "checks_passed": true,
+  "source_reopened": true,
+  "source_geometry": {
+    "mesh_count": 1,
+    "triangles": 76,
+    "zero_area_faces": 0,
+    "nonmanifold_edges": 0,
+    "geometric_nonmanifold_edges": 0,
+    "materials": [
+      "Armor",
+      "Ceramic"
+    ],
+    "emission": false,
+    "bounds": {
+      "min": [
+        -1.0,
+        -0.5,
+        0.0
+      ],
+      "max": [
+        1.0,
+        0.5,
+        0.2800000011920929
+      ]
+    },
+    "transforms_finite": true,
+    "unit_scale": true
+  },
+  "glb_roundtrip": {
+    "mesh_count": 1,
+    "triangles": 76,
+    "zero_area_faces": 0,
+    "nonmanifold_edges": 136,
+    "geometric_nonmanifold_edges": 0,
+    "materials": [
+      "Armor",
+      "Ceramic"
+    ],
+    "emission": false,
+    "bounds": {
+      "min": [
+        -1.0,
+        -0.5,
+        0.0
+      ],
+      "max": [
+        1.0,
+        0.5,
+        0.2800000011920929
+      ]
+    },
+    "transforms_finite": true,
+    "unit_scale": true
+  },
+  "roundtrip_passed": true,
+  "review_images_TEMP_only": [
+    "C:\\Users\\nebul\\AppData\\Local\\Temp\\MA-armor-review\\MA-A02-final-oblique.png",
+    "C:\\Users\\nebul\\AppData\\Local\\Temp\\MA-armor-review\\MA-A02-final-top.png",
+    "C:\\Users\\nebul\\AppData\\Local\\Temp\\MA-armor-review\\MA-A02-final-tiled.png"
+  ],
+  "visual_review": "Passed: final oblique, top, and 4x4 repetition images inspected; quiet repeated panel, consistent structural edges, no display geometry in source/export.",
+  "catalog_boundary_retained": true,
+  "edge_height_BU": 0.16,
+  "top_height_BU": 0.28,
+  "functional_points": [],
+  "animations": [],
+  "part_source_reopened": true,
+  "part_geometry": {
+    "mesh_count": 1,
+    "triangles": 76,
+    "zero_area_faces": 0,
+    "nonmanifold_edges": 0,
+    "geometric_nonmanifold_edges": 0,
+    "materials": [
+      "Armor",
+      "Ceramic"
+    ],
+    "emission": false,
+    "bounds": {
+      "min": [
+        -1.0,
+        -0.5,
+        0.0
+      ],
+      "max": [
+        1.0,
+        0.5,
+        0.2800000011920929
+      ]
+    },
+    "transforms_finite": true,
+    "unit_scale": true
+  },
+  "gltf_vertex_splits": "Raw imported boundary counts reflect expected hard-normal/material vertex splits; position-welded topology is closed and manifold."
+}

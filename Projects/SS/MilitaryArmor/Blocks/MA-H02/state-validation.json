@@ -1,0 +1,2248 @@
+{
+  "id": "MA-H02",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 61,
+  "mount_adapters_aligned": [
+    "hinge-RadiatingBlade-B0-0.L",
+    "hinge-RadiatingBlade-B0-0.R",
+    "hinge-RadiatingBlade-B0-1.L",
+    "hinge-RadiatingBlade-B0-1.R",
+    "hinge-RadiatingBlade-B0-2.L",
+    "hinge-RadiatingBlade-B0-2.R",
+    "hinge-RadiatingBlade-B0-3.L",
+    "hinge-RadiatingBlade-B0-3.R",
+    "hinge-RadiatingBlade-B0-4.L",
+    "hinge-RadiatingBlade-B0-4.R",
+    "hinge-RadiatingBlade-B0-5.L",
+    "hinge-RadiatingBlade-B0-5.R",
+    "hinge-RadiatingBlade-B0-6.L",
+    "hinge-RadiatingBlade-B0-6.R",
+    "hinge-RadiatingBlade-B0-7.L",
+    "hinge-RadiatingBlade-B0-7.R",
+    "hinge-RadiatingBlade-B0-8.L",
+    "hinge-RadiatingBlade-B0-8.R",
+    "hinge-RadiatingBlade-B0-9.L",
+    "hinge-RadiatingBlade-B0-9.R",
+    "hinge-RadiatingBlade-B0-10.L",
+    "hinge-RadiatingBlade-B0-10.R",
+    "hinge-RadiatingBlade-B0-11.L",
+    "hinge-RadiatingBlade-B0-11.R",
+    "hinge-RadiatingBlade-B0-12.L",
+    "hinge-RadiatingBlade-B0-12.R",
+    "hinge-RadiatingBlade-B0-13.L",
+    "hinge-RadiatingBlade-B0-13.R",
+    "hinge-RadiatingBlade-B0-14.L",
+    "hinge-RadiatingBlade-B0-14.R",
+    "hinge-RadiatingBlade-B1-0.L",
+    "hinge-RadiatingBlade-B1-0.R",
+    "hinge-RadiatingBlade-B1-1.L",
+    "hinge-RadiatingBlade-B1-1.R",
+    "hinge-RadiatingBlade-B1-2.L",
+    "hinge-RadiatingBlade-B1-2.R",
+    "hinge-RadiatingBlade-B1-3.L",
+    "hinge-RadiatingBlade-B1-3.R",
+    "hinge-RadiatingBlade-B1-4.L",
+    "hinge-RadiatingBlade-B1-4.R",
+    "hinge-RadiatingBlade-B1-5.L",
+    "hinge-RadiatingBlade-B1-5.R",
+    "hinge-RadiatingBlade-B1-6.L",
+    "hinge-RadiatingBlade-B1-6.R",
+    "hinge-RadiatingBlade-B1-7.L",
+    "hinge-RadiatingBlade-B1-7.R",
+    "hinge-RadiatingBlade-B1-8.L",
+    "hinge-RadiatingBlade-B1-8.R",
+    "hinge-RadiatingBlade-B1-9.L",
+    "hinge-RadiatingBlade-B1-9.R",
+    "hinge-RadiatingBlade-B1-10.L",
+    "hinge-RadiatingBlade-B1-10.R",
+    "hinge-RadiatingBlade-B1-11.L",
+    "hinge-RadiatingBlade-B1-11.R",
+    "hinge-RadiatingBlade-B1-12.L",
+    "hinge-RadiatingBlade-B1-12.R",
+    "hinge-RadiatingBlade-B1-13.L",
+    "hinge-RadiatingBlade-B1-13.R",
+    "hinge-RadiatingBlade-B1-14.L",
+    "hinge-RadiatingBlade-B1-14.R"
+  ],
+  "clips": [
+    {
+      "name": "MA-H02::open",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-H02::close",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-H02::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-H02::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-H02::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-H02::cool_down",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [
+    {
+      "node": "RadiatingBlade-B0-0.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-0.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-1.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-1.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-2.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-2.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-3.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-3.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-4.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-4.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-5.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-5.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-6.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-6.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-7.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-7.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-8.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-8.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-9.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-9.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-10.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-10.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-11.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-11.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-12.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-12.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-13.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-13.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-14.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B0-14.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-0.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-0.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-1.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-1.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-2.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-2.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-3.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-3.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-4.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-4.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-5.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-5.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-6.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-6.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-7.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-7.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-8.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-8.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-9.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-9.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-10.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-10.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-11.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-11.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-12.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-12.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-13.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-13.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-14.L::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RadiatingBlade-B1-14.R::Deployment",
+      "parameter": "deployment",
+      "sampled_values": [
+        -1.5707963705062866,
+        -0.7853981852531433,
+        0.0
+      ],
+      "driver_valid": true
+    }
+  ],
+  "materials": [
+    {
+      "object": "RadiatingBlade-B0-0.L::Thermal face",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-0.L::Thermal face.001",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-0.R::Thermal face.002",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-0.R::Thermal face.003",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-1.L::Thermal face.004",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-1.L::Thermal face.005",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-1.R::Thermal face.006",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-1.R::Thermal face.007",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-2.L::Thermal face.008",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-2.L::Thermal face.009",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-2.R::Thermal face.010",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-2.R::Thermal face.011",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-3.L::Thermal face.012",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-3.L::Thermal face.013",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-3.R::Thermal face.014",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-3.R::Thermal face.015",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-4.L::Thermal face.016",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-4.L::Thermal face.017",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-4.R::Thermal face.018",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-4.R::Thermal face.019",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-5.L::Thermal face.020",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-5.L::Thermal face.021",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-5.R::Thermal face.022",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-5.R::Thermal face.023",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-6.L::Thermal face.024",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-6.L::Thermal face.025",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-6.R::Thermal face.026",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-6.R::Thermal face.027",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-7.L::Thermal face.028",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-7.L::Thermal face.029",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-7.R::Thermal face.030",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-7.R::Thermal face.031",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-8.L::Thermal face.032",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-8.L::Thermal face.033",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-8.R::Thermal face.034",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-8.R::Thermal face.035",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-9.L::Thermal face.036",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-9.L::Thermal face.037",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-9.R::Thermal face.038",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-9.R::Thermal face.039",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-10.L::Thermal face.040",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-10.L::Thermal face.041",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-10.R::Thermal face.042",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-10.R::Thermal face.043",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-11.L::Thermal face.044",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-11.L::Thermal face.045",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-11.R::Thermal face.046",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-11.R::Thermal face.047",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-12.L::Thermal face.048",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-12.L::Thermal face.049",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-12.R::Thermal face.050",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-12.R::Thermal face.051",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-13.L::Thermal face.052",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-13.L::Thermal face.053",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-13.R::Thermal face.054",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-13.R::Thermal face.055",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-14.L::Thermal face.056",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-14.L::Thermal face.057",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-14.R::Thermal face.058",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B0-14.R::Thermal face.059",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-0.L::Thermal face.060",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-0.L::Thermal face.061",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-0.R::Thermal face.062",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-0.R::Thermal face.063",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-1.L::Thermal face.064",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-1.L::Thermal face.065",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-1.R::Thermal face.066",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-1.R::Thermal face.067",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-2.L::Thermal face.068",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-2.L::Thermal face.069",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-2.R::Thermal face.070",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-2.R::Thermal face.071",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-3.L::Thermal face.072",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-3.L::Thermal face.073",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-3.R::Thermal face.074",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-3.R::Thermal face.075",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-4.L::Thermal face.076",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-4.L::Thermal face.077",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-4.R::Thermal face.078",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-4.R::Thermal face.079",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-5.L::Thermal face.080",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-5.L::Thermal face.081",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-5.R::Thermal face.082",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-5.R::Thermal face.083",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-6.L::Thermal face.084",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-6.L::Thermal face.085",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-6.R::Thermal face.086",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-6.R::Thermal face.087",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-7.L::Thermal face.088",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-7.L::Thermal face.089",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-7.R::Thermal face.090",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-7.R::Thermal face.091",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-8.L::Thermal face.092",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-8.L::Thermal face.093",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-8.R::Thermal face.094",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-8.R::Thermal face.095",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-9.L::Thermal face.096",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-9.L::Thermal face.097",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-9.R::Thermal face.098",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-9.R::Thermal face.099",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-10.L::Thermal face.100",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-10.L::Thermal face.101",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-10.R::Thermal face.102",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-10.R::Thermal face.103",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-11.L::Thermal face.104",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-11.L::Thermal face.105",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-11.R::Thermal face.106",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-11.R::Thermal face.107",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-12.L::Thermal face.108",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-12.L::Thermal face.109",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-12.R::Thermal face.110",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-12.R::Thermal face.111",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-13.L::Thermal face.112",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-13.L::Thermal face.113",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-13.R::Thermal face.114",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-13.R::Thermal face.115",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-14.L::Thermal face.116",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-14.L::Thermal face.117",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-14.R::Thermal face.118",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "RadiatingBlade-B1-14.R::Thermal face.119",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [
+    {
+      "deployment": 0.0,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.05,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.1,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.15,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.2,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.25,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.3,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.35,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.4,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.45,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.5,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.55,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.6,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.65,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.7,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.75,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.8,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.85,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.9,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 0.95,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    },
+    {
+      "deployment": 1.0,
+      "near_pairs_tested": 0,
+      "unintended_triangle_intersections": 0
+    }
+  ],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

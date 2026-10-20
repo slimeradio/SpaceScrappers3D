@@ -1,0 +1,324 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W08-P02",
+  "version": "1.0",
+  "name": "Single open polygonal rocket launch canister",
+  "source": "MA-W08-P02.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.8149999976158142,
+      -2.8399999141693115,
+      0.009999987669289112
+    ],
+    "max": [
+      0.8149999976158142,
+      2.3499999046325684,
+      1.1699999570846558
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "External canister reinforcing collar",
+        "External canister reinforcing collar.001",
+        "External canister reinforcing collar.002",
+        "External canister reinforcing collar.003",
+        "External canister reinforcing collar.004",
+        "Tapered rear locking breech"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Bright open muzzle seal",
+        "Rear service shelf",
+        "Segmented upper canister armor",
+        "Segmented upper canister armor.001",
+        "Segmented upper canister armor.002",
+        "Segmented upper canister armor.003",
+        "Segmented upper canister armor.004",
+        "Segmented upper canister armor.005"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Closed rear rocket chamber",
+        "Lower launch support",
+        "Lower launch support.001"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Optic",
+      "surfaces": [
+        "Small chamber state index"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25,
+        1.0
+      ],
+      "metalness": 0.6499999761581421,
+      "roughness": 0.18000000715255737,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Reserve cassette coupling",
+        "Reserve cassette coupling.001"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Long octagonal launch tube",
+        "Forward optic seat"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Optic",
+      "regions": [
+        "Small chamber state index"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25
+      ],
+      "strength": 0.699999988079071,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "root",
+      "parent": "part",
+      "role": "yaw",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "yaw",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "reserve-left",
+      "parent": "part",
+      "role": "reserve",
+      "position": [
+        -0.74,
+        0.33,
+        0.48
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "reserve",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "reserve-right",
+      "parent": "part",
+      "role": "reserve",
+      "position": [
+        0.74,
+        0.33,
+        0.48
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "reserve",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "service",
+      "parent": "part",
+      "role": "accessory",
+      "position": [
+        0,
+        1.74,
+        1.14
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "accessory",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "optic",
+      "parent": "part",
+      "role": "accessory",
+      "position": [
+        0,
+        -1.7,
+        1.17
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "accessory",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "shoot",
+      "role": "muzzle",
+      "parent": "part",
+      "node": "point.shoot",
+      "position": [
+        0,
+        -2.86,
+        0.56
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": "MilitaryArmor single-channel rocket authoring; editable procedural PBR, no file textures, no UV dependency; static source part, no GLB."
+}

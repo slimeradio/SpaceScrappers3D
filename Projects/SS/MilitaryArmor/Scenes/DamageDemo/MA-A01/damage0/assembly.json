@@ -1,0 +1,32 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-A01",
+  "damage_state": "damage0",
+  "instances": [
+    {
+      "id": "armor-shell",
+      "part_id": "MA-A01-P01",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-A01-P01/MA-A01-P01.blend",
+      "parent": "MA-A01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_assembly": "Blocks\\MA-A01\\assembly.json",
+  "animations": "rest pose demo only; original rig retained",
+  "game_validated": false
+}

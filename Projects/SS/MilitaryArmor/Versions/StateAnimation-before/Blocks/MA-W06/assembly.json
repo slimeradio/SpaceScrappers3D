@@ -1,0 +1,442 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W06",
+  "version": "1.0",
+  "title": "Long-rail sniper turret",
+  "catalog_id": "sniper-turret",
+  "catalog_grid": [
+    1,
+    2
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Hardpoint",
+      "part_id": "MA-W06-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-W06-P01/MA-W06-P01.blend",
+      "parent": "MA-W06",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "SpearCradle",
+      "part_id": "MA-W06-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-W06-P02/MA-W06-P02.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "SplitRail",
+      "part_id": "MA-W06-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-W06-P03/MA-W06-P03.blend",
+      "parent": "Recoil",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "AftCapacitor",
+      "part_id": "MA-W06-P04",
+      "version": "1.0",
+      "source": "../../Parts/MA-W06-P04/MA-W06-P04.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        1.3,
+        0.3
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Service",
+      "part_id": "MA-P06",
+      "version": "1.3",
+      "source": "../../Parts/MA-P06/MA-P06.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        1.02,
+        1.18
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Lidar",
+      "part_id": "MA-P07",
+      "version": "1.3",
+      "source": "../../Parts/MA-P07/MA-P07.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        0.15,
+        1.125
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MA-W06",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Hardpoint",
+      "parent": "MA-W06",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Yaw",
+      "parent": "MA-W06",
+      "translation": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "SpearCradle",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Elevation",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        -0.6800000071525574,
+        0.7200000286102295
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Recoil",
+      "parent": "Elevation",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "SplitRail",
+      "parent": "Recoil",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "AftCapacitor",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        1.2999999523162842,
+        0.30000001192092896
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Service",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        1.0199999809265137,
+        1.1799999475479126
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Lidar",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        0.15000000596046448,
+        1.125
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "animations": {
+    "fps": 24,
+    "frame_range": [
+      1,
+      120
+    ],
+    "channels": [
+      {
+        "node": "Yaw",
+        "channel": "rotation_euler",
+        "axis": "Z",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            0
+          ],
+          [
+            30,
+            -45
+          ],
+          [
+            60,
+            0
+          ],
+          [
+            90,
+            45
+          ],
+          [
+            120,
+            0
+          ]
+        ]
+      },
+      {
+        "node": "Elevation",
+        "channel": "rotation_euler",
+        "axis": "X",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            0
+          ],
+          [
+            30,
+            -12
+          ],
+          [
+            60,
+            4
+          ],
+          [
+            90,
+            -12
+          ],
+          [
+            120,
+            0
+          ]
+        ]
+      },
+      {
+        "node": "Recoil",
+        "channel": "location",
+        "axis": "Y",
+        "units": "BU",
+        "keys": [
+          [
+            1,
+            0
+          ],
+          [
+            40,
+            0
+          ],
+          [
+            43,
+            0.22
+          ],
+          [
+            53,
+            0
+          ],
+          [
+            120,
+            0
+          ]
+        ]
+      }
+    ],
+    "demonstration_only": true,
+    "interpolation": "Blender Bezier"
+  },
+  "exports": [
+    "Exports/MA-W06.glb"
+  ],
+  "notes": "Catalog 1x2 footprint class; one barrel and one muzzle. BU scale not metres. Catalog yaw ±45deg; elevation/recoil are artistic demonstrations. Split rails share one central projectile channel."
+}

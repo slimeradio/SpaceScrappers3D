@@ -1,0 +1,84 @@
+{
+  "schema": "MilitaryArmor.StorageSolarAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-FT01",
+      "title": "Бак топлива 1×2 — визуальная заготовка",
+      "version": "1.0",
+      "catalog_id": "fuel-tank-1x2",
+      "catalog_grid": [
+        1,
+        2
+      ],
+      "source": "Blocks/MA-FT01/MA-FT01.blend",
+      "assembly": "Blocks/MA-FT01/assembly.json",
+      "parts": [
+        "MA-FT01-P01",
+        "MA-FT01-P02",
+        "MA-FT01-P03",
+        "MA-R01-P05"
+      ],
+      "instance_count": 5,
+      "validation": "Blocks/MA-FT01/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-FT01/Previews/perspective.png",
+        "Blocks/MA-FT01/Previews/top.png"
+      ],
+      "functional_redesign": false
+    },
+    {
+      "id": "MA-HS01",
+      "title": "Накопитель тепла 1×1 — визуальная заготовка",
+      "version": "2.0",
+      "catalog_id": "heat-store-1x1",
+      "catalog_grid": [
+        1,
+        1
+      ],
+      "source": "Blocks/MA-HS01/MA-HS01.blend",
+      "assembly": "Blocks/MA-HS01/assembly.json",
+      "parts": [
+        "MA-HS01-R2-P01",
+        "MA-HS01-R2-P02",
+        "MA-HS01-R2-P03"
+      ],
+      "instance_count": 5,
+      "validation": "Blocks/MA-HS01/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-HS01/Previews/perspective.png",
+        "Blocks/MA-HS01/Previews/top.png"
+      ],
+      "functional_redesign": true
+    },
+    {
+      "id": "MA-SP01",
+      "title": "Солнечная панель 1×2 — визуальная заготовка",
+      "version": "2.0",
+      "catalog_id": "solar-1x2",
+      "catalog_grid": [
+        1,
+        2
+      ],
+      "source": "Blocks/MA-SP01/MA-SP01.blend",
+      "assembly": "Blocks/MA-SP01/assembly.json",
+      "parts": [
+        "MA-SP01-R2-P01",
+        "MA-SP01-R2-P02"
+      ],
+      "instance_count": 2,
+      "validation": "Blocks/MA-SP01/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-SP01/Previews/perspective.png",
+        "Blocks/MA-SP01/Previews/top.png"
+      ],
+      "functional_redesign": true
+    }
+  ],
+  "physical_scale": "BU unspecified",
+  "glb_generated": false,
+  "game_validation": false,
+  "revision_note": "Functional identity redesign v2.0; see FunctionalIdentity.md for revised models and prior versions."
+}

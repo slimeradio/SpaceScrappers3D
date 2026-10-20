@@ -1,0 +1,656 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W06-RADIATOR",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Helion: разрезная радиаторная гребёнка",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "coolant-rail",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.06
+      ],
+      "outline": [
+        [
+          -0.024999999999999994,
+          -0.605
+        ],
+        [
+          0.024999999999999994,
+          -0.605
+        ],
+        [
+          0.06,
+          -0.57
+        ],
+        [
+          0.06,
+          0.57
+        ],
+        [
+          0.024999999999999994,
+          0.605
+        ],
+        [
+          -0.024999999999999994,
+          0.605
+        ],
+        [
+          -0.06,
+          0.57
+        ],
+        [
+          -0.06,
+          -0.57
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.06,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.048,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.044,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.06,
+          "scale": [
+            0.88,
+            0.88
+          ]
+        }
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "sail-0",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.44,
+        0.495
+      ],
+      "outline": [
+        [
+          -0.012499999999999997,
+          -0.1175
+        ],
+        [
+          0.012499999999999997,
+          -0.1175
+        ],
+        [
+          0.0375,
+          -0.0925
+        ],
+        [
+          0.0375,
+          0.0925
+        ],
+        [
+          0.012499999999999997,
+          0.1175
+        ],
+        [
+          -0.012499999999999997,
+          0.1175
+        ],
+        [
+          -0.0375,
+          0.0925
+        ],
+        [
+          -0.0375,
+          -0.0925
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.395,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.383,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.379,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.395,
+          "scale": [
+            0.56,
+            0.56
+          ]
+        }
+      ],
+      "material": "armor",
+      "rotationEulerXYZ": [
+        -0.14,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "sail-core-0",
+      "shape": "roundedBox",
+      "position": [
+        0.041,
+        -0.44,
+        0.4576
+      ],
+      "size": [
+        0.014,
+        0.16,
+        0.4661
+      ],
+      "radius": 0.008,
+      "material": "graphite"
+    },
+    {
+      "id": "sail-light-0",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.402,
+        0.89
+      ],
+      "size": [
+        0.04,
+        0.14,
+        0.012
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "sail-1",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.15000000000000002,
+        0.44000000000000006
+      ],
+      "outline": [
+        [
+          -0.012499999999999997,
+          -0.1175
+        ],
+        [
+          0.012499999999999997,
+          -0.1175
+        ],
+        [
+          0.0375,
+          -0.0925
+        ],
+        [
+          0.0375,
+          0.0925
+        ],
+        [
+          0.012499999999999997,
+          0.1175
+        ],
+        [
+          -0.012499999999999997,
+          0.1175
+        ],
+        [
+          -0.0375,
+          0.0925
+        ],
+        [
+          -0.0375,
+          -0.0925
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.34,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.328,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.324,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.34,
+          "scale": [
+            0.56,
+            0.56
+          ]
+        }
+      ],
+      "material": "armor",
+      "rotationEulerXYZ": [
+        -0.14,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "sail-core-1",
+      "shape": "roundedBox",
+      "position": [
+        0.041,
+        -0.15000000000000002,
+        0.4092
+      ],
+      "size": [
+        0.014,
+        0.16,
+        0.4012
+      ],
+      "radius": 0.008,
+      "material": "graphite"
+    },
+    {
+      "id": "sail-light-1",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.11200000000000002,
+        0.78
+      ],
+      "size": [
+        0.04,
+        0.14,
+        0.012
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "sail-2",
+      "shape": "loft",
+      "position": [
+        0,
+        0.13999999999999996,
+        0.385
+      ],
+      "outline": [
+        [
+          -0.012499999999999997,
+          -0.1175
+        ],
+        [
+          0.012499999999999997,
+          -0.1175
+        ],
+        [
+          0.0375,
+          -0.0925
+        ],
+        [
+          0.0375,
+          0.0925
+        ],
+        [
+          0.012499999999999997,
+          0.1175
+        ],
+        [
+          -0.012499999999999997,
+          0.1175
+        ],
+        [
+          -0.0375,
+          0.0925
+        ],
+        [
+          -0.0375,
+          -0.0925
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.28500000000000003,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.273,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.269,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.28500000000000003,
+          "scale": [
+            0.56,
+            0.56
+          ]
+        }
+      ],
+      "material": "armor",
+      "rotationEulerXYZ": [
+        -0.14,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "sail-core-2",
+      "shape": "roundedBox",
+      "position": [
+        0.041,
+        0.13999999999999996,
+        0.3608
+      ],
+      "size": [
+        0.014,
+        0.16,
+        0.33630000000000004
+      ],
+      "radius": 0.008,
+      "material": "graphite"
+    },
+    {
+      "id": "sail-light-2",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.17799999999999996,
+        0.67
+      ],
+      "size": [
+        0.04,
+        0.14,
+        0.012
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "sail-3",
+      "shape": "loft",
+      "position": [
+        0,
+        0.4299999999999999,
+        0.33
+      ],
+      "outline": [
+        [
+          -0.012499999999999997,
+          -0.1175
+        ],
+        [
+          0.012499999999999997,
+          -0.1175
+        ],
+        [
+          0.0375,
+          -0.0925
+        ],
+        [
+          0.0375,
+          0.0925
+        ],
+        [
+          0.012499999999999997,
+          0.1175
+        ],
+        [
+          -0.012499999999999997,
+          0.1175
+        ],
+        [
+          -0.0375,
+          0.0925
+        ],
+        [
+          -0.0375,
+          -0.0925
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.23,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.218,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.21400000000000002,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.23,
+          "scale": [
+            0.56,
+            0.56
+          ]
+        }
+      ],
+      "material": "armor",
+      "rotationEulerXYZ": [
+        -0.14,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "sail-core-3",
+      "shape": "roundedBox",
+      "position": [
+        0.041,
+        0.4299999999999999,
+        0.3124
+      ],
+      "size": [
+        0.014,
+        0.16,
+        0.2714
+      ],
+      "radius": 0.008,
+      "material": "graphite"
+    },
+    {
+      "id": "sail-light-3",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.46799999999999986,
+        0.56
+      ],
+      "size": [
+        0.04,
+        0.14,
+        0.012
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; viewer box-projected UV for optional SharedTextures",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "sail-light-0",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "sail-light-1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "sail-light-2",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "sail-light-3",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W06-YAW.radiator-*"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.06,
+      -0.6097953924637274,
+      0.0
+    ],
+    "max": [
+      0.06,
+      0.605,
+      0.896
+    ],
+    "size": [
+      0.12,
+      1.2147953924637274,
+      0.896
+    ]
+  }
+}

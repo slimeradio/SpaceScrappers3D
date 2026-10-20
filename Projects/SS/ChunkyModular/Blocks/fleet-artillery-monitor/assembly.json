@@ -1,0 +1,817 @@
+{
+  "schema": "SS3D.authoring.block/1",
+  "id": "fleet-artillery-monitor",
+  "catalog_id": "fleet-artillery-monitor",
+  "title": "Monitor triple heavy artillery",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "units": "design_unit",
+  "up": "+Z",
+  "forward": "-Y",
+  "handedness": "right",
+  "catalog_grid_cells": [
+    3,
+    3
+  ],
+  "cell_scale": "not defined; grid footprint is reference metadata, not meters",
+  "instances": [
+    {
+      "id": "foundation",
+      "part": "cm-monitor-deck",
+      "version": "1.0.0",
+      "parent": "fleet-artillery-monitor",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "bearing",
+      "part": "cm-bearing",
+      "version": "2.0.0",
+      "parent": "fleet-artillery-monitor",
+      "translation": [
+        0,
+        0,
+        0.6
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.35,
+        1.35,
+        1.35
+      ]
+    },
+    {
+      "id": "casemate",
+      "part": "cm-monitor-casemate",
+      "version": "1.0.0",
+      "parent": "yaw",
+      "translation": [
+        0,
+        0,
+        0.63
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "roof",
+      "part": "cm-monitor-roof",
+      "version": "1.0.0",
+      "parent": "yaw",
+      "translation": [
+        0,
+        0.12,
+        1.4
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "aft_balance",
+      "part": "cm-monitor-counterweight",
+      "version": "1.0.0",
+      "parent": "yaw",
+      "translation": [
+        0,
+        1.77,
+        0.61
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "carriage_0",
+      "part": "cm-monitor-sleeve",
+      "version": "1.0.0",
+      "parent": "elevation",
+      "translation": [
+        -1.04,
+        -1.04,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "gun_0",
+      "part": "cm-monitor-gun",
+      "version": "1.0.0",
+      "parent": "recoil_0",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "carriage_1",
+      "part": "cm-monitor-sleeve",
+      "version": "1.0.0",
+      "parent": "elevation",
+      "translation": [
+        0,
+        -1.04,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "gun_1",
+      "part": "cm-monitor-gun",
+      "version": "1.0.0",
+      "parent": "recoil_1",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "carriage_2",
+      "part": "cm-monitor-sleeve",
+      "version": "1.0.0",
+      "parent": "elevation",
+      "translation": [
+        1.04,
+        -1.04,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "gun_2",
+      "part": "cm-monitor-gun",
+      "version": "1.0.0",
+      "parent": "recoil_2",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "status_-1.5",
+      "part": "cm-lamp",
+      "version": "2.0.0",
+      "parent": "yaw",
+      "translation": [
+        -1.5,
+        -1.48,
+        1.09
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "id": "status_1.5",
+      "part": "cm-lamp",
+      "version": "2.0.0",
+      "parent": "yaw",
+      "translation": [
+        1.5,
+        -1.48,
+        1.09
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "muzzle_0",
+      "position": [
+        0,
+        -4.61,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "recoil_0",
+      "role": "projectile_origin",
+      "space": "local",
+      "barrel_ref": "fleet-artillery-monitor-barrel-0"
+    },
+    {
+      "id": "muzzle_1",
+      "position": [
+        0,
+        -4.61,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "recoil_1",
+      "role": "projectile_origin",
+      "space": "local",
+      "barrel_ref": "fleet-artillery-monitor-barrel-1"
+    },
+    {
+      "id": "muzzle_2",
+      "position": [
+        0,
+        -4.61,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "recoil_2",
+      "role": "projectile_origin",
+      "space": "local",
+      "barrel_ref": "fleet-artillery-monitor-barrel-2"
+    }
+  ],
+  "animation_tracks": [
+    {
+      "node": "recoil_0",
+      "path": "location",
+      "component": 1,
+      "keys": [
+        [
+          1,
+          -1.04
+        ],
+        [
+          20,
+          -1.04
+        ],
+        [
+          24,
+          -0.74
+        ],
+        [
+          44,
+          -1.04
+        ],
+        [
+          121,
+          -1.04
+        ]
+      ]
+    },
+    {
+      "node": "recoil_1",
+      "path": "location",
+      "component": 1,
+      "keys": [
+        [
+          1,
+          -1.04
+        ],
+        [
+          32,
+          -1.04
+        ],
+        [
+          36,
+          -0.74
+        ],
+        [
+          56,
+          -1.04
+        ],
+        [
+          121,
+          -1.04
+        ]
+      ]
+    },
+    {
+      "node": "recoil_2",
+      "path": "location",
+      "component": 1,
+      "keys": [
+        [
+          1,
+          -1.04
+        ],
+        [
+          44,
+          -1.04
+        ],
+        [
+          48,
+          -0.74
+        ],
+        [
+          68,
+          -1.04
+        ],
+        [
+          121,
+          -1.04
+        ]
+      ]
+    },
+    {
+      "node": "yaw",
+      "path": "rotation_euler",
+      "component": 2,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          61,
+          0.4
+        ],
+        [
+          121,
+          0
+        ]
+      ]
+    },
+    {
+      "node": "elevation",
+      "path": "rotation_euler",
+      "component": 0,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          61,
+          -0.25
+        ],
+        [
+          121,
+          0
+        ]
+      ]
+    }
+  ],
+  "rest_bounds": {
+    "min": [
+      -2.3350000381469727,
+      -5.644999980926514,
+      0.0
+    ],
+    "max": [
+      2.3350000381469727,
+      2.444999933242798,
+      3.0
+    ],
+    "dimensions": [
+      4.670000076293945,
+      8.09000015258789,
+      3.0
+    ]
+  },
+  "materials": [
+    "CM.amber.001",
+    "CM.graphite.001",
+    "CM.orange.001",
+    "CM.rubber.001",
+    "CM.steel.001"
+  ],
+  "sampled_poses": [
+    {
+      "frame": 1,
+      "muzzles": [
+        {
+          "id": "muzzle_0",
+          "position": [
+            -1.0399999618530273,
+            -5.650000095367432,
+            1.9700000286102295
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "muzzle_1",
+          "position": [
+            0.0,
+            -5.650000095367432,
+            1.9700000286102295
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "muzzle_2",
+          "position": [
+            1.0399999618530273,
+            -5.650000095367432,
+            1.9700000286102295
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "muzzles": [
+        {
+          "id": "muzzle_0",
+          "position": [
+            -0.6853433847427368,
+            -5.699624538421631,
+            2.1906468868255615
+          ],
+          "direction": [
+            0.06241166591644287,
+            -0.9972861409187317,
+            0.0390525683760643
+          ]
+        },
+        {
+          "id": "muzzle_1",
+          "position": [
+            0.3526259660720825,
+            -5.634666919708252,
+            2.1906468868255615
+          ],
+          "direction": [
+            0.06241166591644287,
+            -0.9972861409187317,
+            0.0390525683760643
+          ]
+        },
+        {
+          "id": "muzzle_2",
+          "position": [
+            1.3905953168869019,
+            -5.569709300994873,
+            2.1906468868255615
+          ],
+          "direction": [
+            0.06241166591644287,
+            -0.9972861409187317,
+            0.0390525683760643
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "muzzles": [
+        {
+          "id": "muzzle_0",
+          "position": [
+            0.05198031663894653,
+            -5.491255760192871,
+            2.647548198699951
+          ],
+          "direction": [
+            0.19711926579475403,
+            -0.972419798374176,
+            0.1246747374534607
+          ]
+        },
+        {
+          "id": "muzzle_1",
+          "position": [
+            1.1137237548828125,
+            -5.494172096252441,
+            2.674412250518799
+          ],
+          "direction": [
+            0.19711926579475403,
+            -0.972419798374176,
+            0.1246747374534607
+          ]
+        },
+        {
+          "id": "muzzle_2",
+          "position": [
+            2.13299298286438,
+            -5.287555694580078,
+            2.674412250518799
+          ],
+          "direction": [
+            0.19711926579475403,
+            -0.972419798374176,
+            0.1246747374534607
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 46,
+      "muzzles": [
+        {
+          "id": "muzzle_0",
+          "position": [
+            0.848082959651947,
+            -5.557465553283691,
+            3.1529784202575684
+          ],
+          "direction": [
+            0.32378968596458435,
+            -0.9226710200309753,
+            0.2093767374753952
+          ]
+        },
+        {
+          "id": "muzzle_1",
+          "position": [
+            1.7808433771133423,
+            -5.074690341949463,
+            3.1215720176696777
+          ],
+          "direction": [
+            0.32378968596458435,
+            -0.9226710200309753,
+            0.2093767374753952
+          ]
+        },
+        {
+          "id": "muzzle_2",
+          "position": [
+            2.762172222137451,
+            -4.730316162109375,
+            3.1215720176696777
+          ],
+          "direction": [
+            0.32378968596458435,
+            -0.9226710200309753,
+            0.2093767374753952
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 61,
+      "muzzles": [
+        {
+          "id": "muzzle_0",
+          "position": [
+            1.1739110946655273,
+            -5.44720983505249,
+            3.3678324222564697
+          ],
+          "direction": [
+            0.37731221318244934,
+            -0.892427384853363,
+            0.24740394949913025
+          ]
+        },
+        {
+          "id": "muzzle_1",
+          "position": [
+            2.131814479827881,
+            -5.042214870452881,
+            3.3678324222564697
+          ],
+          "direction": [
+            0.37731221318244934,
+            -0.892427384853363,
+            0.24740394949913025
+          ]
+        },
+        {
+          "id": "muzzle_2",
+          "position": [
+            3.0578255653381348,
+            -4.5617876052856445,
+            3.3469204902648926
+          ],
+          "direction": [
+            0.37731221318244934,
+            -0.892427384853363,
+            0.24740394949913025
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 91,
+      "muzzles": [
+        {
+          "id": "muzzle_0",
+          "position": [
+            0.09445452690124512,
+            -5.7007880210876465,
+            2.674412250518799
+          ],
+          "direction": [
+            0.19711926579475403,
+            -0.972419798374176,
+            0.1246747374534607
+          ]
+        },
+        {
+          "id": "muzzle_1",
+          "position": [
+            1.1137237548828125,
+            -5.494172096252441,
+            2.674412250518799
+          ],
+          "direction": [
+            0.19711926579475403,
+            -0.972419798374176,
+            0.1246747374534607
+          ]
+        },
+        {
+          "id": "muzzle_2",
+          "position": [
+            2.13299298286438,
+            -5.287555694580078,
+            2.674412250518799
+          ],
+          "direction": [
+            0.19711926579475403,
+            -0.972419798374176,
+            0.1246747374534607
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 120,
+      "muzzles": [
+        {
+          "id": "muzzle_0",
+          "position": [
+            -1.038137435913086,
+            -5.6503424644470215,
+            1.9711639881134033
+          ],
+          "direction": [
+            0.0003296136565040797,
+            -0.9999998807907104,
+            0.00020602342556230724
+          ]
+        },
+        {
+          "id": "muzzle_1",
+          "position": [
+            0.0018623173236846924,
+            -5.649999618530273,
+            1.9711639881134033
+          ],
+          "direction": [
+            0.0003296136565040797,
+            -0.9999998807907104,
+            0.00020602342556230724
+          ]
+        },
+        {
+          "id": "muzzle_2",
+          "position": [
+            1.0418622493743896,
+            -5.649656772613525,
+            1.9711639881134033
+          ],
+          "direction": [
+            0.0003296136565040797,
+            -0.9999998807907104,
+            0.00020602342556230724
+          ]
+        }
+      ]
+    }
+  ],
+  "game_import": "not performed; local authoring metadata only"
+}

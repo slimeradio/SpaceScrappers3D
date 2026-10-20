@@ -1,0 +1,545 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W02",
+  "version": "1.0+states1",
+  "title": "Турель непрерывного лазера",
+  "catalog_id": "continuous-laser-turret",
+  "catalog_grid": [
+    1,
+    3
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "LaserFoundation",
+      "part_id": "MA-W02-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-W02-P01/MA-W02-P01.blend",
+      "parent": "MA-W02",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "part_id": "MA-P06",
+      "version": "1.3",
+      "source": "../../Parts/MA-P06/MA-P06.blend",
+      "parent": "MA-W02",
+      "translation": [
+        0,
+        1.22,
+        0.9
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "OpticalFork",
+      "part_id": "MA-W02-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-W02-P02/MA-W02-P02.blend",
+      "parent": "Azimuth",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "OpticalChamber",
+      "part_id": "MA-W02-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-W02-P03/MA-W02-P03.blend",
+      "parent": "Elevation",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ContinuousEmitter",
+      "part_id": "MA-W02-P04",
+      "version": "1.0",
+      "source": "../../Parts/MA-W02-P04/MA-W02-P04.blend",
+      "parent": "OpticalChamber",
+      "translation": [
+        0,
+        -1,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LeftRadiator",
+      "part_id": "MA-W02-P05",
+      "version": "1.0",
+      "source": "../../Parts/MA-W02-P05/MA-W02-P05.blend",
+      "parent": "OpticalChamber",
+      "translation": [
+        -1.07,
+        0.35,
+        -0.03
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RightRadiator",
+      "part_id": "MA-W02-P05",
+      "version": "1.0",
+      "source": "../../Parts/MA-W02-P05/MA-W02-P05.blend",
+      "parent": "OpticalChamber",
+      "translation": [
+        1.07,
+        0.35,
+        -0.03
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LidarBlade",
+      "part_id": "MA-P07",
+      "version": "1.3",
+      "source": "../../Parts/MA-P07/MA-P07.blend",
+      "parent": "OpticalChamber",
+      "translation": [
+        0,
+        0.73,
+        0.64
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MA-W02",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "LaserFoundation",
+      "parent": "MA-W02",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "parent": "MA-W02",
+      "translation": [
+        0.0,
+        1.2200000286102295,
+        0.8999999761581421
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Azimuth",
+      "parent": "MA-W02",
+      "translation": [
+        0.0,
+        -0.41999998688697815,
+        0.6800000071525574
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "OpticalFork",
+      "parent": "Azimuth",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Elevation",
+      "parent": "Azimuth",
+      "translation": [
+        0.0,
+        -0.05000000074505806,
+        1.1299999952316284
+      ],
+      "rotation_euler_xyz": [
+        -0.15707963705062866,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "OpticalChamber",
+      "parent": "Elevation",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "ContinuousEmitter",
+      "parent": "OpticalChamber",
+      "translation": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "LeftRadiator",
+      "parent": "OpticalChamber",
+      "translation": [
+        -1.0700000524520874,
+        0.3499999940395355,
+        -0.029999999329447746
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "RightRadiator",
+      "parent": "OpticalChamber",
+      "translation": [
+        1.0700000524520874,
+        0.3499999940395355,
+        -0.029999999329447746
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "LidarBlade",
+      "parent": "OpticalChamber",
+      "translation": [
+        0.0,
+        0.7300000190734863,
+        0.6399999856948853
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "animations": {
+    "controller": "MA-W02",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      },
+      "aim_yaw": {
+        "default": 0,
+        "min": 0,
+        "max": 110
+      },
+      "aim_pitch": {
+        "default": 0,
+        "min": -27,
+        "max": 8
+      }
+    },
+    "channels": [
+      {
+        "node": "Azimuth",
+        "path": "rotation_euler",
+        "axis": 2,
+        "parameter": "aim_yaw",
+        "expression": "0.0+t*0.017453292519943295"
+      },
+      {
+        "node": "Elevation",
+        "path": "rotation_euler",
+        "axis": 0,
+        "parameter": "aim_pitch",
+        "expression": "-0.15707963705062866+t*0.017453292519943295"
+      }
+    ],
+    "clips": [
+      {
+        "name": "MA-W02::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W02::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W02::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W02::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W02::fire",
+        "parameters": [
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W02::beam_hold_loop",
+        "parameters": [
+          "activity"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": true,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [
+    "Exports/MA-W02.glb"
+  ],
+  "notes": "Style MilitaryArmor 1.3. Exactly one continuous optical emitter; 1x3 catalog grid is not metric mesh size. BU, scale unspecified. Demonstration aiming only; no ballistic recoil. No collider, LOD or game integration.",
+  "state_authoring": "state-authoring.json"
+}

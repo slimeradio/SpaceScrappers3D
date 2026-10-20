@@ -1,0 +1,222 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-R01-R2-P02",
+  "version": "2.0",
+  "name": "Sealed axial reactor chamber with concentric shielding bands",
+  "source": "MA-R01-R2-P02.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -1.9800000190734863,
+      -1.9800000190734863,
+      0.0
+    ],
+    "max": [
+      1.9800000190734863,
+      1.9800000190734863,
+      2.1399998664855957
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Central integral closure"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Upper sealed pressure dome",
+        "Continuous circumferential shield",
+        "Continuous circumferential shield.001",
+        "Continuous circumferential shield.002",
+        "Continuous circumferential shield.003"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Signal",
+      "surfaces": [
+        "Recessed diagnostic index",
+        "Recessed diagnostic index.001",
+        "Recessed diagnostic index.002",
+        "Recessed diagnostic index.003"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705,
+        1.0
+      ],
+      "metalness": 0.3499999940395355,
+      "roughness": 0.25,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Axial containment rib",
+        "Axial containment rib.001",
+        "Axial containment rib.002",
+        "Axial containment rib.003",
+        "Axial containment rib.004",
+        "Axial containment rib.005",
+        "Axial containment rib.006",
+        "Axial containment rib.007",
+        "Axial containment rib.008",
+        "Axial containment rib.009",
+        "Axial containment rib.010",
+        "Axial containment rib.011"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Whole central containment drum"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Signal",
+      "regions": [
+        "Recessed diagnostic index",
+        "Recessed diagnostic index.001",
+        "Recessed diagnostic index.002",
+        "Recessed diagnostic index.003"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "vessel",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.reactor.vessel"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-seat",
+      "parent": "part",
+      "role": "vessel",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.08,
+        0.08
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.reactor.vessel"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Functional identity v2.0. Static procedural PBR; no file textures or UV dependency. No animation or gameplay mechanism. BU conditional."
+}

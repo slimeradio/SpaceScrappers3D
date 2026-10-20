@@ -1,0 +1,105 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-P07-damage33",
+  "version": "1.0",
+  "name": "Flush lidar blade",
+  "source": "MA-P07-damage33.blend",
+  "units": "BU, physical scale unspecified",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "bounds_local": {
+    "min": [
+      -0.39692145586013794,
+      -0.36899998784065247,
+      0.0021278318017721176
+    ],
+    "max": [
+      0.39692145586013794,
+      0.30000001192092896,
+      0.27000001072883606
+    ]
+  },
+  "scale_policy": "unit scale only",
+  "materials": [
+    {
+      "id": "Titanium_damage33",
+      "ss_role": "Fixed",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    },
+    {
+      "id": "Ceramic_damage33",
+      "ss_role": "Color1",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    },
+    {
+      "id": "Dark_damage33",
+      "ss_role": "Fixed",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    },
+    {
+      "id": "Optic_damage33",
+      "ss_role": "Emissive",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Optic",
+      "color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25
+      ],
+      "strength": 0.699999988079071,
+      "units": "Blender shader strength",
+      "regions": [
+        "Lidar independent optical cell",
+        "Lidar independent optical cell.001",
+        "Lidar independent optical cell.002"
+      ],
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "bottom",
+      "node": "mount.bottom",
+      "role": "accessory",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "accessory",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": [],
+  "damage_state": "damage33",
+  "derived_from": "MA-P07",
+  "notes": "Damage demo variant. Procedural soot and exposed metal scratches; destroyed has continuous buckling and emission off. Original mounts retained. No file textures or game export."
+}

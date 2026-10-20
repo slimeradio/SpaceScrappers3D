@@ -1,0 +1,159 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W07-P03",
+  "version": "1.0",
+  "name": "Single short ventilated machinegun",
+  "source": "MA-W07-P03.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.36000001430511475,
+      -2.1549999713897705,
+      -0.24500000476837158
+    ],
+    "max": [
+      0.38100001215934753,
+      0.6499999761581421,
+      0.41266053915023804
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Open longitudinal cage rib",
+        "Open longitudinal cage rib.001",
+        "Open longitudinal cage rib.002",
+        "Open longitudinal cage rib.003"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Receiver dorsal wedge",
+        "Receiver charging cover"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "One actual open barrel",
+        "Compact muzzle crown"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Narrow ballistic receiver",
+        "Ventilated shroud collar",
+        "Ventilated shroud collar.001",
+        "Ventilated shroud collar.002"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "pivot",
+      "role": "elevation",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "muzzle",
+      "node": "socket.pivot",
+      "role": "projectile-muzzle",
+      "position": [
+        0,
+        -2.16,
+        0
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": "Exactly one hollow bullet bore. Static single barrel; no invented rotor or laser emission."
+}

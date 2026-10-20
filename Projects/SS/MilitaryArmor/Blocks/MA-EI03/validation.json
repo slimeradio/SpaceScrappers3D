@@ -1,0 +1,1296 @@
+{
+  "id": "MA-EI03",
+  "version": "2.0",
+  "checks_passed": true,
+  "verification": "Independent Blender process reopened all standalone parts and final assembly. Source manifoldness, consistent normals, positive volume, zero-area source faces and evaluated triangles, finite coordinates and assigned materials checked. Full world socket poses, semantic compatibility, version/source paths and unit instance scales checked.",
+  "standalone_parts": [
+    {
+      "id": "MA-E01-P05",
+      "version": "1.0",
+      "source_reopened": true,
+      "geometry": [
+        {
+          "mesh": "Compact pressure seal",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00232199996656179,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Flush engine cartridge",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0020639997170567555,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Service status inset",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 1.4039999002665294e-05,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-EI03-P01",
+      "version": "2.0",
+      "source_reopened": true,
+      "geometry": [
+        {
+          "mesh": "Compact swept power cheek",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.4389334626572132,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Short ceramic shoulder",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.057427336617827625,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Protected inner bus",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.02805000030770897,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Field isolator",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0009020004115104232,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Field isolator.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0009020004264116072,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Compact swept power cheek.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.43893346265721334,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Short ceramic shoulder.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.05742733661782677,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Protected inner bus.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.02805000030770897,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Field isolator.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0009020004115104236,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Field isolator.003",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0009020004264116078,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Front electrode seat",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.15349698193719966,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Rear compact conversion bridge",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.5880086923914501,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Conversion cover",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.03892498517930521,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Rear connector recess",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.011232964644470201,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Inset electrical connector",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00097010243045653,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Inset electrical connector.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00097010243045653,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Inset electrical connector.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.00097010243045653,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Exposed transverse field link",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.009702000521779063,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Exposed transverse field link.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.009702000521779063,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Exposed transverse field link.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.009702000521779063,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-EI03-P02",
+      "version": "2.0",
+      "source_reopened": true,
+      "geometry": [
+        {
+          "mesh": "Compact ceramic aperture cheek",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.17382532739302503,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Compact ceramic aperture cheek.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.17382532739302511,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Compact aperture crossbar",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.07619400229704375,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Compact aperture crossbar.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.07619400229704375,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.002",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.003",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.003",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.004",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.004",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.005",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.005",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.006",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.006",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.007",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.007",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.008",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.008",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.009",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.009",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.010",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.010",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.011",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.011",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.012",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.012",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.013",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.013",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.014",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.014",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Hexagonal electrode channel.015",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.004561182292191669,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Recessed ceramic cell isolator.015",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 0.0012710828946168053,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Field diagnostic index",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 5.999999821186065e-05,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        },
+        {
+          "mesh": "Field diagnostic index.001",
+          "nonmanifold_edges": 0,
+          "source_zero_area_faces": 0,
+          "signed_volume": 5.999999821186065e-05,
+          "normals_consistent": true,
+          "evaluated_zero_area_triangles": 0,
+          "finite": true,
+          "materials_resolved": true
+        }
+      ],
+      "previews_present": true
+    }
+  ],
+  "assembly_meshes": [
+    {
+      "mesh": "CompactPowerHousing::Compact swept power cheek",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.4389334626572132,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Short ceramic shoulder",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.057427336617827625,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Protected inner bus",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.02805000030770897,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Field isolator",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0009020004115104232,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Field isolator.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0009020004264116072,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Compact swept power cheek.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.43893346265721334,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Short ceramic shoulder.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.05742733661782677,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Protected inner bus.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.02805000030770897,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Field isolator.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0009020004115104236,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Field isolator.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0009020004264116078,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Front electrode seat",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.15349698193719966,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Rear compact conversion bridge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.5880086923914501,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Conversion cover",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03892498517930521,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Rear connector recess",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.011232964644470201,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Inset electrical connector",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00097010243045653,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Inset electrical connector.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00097010243045653,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Inset electrical connector.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00097010243045653,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Exposed transverse field link",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.009702000521779063,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Exposed transverse field link.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.009702000521779063,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "CompactPowerHousing::Exposed transverse field link.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.009702000521779063,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Compact ceramic aperture cheek",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.17382532739302503,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Compact ceramic aperture cheek.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.17382532739302511,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Compact aperture crossbar",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.07619400229704375,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Compact aperture crossbar.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.07619400229704375,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.002",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.003",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.004",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.004",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.005",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.005",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.006",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.006",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.007",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.007",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.008",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.008",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.009",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.009",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.010",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.010",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.011",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.011",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.012",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.012",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.013",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.013",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.014",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.014",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Hexagonal electrode channel.015",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.004561182292191669,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Recessed ceramic cell isolator.015",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0012710828946168053,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Field diagnostic index",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 5.999999821186065e-05,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ElectrodeAperture::Field diagnostic index.001",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 5.999999821186065e-05,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ServiceCartridge::Compact pressure seal",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.00232199996656179,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ServiceCartridge::Flush engine cartridge",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0020639997170567555,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    {
+      "mesh": "ServiceCartridge::Service status inset",
+      "nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 1.4039999002665294e-05,
+      "normals_consistent": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true
+    }
+  ],
+  "connections": [
+    {
+      "connection": {
+        "parent_instance": "CompactPowerHousing",
+        "parent_socket": "aperture",
+        "child_instance": "ElectrodeAperture",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "CompactPowerHousing",
+        "parent_socket": "service",
+        "child_instance": "ServiceCartridge",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    }
+  ],
+  "instance_count": 3,
+  "resolved_parts": [
+    "MA-E01-P05",
+    "MA-EI03-P01",
+    "MA-EI03-P02"
+  ],
+  "preview_views": [
+    "top",
+    "perspective",
+    "top-grayscale"
+  ],
+  "grayscale_override_temporary": true,
+  "glb_generated": false,
+  "game_validation": false,
+  "collision_LOD_validation": false,
+  "notes": "Static authoring model. Designed intersections at seats, pressure shields, thermal connections and service mounts are intentional. Physical BU scale unspecified."
+}

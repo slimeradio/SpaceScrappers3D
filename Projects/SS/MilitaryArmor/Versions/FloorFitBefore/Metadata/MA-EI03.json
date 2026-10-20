@@ -1,0 +1,6811 @@
+{
+  "schema": "SpriteBake.BlockMetadata/1",
+  "id": "MA-EI03",
+  "catalog_id": "ion-thruster-1x2",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "bu_per_cell": 1.0,
+  "footprint_bu": [
+    -0.5,
+    -1.0,
+    0.5,
+    1.0
+  ],
+  "layers": [
+    {
+      "id": "body",
+      "draw_order": 0,
+      "rotates": false,
+      "pivot_bu": [
+        0,
+        0
+      ],
+      "instances": [
+        "CompactPowerHousing",
+        "ElectrodeAperture",
+        "ServiceCartridge"
+      ]
+    }
+  ],
+  "states": {
+    "damage0": {
+      "frame": 1
+    },
+    "damage33": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "damage66": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "destroyed": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "clips": {
+    "work": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "frames": {
+    "damage0": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "CompactPowerHousing/mounts/hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/mounts/aperture",
+          "role": "compact",
+          "parent": "part",
+          "position": [
+            0,
+            -1.12,
+            0.91
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/mounts/service",
+          "role": "accessory",
+          "parent": "part",
+          "position": [
+            0,
+            1.19,
+            0.89
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/aperture-seat",
+          "parent": "part",
+          "role": "compact",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            -1.12,
+            0.91
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/service-seat",
+          "parent": "part",
+          "role": "accessory",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            1.19,
+            0.89
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/mounts/root",
+          "role": "compact",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/functional_points/thrust",
+          "role": "thrust",
+          "parent": "part",
+          "node": "point.thrust",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "thrust",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/functional_points/exhaust",
+          "role": "exhaust",
+          "parent": "part",
+          "node": "point.exhaust",
+          "position": [
+            0,
+            -0.55,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.6700000762939453,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "exhaust",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.6700000762939453,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "compact",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/root",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.190000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "ServiceCartridge/attachment_areas/interface-plane",
+          "role": "accessory",
+          "parent": "MA-E01-P05",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.190000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-EI03": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "CompactPowerHousing": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ElectrodeAperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.1200000047683716
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.9100000262260437
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.190000057220459
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8899999856948853
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "damage33": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "CompactPowerHousing/mounts/hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/mounts/aperture",
+          "role": "compact",
+          "parent": "part",
+          "position": [
+            0,
+            -1.12,
+            0.91
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/mounts/service",
+          "role": "accessory",
+          "parent": "part",
+          "position": [
+            0,
+            1.19,
+            0.89
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/aperture-seat",
+          "parent": "part",
+          "role": "compact",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            -1.12,
+            0.91
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/service-seat",
+          "parent": "part",
+          "role": "accessory",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            1.19,
+            0.89
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/mounts/root",
+          "role": "compact",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/functional_points/thrust",
+          "role": "thrust",
+          "parent": "part",
+          "node": "point.thrust",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "thrust",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/functional_points/exhaust",
+          "role": "exhaust",
+          "parent": "part",
+          "node": "point.exhaust",
+          "position": [
+            0,
+            -0.55,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.6700000762939453,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "exhaust",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.6700000762939453,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "compact",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/root",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.190000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "ServiceCartridge/attachment_areas/interface-plane",
+          "role": "accessory",
+          "parent": "MA-E01-P05",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.190000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-EI03": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "CompactPowerHousing": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ElectrodeAperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.1200000047683716
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.9100000262260437
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.190000057220459
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8899999856948853
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "damage66": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "CompactPowerHousing/mounts/hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/mounts/aperture",
+          "role": "compact",
+          "parent": "part",
+          "position": [
+            0,
+            -1.12,
+            0.91
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/mounts/service",
+          "role": "accessory",
+          "parent": "part",
+          "position": [
+            0,
+            1.19,
+            0.89
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/aperture-seat",
+          "parent": "part",
+          "role": "compact",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            -1.12,
+            0.91
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/service-seat",
+          "parent": "part",
+          "role": "accessory",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            1.19,
+            0.89
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/mounts/root",
+          "role": "compact",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/functional_points/thrust",
+          "role": "thrust",
+          "parent": "part",
+          "node": "point.thrust",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "thrust",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/functional_points/exhaust",
+          "role": "exhaust",
+          "parent": "part",
+          "node": "point.exhaust",
+          "position": [
+            0,
+            -0.55,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.6700000762939453,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "exhaust",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.6700000762939453,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "compact",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/root",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.190000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "ServiceCartridge/attachment_areas/interface-plane",
+          "role": "accessory",
+          "parent": "MA-E01-P05",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.190000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-EI03": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "CompactPowerHousing": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ElectrodeAperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.1200000047683716
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.9100000262260437
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.190000057220459
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8899999856948853
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "destroyed": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "CompactPowerHousing/mounts/hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/mounts/aperture",
+          "role": "compact",
+          "parent": "part",
+          "position": [
+            0,
+            -1.12,
+            0.91
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/mounts/service",
+          "role": "accessory",
+          "parent": "part",
+          "position": [
+            0,
+            1.19,
+            0.89
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/aperture-seat",
+          "parent": "part",
+          "role": "compact",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            -1.12,
+            0.91
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/service-seat",
+          "parent": "part",
+          "role": "accessory",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            1.19,
+            0.89
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/mounts/root",
+          "role": "compact",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/functional_points/thrust",
+          "role": "thrust",
+          "parent": "part",
+          "node": "point.thrust",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "thrust",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/functional_points/exhaust",
+          "role": "exhaust",
+          "parent": "part",
+          "node": "point.exhaust",
+          "position": [
+            0,
+            -0.55,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.6700000762939453,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "exhaust",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.6700000762939453,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "compact",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/root",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.190000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "ServiceCartridge/attachment_areas/interface-plane",
+          "role": "accessory",
+          "parent": "MA-E01-P05",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.190000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-EI03": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "CompactPowerHousing": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ElectrodeAperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.1200000047683716
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.9100000262260437
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.190000057220459
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8899999856948853
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "clip-work": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "CompactPowerHousing/mounts/hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/mounts/aperture",
+          "role": "compact",
+          "parent": "part",
+          "position": [
+            0,
+            -1.12,
+            0.91
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/mounts/service",
+          "role": "accessory",
+          "parent": "part",
+          "position": [
+            0,
+            1.19,
+            0.89
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/aperture-seat",
+          "parent": "part",
+          "role": "compact",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            -1.12,
+            0.91
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "aperture-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "CompactPowerHousing/attachment_areas/service-seat",
+          "parent": "part",
+          "role": "accessory",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            1.19,
+            0.89
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service-seat",
+          "instance": "CompactPowerHousing",
+          "part": "MA-EI03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/mounts/root",
+          "role": "compact",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/functional_points/thrust",
+          "role": "thrust",
+          "parent": "part",
+          "node": "point.thrust",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "thrust",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/functional_points/exhaust",
+          "role": "exhaust",
+          "parent": "part",
+          "node": "point.exhaust",
+          "position": [
+            0,
+            -0.55,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.6700000762939453,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "exhaust",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.6700000762939453,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ElectrodeAperture/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "compact",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.1200000047683716,
+            0.9100000262260437
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.1200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.9100000262260437
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "ElectrodeAperture",
+          "part": "MA-EI03-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.12000000476837158,
+            0.9100000262260437
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/root",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.190000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        },
+        {
+          "id": "ServiceCartridge/attachment_areas/interface-plane",
+          "role": "accessory",
+          "parent": "MA-E01-P05",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.190000057220459,
+            0.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.190000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            2.190000057220459,
+            0.8899999856948853
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-EI03": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "CompactPowerHousing": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ElectrodeAperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.1200000047683716
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.9100000262260437
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.190000057220459
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8899999856948853
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    }
+  },
+  "assembly": {
+    "schema": "MilitaryArmor.BlenderAuthoring/1",
+    "id": "MA-EI03",
+    "version": "2.0+states1",
+    "title": "Ионный двигатель 1×2",
+    "catalog_id": "ion-thruster-1x2",
+    "catalog_grid": [
+      1,
+      2
+    ],
+    "catalog_status": "visual-only; no game XML",
+    "axes": {
+      "handedness": "right",
+      "up": "+Z",
+      "forward": "-Y",
+      "units": "BU; physical scale unspecified"
+    },
+    "instances": [
+      {
+        "id": "CompactPowerHousing",
+        "part_id": "MA-EI03-P01",
+        "version": "2.0",
+        "source": "../../Parts/MA-EI03-P01/MA-EI03-P01.blend",
+        "parent": "MA-EI03",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "ElectrodeAperture",
+        "part_id": "MA-EI03-P02",
+        "version": "2.0",
+        "source": "../../Parts/MA-EI03-P02/MA-EI03-P02.blend",
+        "parent": "MA-EI03",
+        "translation": [
+          0,
+          -1.12,
+          0.91
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "ServiceCartridge",
+        "part_id": "MA-E01-P05",
+        "version": "1.0",
+        "source": "../../Parts/MA-E01-P05/MA-E01-P05.blend",
+        "parent": "MA-EI03",
+        "translation": [
+          0,
+          1.19,
+          0.89
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "parent_instance": "CompactPowerHousing",
+        "parent_socket": "aperture",
+        "child_instance": "ElectrodeAperture",
+        "child_socket": "root"
+      },
+      {
+        "parent_instance": "CompactPowerHousing",
+        "parent_socket": "service",
+        "child_instance": "ServiceCartridge",
+        "child_socket": "root"
+      }
+    ],
+    "animations": {
+      "controller": "MA-EI03",
+      "controls": {
+        "power": {
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "description": "Electrical availability; independent from retained heat/fill"
+        },
+        "activity": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Actual work/load; zero means idle"
+        },
+        "fault": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Externally supplied fault, not inferred"
+        },
+        "heat": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Retained normalized heat; independent from power"
+        }
+      },
+      "channels": [],
+      "clips": [
+        {
+          "name": "MA-EI03::activate",
+          "parameters": [
+            "power",
+            "activity"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-EI03::deactivate",
+          "parameters": [
+            "activity",
+            "power"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-EI03::heat_up",
+          "parameters": [
+            "heat"
+          ],
+          "frames": [
+            1,
+            49
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-EI03::cool_down",
+          "parameters": [
+            "heat"
+          ],
+          "frames": [
+            1,
+            97
+          ],
+          "loop": false,
+          "authoring_only": true
+        }
+      ],
+      "independent_controls": true,
+      "demonstration_only": false,
+      "game_integration": false
+    },
+    "exports": [],
+    "notes": "Compact 4x4 flat electrode aperture; unchanged cell pitch, unit scales. +Y thrust/-Y exhaust authoring only. Physical BU unspecified.",
+    "state_authoring": "state-authoring.json"
+  },
+  "parts": {
+    "CompactPowerHousing": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-EI03-P01",
+      "version": "2.0",
+      "name": "Compact protected ion power fork",
+      "source": "MA-EI03-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.9649999737739563,
+          -1.184999942779541,
+          0.054999999701976776
+        ],
+        "max": [
+          0.9649999737739563,
+          1.6675000190734863,
+          0.9449999928474426
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Compact swept power cheek",
+            "Compact swept power cheek.001",
+            "Rear compact conversion bridge"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Short ceramic shoulder",
+            "Short ceramic shoulder.001",
+            "Conversion cover"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Rear connector recess"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Protected inner bus",
+            "Protected inner bus.001"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Field isolator",
+            "Field isolator.001",
+            "Field isolator.002",
+            "Field isolator.003",
+            "Front electrode seat",
+            "Inset electrical connector",
+            "Inset electrical connector.001",
+            "Inset electrical connector.002",
+            "Exposed transverse field link",
+            "Exposed transverse field link.001",
+            "Exposed transverse field link.002"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "aperture",
+          "role": "compact",
+          "parent": "part",
+          "position": [
+            0,
+            -1.12,
+            0.91
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "service",
+          "role": "accessory",
+          "parent": "part",
+          "position": [
+            0,
+            1.19,
+            0.89
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        },
+        {
+          "id": "aperture-seat",
+          "parent": "part",
+          "role": "compact",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            -1.12,
+            0.91
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        },
+        {
+          "id": "service-seat",
+          "parent": "part",
+          "role": "accessory",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            1.19,
+            0.89
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Functional identity revision 2.0. Static editable geometry, procedural PBR, no file textures, no animation. Physical BU scale unspecified. No GLB."
+    },
+    "ElectrodeAperture": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-EI03-P02",
+      "version": "2.0",
+      "name": "Compact 4x4 shallow electrode aperture; unchanged cell pitch",
+      "source": "MA-EI03-P02.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.9649999737739563,
+          -0.48249998688697815,
+          -0.8149999976158142
+        ],
+        "max": [
+          0.9649999737739563,
+          0.1599999964237213,
+          0.8149999976158142
+        ]
+      },
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Compact ceramic aperture cheek",
+            "Compact ceramic aperture cheek.001"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Optic",
+          "surfaces": [
+            "Field diagnostic index",
+            "Field diagnostic index.001"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.18000000715255737,
+            0.25,
+            1.0
+          ],
+          "metalness": 0.6499999761581421,
+          "roughness": 0.18000000715255737,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Hexagonal electrode channel",
+            "Hexagonal electrode channel.001",
+            "Hexagonal electrode channel.002",
+            "Hexagonal electrode channel.003",
+            "Hexagonal electrode channel.004",
+            "Hexagonal electrode channel.005",
+            "Hexagonal electrode channel.006",
+            "Hexagonal electrode channel.007",
+            "Hexagonal electrode channel.008",
+            "Hexagonal electrode channel.009",
+            "Hexagonal electrode channel.010",
+            "Hexagonal electrode channel.011",
+            "Hexagonal electrode channel.012",
+            "Hexagonal electrode channel.013",
+            "Hexagonal electrode channel.014",
+            "Hexagonal electrode channel.015"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Compact aperture crossbar",
+            "Compact aperture crossbar.001",
+            "Recessed ceramic cell isolator",
+            "Recessed ceramic cell isolator.001",
+            "Recessed ceramic cell isolator.002",
+            "Recessed ceramic cell isolator.003",
+            "Recessed ceramic cell isolator.004",
+            "Recessed ceramic cell isolator.005",
+            "Recessed ceramic cell isolator.006",
+            "Recessed ceramic cell isolator.007",
+            "Recessed ceramic cell isolator.008",
+            "Recessed ceramic cell isolator.009",
+            "Recessed ceramic cell isolator.010",
+            "Recessed ceramic cell isolator.011",
+            "Recessed ceramic cell isolator.012",
+            "Recessed ceramic cell isolator.013",
+            "Recessed ceramic cell isolator.014",
+            "Recessed ceramic cell isolator.015"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Optic",
+          "regions": [
+            "Field diagnostic index",
+            "Field diagnostic index.001"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.18000000715255737,
+            0.25
+          ],
+          "strength": 0.699999988079071,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "compact",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [
+        {
+          "id": "thrust",
+          "role": "thrust",
+          "parent": "part",
+          "node": "point.thrust",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "exhaust",
+          "role": "exhaust",
+          "parent": "part",
+          "node": "point.exhaust",
+          "position": [
+            0,
+            -0.55,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "attachment_areas": [
+        {
+          "id": "root-seat",
+          "parent": "part",
+          "role": "compact",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.ion.aperture.compact"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Explicit compact variant: 4x4 unchanged size channels. Static flat aperture; no bell, no plume or gameplay parameters."
+    },
+    "ServiceCartridge": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-E01-P05",
+      "version": "1.0",
+      "name": "Средний двигатель — компактный сервисный картридж",
+      "source": "MA-E01-P05.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.2199999988079071,
+          -0.16500000655651093,
+          0.0
+        ],
+        "max": [
+          0.2199999988079071,
+          0.16500000655651093,
+          0.041999999433755875
+        ]
+      },
+      "materials": [
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Compact pressure seal"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Service status inset"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705,
+            1.0
+          ],
+          "metalness": 0.3499999940395355,
+          "roughness": 0.25,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Flush engine cartridge"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal",
+          "regions": [
+            "Service status inset"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "root",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; local authoring frame"
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "interface-plane",
+          "role": "accessory",
+          "parent": "MA-E01-P05",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale"
+        }
+      ],
+      "animations": [],
+      "notes": "Explicit compact variant: MA-P06 unit geometry is too wide for the medium engine roof; no implicit scaling."
+    }
+  },
+  "material_slots": {
+    "CompactPowerHousing": {
+      "Short ceramic shoulder.001": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Short ceramic shoulder": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Rear connector recess": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Rear compact conversion bridge": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Protected inner bus.001": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Protected inner bus": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Inset electrical connector.002": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Inset electrical connector.001": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Inset electrical connector": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Front electrode seat": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Field isolator.003": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Field isolator.002": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Field isolator.001": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Field isolator": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Exposed transverse field link.002": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Exposed transverse field link.001": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Exposed transverse field link": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Conversion cover": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Compact swept power cheek.001": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Compact swept power cheek": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ]
+    },
+    "ElectrodeAperture": {
+      "Recessed ceramic cell isolator.015": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.014": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.013": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.012": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.011": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.010": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.009": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.008": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.007": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.006": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.005": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.004": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.003": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.002": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator.001": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed ceramic cell isolator": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.015": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.014": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.013": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.012": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.011": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.010": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.009": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.008": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.007": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.006": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.005": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.004": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.003": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.002": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel.001": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal electrode channel": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Field diagnostic index.001": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Field diagnostic index": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Compact ceramic aperture cheek.001": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Compact ceramic aperture cheek": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Compact aperture crossbar.001": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Compact aperture crossbar": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "ServiceCartridge": {
+      "Service status inset": [
+        {
+          "id": "Signal",
+          "role": "Emissive"
+        }
+      ],
+      "Flush engine cartridge": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Compact pressure seal": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "assembly": "Blocks/MA-EI03/assembly.json",
+    "source": "Blocks/MA-EI03/MA-EI03.blend",
+    "bu_per_cell": 1.0,
+    "footprint_bu": [
+      -0.5,
+      -1.0,
+      0.5,
+      1.0
+    ],
+    "height_range_bu": [
+      0.0,
+      1.8
+    ],
+    "layers": [
+      {
+        "id": "body",
+        "draw_order": 0,
+        "rotates": false,
+        "pivot_bu": [
+          0,
+          0
+        ],
+        "instances": [
+          "CompactPowerHousing",
+          "ElectrodeAperture",
+          "ServiceCartridge"
+        ]
+      }
+    ],
+    "states": {
+      "damage0": {
+        "frame": 1
+      },
+      "damage33": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "damage66": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "destroyed": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "clips": {
+      "work": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "use_author_animation": false
+  },
+  "inputs": {
+    "Blocks/MA-EI03/assembly.json": "7bab25cad7fb51789c5228b249ab8dc20cae97c39a9c664d0c9b0707b88e71b1",
+    "Blocks/MA-EI03/MA-EI03.blend": "8f862c55562073252bff741ade8ca97e6347c3cfcd76863a9e77e493181c49b4",
+    "Parts/MA-E01-P05/MA-E01-P05.blend": "fe747edc2abc3ec91684c0f1aafea982c564c81ea9892461180da3869b080e5c",
+    "Parts/MA-E01-P05/part.json": "99cf7a1ceab34c4626411c4feb2b63c6668852d69143435e4295448b8d734ffb",
+    "Parts/MA-EI03-P01/MA-EI03-P01.blend": "cdd362951b6b112fb3fc4a1572bb6e2823b3ae272436dcad50a754d9678a73ad",
+    "Parts/MA-EI03-P01/part.json": "adf520918d2967fd468084afbcb40b1236f149d2f4c2dee21eece562cc83e15d",
+    "Parts/MA-EI03-P02/MA-EI03-P02.blend": "78fc748b4d58b5f80760e4a1d04bab07a2ff39721d13bd34981fe5d7fdb38b6b",
+    "Parts/MA-EI03-P02/part.json": "859311d63c32015cd349236d901d54176562e653a8f1e441c5352a4e55b5c08f"
+  },
+  "dependencies": [
+    "Blocks/MA-EI03/assembly.json",
+    "Blocks/MA-EI03/MA-EI03.blend",
+    "Parts/MA-E01-P05/MA-E01-P05.blend",
+    "Parts/MA-E01-P05/part.json",
+    "Parts/MA-EI03-P01/MA-EI03-P01.blend",
+    "Parts/MA-EI03-P01/part.json",
+    "Parts/MA-EI03-P02/MA-EI03-P02.blend",
+    "Parts/MA-EI03-P02/part.json"
+  ]
+}

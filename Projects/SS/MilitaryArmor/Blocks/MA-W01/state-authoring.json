@@ -1,0 +1,864 @@
+{
+  "schema": "MilitaryArmor.StateAuthoring/1",
+  "id": "MA-W01",
+  "game_validated": false,
+  "authoring_units": "BU; normalized controls; not game timings",
+  "controls": {
+    "power": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "Electrical availability; independent from retained heat/fill"
+    },
+    "activity": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Actual work/load; zero means idle"
+    },
+    "fault": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Externally supplied fault, not inferred"
+    },
+    "heat": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Retained normalized heat; independent from power"
+    },
+    "recoil_Recoil0": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    "recoil_Recoil1": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    "recoil_Recoil2": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    "aim_yaw": {
+      "default": 0,
+      "min": 0,
+      "max": 100
+    },
+    "aim_pitch": {
+      "default": 0,
+      "min": -25,
+      "max": 5
+    }
+  },
+  "motion": [
+    {
+      "node": "Recoil0",
+      "path": "location",
+      "axis": 1,
+      "parameter": "recoil_Recoil0",
+      "expression": "-0.6000000238418579+t*0.29"
+    },
+    {
+      "node": "Recoil1",
+      "path": "location",
+      "axis": 1,
+      "parameter": "recoil_Recoil1",
+      "expression": "-0.6000000238418579+t*0.29"
+    },
+    {
+      "node": "Recoil2",
+      "path": "location",
+      "axis": 1,
+      "parameter": "recoil_Recoil2",
+      "expression": "-0.6000000238418579+t*0.29"
+    },
+    {
+      "node": "Azimuth",
+      "path": "rotation_euler",
+      "axis": 2,
+      "parameter": "aim_yaw",
+      "expression": "0.0+t*0.017453292519943295"
+    },
+    {
+      "node": "Elevation",
+      "path": "rotation_euler",
+      "axis": 0,
+      "parameter": "aim_pitch",
+      "expression": "-0.12217304855585098+t*0.017453292519943295"
+    }
+  ],
+  "materials": [
+    {
+      "object": "Foundation::Hardpoint diagnostic",
+      "slot": 0,
+      "material": "MA-W01::Foundation::Hardpoint diagnostic::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Foundation::Hardpoint diagnostic.001",
+      "slot": 0,
+      "material": "MA-W01::Foundation::Hardpoint diagnostic.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.001",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.002",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.003",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.003::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.004",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.004::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.005",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.005::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.006",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.006::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.007",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.007::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.008",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.008::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.009",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.009::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.010",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.010::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.011",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.011::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.012",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.012::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.013",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.013::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.014",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.014::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "AzimuthDrive::Index window.015",
+      "slot": 0,
+      "material": "MA-W01::AzimuthDrive::Index window.015::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Capsule::Recessed shoulder index",
+      "slot": 0,
+      "material": "MA-W01::Capsule::Recessed shoulder index::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Capsule::Recessed shoulder index.001",
+      "slot": 0,
+      "material": "MA-W01::Capsule::Recessed shoulder index.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Capsule::Sealed rear transfer",
+      "slot": 0,
+      "material": "MA-W01::Capsule::Sealed rear transfer::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Capsule::Sealed rear transfer.001",
+      "slot": 0,
+      "material": "MA-W01::Capsule::Sealed rear transfer.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Capsule::Sealed rear transfer.002",
+      "slot": 0,
+      "material": "MA-W01::Capsule::Sealed rear transfer.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "TripleCradle::Elevation position encoder",
+      "slot": 0,
+      "material": "MA-W01::TripleCradle::Elevation position encoder::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "TripleCradle::Elevation position encoder.001",
+      "slot": 0,
+      "material": "MA-W01::TripleCradle::Elevation position encoder.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator0::Accelerator index",
+      "slot": 0,
+      "material": "MA-W01::Accelerator0::Accelerator index::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator0::Accelerator index.001",
+      "slot": 0,
+      "material": "MA-W01::Accelerator0::Accelerator index.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator0::Accelerator index.002",
+      "slot": 0,
+      "material": "MA-W01::Accelerator0::Accelerator index.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator0::Accelerator index.003",
+      "slot": 0,
+      "material": "MA-W01::Accelerator0::Accelerator index.003::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator0::Accelerator index.004",
+      "slot": 0,
+      "material": "MA-W01::Accelerator0::Accelerator index.004::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator1::Accelerator index",
+      "slot": 0,
+      "material": "MA-W01::Accelerator1::Accelerator index::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator1::Accelerator index.001",
+      "slot": 0,
+      "material": "MA-W01::Accelerator1::Accelerator index.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator1::Accelerator index.002",
+      "slot": 0,
+      "material": "MA-W01::Accelerator1::Accelerator index.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator1::Accelerator index.003",
+      "slot": 0,
+      "material": "MA-W01::Accelerator1::Accelerator index.003::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator1::Accelerator index.004",
+      "slot": 0,
+      "material": "MA-W01::Accelerator1::Accelerator index.004::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator2::Accelerator index",
+      "slot": 0,
+      "material": "MA-W01::Accelerator2::Accelerator index::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator2::Accelerator index.001",
+      "slot": 0,
+      "material": "MA-W01::Accelerator2::Accelerator index.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator2::Accelerator index.002",
+      "slot": 0,
+      "material": "MA-W01::Accelerator2::Accelerator index.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator2::Accelerator index.003",
+      "slot": 0,
+      "material": "MA-W01::Accelerator2::Accelerator index.003::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Accelerator2::Accelerator index.004",
+      "slot": 0,
+      "material": "MA-W01::Accelerator2::Accelerator index.004::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ServiceCartridge::Cartridge status",
+      "slot": 0,
+      "material": "MA-W01::ServiceCartridge::Cartridge status::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell",
+      "slot": 0,
+      "material": "MA-W01::LidarBlade::Lidar independent optical cell::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell.001",
+      "slot": 0,
+      "material": "MA-W01::LidarBlade::Lidar independent optical cell.001::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell.002",
+      "slot": 0,
+      "material": "MA-W01::LidarBlade::Lidar independent optical cell.002::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "name": "MA-W01::activate",
+      "parameters": [
+        "power",
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W01::deactivate",
+      "parameters": [
+        "activity",
+        "power"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W01::heat_up",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W01::cool_down",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        97
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W01::fire",
+      "parameters": [
+        "activity",
+        "recoil_Recoil0",
+        "recoil_Recoil1",
+        "recoil_Recoil2"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    }
+  ],
+  "events": [
+    {
+      "name": "fire",
+      "frame": 2,
+      "source": "authoring cue; external projectile/beam effect"
+    }
+  ],
+  "presets": {
+    "off": {
+      "power": 0,
+      "activity": 0
+    },
+    "idle": {
+      "power": 1,
+      "activity": 0
+    },
+    "working": {
+      "power": 1,
+      "activity": 1
+    },
+    "hot_off": {
+      "power": 0,
+      "activity": 0,
+      "heat": 1
+    },
+    "cold": {
+      "heat": 0
+    },
+    "hot": {
+      "heat": 1
+    }
+  },
+  "phase_policy": "cycle_turns is integrated phase, not speed. Stop retains phase. NLA cycle repetition must use cyclic extrapolation/REPEAT_OFFSET for spin; never reset turns on start. Clips start from relative phase 0; apply current phase offset when sequencing.",
+  "controller": "MA-W01",
+  "legacy_animation_metadata": {
+    "fps": 24,
+    "frame_range": [
+      1,
+      120
+    ],
+    "channels": [
+      {
+        "node": "Recoil0",
+        "channel": "location",
+        "axis": "Y",
+        "units": "BU",
+        "keys": [
+          [
+            1,
+            -0.6
+          ],
+          [
+            21,
+            -0.6
+          ],
+          [
+            24,
+            -0.31
+          ],
+          [
+            39,
+            -0.6
+          ],
+          [
+            120,
+            -0.6
+          ]
+        ]
+      },
+      {
+        "node": "Recoil1",
+        "channel": "location",
+        "axis": "Y",
+        "units": "BU",
+        "keys": [
+          [
+            1,
+            -0.6
+          ],
+          [
+            29,
+            -0.6
+          ],
+          [
+            32,
+            -0.31
+          ],
+          [
+            47,
+            -0.6
+          ],
+          [
+            120,
+            -0.6
+          ]
+        ]
+      },
+      {
+        "node": "Recoil2",
+        "channel": "location",
+        "axis": "Y",
+        "units": "BU",
+        "keys": [
+          [
+            1,
+            -0.6
+          ],
+          [
+            37,
+            -0.6
+          ],
+          [
+            40,
+            -0.31
+          ],
+          [
+            55,
+            -0.6
+          ],
+          [
+            120,
+            -0.6
+          ]
+        ]
+      },
+      {
+        "node": "Azimuth",
+        "channel": "rotation_euler",
+        "axis": "Z",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            0
+          ],
+          [
+            60,
+            100
+          ],
+          [
+            120,
+            0
+          ]
+        ]
+      },
+      {
+        "node": "Elevation",
+        "channel": "rotation_euler",
+        "axis": "X",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            -7
+          ],
+          [
+            35,
+            -25
+          ],
+          [
+            80,
+            5
+          ],
+          [
+            120,
+            -7
+          ]
+        ]
+      }
+    ],
+    "demonstration_only": true,
+    "interpolation": "Blender Bezier"
+  }
+}

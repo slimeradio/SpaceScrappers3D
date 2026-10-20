@@ -1,0 +1,1876 @@
+{
+  "schema": "MilitaryArmor.AllBlocksScene/1",
+  "source_policy": "current Blocks only",
+  "blocks_count": 58,
+  "columns": 8,
+  "rows": 8,
+  "cell_spacing_BU": 17.74000029563904,
+  "units": "BU, physical scale unspecified",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "blocks": [
+    {
+      "id": "MA-A01",
+      "title": "Броня 1×1",
+      "catalog_id": "armor-1x1",
+      "version": "1.0",
+      "source": "Blocks/MA-A01/MA-A01.blend",
+      "source_sha256": "8d4e14b6e63e5c91951637997fc42cf6ac99bd366e4bdbad72e2d04b692d0dba",
+      "anchor": "Exhibit.MA-A01",
+      "mesh_count": 1,
+      "source_bounds_min": [
+        -0.5,
+        -0.5,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.5,
+        0.5,
+        0.2800000011920929
+      ],
+      "row": 0,
+      "column": 0,
+      "translation": [
+        -62.09000103473664,
+        62.09000103473664,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-A02",
+      "title": "Броня 2×1",
+      "catalog_id": "armor-2x1",
+      "version": "1.0",
+      "source": "Blocks/MA-A02/MA-A02.blend",
+      "source_sha256": "e234573880a2b12e06c7f9d59c03fcd11a7865113bb5e55e1ae0f68980cdf86f",
+      "anchor": "Exhibit.MA-A02",
+      "mesh_count": 1,
+      "source_bounds_min": [
+        -1.0,
+        -0.5,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.0,
+        0.5,
+        0.2800000011920929
+      ],
+      "row": 0,
+      "column": 1,
+      "translation": [
+        -44.350000739097595,
+        62.09000103473664,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-A03",
+      "title": "Клиновидная броня 1×1",
+      "catalog_id": "armor-wedge",
+      "version": "1.0",
+      "source": "Blocks/MA-A03/MA-A03.blend",
+      "source_sha256": "38587722ba32de717c41e8d59e5aa5e962a14238a0ab2d244ee54bbdaa5b510c",
+      "anchor": "Exhibit.MA-A03",
+      "mesh_count": 1,
+      "source_bounds_min": [
+        -0.5,
+        -0.5,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.5,
+        0.5,
+        0.2800000011920929
+      ],
+      "row": 0,
+      "column": 2,
+      "translation": [
+        -26.61000044345856,
+        62.09000103473664,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-A04",
+      "title": "Клиновидная броня 1×2",
+      "catalog_id": "armor-1x2-wedge",
+      "version": "1.0",
+      "source": "Blocks/MA-A04/MA-A04.blend",
+      "source_sha256": "2bb42662fd9df22e54d46e5b80c7531b912134afc235dca5e7d85e74aeb3ede1",
+      "anchor": "Exhibit.MA-A04",
+      "mesh_count": 1,
+      "source_bounds_min": [
+        -0.5,
+        -1.0,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.5,
+        1.0,
+        0.2800000011920929
+      ],
+      "row": 0,
+      "column": 3,
+      "translation": [
+        -8.87000014781952,
+        62.09000103473664,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-B01",
+      "title": "Батарея",
+      "catalog_id": "battery-4x4",
+      "version": "2.0",
+      "source": "Blocks/MA-B01/MA-B01.blend",
+      "source_sha256": "bf208d949437f7cde0a51ef1ee2b0e9607147671ade60a10b41a6fa90566827a",
+      "anchor": "Exhibit.MA-B01",
+      "mesh_count": 96,
+      "source_bounds_min": [
+        -1.8600000143051147,
+        -1.725000023841858,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.8600000143051147,
+        1.725000023841858,
+        1.2350001335144043
+      ],
+      "row": 0,
+      "column": 4,
+      "translation": [
+        8.87000014781952,
+        62.09000103473664,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-C01",
+      "title": "Программируемый блок",
+      "catalog_id": "programmable-2x1",
+      "version": "2.0",
+      "source": "Blocks/MA-C01/MA-C01.blend",
+      "source_sha256": "39815a3eb14115f8abb13da9a73b2bdcd84eaf9702a30857c487a3c49abddda0",
+      "anchor": "Exhibit.MA-C01",
+      "mesh_count": 52,
+      "source_bounds_min": [
+        -1.75,
+        -0.7300000190734863,
+        0.03999999910593033
+      ],
+      "source_bounds_max": [
+        1.75,
+        0.7950000166893005,
+        1.0095000267028809
+      ],
+      "row": 0,
+      "column": 5,
+      "translation": [
+        26.61000044345856,
+        62.05750103592873,
+        -0.019999999105930328
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-D01",
+      "title": "Механический бур 1×3",
+      "catalog_id": "rotary-drill-1x3",
+      "version": "1.0",
+      "source": "Blocks/MA-D01/MA-D01.blend",
+      "source_sha256": "d77766a659425ebc211be686f9fa171218b462fd02f908d225a7ff6995036509",
+      "anchor": "Exhibit.MA-D01",
+      "mesh_count": 55,
+      "source_bounds_min": [
+        -0.8390844464302063,
+        -2.7199997901916504,
+        0.009999999776482582
+      ],
+      "source_bounds_max": [
+        0.90809166431427,
+        2.569999933242798,
+        1.713661789894104
+      ],
+      "row": 0,
+      "column": 6,
+      "translation": [
+        44.31549713015556,
+        62.165000963211064,
+        0.010000000223517418
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-D02",
+      "title": "Механический бур 2×3",
+      "catalog_id": "rotary-drill-2x3",
+      "version": "1.0",
+      "source": "Blocks/MA-D02/MA-D02.blend",
+      "source_sha256": "67cfc27fa7a263995b02ca89eb76bea61c86c4232c16346cf8c6bf62780ff2c0",
+      "anchor": "Exhibit.MA-D02",
+      "mesh_count": 108,
+      "source_bounds_min": [
+        -1.9199999570846558,
+        -2.7199997901916504,
+        0.009999999776482582
+      ],
+      "source_bounds_max": [
+        1.9199999570846558,
+        2.559999942779541,
+        1.713661789894104
+      ],
+      "row": 0,
+      "column": 7,
+      "translation": [
+        62.09000103473664,
+        62.17000095844269,
+        0.010000000223517418
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-D03",
+      "title": "Механический бур 3×5",
+      "catalog_id": "rotary-drill-3x5",
+      "version": "1.0",
+      "source": "Blocks/MA-D03/MA-D03.blend",
+      "source_sha256": "d352be8ee5babf4db011e019ef1382b515b242fb19ec485dc3e6c354d0cab22a",
+      "anchor": "Exhibit.MA-D03",
+      "mesh_count": 183,
+      "source_bounds_min": [
+        -3.0399999618530273,
+        -4.170000076293945,
+        0.0
+      ],
+      "source_bounds_max": [
+        3.0399999618530273,
+        5.78000020980835,
+        1.713661789894104
+      ],
+      "row": 1,
+      "column": 0,
+      "translation": [
+        -62.09000103473664,
+        43.54500067234039,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-E01",
+      "title": "Средний двигатель",
+      "catalog_id": "thruster-med",
+      "version": "1.0",
+      "source": "Blocks/MA-E01/MA-E01.blend",
+      "source_sha256": "eea1e0d932fe2385ae90011914b1db4f99e72d3df65b1032f1e88c7402a8a416",
+      "anchor": "Exhibit.MA-E01",
+      "mesh_count": 31,
+      "source_bounds_min": [
+        -0.5,
+        -1.267875075340271,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.5,
+        0.9884999990463257,
+        0.9819999933242798
+      ],
+      "row": 1,
+      "column": 1,
+      "translation": [
+        -44.350000739097595,
+        44.48968827724457,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-E02",
+      "title": "Малый тройной двигатель",
+      "catalog_id": "thruster-small-3way",
+      "version": "1.0",
+      "source": "Blocks/MA-E02/MA-E02.blend",
+      "source_sha256": "8f0cb570a28a93a6c83eac5b70e5698d581d6fe0cff4122b9e7b1285d43f73bc",
+      "anchor": "Exhibit.MA-E02",
+      "mesh_count": 50,
+      "source_bounds_min": [
+        -1.4792046546936035,
+        -1.1345748901367188,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.4792046546936035,
+        0.9764999747276306,
+        0.8236953020095825
+      ],
+      "row": 1,
+      "column": 2,
+      "translation": [
+        -26.61000044345856,
+        44.42903819680214,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-EF01",
+      "title": "Топливный двигатель 2×3",
+      "catalog_id": "fuel-thruster-2x3",
+      "version": "1.0",
+      "source": "Blocks/MA-EF01/MA-EF01.blend",
+      "source_sha256": "dc7e10e2d9548620fc08219e9f4d8dc2d5053608397b4064b604dad04afc6997",
+      "anchor": "Exhibit.MA-EF01",
+      "mesh_count": 24,
+      "source_bounds_min": [
+        -0.9399999976158142,
+        -1.7375000715255737,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.9399999976158142,
+        1.649999976158142,
+        1.940000057220459
+      ],
+      "row": 1,
+      "column": 3,
+      "translation": [
+        -8.87000014781952,
+        44.39375078678131,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-EF02",
+      "title": "Топливный двигатель 1×2",
+      "catalog_id": "fuel-thruster-1x2",
+      "version": "1.0",
+      "source": "Blocks/MA-EF02/MA-EF02.blend",
+      "source_sha256": "b4e1829ee32960ad3a104870a0e67dbb5039e1279507b5434f4ef8df8cd1467c",
+      "anchor": "Exhibit.MA-EF02",
+      "mesh_count": 25,
+      "source_bounds_min": [
+        -0.38999998569488525,
+        -0.9478749632835388,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.38999998569488525,
+        1.0399999618530273,
+        0.9825000166893005
+      ],
+      "row": 1,
+      "column": 4,
+      "translation": [
+        8.87000014781952,
+        44.30393823981285,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-EF03",
+      "title": "Топливный двигатель 3×4",
+      "catalog_id": "fuel-thruster-3x4",
+      "version": "1.0",
+      "source": "Blocks/MA-EF03/MA-EF03.blend",
+      "source_sha256": "1c5e54717d6f81cd923a92b9700a802d1caf779b0b3562d2b7d42752598177a9",
+      "anchor": "Exhibit.MA-EF03",
+      "mesh_count": 37,
+      "source_bounds_min": [
+        -1.9500000476837158,
+        -1.8675000667572021,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.9500000476837158,
+        1.9595000743865967,
+        2.009999990463257
+      ],
+      "row": 1,
+      "column": 5,
+      "translation": [
+        26.61000044345856,
+        44.3040007352829,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-EF04",
+      "title": "Топливный двигатель 4×6",
+      "catalog_id": "fuel-thruster-4x6",
+      "version": "1.0",
+      "source": "Blocks/MA-EF04/MA-EF04.blend",
+      "source_sha256": "0bc6c6f3300245a42f6f4522a404d1b1e885861515081a4bccc89f93709294d1",
+      "anchor": "Exhibit.MA-EF04",
+      "mesh_count": 51,
+      "source_bounds_min": [
+        -2.0199999809265137,
+        -1.787500023841858,
+        0.0
+      ],
+      "source_bounds_max": [
+        2.0199999809265137,
+        3.9375,
+        3.890000104904175
+      ],
+      "row": 1,
+      "column": 6,
+      "translation": [
+        44.350000739097595,
+        43.275000751018524,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-EI01",
+      "title": "Ионный двигатель 2×3",
+      "catalog_id": "ion-thruster-2x3",
+      "version": "2.0",
+      "source": "Blocks/MA-EI01/MA-EI01.blend",
+      "source_sha256": "28e3b48cd372589666d755c24b88b24af4b3a083b7306f767f87120ce12f0eba",
+      "anchor": "Exhibit.MA-EI01",
+      "mesh_count": 103,
+      "source_bounds_min": [
+        -1.7300000190734863,
+        -2.1024999618530273,
+        0.03999999910593033
+      ],
+      "source_bounds_max": [
+        1.7300000190734863,
+        2.3399999141693115,
+        1.8200000524520874
+      ],
+      "row": 1,
+      "column": 7,
+      "translation": [
+        62.09000103473664,
+        44.23125076293945,
+        -0.019999999105930328
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-EI02",
+      "title": "Ионный двигатель 3×4",
+      "catalog_id": "ion-thruster-3x4",
+      "version": "2.0",
+      "source": "Blocks/MA-EI02/MA-EI02.blend",
+      "source_sha256": "cc37c63e6fd21a567680d25f459ab5aa4d69bfd630d830bc332a52174a18b059",
+      "anchor": "Exhibit.MA-EI02",
+      "mesh_count": 183,
+      "source_bounds_min": [
+        -2.200000047683716,
+        -2.5824997425079346,
+        0.07500000298023224
+      ],
+      "source_bounds_max": [
+        2.200000047683716,
+        3.2300000190734863,
+        3.5299999713897705
+      ],
+      "row": 2,
+      "column": 0,
+      "translation": [
+        -62.09000103473664,
+        26.286250305175784,
+        -0.055000002980232235
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-EI03",
+      "title": "Ионный двигатель 1×2",
+      "catalog_id": "ion-thruster-1x2",
+      "version": "2.0",
+      "source": "Blocks/MA-EI03/MA-EI03.blend",
+      "source_sha256": "5f6e30051946872456c25a6ab85f3393cd199e3f9ce7e8b2b87f7615ea47f8f2",
+      "anchor": "Exhibit.MA-EI03",
+      "mesh_count": 61,
+      "source_bounds_min": [
+        -0.9649999737739563,
+        -1.602500081062317,
+        0.054999999701976776
+      ],
+      "source_bounds_max": [
+        0.9649999737739563,
+        1.6675000190734863,
+        1.7250001430511475
+      ],
+      "row": 2,
+      "column": 1,
+      "translation": [
+        -44.350000739097595,
+        26.577500474452975,
+        -0.03499999970197677
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-EI04",
+      "title": "Ионный двигатель 4×6",
+      "catalog_id": "ion-thruster-4x6",
+      "version": "2.0",
+      "source": "Blocks/MA-EI04/MA-EI04.blend",
+      "source_sha256": "e84463e5bd4636f009743cf1dc769af732e57e64673b819f4af6da927b0867b2",
+      "anchor": "Exhibit.MA-EI04",
+      "mesh_count": 361,
+      "source_bounds_min": [
+        -3.7950000762939453,
+        -4.782500267028809,
+        0.10999999940395355
+      ],
+      "source_bounds_max": [
+        3.7950000762939453,
+        4.849999904632568,
+        3.694999933242798
+      ],
+      "row": 2,
+      "column": 2,
+      "translation": [
+        -26.61000044345856,
+        26.57625062465668,
+        -0.08999999940395355
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-F01",
+      "title": "Производственный блок",
+      "catalog_id": "refinery-2x1",
+      "version": "2.0",
+      "source": "Blocks/MA-F01/MA-F01.blend",
+      "source_sha256": "727ea26cf24e9da828b18d24b018f7226ebb7d3049c54b5e4d695568fa97a93d",
+      "anchor": "Exhibit.MA-F01",
+      "mesh_count": 28,
+      "source_bounds_min": [
+        -1.7450000047683716,
+        -0.8799999952316284,
+        0.019999999552965164
+      ],
+      "source_bounds_max": [
+        1.7599999904632568,
+        0.8799999952316284,
+        1.2975000143051147
+      ],
+      "row": 2,
+      "column": 3,
+      "translation": [
+        -8.877500140666962,
+        26.61000044345856,
+        4.470348362317633e-10
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-F02",
+      "title": "Производственный блок базы",
+      "catalog_id": "refinery-base",
+      "version": "2.0",
+      "source": "Blocks/MA-F02/MA-F02.blend",
+      "source_sha256": "28aba24388ca43f42df69bfff65e53c4e7a238696166556b1687f102b09ba38b",
+      "anchor": "Exhibit.MA-F02",
+      "mesh_count": 37,
+      "source_bounds_min": [
+        -1.7450000047683716,
+        -0.8799999952316284,
+        0.019999999552965164
+      ],
+      "source_bounds_max": [
+        1.7599999904632568,
+        0.8799999952316284,
+        1.3225001096725464
+      ],
+      "row": 2,
+      "column": 4,
+      "translation": [
+        8.862500154972077,
+        26.61000044345856,
+        4.470348362317633e-10
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-FF01",
+      "title": "Фабрика топлива 3×5",
+      "catalog_id": "fuel-factory-3x5",
+      "version": "1.0",
+      "source": "Blocks/MA-FF01/MA-FF01.blend",
+      "source_sha256": "2321c40e40bc3e88b05cf86122da09ee51d6a30f1ecadb97061a59c9656d9550",
+      "anchor": "Exhibit.MA-FF01",
+      "mesh_count": 67,
+      "source_bounds_min": [
+        -2.265000104904175,
+        -3.9000000953674316,
+        0.0
+      ],
+      "source_bounds_max": [
+        2.265000104904175,
+        3.9000000953674316,
+        3.004999876022339
+      ],
+      "row": 2,
+      "column": 5,
+      "translation": [
+        26.61000044345856,
+        26.61000044345856,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-FG01",
+      "title": "Машинное отделение",
+      "catalog_id": "engine-room",
+      "version": "2.0",
+      "source": "Blocks/MA-FG01/MA-FG01.blend",
+      "source_sha256": "68b31d839dfb750f41200baa30a6e89ed182083be6565dc59b9a101c4a6a9e52",
+      "anchor": "Exhibit.MA-FG01",
+      "mesh_count": 42,
+      "source_bounds_min": [
+        -1.3700000047683716,
+        -1.4199999570846558,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.3600000143051147,
+        1.284999966621399,
+        1.5920000076293945
+      ],
+      "row": 2,
+      "column": 6,
+      "translation": [
+        44.355000734329224,
+        26.67750043869019,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-FT01",
+      "title": "Бак топлива 1×2",
+      "catalog_id": "fuel-tank-1x2",
+      "version": "1.0",
+      "source": "Blocks/MA-FT01/MA-FT01.blend",
+      "source_sha256": "d08e3403be9f14153b373e2bd294f25c0bf837cb02ade92a46ab2f121b1862dc",
+      "anchor": "Exhibit.MA-FT01",
+      "mesh_count": 21,
+      "source_bounds_min": [
+        -0.8999999761581421,
+        -1.7999999523162842,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.8999999761581421,
+        1.7999999523162842,
+        1.4100000858306885
+      ],
+      "row": 2,
+      "column": 7,
+      "translation": [
+        62.09000103473664,
+        26.61000044345856,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-FT02",
+      "title": "Бак топлива 2×2",
+      "catalog_id": "fuel-tank-2x2",
+      "version": "1.0",
+      "source": "Blocks/MA-FT02/MA-FT02.blend",
+      "source_sha256": "0d7d1f7c33c2fa2ddc024b2d29eefbc034f22f384bb55a819ecfd091ebcbd805",
+      "anchor": "Exhibit.MA-FT02",
+      "mesh_count": 26,
+      "source_bounds_min": [
+        -1.75,
+        -1.7300000190734863,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.75,
+        1.309999942779541,
+        1.4700000286102295
+      ],
+      "row": 3,
+      "column": 0,
+      "translation": [
+        -62.09000103473664,
+        9.080000185966492,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-FT03",
+      "title": "Бак топлива 3×3",
+      "catalog_id": "fuel-tank-3x3",
+      "version": "1.0",
+      "source": "Blocks/MA-FT03/MA-FT03.blend",
+      "source_sha256": "b3b77522c6ef83b74ebf526822e9d980188840a01a006f6894a502b87e5a3583",
+      "anchor": "Exhibit.MA-FT03",
+      "mesh_count": 71,
+      "source_bounds_min": [
+        -2.4149999618530273,
+        -2.950000047683716,
+        0.0
+      ],
+      "source_bounds_max": [
+        2.4149999618530273,
+        2.9099998474121094,
+        1.4700000286102295
+      ],
+      "row": 3,
+      "column": 1,
+      "translation": [
+        -44.350000739097595,
+        8.890000247955323,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-FT04",
+      "title": "Бак топлива 4×4",
+      "catalog_id": "fuel-tank-4x4",
+      "version": "1.0",
+      "source": "Blocks/MA-FT04/MA-FT04.blend",
+      "source_sha256": "9a2bce35cbf1a4507bf1b162f5ea4c2cc74205f6d1af02e58017b8efe1029e01",
+      "anchor": "Exhibit.MA-FT04",
+      "mesh_count": 93,
+      "source_bounds_min": [
+        -3.240000009536743,
+        -3.1500000953674316,
+        0.0
+      ],
+      "source_bounds_max": [
+        3.240000009536743,
+        3.109999895095825,
+        1.4700000286102295
+      ],
+      "row": 3,
+      "column": 2,
+      "translation": [
+        -26.61000044345856,
+        8.890000247955323,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-G01",
+      "title": "Корабельный гараж",
+      "catalog_id": "garage-ship",
+      "version": "1.0",
+      "source": "Blocks/MA-G01/MA-G01.blend",
+      "source_sha256": "c2639cb62851a936a80636eec51baa787e674eb142f935447cf9985bb9b9efad",
+      "anchor": "Exhibit.MA-G01",
+      "mesh_count": 32,
+      "source_bounds_min": [
+        -0.8999999761581421,
+        -0.8999999761581421,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.8999999761581421,
+        0.8999999761581421,
+        1.1100000143051147
+      ],
+      "row": 3,
+      "column": 3,
+      "translation": [
+        -8.87000014781952,
+        8.87000014781952,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-G02",
+      "title": "Базовый гараж с верфью",
+      "catalog_id": "garage-base",
+      "version": "1.0",
+      "source": "Blocks/MA-G02/MA-G02.blend",
+      "source_sha256": "908361a5e449fc837bfd4e7bdd40a788017337e4144c82bfce5b374453538454",
+      "anchor": "Exhibit.MA-G02",
+      "mesh_count": 53,
+      "source_bounds_min": [
+        -0.8999999761581421,
+        -0.8999999761581421,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.8999999761581421,
+        0.9100000262260437,
+        1.7038509845733643
+      ],
+      "row": 3,
+      "column": 4,
+      "translation": [
+        8.87000014781952,
+        8.865000122785569,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-H01",
+      "title": "Радиатор 1×2",
+      "catalog_id": "radiator-1x2",
+      "version": "2.0",
+      "source": "Blocks/MA-H01/MA-H01.blend",
+      "source_sha256": "ebf36752bb0852b57b531266f15abc60840bd2d1d13f005d5fa1489718b97e5b",
+      "anchor": "Exhibit.MA-H01",
+      "mesh_count": 64,
+      "source_bounds_min": [
+        -0.8999999761581421,
+        -1.7999999523162842,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.8999999761581421,
+        1.7999999523162842,
+        0.6499999761581421
+      ],
+      "row": 3,
+      "column": 5,
+      "translation": [
+        26.61000044345856,
+        8.87000014781952,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-H02",
+      "title": "Радиатор 2×3",
+      "catalog_id": "radiator-2x3",
+      "version": "2.0",
+      "source": "Blocks/MA-H02/MA-H02.blend",
+      "source_sha256": "6f8a4c38d46b7e27e40127f2b8b0ec74945c630c96abb408bfaf5c83c52b2deb",
+      "anchor": "Exhibit.MA-H02",
+      "mesh_count": 192,
+      "source_bounds_min": [
+        -1.8799999952316284,
+        -2.7799999713897705,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.8799999952316284,
+        2.7799999713897705,
+        0.6499999761581421
+      ],
+      "row": 3,
+      "column": 6,
+      "translation": [
+        44.350000739097595,
+        8.87000014781952,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-H03",
+      "title": "Радиатор 3×5",
+      "catalog_id": "radiator-3x5",
+      "version": "2.0",
+      "source": "Blocks/MA-H03/MA-H03.blend",
+      "source_sha256": "8df9fed617a09c49cfe62a8053c78f1b770a03a18689db7086d9beb3e63d2557",
+      "anchor": "Exhibit.MA-H03",
+      "mesh_count": 420,
+      "source_bounds_min": [
+        -2.9000000953674316,
+        -4.659999847412109,
+        0.0
+      ],
+      "source_bounds_max": [
+        2.9000000953674316,
+        4.659999847412109,
+        0.6499999761581421
+      ],
+      "row": 3,
+      "column": 7,
+      "translation": [
+        62.09000103473664,
+        8.87000014781952,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-HS01",
+      "title": "Накопитель тепла 1×1",
+      "catalog_id": "heat-store-1x1",
+      "version": "2.0",
+      "source": "Blocks/MA-HS01/MA-HS01.blend",
+      "source_sha256": "85d9795aa332ec4d87727fda21e86181783d8cf0f8db93f7c72b2858d2ef708d",
+      "anchor": "Exhibit.MA-HS01",
+      "mesh_count": 30,
+      "source_bounds_min": [
+        -0.925000011920929,
+        -0.8799999952316284,
+        0.019999999552965164
+      ],
+      "source_bounds_max": [
+        0.925000011920929,
+        0.8899999856948853,
+        1.6200000047683716
+      ],
+      "row": 4,
+      "column": 0,
+      "translation": [
+        -62.09000103473664,
+        -8.875000143051148,
+        4.470348362317633e-10
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-HS02",
+      "title": "Накопитель тепла 2×2",
+      "catalog_id": "heat-store-2x2",
+      "version": "2.0",
+      "source": "Blocks/MA-HS02/MA-HS02.blend",
+      "source_sha256": "042620b82e5495ed9452f3aa1a4f423d437e60aaefefe8c82a8245d4ccc73dd2",
+      "anchor": "Exhibit.MA-HS02",
+      "mesh_count": 83,
+      "source_bounds_min": [
+        -1.7000000476837158,
+        -1.6399999856948853,
+        0.029999999329447746
+      ],
+      "source_bounds_max": [
+        1.7000000476837158,
+        1.809999942779541,
+        1.6200000047683716
+      ],
+      "row": 4,
+      "column": 1,
+      "translation": [
+        -44.350000739097595,
+        -8.955000126361847,
+        -0.009999999329447746
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-HS03",
+      "title": "Накопитель тепла 3×3",
+      "catalog_id": "heat-store-3x3",
+      "version": "2.0",
+      "source": "Blocks/MA-HS03/MA-HS03.blend",
+      "source_sha256": "12c5e428ca2530b2b102ad0755c3961af212aabad20b04a3e8a38a638e905ba2",
+      "anchor": "Exhibit.MA-HS03",
+      "mesh_count": 162,
+      "source_bounds_min": [
+        -2.6100001335144043,
+        -2.369999885559082,
+        0.029999999329447746
+      ],
+      "source_bounds_max": [
+        2.6100001335144043,
+        2.6549999713897705,
+        1.940000057220459
+      ],
+      "row": 4,
+      "column": 2,
+      "translation": [
+        -26.61000044345856,
+        -9.012500190734864,
+        -0.009999999329447746
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-HS04",
+      "title": "Накопитель тепла 4×4",
+      "catalog_id": "heat-store-4x4",
+      "version": "2.0",
+      "source": "Blocks/MA-HS04/MA-HS04.blend",
+      "source_sha256": "70232404b11a985d801c49e69aaca3be17055f0e42b371a97b4b22239be568ac",
+      "anchor": "Exhibit.MA-HS04",
+      "mesh_count": 298,
+      "source_bounds_min": [
+        -3.5199999809265137,
+        -3.5199999809265137,
+        0.029999999329447746
+      ],
+      "source_bounds_max": [
+        3.5199999809265137,
+        3.815000057220459,
+        1.940000057220459
+      ],
+      "row": 4,
+      "column": 3,
+      "translation": [
+        -8.87000014781952,
+        -9.017500185966492,
+        -0.009999999329447746
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-I01",
+      "title": "Грузовой отсек с верфью",
+      "catalog_id": "cargo-2x1",
+      "version": "2.0",
+      "source": "Blocks/MA-I01/MA-I01.blend",
+      "source_sha256": "f196fe7cd534147df14ff30f008778cab84788efd9a898dd87a7deb320b454e8",
+      "anchor": "Exhibit.MA-I01",
+      "mesh_count": 29,
+      "source_bounds_min": [
+        -1.934999942779541,
+        -0.9500000476837158,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.934999942779541,
+        0.9500000476837158,
+        1.368499994277954
+      ],
+      "row": 4,
+      "column": 4,
+      "translation": [
+        8.87000014781952,
+        -8.87000014781952,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-I02",
+      "title": "Грузовой контейнер 2×2",
+      "catalog_id": "cargo-2x2",
+      "version": "1.0",
+      "source": "Blocks/MA-I02/MA-I02.blend",
+      "source_sha256": "3be2b2b2cfd0754bdcc6aa3e24bfd6a9d4322a8600f24e659cde75ca6ec8d030",
+      "anchor": "Exhibit.MA-I02",
+      "mesh_count": 48,
+      "source_bounds_min": [
+        -1.934999942779541,
+        -1.9299999475479126,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.934999942779541,
+        1.9299999475479126,
+        1.5735000371932983
+      ],
+      "row": 4,
+      "column": 5,
+      "translation": [
+        26.61000044345856,
+        -8.87000014781952,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-I03",
+      "title": "Грузовой контейнер 3×3",
+      "catalog_id": "cargo-3x3",
+      "version": "1.0",
+      "source": "Blocks/MA-I03/MA-I03.blend",
+      "source_sha256": "64697791e9316c142571b3405db2a755bcf32b1520b6129bf3ed196a7f464639",
+      "anchor": "Exhibit.MA-I03",
+      "mesh_count": 71,
+      "source_bounds_min": [
+        -2.8134520053863525,
+        -2.820000171661377,
+        0.0
+      ],
+      "source_bounds_max": [
+        2.8134520053863525,
+        2.820000171661377,
+        2.0785000324249268
+      ],
+      "row": 4,
+      "column": 6,
+      "translation": [
+        44.350000739097595,
+        -8.87000014781952,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-I04",
+      "title": "Грузовой контейнер 4×4",
+      "catalog_id": "cargo-4x4",
+      "version": "1.0",
+      "source": "Blocks/MA-I04/MA-I04.blend",
+      "source_sha256": "b5e461180894a7ecca85cc77e329e7275ad83efe0549eb6b7bf8427691964bf9",
+      "anchor": "Exhibit.MA-I04",
+      "mesh_count": 115,
+      "source_bounds_min": [
+        -3.728849172592163,
+        -3.7100000381469727,
+        -0.016132324934005737
+      ],
+      "source_bounds_max": [
+        3.728849172592163,
+        3.7100000381469727,
+        2.428500175476074
+      ],
+      "row": 4,
+      "column": 7,
+      "translation": [
+        62.09000103473664,
+        -8.87000014781952,
+        0.03613232493400574
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-I05",
+      "title": "Грузовой контейнер 5×5",
+      "catalog_id": "cargo-5x5",
+      "version": "1.0",
+      "source": "Blocks/MA-I05/MA-I05.blend",
+      "source_sha256": "364e9c2725c36439929de9038dc3e84eaf92a15c1ce4f632017090569fbcf93b",
+      "anchor": "Exhibit.MA-I05",
+      "mesh_count": 156,
+      "source_bounds_min": [
+        -4.558777332305908,
+        -4.610000133514404,
+        -0.015376240015029907
+      ],
+      "source_bounds_max": [
+        4.558777332305908,
+        4.610000133514404,
+        2.9600000381469727
+      ],
+      "row": 5,
+      "column": 0,
+      "translation": [
+        -62.09000103473664,
+        -26.61000044345856,
+        0.03537624001502991
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-L01",
+      "title": "Коридор",
+      "catalog_id": "corridor-1x1",
+      "version": "1.0",
+      "source": "Blocks/MA-L01/MA-L01.blend",
+      "source_sha256": "4a66031e341fdf20645c2e13da545c4ba7bba0a27b8b4b5283c46d7171f35fa6",
+      "anchor": "Exhibit.MA-L01",
+      "mesh_count": 20,
+      "source_bounds_min": [
+        -0.9200000166893005,
+        -0.9100000262260437,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.9200000166893005,
+        0.9100000262260437,
+        1.5699999332427979
+      ],
+      "row": 5,
+      "column": 1,
+      "translation": [
+        -44.350000739097595,
+        -26.61000044345856,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-M01",
+      "title": "Малый добывающий лазер",
+      "catalog_id": "mining-laser-small",
+      "version": "1.0",
+      "source": "Blocks/MA-M01/MA-M01.blend",
+      "source_sha256": "e5bf0ba5f258d0cc7e9b4ca051cb9ba2cfb5b90a432031bf0982d4ba92519c20",
+      "anchor": "Exhibit.MA-M01",
+      "mesh_count": 32,
+      "source_bounds_min": [
+        -0.8300000429153442,
+        -2.559999942779541,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.8300000429153442,
+        2.559999942779541,
+        1.6498483419418335
+      ],
+      "row": 5,
+      "column": 2,
+      "translation": [
+        -26.61000044345856,
+        -26.61000044345856,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-M02",
+      "title": "Промышленный добывающий лазер",
+      "catalog_id": "mining-laser-industrial",
+      "version": "1.0",
+      "source": "Blocks/MA-M02/MA-M02.blend",
+      "source_sha256": "6ccf569551ff7cd1372ef7f07eebba0db9e0684b88483abca0b93ead974bd2c5",
+      "anchor": "Exhibit.MA-M02",
+      "mesh_count": 82,
+      "source_bounds_min": [
+        -0.875,
+        -2.7750000953674316,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.875,
+        2.7750000953674316,
+        1.5600000619888306
+      ],
+      "row": 5,
+      "column": 3,
+      "translation": [
+        -8.87000014781952,
+        -26.61000044345856,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-N01",
+      "title": "Антенна",
+      "catalog_id": "antenna-1x1",
+      "version": "1.0",
+      "source": "Blocks/MA-N01/MA-N01.blend",
+      "source_sha256": "f7ea368b43babfe08c65b064a533d52f73f64e250ef5f443cb57d3f7bdfc4c6e",
+      "anchor": "Exhibit.MA-N01",
+      "mesh_count": 41,
+      "source_bounds_min": [
+        -0.8700000047683716,
+        -0.824999988079071,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.8700000047683716,
+        0.824999988079071,
+        1.415937900543213
+      ],
+      "row": 5,
+      "column": 4,
+      "translation": [
+        8.87000014781952,
+        -26.61000044345856,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-R01",
+      "title": "Реактор",
+      "catalog_id": "reactor-4x4-aaaa",
+      "version": "1.0",
+      "source": "Blocks/MA-R01/MA-R01.blend",
+      "source_sha256": "1ca9408944d5fad276975df39e1d9a274d2ba7af792880c45e0e42661d275479",
+      "anchor": "Exhibit.MA-R01",
+      "mesh_count": 86,
+      "source_bounds_min": [
+        -1.7899999618530273,
+        -1.7899999618530273,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.7899999618530273,
+        1.7899999618530273,
+        1.8980000019073486
+      ],
+      "row": 5,
+      "column": 5,
+      "translation": [
+        26.61000044345856,
+        -26.61000044345856,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-S01",
+      "title": "Блок аукциона базы",
+      "catalog_id": "auction-base",
+      "version": "3.0",
+      "source": "Blocks/MA-S01/MA-S01.blend",
+      "source_sha256": "f8c772098f0e5a70d2c710b5883436cedbb44aab64fdd0ab49e71a047993f791",
+      "anchor": "Exhibit.MA-S01",
+      "mesh_count": 37,
+      "source_bounds_min": [
+        -0.8349999785423279,
+        -0.8600000143051147,
+        0.03999999910593033
+      ],
+      "source_bounds_max": [
+        0.8349999785423279,
+        0.8550000190734863,
+        0.9779999852180481
+      ],
+      "row": 5,
+      "column": 6,
+      "translation": [
+        44.350000739097595,
+        -26.607500445842746,
+        -0.019999999105930328
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-SP01",
+      "title": "Солнечная панель 1×2",
+      "catalog_id": "solar-1x2",
+      "version": "2.0",
+      "source": "Blocks/MA-SP01/MA-SP01.blend",
+      "source_sha256": "cebaee8f3fb107bba412d9765e635bb1d70c2843407733ef65c5e68be6755a82",
+      "anchor": "Exhibit.MA-SP01",
+      "mesh_count": 189,
+      "source_bounds_min": [
+        -0.8999999761581421,
+        -1.7999999523162842,
+        0.0
+      ],
+      "source_bounds_max": [
+        0.8999999761581421,
+        1.7999999523162842,
+        0.4010000228881836
+      ],
+      "row": 5,
+      "column": 7,
+      "translation": [
+        62.09000103473664,
+        -26.61000044345856,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-SP02",
+      "title": "Солнечная панель 2×3",
+      "catalog_id": "solar-2x3",
+      "version": "2.0",
+      "source": "Blocks/MA-SP02/MA-SP02.blend",
+      "source_sha256": "e6a640537ae47bbb5243a03915afb8813e2932a463727b93a56cc130be22eb4d",
+      "anchor": "Exhibit.MA-SP02",
+      "mesh_count": 445,
+      "source_bounds_min": [
+        -1.7999999523162842,
+        -2.700000047683716,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.7999999523162842,
+        2.700000047683716,
+        0.38350003957748413
+      ],
+      "row": 6,
+      "column": 0,
+      "translation": [
+        -62.09000103473664,
+        -44.350000739097595,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-SP03",
+      "title": "Солнечная панель 3×5",
+      "catalog_id": "solar-3x5",
+      "version": "2.0",
+      "source": "Blocks/MA-SP03/MA-SP03.blend",
+      "source_sha256": "4c23ffdc41220609a51cbaf924efb7b75704d8ca084d8cabec55681857374ef8",
+      "anchor": "Exhibit.MA-SP03",
+      "mesh_count": 1129,
+      "source_bounds_min": [
+        -2.700000047683716,
+        -4.5,
+        0.0
+      ],
+      "source_bounds_max": [
+        2.700000047683716,
+        4.5,
+        0.38350003957748413
+      ],
+      "row": 6,
+      "column": 1,
+      "translation": [
+        -44.350000739097595,
+        -44.350000739097595,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-SP04",
+      "title": "Солнечная панель 4×6",
+      "catalog_id": "solar-4x6",
+      "version": "2.0",
+      "source": "Blocks/MA-SP04/MA-SP04.blend",
+      "source_sha256": "a1ffa8cbf9e14ec6bf2e45b0acb39863094860388dd3b5cdf7cff7cf0faf224b",
+      "anchor": "Exhibit.MA-SP04",
+      "mesh_count": 133,
+      "source_bounds_min": [
+        -3.5999999046325684,
+        -5.400000095367432,
+        0.0
+      ],
+      "source_bounds_max": [
+        3.5999999046325684,
+        5.400000095367432,
+        0.38350000977516174
+      ],
+      "row": 6,
+      "column": 2,
+      "translation": [
+        -26.61000044345856,
+        -44.350000739097595,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-T01",
+      "title": "Артиллерия Fleet corvette",
+      "catalog_id": "fleet-artillery-corvette",
+      "version": "1.3",
+      "source": "Blocks/MA-T01/MA-T01.blend",
+      "source_sha256": "33223ba53295e897215da48262b61480de3ec791e4dcc35754d039b7d5a75c51",
+      "anchor": "Exhibit.MA-T01",
+      "mesh_count": 197,
+      "source_bounds_min": [
+        -2.3499999046325684,
+        -4.579999923706055,
+        -0.43645039200782776
+      ],
+      "source_bounds_max": [
+        2.3499999046325684,
+        1.9700000286102295,
+        3.7849998474121094
+      ],
+      "row": 6,
+      "column": 3,
+      "translation": [
+        -8.87000014781952,
+        -43.04500079154968,
+        0.4564503920078278
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-W01",
+      "title": "Артиллерия Fleet battleship",
+      "catalog_id": "fleet-artillery-battleship",
+      "version": "1.0",
+      "source": "Blocks/MA-W01/MA-W01.blend",
+      "source_sha256": "28d30b3b629d171262f41f11159da8b9c9b6e53a00a26f82f9fadea6f51b7392",
+      "anchor": "Exhibit.MA-W01",
+      "mesh_count": 162,
+      "source_bounds_min": [
+        -3.199329137802124,
+        -5.69873046875,
+        0.0
+      ],
+      "source_bounds_max": [
+        3.199329137802124,
+        2.6500000953674316,
+        3.1700000762939453
+      ],
+      "row": 6,
+      "column": 4,
+      "translation": [
+        8.87000014781952,
+        -42.82563555240631,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-W02",
+      "title": "Турель непрерывного лазера",
+      "catalog_id": "continuous-laser-turret",
+      "version": "1.0",
+      "source": "Blocks/MA-W02/MA-W02.blend",
+      "source_sha256": "398613da443c8cc792154c20949520e4af9b48a8e4eb4d85a6cdeaeaf4ae6f16",
+      "anchor": "Exhibit.MA-W02",
+      "mesh_count": 85,
+      "source_bounds_min": [
+        -1.5199999809265137,
+        -2.4000000953674316,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.5199999809265137,
+        2.4000000953674316,
+        2.776338815689087
+      ],
+      "row": 6,
+      "column": 5,
+      "translation": [
+        26.61000044345856,
+        -44.350000739097595,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-W03",
+      "title": "Пулемёт Fleet cyclone",
+      "catalog_id": "fleet-minigun-cyclone",
+      "version": "1.0",
+      "source": "Blocks/MA-W03/MA-W03.blend",
+      "source_sha256": "0cf1a1d6653821feb0c72a19c9b838f9dceb36990fd7f3414a7c60eebeb2403b",
+      "anchor": "Exhibit.MA-W03",
+      "mesh_count": 98,
+      "source_bounds_min": [
+        -1.4090107679367065,
+        -2.509999990463257,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.4090107679367065,
+        1.1799999475479126,
+        1.8199999332427979
+      ],
+      "row": 6,
+      "column": 6,
+      "translation": [
+        44.350000739097595,
+        -43.68500071763992,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-W04",
+      "title": "Ракетная установка Fleet bastion",
+      "catalog_id": "fleet-rocket-bastion",
+      "version": "1.0",
+      "source": "Blocks/MA-W04/MA-W04.blend",
+      "source_sha256": "80f311dae0df037dfa69cbfef59b5ef7dcf2474dbb2b5ca820cdb790ba307a14",
+      "anchor": "Exhibit.MA-W04",
+      "mesh_count": 112,
+      "source_bounds_min": [
+        -1.9894866943359375,
+        -1.42631196975708,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.9894866943359375,
+        1.579232096672058,
+        2.3238656520843506
+      ],
+      "row": 6,
+      "column": 7,
+      "translation": [
+        62.09000103473664,
+        -44.426460802555084,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-W05",
+      "title": "Дробовик Fleet fan",
+      "catalog_id": "fleet-shotgun-fan",
+      "version": "1.0",
+      "source": "Blocks/MA-W05/MA-W05.blend",
+      "source_sha256": "b4bfa0c3a6dc6fb8beeafb0f714ebbe294356765d7a292edbf7ca7fe80f1267f",
+      "anchor": "Exhibit.MA-W05",
+      "mesh_count": 89,
+      "source_bounds_min": [
+        -3.130000114440918,
+        -2.679999828338623,
+        0.0
+      ],
+      "source_bounds_max": [
+        3.130000114440918,
+        1.5,
+        2.240000009536743
+      ],
+      "row": 7,
+      "column": 0,
+      "translation": [
+        -62.09000103473664,
+        -61.500001120567326,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MA-W06",
+      "title": "Снайперская рельсовая турель",
+      "catalog_id": "sniper-turret",
+      "version": "1.0",
+      "source": "Blocks/MA-W06/MA-W06.blend",
+      "source_sha256": "374f314a0eb9933783be1d230b5e6274bd1700aefd2622ddcd42a6dc03c2bcda",
+      "anchor": "Exhibit.MA-W06",
+      "mesh_count": 102,
+      "source_bounds_min": [
+        -1.475000023841858,
+        -6.179999828338623,
+        0.0
+      ],
+      "source_bounds_max": [
+        1.475000023841858,
+        3.2799999713897705,
+        2.3949999809265137
+      ],
+      "row": 7,
+      "column": 1,
+      "translation": [
+        -44.350000739097595,
+        -60.64000110626221,
+        0.02
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "cameras": [
+    "Camera.Overview",
+    "Camera.Perspective"
+  ],
+  "glb_generated": false
+}

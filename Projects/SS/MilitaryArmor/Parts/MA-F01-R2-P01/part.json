@@ -1,0 +1,372 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-F01-R2-P01",
+  "version": "2.0",
+  "name": "Directed production bed with asymmetric intake and delivery zones",
+  "source": "MA-F01-R2-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -1.7450000047683716,
+      -0.7900000214576721,
+      0.019999999552965164
+    ],
+    "max": [
+      1.7599999904632568,
+      0.7900000214576721,
+      0.5199999809265137
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Central process bed"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Protected intake side",
+        "Protected intake side.001",
+        "Delivery guide",
+        "Delivery guide.001"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Inset intake separator",
+        "Inset intake separator.001",
+        "Inset intake separator.002",
+        "Delivery segmentation",
+        "Delivery segmentation.001",
+        "Delivery segmentation.002"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Wide intake zone",
+        "Narrow delivery zone"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "hull",
+      "role": "hull",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.production.hull"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "chamber",
+      "role": "chamber",
+      "parent": "part",
+      "position": [
+        -0.12,
+        0,
+        0.24
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.production.chamber"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "bridge",
+      "role": "bridge",
+      "parent": "part",
+      "position": [
+        0.25,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.production.bridge"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "base-service",
+      "role": "base-service",
+      "parent": "part",
+      "position": [
+        0.99,
+        0.67,
+        0.2
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.production.base-service"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "hull-seat",
+      "parent": "part",
+      "role": "hull",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.production.hull"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "chamber-seat",
+      "parent": "part",
+      "role": "chamber",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        -0.12,
+        0,
+        0.24
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.production.chamber"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "bridge-seat",
+      "parent": "part",
+      "role": "bridge",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        0.25,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.production.bridge"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "base-service-seat",
+      "parent": "part",
+      "role": "base-service",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        0.99,
+        0.67,
+        0.2
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.production.base-service"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Functional identity revision 2.0. Static editable geometry, procedural PBR, no file textures, no animation. Physical BU scale unspecified. No GLB."
+}

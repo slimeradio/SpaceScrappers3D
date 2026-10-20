@@ -1,0 +1,44 @@
+# Third-party resources: never publish from this workspace.
+/SharedTextures/
+
+# Python and local environments.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+node_modules/
+
+# Blender files are local previews. Python scripts are the model source.
+*.blend
+*.blend[0-9]*
+*.blend@
+
+# Local reconstruction and audit copies. Regenerate them on the target machine.
+.generated/
+
+# Reproducible bulk exports and delivery archives.
+**/Exports/Sprites/
+**/Exports/Packages/
+**/Exports/Renders*/
+**/Exports/StatePreviews/
+**/animation-frames/
+*.zip
+*.7z
+*.rar
+
+# Local logs, temporary files and credentials.
+*.log
+*.tmp
+*.temp
+*.lock
+.DS_Store
+Thumbs.db
+Desktop.ini
+.env
+.env.*
+!.env.example

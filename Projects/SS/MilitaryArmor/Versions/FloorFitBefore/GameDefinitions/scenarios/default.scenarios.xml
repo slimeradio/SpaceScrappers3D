@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Scenarios>
+  <Scenario Name="GameDefault" PlayerShip="Стартовый корабль" PlayerX="18" PlayerY="0" SpacingX="24" SpacingY="18" SpawnColumns="7" SpawnRows="5" NpcBases="true" StartingCapital="10000000">
+    <Physics Editable="true"
+      SpaceViscosity="18" SpaceViscosityMin="0" SpaceViscosityMax="100"
+      EnginePower="100" EnginePowerMin="50" EnginePowerMax="200"
+      SpeedLimit="250" SpeedLimitMin="50" SpeedLimitMax="500"
+      RotationSpeedLimit="240" RotationSpeedLimitMin="30" RotationSpeedLimitMax="720"
+      RotationResistancePercent="0" RotationResistancePercentMin="0" RotationResistancePercentMax="100"
+      RotationCasuality="10" RotationCasualityMin="0" RotationCasualityMax="20"
+      DampenerStopTime="1" DampenerStopTimeMin="0.1" DampenerStopTimeMax="5"
+      ThrustLimitWS="100" ThrustLimitWSMin="0" ThrustLimitWSMax="100"
+      ThrustLimitAD="100" ThrustLimitADMin="0" ThrustLimitADMax="100"
+      ThrustLimitQE="100" ThrustLimitQEMin="0" ThrustLimitQEMax="100" />
+    <WorldShip Ref="Патрульный бот MVP" X="1000" Y="0" Bot="true" />
+  </Scenario>
+  <Scenario Name="TestDefault" PlayerShip="Стартовый корабль" PlayerX="18" PlayerY="0" SpacingX="24" SpacingY="18" SpawnColumns="7" SpawnRows="5" NpcBases="true" StartingCapital="10000000">
+    <Physics Editable="true"
+      SpaceViscosity="18" SpaceViscosityMin="0" SpaceViscosityMax="100"
+      EnginePower="100" EnginePowerMin="50" EnginePowerMax="200"
+      SpeedLimit="250" SpeedLimitMin="50" SpeedLimitMax="500"
+      RotationSpeedLimit="240" RotationSpeedLimitMin="30" RotationSpeedLimitMax="720"
+      RotationResistancePercent="0" RotationResistancePercentMin="0" RotationResistancePercentMax="100"
+      RotationCasuality="10" RotationCasualityMin="0" RotationCasualityMax="20"
+      DampenerStopTime="1" DampenerStopTimeMin="0.1" DampenerStopTimeMax="5"
+      ThrustLimitWS="100" ThrustLimitWSMin="0" ThrustLimitWSMax="100"
+      ThrustLimitAD="100" ThrustLimitADMin="0" ThrustLimitADMax="100"
+      ThrustLimitQE="100" ThrustLimitQEMin="0" ThrustLimitQEMax="100" />
+    <WorldShip Ref="Стартовый корабль" X="1000" Y="0" Bot="true" />
+    <WorldShip Ref="Стартовый корабль" X="5" Y="5" Bot="false" />
+    <WorldShip Ref="Стартовый корабль" X="-18" Y="3" Bot="false" />
+  </Scenario>
+</Scenarios>

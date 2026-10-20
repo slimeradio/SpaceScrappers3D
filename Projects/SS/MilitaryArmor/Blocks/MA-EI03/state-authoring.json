@@ -1,0 +1,322 @@
+{
+  "schema": "MilitaryArmor.StateAuthoring/1",
+  "id": "MA-EI03",
+  "game_validated": false,
+  "authoring_units": "BU; normalized controls; not game timings",
+  "controls": {
+    "power": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "Electrical availability; independent from retained heat/fill"
+    },
+    "activity": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Actual work/load; zero means idle"
+    },
+    "fault": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Externally supplied fault, not inferred"
+    },
+    "heat": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Retained normalized heat; independent from power"
+    }
+  },
+  "motion": [],
+  "materials": [
+    {
+      "object": "CompactPowerHousing::Front electrode seat",
+      "slot": 0,
+      "material": "MA-EI03::CompactPowerHousing::Front electrode seat::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.001",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.001::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.002",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.002::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.003",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.003::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.004",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.004::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.005",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.005::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.006",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.006::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.007",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.007::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.008",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.008::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.009",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.009::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.010",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.010::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.011",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.011::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.012",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.012::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.013",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.013::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.014",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.014::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Hexagonal electrode channel.015",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Hexagonal electrode channel.015::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Field diagnostic index",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Field diagnostic index::thrust",
+      "kind": "thrust",
+      "expression": "p*(.02+7*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ElectrodeAperture::Field diagnostic index.001",
+      "slot": 0,
+      "material": "MA-EI03::ElectrodeAperture::Field diagnostic index.001::thrust",
+      "kind": "thrust",
+      "expression": "p*(.02+7*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ServiceCartridge::Service status inset",
+      "slot": 0,
+      "material": "MA-EI03::ServiceCartridge::Service status inset::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "name": "MA-EI03::activate",
+      "parameters": [
+        "power",
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-EI03::deactivate",
+      "parameters": [
+        "activity",
+        "power"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-EI03::heat_up",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-EI03::cool_down",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        97
+      ],
+      "loop": false,
+      "authoring_only": true
+    }
+  ],
+  "events": [],
+  "presets": {
+    "off": {
+      "power": 0,
+      "activity": 0
+    },
+    "idle": {
+      "power": 1,
+      "activity": 0
+    },
+    "working": {
+      "power": 1,
+      "activity": 1
+    },
+    "hot_off": {
+      "power": 0,
+      "activity": 0,
+      "heat": 1
+    },
+    "cold": {
+      "heat": 0
+    },
+    "hot": {
+      "heat": 1
+    }
+  },
+  "phase_policy": "cycle_turns is integrated phase, not speed. Stop retains phase. NLA cycle repetition must use cyclic extrapolation/REPEAT_OFFSET for spin; never reset turns on start. Clips start from relative phase 0; apply current phase offset when sequencing.",
+  "controller": "MA-EI03",
+  "legacy_animation_metadata": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "MA-I01",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 4,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-I01::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-I01::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-I01::fill",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [],
+  "materials": [
+    {
+      "object": "LoadingHatch::Cargo latch index",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "LoadingHatch::Cargo latch index.001",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

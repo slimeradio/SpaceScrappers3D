@@ -1,0 +1,388 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-P03",
+  "version": "1.2",
+  "name": "Armored turret hull",
+  "source": "MA-P03.blend",
+  "units": "BU, physical scale unspecified",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "bounds_local": {
+    "min": [
+      -1.9305000305175781,
+      -1.69350004196167,
+      0.07999998331069946
+    ],
+    "max": [
+      1.9305000305175781,
+      1.6949999332427979,
+      2.5199999809265137
+    ]
+  },
+  "scale_policy": "unit scale only",
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Armored roof bridge",
+        "Heavy cheek armor",
+        "Cheek applique",
+        "Cheek applique.001",
+        "Cheek applique.002",
+        "Heavy cheek armor.001",
+        "Cheek applique.003",
+        "Cheek applique.004",
+        "Cheek applique.005",
+        "Rear armored counterweight",
+        "Roof spinal panel",
+        "Roof spinal panel.001",
+        "Roof spinal panel.002",
+        "Roof stamped rib",
+        "Roof stamped rib.001",
+        "Roof stamped rib.002",
+        "Roof stamped rib.003",
+        "Roof stamped rib.004",
+        "Roof stamped rib.005",
+        "Roof stamped rib.006",
+        "Roof stamped rib.007",
+        "Roof stamped rib.008",
+        "Roof stamped rib.009",
+        "Roof stamped rib.010",
+        "Roof stamped rib.011",
+        "Roof stamped rib.012",
+        "Roof stamped rib.013",
+        "Roof stamped rib.014",
+        "Roof stamped rib.015",
+        "Roof stamped rib.016",
+        "Roof stamped rib.017"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Inner turret frame",
+        "Side armor seam",
+        "Side armor seam.001",
+        "Rear ventilation slot",
+        "Rear ventilation slot.001",
+        "Rear ventilation slot.002",
+        "Rear ventilation slot.003",
+        "Rear ventilation slot.004",
+        "Rear ventilation slot.005",
+        "Rear ventilation slot.006",
+        "Rear ventilation slot.007",
+        "Rear ventilation slot.008",
+        "Rear ventilation slot.009",
+        "Side vent cavity",
+        "Vent dark cavity",
+        "Side vent cavity.001",
+        "Vent dark cavity.001",
+        "Roof spine recess",
+        "Whip antenna"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Edge",
+      "surfaces": [
+        "Armor weld bead",
+        "Armor weld bead.001",
+        "Armor weld bead.002",
+        "Armor weld bead.003",
+        "Armor weld bead.004",
+        "Armor weld bead.005",
+        "Armor weld bead.006",
+        "Armor weld bead.007",
+        "Armor weld bead.008",
+        "Armor weld bead.009",
+        "Armor weld bead.010",
+        "Armor weld bead.011"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Mark",
+      "surfaces": [
+        "Stencil 03",
+        "Stencil ARMORED SYSTEMS",
+        "Stencil CAUTION / HOT"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Panel",
+      "surfaces": [
+        "Layered flank applique",
+        "Roof armor recess",
+        "Layered flank applique.001",
+        "Roof armor recess.001",
+        "Layered flank applique.002",
+        "Roof armor recess.002",
+        "Side louvre",
+        "Side louvre.001",
+        "Side louvre.002",
+        "Side louvre.003",
+        "Side louvre.004",
+        "Side louvre.005",
+        "Side louvre.006",
+        "Front cheek reinforcement",
+        "Angled ventilation blade",
+        "Angled ventilation blade.001",
+        "Angled ventilation blade.002",
+        "Angled ventilation blade.003",
+        "Angled ventilation blade.004",
+        "Angled ventilation blade.005",
+        "Angled ventilation blade.006",
+        "Roof rail foot",
+        "Roof rail foot.001",
+        "Layered flank applique.003",
+        "Roof armor recess.003",
+        "Layered flank applique.004",
+        "Roof armor recess.004",
+        "Layered flank applique.005",
+        "Roof armor recess.005",
+        "Side louvre.007",
+        "Side louvre.008",
+        "Side louvre.009",
+        "Side louvre.010",
+        "Side louvre.011",
+        "Side louvre.012",
+        "Side louvre.013",
+        "Front cheek reinforcement.001",
+        "Angled ventilation blade.007",
+        "Angled ventilation blade.008",
+        "Angled ventilation blade.009",
+        "Angled ventilation blade.010",
+        "Angled ventilation blade.011",
+        "Angled ventilation blade.012",
+        "Angled ventilation blade.013",
+        "Roof rail foot.002",
+        "Roof rail foot.003",
+        "Rear exchanger housing",
+        "Rear exchanger housing.001",
+        "Rear exchanger housing.002",
+        "Antenna socket"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Rubber",
+      "surfaces": [
+        "Optics armored conduit",
+        "Optics armored conduit.001"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Captive hex bolt",
+        "Captive hex bolt.001",
+        "Captive hex bolt.002",
+        "Captive hex bolt.003",
+        "Captive hex bolt.004",
+        "Captive hex bolt.005",
+        "Captive hex bolt.006",
+        "Captive hex bolt.007",
+        "Captive hex bolt.008",
+        "Captive hex bolt.009",
+        "Captive hex bolt.010",
+        "Captive hex bolt.011",
+        "Captive hex bolt.012",
+        "Captive hex bolt.013",
+        "Captive hex bolt.014",
+        "Captive hex bolt.015",
+        "Captive hex bolt.016",
+        "Captive hex bolt.017",
+        "Captive hex bolt.018",
+        "Captive hex bolt.019",
+        "Captive hex bolt.020",
+        "Captive hex bolt.021",
+        "Captive hex bolt.022",
+        "Captive hex bolt.023",
+        "Flank recessed fastener",
+        "Flank recessed fastener.001",
+        "Flank recessed fastener.002",
+        "Flank recessed fastener.003",
+        "Flank recessed fastener.004",
+        "Flank recessed fastener.005",
+        "Flank recessed fastener.006",
+        "Flank recessed fastener.007",
+        "Flank recessed fastener.008",
+        "Flank recessed fastener.009",
+        "Flank recessed fastener.010",
+        "Flank recessed fastener.011",
+        "Side vent frame",
+        "Recessed vent frame",
+        "Roof grab rail",
+        "Flank recessed fastener.012",
+        "Flank recessed fastener.013",
+        "Flank recessed fastener.014",
+        "Flank recessed fastener.015",
+        "Flank recessed fastener.016",
+        "Flank recessed fastener.017",
+        "Flank recessed fastener.018",
+        "Flank recessed fastener.019",
+        "Flank recessed fastener.020",
+        "Flank recessed fastener.021",
+        "Flank recessed fastener.022",
+        "Flank recessed fastener.023",
+        "Side vent frame.001",
+        "Recessed vent frame.001",
+        "Roof grab rail.001",
+        "Rear exchanger fin",
+        "Rear exchanger fin.001",
+        "Rear exchanger fin.002",
+        "Rear exchanger fin.003",
+        "Rear exchanger fin.004",
+        "Rear exchanger fin.005",
+        "Rear exchanger fin.006",
+        "Rear exchanger fin.007",
+        "Rear exchanger fin.008",
+        "Rear exchanger fin.009",
+        "Rear exchanger fin.010",
+        "Rear exchanger fin.011",
+        "Rear exchanger fin.012",
+        "Rear exchanger fin.013",
+        "Rear exchanger fin.014",
+        "Rear exchanger fin.015",
+        "Rear exchanger fin.016",
+        "Rear exchanger fin.017",
+        "Rear exchanger fin.018",
+        "Rear exchanger fin.019",
+        "Rear exchanger fin.020",
+        "Rear exchanger fin.021",
+        "Rear exchanger fin.022",
+        "Rear exchanger fin.023",
+        "Spine cooling fin",
+        "Spine cooling fin.001",
+        "Spine cooling fin.002",
+        "Spine cooling fin.003",
+        "Spine cooling fin.004",
+        "Spine cooling fin.005",
+        "Spine cooling fin.006",
+        "Antenna spring"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "bottom",
+      "node": "mount.bottom",
+      "role": "hull",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "hull",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "elevation",
+      "node": "mount.elevation",
+      "role": "cradle",
+      "position": [
+        0,
+        -0.94,
+        0.9
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "cradle",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "hatch",
+      "node": "mount.hatch",
+      "role": "accessory",
+      "position": [
+        0,
+        0.88,
+        1.61
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "accessory",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "optic",
+      "node": "mount.optic",
+      "role": "accessory",
+      "position": [
+        -0.5,
+        -0.15,
+        1.69
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "accessory",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": []
+}

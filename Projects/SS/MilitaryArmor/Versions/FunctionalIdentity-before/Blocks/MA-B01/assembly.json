@@ -1,0 +1,298 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-B01",
+  "version": "1.0",
+  "title": "Батарея 4×4",
+  "catalog_id": "battery-4x4",
+  "catalog_grid": [
+    4,
+    4
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Cassette",
+      "part_id": "MA-B01-P01",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-B01-P01/MA-B01-P01.blend",
+      "parent": "MA-B01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Cell0",
+      "part_id": "MA-B01-P02",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-B01-P02/MA-B01-P02.blend",
+      "parent": "MA-B01",
+      "translation": [
+        -0.81,
+        -0.82,
+        0.32
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Cell1",
+      "part_id": "MA-B01-P02",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-B01-P02/MA-B01-P02.blend",
+      "parent": "MA-B01",
+      "translation": [
+        0.81,
+        -0.82,
+        0.32
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Cell2",
+      "part_id": "MA-B01-P02",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-B01-P02/MA-B01-P02.blend",
+      "parent": "MA-B01",
+      "translation": [
+        -0.81,
+        0.82,
+        0.32
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Cell3",
+      "part_id": "MA-B01-P02",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-B01-P02/MA-B01-P02.blend",
+      "parent": "MA-B01",
+      "translation": [
+        0.81,
+        0.82,
+        0.32
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ShoulderR",
+      "part_id": "MA-B01-P03",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-B01-P03/MA-B01-P03.blend",
+      "parent": "MA-B01",
+      "translation": [
+        1.67,
+        0,
+        0.32
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ShoulderL",
+      "part_id": "MA-B01-P03",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-B01-P03/MA-B01-P03.blend",
+      "parent": "MA-B01",
+      "translation": [
+        -1.67,
+        0,
+        0.32
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "BusF",
+      "part_id": "MA-B01-P04",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-B01-P04/MA-B01-P04.blend",
+      "parent": "MA-B01",
+      "translation": [
+        0,
+        -1.65,
+        0.32
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "BusB",
+      "part_id": "MA-B01-P04",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-B01-P04/MA-B01-P04.blend",
+      "parent": "MA-B01",
+      "translation": [
+        0,
+        1.65,
+        0.32
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Service",
+      "part_id": "MA-R01-P05",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-R01-P05/MA-R01-P05.blend",
+      "parent": "MA-B01",
+      "translation": [
+        0,
+        0,
+        0.84
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "connections": [
+    {
+      "parent": "Cassette",
+      "socket": "cell0",
+      "child": "Cell0",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Cassette",
+      "socket": "cell1",
+      "child": "Cell1",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Cassette",
+      "socket": "cell2",
+      "child": "Cell2",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Cassette",
+      "socket": "cell3",
+      "child": "Cell3",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Cassette",
+      "socket": "sideR",
+      "child": "ShoulderR",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Cassette",
+      "socket": "sideL",
+      "child": "ShoulderL",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Cassette",
+      "socket": "busF",
+      "child": "BusF",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Cassette",
+      "socket": "busB",
+      "child": "BusB",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Cassette",
+      "socket": "service",
+      "child": "Service",
+      "child_socket": "bottom"
+    }
+  ],
+  "notes": "Editable source, static authoring asset. Catalog cells are not metres. No GLB, no game installation."
+}

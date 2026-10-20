@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Recipes>
+  <Recipe Id="laser-cell" DurationSeconds="4"><Inputs><Item Ref="12" Amount="1"/><Item Ref="16" Amount="0.1"/></Inputs><Outputs><Item Ref="31" Amount="1"/></Outputs></Recipe>
+  <Recipe Id="rocket-ammo" DurationSeconds="5"><Inputs><Item Ref="11" Amount="2"/><Item Ref="16" Amount="0.2"/></Inputs><Outputs><Item Ref="32" Amount="1"/></Outputs></Recipe>
+  <Recipe Id="seeking-rocket-ammo" DurationSeconds="8"><Inputs><Item Ref="32" Amount="1"/><Item Ref="12" Amount="0.5"/><Item Ref="13" Amount="0.5"/></Inputs><Outputs><Item Ref="33" Amount="1"/></Outputs></Recipe>
+</Recipes>

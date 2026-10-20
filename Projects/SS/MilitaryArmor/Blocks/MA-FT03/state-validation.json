@@ -1,0 +1,100 @@
+{
+  "id": "MA-FT03",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 19,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-FT03::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-FT03::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-FT03::fill",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [],
+  "materials": [
+    {
+      "object": "Vessel-L0-R0::Inset longitudinal seam",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "Vessel-L0-R0::Inset longitudinal seam.001",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "Vessel-L0-R1::Inset longitudinal seam",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "Vessel-L0-R1::Inset longitudinal seam.001",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "Vessel-L1-R0::Inset longitudinal seam",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "Vessel-L1-R0::Inset longitudinal seam.001",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "Vessel-L1-R1::Inset longitudinal seam",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "Vessel-L1-R1::Inset longitudinal seam.001",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "Vessel-L2-R0::Inset longitudinal seam",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "Vessel-L2-R0::Inset longitudinal seam.001",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "Vessel-L2-R1::Inset longitudinal seam",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "Vessel-L2-R1::Inset longitudinal seam.001",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

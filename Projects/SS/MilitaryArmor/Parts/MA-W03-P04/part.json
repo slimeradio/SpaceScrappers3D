@@ -1,0 +1,193 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W03-P04",
+  "version": "1.0",
+  "name": "Cyclone / single-bore rotary induction barrel",
+  "source": "MA-W03-P04.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.2770000100135803,
+      -1.7400000095367432,
+      -0.2770000100135803
+    ],
+    "max": [
+      0.2770000100135803,
+      -0.020000034943223,
+      0.2770000100135803
+    ]
+  },
+  "materials": [
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Solid swept heat-spreader blade",
+        "Solid swept heat-spreader blade.001",
+        "Solid swept heat-spreader blade.002",
+        "Solid swept heat-spreader blade.003",
+        "Solid swept heat-spreader blade.004",
+        "Solid swept heat-spreader blade.005"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Central physical barrel",
+        "Recessed bore darkness"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Signal",
+      "surfaces": [
+        "Induction blade status insert",
+        "Induction blade status insert.001",
+        "Induction blade status insert.002",
+        "Induction blade status insert.003",
+        "Induction blade status insert.004",
+        "Induction blade status insert.005"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705,
+        1.0
+      ],
+      "metalness": 0.3499999940395355,
+      "roughness": 0.25,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Forward faceted rotor band"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Open single physical bore",
+        "Rotor structural annulus",
+        "Rotor structural annulus.001",
+        "Rotor structural annulus.002"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Signal",
+      "regions": [
+        "Induction blade status insert",
+        "Induction blade status insert.001",
+        "Induction blade status insert.002",
+        "Induction blade status insert.003",
+        "Induction blade status insert.004",
+        "Induction blade status insert.005"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "mount.root",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "role": "rotor",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "muzzle",
+      "position": [
+        0,
+        -1.75,
+        0
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": "One actual bore. Six solid peripheral cooling blades are not functional barrels; total assembly has two catalogue barrels."
+}

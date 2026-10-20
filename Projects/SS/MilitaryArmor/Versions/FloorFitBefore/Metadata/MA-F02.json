@@ -1,0 +1,6856 @@
+{
+  "schema": "SpriteBake.BlockMetadata/1",
+  "id": "MA-F02",
+  "catalog_id": "refinery-base",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "bu_per_cell": 1.0,
+  "footprint_bu": [
+    -1.0,
+    -0.5,
+    1.0,
+    0.5
+  ],
+  "layers": [
+    {
+      "id": "body",
+      "draw_order": 0,
+      "rotates": false,
+      "pivot_bu": [
+        0,
+        0
+      ],
+      "instances": [
+        "ProductionBed",
+        "ProcessChamber",
+        "TechnologicalBridge",
+        "BaseServiceTower"
+      ]
+    }
+  ],
+  "states": {
+    "damage0": {
+      "frame": 1
+    },
+    "damage33": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "damage66": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "destroyed": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "clips": {},
+  "frames": {
+    "damage0": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "ProductionBed/mounts/hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/mounts/chamber",
+          "role": "chamber",
+          "parent": "part",
+          "position": [
+            -0.12,
+            0,
+            0.24
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "chamber",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "ProductionBed/mounts/bridge",
+          "role": "bridge",
+          "parent": "part",
+          "position": [
+            0.25,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bridge",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/mounts/base-service",
+          "role": "base-service",
+          "parent": "part",
+          "position": [
+            0.99,
+            0.67,
+            0.2
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "base-service",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/chamber-seat",
+          "parent": "part",
+          "role": "chamber",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            -0.12,
+            0,
+            0.24
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "chamber-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/bridge-seat",
+          "parent": "part",
+          "role": "bridge",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0.25,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bridge-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/base-service-seat",
+          "parent": "part",
+          "role": "base-service",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0.99,
+            0.67,
+            0.2
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "base-service-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        },
+        {
+          "id": "ProcessChamber/mounts/root",
+          "role": "chamber",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.11999999731779099
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.23999999463558197
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ProcessChamber",
+          "part": "MA-F01-R2-P02-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "ProcessChamber/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "chamber",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.11999999731779099
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.23999999463558197
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "ProcessChamber",
+          "part": "MA-F01-R2-P02-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "TechnologicalBridge/mounts/root",
+          "role": "bridge",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.25
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "TechnologicalBridge",
+          "part": "MA-F01-R2-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "TechnologicalBridge/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "bridge",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.25
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "TechnologicalBridge",
+          "part": "MA-F01-R2-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "BaseServiceTower/mounts/root",
+          "role": "base-service",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.9900000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.6700000166893005
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.20000000298023224
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "BaseServiceTower",
+          "part": "MA-F02-R2-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        },
+        {
+          "id": "BaseServiceTower/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "base-service",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.9900000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.6700000166893005
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.20000000298023224
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "BaseServiceTower",
+          "part": "MA-F02-R2-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-F02": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ProductionBed": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ProcessChamber": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.11999999731779099
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.23999999463558197
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "TechnologicalBridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.25
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "BaseServiceTower": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.9900000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.6700000166893005
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.20000000298023224
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "damage33": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "ProductionBed/mounts/hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/mounts/chamber",
+          "role": "chamber",
+          "parent": "part",
+          "position": [
+            -0.12,
+            0,
+            0.24
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "chamber",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "ProductionBed/mounts/bridge",
+          "role": "bridge",
+          "parent": "part",
+          "position": [
+            0.25,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bridge",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/mounts/base-service",
+          "role": "base-service",
+          "parent": "part",
+          "position": [
+            0.99,
+            0.67,
+            0.2
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "base-service",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/chamber-seat",
+          "parent": "part",
+          "role": "chamber",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            -0.12,
+            0,
+            0.24
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "chamber-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/bridge-seat",
+          "parent": "part",
+          "role": "bridge",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0.25,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bridge-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/base-service-seat",
+          "parent": "part",
+          "role": "base-service",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0.99,
+            0.67,
+            0.2
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "base-service-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        },
+        {
+          "id": "ProcessChamber/mounts/root",
+          "role": "chamber",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.11999999731779099
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.23999999463558197
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ProcessChamber",
+          "part": "MA-F01-R2-P02-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "ProcessChamber/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "chamber",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.11999999731779099
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.23999999463558197
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "ProcessChamber",
+          "part": "MA-F01-R2-P02-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "TechnologicalBridge/mounts/root",
+          "role": "bridge",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.25
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "TechnologicalBridge",
+          "part": "MA-F01-R2-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "TechnologicalBridge/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "bridge",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.25
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "TechnologicalBridge",
+          "part": "MA-F01-R2-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "BaseServiceTower/mounts/root",
+          "role": "base-service",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.9900000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.6700000166893005
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.20000000298023224
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "BaseServiceTower",
+          "part": "MA-F02-R2-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        },
+        {
+          "id": "BaseServiceTower/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "base-service",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.9900000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.6700000166893005
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.20000000298023224
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "BaseServiceTower",
+          "part": "MA-F02-R2-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-F02": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ProductionBed": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ProcessChamber": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.11999999731779099
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.23999999463558197
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "TechnologicalBridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.25
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "BaseServiceTower": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.9900000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.6700000166893005
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.20000000298023224
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "damage66": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "ProductionBed/mounts/hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/mounts/chamber",
+          "role": "chamber",
+          "parent": "part",
+          "position": [
+            -0.12,
+            0,
+            0.24
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "chamber",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "ProductionBed/mounts/bridge",
+          "role": "bridge",
+          "parent": "part",
+          "position": [
+            0.25,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bridge",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/mounts/base-service",
+          "role": "base-service",
+          "parent": "part",
+          "position": [
+            0.99,
+            0.67,
+            0.2
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "base-service",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/chamber-seat",
+          "parent": "part",
+          "role": "chamber",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            -0.12,
+            0,
+            0.24
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "chamber-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/bridge-seat",
+          "parent": "part",
+          "role": "bridge",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0.25,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bridge-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/base-service-seat",
+          "parent": "part",
+          "role": "base-service",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0.99,
+            0.67,
+            0.2
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "base-service-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        },
+        {
+          "id": "ProcessChamber/mounts/root",
+          "role": "chamber",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.11999999731779099
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.23999999463558197
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ProcessChamber",
+          "part": "MA-F01-R2-P02-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "ProcessChamber/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "chamber",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.11999999731779099
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.23999999463558197
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "ProcessChamber",
+          "part": "MA-F01-R2-P02-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "TechnologicalBridge/mounts/root",
+          "role": "bridge",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.25
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "TechnologicalBridge",
+          "part": "MA-F01-R2-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "TechnologicalBridge/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "bridge",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.25
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "TechnologicalBridge",
+          "part": "MA-F01-R2-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "BaseServiceTower/mounts/root",
+          "role": "base-service",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.9900000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.6700000166893005
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.20000000298023224
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "BaseServiceTower",
+          "part": "MA-F02-R2-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        },
+        {
+          "id": "BaseServiceTower/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "base-service",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.9900000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.6700000166893005
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.20000000298023224
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "BaseServiceTower",
+          "part": "MA-F02-R2-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-F02": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ProductionBed": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ProcessChamber": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.11999999731779099
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.23999999463558197
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "TechnologicalBridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.25
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "BaseServiceTower": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.9900000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.6700000166893005
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.20000000298023224
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "destroyed": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "ProductionBed/mounts/hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/mounts/chamber",
+          "role": "chamber",
+          "parent": "part",
+          "position": [
+            -0.12,
+            0,
+            0.24
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "chamber",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "ProductionBed/mounts/bridge",
+          "role": "bridge",
+          "parent": "part",
+          "position": [
+            0.25,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bridge",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/mounts/base-service",
+          "role": "base-service",
+          "parent": "part",
+          "position": [
+            0.99,
+            0.67,
+            0.2
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "base-service",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.0,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/chamber-seat",
+          "parent": "part",
+          "role": "chamber",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            -0.12,
+            0,
+            0.24
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "chamber-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/bridge-seat",
+          "parent": "part",
+          "role": "bridge",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0.25,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bridge-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "ProductionBed/attachment_areas/base-service-seat",
+          "parent": "part",
+          "role": "base-service",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0.99,
+            0.67,
+            0.2
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "base-service-seat",
+          "instance": "ProductionBed",
+          "part": "MA-F01-R2-P01-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        },
+        {
+          "id": "ProcessChamber/mounts/root",
+          "role": "chamber",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.11999999731779099
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.23999999463558197
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ProcessChamber",
+          "part": "MA-F01-R2-P02-AN1",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "ProcessChamber/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "chamber",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.11999999731779099,
+            0.0,
+            0.23999999463558197
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.11999999731779099
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.23999999463558197
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "ProcessChamber",
+          "part": "MA-F01-R2-P02-AN1",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.880000002682209,
+            0.5,
+            0.23999999463558197
+          ]
+        },
+        {
+          "id": "TechnologicalBridge/mounts/root",
+          "role": "bridge",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.25
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "TechnologicalBridge",
+          "part": "MA-F01-R2-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "TechnologicalBridge/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "bridge",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.25
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "TechnologicalBridge",
+          "part": "MA-F01-R2-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.25,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "BaseServiceTower/mounts/root",
+          "role": "base-service",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.9900000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.6700000166893005
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.20000000298023224
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "BaseServiceTower",
+          "part": "MA-F02-R2-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        },
+        {
+          "id": "BaseServiceTower/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "base-service",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.9900000095367432,
+            0.6700000166893005,
+            0.20000000298023224
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.9900000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.6700000166893005
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.20000000298023224
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "BaseServiceTower",
+          "part": "MA-F02-R2-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            1.9900000095367432,
+            1.1700000166893005,
+            0.20000000298023224
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-F02": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ProductionBed": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ProcessChamber": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.11999999731779099
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.23999999463558197
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "TechnologicalBridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.25
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "BaseServiceTower": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.9900000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.6700000166893005
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.20000000298023224
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    }
+  },
+  "assembly": {
+    "schema": "MilitaryArmor.BlenderAuthoring/1",
+    "id": "MA-F02",
+    "version": "2.0+states1",
+    "title": "Производственный блок базы 2×1",
+    "catalog_id": "refinery-base",
+    "catalog_grid": [
+      2,
+      1
+    ],
+    "catalog_status": "catalog definition; authoring model only",
+    "axes": {
+      "handedness": "right",
+      "up": "+Z",
+      "forward": "-Y",
+      "units": "BU; physical scale unspecified"
+    },
+    "instances": [
+      {
+        "id": "ProductionBed",
+        "part_id": "MA-F01-R2-P01-AN1",
+        "version": "3.0",
+        "source": "../../Parts/MA-F01-R2-P01-AN1/MA-F01-R2-P01-AN1.blend",
+        "parent": "MA-F02",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "ProcessChamber",
+        "part_id": "MA-F01-R2-P02-AN1",
+        "version": "3.0",
+        "source": "../../Parts/MA-F01-R2-P02-AN1/MA-F01-R2-P02-AN1.blend",
+        "parent": "MA-F02",
+        "translation": [
+          -0.12,
+          0,
+          0.24
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "TechnologicalBridge",
+        "part_id": "MA-F01-R2-P03",
+        "version": "2.0",
+        "source": "../../Parts/MA-F01-R2-P03/MA-F01-R2-P03.blend",
+        "parent": "MA-F02",
+        "translation": [
+          0.25,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "BaseServiceTower",
+        "part_id": "MA-F02-R2-P01",
+        "version": "2.0",
+        "source": "../../Parts/MA-F02-R2-P01/MA-F02-R2-P01.blend",
+        "parent": "MA-F02",
+        "translation": [
+          0.99,
+          0.67,
+          0.2
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "parent_instance": "ProductionBed",
+        "parent_socket": "chamber",
+        "child_instance": "ProcessChamber",
+        "child_socket": "root"
+      },
+      {
+        "parent_instance": "ProductionBed",
+        "parent_socket": "bridge",
+        "child_instance": "TechnologicalBridge",
+        "child_socket": "root"
+      },
+      {
+        "parent_instance": "ProductionBed",
+        "parent_socket": "base-service",
+        "child_instance": "BaseServiceTower",
+        "child_socket": "root"
+      }
+    ],
+    "animations": {
+      "controller": "MA-F02",
+      "controls": {
+        "power": {
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "description": "Electrical availability; independent from retained heat/fill"
+        },
+        "activity": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Actual work/load; zero means idle"
+        },
+        "fault": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Externally supplied fault, not inferred"
+        },
+        "heat": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Retained normalized heat; independent from power"
+        },
+        "cycle_turns": {
+          "default": 0,
+          "min": 0,
+          "max": 100000,
+          "description": "Accumulated turns; preserve phase when stopping"
+        }
+      },
+      "channels": [
+        {
+          "node": "ProductionBed::WorkFeed",
+          "path": "location",
+          "axis": 0,
+          "parameter": "cycle_turns",
+          "expression": "0.0+.035*sin(t*6.283185307179586)"
+        },
+        {
+          "node": "ProcessChamber::WorkRotor",
+          "path": "rotation_euler",
+          "axis": 2,
+          "parameter": "cycle_turns",
+          "expression": "0.0+t*6.283185307179586"
+        }
+      ],
+      "clips": [
+        {
+          "name": "MA-F02::work_loop",
+          "parameters": [
+            "activity",
+            "cycle_turns"
+          ],
+          "frames": [
+            1,
+            49
+          ],
+          "loop": true,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-F02::start",
+          "parameters": [
+            "activity",
+            "cycle_turns"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-F02::stop",
+          "parameters": [
+            "activity",
+            "cycle_turns"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-F02::activate",
+          "parameters": [
+            "power",
+            "activity"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-F02::deactivate",
+          "parameters": [
+            "activity",
+            "power"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-F02::heat_up",
+          "parameters": [
+            "heat"
+          ],
+          "frames": [
+            1,
+            49
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-F02::cool_down",
+          "parameters": [
+            "heat"
+          ],
+          "frames": [
+            1,
+            97
+          ],
+          "loop": false,
+          "authoring_only": true
+        }
+      ],
+      "independent_controls": true,
+      "demonstration_only": false,
+      "game_integration": false
+    },
+    "exports": [],
+    "notes": "Functional silhouette redesign v2.0. Static authoring interpretation only; no new mechanics or gameplay parameters. Old source archived. No GLB.",
+    "state_authoring": "state-authoring.json"
+  },
+  "parts": {
+    "ProductionBed": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-F01-R2-P01-AN1",
+      "version": "3.0",
+      "name": "Directed production bed with asymmetric intake and delivery zones",
+      "source": "MA-F01-R2-P01-AN1.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -1.7450000047683716,
+          -0.7900000214576721,
+          0.019999999552965164
+        ],
+        "max": [
+          1.7599999904632568,
+          0.7900000214576721,
+          0.5199999809265137
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Central process bed"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Protected intake side",
+            "Protected intake side.001",
+            "Delivery guide",
+            "Delivery guide.001"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Inset intake separator",
+            "Inset intake separator.001",
+            "Inset intake separator.002",
+            "Delivery segmentation",
+            "Delivery segmentation.001",
+            "Delivery segmentation.002"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Wide intake zone",
+            "Narrow delivery zone"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "chamber",
+          "role": "chamber",
+          "parent": "part",
+          "position": [
+            -0.12,
+            0,
+            0.24
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "bridge",
+          "role": "bridge",
+          "parent": "part",
+          "position": [
+            0.25,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "base-service",
+          "role": "base-service",
+          "parent": "part",
+          "position": [
+            0.99,
+            0.67,
+            0.2
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        },
+        {
+          "id": "chamber-seat",
+          "parent": "part",
+          "role": "chamber",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            -0.12,
+            0,
+            0.24
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        },
+        {
+          "id": "bridge-seat",
+          "parent": "part",
+          "role": "bridge",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0.25,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        },
+        {
+          "id": "base-service-seat",
+          "parent": "part",
+          "role": "base-service",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0.99,
+            0.67,
+            0.2
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "controller": "PartState",
+          "parameter": "cycle_turns",
+          "units": "turns; caller integrates work speed",
+          "motion_nodes": [
+            {
+              "node": "WorkFeed",
+              "kind": "feed",
+              "axis": "X",
+              "amplitude_BU": 0.035,
+              "pivot_local": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": "Animation variant: moving internals separated; original source unchanged. BU authoring only. No GLB.",
+      "derived_from": {
+        "id": "MA-F01-R2-P01",
+        "version": "2.0",
+        "sha256": "dc46340954db696604a92d493b7b854d45f6acf03a1d509977273d084185f756"
+      },
+      "motion_nodes": [
+        {
+          "node": "WorkFeed",
+          "kind": "feed",
+          "axis": "X",
+          "amplitude_BU": 0.035,
+          "pivot_local": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    "ProcessChamber": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-F01-R2-P02-AN1",
+      "version": "3.0",
+      "name": "Circular protected processing chamber with nested pressure shells",
+      "source": "MA-F01-R2-P02-AN1.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.7549999952316284,
+          -0.6899999976158142,
+          0.009999990463256836
+        ],
+        "max": [
+          0.7549999952316284,
+          0.6899999976158142,
+          0.7000000476837158
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Heavy lower shielding",
+            "Process throat",
+            "Process throat.001"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Faceted chamber shielding"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Inset working cover"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Protected process rim",
+            "Rotor index 0",
+            "Rotor index 1",
+            "Rotor index 2"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Pressure vessel",
+            "Central process seal"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "chamber",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-seat",
+          "parent": "part",
+          "role": "chamber",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.chamber"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "controller": "PartState",
+          "parameter": "cycle_turns",
+          "units": "turns; caller integrates work speed",
+          "motion_nodes": [
+            {
+              "node": "WorkRotor",
+              "kind": "spin",
+              "axis": "Z",
+              "pivot_local": [
+                0.0,
+                0.0,
+                0.6200000047683716
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": "Animation variant: moving internals separated; original source unchanged. BU authoring only. No GLB.",
+      "derived_from": {
+        "id": "MA-F01-R2-P02",
+        "version": "2.0",
+        "sha256": "0981ba2e2808c7a3087ae7e2f7f5729fa4eb1a7ac04820cd046e7bd5e85fb168"
+      },
+      "motion_nodes": [
+        {
+          "node": "WorkRotor",
+          "kind": "spin",
+          "axis": "Z",
+          "pivot_local": [
+            0.0,
+            0.0,
+            0.6200000047683716
+          ]
+        }
+      ]
+    },
+    "TechnologicalBridge": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-F01-R2-P03",
+      "version": "2.0",
+      "name": "Transverse technological bridge with open-sided chamber access",
+      "source": "MA-F01-R2-P03.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.20000000298023224,
+          -0.8799999952316284,
+          0.029999999329447746
+        ],
+        "max": [
+          0.20000000298023224,
+          0.8799999952316284,
+          1.2975000143051147
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Bridge foot",
+            "Bridge foot.001"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "High technological crosshead"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Small process index"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705,
+            1.0
+          ],
+          "metalness": 0.3499999940395355,
+          "roughness": 0.25,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Closed bridge upright",
+            "Closed bridge upright.001",
+            "Crosshead inset"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal",
+          "regions": [
+            "Small process index"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "bridge",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-seat",
+          "parent": "part",
+          "role": "bridge",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.bridge"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Functional identity revision 2.0. Static editable geometry, procedural PBR, no file textures, no animation. Physical BU scale unspecified. No GLB."
+    },
+    "BaseServiceTower": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-F02-R2-P01",
+      "version": "2.0",
+      "name": "Stepped base production service tower",
+      "source": "MA-F02-R2-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.5799999833106995,
+          -0.18000000715255737,
+          0.009999999776482582
+        ],
+        "max": [
+          0.5799999833106995,
+          0.1550000011920929,
+          1.1225000619888306
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Service tower lower shell"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Tall service spine",
+            "Lower service spine"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Protected rear connection",
+            "Protected rear connection.001",
+            "Protected rear connection.002",
+            "Protected rear connection.003"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Recessed service crown",
+            "Recessed service crown.001"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "base-service",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-seat",
+          "parent": "part",
+          "role": "base-service",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.1,
+            0.1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.production.base-service"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Functional identity revision 2.0. Static editable geometry, procedural PBR, no file textures, no animation. Physical BU scale unspecified. No GLB."
+    }
+  },
+  "material_slots": {
+    "ProductionBed": {
+      "Wide intake zone": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Protected intake side.001": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Protected intake side": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Narrow delivery zone": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Inset intake separator.002": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Inset intake separator.001": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Inset intake separator": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Delivery segmentation.002": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Delivery segmentation.001": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Delivery segmentation": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Delivery guide.001": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Delivery guide": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Central process bed": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ]
+    },
+    "ProcessChamber": {
+      "Rotor index 2": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Rotor index 1": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Rotor index 0": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Protected process rim": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Process throat.001": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "Process throat": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "Pressure vessel": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Inset working cover": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Heavy lower shielding": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "Faceted chamber shielding": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Central process seal": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "TechnologicalBridge": {
+      "Small process index": [
+        {
+          "id": "Signal",
+          "role": "Emissive"
+        }
+      ],
+      "High technological crosshead": [
+        {
+          "id": "Ceramic.002",
+          "role": "Color1"
+        }
+      ],
+      "Crosshead inset": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Closed bridge upright.001": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Closed bridge upright": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Bridge foot.001": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Bridge foot": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ]
+    },
+    "BaseServiceTower": {
+      "Tall service spine": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ],
+      "Service tower lower shell": [
+        {
+          "id": "Armor.003",
+          "role": "Color2"
+        }
+      ],
+      "Recessed service crown.001": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed service crown": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Protected rear connection.003": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Protected rear connection.002": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Protected rear connection.001": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Protected rear connection": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Lower service spine": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "assembly": "Blocks/MA-F02/assembly.json",
+    "source": "Blocks/MA-F02/MA-F02.blend",
+    "bu_per_cell": 1.0,
+    "footprint_bu": [
+      -1.0,
+      -0.5,
+      1.0,
+      0.5
+    ],
+    "height_range_bu": [
+      -0.1,
+      1.4
+    ],
+    "layers": [
+      {
+        "id": "body",
+        "draw_order": 0,
+        "rotates": false,
+        "pivot_bu": [
+          0,
+          0
+        ],
+        "instances": [
+          "ProductionBed",
+          "ProcessChamber",
+          "TechnologicalBridge",
+          "BaseServiceTower"
+        ]
+      }
+    ],
+    "states": {
+      "damage0": {
+        "frame": 1
+      },
+      "damage33": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "damage66": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "destroyed": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "clips": {},
+    "use_author_animation": false
+  },
+  "inputs": {
+    "Blocks/MA-F02/assembly.json": "ccb35f7cf50ad70f053a53d5b21352f8ae6f9ab252059b2f6edc1ecffe21a239",
+    "Blocks/MA-F02/MA-F02.blend": "d3d8ff414922ca161b1564e5f0f81dcf6214a30504f4eb7339a0d155ea522c8b",
+    "Parts/MA-F01-R2-P01-AN1/MA-F01-R2-P01-AN1.blend": "1f04ef015f38c9524396e3bbd4faeaf2886f5db3c3f0fbcb8acff8575897e312",
+    "Parts/MA-F01-R2-P01-AN1/part.json": "527b19468a06db328af411c0bbf295306bb162e73b109a2240a08060dbc5e31d",
+    "Parts/MA-F01-R2-P02-AN1/MA-F01-R2-P02-AN1.blend": "80ee871653e3865c1eba6996ac8b4869341c1ac6fffcd6e2bc2ee016af821d79",
+    "Parts/MA-F01-R2-P02-AN1/part.json": "a1d873c2e7282f4096d4647f29f14218f01e2f0d91eb7f009f5c117a3581cd87",
+    "Parts/MA-F01-R2-P03/MA-F01-R2-P03.blend": "98ea07fb7ede9e3782106b0d2c4ce2dd7b15900ce6df17d8c64920456c213644",
+    "Parts/MA-F01-R2-P03/part.json": "7fd399bd9c40d6ef30a4cc1f99d118f63f15f30bc22521a82b89337f644505c7",
+    "Parts/MA-F02-R2-P01/MA-F02-R2-P01.blend": "a250ef63b54f8ee4751f8d8c0c310849a1dfd74937ef50909c09ae7289643a63",
+    "Parts/MA-F02-R2-P01/part.json": "0ac130a3924bc4e7221a8fdc453451f81d59568b98812e48fded7d6dc30971ed"
+  },
+  "dependencies": [
+    "Blocks/MA-F02/assembly.json",
+    "Blocks/MA-F02/MA-F02.blend",
+    "Parts/MA-F01-R2-P01-AN1/MA-F01-R2-P01-AN1.blend",
+    "Parts/MA-F01-R2-P01-AN1/part.json",
+    "Parts/MA-F01-R2-P02-AN1/MA-F01-R2-P02-AN1.blend",
+    "Parts/MA-F01-R2-P02-AN1/part.json",
+    "Parts/MA-F01-R2-P03/MA-F01-R2-P03.blend",
+    "Parts/MA-F01-R2-P03/part.json",
+    "Parts/MA-F02-R2-P01/MA-F02-R2-P01.blend",
+    "Parts/MA-F02-R2-P01/part.json"
+  ]
+}

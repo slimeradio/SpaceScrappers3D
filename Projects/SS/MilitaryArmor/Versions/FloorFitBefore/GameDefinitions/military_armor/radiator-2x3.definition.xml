@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="radiator-2x3" Category="Тепло" Type="Radiator" MaxHealth="3000" BlockMass="7.5">
+    <!-- Initial balance scaled by footprint from the current functional analogues. -->
+    <Size X="2" Y="3"/>
+    <Colliders><ConvexCollider Data="0 0 2 0 2 3 0 3"/></Colliders>
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="18"/>
+        <DesignCost><Item Ref="11" Amount="180"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="18"/></BuildCost>
+    </Construction>
+    <Heat Capacity="144" Input="72" Output="72" EnergyFraction="0" Background="0" WorkHeat="0" Radiator="72" Shutdown="0.9" Resume="0.5" DamagePerSecond="0" Action="Disable"/>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="radiator-2x3"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

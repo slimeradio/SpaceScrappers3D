@@ -1,0 +1,139 @@
+{
+  "checks_passed": true,
+  "id": "MA-W07",
+  "independent_reopen": true,
+  "parts": [
+    {
+      "id": "MA-W07-P01",
+      "reopened": true,
+      "mesh_count": 9,
+      "closed_manifold_positive_volume": true,
+      "finite_evaluated_geometry": true,
+      "materials_and_sockets_resolved": true
+    },
+    {
+      "id": "MA-W07-P02",
+      "reopened": true,
+      "mesh_count": 15,
+      "closed_manifold_positive_volume": true,
+      "finite_evaluated_geometry": true,
+      "materials_and_sockets_resolved": true
+    },
+    {
+      "id": "MA-W07-P03",
+      "reopened": true,
+      "mesh_count": 12,
+      "closed_manifold_positive_volume": true,
+      "finite_evaluated_geometry": true,
+      "materials_and_sockets_resolved": true
+    }
+  ],
+  "instance_count": 4,
+  "mesh_count": 42,
+  "base_triangles": 3208,
+  "rest_socket_connections": [
+    {
+      "parent": "Pedestal",
+      "child": "TrackingSaddle",
+      "position_error": 0.0,
+      "orientation_aligned": true
+    },
+    {
+      "parent": "TrackingSaddle",
+      "child": "SingleMachinegun",
+      "position_error": 0.0,
+      "orientation_aligned": true
+    },
+    {
+      "parent": "TrackingSaddle",
+      "child": "ServiceCartridge",
+      "position_error": 0.0,
+      "orientation_aligned": true
+    }
+  ],
+  "animation_samples": [
+    {
+      "frame": 1,
+      "yaw_degrees": 0.0,
+      "elevation_degrees": 0.0,
+      "muzzle_world": [
+        0.0,
+        -2.1600000858306885,
+        1.2699999809265137
+      ],
+      "minimum_z": 0.0
+    },
+    {
+      "frame": 30,
+      "yaw_degrees": -60.000001669652114,
+      "elevation_degrees": -18.000000500895634,
+      "muzzle_world": [
+        -1.7790606021881104,
+        -1.0271410942077637,
+        1.9374767541885376
+      ],
+      "minimum_z": 0.0
+    },
+    {
+      "frame": 42,
+      "yaw_degrees": -47.520002961609876,
+      "elevation_degrees": -8.847999513111061,
+      "muzzle_world": [
+        -1.5376343727111816,
+        -1.4079951047897339,
+        1.5945467948913574
+      ],
+      "minimum_z": 0.0
+    },
+    {
+      "frame": 60,
+      "yaw_degrees": 0.0,
+      "elevation_degrees": 7.999999938029066,
+      "muzzle_world": [
+        0.0,
+        -2.138978958129883,
+        0.969386100769043
+      ],
+      "minimum_z": 0.0
+    },
+    {
+      "frame": 90,
+      "yaw_degrees": 60.000001669652114,
+      "elevation_degrees": -18.000000500895634,
+      "muzzle_world": [
+        1.7790606021881104,
+        -1.0271410942077637,
+        1.9374767541885376
+      ],
+      "minimum_z": 0.0
+    },
+    {
+      "frame": 120,
+      "yaw_degrees": 0.0,
+      "elevation_degrees": 0.0,
+      "muzzle_world": [
+        0.0,
+        -2.1600000858306885,
+        1.2699999809265137
+      ],
+      "minimum_z": 0.0
+    }
+  ],
+  "single_barrel_and_muzzle": true,
+  "external_libraries": [],
+  "reused_source_unchanged": true,
+  "preview_files": [
+    "perspective.png",
+    "top.png",
+    "grayscale-top.png"
+  ],
+  "glb_generated": false,
+  "game_validation": false,
+  "limitations": "Authored geometry and motion verified. No engine import, collider, LOD or collision simulation; intended overlaps at structural joints.",
+  "visual_review": "Perspective and grayscale top inspected; single ballistic bore, asymmetric ammunition drum and compact tracking pod clearly visible.",
+  "preview_camera": {
+    "perspective_azimuth_degrees": 45,
+    "perspective_elevation_degrees": 45,
+    "top_identity_rotation": true
+  }
+}

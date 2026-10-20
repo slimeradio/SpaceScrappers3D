@@ -1,0 +1,228 @@
+{
+  "id": "MA-FT01",
+  "checks_passed": true,
+  "verification": "Independent Blender process reopened three new standalone sources and one reused source and final assembly. Geometry gates passed before dependent assembly. Mesh manifoldness, positive volume, nondegenerate faces, nondegenerate evaluated triangles and finite coordinates and material assignment checked. Full socket positions and orientations matched. All dependency versions and unit scales resolved.",
+  "standalone_parts": [
+    {
+      "id": "MA-FT01-P01",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Armoured keel",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.1489759934883095
+        },
+        {
+          "mesh": "Pressure cradle",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.6231039843482972
+        },
+        {
+          "mesh": "Swept protected shoulder",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.3343106727108556
+        },
+        {
+          "mesh": "Swept protected shoulder.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.33431067271085557
+        },
+        {
+          "mesh": "Closed load end",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.10056595464781333
+        },
+        {
+          "mesh": "Closed load end.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.10056595464781336
+        },
+        {
+          "mesh": "Service interface gasket",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.016067998923301668
+        },
+        {
+          "mesh": "Buried transfer cover",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0020299994775652653
+        },
+        {
+          "mesh": "Buried transfer cover.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.002029999477565267
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-FT01-P02",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Monolithic sealed tank",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 2.849196041298899
+        },
+        {
+          "mesh": "Protected dorsal spine",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.03387996761441238
+        },
+        {
+          "mesh": "Inset longitudinal seam",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.001068696285088476
+        },
+        {
+          "mesh": "Inset longitudinal seam.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0010686962850884765
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-FT01-P03",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Cold ceramic pressure hoop",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.056784007204293795
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-R01-P05",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Flush pressure seal.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.013272000975389052
+        },
+        {
+          "mesh": "Hexagonal service cartridge.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.010070784395519613
+        },
+        {
+          "mesh": "Inset cartridge center.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0016776003010153817
+        },
+        {
+          "mesh": "Flush quarter turn lock.002",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.3033392208021095e-05
+        },
+        {
+          "mesh": "Flush quarter turn lock.003",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.3033392208021095e-05
+        },
+        {
+          "mesh": "Cartridge status.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 2.2100000194460142e-05
+        }
+      ],
+      "previews_present": true
+    }
+  ],
+  "connections": [
+    {
+      "connection": {
+        "parent_instance": "Frame",
+        "parent_socket": "vessel",
+        "child_instance": "Vessel",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Vessel",
+        "parent_socket": "band-front",
+        "child_instance": "Hoop-front",
+        "child_socket": "root"
+      },
+      "distance": 5.960464477539063e-08,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Vessel",
+        "parent_socket": "band-rear",
+        "child_instance": "Hoop-rear",
+        "child_socket": "root"
+      },
+      "distance": 5.960464477539063e-08,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Frame",
+        "parent_socket": "service",
+        "child_instance": "Service",
+        "child_socket": "bottom"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    }
+  ],
+  "instance_count": 5,
+  "resolved_parts": [
+    "MA-FT01-P01",
+    "MA-FT01-P02",
+    "MA-FT01-P03",
+    "MA-R01-P05"
+  ],
+  "bounds_BU": {
+    "min": [
+      -0.8999999761581421,
+      -1.7999999523162842,
+      0.0
+    ],
+    "max": [
+      0.8999999761581421,
+      1.7999999523162842,
+      1.4100000858306885
+    ]
+  },
+  "preview_views": [
+    "top",
+    "perspective"
+  ],
+  "glb_generated": false,
+  "game_validation": false,
+  "collision_LOD_validation": false,
+  "notes": "Overlapping restraint hoops, pressure cradle and armour layers are intentional contacts. No moving poses. Physical BU-to-metre conversion unspecified."
+}

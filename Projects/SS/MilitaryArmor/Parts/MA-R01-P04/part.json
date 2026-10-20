@@ -1,0 +1,156 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-R01-P04",
+  "version": "1.0",
+  "name": "Реактор — закрытая термокассета",
+  "source": "MA-R01-P04.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.6628212332725525,
+      -0.47999998927116394,
+      0.03291042894124985
+    ],
+    "max": [
+      0.6628212928771973,
+      0.20999999344348907,
+      0.4284999966621399
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Closed ceramic heat rejection tile",
+        "Closed ceramic heat rejection tile.001",
+        "Closed ceramic heat rejection tile.002",
+        "Closed ceramic heat rejection tile.003"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Rear thermal cover"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Sealed angular thermal manifold"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "root",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "role": "thermal",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.thermal"
+      ],
+      "restrictions": "full-pose alignment; unit scale only",
+      "parent": null,
+      "node": "socket.root"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-plane",
+      "role": "thermal",
+      "shape": "logical-plane",
+      "dimensions": [
+        0.12,
+        0.12
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": null,
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.thermal"
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Closed panels, not open radiator vents; no emission, no moving elements."
+}

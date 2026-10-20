@@ -1,0 +1,869 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W05-CASSETTE",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Bastion: одиночная открытая ракетная кассета",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "rear-shell",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.53,
+        0.26
+      ],
+      "outline": [
+        [
+          -0.14100000000000001,
+          -0.17
+        ],
+        [
+          0.14100000000000001,
+          -0.17
+        ],
+        [
+          0.221,
+          -0.09000000000000001
+        ],
+        [
+          0.221,
+          0.09000000000000001
+        ],
+        [
+          0.14100000000000001,
+          0.17
+        ],
+        [
+          -0.14100000000000001,
+          0.17
+        ],
+        [
+          -0.221,
+          0.09000000000000001
+        ],
+        [
+          -0.221,
+          -0.09000000000000001
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.25,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.238,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.23399999999999999,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.25,
+          "scale": [
+            0.88,
+            0.88
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "floor",
+      "shape": "loft",
+      "position": [
+        0,
+        0.03,
+        0.045
+      ],
+      "outline": [
+        [
+          -0.16499999999999998,
+          -0.67
+        ],
+        [
+          0.16499999999999998,
+          -0.67
+        ],
+        [
+          0.215,
+          -0.62
+        ],
+        [
+          0.215,
+          0.62
+        ],
+        [
+          0.16499999999999998,
+          0.67
+        ],
+        [
+          -0.16499999999999998,
+          0.67
+        ],
+        [
+          -0.215,
+          0.62
+        ],
+        [
+          -0.215,
+          -0.62
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.045,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.033,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.028999999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.045,
+          "scale": [
+            0.96,
+            0.96
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "side-wall--1",
+      "shape": "loft",
+      "position": [
+        -0.192,
+        0.02,
+        0.29
+      ],
+      "outline": [
+        [
+          -0.011000000000000003,
+          -0.65
+        ],
+        [
+          0.011000000000000003,
+          -0.65
+        ],
+        [
+          0.029,
+          -0.632
+        ],
+        [
+          0.029,
+          0.632
+        ],
+        [
+          0.011000000000000003,
+          0.65
+        ],
+        [
+          -0.011000000000000003,
+          0.65
+        ],
+        [
+          -0.029,
+          0.632
+        ],
+        [
+          -0.029,
+          -0.632
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.22,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.208,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.20400000000000001,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.22,
+          "scale": [
+            0.96,
+            0.96
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "roof-half--1",
+      "shape": "loft",
+      "position": [
+        -0.103,
+        0.02,
+        0.512
+      ],
+      "outline": [
+        [
+          -0.07999999999999999,
+          -0.645
+        ],
+        [
+          0.07999999999999999,
+          -0.645
+        ],
+        [
+          0.105,
+          -0.62
+        ],
+        [
+          0.105,
+          0.62
+        ],
+        [
+          0.07999999999999999,
+          0.645
+        ],
+        [
+          -0.07999999999999999,
+          0.645
+        ],
+        [
+          -0.105,
+          0.62
+        ],
+        [
+          -0.105,
+          -0.62
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.04,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.028,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.024,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.04,
+          "scale": [
+            0.9,
+            0.9
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "guide-light--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.144,
+        0.48,
+        0.085
+      ],
+      "size": [
+        0.014,
+        0.36,
+        0.012
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "mouth-side--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.194,
+        0.675,
+        0.29
+      ],
+      "size": [
+        0.075,
+        0.05,
+        0.51
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "roof-seam--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.19,
+        -0.15,
+        0.555
+      ],
+      "size": [
+        0.016,
+        0.53,
+        0.009
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "side-wall-1",
+      "shape": "loft",
+      "position": [
+        0.192,
+        0.02,
+        0.29
+      ],
+      "outline": [
+        [
+          -0.011000000000000003,
+          -0.65
+        ],
+        [
+          0.011000000000000003,
+          -0.65
+        ],
+        [
+          0.029,
+          -0.632
+        ],
+        [
+          0.029,
+          0.632
+        ],
+        [
+          0.011000000000000003,
+          0.65
+        ],
+        [
+          -0.011000000000000003,
+          0.65
+        ],
+        [
+          -0.029,
+          0.632
+        ],
+        [
+          -0.029,
+          -0.632
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.22,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.208,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.20400000000000001,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.22,
+          "scale": [
+            0.96,
+            0.96
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "roof-half-1",
+      "shape": "loft",
+      "position": [
+        0.103,
+        0.02,
+        0.512
+      ],
+      "outline": [
+        [
+          -0.07999999999999999,
+          -0.645
+        ],
+        [
+          0.07999999999999999,
+          -0.645
+        ],
+        [
+          0.105,
+          -0.62
+        ],
+        [
+          0.105,
+          0.62
+        ],
+        [
+          0.07999999999999999,
+          0.645
+        ],
+        [
+          -0.07999999999999999,
+          0.645
+        ],
+        [
+          -0.105,
+          0.62
+        ],
+        [
+          -0.105,
+          -0.62
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.04,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.028,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.024,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.04,
+          "scale": [
+            0.9,
+            0.9
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "guide-light-1",
+      "shape": "roundedBox",
+      "position": [
+        0.144,
+        0.48,
+        0.085
+      ],
+      "size": [
+        0.014,
+        0.36,
+        0.012
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "mouth-side-1",
+      "shape": "roundedBox",
+      "position": [
+        0.194,
+        0.675,
+        0.29
+      ],
+      "size": [
+        0.075,
+        0.05,
+        0.51
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "roof-seam-1",
+      "shape": "roundedBox",
+      "position": [
+        0.19,
+        -0.15,
+        0.555
+      ],
+      "size": [
+        0.016,
+        0.53,
+        0.009
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "mouth-crossbar-0.045",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.675,
+        0.045
+      ],
+      "size": [
+        0.44,
+        0.05,
+        0.07
+      ],
+      "radius": 0.008,
+      "material": "armor"
+    },
+    {
+      "id": "mouth-crossbar-0.535",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.675,
+        0.535
+      ],
+      "size": [
+        0.44,
+        0.05,
+        0.07
+      ],
+      "radius": 0.008,
+      "material": "armor"
+    },
+    {
+      "id": "chamber-dark-back",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.365,
+        0.285
+      ],
+      "size": [
+        0.32,
+        0.018,
+        0.35
+      ],
+      "radius": 0.008,
+      "material": "rubber"
+    },
+    {
+      "id": "ready-light",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.31,
+        0.555
+      ],
+      "size": [
+        0.15,
+        0.09,
+        0.01
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "missile-round-body-and-ogive",
+      "shape": "lathe",
+      "position": [
+        0,
+        0,
+        0.25
+      ],
+      "profile": [
+        [
+          0,
+          -0.3
+        ],
+        [
+          0.085,
+          -0.3
+        ],
+        [
+          0.104,
+          -0.265
+        ],
+        [
+          0.104,
+          0.25
+        ],
+        [
+          0.1,
+          0.32
+        ],
+        [
+          0.082,
+          0.38
+        ],
+        [
+          0.052,
+          0.445
+        ],
+        [
+          0.014,
+          0.49
+        ],
+        [
+          0,
+          0.5
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "material": "edge"
+    },
+    {
+      "id": "missile-white-ogive",
+      "shape": "lathe",
+      "position": [
+        0,
+        0,
+        0.25
+      ],
+      "profile": [
+        [
+          0.1005,
+          0.316
+        ],
+        [
+          0.097,
+          0.34
+        ],
+        [
+          0.08,
+          0.386
+        ],
+        [
+          0.05,
+          0.449
+        ],
+        [
+          0.013,
+          0.494
+        ],
+        [
+          0,
+          0.504
+        ],
+        [
+          0,
+          0.316
+        ],
+        [
+          0.1005,
+          0.316
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "material": "armor"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; viewer box-projected UV for optional SharedTextures",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "guide-light--1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "roof-seam--1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "guide-light-1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "roof-seam-1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "ready-light",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W05-YAW.launcher-*"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [
+    {
+      "id": "muzzle",
+      "role": "missile-launch",
+      "parentNode": "root",
+      "position": [
+        0,
+        0.7,
+        0.29
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "coordinateSpace": "part-local"
+    }
+  ],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.23150000149011613,
+      -0.7000000017881394,
+      -1.7881393449270533e-9
+    ],
+    "max": [
+      0.23150000149011613,
+      0.7000000166893006,
+      0.5700000001490116
+    ],
+    "size": [
+      0.46300000298023225,
+      1.40000001847744,
+      0.570000001937151
+    ]
+  }
+}

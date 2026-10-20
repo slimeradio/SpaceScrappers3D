@@ -1,0 +1,177 @@
+{
+  "schema": "cht-authoring-assembly/1",
+  "id": "CHT-W02",
+  "version": "1.0.0",
+  "title": "Needle — снайперская рельсовая турель",
+  "catalogId": "sniper-turret",
+  "catalogReference": "../../../Catalog/blocks.csv",
+  "catalogGrid": [
+    1,
+    2
+  ],
+  "catalogRotationPivot": [
+    0.5,
+    1
+  ],
+  "units": "model-unit",
+  "up": "+Z",
+  "forward": "+Y",
+  "scaleNote": "Stylized model units, not metres or grid cells. Barrel count and lateral offsets preserve catalogue; visual long barrels extend forward beyond catalogue ShootPosition. Runtime mapping required.",
+  "instances": [
+    {
+      "id": "foundation",
+      "partId": "CHT-W02-BASE",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W02-BASE/part.json",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": null
+    },
+    {
+      "id": "yaw",
+      "partId": "CHT-W02-HEAD",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W02-HEAD/part.json",
+      "parent": "foundation",
+      "translation": [
+        0,
+        0,
+        0.3
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "bearing",
+        "childSocket": "base"
+      },
+      "joint": {
+        "type": "revolute",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "rangeDegrees": [
+          -45,
+          45
+        ],
+        "continuous": false,
+        "restDegrees": 0
+      }
+    },
+    {
+      "id": "power-pack",
+      "partId": "CHT-W02-PACK",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W02-PACK/part.json",
+      "parent": "yaw",
+      "translation": [
+        0,
+        -0.6,
+        0.5
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "pack",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "barrel-0",
+      "partId": "CHT-W02-BARREL",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W02-BARREL/part.json",
+      "parent": "yaw",
+      "translation": [
+        0,
+        0.38,
+        0.31
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "barrel-0",
+        "childSocket": "base"
+      }
+    }
+  ],
+  "animations": [
+    {
+      "id": "yaw-demo",
+      "node": "yaw",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "rangeDegrees": [
+        -45,
+        45
+      ],
+      "durationSeconds": 2,
+      "loop": false,
+      "interpolation": "LINEAR",
+      "restDegrees": 0,
+      "gameplaySource": "catalog RotateSpeedDegreesPerSecond=45"
+    }
+  ],
+  "catalogSnapshot": {
+    "ID": "sniper-turret",
+    "Название_пояснительное": "Снайперская рельсовая турель",
+    "Тип_XML": "Turret",
+    "Ширина_клеток": "1",
+    "Высота_клеток": "2",
+    "Размер_сетки_без_поворота": "1x2",
+    "Описание_и_назначение": "Стреляет физическими снарядами. Поворотная установка с собственной дугой наведения. Урон из Weapon=900; дальность=180.",
+    "Прочность_MaxHealth": "2800",
+    "Масса_BlockMass_единицы_игры": "5",
+    "Особенности_и_ограничения": "Урон указан из XML Weapon без пересчёта в DPS. Итоговый залп зависит от числа стволов, ProjectilesPerShot, интервалов, магазина и нагрева. Энергия и боеприпасы заданы отдельно.",
+    "Параметры_механики_XML": "",
+    "Ресурсы_XML_1_энергия_МДж_2_топливо": "<Resource StoreInStorage=\"true\" Id=\"1\" Capacity=\"100\" WorkingThreshold=\"20\" TargetStorage=\"70\" InitialStorage=\"70\" MaxInput=\"60\" UsePerShot=\"5\" Priority=\"30\" />",
+    "Оружие_XML": "<Weapon Name=\"sniper-railgun\" ProjectileKind=\"Bullet\" DamagePerProjectile=\"900\" ProjectileSpeed=\"420\" MaxRange=\"180\" HitReaction=\"Penetrate\"><Barrels><Barrel Ref=\"sniper-barrel\" /></Barrels></Weapon>",
+    "Наведение_XML": "<Turret Name=\"sniper-turret\" FiringArcDegrees=\"90\" RotateSpeedDegreesPerSecond=\"45\"><RotationPivot X=\"0.5\" Y=\"1\" /></Turret>",
+    "Стволы_XML": "<Barrel Name=\"sniper-barrel\" MaxHeat=\"100\" HeatPerShot=\"28\" HeatPerSeconds=\"14\" ShootIntervalInSeconds=\"1.2\" ReloadIntervalInSeconds=\"2.5\" MaxMagazineCapacity=\"5\" ProjectilesPerShot=\"1\" ShotSpread=\"0.1\"><ShootPosition X=\"0\" Y=\"1.2\" /></Barrel>",
+    "Источник_от_корня_проекта": "Assets/Definitions/sniper_turret/sniper-turret.definition.xml",
+    "Основание_описания": "Пояснение по текущим XML и исходному коду; название пояснительное, не локализованное имя UI. Размер — Size в клетках до поворота, не габарит рисунка или коллайдера. Игровой запуск не проверялся.",
+    "Дата_среза": "2026-10-15"
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-EF03",
+  "version": "1.0+states1+floor1",
+  "title": "Топливный двигатель 3×4",
+  "catalog_id": "fuel-thruster-3x4",
+  "catalog_grid": [
+    3,
+    4
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "Assembly: 1 BU = 1 gameplay cell; native part units transformed by ModelFit"
+  },
+  "instances": [
+    {
+      "id": "TwinPressureHousing",
+      "part_id": "MA-EF03-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-EF03-P01/MA-EF03-P01.blend",
+      "parent": "MA-EF03",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ExpansionBellL",
+      "part_id": "MA-EF01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-EF01-P02/MA-EF01-P02.blend",
+      "parent": "MA-EF03",
+      "translation": [
+        -1.01,
+        -0.38,
+        1.07
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ExpansionBellR",
+      "part_id": "MA-EF01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-EF01-P02/MA-EF01-P02.blend",
+      "parent": "MA-EF03",
+      "translation": [
+        1.01,
+        -0.38,
+        1.07
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "part_id": "MA-E01-P05",
+      "version": "1.0",
+      "source": "../../Parts/MA-E01-P05/MA-E01-P05.blend",
+      "parent": "MA-EF03",
+      "translation": [
+        0,
+        1.51,
+        1.295
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Floor",
+      "part_id": "MA-FLOOR-rect-3x4",
+      "version": "1.0",
+      "source": "../../Parts/MA-FLOOR-rect-3x4/MA-FLOOR-rect-3x4.blend",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "TwinPressureHousing",
+      "parent_socket": "bellL",
+      "child_instance": "ExpansionBellL",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "TwinPressureHousing",
+      "parent_socket": "bellR",
+      "child_instance": "ExpansionBellR",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "TwinPressureHousing",
+      "parent_socket": "service",
+      "child_instance": "ServiceCartridge",
+      "child_socket": "root"
+    }
+  ],
+  "animations": {
+    "controller": "MA-EF03",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      }
+    },
+    "channels": [],
+    "clips": [
+      {
+        "name": "MA-EF03::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-EF03::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-EF03::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-EF03::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Twin hollow deep bells, independently armored pressure chambers, converging aft feed manifold; unit-scale source references. Static authoring-only functional directions: exhaust -Y, thrust +Y. No gameplay parameters.",
+  "state_authoring": "state-authoring.json",
+  "nodes": [
+    {
+      "id": "MA-EF03",
+      "parent": "ModelFit",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ModelFit",
+      "parent": null,
+      "translation": [
+        0.0,
+        -0.5536334501118224,
+        0.075
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8328445538171197,
+        0.8328445538171197,
+        0.8328445538171197
+      ]
+    },
+    {
+      "id": "Floor",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "floor_fit": {
+    "floor": "MA-FLOOR-rect-3x4",
+    "margin_cells": 0.08,
+    "uniform_scale": 0.8328445538171197,
+    "translation": [
+      0.0,
+      -0.5536334501118224,
+      0.075
+    ],
+    "body_instances": [
+      "TwinPressureHousing",
+      "ServiceCartridge"
+    ],
+    "protrusion_instances": [
+      "ExpansionBellL",
+      "ExpansionBellR"
+    ],
+    "thruster_point_order": [
+      "ExpansionBellL/functional_points/thrust",
+      "ExpansionBellR/functional_points/thrust"
+    ]
+  }
+}

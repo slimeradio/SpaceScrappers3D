@@ -1,0 +1,556 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-R01",
+  "version": "1.0",
+  "title": "Реактор",
+  "catalog_id": "reactor-4x4-aaaa",
+  "catalog_grid": [
+    4,
+    4
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Foundation",
+      "part_id": "MA-R01-P01",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-R01-P01/MA-R01-P01.blend",
+      "parent": "MA-R01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Core",
+      "part_id": "MA-R01-P02",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-R01-P02/MA-R01-P02.blend",
+      "parent": "MA-R01",
+      "translation": [
+        0,
+        0,
+        0.51
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Shield0",
+      "part_id": "MA-R01-P03",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-R01-P03/MA-R01-P03.blend",
+      "parent": "MA-R01",
+      "translation": [
+        0.0,
+        -1.05,
+        0.42
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Thermal0",
+      "part_id": "MA-R01-P04",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-R01-P04/MA-R01-P04.blend",
+      "parent": "MA-R01",
+      "translation": [
+        0.0,
+        -1.2,
+        0.37
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Shield1",
+      "part_id": "MA-R01-P03",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-R01-P03/MA-R01-P03.blend",
+      "parent": "MA-R01",
+      "translation": [
+        1.05,
+        -6.429395695523605E-17,
+        0.42
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        1.5707963267948966
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Thermal1",
+      "part_id": "MA-R01-P04",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-R01-P04/MA-R01-P04.blend",
+      "parent": "MA-R01",
+      "translation": [
+        1.2,
+        -7.347880794884119E-17,
+        0.37
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        1.5707963267948966
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Shield2",
+      "part_id": "MA-R01-P03",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-R01-P03/MA-R01-P03.blend",
+      "parent": "MA-R01",
+      "translation": [
+        1.285879139104721E-16,
+        1.05,
+        0.42
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Thermal2",
+      "part_id": "MA-R01-P04",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-R01-P04/MA-R01-P04.blend",
+      "parent": "MA-R01",
+      "translation": [
+        1.4695761589768238E-16,
+        1.2,
+        0.37
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Shield3",
+      "part_id": "MA-R01-P03",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-R01-P03/MA-R01-P03.blend",
+      "parent": "MA-R01",
+      "translation": [
+        -1.05,
+        1.9288187086570813E-16,
+        0.42
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        4.71238898038469
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Thermal3",
+      "part_id": "MA-R01-P04",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-R01-P04/MA-R01-P04.blend",
+      "parent": "MA-R01",
+      "translation": [
+        -1.2,
+        2.2043642384652356E-16,
+        0.37
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        4.71238898038469
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Service",
+      "part_id": "MA-R01-P05",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-R01-P05/MA-R01-P05.blend",
+      "parent": "MA-R01",
+      "translation": [
+        0,
+        0,
+        1.818
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MA-R01",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Foundation",
+      "parent": "MA-R01",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Core",
+      "parent": "MA-R01",
+      "translation": [
+        0.0,
+        0.0,
+        0.5099999904632568
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Shield0",
+      "parent": "MA-R01",
+      "translation": [
+        0.0,
+        -1.0499999523162842,
+        0.41999998688697815
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Thermal0",
+      "parent": "MA-R01",
+      "translation": [
+        0.0,
+        -1.2000000476837158,
+        0.3700000047683716
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Shield1",
+      "parent": "MA-R01",
+      "translation": [
+        1.0499999523162842,
+        -6.429395645199886E-17,
+        0.41999998688697815
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Thermal1",
+      "parent": "MA-R01",
+      "translation": [
+        1.2000000476837158,
+        -7.347881115511007E-17,
+        0.3700000047683716
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Shield2",
+      "parent": "MA-R01",
+      "translation": [
+        1.2858791290399772E-16,
+        1.0499999523162842,
+        0.41999998688697815
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        3.1415927410125732
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Thermal2",
+      "parent": "MA-R01",
+      "translation": [
+        1.4695762231022014E-16,
+        1.2000000476837158,
+        0.3700000047683716
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        3.1415927410125732
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Shield3",
+      "parent": "MA-R01",
+      "translation": [
+        -1.0499999523162842,
+        1.9288186935599659E-16,
+        0.41999998688697815
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        4.71238899230957
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Thermal3",
+      "parent": "MA-R01",
+      "translation": [
+        -1.2000000476837158,
+        2.2043642023044041E-16,
+        0.3700000047683716
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        4.71238899230957
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Service",
+      "parent": "MA-R01",
+      "translation": [
+        0.0,
+        0.0,
+        1.8179999589920044
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Static Blender source, no gameplay contract. Catalog supplies no uranium consumption; no fuel mechanism invented. BU authoring only.",
+  "connections": [
+    {
+      "parent": "Foundation",
+      "socket": "core",
+      "child": "Core",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Foundation",
+      "socket": "screen0",
+      "child": "Shield0",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Foundation",
+      "socket": "thermal0",
+      "child": "Thermal0",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Foundation",
+      "socket": "screen1",
+      "child": "Shield1",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Foundation",
+      "socket": "thermal1",
+      "child": "Thermal1",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Foundation",
+      "socket": "screen2",
+      "child": "Shield2",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Foundation",
+      "socket": "thermal2",
+      "child": "Thermal2",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Foundation",
+      "socket": "screen3",
+      "child": "Shield3",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Foundation",
+      "socket": "thermal3",
+      "child": "Thermal3",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Core",
+      "socket": "service",
+      "child": "Service",
+      "child_socket": "bottom"
+    }
+  ]
+}

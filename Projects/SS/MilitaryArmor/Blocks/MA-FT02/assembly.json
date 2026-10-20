@@ -1,0 +1,389 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-FT02",
+  "version": "1.0+states1+floor1",
+  "title": "Бак топлива 2×2",
+  "catalog_id": "fuel-tank-2x2",
+  "catalog_grid": [
+    2,
+    2
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "Assembly: 1 BU = 1 gameplay cell; native part units transformed by ModelFit"
+  },
+  "instances": [
+    {
+      "id": "Structure",
+      "part_id": "MA-FT02-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT02-P01/MA-FT02-P01.blend",
+      "parent": "MA-FT02",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "leftVessel",
+      "part_id": "MA-FT01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P02/MA-FT01-P02.blend",
+      "parent": "MA-FT02",
+      "translation": [
+        -0.87,
+        0,
+        0.31
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "leftHoopfront",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT02",
+      "translation": [
+        -0.87,
+        -0.7,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "leftHooprear",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT02",
+      "translation": [
+        -0.87,
+        0.65,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "rightVessel",
+      "part_id": "MA-FT01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P02/MA-FT01-P02.blend",
+      "parent": "MA-FT02",
+      "translation": [
+        0.87,
+        0,
+        0.31
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "rightHoopfront",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT02",
+      "translation": [
+        0.87,
+        -0.7,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "rightHooprear",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT02",
+      "translation": [
+        0.87,
+        0.65,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Floor",
+      "part_id": "MA-FLOOR-rect-2x2",
+      "version": "1.0",
+      "source": "../../Parts/MA-FLOOR-rect-2x2/MA-FLOOR-rect-2x2.blend",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "leftVessel",
+      "child_instance": "leftVessel",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "leftVessel",
+      "parent_socket": "band-front",
+      "child_instance": "leftHoopfront",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "leftVessel",
+      "parent_socket": "band-rear",
+      "child_instance": "leftHooprear",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "rightVessel",
+      "child_instance": "rightVessel",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "rightVessel",
+      "parent_socket": "band-front",
+      "child_instance": "rightHoopfront",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "rightVessel",
+      "parent_socket": "band-rear",
+      "child_instance": "rightHooprear",
+      "child_socket": "root"
+    }
+  ],
+  "animations": {
+    "controller": "MA-FT02",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "fill": {
+        "default": 0.5,
+        "min": 0,
+        "max": 1,
+        "description": "Stored amount/charge; independent from power"
+      }
+    },
+    "channels": [],
+    "clips": [
+      {
+        "name": "MA-FT02::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-FT02::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-FT02::fill",
+        "parameters": [
+          "fill"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Две раздельные продольные ёмкости с обручами на поперечных опорах. Открытые промежутки и видимые торцы сосудов различают бак и цельный контейнер.",
+  "state_authoring": "state-authoring.json",
+  "nodes": [
+    {
+      "id": "MA-FT02",
+      "parent": "ModelFit",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ModelFit",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.11040002005440848,
+        0.075
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5257142857142857,
+        0.5257142857142857,
+        0.5257142857142857
+      ]
+    },
+    {
+      "id": "Floor",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "floor_fit": {
+    "floor": "MA-FLOOR-rect-2x2",
+    "margin_cells": 0.08,
+    "uniform_scale": 0.5257142857142857,
+    "translation": [
+      0.0,
+      0.11040002005440848,
+      0.075
+    ],
+    "body_instances": [
+      "Structure",
+      "leftVessel",
+      "leftHoopfront",
+      "leftHooprear",
+      "rightVessel",
+      "rightHoopfront",
+      "rightHooprear"
+    ],
+    "protrusion_instances": []
+  }
+}

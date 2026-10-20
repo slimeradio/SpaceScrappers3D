@@ -1,0 +1,477 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W12",
+  "version": "1.0",
+  "title": "Турель самонаводящихся ракет 1×3",
+  "catalog_id": "seeking-rocket-turret",
+  "catalog_grid": [
+    1,
+    3
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "HullKeel",
+      "part_id": "MA-W08-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-W08-P01/MA-W08-P01.blend",
+      "parent": "MA-W12",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "SingleLauncher",
+      "part_id": "MA-W12-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-W12-P01/MA-W12-P01.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "SpareLeft",
+      "part_id": "MA-W08-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-W08-P03/MA-W08-P03.blend",
+      "parent": "Yaw",
+      "translation": [
+        -0.85,
+        0.33,
+        0.48
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "SpareRight",
+      "part_id": "MA-W08-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-W08-P03/MA-W08-P03.blend",
+      "parent": "Yaw",
+      "translation": [
+        0.85,
+        0.33,
+        0.48
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Guidance",
+      "part_id": "MA-W12-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-W12-P02/MA-W12-P02.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        -0.41,
+        1.095
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Lidar",
+      "part_id": "MA-P07",
+      "version": "1.3",
+      "source": "../../Parts/MA-P07/MA-P07.blend",
+      "parent": "Guidance",
+      "translation": [
+        0,
+        0.27,
+        0.76
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Service",
+      "part_id": "MA-P06",
+      "version": "1.3",
+      "source": "../../Parts/MA-P06/MA-P06.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        1.83,
+        1.14
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_sha256": [
+    {
+      "id": "MA-W12-P01",
+      "sha256": "202a586508cae29138a062b6ca19c92962a05e41788e4d3c3e69d4c96d7b97db"
+    },
+    {
+      "id": "MA-W12-P02",
+      "sha256": "04d4181b391099b95b395b4da3fff607074a044c566370089cd65e26fefa273d"
+    },
+    {
+      "id": "MA-W08-P01",
+      "sha256": "fbd4bd769960b8a2c1d3f5fea2f2b1aed89b9534387442a7f6e82e2f6796e014"
+    },
+    {
+      "id": "MA-W08-P03",
+      "sha256": "b0edb8be650195a38878c5744134205da67a3147a36b26b9b5a68d3e4ad8d167"
+    },
+    {
+      "id": "MA-P06",
+      "sha256": "48dfec4c5340ed6316552d1c333ecb4b6113c29e901a7a66dffe56037c283c00"
+    },
+    {
+      "id": "MA-P07",
+      "sha256": "b5eb646b1622a54454f08ff642a6fc3a29a6b4e2bec652f9c11cce4ae54c99af"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MA-W12",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "HullKeel",
+      "parent": "MA-W12",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Yaw",
+      "parent": "MA-W12",
+      "translation": [
+        0.0,
+        0.46000000834465027,
+        0.7200000286102295
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "SingleLauncher",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "SpareLeft",
+      "parent": "Yaw",
+      "translation": [
+        -0.8500000238418579,
+        0.33000001311302185,
+        0.47999998927116394
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "SpareRight",
+      "parent": "Yaw",
+      "translation": [
+        0.8500000238418579,
+        0.33000001311302185,
+        0.47999998927116394
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Guidance",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        -0.4099999964237213,
+        1.0950000286102295
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Lidar",
+      "parent": "Guidance",
+      "translation": [
+        0.0,
+        0.27000001072883606,
+        0.7599999904632568
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Service",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        1.8300000429153442,
+        1.1399999856948853
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "HullKeel",
+      "parent_socket": "yaw",
+      "child_instance": "SingleLauncher",
+      "child_socket": "root",
+      "motion_node": "Yaw",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "range_degrees": [
+        0,
+        360
+      ]
+    },
+    {
+      "parent_instance": "SingleLauncher",
+      "parent_socket": "reserve-left",
+      "child_instance": "SpareLeft",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "SingleLauncher",
+      "parent_socket": "reserve-right",
+      "child_instance": "SpareRight",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "SingleLauncher",
+      "parent_socket": "service",
+      "child_instance": "Service",
+      "child_socket": "bottom"
+    },
+    {
+      "parent_instance": "SingleLauncher",
+      "parent_socket": "guidance",
+      "child_instance": "Guidance",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Guidance",
+      "parent_socket": "lidar",
+      "child_instance": "Lidar",
+      "child_socket": "bottom"
+    }
+  ],
+  "animations": {
+    "fps": 30,
+    "frame_range": [
+      1,
+      121
+    ],
+    "channels": [
+      {
+        "node": "Yaw",
+        "channel": "rotation_euler",
+        "axis": "Z",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            0
+          ],
+          [
+            31,
+            90
+          ],
+          [
+            61,
+            180
+          ],
+          [
+            91,
+            270
+          ],
+          [
+            121,
+            360
+          ]
+        ]
+      }
+    ],
+    "interpolation": "LINEAR",
+    "demonstration_only": true
+  },
+  "functional_contract": {
+    "active_barrel_count": 1,
+    "projectiles_per_shot": 1,
+    "muzzle_instance": "SingleLauncher",
+    "muzzle_point": "shoot",
+    "yaw_arc_degrees": 360,
+    "yaw_speed_degrees_per_second": 90,
+    "elevation": "none; catalog does not establish 3D elevation",
+    "reserve_cassettes": "closed visual stores; no independent firing points",
+    "guidance": "fixed optical guidance fork; missile seeking is catalog projectile behavior, not an extra animated weapon",
+    "xml_pivot": [
+      0.5,
+      0.5
+    ],
+    "xml_to_BU_mapping": "unspecified; yaw BU pivot is authoring only"
+  },
+  "exports": [],
+  "notes": "Editable authoring only; no game integration, GLB, LOD or colliders. Physical scale unspecified."
+}

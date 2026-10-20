@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "validated_before_assembly": true,
+  "meshes": [
+    {
+      "mesh": "Radiative substrate",
+      "source_manifold": true,
+      "positive_volume": true,
+      "evaluated_finite": true,
+      "no_zero_area_triangles": true
+    },
+    {
+      "mesh": "Thermal face",
+      "source_manifold": true,
+      "positive_volume": true,
+      "evaluated_finite": true,
+      "no_zero_area_triangles": true
+    },
+    {
+      "mesh": "Thermal face.001",
+      "source_manifold": true,
+      "positive_volume": true,
+      "evaluated_finite": true,
+      "no_zero_area_triangles": true
+    },
+    {
+      "mesh": "Protected edge rib",
+      "source_manifold": true,
+      "positive_volume": true,
+      "evaluated_finite": true,
+      "no_zero_area_triangles": true
+    },
+    {
+      "mesh": "Protected edge rib.001",
+      "source_manifold": true,
+      "positive_volume": true,
+      "evaluated_finite": true,
+      "no_zero_area_triangles": true
+    },
+    {
+      "mesh": "Hinge spindle",
+      "source_manifold": true,
+      "positive_volume": true,
+      "evaluated_finite": true,
+      "no_zero_area_triangles": true
+    }
+  ]
+}

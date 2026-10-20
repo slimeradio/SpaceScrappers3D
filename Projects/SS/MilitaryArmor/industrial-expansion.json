@@ -1,0 +1,89 @@
+{
+  "schema": "MilitaryArmor.IndustrialExpansionAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-D02",
+      "title": "Twin mechanical mining drill 2x3",
+      "version": "1.0",
+      "catalog_id": "rotary-drill-2x3",
+      "catalog_grid": [
+        2,
+        3
+      ],
+      "source": "Blocks/MA-D02/MA-D02.blend",
+      "assembly": "Blocks/MA-D02/assembly.json",
+      "parts": [
+        "MA-D01-P02",
+        "MA-D01-P03",
+        "MA-D02-P01"
+      ],
+      "instance_count": 5,
+      "validation": "Blocks/MA-D02/validation.json",
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-D02/Previews/perspective.png",
+        "Blocks/MA-D02/Previews/top.png",
+        "Blocks/MA-D02/Previews/top-grayscale.png"
+      ],
+      "checks_passed": true
+    },
+    {
+      "id": "MA-FF01",
+      "title": "Фабрика топлива 3×5",
+      "version": "1.0",
+      "catalog_id": "fuel-factory-3x5",
+      "catalog_grid": [
+        3,
+        5
+      ],
+      "source": "Blocks/MA-FF01/MA-FF01.blend",
+      "assembly": "Blocks/MA-FF01/assembly.json",
+      "parts": [
+        "MA-FF01-P01",
+        "MA-FF01-P02",
+        "MA-FF01-P03",
+        "MA-FF01-P04",
+        "MA-FG01-R2-P02",
+        "MA-FG01-R2-P03"
+      ],
+      "instance_count": 7,
+      "validation": "Blocks/MA-FF01/validation.json",
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-FF01/Previews/perspective.png",
+        "Blocks/MA-FF01/Previews/top.png",
+        "Blocks/MA-FF01/Previews/top-grayscale.png"
+      ],
+      "checks_passed": true
+    },
+    {
+      "id": "MA-HS02",
+      "title": "Накопитель тепла 2×2 — визуальная заготовка",
+      "version": "2.0",
+      "catalog_id": "heat-store-2x2",
+      "catalog_grid": [
+        2,
+        2
+      ],
+      "source": "Blocks/MA-HS02/MA-HS02.blend",
+      "assembly": "Blocks/MA-HS02/assembly.json",
+      "parts": [
+        "MA-HS01-R2-P02",
+        "MA-HS02-P01",
+        "MA-HS02-P02"
+      ],
+      "instance_count": 12,
+      "validation": "Blocks/MA-HS02/validation.json",
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-HS02/Previews/perspective.png",
+        "Blocks/MA-HS02/Previews/top.png",
+        "Blocks/MA-HS02/Previews/top-grayscale.png"
+      ],
+      "checks_passed": true
+    }
+  ],
+  "new_part_sources": 7,
+  "glb_generated": false,
+  "game_validation": false
+}

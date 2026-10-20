@@ -1,0 +1,2009 @@
+{
+  "date": "2026-10-16",
+  "scope": "SS/MilitaryArmor current Blocks only",
+  "inspection": "assembly and referenced part metadata; selected documentation and authoring source; no fresh Blender reopen",
+  "count": 64,
+  "animated_metadata_count": 12,
+  "models_modified": false,
+  "blocks": [
+    {
+      "id": "MA-A01",
+      "catalog_id": "armor-1x1",
+      "priority": "P3",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Статика уместна: рабочая механика не требуется. Не добавлять декоративное движение или эмиссию броне. Повреждения — отдельный общий слой, не цикл работы.",
+      "evidence": "Blocks/MA-A01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-A01-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-A02",
+      "catalog_id": "armor-2x1",
+      "priority": "P3",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Статика уместна: рабочая механика не требуется. Не добавлять декоративное движение или эмиссию броне. Повреждения — отдельный общий слой, не цикл работы.",
+      "evidence": "Blocks/MA-A02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-A02-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-A03",
+      "catalog_id": "armor-wedge",
+      "priority": "P3",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Статика уместна: рабочая механика не требуется. Не добавлять декоративное движение или эмиссию броне. Повреждения — отдельный общий слой, не цикл работы.",
+      "evidence": "Blocks/MA-A03/assembly.json",
+      "part_metadata": [
+        "Parts/MA-A03-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-A04",
+      "catalog_id": "armor-1x2-wedge",
+      "priority": "P3",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Статика уместна: рабочая механика не требуется. Не добавлять декоративное движение или эмиссию броне. Повреждения — отдельный общий слой, не цикл работы.",
+      "evidence": "Blocks/MA-A04/assembly.json",
+      "part_metadata": [
+        "Parts/MA-A04-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-B01",
+      "catalog_id": "battery-4x4",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-B01-R2-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Заряд 0…1 и режим charge / discharge / idle / off: сегменты индикатора и направленная индикация потока. Механика не нужна; не объявлять постоянную бирюзовую эмиссию показателем заряда.",
+      "evidence": "Blocks/MA-B01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-B01-R2-P01/part.json",
+        "Parts/MA-B01-R2-P02/part.json",
+        "Parts/MA-B01-R2-P03/part.json"
+      ]
+    },
+    {
+      "id": "MA-C01",
+      "catalog_id": "programmable-2x1",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-C01-R2-P02",
+        "MA-C01-R2-P03"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Off / ready / executing / error — управляемая локальная диагностика. Сигнал ошибки условный; движение корпуса и постоянный случайный бег огней не нужны.",
+      "evidence": "Blocks/MA-C01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-C01-R2-P01/part.json",
+        "Parts/MA-C01-R2-P02/part.json",
+        "Parts/MA-C01-R2-P03/part.json"
+      ]
+    },
+    {
+      "id": "MA-D01",
+      "catalog_id": "rotary-drill-1x3",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-D01-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Независимое вращение каждой рабочей головки, разгон/торможение и остановленная поза. Эмиссия нагрузки только на служебных индикаторах; выдвижение и пыль не обязательны. Проверить фазы и зазоры соседних головок.",
+      "evidence": "Blocks/MA-D01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-D01-P01/part.json",
+        "Parts/MA-D01-P02/part.json",
+        "Parts/MA-D01-P03/part.json"
+      ]
+    },
+    {
+      "id": "MA-D02",
+      "catalog_id": "rotary-drill-2x3",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-D01-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Независимое вращение каждой рабочей головки, разгон/торможение и остановленная поза. Эмиссия нагрузки только на служебных индикаторах; выдвижение и пыль не обязательны. Проверить фазы и зазоры соседних головок.",
+      "evidence": "Blocks/MA-D02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-D01-P02/part.json",
+        "Parts/MA-D01-P03/part.json",
+        "Parts/MA-D02-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-D03",
+      "catalog_id": "rotary-drill-3x5",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-D01-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Независимое вращение каждой рабочей головки, разгон/торможение и остановленная поза. Эмиссия нагрузки только на служебных индикаторах; выдвижение и пыль не обязательны. Проверить фазы и зазоры соседних головок.",
+      "evidence": "Blocks/MA-D03/assembly.json",
+      "part_metadata": [
+        "Parts/MA-D01-P02/part.json",
+        "Parts/MA-D01-P03/part.json",
+        "Parts/MA-D03-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-E01",
+      "catalog_id": "thruster-med",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-E01-P02",
+        "MA-E01-P03",
+        "MA-E01-P05"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Независимые off / idle / thrust и параметр тяги: управляемое свечение горловины/апертуры, остаточное тепло отдельно. Для MA-E02 отдельное управление тремя соплами. Точки выхлопа проверить; факел — отдельный внешний эффект. Механическое движение сопла без требования не нужно.",
+      "evidence": "Blocks/MA-E01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-E01-P01/part.json",
+        "Parts/MA-E01-P02/part.json",
+        "Parts/MA-E01-P03/part.json",
+        "Parts/MA-E01-P04/part.json",
+        "Parts/MA-E01-P05/part.json"
+      ]
+    },
+    {
+      "id": "MA-E02",
+      "catalog_id": "thruster-small-3way",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-E01-P05",
+        "MA-E02-P02",
+        "MA-E02-P03"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Независимые off / idle / thrust и параметр тяги: управляемое свечение горловины/апертуры, остаточное тепло отдельно. Для MA-E02 отдельное управление тремя соплами. Точки выхлопа проверить; факел — отдельный внешний эффект. Механическое движение сопла без требования не нужно.",
+      "evidence": "Blocks/MA-E02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-E01-P05/part.json",
+        "Parts/MA-E02-P01/part.json",
+        "Parts/MA-E02-P02/part.json",
+        "Parts/MA-E02-P03/part.json"
+      ]
+    },
+    {
+      "id": "MA-EF01",
+      "catalog_id": "fuel-thruster-2x3",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-E01-P05",
+        "MA-EF01-P01",
+        "MA-EF01-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Независимые off / idle / thrust и параметр тяги: управляемое свечение горловины/апертуры, остаточное тепло отдельно. Для MA-E02 отдельное управление тремя соплами. Точки выхлопа проверить; факел — отдельный внешний эффект. Механическое движение сопла без требования не нужно.",
+      "evidence": "Blocks/MA-EF01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-E01-P05/part.json",
+        "Parts/MA-EF01-P01/part.json",
+        "Parts/MA-EF01-P02/part.json"
+      ]
+    },
+    {
+      "id": "MA-EF02",
+      "catalog_id": "fuel-thruster-1x2",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-E01-P03",
+        "MA-E01-P05",
+        "MA-EF02-P01"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Независимые off / idle / thrust и параметр тяги: управляемое свечение горловины/апертуры, остаточное тепло отдельно. Для MA-E02 отдельное управление тремя соплами. Точки выхлопа проверить; факел — отдельный внешний эффект. Механическое движение сопла без требования не нужно.",
+      "evidence": "Blocks/MA-EF02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-E01-P03/part.json",
+        "Parts/MA-E01-P05/part.json",
+        "Parts/MA-EF02-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-EF03",
+      "catalog_id": "fuel-thruster-3x4",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-E01-P05",
+        "MA-EF01-P02",
+        "MA-EF03-P01"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Независимые off / idle / thrust и параметр тяги: управляемое свечение горловины/апертуры, остаточное тепло отдельно. Для MA-E02 отдельное управление тремя соплами. Точки выхлопа проверить; факел — отдельный внешний эффект. Механическое движение сопла без требования не нужно.",
+      "evidence": "Blocks/MA-EF03/assembly.json",
+      "part_metadata": [
+        "Parts/MA-E01-P05/part.json",
+        "Parts/MA-EF01-P02/part.json",
+        "Parts/MA-EF03-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-EF04",
+      "catalog_id": "fuel-thruster-4x6",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-E01-P05",
+        "MA-EF01-P02",
+        "MA-EF04-P01"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Независимые off / idle / thrust и параметр тяги: управляемое свечение горловины/апертуры, остаточное тепло отдельно. Для MA-E02 отдельное управление тремя соплами. Точки выхлопа проверить; факел — отдельный внешний эффект. Механическое движение сопла без требования не нужно.",
+      "evidence": "Blocks/MA-EF04/assembly.json",
+      "part_metadata": [
+        "Parts/MA-E01-P05/part.json",
+        "Parts/MA-EF01-P02/part.json",
+        "Parts/MA-EF04-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-EI01",
+      "catalog_id": "ion-thruster-2x3",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-E01-P05",
+        "MA-EI01-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Независимые off / idle / thrust и параметр тяги: управляемое свечение горловины/апертуры, остаточное тепло отдельно. Для MA-E02 отдельное управление тремя соплами. Точки выхлопа проверить; факел — отдельный внешний эффект. Механическое движение сопла без требования не нужно.",
+      "evidence": "Blocks/MA-EI01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-E01-P05/part.json",
+        "Parts/MA-EI01-P01/part.json",
+        "Parts/MA-EI01-P02/part.json"
+      ]
+    },
+    {
+      "id": "MA-EI02",
+      "catalog_id": "ion-thruster-3x4",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-E01-P05",
+        "MA-EI01-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Независимые off / idle / thrust и параметр тяги: управляемое свечение горловины/апертуры, остаточное тепло отдельно. Для MA-E02 отдельное управление тремя соплами. Точки выхлопа проверить; факел — отдельный внешний эффект. Механическое движение сопла без требования не нужно.",
+      "evidence": "Blocks/MA-EI02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-E01-P05/part.json",
+        "Parts/MA-EI01-P02/part.json",
+        "Parts/MA-EI02-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-EI03",
+      "catalog_id": "ion-thruster-1x2",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-E01-P05",
+        "MA-EI03-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Независимые off / idle / thrust и параметр тяги: управляемое свечение горловины/апертуры, остаточное тепло отдельно. Для MA-E02 отдельное управление тремя соплами. Точки выхлопа проверить; факел — отдельный внешний эффект. Механическое движение сопла без требования не нужно.",
+      "evidence": "Blocks/MA-EI03/assembly.json",
+      "part_metadata": [
+        "Parts/MA-E01-P05/part.json",
+        "Parts/MA-EI03-P01/part.json",
+        "Parts/MA-EI03-P02/part.json"
+      ]
+    },
+    {
+      "id": "MA-EI04",
+      "catalog_id": "ion-thruster-4x6",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-E01-P05",
+        "MA-EI01-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Независимые off / idle / thrust и параметр тяги: управляемое свечение горловины/апертуры, остаточное тепло отдельно. Для MA-E02 отдельное управление тремя соплами. Точки выхлопа проверить; факел — отдельный внешний эффект. Механическое движение сопла без требования не нужно.",
+      "evidence": "Blocks/MA-EI04/assembly.json",
+      "part_metadata": [
+        "Parts/MA-E01-P05/part.json",
+        "Parts/MA-EI01-P02/part.json",
+        "Parts/MA-EI04-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-F01",
+      "catalog_id": "refinery-2x1",
+      "priority": "P0",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-F01-R2-P03"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Off / idle / starting / working / stopping / blocked: движение рабочего кольца камеры и видимого узла подачи; разгон и торможение. Рабочая эмиссия по активности, heat отдельно. Подвижные элементы выделить из статичных деталей; blocked — предлагаемый сигнал, если доступен.",
+      "evidence": "Blocks/MA-F01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-F01-R2-P01/part.json",
+        "Parts/MA-F01-R2-P02/part.json",
+        "Parts/MA-F01-R2-P03/part.json"
+      ]
+    },
+    {
+      "id": "MA-F02",
+      "catalog_id": "refinery-base",
+      "priority": "P0",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-F01-R2-P03"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Off / idle / starting / working / stopping / blocked: движение рабочего кольца камеры и видимого узла подачи; разгон и торможение. Рабочая эмиссия по активности, heat отдельно. Подвижные элементы выделить из статичных деталей; blocked — предлагаемый сигнал, если доступен.",
+      "evidence": "Blocks/MA-F02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-F01-R2-P01/part.json",
+        "Parts/MA-F01-R2-P02/part.json",
+        "Parts/MA-F01-R2-P03/part.json",
+        "Parts/MA-F02-R2-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-FF01",
+      "catalog_id": "fuel-factory-3x5",
+      "priority": "P0",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-FF01-P02",
+        "MA-FF01-P03",
+        "MA-FG01-R2-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Запуск / работа / остановка: вращение конечного барабана и движение насосного узла, связанная последовательность рабочих индексов. Не вращать герметичные корпуса и трубопроводы. Конкретный химический процесс не придумывать.",
+      "evidence": "Blocks/MA-FF01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-FF01-P01/part.json",
+        "Parts/MA-FF01-P02/part.json",
+        "Parts/MA-FF01-P03/part.json",
+        "Parts/MA-FF01-P04/part.json",
+        "Parts/MA-FG01-R2-P02/part.json",
+        "Parts/MA-FG01-R2-P03/part.json"
+      ]
+    },
+    {
+      "id": "MA-FG01",
+      "catalog_id": "engine-room",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-FG01-R2-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Ожидание / производство / остановка: движение выделенного рабочего ротора/насосного элемента внутри защищённого узла, индикация нагрузки. Применимость механизма уточнить по конструкции; не анимировать весь герметичный корпус.",
+      "evidence": "Blocks/MA-FG01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-FG01-R2-P01/part.json",
+        "Parts/MA-FG01-R2-P02/part.json",
+        "Parts/MA-FG01-R2-P03/part.json",
+        "Parts/MA-FG01-R2-P04/part.json"
+      ]
+    },
+    {
+      "id": "MA-FT01",
+      "catalog_id": "fuel-tank-1x2",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-R01-P05"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Заполненность 0…1 на отдельном индикаторе; при доступных сигналах приём/выдача. Бак и трубопроводы неподвижны, клапаны не требуют постоянного цикла.",
+      "evidence": "Blocks/MA-FT01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-FT01-P01/part.json",
+        "Parts/MA-FT01-P02/part.json",
+        "Parts/MA-FT01-P03/part.json",
+        "Parts/MA-R01-P05/part.json"
+      ]
+    },
+    {
+      "id": "MA-FT02",
+      "catalog_id": "fuel-tank-2x2",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Заполненность 0…1 на отдельном индикаторе; при доступных сигналах приём/выдача. Бак и трубопроводы неподвижны, клапаны не требуют постоянного цикла.",
+      "evidence": "Blocks/MA-FT02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-FT01-P02/part.json",
+        "Parts/MA-FT01-P03/part.json",
+        "Parts/MA-FT02-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-FT03",
+      "catalog_id": "fuel-tank-3x3",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Заполненность 0…1 на отдельном индикаторе; при доступных сигналах приём/выдача. Бак и трубопроводы неподвижны, клапаны не требуют постоянного цикла.",
+      "evidence": "Blocks/MA-FT03/assembly.json",
+      "part_metadata": [
+        "Parts/MA-FT01-P02/part.json",
+        "Parts/MA-FT01-P03/part.json",
+        "Parts/MA-FT03-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-FT04",
+      "catalog_id": "fuel-tank-4x4",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Заполненность 0…1 на отдельном индикаторе; при доступных сигналах приём/выдача. Бак и трубопроводы неподвижны, клапаны не требуют постоянного цикла.",
+      "evidence": "Blocks/MA-FT04/assembly.json",
+      "part_metadata": [
+        "Parts/MA-FT01-P02/part.json",
+        "Parts/MA-FT01-P03/part.json",
+        "Parts/MA-FT04-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-G01",
+      "catalog_id": "garage-ship",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-G01-P02",
+        "MA-R01-P05"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Предложение: ожидание / обслуживание / строительство — локальная индикация операции. Люк и сервисные манипуляторы анимировать только при подтверждённой операции; гараж 1×1 не считать воротами для прохода корабля.",
+      "evidence": "Blocks/MA-G01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-G01-P01/part.json",
+        "Parts/MA-G01-P02/part.json",
+        "Parts/MA-G01-P03/part.json",
+        "Parts/MA-R01-P05/part.json"
+      ]
+    },
+    {
+      "id": "MA-G02",
+      "catalog_id": "garage-base",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-G01-P02",
+        "MA-G02-P02",
+        "MA-R01-P05"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Предложение: ожидание / обслуживание / строительство — локальная индикация операции. Люк и сервисные манипуляторы анимировать только при подтверждённой операции; гараж 1×1 не считать воротами для прохода корабля.",
+      "evidence": "Blocks/MA-G02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-G01-P01/part.json",
+        "Parts/MA-G01-P02/part.json",
+        "Parts/MA-G02-P01/part.json",
+        "Parts/MA-G02-P02/part.json",
+        "Parts/MA-R01-P05/part.json"
+      ]
+    },
+    {
+      "id": "MA-H01",
+      "catalog_id": "radiator-1x2",
+      "priority": "P0",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Закрыто ↔ открыто: шарниры лопастей/секций и плавные переходы. Независимый heat: тёмный → красный → оранжевый → светлый жар на излучающих поверхностях, с остыванием после отключения. Нужны подвижные варианты деталей и отдельные тепловые материалы.",
+      "evidence": "Blocks/MA-H01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-H01-R2-P01/part.json",
+        "Parts/MA-H01-R2-P02/part.json"
+      ]
+    },
+    {
+      "id": "MA-H02",
+      "catalog_id": "radiator-2x3",
+      "priority": "P0",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Закрыто ↔ открыто: шарниры лопастей/секций и плавные переходы. Независимый heat: тёмный → красный → оранжевый → светлый жар на излучающих поверхностях, с остыванием после отключения. Нужны подвижные варианты деталей и отдельные тепловые материалы.",
+      "evidence": "Blocks/MA-H02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-H01-R2-P02/part.json",
+        "Parts/MA-H02-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-H03",
+      "catalog_id": "radiator-3x5",
+      "priority": "P0",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Закрыто ↔ открыто: шарниры лопастей/секций и плавные переходы. Независимый heat: тёмный → красный → оранжевый → светлый жар на излучающих поверхностях, с остыванием после отключения. Нужны подвижные варианты деталей и отдельные тепловые материалы.",
+      "evidence": "Blocks/MA-H03/assembly.json",
+      "part_metadata": [
+        "Parts/MA-H01-R2-P02/part.json",
+        "Parts/MA-H03-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-HS01",
+      "catalog_id": "heat-store-1x1",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Независимая тепловая заполненность и остаточный жар: эмиссия выделенных тепловых окон/полос, без раскрытия радиаторных панелей. Горячий выключенный накопитель остаётся визуально горячим.",
+      "evidence": "Blocks/MA-HS01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-HS01-R2-P01/part.json",
+        "Parts/MA-HS01-R2-P02/part.json",
+        "Parts/MA-HS01-R2-P03/part.json"
+      ]
+    },
+    {
+      "id": "MA-HS02",
+      "catalog_id": "heat-store-2x2",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Независимая тепловая заполненность и остаточный жар: эмиссия выделенных тепловых окон/полос, без раскрытия радиаторных панелей. Горячий выключенный накопитель остаётся визуально горячим.",
+      "evidence": "Blocks/MA-HS02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-HS01-R2-P02/part.json",
+        "Parts/MA-HS02-P01/part.json",
+        "Parts/MA-HS02-P02/part.json"
+      ]
+    },
+    {
+      "id": "MA-HS03",
+      "catalog_id": "heat-store-3x3",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Независимая тепловая заполненность и остаточный жар: эмиссия выделенных тепловых окон/полос, без раскрытия радиаторных панелей. Горячий выключенный накопитель остаётся визуально горячим.",
+      "evidence": "Blocks/MA-HS03/assembly.json",
+      "part_metadata": [
+        "Parts/MA-HS01-R2-P02/part.json",
+        "Parts/MA-HS03-P01/part.json",
+        "Parts/MA-HS03-P02/part.json"
+      ]
+    },
+    {
+      "id": "MA-HS04",
+      "catalog_id": "heat-store-4x4",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Независимая тепловая заполненность и остаточный жар: эмиссия выделенных тепловых окон/полос, без раскрытия радиаторных панелей. Горячий выключенный накопитель остаётся визуально горячим.",
+      "evidence": "Blocks/MA-HS04/assembly.json",
+      "part_metadata": [
+        "Parts/MA-HS01-R2-P02/part.json",
+        "Parts/MA-HS04-P01/part.json",
+        "Parts/MA-HS04-P02/part.json"
+      ]
+    },
+    {
+      "id": "MA-I01",
+      "catalog_id": "cargo-2x1",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-I01-R2-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Разделить индикацию заполнения груза и работы верфи. Открытие сервисного люка — только при требовании доступа; не превращать его в непрерывную рабочую анимацию.",
+      "evidence": "Blocks/MA-I01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-I01-R2-P01/part.json",
+        "Parts/MA-I01-R2-P02/part.json",
+        "Parts/MA-I01-R2-P03/part.json"
+      ]
+    },
+    {
+      "id": "MA-I02",
+      "catalog_id": "cargo-2x2",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-I01-R2-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "При наличии сигнала — заполненность и приём/выдача на служебном индикаторе. Корпус статичен, открытие люков опционально и требует назначения; постоянная механика не нужна.",
+      "evidence": "Blocks/MA-I02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-I01-R2-P02/part.json",
+        "Parts/MA-I01-R2-P03/part.json",
+        "Parts/MA-I02-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-I03",
+      "catalog_id": "cargo-3x3",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-I01-R2-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "При наличии сигнала — заполненность и приём/выдача на служебном индикаторе. Корпус статичен, открытие люков опционально и требует назначения; постоянная механика не нужна.",
+      "evidence": "Blocks/MA-I03/assembly.json",
+      "part_metadata": [
+        "Parts/MA-I01-R2-P02/part.json",
+        "Parts/MA-I01-R2-P03/part.json",
+        "Parts/MA-I03-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-I04",
+      "catalog_id": "cargo-4x4",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-I01-R2-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "При наличии сигнала — заполненность и приём/выдача на служебном индикаторе. Корпус статичен, открытие люков опционально и требует назначения; постоянная механика не нужна.",
+      "evidence": "Blocks/MA-I04/assembly.json",
+      "part_metadata": [
+        "Parts/MA-I01-R2-P02/part.json",
+        "Parts/MA-I01-R2-P03/part.json",
+        "Parts/MA-I04-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-I05",
+      "catalog_id": "cargo-5x5",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-I01-R2-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "При наличии сигнала — заполненность и приём/выдача на служебном индикаторе. Корпус статичен, открытие люков опционально и требует назначения; постоянная механика не нужна.",
+      "evidence": "Blocks/MA-I05/assembly.json",
+      "part_metadata": [
+        "Parts/MA-I01-R2-P02/part.json",
+        "Parts/MA-I01-R2-P03/part.json",
+        "Parts/MA-I05-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-L01",
+      "catalog_id": "corridor-1x1",
+      "priority": "P3",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Статика уместна: рабочая механика не требуется. Не добавлять декоративное движение или эмиссию броне. Повреждения — отдельный общий слой, не цикл работы.",
+      "evidence": "Blocks/MA-L01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-L01-P01/part.json",
+        "Parts/MA-L01-P02/part.json",
+        "Parts/MA-L01-P03/part.json"
+      ]
+    },
+    {
+      "id": "MA-M01",
+      "catalog_id": "mining-laser-small",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-M01-P01",
+        "MA-M01-P02",
+        "MA-R01-P05"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Ожидание / работа / остановка: управляемая эмиссия оптики и отдельных рабочих секций, точки подключения луча. Не добавлять отдачу и вращение неподвижному лазеру; сам луч — внешний эффект, не готовая часть модели.",
+      "evidence": "Blocks/MA-M01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-M01-P01/part.json",
+        "Parts/MA-M01-P02/part.json",
+        "Parts/MA-M01-P03/part.json",
+        "Parts/MA-R01-P05/part.json"
+      ]
+    },
+    {
+      "id": "MA-M02",
+      "catalog_id": "mining-laser-industrial",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-M02-P02",
+        "MA-M02-P03",
+        "MA-M02-P04",
+        "MA-R01-P05"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Ожидание / работа / остановка: управляемая эмиссия оптики и отдельных рабочих секций, точки подключения луча. Не добавлять отдачу и вращение неподвижному лазеру; сам луч — внешний эффект, не готовая часть модели.",
+      "evidence": "Blocks/MA-M02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-M02-P01/part.json",
+        "Parts/MA-M02-P02/part.json",
+        "Parts/MA-M02-P03/part.json",
+        "Parts/MA-M02-P04/part.json",
+        "Parts/MA-R01-P05/part.json"
+      ]
+    },
+    {
+      "id": "MA-N01",
+      "catalog_id": "antenna-1x1",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-N01-P02",
+        "MA-R01-P05"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Off / ready / transmitting / receiving — управляемые оптические индексы. Поворот, сканирование и выдвижение не добавлять без механизма и подтверждённого назначения.",
+      "evidence": "Blocks/MA-N01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-N01-P01/part.json",
+        "Parts/MA-N01-P02/part.json",
+        "Parts/MA-N01-P03/part.json",
+        "Parts/MA-R01-P05/part.json"
+      ]
+    },
+    {
+      "id": "MA-R01",
+      "catalog_id": "reactor-4x4-aaaa",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-R01-P02",
+        "MA-R01-P03",
+        "MA-R01-P05"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Off / starting / running / stopping: мощность на диагностике, heat на тепловых областях. Не вращать корпус реактора. Отдельные материалы/параметры вместо постоянного свечения.",
+      "evidence": "Blocks/MA-R01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-R01-P01/part.json",
+        "Parts/MA-R01-P02/part.json",
+        "Parts/MA-R01-P03/part.json",
+        "Parts/MA-R01-P04/part.json",
+        "Parts/MA-R01-P05/part.json"
+      ]
+    },
+    {
+      "id": "MA-S01",
+      "catalog_id": "auction-base",
+      "priority": "P2",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-S01-R3-P02",
+        "MA-S01-R3-P03"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Питание и доступность торгового сервиса на локальных панелях; подтверждение операции — лишь при наличии события. Механический цикл торговли не нужен.",
+      "evidence": "Blocks/MA-S01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-S01-R3-P01/part.json",
+        "Parts/MA-S01-R3-P02/part.json",
+        "Parts/MA-S01-R3-P03/part.json",
+        "Parts/MA-S01-R3-P04/part.json"
+      ]
+    },
+    {
+      "id": "MA-SP01",
+      "catalog_id": "solar-1x2",
+      "priority": "P3",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Статичная панель допустима. Предложение: локальный индикатор генерации; сами фотоэлементы не светятся как радиатор. Раскрытие/слежение за солнцем не требуется без отдельного задания.",
+      "evidence": "Blocks/MA-SP01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-SP01-R2-P01/part.json",
+        "Parts/MA-SP01-R2-P02/part.json"
+      ]
+    },
+    {
+      "id": "MA-SP02",
+      "catalog_id": "solar-2x3",
+      "priority": "P3",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Статичная панель допустима. Предложение: локальный индикатор генерации; сами фотоэлементы не светятся как радиатор. Раскрытие/слежение за солнцем не требуется без отдельного задания.",
+      "evidence": "Blocks/MA-SP02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-SP01-R2-P01/part.json",
+        "Parts/MA-SP02-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-SP03",
+      "catalog_id": "solar-3x5",
+      "priority": "P3",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Статичная панель допустима. Предложение: локальный индикатор генерации; сами фотоэлементы не светятся как радиатор. Раскрытие/слежение за солнцем не требуется без отдельного задания.",
+      "evidence": "Blocks/MA-SP03/assembly.json",
+      "part_metadata": [
+        "Parts/MA-SP01-R2-P01/part.json",
+        "Parts/MA-SP03-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-SP04",
+      "catalog_id": "solar-4x6",
+      "priority": "P3",
+      "animation_channels": [],
+      "emissive_parts": [],
+      "existing_state_fields": [],
+      "proposal": "Статичная панель допустима. Предложение: локальный индикатор генерации; сами фотоэлементы не светятся как радиатор. Раскрытие/слежение за солнцем не требуется без отдельного задания.",
+      "evidence": "Blocks/MA-SP04/assembly.json",
+      "part_metadata": [
+        "Parts/MA-SP01-R2-P01/part.json",
+        "Parts/MA-SP04-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-T01",
+      "catalog_id": "fleet-artillery-corvette",
+      "priority": "P1",
+      "animation_channels": [
+        {
+          "node": "Azimuth",
+          "axis": "Z",
+          "degrees": [
+            0,
+            360
+          ]
+        },
+        {
+          "node": "Elevation",
+          "axis": "-X",
+          "degrees": [
+            -8,
+            25
+          ]
+        },
+        {
+          "nodes": [
+            "Barrel.L",
+            "Barrel.R"
+          ],
+          "axis": "+Y",
+          "recoil_BU": 0.17
+        }
+      ],
+      "emissive_parts": [
+        "MA-P01",
+        "MA-P02",
+        "MA-P03",
+        "MA-P04",
+        "MA-P05",
+        "MA-P06",
+        "MA-P07"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Имеющееся наведение и отдачу сохранить, разделить на независимые управляющие каналы/клипы: idle / fire / recovery. Добавить событие выстрела и рабочую эмиссию только в подходящих областях. Не считать общий демонстрационный таймлайн готовой игровой машиной состояний.",
+      "evidence": "Blocks/MA-T01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-P01/part.json",
+        "Parts/MA-P02/part.json",
+        "Parts/MA-P03/part.json",
+        "Parts/MA-P04/part.json",
+        "Parts/MA-P05/part.json",
+        "Parts/MA-P06/part.json",
+        "Parts/MA-P07/part.json",
+        "Parts/MA-P08/part.json"
+      ]
+    },
+    {
+      "id": "MA-W01",
+      "catalog_id": "fleet-artillery-battleship",
+      "priority": "P1",
+      "animation_channels": [
+        {
+          "node": "Recoil0",
+          "channel": "location",
+          "axis": "Y",
+          "units": "BU",
+          "keys": [
+            [
+              1,
+              -0.6
+            ],
+            [
+              21,
+              -0.6
+            ],
+            [
+              24,
+              -0.31
+            ],
+            [
+              39,
+              -0.6
+            ],
+            [
+              120,
+              -0.6
+            ]
+          ]
+        },
+        {
+          "node": "Recoil1",
+          "channel": "location",
+          "axis": "Y",
+          "units": "BU",
+          "keys": [
+            [
+              1,
+              -0.6
+            ],
+            [
+              29,
+              -0.6
+            ],
+            [
+              32,
+              -0.31
+            ],
+            [
+              47,
+              -0.6
+            ],
+            [
+              120,
+              -0.6
+            ]
+          ]
+        },
+        {
+          "node": "Recoil2",
+          "channel": "location",
+          "axis": "Y",
+          "units": "BU",
+          "keys": [
+            [
+              1,
+              -0.6
+            ],
+            [
+              37,
+              -0.6
+            ],
+            [
+              40,
+              -0.31
+            ],
+            [
+              55,
+              -0.6
+            ],
+            [
+              120,
+              -0.6
+            ]
+          ]
+        },
+        {
+          "node": "Azimuth",
+          "channel": "rotation_euler",
+          "axis": "Z",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              60,
+              100
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        },
+        {
+          "node": "Elevation",
+          "channel": "rotation_euler",
+          "axis": "X",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              -7
+            ],
+            [
+              35,
+              -25
+            ],
+            [
+              80,
+              5
+            ],
+            [
+              120,
+              -7
+            ]
+          ]
+        }
+      ],
+      "emissive_parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W01-P01",
+        "MA-W01-P02",
+        "MA-W01-P03",
+        "MA-W01-P04",
+        "MA-W01-P05"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Имеющееся наведение и отдачу сохранить, разделить на независимые управляющие каналы/клипы: idle / fire / recovery. Добавить событие выстрела и рабочую эмиссию только в подходящих областях. Не считать общий демонстрационный таймлайн готовой игровой машиной состояний.",
+      "evidence": "Blocks/MA-W01/assembly.json",
+      "part_metadata": [
+        "Parts/MA-P06/part.json",
+        "Parts/MA-P07/part.json",
+        "Parts/MA-W01-P01/part.json",
+        "Parts/MA-W01-P02/part.json",
+        "Parts/MA-W01-P03/part.json",
+        "Parts/MA-W01-P04/part.json",
+        "Parts/MA-W01-P05/part.json"
+      ]
+    },
+    {
+      "id": "MA-W02",
+      "catalog_id": "continuous-laser-turret",
+      "priority": "P1",
+      "animation_channels": [
+        {
+          "node": "Azimuth",
+          "channel": "rotation_euler",
+          "axis": "Z",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              60,
+              110
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        },
+        {
+          "node": "Elevation",
+          "channel": "rotation_euler",
+          "axis": "X",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              -9
+            ],
+            [
+              35,
+              -27
+            ],
+            [
+              80,
+              8
+            ],
+            [
+              120,
+              -9
+            ]
+          ]
+        }
+      ],
+      "emissive_parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W02-P01",
+        "MA-W02-P02",
+        "MA-W02-P03",
+        "MA-W02-P04",
+        "MA-W02-P05"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Сохранить наведение. W02: начало/удержание/конец непрерывной работы; W10: отдельный импульс выстрела и восстановление. Управляемая эмиссия оптики, heat отдельно; механическая отдача лазеру не обязательна.",
+      "evidence": "Blocks/MA-W02/assembly.json",
+      "part_metadata": [
+        "Parts/MA-P06/part.json",
+        "Parts/MA-P07/part.json",
+        "Parts/MA-W02-P01/part.json",
+        "Parts/MA-W02-P02/part.json",
+        "Parts/MA-W02-P03/part.json",
+        "Parts/MA-W02-P04/part.json",
+        "Parts/MA-W02-P05/part.json"
+      ]
+    },
+    {
+      "id": "MA-W03",
+      "catalog_id": "fleet-minigun-cyclone",
+      "priority": "P1",
+      "animation_channels": [
+        {
+          "node": "RotorLeft",
+          "channel": "rotation_euler",
+          "axis": "Y",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              30,
+              270
+            ],
+            [
+              60,
+              540
+            ],
+            [
+              90,
+              810
+            ],
+            [
+              120,
+              1080
+            ]
+          ]
+        },
+        {
+          "node": "RotorRight",
+          "channel": "rotation_euler",
+          "axis": "Y",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              30,
+              270
+            ],
+            [
+              60,
+              540
+            ],
+            [
+              90,
+              810
+            ],
+            [
+              120,
+              1080
+            ]
+          ]
+        },
+        {
+          "node": "Azimuth",
+          "channel": "rotation_euler",
+          "axis": "Z",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              30,
+              -35
+            ],
+            [
+              60,
+              0
+            ],
+            [
+              90,
+              35
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        },
+        {
+          "node": "Elevation",
+          "channel": "rotation_euler",
+          "axis": "X",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              30,
+              -28
+            ],
+            [
+              60,
+              -12
+            ],
+            [
+              90,
+              -40
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        }
+      ],
+      "emissive_parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W03-P01",
+        "MA-W03-P02",
+        "MA-W03-P03",
+        "MA-W03-P04"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Сохранить наведение и вращение двух роторов; отдельно spin-up / spin / spin-down и fire. Нужны независимость наведения от вращения, непрерывная фаза и управление нагревом, без обязательной отдачи всего блока.",
+      "evidence": "Blocks/MA-W03/assembly.json",
+      "part_metadata": [
+        "Parts/MA-P06/part.json",
+        "Parts/MA-P07/part.json",
+        "Parts/MA-W03-P01/part.json",
+        "Parts/MA-W03-P02/part.json",
+        "Parts/MA-W03-P03/part.json",
+        "Parts/MA-W03-P04/part.json"
+      ]
+    },
+    {
+      "id": "MA-W04",
+      "catalog_id": "fleet-rocket-bastion",
+      "priority": "P1",
+      "animation_channels": [
+        {
+          "node": "Azimuth",
+          "channel": "rotation_euler",
+          "axis": "Z",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              30,
+              -35
+            ],
+            [
+              60,
+              0
+            ],
+            [
+              90,
+              35
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        },
+        {
+          "node": "Elevation",
+          "channel": "rotation_euler",
+          "axis": "X",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              -8
+            ],
+            [
+              30,
+              -35
+            ],
+            [
+              60,
+              -16
+            ],
+            [
+              90,
+              -48
+            ],
+            [
+              120,
+              -8
+            ]
+          ]
+        }
+      ],
+      "emissive_parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W04-P01",
+        "MA-W04-P02",
+        "MA-W04-P03",
+        "MA-W04-P04"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Сохранить существующее наведение, не добавлять отсутствующую в каталоге ось. Нужны ready / launch / recovery и состояние активного канала. Движение кассет/затворов только при конструктивной необходимости; не придумывать анимированную перезарядку как игровое правило.",
+      "evidence": "Blocks/MA-W04/assembly.json",
+      "part_metadata": [
+        "Parts/MA-P06/part.json",
+        "Parts/MA-P07/part.json",
+        "Parts/MA-W04-P01/part.json",
+        "Parts/MA-W04-P02/part.json",
+        "Parts/MA-W04-P03/part.json",
+        "Parts/MA-W04-P04/part.json"
+      ]
+    },
+    {
+      "id": "MA-W05",
+      "catalog_id": "fleet-shotgun-fan",
+      "priority": "P1",
+      "animation_channels": [
+        {
+          "node": "Yaw",
+          "channel": "rotation_euler",
+          "axis": "Z",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              30,
+              90
+            ],
+            [
+              60,
+              180
+            ],
+            [
+              90,
+              270
+            ],
+            [
+              120,
+              360
+            ]
+          ]
+        },
+        {
+          "node": "Elevation",
+          "channel": "rotation_euler",
+          "axis": "X",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              30,
+              -12
+            ],
+            [
+              60,
+              4
+            ],
+            [
+              90,
+              -12
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        },
+        {
+          "node": "Recoil",
+          "channel": "location",
+          "axis": "Y",
+          "units": "BU",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              40,
+              0
+            ],
+            [
+              43,
+              0.16
+            ],
+            [
+              53,
+              0
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        }
+      ],
+      "emissive_parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W05-P01",
+        "MA-W05-P02",
+        "MA-W05-P03",
+        "MA-W05-P04"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Имеющееся наведение и отдачу сохранить, разделить на независимые управляющие каналы/клипы: idle / fire / recovery. Добавить событие выстрела и рабочую эмиссию только в подходящих областях. Не считать общий демонстрационный таймлайн готовой игровой машиной состояний.",
+      "evidence": "Blocks/MA-W05/assembly.json",
+      "part_metadata": [
+        "Parts/MA-P06/part.json",
+        "Parts/MA-P07/part.json",
+        "Parts/MA-W05-P01/part.json",
+        "Parts/MA-W05-P02/part.json",
+        "Parts/MA-W05-P03/part.json",
+        "Parts/MA-W05-P04/part.json"
+      ]
+    },
+    {
+      "id": "MA-W06",
+      "catalog_id": "sniper-turret",
+      "priority": "P1",
+      "animation_channels": [
+        {
+          "node": "Yaw",
+          "channel": "rotation_euler",
+          "axis": "Z",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              30,
+              -45
+            ],
+            [
+              60,
+              0
+            ],
+            [
+              90,
+              45
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        },
+        {
+          "node": "Elevation",
+          "channel": "rotation_euler",
+          "axis": "X",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              30,
+              -12
+            ],
+            [
+              60,
+              4
+            ],
+            [
+              90,
+              -12
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        },
+        {
+          "node": "Recoil",
+          "channel": "location",
+          "axis": "Y",
+          "units": "BU",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              40,
+              0
+            ],
+            [
+              43,
+              0.22
+            ],
+            [
+              53,
+              0
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        }
+      ],
+      "emissive_parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W06-P01",
+        "MA-W06-P02",
+        "MA-W06-P03",
+        "MA-W06-P04"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Имеющееся наведение и отдачу сохранить, разделить на независимые управляющие каналы/клипы: idle / fire / recovery. Добавить событие выстрела и рабочую эмиссию только в подходящих областях. Не считать общий демонстрационный таймлайн готовой игровой машиной состояний.",
+      "evidence": "Blocks/MA-W06/assembly.json",
+      "part_metadata": [
+        "Parts/MA-P06/part.json",
+        "Parts/MA-P07/part.json",
+        "Parts/MA-W06-P01/part.json",
+        "Parts/MA-W06-P02/part.json",
+        "Parts/MA-W06-P03/part.json",
+        "Parts/MA-W06-P04/part.json"
+      ]
+    },
+    {
+      "id": "MA-W07",
+      "catalog_id": "point-defense-turret",
+      "priority": "P1",
+      "animation_channels": [
+        {
+          "node": "Yaw",
+          "channel": "rotation_euler",
+          "axis": "Z",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              30,
+              -60
+            ],
+            [
+              60,
+              0
+            ],
+            [
+              90,
+              60
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        },
+        {
+          "node": "Elevation",
+          "channel": "rotation_euler",
+          "axis": "X",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              30,
+              -18
+            ],
+            [
+              60,
+              8
+            ],
+            [
+              90,
+              -18
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        },
+        {
+          "node": "Recoil",
+          "channel": "location",
+          "axis": "Y",
+          "units": "BU",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              40,
+              0
+            ],
+            [
+              42,
+              0.05
+            ],
+            [
+              48,
+              0
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        }
+      ],
+      "emissive_parts": [
+        "MA-P06",
+        "MA-W07-P01",
+        "MA-W07-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Имеющееся наведение и отдачу сохранить, разделить на независимые управляющие каналы/клипы: idle / fire / recovery. Добавить событие выстрела и рабочую эмиссию только в подходящих областях. Не считать общий демонстрационный таймлайн готовой игровой машиной состояний.",
+      "evidence": "Blocks/MA-W07/assembly.json",
+      "part_metadata": [
+        "Parts/MA-P06/part.json",
+        "Parts/MA-W07-P01/part.json",
+        "Parts/MA-W07-P02/part.json",
+        "Parts/MA-W07-P03/part.json"
+      ]
+    },
+    {
+      "id": "MA-W08",
+      "catalog_id": "rocket-turret",
+      "priority": "P1",
+      "animation_channels": [
+        {
+          "node": "Yaw",
+          "channel": "rotation_euler",
+          "axis": "Z",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              31,
+              90
+            ],
+            [
+              61,
+              180
+            ],
+            [
+              91,
+              270
+            ],
+            [
+              121,
+              360
+            ]
+          ]
+        }
+      ],
+      "emissive_parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W08-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Сохранить существующее наведение, не добавлять отсутствующую в каталоге ось. Нужны ready / launch / recovery и состояние активного канала. Движение кассет/затворов только при конструктивной необходимости; не придумывать анимированную перезарядку как игровое правило.",
+      "evidence": "Blocks/MA-W08/assembly.json",
+      "part_metadata": [
+        "Parts/MA-P06/part.json",
+        "Parts/MA-P07/part.json",
+        "Parts/MA-W08-P01/part.json",
+        "Parts/MA-W08-P02/part.json",
+        "Parts/MA-W08-P03/part.json"
+      ]
+    },
+    {
+      "id": "MA-W09",
+      "catalog_id": "shotgun-turret",
+      "priority": "P1",
+      "animation_channels": [
+        {
+          "node": "Yaw",
+          "channel": "rotation_euler",
+          "axis": "Z",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              30,
+              -70
+            ],
+            [
+              60,
+              0
+            ],
+            [
+              90,
+              70
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        },
+        {
+          "node": "Elevation",
+          "channel": "rotation_euler",
+          "axis": "X",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              30,
+              -10
+            ],
+            [
+              60,
+              5
+            ],
+            [
+              90,
+              -10
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        },
+        {
+          "node": "Recoil",
+          "channel": "location",
+          "axis": "Y",
+          "units": "BU",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              40,
+              0
+            ],
+            [
+              43,
+              0.16
+            ],
+            [
+              53,
+              0
+            ],
+            [
+              120,
+              0
+            ]
+          ]
+        }
+      ],
+      "emissive_parts": [
+        "MA-P07",
+        "MA-W06-P01",
+        "MA-W09-P01",
+        "MA-W09-P02",
+        "MA-W09-P03"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Имеющееся наведение и отдачу сохранить, разделить на независимые управляющие каналы/клипы: idle / fire / recovery. Добавить событие выстрела и рабочую эмиссию только в подходящих областях. Не считать общий демонстрационный таймлайн готовой игровой машиной состояний.",
+      "evidence": "Blocks/MA-W09/assembly.json",
+      "part_metadata": [
+        "Parts/MA-P07/part.json",
+        "Parts/MA-W06-P01/part.json",
+        "Parts/MA-W09-P01/part.json",
+        "Parts/MA-W09-P02/part.json",
+        "Parts/MA-W09-P03/part.json"
+      ]
+    },
+    {
+      "id": "MA-W10",
+      "catalog_id": "laser-blaster-small-turret",
+      "priority": "P1",
+      "animation_channels": [
+        {
+          "node": "Azimuth",
+          "channel": "rotation_euler",
+          "axis": "Z",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              25,
+              90
+            ],
+            [
+              49,
+              180
+            ],
+            [
+              73,
+              270
+            ],
+            [
+              97,
+              360
+            ]
+          ]
+        },
+        {
+          "node": "Elevation",
+          "channel": "rotation_euler",
+          "axis": "X",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              25,
+              -12
+            ],
+            [
+              49,
+              5
+            ],
+            [
+              73,
+              -12
+            ],
+            [
+              97,
+              0
+            ]
+          ]
+        }
+      ],
+      "emissive_parts": [
+        "MA-P06",
+        "MA-W02-P01",
+        "MA-W02-P04",
+        "MA-W10-P02",
+        "MA-W10-P03"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Сохранить наведение. W02: начало/удержание/конец непрерывной работы; W10: отдельный импульс выстрела и восстановление. Управляемая эмиссия оптики, heat отдельно; механическая отдача лазеру не обязательна.",
+      "evidence": "Blocks/MA-W10/assembly.json",
+      "part_metadata": [
+        "Parts/MA-P06/part.json",
+        "Parts/MA-W02-P01/part.json",
+        "Parts/MA-W02-P04/part.json",
+        "Parts/MA-W10-P01/part.json",
+        "Parts/MA-W10-P02/part.json",
+        "Parts/MA-W10-P03/part.json"
+      ]
+    },
+    {
+      "id": "MA-W11",
+      "catalog_id": "rocket-launcher",
+      "priority": "P1",
+      "animation_channels": [],
+      "emissive_parts": [
+        "MA-P06",
+        "MA-W08-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Курсовая установка остаётся неподвижной. Добавить ready / launch / recovery через индикацию и точку события пуска; анимация наведения не нужна. Перезарядку не объявлять существующей механикой.",
+      "evidence": "Blocks/MA-W11/assembly.json",
+      "part_metadata": [
+        "Parts/MA-P06/part.json",
+        "Parts/MA-W08-P02/part.json",
+        "Parts/MA-W08-P03/part.json",
+        "Parts/MA-W11-P01/part.json"
+      ]
+    },
+    {
+      "id": "MA-W12",
+      "catalog_id": "seeking-rocket-turret",
+      "priority": "P1",
+      "animation_channels": [
+        {
+          "node": "Yaw",
+          "channel": "rotation_euler",
+          "axis": "Z",
+          "units": "degrees",
+          "keys": [
+            [
+              1,
+              0
+            ],
+            [
+              31,
+              90
+            ],
+            [
+              61,
+              180
+            ],
+            [
+              91,
+              270
+            ],
+            [
+              121,
+              360
+            ]
+          ]
+        }
+      ],
+      "emissive_parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W12-P02"
+      ],
+      "existing_state_fields": [],
+      "proposal": "Сохранить существующее наведение, не добавлять отсутствующую в каталоге ось. Нужны ready / launch / recovery и состояние активного канала. Движение кассет/затворов только при конструктивной необходимости; не придумывать анимированную перезарядку как игровое правило.",
+      "evidence": "Blocks/MA-W12/assembly.json",
+      "part_metadata": [
+        "Parts/MA-P06/part.json",
+        "Parts/MA-P07/part.json",
+        "Parts/MA-W08-P01/part.json",
+        "Parts/MA-W08-P03/part.json",
+        "Parts/MA-W12-P01/part.json",
+        "Parts/MA-W12-P02/part.json"
+      ]
+    }
+  ]
+}

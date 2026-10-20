@@ -1,0 +1,127 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-fan-slide",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-fan-slide.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "sockets": [
+    {
+      "id": "receiver",
+      "position": [
+        0,
+        0,
+        0.19
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "mount",
+      "space": "local"
+    }
+  ],
+  "functional_points": [],
+  "mount_regions": [],
+  "animations": [],
+  "animation_tracks": [],
+  "materials": [
+    "CM.graphite",
+    "CM.rubber",
+    "CM.steel"
+  ],
+  "images": {
+    "graphite_basecolor": [
+      768,
+      768
+    ],
+    "graphite_roughness": [
+      768,
+      768
+    ],
+    "graphite_metallic": [
+      768,
+      768
+    ],
+    "graphite_normal": [
+      768,
+      768
+    ],
+    "steel_basecolor": [
+      768,
+      768
+    ],
+    "steel_roughness": [
+      768,
+      768
+    ],
+    "steel_metallic": [
+      768,
+      768
+    ],
+    "steel_normal": [
+      768,
+      768
+    ],
+    "rubber_basecolor": [
+      768,
+      768
+    ],
+    "rubber_roughness": [
+      768,
+      768
+    ],
+    "rubber_metallic": [
+      768,
+      768
+    ],
+    "rubber_normal": [
+      768,
+      768
+    ]
+  },
+  "material_library": "../../Materials/CM-T01/materials.json",
+  "scale_policy": "positive uniform instance scaling",
+  "bounds": {
+    "min": [
+      -0.6549999713897705,
+      -0.7600000500679016,
+      -0.17499999701976776
+    ],
+    "max": [
+      0.6549999713897705,
+      0.6650000214576721,
+      0.17000000178813934
+    ],
+    "dimensions": [
+      1.309999942779541,
+      1.4250000715255737,
+      0.3449999988079071
+    ]
+  },
+  "emissive_regions": [],
+  "logical_only": "sockets and regions are invisible metadata, not physical fastening geometry"
+}

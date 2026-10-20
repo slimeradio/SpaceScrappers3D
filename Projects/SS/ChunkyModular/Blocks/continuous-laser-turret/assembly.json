@@ -1,0 +1,414 @@
+{
+  "schema": "SS3D.authoring.block/1",
+  "id": "continuous-laser-turret",
+  "catalog_id": "continuous-laser-turret",
+  "title": "Турель непрерывного лазера",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "units": "design_unit",
+  "up": "+Z",
+  "forward": "-Y",
+  "handedness": "right",
+  "catalog_grid_cells": [
+    1,
+    3
+  ],
+  "cell_scale": "not defined; grid footprint is reference metadata, not meters",
+  "instances": [
+    {
+      "id": "bed",
+      "part": "cm-beam-bed",
+      "version": "1.0.0",
+      "parent": "continuous-laser-turret",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "bearing",
+      "part": "cm-bearing",
+      "version": "2.0.0",
+      "parent": "continuous-laser-turret",
+      "translation": [
+        0,
+        0,
+        0.45
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.62,
+        0.62,
+        0.62
+      ]
+    },
+    {
+      "id": "resonator",
+      "part": "cm-beam-chamber",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "optical_emitter",
+      "part": "cm-beam-emitter",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        0,
+        -0.72,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "cooler_right",
+      "part": "cm-beam-cooler",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        1.01,
+        0.2,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "cooler_left",
+      "part": "cm-beam-cooler",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        -1.01,
+        0.2,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "power_supply",
+      "part": "cm-beam-power",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        0,
+        1.6,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "status",
+      "part": "cm-lamp",
+      "version": "2.0.0",
+      "parent": "pitch",
+      "translation": [
+        0,
+        2.08,
+        0.25
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "continuous_beam_exit",
+      "position": [
+        0,
+        -1.87,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "pitch",
+      "role": "projectile_origin",
+      "space": "local",
+      "barrel_ref": "continuous-emitter"
+    }
+  ],
+  "animation_tracks": [
+    {
+      "node": "yaw",
+      "path": "rotation_euler",
+      "component": 2,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          35,
+          -1.5707963267948966
+        ],
+        [
+          70,
+          1.5707963267948966
+        ],
+        [
+          105,
+          0
+        ]
+      ]
+    },
+    {
+      "node": "pitch",
+      "path": "rotation_euler",
+      "component": 0,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          35,
+          0.15707963267948966
+        ],
+        [
+          70,
+          -0.24434609527920614
+        ],
+        [
+          105,
+          0
+        ]
+      ]
+    }
+  ],
+  "rest_bounds": {
+    "min": [
+      -1.5199999809265137,
+      -2.174999952316284,
+      0.0
+    ],
+    "max": [
+      1.5199999809265137,
+      2.174999952316284,
+      2.2100000381469727
+    ],
+    "dimensions": [
+      3.0399999618530273,
+      4.349999904632568,
+      2.2100000381469727
+    ]
+  },
+  "materials": [
+    "CM.amber.001",
+    "CM.cyan.001",
+    "CM.graphite.001",
+    "CM.orange.001",
+    "CM.rubber.001",
+    "CM.steel.001"
+  ],
+  "sampled_poses": [
+    {
+      "frame": 1,
+      "muzzles": [
+        {
+          "id": "continuous_beam_exit",
+          "position": [
+            0.0,
+            -1.8700000047683716,
+            1.4700000286102295
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "muzzles": [
+        {
+          "id": "continuous_beam_exit",
+          "position": [
+            -1.125517725944519,
+            -1.4884462356567383,
+            1.3490136861801147
+          ],
+          "direction": [
+            -0.6018811464309692,
+            -0.795960545539856,
+            -0.06469856202602386
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "muzzles": [
+        {
+          "id": "continuous_beam_exit",
+          "position": [
+            -1.8453636169433594,
+            -0.11105448752641678,
+            1.1885745525360107
+          ],
+          "direction": [
+            -0.9868254661560059,
+            -0.05938750505447388,
+            -0.15049490332603455
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 46,
+      "muzzles": [
+        {
+          "id": "continuous_beam_exit",
+          "position": [
+            -1.3833606243133545,
+            -1.2527291774749756,
+            1.3521745204925537
+          ],
+          "direction": [
+            -0.7397650480270386,
+            -0.6699086427688599,
+            -0.06300829350948334
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 61,
+      "muzzles": [
+        {
+          "id": "continuous_beam_exit",
+          "position": [
+            1.6003960371017456,
+            -0.9086002707481384,
+            1.8017807006835938
+          ],
+          "direction": [
+            0.8558266758918762,
+            -0.4858824908733368,
+            0.17742285132408142
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 91,
+      "muzzles": [
+        {
+          "id": "continuous_beam_exit",
+          "position": [
+            0.9784464836120605,
+            -1.5854769945144653,
+            1.6306402683258057
+          ],
+          "direction": [
+            0.5232333540916443,
+            -0.847848653793335,
+            0.0859038457274437
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 120,
+      "muzzles": [
+        {
+          "id": "continuous_beam_exit",
+          "position": [
+            0.0,
+            -1.8700000047683716,
+            1.4700000286102295
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "game_import": "not performed; local authoring metadata only"
+}

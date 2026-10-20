@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="fuel-tank-2x2" Category="Топливо" Type="FuelTank" MaxHealth="2000" BlockMass="4">
+    <!-- Initial balance scaled by footprint from the current functional analogues. -->
+    <Size X="2" Y="2"/>
+    <Colliders><ConvexCollider Data="0 0 2 0 2 2 0 2"/></Colliders>
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="12"/>
+        <DesignCost><Item Ref="11" Amount="120"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="12"/></BuildCost>
+    </Construction>
+    <Resources><Resource Id="2" StoreInStorage="true" Capacity="6000" TargetStorage="6000" InitialStorage="6000" MaxInput="250.0" MaxOutput="3375.0" StorageProducer="true" Mode="Automatic" Priority="10" ProductionPriority="20"/></Resources>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="fuel-tank-2x2"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

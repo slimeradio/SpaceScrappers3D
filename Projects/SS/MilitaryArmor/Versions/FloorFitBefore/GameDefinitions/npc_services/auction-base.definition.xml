@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="auction-base" Category="Инфраструктура" Type="Auction" MaxHealth="1000" BlockMass="1">
+  <Construction BaseCreationSeconds="1">
+    <Point Id="complexity" Sum="1"/>
+    <DesignCost><Item Ref="11" Amount="10"/></DesignCost>
+    <BuildCost><Item Ref="11" Amount="1"/></BuildCost>
+  </Construction>
+  <Size X="1" Y="1"/>
+  <Colliders><ConvexCollider Data="0 0 1 0 1 1 0 1"/></Colliders>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="auction-base"/>
+</Block>

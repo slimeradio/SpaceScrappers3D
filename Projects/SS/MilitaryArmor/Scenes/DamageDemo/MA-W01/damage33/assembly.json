@@ -1,0 +1,208 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W01",
+  "damage_state": "damage33",
+  "instances": [
+    {
+      "id": "Foundation",
+      "part_id": "MA-W01-P01-damage33",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-W01-P01-damage33/MA-W01-P01-damage33.blend",
+      "parent": "MA-W01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "AzimuthDrive",
+      "part_id": "MA-W01-P02-damage33",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-W01-P02-damage33/MA-W01-P02-damage33.blend",
+      "parent": "Azimuth",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Capsule",
+      "part_id": "MA-W01-P03-damage33",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-W01-P03-damage33/MA-W01-P03-damage33.blend",
+      "parent": "Azimuth",
+      "translation": [
+        0,
+        0,
+        0.48
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "TripleCradle",
+      "part_id": "MA-W01-P04-damage33",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-W01-P04-damage33/MA-W01-P04-damage33.blend",
+      "parent": "Elevation",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Accelerator0",
+      "part_id": "MA-W01-P05-damage33",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-W01-P05-damage33/MA-W01-P05-damage33.blend",
+      "parent": "Recoil0",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Accelerator1",
+      "part_id": "MA-W01-P05-damage33",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-W01-P05-damage33/MA-W01-P05-damage33.blend",
+      "parent": "Recoil1",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Accelerator2",
+      "part_id": "MA-W01-P05-damage33",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-W01-P05-damage33/MA-W01-P05-damage33.blend",
+      "parent": "Recoil2",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "part_id": "MA-P06-damage33",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-P06-damage33/MA-P06-damage33.blend",
+      "parent": "Capsule",
+      "translation": [
+        0,
+        1.05,
+        1.37
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LidarBlade",
+      "part_id": "MA-P07-damage33",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-P07-damage33/MA-P07-damage33.blend",
+      "parent": "Capsule",
+      "translation": [
+        0,
+        0.05,
+        1.56
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "source_assembly": "Blocks\\MA-W01\\assembly.json",
+  "animations": "rest pose demo only; original rig retained",
+  "game_validated": false
+}

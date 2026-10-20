@@ -1,0 +1,195 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W03-P01",
+  "version": "1.0",
+  "name": "Cyclone / swept three-lobe hardpoint",
+  "source": "MA-W03-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -1.4090107679367065,
+      -1.4900000095367432,
+      0.0
+    ],
+    "max": [
+      1.4090107679367065,
+      1.1799999475479126,
+      0.6399999856948853
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Low direct-drive housing",
+        "Swept radial load foot",
+        "Swept radial load foot.001",
+        "Swept radial load foot.002"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Ceramic tip shield",
+        "Ceramic tip shield.001",
+        "Ceramic tip shield.002"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Recessed installation flange"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Signal",
+      "surfaces": [
+        "Dock state index",
+        "Dock state index.001",
+        "Dock state index.002"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705,
+        1.0
+      ],
+      "metalness": 0.3499999940395355,
+      "roughness": 0.25,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Azimuth seat",
+        "Motor collar shield",
+        "Motor collar shield.001",
+        "Motor collar shield.002",
+        "Motor collar shield.003",
+        "Motor collar shield.004",
+        "Motor collar shield.005",
+        "Motor collar shield.006",
+        "Motor collar shield.007",
+        "Motor collar shield.008",
+        "Motor collar shield.009",
+        "Motor collar shield.010",
+        "Motor collar shield.011"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Signal",
+      "regions": [
+        "Dock state index",
+        "Dock state index.001",
+        "Dock state index.002"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "mount.root",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "role": "structural",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "mount.azimuth",
+      "position": [
+        0,
+        0,
+        0.65
+      ],
+      "role": "azimuth",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": "Three-load-path swept foundation; BU, no catalogue-cell conversion."
+}

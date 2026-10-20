@@ -1,0 +1,1804 @@
+{
+  "schema": "MilitaryArmor.StateAuthoring/1",
+  "id": "MA-EI04",
+  "game_validated": false,
+  "authoring_units": "BU; normalized controls; not game timings",
+  "controls": {
+    "power": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "Electrical availability; independent from retained heat/fill"
+    },
+    "activity": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Actual work/load; zero means idle"
+    },
+    "fault": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Externally supplied fault, not inferred"
+    },
+    "heat": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Retained normalized heat; independent from power"
+    }
+  },
+  "motion": [],
+  "materials": [
+    {
+      "object": "OpenPowerTract::Recessed transformer cooling notch",
+      "slot": 0,
+      "material": "MA-EI04::OpenPowerTract::Recessed transformer cooling notch::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "OpenPowerTract::Recessed transformer cooling notch.001",
+      "slot": 0,
+      "material": "MA-EI04::OpenPowerTract::Recessed transformer cooling notch.001::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "OpenPowerTract::Recessed transformer cooling notch.002",
+      "slot": 0,
+      "material": "MA-EI04::OpenPowerTract::Recessed transformer cooling notch.002::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "OpenPowerTract::Recessed transformer cooling notch.003",
+      "slot": 0,
+      "material": "MA-EI04::OpenPowerTract::Recessed transformer cooling notch.003::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "OpenPowerTract::Recessed transformer cooling notch.004",
+      "slot": 0,
+      "material": "MA-EI04::OpenPowerTract::Recessed transformer cooling notch.004::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "OpenPowerTract::Recessed transformer cooling notch.005",
+      "slot": 0,
+      "material": "MA-EI04::OpenPowerTract::Recessed transformer cooling notch.005::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Swept side electrode cheek",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Swept side electrode cheek::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Swept side electrode cheek.001",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Swept side electrode cheek.001::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.001",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.001::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.002",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.002::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.003",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.003::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.004",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.004::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.005",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.005::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.006",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.006::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.007",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.007::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.008",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.008::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.009",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.009::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.010",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.010::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.011",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.011::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.012",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.012::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.013",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.013::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.014",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.014::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.015",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.015::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.016",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.016::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.017",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.017::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.018",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.018::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.019",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.019::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.020",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.020::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.021",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.021::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.022",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.022::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.023",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.023::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.024",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.024::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.025",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.025::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.026",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.026::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.027",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.027::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.028",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.028::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.029",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.029::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.030",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.030::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.031",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.031::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.032",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.032::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.033",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.033::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.034",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.034::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Hexagonal electrode channel.035",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Hexagonal electrode channel.035::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Field diagnostic index",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Field diagnostic index::thrust",
+      "kind": "thrust",
+      "expression": "p*(.02+7*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ElectrodeLeftLow::Field diagnostic index.001",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftLow::Field diagnostic index.001::thrust",
+      "kind": "thrust",
+      "expression": "p*(.02+7*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Swept side electrode cheek",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Swept side electrode cheek::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Swept side electrode cheek.001",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Swept side electrode cheek.001::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.001",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.001::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.002",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.002::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.003",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.003::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.004",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.004::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.005",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.005::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.006",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.006::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.007",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.007::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.008",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.008::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.009",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.009::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.010",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.010::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.011",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.011::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.012",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.012::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.013",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.013::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.014",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.014::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.015",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.015::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.016",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.016::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.017",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.017::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.018",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.018::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.019",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.019::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.020",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.020::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.021",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.021::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.022",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.022::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.023",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.023::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.024",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.024::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.025",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.025::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.026",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.026::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.027",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.027::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.028",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.028::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.029",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.029::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.030",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.030::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.031",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.031::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.032",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.032::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.033",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.033::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.034",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.034::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Hexagonal electrode channel.035",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Hexagonal electrode channel.035::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Field diagnostic index",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Field diagnostic index::thrust",
+      "kind": "thrust",
+      "expression": "p*(.02+7*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ElectrodeRightLow::Field diagnostic index.001",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightLow::Field diagnostic index.001::thrust",
+      "kind": "thrust",
+      "expression": "p*(.02+7*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Swept side electrode cheek",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Swept side electrode cheek::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Swept side electrode cheek.001",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Swept side electrode cheek.001::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.001",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.001::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.002",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.002::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.003",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.003::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.004",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.004::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.005",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.005::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.006",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.006::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.007",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.007::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.008",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.008::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.009",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.009::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.010",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.010::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.011",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.011::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.012",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.012::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.013",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.013::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.014",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.014::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.015",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.015::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.016",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.016::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.017",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.017::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.018",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.018::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.019",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.019::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.020",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.020::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.021",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.021::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.022",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.022::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.023",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.023::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.024",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.024::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.025",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.025::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.026",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.026::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.027",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.027::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.028",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.028::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.029",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.029::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.030",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.030::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.031",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.031::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.032",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.032::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.033",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.033::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.034",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.034::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Hexagonal electrode channel.035",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Hexagonal electrode channel.035::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Field diagnostic index",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Field diagnostic index::thrust",
+      "kind": "thrust",
+      "expression": "p*(.02+7*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ElectrodeLeftHigh::Field diagnostic index.001",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeLeftHigh::Field diagnostic index.001::thrust",
+      "kind": "thrust",
+      "expression": "p*(.02+7*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Swept side electrode cheek",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Swept side electrode cheek::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Swept side electrode cheek.001",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Swept side electrode cheek.001::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.001",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.001::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.002",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.002::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.003",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.003::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.004",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.004::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.005",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.005::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.006",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.006::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.007",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.007::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.008",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.008::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.009",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.009::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.010",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.010::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.011",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.011::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.012",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.012::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.013",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.013::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.014",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.014::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.015",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.015::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.016",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.016::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.017",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.017::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.018",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.018::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.019",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.019::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.020",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.020::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.021",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.021::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.022",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.022::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.023",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.023::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.024",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.024::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.025",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.025::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.026",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.026::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.027",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.027::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.028",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.028::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.029",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.029::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.030",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.030::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.031",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.031::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.032",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.032::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.033",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.033::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.034",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.034::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Hexagonal electrode channel.035",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Hexagonal electrode channel.035::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Field diagnostic index",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Field diagnostic index::thrust",
+      "kind": "thrust",
+      "expression": "p*(.02+7*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ElectrodeRightHigh::Field diagnostic index.001",
+      "slot": 0,
+      "material": "MA-EI04::ElectrodeRightHigh::Field diagnostic index.001::thrust",
+      "kind": "thrust",
+      "expression": "p*(.02+7*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ServiceCartridge::Service status inset",
+      "slot": 0,
+      "material": "MA-EI04::ServiceCartridge::Service status inset::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "name": "MA-EI04::activate",
+      "parameters": [
+        "power",
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-EI04::deactivate",
+      "parameters": [
+        "activity",
+        "power"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-EI04::heat_up",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-EI04::cool_down",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        97
+      ],
+      "loop": false,
+      "authoring_only": true
+    }
+  ],
+  "events": [],
+  "presets": {
+    "off": {
+      "power": 0,
+      "activity": 0
+    },
+    "idle": {
+      "power": 1,
+      "activity": 0
+    },
+    "working": {
+      "power": 1,
+      "activity": 1
+    },
+    "hot_off": {
+      "power": 0,
+      "activity": 0,
+      "heat": 1
+    },
+    "cold": {
+      "heat": 0
+    },
+    "hot": {
+      "heat": 1
+    }
+  },
+  "phase_policy": "cycle_turns is integrated phase, not speed. Stop retains phase. NLA cycle repetition must use cyclic extrapolation/REPEAT_OFFSET for spin; never reset turns on start. Clips start from relative phase 0; apply current phase offset when sequencing.",
+  "controller": "MA-EI04",
+  "legacy_animation_metadata": []
+}

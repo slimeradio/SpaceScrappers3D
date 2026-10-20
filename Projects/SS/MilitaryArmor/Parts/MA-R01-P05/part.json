@@ -1,0 +1,199 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-R01-P05",
+  "version": "1.0",
+  "name": "Реактор — сервисный картридж, исправленные фаски",
+  "source": "MA-R01-P05.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.3700000047683716,
+      -0.30000001192092896,
+      0.0005000000237487257
+    ],
+    "max": [
+      0.3700000047683716,
+      0.30000001192092896,
+      0.08000000566244125
+    ]
+  },
+  "materials": [
+    {
+      "id": "Ceramic.001",
+      "surfaces": [
+        "Hexagonal service cartridge.001"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark.001",
+      "surfaces": [
+        "Flush pressure seal.001"
+      ],
+      "base_color_linear": [
+        0.017999999225139618,
+        0.02500000037252903,
+        0.02800000086426735,
+        1.0
+      ],
+      "metalness": 0.6499999761581421,
+      "roughness": 0.6000000238418579,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Signal.001",
+      "surfaces": [
+        "Cartridge status.001"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705,
+        1.0
+      ],
+      "metalness": 0.3499999940395355,
+      "roughness": 0.25,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium.001",
+      "surfaces": [
+        "Inset cartridge center.001",
+        "Flush quarter turn lock.002",
+        "Flush quarter turn lock.003"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Signal.001",
+      "regions": [
+        "Cartridge status.001"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "bottom",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "role": "accessory",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.accessory",
+        "MilitaryArmor.reactor.accessory",
+        "MilitaryArmor.service-cartridge.v1",
+        "accessory"
+      ],
+      "restrictions": "full-pose alignment; unit scale only",
+      "parent": null,
+      "node": "socket.bottom",
+      "compatible_role": "accessory",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-plane",
+      "role": "accessory",
+      "shape": "logical-plane",
+      "dimensions": [
+        0.12,
+        0.12
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": null,
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.accessory",
+        "MilitaryArmor.service-cartridge.v1"
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Explicit MA-P06 v1.3 variant: identical geometry/material layout, bevel widths capped at 0.001 BU to eliminate degenerate inset and lock triangles. Original part untouched.",
+  "variant_of": {
+    "id": "MA-P06",
+    "version": "1.3"
+  }
+}

@@ -1,0 +1,585 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W10",
+  "version": "1.0+states1+floor1",
+  "title": "Малая импульсная лазерная турель",
+  "catalog_id": "laser-blaster-small-turret",
+  "catalog_grid": [
+    1,
+    3
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "Assembly: 1 BU = 1 gameplay cell; native part units transformed by ModelFit"
+  },
+  "instances": [
+    {
+      "id": "LaserFoundation",
+      "part_id": "MA-W02-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-W02-P01/MA-W02-P01.blend",
+      "parent": "MA-W10",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "part_id": "MA-P06",
+      "version": "1.3",
+      "source": "../../Parts/MA-P06/MA-P06.blend",
+      "parent": "MA-W10",
+      "translation": [
+        0,
+        1.22,
+        0.9
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "PulseFork",
+      "part_id": "MA-W10-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-W10-P01/MA-W10-P01.blend",
+      "parent": "Azimuth",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "OpticalBench",
+      "part_id": "MA-W10-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-W10-P02/MA-W10-P02.blend",
+      "parent": "Elevation",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "FocusAperture",
+      "part_id": "MA-W02-P04",
+      "version": "1.0",
+      "source": "../../Parts/MA-W02-P04/MA-W02-P04.blend",
+      "parent": "Elevation",
+      "translation": [
+        0,
+        -1.24,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "PulseFeed",
+      "part_id": "MA-W10-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-W10-P03/MA-W10-P03.blend",
+      "parent": "Azimuth",
+      "translation": [
+        1.22,
+        0.49,
+        0.59
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Floor",
+      "part_id": "MA-FLOOR-rect-1x3",
+      "version": "1.0",
+      "source": "../../Parts/MA-FLOOR-rect-1x3/MA-FLOOR-rect-1x3.blend",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MA-W10",
+      "parent": "ModelFit",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "LaserFoundation",
+      "parent": "MA-W10",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "parent": "MA-W10",
+      "translation": [
+        0.0,
+        1.2200000286102295,
+        0.8999999761581421
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Azimuth",
+      "parent": "MA-W10",
+      "translation": [
+        0.0,
+        -0.41999998688697815,
+        0.6800000071525574
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "PulseFork",
+      "parent": "Azimuth",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Elevation",
+      "parent": "Azimuth",
+      "translation": [
+        0.0,
+        -0.2800000011920929,
+        0.9200000166893005
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "OpticalBench",
+      "parent": "Elevation",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "FocusAperture",
+      "parent": "Elevation",
+      "translation": [
+        0.0,
+        -1.2400000095367432,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "PulseFeed",
+      "parent": "Azimuth",
+      "translation": [
+        1.2200000286102295,
+        0.49000000953674316,
+        0.5899999737739563
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "ModelFit",
+      "parent": null,
+      "translation": [
+        -0.05874125494619555,
+        0.0,
+        0.075
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.293706292237237,
+        0.293706292237237,
+        0.293706292237237
+      ]
+    },
+    {
+      "id": "Floor",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "LaserFoundation",
+      "parent_socket": "azimuth",
+      "child_instance": "PulseFork",
+      "child_socket": "bottom"
+    },
+    {
+      "parent_instance": "LaserFoundation",
+      "parent_socket": "service",
+      "child_instance": "ServiceCartridge",
+      "child_socket": "bottom"
+    },
+    {
+      "parent_instance": "PulseFork",
+      "parent_socket": "elevation",
+      "child_instance": "OpticalBench",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "OpticalBench",
+      "parent_socket": "focus",
+      "child_instance": "FocusAperture",
+      "child_socket": "optical-input"
+    },
+    {
+      "parent_instance": "PulseFork",
+      "parent_socket": "pulse-feed",
+      "child_instance": "PulseFeed",
+      "child_socket": "root"
+    }
+  ],
+  "animations": {
+    "controller": "MA-W10",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      },
+      "aim_yaw": {
+        "default": 0,
+        "min": 0,
+        "max": 360
+      },
+      "aim_pitch": {
+        "default": 0,
+        "min": -12,
+        "max": 5
+      }
+    },
+    "channels": [
+      {
+        "node": "Azimuth",
+        "path": "rotation_euler",
+        "axis": 2,
+        "parameter": "aim_yaw",
+        "expression": "0.0+t*0.017453292519943295"
+      },
+      {
+        "node": "Elevation",
+        "path": "rotation_euler",
+        "axis": 0,
+        "parameter": "aim_pitch",
+        "expression": "0.0+t*0.017453292519943295"
+      }
+    ],
+    "clips": [
+      {
+        "name": "MA-W10::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W10::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W10::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W10::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W10::fire",
+        "parameters": [
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "functional_points": [
+    {
+      "id": "shoot",
+      "part_instance": "FocusAperture",
+      "part_point": "continuous-emitter",
+      "semantic_role": "single pulse beam output; optical hardware reused"
+    }
+  ],
+  "catalog_contract": {
+    "barrel_count": 1,
+    "projectiles_per_shot": 1,
+    "firing_arc_degrees": 360,
+    "rotate_speed_degrees_per_second": 90,
+    "pivot_grid": [
+      0.5,
+      0.5
+    ],
+    "projectile_kind": "Beam"
+  },
+  "exports": [],
+  "reused_source_sha256": {
+    "MA-W02-P01": "73495719218e04ab8182d31288dbd615ddc73b07ff6966a6d378ab566129cca7",
+    "MA-W02-P04": "cae9c70f914f57ac58e6db00efd4c990f75be8e725794ab285bfc1fc2de31fb0",
+    "MA-P06": "48dfec4c5340ed6316552d1c333ecb4b6113c29e901a7a66dffe56037c283c00"
+  },
+  "notes": "BU not metres; grid1x3. Single instantaneous beam. 90deg/s full turn demo; elevation artistic. No recoil. No engine integration, colliders/LOD or GLB.",
+  "state_authoring": "state-authoring.json",
+  "floor_fit": {
+    "floor": "MA-FLOOR-rect-1x3",
+    "margin_cells": 0.08,
+    "uniform_scale": 0.293706292237237,
+    "translation": [
+      -0.05874125494619555,
+      0.0,
+      0.075
+    ],
+    "body_instances": [
+      "LaserFoundation",
+      "ServiceCartridge",
+      "PulseFork",
+      "OpticalBench",
+      "PulseFeed"
+    ],
+    "protrusion_instances": [
+      "FocusAperture"
+    ]
+  }
+}

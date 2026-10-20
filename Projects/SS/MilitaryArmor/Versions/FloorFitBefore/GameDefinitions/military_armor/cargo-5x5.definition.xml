@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="cargo-5x5" Category="Грузы" Type="Inventory" MaxHealth="12500" BlockMass="25" InventoryCapacity="1250">
+    <!-- Initial balance scaled by footprint from the current functional analogues. -->
+    <Size X="5" Y="5"/>
+    <Colliders><ConvexCollider Data="0 0 5 0 5 5 0 5"/></Colliders>
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="75"/>
+        <DesignCost><Item Ref="11" Amount="750"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="75"/></BuildCost>
+    </Construction>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="cargo-5x5"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

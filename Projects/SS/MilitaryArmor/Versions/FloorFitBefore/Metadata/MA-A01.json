@@ -1,0 +1,1231 @@
+{
+  "schema": "SpriteBake.BlockMetadata/1",
+  "id": "MA-A01",
+  "catalog_id": "armor-1x1",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "bu_per_cell": 1.0,
+  "footprint_bu": [
+    -0.5,
+    -0.5,
+    0.5,
+    0.5
+  ],
+  "layers": [
+    {
+      "id": "body",
+      "draw_order": 0,
+      "rotates": false,
+      "pivot_bu": [
+        0,
+        0
+      ],
+      "instances": [
+        "armor-shell"
+      ]
+    }
+  ],
+  "states": {
+    "damage0": {
+      "frame": 1
+    },
+    "damage33": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "damage66": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "destroyed": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "clips": {},
+  "frames": {
+    "damage0": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "armor-shell/mounts/root",
+          "role": "armor-structural-mount",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "parent": "MA-A01-P01.shell",
+          "compatibility": [
+            "MilitaryArmor.armor.cell"
+          ],
+          "restrictions": "unit scale; align catalog XY boundary",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "armor-shell",
+          "part": "MA-A01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "armor-shell/attachment_areas/structural-bottom",
+          "role": "grid-interface",
+          "parent": "MA-A01-P01.shell",
+          "shape": "rectangle",
+          "size": [
+            1,
+            1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "allowed_rotations_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor.cell"
+          ],
+          "restrictions": "Logical catalog footprint only; no physical scale conversion.",
+          "up_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "normal_block": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "structural-bottom",
+          "instance": "armor-shell",
+          "part": "MA-A01-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-A01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "armor-shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "damage33": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "armor-shell/mounts/root",
+          "role": "armor-structural-mount",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "parent": "MA-A01-P01.shell",
+          "compatibility": [
+            "MilitaryArmor.armor.cell"
+          ],
+          "restrictions": "unit scale; align catalog XY boundary",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "armor-shell",
+          "part": "MA-A01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "armor-shell/attachment_areas/structural-bottom",
+          "role": "grid-interface",
+          "parent": "MA-A01-P01.shell",
+          "shape": "rectangle",
+          "size": [
+            1,
+            1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "allowed_rotations_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor.cell"
+          ],
+          "restrictions": "Logical catalog footprint only; no physical scale conversion.",
+          "up_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "normal_block": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "structural-bottom",
+          "instance": "armor-shell",
+          "part": "MA-A01-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-A01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "armor-shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "damage66": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "armor-shell/mounts/root",
+          "role": "armor-structural-mount",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "parent": "MA-A01-P01.shell",
+          "compatibility": [
+            "MilitaryArmor.armor.cell"
+          ],
+          "restrictions": "unit scale; align catalog XY boundary",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "armor-shell",
+          "part": "MA-A01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "armor-shell/attachment_areas/structural-bottom",
+          "role": "grid-interface",
+          "parent": "MA-A01-P01.shell",
+          "shape": "rectangle",
+          "size": [
+            1,
+            1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "allowed_rotations_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor.cell"
+          ],
+          "restrictions": "Logical catalog footprint only; no physical scale conversion.",
+          "up_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "normal_block": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "structural-bottom",
+          "instance": "armor-shell",
+          "part": "MA-A01-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-A01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "armor-shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "destroyed": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "armor-shell/mounts/root",
+          "role": "armor-structural-mount",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "parent": "MA-A01-P01.shell",
+          "compatibility": [
+            "MilitaryArmor.armor.cell"
+          ],
+          "restrictions": "unit scale; align catalog XY boundary",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "armor-shell",
+          "part": "MA-A01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "armor-shell/attachment_areas/structural-bottom",
+          "role": "grid-interface",
+          "parent": "MA-A01-P01.shell",
+          "shape": "rectangle",
+          "size": [
+            1,
+            1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "allowed_rotations_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor.cell"
+          ],
+          "restrictions": "Logical catalog footprint only; no physical scale conversion.",
+          "up_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "normal_block": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "structural-bottom",
+          "instance": "armor-shell",
+          "part": "MA-A01-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-A01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "armor-shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    }
+  },
+  "assembly": {
+    "schema": "MilitaryArmor.BlenderAuthoring/1",
+    "id": "MA-A01",
+    "version": "1.0",
+    "title": "MilitaryArmor faceted armor 1x1",
+    "catalog_id": "armor-1x1",
+    "catalog_grid": [
+      1,
+      1
+    ],
+    "axes": {
+      "handedness": "right",
+      "up": "+Z",
+      "forward": "-Y",
+      "units": "BU; physical scale unspecified"
+    },
+    "instances": [
+      {
+        "id": "armor-shell",
+        "part_id": "MA-A01-P01",
+        "version": "1.0",
+        "source": "../../Parts/MA-A01-P01/MA-A01-P01.blend",
+        "parent": "MA-A01",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "id": "MA-A01",
+        "parent": null,
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "armor-shell",
+        "parent": "MA-A01",
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "animations": [],
+    "exports": [
+      "Exports/MA-A01.glb"
+    ],
+    "notes": "Catalog footprint retained. Static viewer authoring; physical scale and game acceptance unspecified."
+  },
+  "parts": {
+    "armor-shell": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-A01-P01",
+      "version": "1.0",
+      "name": "Faceted repeatable armor 1x1",
+      "source": "MA-A01-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.5,
+          -0.5,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.5,
+          0.2800000011920929
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "MA-A01-P01.shell"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "MA-A01-P01.shell"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "armor-structural-mount",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "parent": "MA-A01-P01.shell",
+          "compatibility": [
+            "MilitaryArmor.armor.cell"
+          ],
+          "restrictions": "unit scale; align catalog XY boundary"
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "structural-bottom",
+          "role": "grid-interface",
+          "parent": "MA-A01-P01.shell",
+          "shape": "rectangle",
+          "size": [
+            1,
+            1
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "allowed_rotations_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor.cell"
+          ],
+          "restrictions": "Logical catalog footprint only; no physical scale conversion."
+        }
+      ],
+      "animations": [],
+      "notes": "Exact rectangular structural perimeter z=0..0.16. Broad upper chamfers and a recessed quiet panel. No emission, animations or file textures."
+    }
+  },
+  "material_slots": {
+    "armor-shell": {
+      "MA-A01-P01.shell": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        },
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "assembly": "Blocks/MA-A01/assembly.json",
+    "source": "Blocks/MA-A01/MA-A01.blend",
+    "bu_per_cell": 1.0,
+    "footprint_bu": [
+      -0.5,
+      -0.5,
+      0.5,
+      0.5
+    ],
+    "height_range_bu": [
+      -0.1,
+      0.4
+    ],
+    "layers": [
+      {
+        "id": "body",
+        "draw_order": 0,
+        "rotates": false,
+        "pivot_bu": [
+          0,
+          0
+        ],
+        "instances": [
+          "armor-shell"
+        ]
+      }
+    ],
+    "states": {
+      "damage0": {
+        "frame": 1
+      },
+      "damage33": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "damage66": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "destroyed": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "clips": {},
+    "use_author_animation": false
+  },
+  "inputs": {
+    "Blocks/MA-A01/assembly.json": "239d1ee13d00b81ec28c8a33f6d4ebab93f43ce4a5b9225ec2a49e80a86da9ac",
+    "Blocks/MA-A01/MA-A01.blend": "8d4e14b6e63e5c91951637997fc42cf6ac99bd366e4bdbad72e2d04b692d0dba",
+    "Parts/MA-A01-P01/MA-A01-P01.blend": "7492ff02f7fd15abcd583398287bf5670ea8cd0f073307d0290dc826185a5d6d",
+    "Parts/MA-A01-P01/part.json": "b795d67c6e48ed61a82ebef61d8584d1066312757b11e1275bf8816c6ff909bc"
+  },
+  "dependencies": [
+    "Blocks/MA-A01/assembly.json",
+    "Blocks/MA-A01/MA-A01.blend",
+    "Parts/MA-A01-P01/MA-A01-P01.blend",
+    "Parts/MA-A01-P01/part.json"
+  ]
+}

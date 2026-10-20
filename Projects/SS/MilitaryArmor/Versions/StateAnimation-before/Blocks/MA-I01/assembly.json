@@ -1,0 +1,130 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-I01",
+  "version": "2.0",
+  "title": "Грузовой отсек с верфью 2×1",
+  "catalog_id": "cargo-2x1",
+  "catalog_grid": [
+    2,
+    1
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Structure",
+      "part_id": "MA-I01-R2-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P01/MA-I01-R2-P01.blend",
+      "parent": "MA-I01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatch",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I01",
+      "translation": [
+        0,
+        0,
+        1.13
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "FrontCargoRail",
+      "part_id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+      "parent": "MA-I01",
+      "translation": [
+        0,
+        -0.8,
+        0.16
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RearCargoRail",
+      "part_id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+      "parent": "MA-I01",
+      "translation": [
+        0,
+        0.8,
+        0.16
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatch",
+      "child_instance": "LoadingHatch",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "railF",
+      "child_instance": "FrontCargoRail",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "railB",
+      "child_instance": "RearCargoRail",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Единый высокий грузовой объём, один крупный загрузочный люк, две направляющие и поперечные силовые рёбра. Прямоугольный цельный силуэт противопоставлен батарейной гребёнке. Static authoring source; no new gameplay mechanics."
+}

@@ -1,0 +1,323 @@
+{
+  "id": "MA-E02",
+  "source_saved": true,
+  "source_parts_saved_before_assembly": true,
+  "instance_count": 8,
+  "resolved_parts": [
+    "MA-E01-P05",
+    "MA-E02-P01",
+    "MA-E02-P02",
+    "MA-E02-P03"
+  ],
+  "missing_dependencies": [],
+  "glb": {
+    "magic": "glTF",
+    "version": 2,
+    "length_matches": true,
+    "mesh_count": 50,
+    "node_count": 80,
+    "animation_count": 0,
+    "embedded_buffers": true,
+    "external_images": []
+  },
+  "game_validation": false,
+  "checks_passed": true,
+  "part_sources_reopened": {
+    "MA-E01-P05": {
+      "mesh_count": 3,
+      "evaluated_triangles": 548,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "unit_scale": true,
+      "materials_resolved": true,
+      "bounds": {
+        "min": [
+          -0.2199999988079071,
+          -0.16500000655651093,
+          0.0
+        ],
+        "max": [
+          0.2199999988079071,
+          0.16500000655651093,
+          0.041999999433755875
+        ]
+      }
+    },
+    "MA-E02-P01": {
+      "mesh_count": 11,
+      "evaluated_triangles": 2396,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "unit_scale": true,
+      "materials_resolved": true,
+      "bounds": {
+        "min": [
+          -1.4792046546936035,
+          -0.6600000262260437,
+          0.0
+        ],
+        "max": [
+          1.4792046546936035,
+          0.9764999747276306,
+          0.6299999952316284
+        ]
+      }
+    },
+    "MA-E02-P02": {
+      "mesh_count": 4,
+      "evaluated_triangles": 840,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "unit_scale": true,
+      "materials_resolved": true,
+      "bounds": {
+        "min": [
+          -0.33949998021125793,
+          -0.41999998688697815,
+          -0.25999999046325684
+        ],
+        "max": [
+          0.33949998021125793,
+          0.6399999856948853,
+          0.36369526386260986
+        ]
+      }
+    },
+    "MA-E02-P03": {
+      "mesh_count": 8,
+      "evaluated_triangles": 2620,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "unit_scale": true,
+      "materials_resolved": true,
+      "bounds": {
+        "min": [
+          -0.2613750100135803,
+          -0.5445749759674072,
+          -0.2613750100135803
+        ],
+        "max": [
+          0.2613750100135803,
+          0.042500004172325134,
+          0.2613750100135803
+        ]
+      }
+    }
+  },
+  "source_reopened": true,
+  "source_geometry": {
+    "mesh_count": 50,
+    "evaluated_triangles": 13324,
+    "zero_area_triangles": 0,
+    "finite": true,
+    "unit_scale": true,
+    "materials_resolved": true,
+    "bounds": {
+      "min": [
+        -1.4792046546936035,
+        -1.1345748901367188,
+        0.0
+      ],
+      "max": [
+        1.4792046546936035,
+        0.9764999747276306,
+        0.8236953020095825
+      ]
+    }
+  },
+  "glb_roundtrip": {
+    "mesh_count": 50,
+    "evaluated_triangles": 13324,
+    "zero_area_triangles": 0,
+    "finite": true,
+    "unit_scale": true,
+    "materials_resolved": true,
+    "bounds": {
+      "min": [
+        -1.4792046546936035,
+        -1.1345748901367188,
+        0.0
+      ],
+      "max": [
+        1.4792046546936035,
+        0.9764999747276306,
+        0.8236953020095825
+      ]
+    }
+  },
+  "glb_imported_in_Blender": true,
+  "functional_points_world": [
+    {
+      "instance": "Nozzle0",
+      "role": "thrust",
+      "position": [
+        -1.0,
+        -0.5899999737739563,
+        0.46000000834465027
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "node_preserved": true
+    },
+    {
+      "instance": "Nozzle0",
+      "role": "exhaust",
+      "position": [
+        -1.0,
+        -1.119999885559082,
+        0.46000000834465027
+      ],
+      "direction": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "node_preserved": true
+    },
+    {
+      "instance": "Nozzle1",
+      "role": "thrust",
+      "position": [
+        0.0,
+        -0.5899999737739563,
+        0.46000000834465027
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "node_preserved": true
+    },
+    {
+      "instance": "Nozzle1",
+      "role": "exhaust",
+      "position": [
+        0.0,
+        -1.119999885559082,
+        0.46000000834465027
+      ],
+      "direction": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "node_preserved": true
+    },
+    {
+      "instance": "Nozzle2",
+      "role": "thrust",
+      "position": [
+        1.0,
+        -0.5899999737739563,
+        0.46000000834465027
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "node_preserved": true
+    },
+    {
+      "instance": "Nozzle2",
+      "role": "exhaust",
+      "position": [
+        1.0,
+        -1.119999885559082,
+        0.46000000834465027
+      ],
+      "direction": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "node_preserved": true
+    }
+  ],
+  "socket_alignment": [
+    {
+      "parent": "FuelManifold",
+      "socket": "chamber0",
+      "child": "Chamber0",
+      "aligned": true
+    },
+    {
+      "parent": "Chamber0",
+      "socket": "nozzle",
+      "child": "Nozzle0",
+      "aligned": true
+    },
+    {
+      "parent": "FuelManifold",
+      "socket": "chamber1",
+      "child": "Chamber1",
+      "aligned": true
+    },
+    {
+      "parent": "Chamber1",
+      "socket": "nozzle",
+      "child": "Nozzle1",
+      "aligned": true
+    },
+    {
+      "parent": "FuelManifold",
+      "socket": "chamber2",
+      "child": "Chamber2",
+      "aligned": true
+    },
+    {
+      "parent": "Chamber2",
+      "socket": "nozzle",
+      "child": "Nozzle2",
+      "aligned": true
+    },
+    {
+      "parent": "FuelManifold",
+      "socket": "service",
+      "child": "ServiceCartridge",
+      "aligned": true
+    }
+  ],
+  "thrust_sources": 3,
+  "visual_review_TEMP": [
+    "final-review.png",
+    "final-top.png"
+  ],
+  "no_plume_mesh": true,
+  "static_no_animations": true,
+  "visual_review_result": "Final oblique and top views inspected: nozzle openings, chamber seating, thermal panels and service cartridge align; no visible unwanted intersections."
+}

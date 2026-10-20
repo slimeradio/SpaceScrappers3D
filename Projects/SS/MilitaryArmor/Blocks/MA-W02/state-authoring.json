@@ -1,0 +1,429 @@
+{
+  "schema": "MilitaryArmor.StateAuthoring/1",
+  "id": "MA-W02",
+  "game_validated": false,
+  "authoring_units": "BU; normalized controls; not game timings",
+  "controls": {
+    "power": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "Electrical availability; independent from retained heat/fill"
+    },
+    "activity": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Actual work/load; zero means idle"
+    },
+    "fault": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Externally supplied fault, not inferred"
+    },
+    "heat": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Retained normalized heat; independent from power"
+    },
+    "aim_yaw": {
+      "default": 0,
+      "min": 0,
+      "max": 110
+    },
+    "aim_pitch": {
+      "default": 0,
+      "min": -27,
+      "max": 8
+    }
+  },
+  "motion": [
+    {
+      "node": "Azimuth",
+      "path": "rotation_euler",
+      "axis": 2,
+      "parameter": "aim_yaw",
+      "expression": "0.0+t*0.017453292519943295"
+    },
+    {
+      "node": "Elevation",
+      "path": "rotation_euler",
+      "axis": 0,
+      "parameter": "aim_pitch",
+      "expression": "-0.15707963705062866+t*0.017453292519943295"
+    }
+  ],
+  "materials": [
+    {
+      "object": "LaserFoundation::Foundation optical index",
+      "slot": 0,
+      "material": "MA-W02::LaserFoundation::Foundation optical index::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaserFoundation::Foundation optical index.001",
+      "slot": 0,
+      "material": "MA-W02::LaserFoundation::Foundation optical index.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ServiceCartridge::Cartridge status",
+      "slot": 0,
+      "material": "MA-W02::ServiceCartridge::Cartridge status::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "OpticalFork::Laser azimuth encoder",
+      "slot": 0,
+      "material": "MA-W02::OpticalFork::Laser azimuth encoder::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "OpticalFork::Gimbal encoder",
+      "slot": 0,
+      "material": "MA-W02::OpticalFork::Gimbal encoder::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "OpticalFork::Gimbal encoder.001",
+      "slot": 0,
+      "material": "MA-W02::OpticalFork::Gimbal encoder.001::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "OpticalChamber::Optical alignment trace",
+      "slot": 0,
+      "material": "MA-W02::OpticalChamber::Optical alignment trace::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "OpticalChamber::Optical alignment trace.001",
+      "slot": 0,
+      "material": "MA-W02::OpticalChamber::Optical alignment trace.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ContinuousEmitter::Lens perimeter glow",
+      "slot": 0,
+      "material": "MA-W02::ContinuousEmitter::Lens perimeter glow::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ContinuousEmitter::Continuous beam focusing lens",
+      "slot": 0,
+      "material": "MA-W02::ContinuousEmitter::Continuous beam focusing lens::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ContinuousEmitter::Inner active lens",
+      "slot": 0,
+      "material": "MA-W02::ContinuousEmitter::Inner active lens::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ContinuousEmitter::Central focusing zone",
+      "slot": 0,
+      "material": "MA-W02::ContinuousEmitter::Central focusing zone::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LeftRadiator::Coolant loop indicator",
+      "slot": 0,
+      "material": "MA-W02::LeftRadiator::Coolant loop indicator::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "RightRadiator::Coolant loop indicator",
+      "slot": 0,
+      "material": "MA-W02::RightRadiator::Coolant loop indicator::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell",
+      "slot": 0,
+      "material": "MA-W02::LidarBlade::Lidar independent optical cell::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell.001",
+      "slot": 0,
+      "material": "MA-W02::LidarBlade::Lidar independent optical cell.001::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell.002",
+      "slot": 0,
+      "material": "MA-W02::LidarBlade::Lidar independent optical cell.002::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "name": "MA-W02::activate",
+      "parameters": [
+        "power",
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W02::deactivate",
+      "parameters": [
+        "activity",
+        "power"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W02::heat_up",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W02::cool_down",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        97
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W02::fire",
+      "parameters": [
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W02::beam_hold_loop",
+      "parameters": [
+        "activity"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": true,
+      "authoring_only": true
+    }
+  ],
+  "events": [
+    {
+      "name": "fire",
+      "frame": 2,
+      "source": "authoring cue; external projectile/beam effect"
+    }
+  ],
+  "presets": {
+    "off": {
+      "power": 0,
+      "activity": 0
+    },
+    "idle": {
+      "power": 1,
+      "activity": 0
+    },
+    "working": {
+      "power": 1,
+      "activity": 1
+    },
+    "hot_off": {
+      "power": 0,
+      "activity": 0,
+      "heat": 1
+    },
+    "cold": {
+      "heat": 0
+    },
+    "hot": {
+      "heat": 1
+    }
+  },
+  "phase_policy": "cycle_turns is integrated phase, not speed. Stop retains phase. NLA cycle repetition must use cyclic extrapolation/REPEAT_OFFSET for spin; never reset turns on start. Clips start from relative phase 0; apply current phase offset when sequencing.",
+  "controller": "MA-W02",
+  "legacy_animation_metadata": {
+    "fps": 24,
+    "frame_range": [
+      1,
+      120
+    ],
+    "channels": [
+      {
+        "node": "Azimuth",
+        "channel": "rotation_euler",
+        "axis": "Z",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            0
+          ],
+          [
+            60,
+            110
+          ],
+          [
+            120,
+            0
+          ]
+        ]
+      },
+      {
+        "node": "Elevation",
+        "channel": "rotation_euler",
+        "axis": "X",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            -9
+          ],
+          [
+            35,
+            -27
+          ],
+          [
+            80,
+            8
+          ],
+          [
+            120,
+            -9
+          ]
+        ]
+      }
+    ],
+    "demonstration_only": true,
+    "interpolation": "Blender Bezier"
+  }
+}

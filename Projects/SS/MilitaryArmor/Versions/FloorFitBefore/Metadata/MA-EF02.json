@@ -1,0 +1,6431 @@
+{
+  "schema": "SpriteBake.BlockMetadata/1",
+  "id": "MA-EF02",
+  "catalog_id": "fuel-thruster-1x2",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "bu_per_cell": 1.0,
+  "footprint_bu": [
+    -0.5,
+    -1.0,
+    0.5,
+    1.0
+  ],
+  "layers": [
+    {
+      "id": "body",
+      "draw_order": 0,
+      "rotates": false,
+      "pivot_bu": [
+        0,
+        0
+      ],
+      "instances": [
+        "PressureHousing",
+        "ExpansionBell",
+        "ServiceCartridge"
+      ]
+    }
+  ],
+  "states": {
+    "damage0": {
+      "frame": 1
+    },
+    "damage33": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "damage66": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "destroyed": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "clips": {
+    "work": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "frames": {
+    "damage0": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "PressureHousing/mounts/root",
+          "role": "MilitaryArmor.fuel-thruster.hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.fuel-thruster.hull"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "PressureHousing/mounts/bell",
+          "role": "MilitaryArmor.engine.nozzle",
+          "parent": "part",
+          "position": [
+            0,
+            -0.28,
+            0.49
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bell",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "PressureHousing/mounts/service",
+          "role": "MilitaryArmor.engine.accessory",
+          "parent": "part",
+          "position": [
+            0,
+            0.19,
+            0.9405
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/root-area",
+          "role": "MilitaryArmor.fuel-thruster.hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.fuel-thruster.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/bell-area",
+          "role": "MilitaryArmor.engine.nozzle",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -0.28,
+            0.49
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bell-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/service-area",
+          "role": "MilitaryArmor.engine.accessory",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0.19,
+            0.9405
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "ExpansionBell/mounts/chamber",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "nozzle",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "chamber",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/functional_points/thrust",
+          "role": "thrust",
+          "node": "point.thrust",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "thrust",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/functional_points/exhaust",
+          "role": "exhaust",
+          "node": "point.exhaust",
+          "position": [
+            0,
+            -0.65,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.9299999475479126,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "exhaust",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.0700000524520874,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/attachment_areas/interface-plane",
+          "role": "nozzle",
+          "parent": "MA-E01-P03",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/root",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.1899999976158142
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.940500020980835
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "ServiceCartridge/attachment_areas/interface-plane",
+          "role": "accessory",
+          "parent": "MA-E01-P05",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.1899999976158142
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.940500020980835
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-EF02": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PressureHousing": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ExpansionBell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.2800000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.49000000953674316
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.1899999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.940500020980835
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "damage33": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "PressureHousing/mounts/root",
+          "role": "MilitaryArmor.fuel-thruster.hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.fuel-thruster.hull"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "PressureHousing/mounts/bell",
+          "role": "MilitaryArmor.engine.nozzle",
+          "parent": "part",
+          "position": [
+            0,
+            -0.28,
+            0.49
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bell",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "PressureHousing/mounts/service",
+          "role": "MilitaryArmor.engine.accessory",
+          "parent": "part",
+          "position": [
+            0,
+            0.19,
+            0.9405
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/root-area",
+          "role": "MilitaryArmor.fuel-thruster.hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.fuel-thruster.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/bell-area",
+          "role": "MilitaryArmor.engine.nozzle",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -0.28,
+            0.49
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bell-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/service-area",
+          "role": "MilitaryArmor.engine.accessory",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0.19,
+            0.9405
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "ExpansionBell/mounts/chamber",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "nozzle",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "chamber",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/functional_points/thrust",
+          "role": "thrust",
+          "node": "point.thrust",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "thrust",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/functional_points/exhaust",
+          "role": "exhaust",
+          "node": "point.exhaust",
+          "position": [
+            0,
+            -0.65,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.9299999475479126,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "exhaust",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.0700000524520874,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/attachment_areas/interface-plane",
+          "role": "nozzle",
+          "parent": "MA-E01-P03",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/root",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.1899999976158142
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.940500020980835
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "ServiceCartridge/attachment_areas/interface-plane",
+          "role": "accessory",
+          "parent": "MA-E01-P05",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.1899999976158142
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.940500020980835
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-EF02": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PressureHousing": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ExpansionBell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.2800000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.49000000953674316
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.1899999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.940500020980835
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "damage66": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "PressureHousing/mounts/root",
+          "role": "MilitaryArmor.fuel-thruster.hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.fuel-thruster.hull"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "PressureHousing/mounts/bell",
+          "role": "MilitaryArmor.engine.nozzle",
+          "parent": "part",
+          "position": [
+            0,
+            -0.28,
+            0.49
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bell",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "PressureHousing/mounts/service",
+          "role": "MilitaryArmor.engine.accessory",
+          "parent": "part",
+          "position": [
+            0,
+            0.19,
+            0.9405
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/root-area",
+          "role": "MilitaryArmor.fuel-thruster.hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.fuel-thruster.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/bell-area",
+          "role": "MilitaryArmor.engine.nozzle",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -0.28,
+            0.49
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bell-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/service-area",
+          "role": "MilitaryArmor.engine.accessory",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0.19,
+            0.9405
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "ExpansionBell/mounts/chamber",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "nozzle",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "chamber",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/functional_points/thrust",
+          "role": "thrust",
+          "node": "point.thrust",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "thrust",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/functional_points/exhaust",
+          "role": "exhaust",
+          "node": "point.exhaust",
+          "position": [
+            0,
+            -0.65,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.9299999475479126,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "exhaust",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.0700000524520874,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/attachment_areas/interface-plane",
+          "role": "nozzle",
+          "parent": "MA-E01-P03",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/root",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.1899999976158142
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.940500020980835
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "ServiceCartridge/attachment_areas/interface-plane",
+          "role": "accessory",
+          "parent": "MA-E01-P05",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.1899999976158142
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.940500020980835
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-EF02": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PressureHousing": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ExpansionBell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.2800000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.49000000953674316
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.1899999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.940500020980835
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "destroyed": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "PressureHousing/mounts/root",
+          "role": "MilitaryArmor.fuel-thruster.hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.fuel-thruster.hull"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "PressureHousing/mounts/bell",
+          "role": "MilitaryArmor.engine.nozzle",
+          "parent": "part",
+          "position": [
+            0,
+            -0.28,
+            0.49
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bell",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "PressureHousing/mounts/service",
+          "role": "MilitaryArmor.engine.accessory",
+          "parent": "part",
+          "position": [
+            0,
+            0.19,
+            0.9405
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/root-area",
+          "role": "MilitaryArmor.fuel-thruster.hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.fuel-thruster.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/bell-area",
+          "role": "MilitaryArmor.engine.nozzle",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -0.28,
+            0.49
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bell-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/service-area",
+          "role": "MilitaryArmor.engine.accessory",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0.19,
+            0.9405
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "ExpansionBell/mounts/chamber",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "nozzle",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "chamber",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/functional_points/thrust",
+          "role": "thrust",
+          "node": "point.thrust",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "thrust",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/functional_points/exhaust",
+          "role": "exhaust",
+          "node": "point.exhaust",
+          "position": [
+            0,
+            -0.65,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.9299999475479126,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "exhaust",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.0700000524520874,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/attachment_areas/interface-plane",
+          "role": "nozzle",
+          "parent": "MA-E01-P03",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/root",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.1899999976158142
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.940500020980835
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "ServiceCartridge/attachment_areas/interface-plane",
+          "role": "accessory",
+          "parent": "MA-E01-P05",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.1899999976158142
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.940500020980835
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-EF02": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PressureHousing": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ExpansionBell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.2800000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.49000000953674316
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.1899999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.940500020980835
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "clip-work": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "PressureHousing/mounts/root",
+          "role": "MilitaryArmor.fuel-thruster.hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.fuel-thruster.hull"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "PressureHousing/mounts/bell",
+          "role": "MilitaryArmor.engine.nozzle",
+          "parent": "part",
+          "position": [
+            0,
+            -0.28,
+            0.49
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bell",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "PressureHousing/mounts/service",
+          "role": "MilitaryArmor.engine.accessory",
+          "parent": "part",
+          "position": [
+            0,
+            0.19,
+            0.9405
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; full pose",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/root-area",
+          "role": "MilitaryArmor.fuel-thruster.hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.fuel-thruster.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/bell-area",
+          "role": "MilitaryArmor.engine.nozzle",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -0.28,
+            0.49
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bell-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "PressureHousing/attachment_areas/service-area",
+          "role": "MilitaryArmor.engine.accessory",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0.19,
+            0.9405
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service-area",
+          "instance": "PressureHousing",
+          "part": "MA-EF02-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "ExpansionBell/mounts/chamber",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "nozzle",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "chamber",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/functional_points/thrust",
+          "role": "thrust",
+          "node": "point.thrust",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "thrust",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/functional_points/exhaust",
+          "role": "exhaust",
+          "node": "point.exhaust",
+          "position": [
+            0,
+            -0.65,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.9299999475479126,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "exhaust",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "functional_points",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.0700000524520874,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ExpansionBell/attachment_areas/interface-plane",
+          "role": "nozzle",
+          "parent": "MA-E01-P03",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.2800000011920929,
+            0.49000000953674316
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.2800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.49000000953674316
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ExpansionBell",
+          "part": "MA-E01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.7199999988079071,
+            0.49000000953674316
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/root",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; local authoring frame",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.1899999976158142
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.940500020980835
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        },
+        {
+          "id": "ServiceCartridge/attachment_areas/interface-plane",
+          "role": "accessory",
+          "parent": "MA-E01-P05",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.1899999976158142,
+            0.940500020980835
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.1899999976158142
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.940500020980835
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "interface-plane",
+          "instance": "ServiceCartridge",
+          "part": "MA-E01-P05",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.1899999976158142,
+            0.940500020980835
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-EF02": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PressureHousing": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ExpansionBell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.2800000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.49000000953674316
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.1899999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.940500020980835
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    }
+  },
+  "assembly": {
+    "schema": "MilitaryArmor.BlenderAuthoring/1",
+    "id": "MA-EF02",
+    "version": "1.0+states1",
+    "title": "Топливный двигатель 1×2",
+    "catalog_id": "fuel-thruster-1x2",
+    "catalog_grid": [
+      1,
+      2
+    ],
+    "catalog_status": "visual-only; no game XML",
+    "axes": {
+      "handedness": "right",
+      "up": "+Z",
+      "forward": "-Y",
+      "units": "BU; physical scale unspecified"
+    },
+    "instances": [
+      {
+        "id": "PressureHousing",
+        "part_id": "MA-EF02-P01",
+        "version": "1.0",
+        "source": "../../Parts/MA-EF02-P01/MA-EF02-P01.blend",
+        "parent": "MA-EF02",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "ExpansionBell",
+        "part_id": "MA-E01-P03",
+        "version": "1.0",
+        "source": "../../Parts/MA-E01-P03/MA-E01-P03.blend",
+        "parent": "MA-EF02",
+        "translation": [
+          0,
+          -0.28,
+          0.49
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "ServiceCartridge",
+        "part_id": "MA-E01-P05",
+        "version": "1.0",
+        "source": "../../Parts/MA-E01-P05/MA-E01-P05.blend",
+        "parent": "MA-EF02",
+        "translation": [
+          0,
+          0.19,
+          0.9405
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "parent_instance": "PressureHousing",
+        "parent_socket": "bell",
+        "child_instance": "ExpansionBell",
+        "child_socket": "chamber"
+      },
+      {
+        "parent_instance": "PressureHousing",
+        "parent_socket": "service",
+        "child_instance": "ServiceCartridge",
+        "child_socket": "root"
+      }
+    ],
+    "animations": {
+      "controller": "MA-EF02",
+      "controls": {
+        "power": {
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "description": "Electrical availability; independent from retained heat/fill"
+        },
+        "activity": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Actual work/load; zero means idle"
+        },
+        "fault": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Externally supplied fault, not inferred"
+        },
+        "heat": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Retained normalized heat; independent from power"
+        }
+      },
+      "channels": [],
+      "clips": [
+        {
+          "name": "MA-EF02::activate",
+          "parameters": [
+            "power",
+            "activity"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-EF02::deactivate",
+          "parameters": [
+            "activity",
+            "power"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-EF02::heat_up",
+          "parameters": [
+            "heat"
+          ],
+          "frames": [
+            1,
+            49
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-EF02::cool_down",
+          "parameters": [
+            "heat"
+          ],
+          "frames": [
+            1,
+            97
+          ],
+          "loop": false,
+          "authoring_only": true
+        }
+      ],
+      "independent_controls": true,
+      "demonstration_only": false,
+      "game_integration": false
+    },
+    "exports": [],
+    "notes": "Compact fuel pressure chamber with reused hollow bell; exhaust -Y / thrust +Y; authoring metadata only.",
+    "state_authoring": "state-authoring.json"
+  },
+  "parts": {
+    "PressureHousing": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-EF02-P01",
+      "version": "1.0",
+      "name": "Компактная защищённая камера и питающий тракт",
+      "source": "MA-EF02-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.38999998569488525,
+          -0.3050000071525574,
+          0.0
+        ],
+        "max": [
+          0.38999998569488525,
+          1.0399999618530273,
+          0.940500020980835
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Bell receiver",
+            "Closed propellant supply tract",
+            "Raised dorsal pressure shield"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Tapered pressure guard",
+            "Tapered pressure guard.001"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Compact service landing",
+            "Recessed supply connector"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Small chamber diagnostic",
+            "Small chamber diagnostic.001"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705,
+            1.0
+          ],
+          "metalness": 0.3499999940395355,
+          "roughness": 0.25,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Sealed feed connector",
+            "Sealed feed connector.001"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Separated narrow hull bearer",
+            "Separated narrow hull bearer.001",
+            "Protected compact pressure vessel"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal",
+          "regions": [
+            "Small chamber diagnostic",
+            "Small chamber diagnostic.001"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "MilitaryArmor.fuel-thruster.hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.fuel-thruster.hull"
+          ],
+          "restrictions": "unit scale; full pose"
+        },
+        {
+          "id": "bell",
+          "role": "MilitaryArmor.engine.nozzle",
+          "parent": "part",
+          "position": [
+            0,
+            -0.28,
+            0.49
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "unit scale; full pose"
+        },
+        {
+          "id": "service",
+          "role": "MilitaryArmor.engine.accessory",
+          "parent": "part",
+          "position": [
+            0,
+            0.19,
+            0.9405
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; full pose"
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-area",
+          "role": "MilitaryArmor.fuel-thruster.hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.fuel-thruster.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        },
+        {
+          "id": "bell-area",
+          "role": "MilitaryArmor.engine.nozzle",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            -0.28,
+            0.49
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        },
+        {
+          "id": "service-area",
+          "role": "MilitaryArmor.engine.accessory",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.01,
+            0.01
+          ],
+          "parent": "part",
+          "position": [
+            0,
+            0.19,
+            0.9405
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Static source; unit scale. Procedural PBR; no image textures or UV dependency; no plume. Physical BU scale and gameplay parameters unspecified."
+    },
+    "ExpansionBell": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-E01-P03",
+      "version": "1.0",
+      "name": "Средний двигатель — большое сопло",
+      "source": "MA-E01-P03.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.3792499899864197,
+          -0.6678749918937683,
+          -0.3792499899864197
+        ],
+        "max": [
+          0.3792499899864197,
+          0.04250000789761543,
+          0.3792499899864197
+        ]
+      },
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Ceramic mouth rim",
+            "Segmented thermal petal",
+            "Segmented thermal petal.001",
+            "Segmented thermal petal.002",
+            "Segmented thermal petal.003"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Faceted open expansion bell",
+            "Deep combustion chamber"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Recessed energized throat"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705,
+            1.0
+          ],
+          "metalness": 0.3499999940395355,
+          "roughness": 0.25,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Faceted open expansion bell"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal",
+          "regions": [
+            "Recessed energized throat"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "chamber",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "nozzle",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "unit scale; local authoring frame"
+        }
+      ],
+      "functional_points": [
+        {
+          "id": "thrust",
+          "role": "thrust",
+          "node": "point.thrust",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "exhaust",
+          "role": "exhaust",
+          "node": "point.exhaust",
+          "position": [
+            0,
+            -0.65,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "attachment_areas": [
+        {
+          "id": "interface-plane",
+          "role": "nozzle",
+          "parent": "MA-E01-P03",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.nozzle"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale"
+        }
+      ],
+      "animations": [],
+      "notes": "Open nozzle. Thrust +Y, exhaust -Y. Emission is an idle authoring indicator, no plume mesh."
+    },
+    "ServiceCartridge": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-E01-P05",
+      "version": "1.0",
+      "name": "Средний двигатель — компактный сервисный картридж",
+      "source": "MA-E01-P05.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.2199999988079071,
+          -0.16500000655651093,
+          0.0
+        ],
+        "max": [
+          0.2199999988079071,
+          0.16500000655651093,
+          0.041999999433755875
+        ]
+      },
+      "materials": [
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Compact pressure seal"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Service status inset"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705,
+            1.0
+          ],
+          "metalness": 0.3499999940395355,
+          "roughness": 0.25,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Flush engine cartridge"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal",
+          "regions": [
+            "Service status inset"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "root",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "role": "accessory",
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "unit scale; local authoring frame"
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "interface-plane",
+          "role": "accessory",
+          "parent": "MA-E01-P05",
+          "shape": "logical-plane",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "compatibility": [
+            "MilitaryArmor.engine.accessory"
+          ],
+          "restrictions": "Align complete socket pose; no nonunit scale"
+        }
+      ],
+      "animations": [],
+      "notes": "Explicit compact variant: MA-P06 unit geometry is too wide for the medium engine roof; no implicit scaling."
+    }
+  },
+  "material_slots": {
+    "PressureHousing": {
+      "Tapered pressure guard.001": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Tapered pressure guard": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Small chamber diagnostic.001": [
+        {
+          "id": "Signal",
+          "role": "Emissive"
+        }
+      ],
+      "Small chamber diagnostic": [
+        {
+          "id": "Signal",
+          "role": "Emissive"
+        }
+      ],
+      "Separated narrow hull bearer.001": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Separated narrow hull bearer": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Sealed feed connector.001": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Sealed feed connector": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed supply connector": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Raised dorsal pressure shield": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Protected compact pressure vessel": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Compact service landing": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Closed propellant supply tract": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Bell receiver": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ]
+    },
+    "ExpansionBell": {
+      "Segmented thermal petal.003": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Segmented thermal petal.002": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Segmented thermal petal.001": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Segmented thermal petal": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Recessed energized throat": [
+        {
+          "id": "Signal.001",
+          "role": "Emissive"
+        }
+      ],
+      "Faceted open expansion bell": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        },
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Deep combustion chamber": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Ceramic mouth rim": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ]
+    },
+    "ServiceCartridge": {
+      "Service status inset": [
+        {
+          "id": "Signal.002",
+          "role": "Emissive"
+        }
+      ],
+      "Flush engine cartridge": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Compact pressure seal": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "assembly": "Blocks/MA-EF02/assembly.json",
+    "source": "Blocks/MA-EF02/MA-EF02.blend",
+    "bu_per_cell": 1.0,
+    "footprint_bu": [
+      -0.5,
+      -1.0,
+      0.5,
+      1.0
+    ],
+    "height_range_bu": [
+      -0.1,
+      1.1
+    ],
+    "layers": [
+      {
+        "id": "body",
+        "draw_order": 0,
+        "rotates": false,
+        "pivot_bu": [
+          0,
+          0
+        ],
+        "instances": [
+          "PressureHousing",
+          "ExpansionBell",
+          "ServiceCartridge"
+        ]
+      }
+    ],
+    "states": {
+      "damage0": {
+        "frame": 1
+      },
+      "damage33": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "damage66": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "destroyed": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "clips": {
+      "work": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "use_author_animation": false
+  },
+  "inputs": {
+    "Blocks/MA-EF02/assembly.json": "5a692374383274d144d507b8e4fd58f94289e73b330f7ebb867fe86339bd8ba4",
+    "Blocks/MA-EF02/MA-EF02.blend": "a1c0428854b51cf526a0d4569e56b245bf221ee5ac3e214756fcb087d01e483c",
+    "Parts/MA-E01-P03/MA-E01-P03.blend": "05b8fddf6a6c96d919a335f532591f04b763bbc7d09665bd128b8c44f4efb707",
+    "Parts/MA-E01-P03/part.json": "cf3f12e8f2936ae0494db0a48df10d9d355b71f4e39efca632aec27b304e2040",
+    "Parts/MA-E01-P05/MA-E01-P05.blend": "fe747edc2abc3ec91684c0f1aafea982c564c81ea9892461180da3869b080e5c",
+    "Parts/MA-E01-P05/part.json": "99cf7a1ceab34c4626411c4feb2b63c6668852d69143435e4295448b8d734ffb",
+    "Parts/MA-EF02-P01/MA-EF02-P01.blend": "40d418804c6d4934f29a8191906b7275466dc59aede4fdd102a49d78a190e2bc",
+    "Parts/MA-EF02-P01/part.json": "b6754bb000e78cd921ae748a3f4e7240d8e94ab967522327ad79ed53ebe7af96"
+  },
+  "dependencies": [
+    "Blocks/MA-EF02/assembly.json",
+    "Blocks/MA-EF02/MA-EF02.blend",
+    "Parts/MA-E01-P03/MA-E01-P03.blend",
+    "Parts/MA-E01-P03/part.json",
+    "Parts/MA-E01-P05/MA-E01-P05.blend",
+    "Parts/MA-E01-P05/part.json",
+    "Parts/MA-EF02-P01/MA-EF02-P01.blend",
+    "Parts/MA-EF02-P01/part.json"
+  ]
+}

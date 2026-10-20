@@ -1,0 +1,86 @@
+{
+  "parts_saved_before_assembly": true,
+  "part_count": 8,
+  "instance_count": 12,
+  "missing_dependencies": [],
+  "unit_scales": true,
+  "rendered_poses": [
+    {
+      "frame": 35,
+      "name": "elevation-max",
+      "yaw_deg": 90.00000250447816,
+      "elevation_deg": 25.00000012650595
+    },
+    {
+      "frame": 70,
+      "name": "elevation-min",
+      "yaw_deg": 180.00000500895632,
+      "elevation_deg": -7.999999938029066
+    },
+    {
+      "frame": 105,
+      "name": "combined",
+      "yaw_deg": 270.00000068324533,
+      "elevation_deg": 12.000000333930423
+    }
+  ],
+  "preview_views": [
+    "hero",
+    "top",
+    "rear"
+  ],
+  "material_policy": "procedural; no external file textures",
+  "muzzle_geometry": "Central bore with open annular muzzle and through-hole in faceted muzzle support",
+  "mount_alignment": "bearing/hull/cradle/hatch/optic/guns coincide by local mount transforms",
+  "game_validation": false,
+  "limitations": [
+    "Physical scale and game adapter unspecified",
+    "No game export, LOD or collision mesh",
+    "Pose renders require visual review; no automated collision certification"
+  ],
+  "revision": "1.3",
+  "reopened_in_Blender": true,
+  "part_renderable_counts": {
+    "MA-P01": 31,
+    "MA-P02": 29,
+    "MA-P03": 29,
+    "MA-P04": 17,
+    "MA-P05": 33,
+    "MA-P06": 6,
+    "MA-P07": 6,
+    "MA-P08": 4
+  },
+  "faceted_mesh_counts": {
+    "MA-P01": 11,
+    "MA-P02": 14,
+    "MA-P03": 12,
+    "MA-P04": 5,
+    "MA-P05": 4,
+    "MA-P06": 3,
+    "MA-P07": 2,
+    "MA-P08": 2
+  },
+  "resolved_instances": 12,
+  "external_libraries": [],
+  "file_images": [],
+  "elevation_sampled_degrees": [
+    -7.999999938029066,
+    25.00000012650595
+  ],
+  "source_checks_passed": true,
+  "accessory_mounts_match": true,
+  "emission_regions_verified": true,
+  "visual_review": {
+    "revision": "1.3",
+    "views": [
+      "hero",
+      "top",
+      "rear",
+      "elevation-max",
+      "elevation-min",
+      "combined",
+      "standalone parts"
+    ],
+    "result": "Reviewed swept shell, flush accessories, open accelerator muzzles and extreme poses; no obvious unwanted intersections visible"
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-I01-R2-P01",
+  "version": "2.0",
+  "name": "Цельный силовой корпус грузового отсека",
+  "source": "MA-I01-R2-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -1.8300000429153442,
+      -0.8600000143051147,
+      0.0
+    ],
+    "max": [
+      1.8300000429153442,
+      0.8600000143051147,
+      1.1349999904632568
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Single cargo pressure volume"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Recessed cargo side channel",
+        "Recessed cargo side channel.001",
+        "Large loading aperture seal"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Transverse armored rib",
+        "Transverse armored rib.001",
+        "Transverse armored rib.002"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "MilitaryArmor.cargo.hull",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.hull"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "hatch",
+      "role": "MilitaryArmor.cargo.wide-hatch",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        1.13
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.wide-hatch"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "railF",
+      "role": "MilitaryArmor.cargo.rail",
+      "parent": "part",
+      "position": [
+        0,
+        -0.8,
+        0.16
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.rail"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "railB",
+      "role": "MilitaryArmor.cargo.rail",
+      "parent": "part",
+      "position": [
+        0,
+        0.8,
+        0.16
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.rail"
+      ],
+      "restrictions": "unit scale; full pose"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.hull"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "hatch-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        1.13
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.wide-hatch"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "railF-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        -0.8,
+        0.16
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.rail"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "railB-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        0.8,
+        0.16
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.rail"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    }
+  ],
+  "animations": [],
+  "notes": "Functional identity redesign 2.0; static editable part, no gameplay mechanics, procedural PBR; no UV/file texture dependency."
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="engine-room" Category="Топливо" Type="FuelGenerator" MaxHealth="9000" BlockMass="12">
+    <Resources>
+        <Resource StoreInStorage="false" Id="2" MaxOutput="40" ProductionPriority="80"/>
+    </Resources>
+    <!-- Initial tunable balance; the GDD does not specify per-block numerical prices. -->
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="27"/>
+        <DesignCost><Item Ref="11" Amount="270"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="27"/></BuildCost>
+    </Construction>
+    <Size X="3" Y="3"/>
+    <Colliders>
+        <ConvexCollider Data="0 0 3 0 3 3 0 3"/>
+    </Colliders>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="engine-room"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

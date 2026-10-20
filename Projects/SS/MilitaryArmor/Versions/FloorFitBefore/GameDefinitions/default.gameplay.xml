@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameplaySettings Version="1">
+  <Emergency MaximumCharges="2" RechargeSeconds="3600" CargoCapacity="200" />
+  <Npc Spacing="120" TradeRange="12" CycleBudget="100000" RefreshBaseSeconds="180" RefreshStepSeconds="15"
+       DemandBase="8" DemandVariation="9" IngotPrice="24" OrePrice="6" ItemPriceStep="2" StationPriceStep="3" EpochPriceVariation="7" />
+  <Asteroids SectorSize="256" MaxGeneratedAsteroids="64" SectorOffset="112" PositionVariation="32" OriginX="70" OriginY="12"
+             VeinCellSize="6" VeinPercent="22" GrainPercent="75" OreKinds="10" OreAmountBase="2" OreAmountVariation="4"
+             RockJitterVariation="101" RockJitterOffset="50" />
+  <GarageReserve LifeSeconds="3600" PeaceSeconds="300" CaptureSeconds="10" CaptureRange="12" />
+  <Notifications HistoryLimit="1000" ToastSeconds="5" VisibleToasts="3" />
+  <Navigation MaximumGroups="4096" />
+</GameplaySettings>

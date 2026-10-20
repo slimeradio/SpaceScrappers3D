@@ -1,0 +1,175 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-H-AN1-P01",
+  "version": "3.0",
+  "name": "Folding radiative wing with two sided thermal faces",
+  "source": "MA-H-AN1-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.052000001072883606,
+      -0.125,
+      -0.052000004798173904
+    ],
+    "max": [
+      0.699999988079071,
+      0.125,
+      0.052000004798173904
+    ]
+  },
+  "materials": [
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Radiative substrate"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Hinge spindle"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Thermal",
+      "surfaces": [
+        "Thermal face",
+        "Thermal face.001"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Protected edge rib",
+        "Protected edge rib.001"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Thermal",
+      "regions": [
+        "Thermal face",
+        "Thermal face.001"
+      ],
+      "parameter": "heat",
+      "default": "cold",
+      "units": "normalized authoring heat, not Kelvin",
+      "binding": "per-instance material override in assembly"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "hinge",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": [
+    {
+      "controller": "assembly deployment",
+      "axis": "Y",
+      "range_radians": [
+        -1.5707963267948966,
+        0
+      ],
+      "rest": "open",
+      "pivot": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "notes": "Articulated radiator wing. Local +X outward, hinge along local Y. Two sided thermal faces; static root socket. Original radiator blade untouched.",
+  "motion_nodes": [
+    {
+      "node": "part-root",
+      "kind": "deployment",
+      "axis": "Y",
+      "radians_closed": -1.5707963267948966,
+      "radians_open": 0
+    }
+  ],
+  "thermal_surfaces": [
+    "Thermal face",
+    "Thermal face.001"
+  ]
+}

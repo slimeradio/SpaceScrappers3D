@@ -1,0 +1,163 @@
+{
+  "id": "MA-W02",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 8,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-W02::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W02::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W02::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W02::cool_down",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W02::fire",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W02::beam_hold_loop",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [
+    {
+      "node": "Azimuth",
+      "parameter": "aim_yaw",
+      "sampled_values": [
+        0.0,
+        0.9599310755729675,
+        1.919862151145935
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Elevation",
+      "parameter": "aim_pitch",
+      "sampled_values": [
+        -0.6283185482025146,
+        -0.3228859305381775,
+        -0.01745329611003399
+      ],
+      "driver_valid": true
+    }
+  ],
+  "materials": [
+    {
+      "object": "LaserFoundation::Foundation optical index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "LaserFoundation::Foundation optical index.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ServiceCartridge::Cartridge status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "OpticalFork::Laser azimuth encoder",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "OpticalFork::Gimbal encoder",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "OpticalFork::Gimbal encoder.001",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "OpticalChamber::Optical alignment trace",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "OpticalChamber::Optical alignment trace.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ContinuousEmitter::Lens perimeter glow",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ContinuousEmitter::Continuous beam focusing lens",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "ContinuousEmitter::Inner active lens",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "ContinuousEmitter::Central focusing zone",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "LeftRadiator::Coolant loop indicator",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "RightRadiator::Coolant loop indicator",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell.001",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell.002",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

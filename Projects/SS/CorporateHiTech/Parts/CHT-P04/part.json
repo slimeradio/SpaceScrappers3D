@@ -1,0 +1,762 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-P04",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Боковая бронекапсула",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "inner-bracket",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "outline": [
+        [
+          -0.03,
+          -0.425
+        ],
+        [
+          0.03,
+          -0.425
+        ],
+        [
+          0.095,
+          -0.36
+        ],
+        [
+          0.095,
+          0.36
+        ],
+        [
+          0.03,
+          0.425
+        ],
+        [
+          -0.03,
+          0.425
+        ],
+        [
+          -0.095,
+          0.36
+        ],
+        [
+          -0.095,
+          -0.36
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.115,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.0552,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0368,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.115,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "forward-armor",
+      "shape": "loft",
+      "position": [
+        0,
+        0.19,
+        0.054
+      ],
+      "outline": [
+        [
+          -0.0475,
+          -0.2
+        ],
+        [
+          0.0475,
+          -0.2
+        ],
+        [
+          0.1275,
+          -0.12000000000000001
+        ],
+        [
+          0.1275,
+          0.12000000000000001
+        ],
+        [
+          0.0475,
+          0.2
+        ],
+        [
+          -0.0475,
+          0.2
+        ],
+        [
+          -0.1275,
+          0.12000000000000001
+        ],
+        [
+          -0.1275,
+          -0.12000000000000001
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.125,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.06,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.04,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.125,
+          "scale": [
+            0.71,
+            0.71
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "rear-armor",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.24,
+        0.055
+      ],
+      "outline": [
+        [
+          -0.0675,
+          -0.16
+        ],
+        [
+          0.0675,
+          -0.16
+        ],
+        [
+          0.1275,
+          -0.1
+        ],
+        [
+          0.1275,
+          0.1
+        ],
+        [
+          0.0675,
+          0.16
+        ],
+        [
+          -0.0675,
+          0.16
+        ],
+        [
+          -0.1275,
+          0.1
+        ],
+        [
+          -0.1275,
+          -0.1
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.12,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.0576,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0384,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.12,
+          "scale": [
+            0.8,
+            0.8
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "central-bridge",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.018,
+        0.107
+      ],
+      "outline": [
+        [
+          -0.095,
+          -0.05
+        ],
+        [
+          0.095,
+          -0.05
+        ],
+        [
+          0.115,
+          -0.030000000000000002
+        ],
+        [
+          0.115,
+          0.030000000000000002
+        ],
+        [
+          0.095,
+          0.05
+        ],
+        [
+          -0.095,
+          0.05
+        ],
+        [
+          -0.115,
+          0.030000000000000002
+        ],
+        [
+          -0.115,
+          -0.030000000000000002
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.055,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.0264,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0176,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.055,
+          "scale": [
+            0.8,
+            0.8
+          ]
+        }
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "forward-strip",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.19,
+        0.182
+      ],
+      "size": [
+        0.024,
+        0.2,
+        0.007
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "aft-strip",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.25,
+        0.179
+      ],
+      "size": [
+        0.022,
+        0.12,
+        0.007
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "front-wedge",
+      "shape": "loft",
+      "position": [
+        0,
+        0.394,
+        -0.01
+      ],
+      "outline": [
+        [
+          -0.045000000000000005,
+          -0.055
+        ],
+        [
+          0.045000000000000005,
+          -0.055
+        ],
+        [
+          0.085,
+          -0.015
+        ],
+        [
+          0.085,
+          0.015
+        ],
+        [
+          0.045000000000000005,
+          0.055
+        ],
+        [
+          -0.045000000000000005,
+          0.055
+        ],
+        [
+          -0.085,
+          0.015
+        ],
+        [
+          -0.085,
+          -0.015
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.07,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.033600000000000005,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.022400000000000003,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.07,
+          "scale": [
+            0.58,
+            0.58
+          ]
+        }
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "gill-bed--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.124,
+        -0.1,
+        0.025
+      ],
+      "size": [
+        0.012,
+        0.27,
+        0.105
+      ],
+      "radius": 0.002,
+      "material": "rubber"
+    },
+    {
+      "id": "gill--1-0",
+      "shape": "roundedBox",
+      "position": [
+        -0.133,
+        -0.2,
+        0.037
+      ],
+      "size": [
+        0.021,
+        0.017,
+        0.112
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0.3,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gill--1-1",
+      "shape": "roundedBox",
+      "position": [
+        -0.133,
+        -0.15100000000000002,
+        0.037
+      ],
+      "size": [
+        0.021,
+        0.017,
+        0.112
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0.3,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gill--1-2",
+      "shape": "roundedBox",
+      "position": [
+        -0.133,
+        -0.10200000000000001,
+        0.037
+      ],
+      "size": [
+        0.021,
+        0.017,
+        0.112
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0.3,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gill--1-3",
+      "shape": "roundedBox",
+      "position": [
+        -0.133,
+        -0.05299999999999999,
+        0.037
+      ],
+      "size": [
+        0.021,
+        0.017,
+        0.112
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0.3,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gill--1-4",
+      "shape": "roundedBox",
+      "position": [
+        -0.133,
+        -0.0040000000000000036,
+        0.037
+      ],
+      "size": [
+        0.021,
+        0.017,
+        0.112
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0.3,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gill-bed-1",
+      "shape": "roundedBox",
+      "position": [
+        0.124,
+        -0.1,
+        0.025
+      ],
+      "size": [
+        0.012,
+        0.27,
+        0.105
+      ],
+      "radius": 0.002,
+      "material": "rubber"
+    },
+    {
+      "id": "gill-1-0",
+      "shape": "roundedBox",
+      "position": [
+        0.133,
+        -0.2,
+        0.037
+      ],
+      "size": [
+        0.021,
+        0.017,
+        0.112
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0.3,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gill-1-1",
+      "shape": "roundedBox",
+      "position": [
+        0.133,
+        -0.15100000000000002,
+        0.037
+      ],
+      "size": [
+        0.021,
+        0.017,
+        0.112
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0.3,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gill-1-2",
+      "shape": "roundedBox",
+      "position": [
+        0.133,
+        -0.10200000000000001,
+        0.037
+      ],
+      "size": [
+        0.021,
+        0.017,
+        0.112
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0.3,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gill-1-3",
+      "shape": "roundedBox",
+      "position": [
+        0.133,
+        -0.05299999999999999,
+        0.037
+      ],
+      "size": [
+        0.021,
+        0.017,
+        0.112
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0.3,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "gill-1-4",
+      "shape": "roundedBox",
+      "position": [
+        0.133,
+        -0.0040000000000000036,
+        0.037
+      ],
+      "size": [
+        0.021,
+        0.017,
+        0.112
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0.3,
+        0,
+        0
+      ]
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "forward-strip",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    },
+    {
+      "id": "aft-strip",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "cheek-in",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P03.cheek-*"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.14350000000000002,
+      -0.425,
+      -0.115
+    ],
+    "max": [
+      0.14350000000000002,
+      0.449,
+      0.1855
+    ],
+    "size": [
+      0.28700000000000003,
+      0.874,
+      0.3005
+    ]
+  }
+}

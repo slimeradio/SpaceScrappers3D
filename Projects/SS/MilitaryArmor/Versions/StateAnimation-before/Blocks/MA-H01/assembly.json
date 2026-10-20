@@ -1,0 +1,299 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-H01",
+  "version": "2.0",
+  "title": "Радиатор 1×2 — визуальная заготовка",
+  "catalog_id": "radiator-1x2",
+  "catalog_grid": [
+    1,
+    2
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Collector",
+      "part_id": "MA-H01-R2-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-H01-R2-P01/MA-H01-R2-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-0",
+      "part_id": "MA-H01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-H01-R2-P02/MA-H01-R2-P02.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0,
+        -1.2,
+        0.27
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-1",
+      "part_id": "MA-H01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-H01-R2-P02/MA-H01-R2-P02.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0,
+        -0.8999999999999999,
+        0.27
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-2",
+      "part_id": "MA-H01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-H01-R2-P02/MA-H01-R2-P02.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0,
+        -0.6,
+        0.27
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-3",
+      "part_id": "MA-H01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-H01-R2-P02/MA-H01-R2-P02.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0,
+        -0.30000000000000004,
+        0.27
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-4",
+      "part_id": "MA-H01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-H01-R2-P02/MA-H01-R2-P02.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0,
+        0.0,
+        0.27
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-5",
+      "part_id": "MA-H01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-H01-R2-P02/MA-H01-R2-P02.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0,
+        0.30000000000000004,
+        0.27
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-6",
+      "part_id": "MA-H01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-H01-R2-P02/MA-H01-R2-P02.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0,
+        0.5999999999999999,
+        0.27
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-7",
+      "part_id": "MA-H01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-H01-R2-P02/MA-H01-R2-P02.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0,
+        0.9000000000000001,
+        0.27
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-8",
+      "part_id": "MA-H01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-H01-R2-P02/MA-H01-R2-P02.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0,
+        1.2,
+        0.27
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "Fin-0",
+      "child_instance": "Fin-0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "Fin-1",
+      "child_instance": "Fin-1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "Fin-2",
+      "child_instance": "Fin-2",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "Fin-3",
+      "child_instance": "Fin-3",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "Fin-4",
+      "child_instance": "Fin-4",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "Fin-5",
+      "child_instance": "Fin-5",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "Fin-6",
+      "child_instance": "Fin-6",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "Fin-7",
+      "child_instance": "Fin-7",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "Fin-8",
+      "child_instance": "Fin-8",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Радиатор: открытая гребёнка девяти высоких поперечных излучающих лопастей и узкий продольный коллектор. Зубчатый контур и глубокие сквозные промежутки отличают его от сплошного тонкого солнечного поля. Без эмиссии. Визуальная заготовка без игрового XML; параметры теплоотвода не задавались.",
+  "catalog_status": "visual concept; no game XML"
+}

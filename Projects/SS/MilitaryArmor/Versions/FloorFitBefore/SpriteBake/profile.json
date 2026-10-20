@@ -1,0 +1,3947 @@
+{
+  "schema": "SpriteBake.Profile/1",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "pilot": [
+    "MA-A01",
+    "MA-T01",
+    "MA-E01"
+  ],
+  "samples": 16,
+  "threads": 8,
+  "ao_samples": 8,
+  "ao_distance_bu": 0.15,
+  "padding_pixels": 4,
+  "emission_max": 4,
+  "max_image_size": 4096,
+  "material_roles": {
+    "Armor": "Color2",
+    "Ceramic": "Color1",
+    "Titanium": "Fixed",
+    "Steel": "Fixed",
+    "Dark": "Fixed",
+    "Mark": "Fixed",
+    "Warning": "Fixed",
+    "Photovoltaic": "Fixed",
+    "Thermal": "Fixed",
+    "Signal": "Emissive",
+    "Optic": "Emissive"
+  },
+  "blocks": {
+    "MA-A01": {
+      "assembly": "Blocks/MA-A01/assembly.json",
+      "source": "Blocks/MA-A01/MA-A01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        0.4
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "armor-shell"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-A02": {
+      "assembly": "Blocks/MA-A02/assembly.json",
+      "source": "Blocks/MA-A02/MA-A02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -0.5,
+        1.0,
+        0.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        0.4
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "armor-shell"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-A03": {
+      "assembly": "Blocks/MA-A03/assembly.json",
+      "source": "Blocks/MA-A03/MA-A03.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        0.4
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "shell"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-A04": {
+      "assembly": "Blocks/MA-A04/assembly.json",
+      "source": "Blocks/MA-A04/MA-A04.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.0,
+        0.5,
+        1.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        0.4
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "armor-shell"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-B01": {
+      "assembly": "Blocks/MA-B01/assembly.json",
+      "source": "Blocks/MA-B01/MA-B01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -2.0,
+        -2.0,
+        2.0,
+        2.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.3
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Structure",
+            "EnergyBlade0",
+            "EnergyBlade1",
+            "EnergyBlade2",
+            "EnergyBlade3",
+            "EnergyBlade4",
+            "EnergyBlade5",
+            "EnergyBlade6",
+            "FrontPowerBus",
+            "RearPowerBus"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-C01": {
+      "assembly": "Blocks/MA-C01/assembly.json",
+      "source": "Blocks/MA-C01/MA-C01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -0.5,
+        1.0,
+        0.5
+      ],
+      "height_range_bu": [
+        0.0,
+        1.1
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Backplane",
+            "ComputeBlade-0",
+            "ComputeBlade-1",
+            "ComputeBlade-2",
+            "ComputeBlade-3",
+            "ComputeBlade-4",
+            "ComputeBlade-5",
+            "Diagnostics"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-D01": {
+      "assembly": "Blocks/MA-D01/assembly.json",
+      "source": "Blocks/MA-D01/MA-D01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.5,
+        0.5,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.8
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "load-frame",
+            "reduction-drive",
+            "cutting-head"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-D02": {
+      "assembly": "Blocks/MA-D02/assembly.json",
+      "source": "Blocks/MA-D02/MA-D02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -1.5,
+        1.0,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.8
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "twin-load-frame",
+            "drive-left",
+            "cutter-left",
+            "drive-right",
+            "cutter-right"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-D03": {
+      "assembly": "Blocks/MA-D03/assembly.json",
+      "source": "Blocks/MA-D03/MA-D03.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.5,
+        -2.5,
+        1.5,
+        2.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.8
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "heavy-load-frame",
+            "drive-port",
+            "cutter-port",
+            "drive-center",
+            "cutter-center",
+            "drive-starboard",
+            "cutter-starboard"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-E01": {
+      "assembly": "Blocks/MA-E01/assembly.json",
+      "source": "Blocks/MA-E01/MA-E01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.0,
+        0.5,
+        1.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.1
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "HullCassette",
+            "Chamber",
+            "Nozzle",
+            "Thermal.R",
+            "Thermal.L",
+            "ServiceCartridge"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "work": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-E02": {
+      "assembly": "Blocks/MA-E02/assembly.json",
+      "source": "Blocks/MA-E02/MA-E02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.5,
+        -1.0,
+        1.5,
+        1.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        0.9
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "FuelManifold",
+            "Chamber0",
+            "Nozzle0",
+            "Chamber1",
+            "Nozzle1",
+            "Chamber2",
+            "Nozzle2",
+            "ServiceCartridge"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "work": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-EF01": {
+      "assembly": "Blocks/MA-EF01/assembly.json",
+      "source": "Blocks/MA-EF01/MA-EF01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -1.5,
+        1.0,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        2.0
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "PressureHousing",
+            "ExpansionBell",
+            "ServiceCartridge"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "work": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-EF02": {
+      "assembly": "Blocks/MA-EF02/assembly.json",
+      "source": "Blocks/MA-EF02/MA-EF02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.0,
+        0.5,
+        1.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.1
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "PressureHousing",
+            "ExpansionBell",
+            "ServiceCartridge"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "work": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-EF03": {
+      "assembly": "Blocks/MA-EF03/assembly.json",
+      "source": "Blocks/MA-EF03/MA-EF03.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.5,
+        -2.0,
+        1.5,
+        2.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        2.1
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "TwinPressureHousing",
+            "ExpansionBellL",
+            "ExpansionBellR",
+            "ServiceCartridge"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "work": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-EF04": {
+      "assembly": "Blocks/MA-EF04/assembly.json",
+      "source": "Blocks/MA-EF04/MA-EF04.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -2.0,
+        -3.0,
+        2.0,
+        3.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        4.0
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "TriplePressureHousing",
+            "ExpansionBellL",
+            "ExpansionBellR",
+            "ExpansionBellU",
+            "ServiceCartridge"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "work": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-EI01": {
+      "assembly": "Blocks/MA-EI01/assembly.json",
+      "source": "Blocks/MA-EI01/MA-EI01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -1.5,
+        1.0,
+        1.5
+      ],
+      "height_range_bu": [
+        0.0,
+        1.9
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "SplitPowerHousing",
+            "ElectrodeAperture",
+            "ServiceCartridge"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "work": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-EI02": {
+      "assembly": "Blocks/MA-EI02/assembly.json",
+      "source": "Blocks/MA-EI02/MA-EI02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.5,
+        -2.0,
+        1.5,
+        2.0
+      ],
+      "height_range_bu": [
+        0.0,
+        3.6
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "SplitPowerHousing",
+            "ElectrodeApertureLow",
+            "ElectrodeApertureHigh",
+            "ServiceCartridge"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "work": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-EI03": {
+      "assembly": "Blocks/MA-EI03/assembly.json",
+      "source": "Blocks/MA-EI03/MA-EI03.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.0,
+        0.5,
+        1.0
+      ],
+      "height_range_bu": [
+        0.0,
+        1.8
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "CompactPowerHousing",
+            "ElectrodeAperture",
+            "ServiceCartridge"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "work": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-EI04": {
+      "assembly": "Blocks/MA-EI04/assembly.json",
+      "source": "Blocks/MA-EI04/MA-EI04.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -2.0,
+        -3.0,
+        2.0,
+        3.0
+      ],
+      "height_range_bu": [
+        0.0,
+        3.8
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "OpenPowerTract",
+            "ElectrodeLeftLow",
+            "ElectrodeRightLow",
+            "ElectrodeLeftHigh",
+            "ElectrodeRightHigh",
+            "ServiceCartridge"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "work": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-F01": {
+      "assembly": "Blocks/MA-F01/assembly.json",
+      "source": "Blocks/MA-F01/MA-F01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -0.5,
+        1.0,
+        0.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.4
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "ProductionBed",
+            "ProcessChamber",
+            "TechnologicalBridge"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-F02": {
+      "assembly": "Blocks/MA-F02/assembly.json",
+      "source": "Blocks/MA-F02/MA-F02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -0.5,
+        1.0,
+        0.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.4
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "ProductionBed",
+            "ProcessChamber",
+            "TechnologicalBridge",
+            "BaseServiceTower"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-FF01": {
+      "assembly": "Blocks/MA-FF01/assembly.json",
+      "source": "Blocks/MA-FF01/MA-FF01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.5,
+        -2.5,
+        1.5,
+        2.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        3.1
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "LineStructure",
+            "TallWorkingStage",
+            "CrossProcessChamber",
+            "FinalProcessDrum",
+            "FrontTransferHead",
+            "RearTransferHead",
+            "ShieldedRouting"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-FG01": {
+      "assembly": "Blocks/MA-FG01/assembly.json",
+      "source": "Blocks/MA-FG01/MA-FG01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.5,
+        -1.5,
+        1.5,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.7
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Structure",
+            "MainMachineDrum",
+            "ForwardPump",
+            "RearPump",
+            "ProtectedTransferLines"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-FT01": {
+      "assembly": "Blocks/MA-FT01/assembly.json",
+      "source": "Blocks/MA-FT01/MA-FT01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.0,
+        0.5,
+        1.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.5
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Frame",
+            "Vessel",
+            "Hoop-front",
+            "Hoop-rear",
+            "Service"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-FT02": {
+      "assembly": "Blocks/MA-FT02/assembly.json",
+      "source": "Blocks/MA-FT02/MA-FT02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -1.0,
+        1.0,
+        1.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.5
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Structure",
+            "leftVessel",
+            "leftHoopfront",
+            "leftHooprear",
+            "rightVessel",
+            "rightHoopfront",
+            "rightHooprear"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-FT03": {
+      "assembly": "Blocks/MA-FT03/assembly.json",
+      "source": "Blocks/MA-FT03/MA-FT03.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.5,
+        -1.5,
+        1.5,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.5
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "CradleAndTransferHeader",
+            "Vessel-L0-R0",
+            "Vessel-L0-R0-Hoop-front",
+            "Vessel-L0-R0-Hoop-rear",
+            "Vessel-L0-R1",
+            "Vessel-L0-R1-Hoop-front",
+            "Vessel-L0-R1-Hoop-rear",
+            "Vessel-L1-R0",
+            "Vessel-L1-R0-Hoop-front",
+            "Vessel-L1-R0-Hoop-rear",
+            "Vessel-L1-R1",
+            "Vessel-L1-R1-Hoop-front",
+            "Vessel-L1-R1-Hoop-rear",
+            "Vessel-L2-R0",
+            "Vessel-L2-R0-Hoop-front",
+            "Vessel-L2-R0-Hoop-rear",
+            "Vessel-L2-R1",
+            "Vessel-L2-R1-Hoop-front",
+            "Vessel-L2-R1-Hoop-rear"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-FT04": {
+      "assembly": "Blocks/MA-FT04/assembly.json",
+      "source": "Blocks/MA-FT04/MA-FT04.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -2.0,
+        -2.0,
+        2.0,
+        2.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.5
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "CradleAndTransferHeader",
+            "Vessel-L0-R0",
+            "Vessel-L0-R0-Hoop-front",
+            "Vessel-L0-R0-Hoop-rear",
+            "Vessel-L0-R1",
+            "Vessel-L0-R1-Hoop-front",
+            "Vessel-L0-R1-Hoop-rear",
+            "Vessel-L1-R0",
+            "Vessel-L1-R0-Hoop-front",
+            "Vessel-L1-R0-Hoop-rear",
+            "Vessel-L1-R1",
+            "Vessel-L1-R1-Hoop-front",
+            "Vessel-L1-R1-Hoop-rear",
+            "Vessel-L2-R0",
+            "Vessel-L2-R0-Hoop-front",
+            "Vessel-L2-R0-Hoop-rear",
+            "Vessel-L2-R1",
+            "Vessel-L2-R1-Hoop-front",
+            "Vessel-L2-R1-Hoop-rear",
+            "Vessel-L3-R0",
+            "Vessel-L3-R0-Hoop-front",
+            "Vessel-L3-R0-Hoop-rear",
+            "Vessel-L3-R1",
+            "Vessel-L3-R1-Hoop-front",
+            "Vessel-L3-R1-Hoop-rear"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-G01": {
+      "assembly": "Blocks/MA-G01/assembly.json",
+      "source": "Blocks/MA-G01/MA-G01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.2
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Foundation",
+            "Portal",
+            "Housing",
+            "Diagnostic"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-G02": {
+      "assembly": "Blocks/MA-G02/assembly.json",
+      "source": "Blocks/MA-G02/MA-G02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.8
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Foundation",
+            "Portal",
+            "BaseSuperstructure",
+            "ShipyardBridge",
+            "Diagnostic"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-H01": {
+      "assembly": "Blocks/MA-H01/assembly.json",
+      "source": "Blocks/MA-H01/MA-H01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.0,
+        0.5,
+        1.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        0.7
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Collector",
+            "Fin-0.L",
+            "Fin-0.R",
+            "Fin-1.L",
+            "Fin-1.R",
+            "Fin-2.L",
+            "Fin-2.R",
+            "Fin-3.L",
+            "Fin-3.R",
+            "Fin-4.L",
+            "Fin-4.R",
+            "Fin-5.L",
+            "Fin-5.R",
+            "Fin-6.L",
+            "Fin-6.R",
+            "Fin-7.L",
+            "Fin-7.R",
+            "Fin-8.L",
+            "Fin-8.R"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-H02": {
+      "assembly": "Blocks/MA-H02/assembly.json",
+      "source": "Blocks/MA-H02/MA-H02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -1.5,
+        1.0,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        0.7
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "DualCollector",
+            "RadiatingBlade-B0-0.L",
+            "RadiatingBlade-B0-0.R",
+            "RadiatingBlade-B0-1.L",
+            "RadiatingBlade-B0-1.R",
+            "RadiatingBlade-B0-2.L",
+            "RadiatingBlade-B0-2.R",
+            "RadiatingBlade-B0-3.L",
+            "RadiatingBlade-B0-3.R",
+            "RadiatingBlade-B0-4.L",
+            "RadiatingBlade-B0-4.R",
+            "RadiatingBlade-B0-5.L",
+            "RadiatingBlade-B0-5.R",
+            "RadiatingBlade-B0-6.L",
+            "RadiatingBlade-B0-6.R",
+            "RadiatingBlade-B0-7.L",
+            "RadiatingBlade-B0-7.R",
+            "RadiatingBlade-B0-8.L",
+            "RadiatingBlade-B0-8.R",
+            "RadiatingBlade-B0-9.L",
+            "RadiatingBlade-B0-9.R",
+            "RadiatingBlade-B0-10.L",
+            "RadiatingBlade-B0-10.R",
+            "RadiatingBlade-B0-11.L",
+            "RadiatingBlade-B0-11.R",
+            "RadiatingBlade-B0-12.L",
+            "RadiatingBlade-B0-12.R",
+            "RadiatingBlade-B0-13.L",
+            "RadiatingBlade-B0-13.R",
+            "RadiatingBlade-B0-14.L",
+            "RadiatingBlade-B0-14.R",
+            "RadiatingBlade-B1-0.L",
+            "RadiatingBlade-B1-0.R",
+            "RadiatingBlade-B1-1.L",
+            "RadiatingBlade-B1-1.R",
+            "RadiatingBlade-B1-2.L",
+            "RadiatingBlade-B1-2.R",
+            "RadiatingBlade-B1-3.L",
+            "RadiatingBlade-B1-3.R",
+            "RadiatingBlade-B1-4.L",
+            "RadiatingBlade-B1-4.R",
+            "RadiatingBlade-B1-5.L",
+            "RadiatingBlade-B1-5.R",
+            "RadiatingBlade-B1-6.L",
+            "RadiatingBlade-B1-6.R",
+            "RadiatingBlade-B1-7.L",
+            "RadiatingBlade-B1-7.R",
+            "RadiatingBlade-B1-8.L",
+            "RadiatingBlade-B1-8.R",
+            "RadiatingBlade-B1-9.L",
+            "RadiatingBlade-B1-9.R",
+            "RadiatingBlade-B1-10.L",
+            "RadiatingBlade-B1-10.R",
+            "RadiatingBlade-B1-11.L",
+            "RadiatingBlade-B1-11.R",
+            "RadiatingBlade-B1-12.L",
+            "RadiatingBlade-B1-12.R",
+            "RadiatingBlade-B1-13.L",
+            "RadiatingBlade-B1-13.R",
+            "RadiatingBlade-B1-14.L",
+            "RadiatingBlade-B1-14.R"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-H03": {
+      "assembly": "Blocks/MA-H03/assembly.json",
+      "source": "Blocks/MA-H03/MA-H03.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.5,
+        -2.5,
+        1.5,
+        2.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        0.7
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "TripleCollector",
+            "RadiatingBlade-B0-0.L",
+            "RadiatingBlade-B0-0.R",
+            "RadiatingBlade-B0-1.L",
+            "RadiatingBlade-B0-1.R",
+            "RadiatingBlade-B0-2.L",
+            "RadiatingBlade-B0-2.R",
+            "RadiatingBlade-B0-3.L",
+            "RadiatingBlade-B0-3.R",
+            "RadiatingBlade-B0-4.L",
+            "RadiatingBlade-B0-4.R",
+            "RadiatingBlade-B0-5.L",
+            "RadiatingBlade-B0-5.R",
+            "RadiatingBlade-B0-6.L",
+            "RadiatingBlade-B0-6.R",
+            "RadiatingBlade-B0-7.L",
+            "RadiatingBlade-B0-7.R",
+            "RadiatingBlade-B0-8.L",
+            "RadiatingBlade-B0-8.R",
+            "RadiatingBlade-B0-9.L",
+            "RadiatingBlade-B0-9.R",
+            "RadiatingBlade-B0-10.L",
+            "RadiatingBlade-B0-10.R",
+            "RadiatingBlade-B0-11.L",
+            "RadiatingBlade-B0-11.R",
+            "RadiatingBlade-B0-12.L",
+            "RadiatingBlade-B0-12.R",
+            "RadiatingBlade-B0-13.L",
+            "RadiatingBlade-B0-13.R",
+            "RadiatingBlade-B0-14.L",
+            "RadiatingBlade-B0-14.R",
+            "RadiatingBlade-B0-15.L",
+            "RadiatingBlade-B0-15.R",
+            "RadiatingBlade-B0-16.L",
+            "RadiatingBlade-B0-16.R",
+            "RadiatingBlade-B0-17.L",
+            "RadiatingBlade-B0-17.R",
+            "RadiatingBlade-B0-18.L",
+            "RadiatingBlade-B0-18.R",
+            "RadiatingBlade-B0-19.L",
+            "RadiatingBlade-B0-19.R",
+            "RadiatingBlade-B0-20.L",
+            "RadiatingBlade-B0-20.R",
+            "RadiatingBlade-B1-0.L",
+            "RadiatingBlade-B1-0.R",
+            "RadiatingBlade-B1-1.L",
+            "RadiatingBlade-B1-1.R",
+            "RadiatingBlade-B1-2.L",
+            "RadiatingBlade-B1-2.R",
+            "RadiatingBlade-B1-3.L",
+            "RadiatingBlade-B1-3.R",
+            "RadiatingBlade-B1-4.L",
+            "RadiatingBlade-B1-4.R",
+            "RadiatingBlade-B1-5.L",
+            "RadiatingBlade-B1-5.R",
+            "RadiatingBlade-B1-6.L",
+            "RadiatingBlade-B1-6.R",
+            "RadiatingBlade-B1-7.L",
+            "RadiatingBlade-B1-7.R",
+            "RadiatingBlade-B1-8.L",
+            "RadiatingBlade-B1-8.R",
+            "RadiatingBlade-B1-9.L",
+            "RadiatingBlade-B1-9.R",
+            "RadiatingBlade-B1-10.L",
+            "RadiatingBlade-B1-10.R",
+            "RadiatingBlade-B1-11.L",
+            "RadiatingBlade-B1-11.R",
+            "RadiatingBlade-B1-12.L",
+            "RadiatingBlade-B1-12.R",
+            "RadiatingBlade-B1-13.L",
+            "RadiatingBlade-B1-13.R",
+            "RadiatingBlade-B1-14.L",
+            "RadiatingBlade-B1-14.R",
+            "RadiatingBlade-B1-15.L",
+            "RadiatingBlade-B1-15.R",
+            "RadiatingBlade-B1-16.L",
+            "RadiatingBlade-B1-16.R",
+            "RadiatingBlade-B1-17.L",
+            "RadiatingBlade-B1-17.R",
+            "RadiatingBlade-B1-18.L",
+            "RadiatingBlade-B1-18.R",
+            "RadiatingBlade-B1-19.L",
+            "RadiatingBlade-B1-19.R",
+            "RadiatingBlade-B1-20.L",
+            "RadiatingBlade-B1-20.R",
+            "RadiatingBlade-B1-21.L",
+            "RadiatingBlade-B1-21.R",
+            "RadiatingBlade-B1-22.L",
+            "RadiatingBlade-B1-22.R",
+            "RadiatingBlade-B1-23.L",
+            "RadiatingBlade-B1-23.R",
+            "RadiatingBlade-B2-0.L",
+            "RadiatingBlade-B2-0.R",
+            "RadiatingBlade-B2-1.L",
+            "RadiatingBlade-B2-1.R",
+            "RadiatingBlade-B2-2.L",
+            "RadiatingBlade-B2-2.R",
+            "RadiatingBlade-B2-3.L",
+            "RadiatingBlade-B2-3.R",
+            "RadiatingBlade-B2-4.L",
+            "RadiatingBlade-B2-4.R",
+            "RadiatingBlade-B2-5.L",
+            "RadiatingBlade-B2-5.R",
+            "RadiatingBlade-B2-6.L",
+            "RadiatingBlade-B2-6.R",
+            "RadiatingBlade-B2-7.L",
+            "RadiatingBlade-B2-7.R",
+            "RadiatingBlade-B2-8.L",
+            "RadiatingBlade-B2-8.R",
+            "RadiatingBlade-B2-9.L",
+            "RadiatingBlade-B2-9.R",
+            "RadiatingBlade-B2-10.L",
+            "RadiatingBlade-B2-10.R",
+            "RadiatingBlade-B2-11.L",
+            "RadiatingBlade-B2-11.R",
+            "RadiatingBlade-B2-12.L",
+            "RadiatingBlade-B2-12.R",
+            "RadiatingBlade-B2-13.L",
+            "RadiatingBlade-B2-13.R",
+            "RadiatingBlade-B2-14.L",
+            "RadiatingBlade-B2-14.R",
+            "RadiatingBlade-B2-15.L",
+            "RadiatingBlade-B2-15.R",
+            "RadiatingBlade-B2-16.L",
+            "RadiatingBlade-B2-16.R",
+            "RadiatingBlade-B2-17.L",
+            "RadiatingBlade-B2-17.R",
+            "RadiatingBlade-B2-18.L",
+            "RadiatingBlade-B2-18.R",
+            "RadiatingBlade-B2-19.L",
+            "RadiatingBlade-B2-19.R",
+            "RadiatingBlade-B2-20.L",
+            "RadiatingBlade-B2-20.R"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-HS01": {
+      "assembly": "Blocks/MA-HS01/assembly.json",
+      "source": "Blocks/MA-HS01/MA-HS01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.7
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "ThermalBed",
+            "ThermalSection-0",
+            "ThermalSection-1",
+            "ThermalSection-2",
+            "HeatCollector"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-HS02": {
+      "assembly": "Blocks/MA-HS02/assembly.json",
+      "source": "Blocks/MA-HS02/MA-HS02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -1.0,
+        1.0,
+        1.0
+      ],
+      "height_range_bu": [
+        0.0,
+        1.7
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "DualThermalBed",
+            "ThermalRing-B0-0",
+            "ThermalRing-B0-1",
+            "ThermalRing-B0-2",
+            "ThermalRing-B0-3",
+            "ThermalRing-B0-4",
+            "ThermalRing-B1-0",
+            "ThermalRing-B1-1",
+            "ThermalRing-B1-2",
+            "ThermalRing-B1-3",
+            "ThermalRing-B1-4",
+            "DualCollector"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-HS03": {
+      "assembly": "Blocks/MA-HS03/assembly.json",
+      "source": "Blocks/MA-HS03/MA-HS03.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.5,
+        -1.5,
+        1.5,
+        1.5
+      ],
+      "height_range_bu": [
+        0.0,
+        2.0
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "TripleThermalBed",
+            "ThermalRing-B0-0",
+            "ThermalRing-B0-1",
+            "ThermalRing-B0-2",
+            "ThermalRing-B0-3",
+            "ThermalRing-B0-4",
+            "ThermalRing-B0-5",
+            "ThermalRing-B0-6",
+            "ThermalRing-B0-7",
+            "ThermalRing-B1-0",
+            "ThermalRing-B1-1",
+            "ThermalRing-B1-2",
+            "ThermalRing-B1-3",
+            "ThermalRing-B1-4",
+            "ThermalRing-B1-5",
+            "ThermalRing-B1-6",
+            "ThermalRing-B1-7",
+            "ThermalRing-B2-0",
+            "ThermalRing-B2-1",
+            "ThermalRing-B2-2",
+            "ThermalRing-B2-3",
+            "ThermalRing-B2-4",
+            "ThermalRing-B2-5",
+            "ThermalRing-B2-6",
+            "ThermalRing-B2-7",
+            "TripleCollector"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-HS04": {
+      "assembly": "Blocks/MA-HS04/assembly.json",
+      "source": "Blocks/MA-HS04/MA-HS04.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -2.0,
+        -2.0,
+        2.0,
+        2.0
+      ],
+      "height_range_bu": [
+        0.0,
+        2.0
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "QuadThermalBed",
+            "ThermalRing-B0-0",
+            "ThermalRing-B0-1",
+            "ThermalRing-B0-2",
+            "ThermalRing-B0-3",
+            "ThermalRing-B0-4",
+            "ThermalRing-B0-5",
+            "ThermalRing-B0-6",
+            "ThermalRing-B0-7",
+            "ThermalRing-B0-8",
+            "ThermalRing-B0-9",
+            "ThermalRing-B0-10",
+            "ThermalRing-B0-11",
+            "ThermalRing-B1-0",
+            "ThermalRing-B1-1",
+            "ThermalRing-B1-2",
+            "ThermalRing-B1-3",
+            "ThermalRing-B1-4",
+            "ThermalRing-B1-5",
+            "ThermalRing-B1-6",
+            "ThermalRing-B1-7",
+            "ThermalRing-B1-8",
+            "ThermalRing-B1-9",
+            "ThermalRing-B1-10",
+            "ThermalRing-B1-11",
+            "ThermalRing-B2-0",
+            "ThermalRing-B2-1",
+            "ThermalRing-B2-2",
+            "ThermalRing-B2-3",
+            "ThermalRing-B2-4",
+            "ThermalRing-B2-5",
+            "ThermalRing-B2-6",
+            "ThermalRing-B2-7",
+            "ThermalRing-B2-8",
+            "ThermalRing-B2-9",
+            "ThermalRing-B2-10",
+            "ThermalRing-B2-11",
+            "ThermalRing-B3-0",
+            "ThermalRing-B3-1",
+            "ThermalRing-B3-2",
+            "ThermalRing-B3-3",
+            "ThermalRing-B3-4",
+            "ThermalRing-B3-5",
+            "ThermalRing-B3-6",
+            "ThermalRing-B3-7",
+            "ThermalRing-B3-8",
+            "ThermalRing-B3-9",
+            "ThermalRing-B3-10",
+            "ThermalRing-B3-11",
+            "QuadCollector"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-I01": {
+      "assembly": "Blocks/MA-I01/assembly.json",
+      "source": "Blocks/MA-I01/MA-I01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -0.5,
+        1.0,
+        0.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.4
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Structure",
+            "LoadingHatch",
+            "FrontCargoRail",
+            "RearCargoRail"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-I02": {
+      "assembly": "Blocks/MA-I02/assembly.json",
+      "source": "Blocks/MA-I02/MA-I02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -1.0,
+        1.0,
+        1.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.6
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Structure",
+            "LoadingHatchF",
+            "LoadingHatchB",
+            "CargoRailF",
+            "CargoRailB"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-I03": {
+      "assembly": "Blocks/MA-I03/assembly.json",
+      "source": "Blocks/MA-I03/MA-I03.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.5,
+        -1.5,
+        1.5,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        2.1
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Structure",
+            "LoadingHatchF",
+            "LoadingHatchM",
+            "LoadingHatchB",
+            "CargoRailF",
+            "CargoRailB"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-I04": {
+      "assembly": "Blocks/MA-I04/assembly.json",
+      "source": "Blocks/MA-I04/MA-I04.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -2.0,
+        -2.0,
+        2.0,
+        2.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        2.5
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Structure",
+            "LoadingHatchL0",
+            "LoadingHatchL1",
+            "LoadingHatchL2",
+            "LoadingHatchR0",
+            "LoadingHatchR1",
+            "LoadingHatchR2",
+            "CargoRailF",
+            "CargoRailB"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-I05": {
+      "assembly": "Blocks/MA-I05/assembly.json",
+      "source": "Blocks/MA-I05/MA-I05.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -2.5,
+        -2.5,
+        2.5,
+        2.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        3.0
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Structure",
+            "LoadingHatchL0",
+            "LoadingHatchL1",
+            "LoadingHatchL2",
+            "LoadingHatchL3",
+            "LoadingHatchR0",
+            "LoadingHatchR1",
+            "LoadingHatchR2",
+            "LoadingHatchR3",
+            "CargoRailLF",
+            "CargoRailLB",
+            "CargoRailRF",
+            "CargoRailRB"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-L01": {
+      "assembly": "Blocks/MA-L01/assembly.json",
+      "source": "Blocks/MA-L01/MA-L01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.6
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Deck",
+            "Shell",
+            "FrontCollar",
+            "RearCollar"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-M01": {
+      "assembly": "Blocks/MA-M01/assembly.json",
+      "source": "Blocks/MA-M01/MA-M01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.5,
+        0.5,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.7
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Chassis",
+            "Optic",
+            "LeftThermal",
+            "RightThermal",
+            "Service"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-M02": {
+      "assembly": "Blocks/MA-M02/assembly.json",
+      "source": "Blocks/MA-M02/MA-M02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.5,
+        0.5,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.6
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Chassis",
+            "OpticCell0",
+            "OpticCell1",
+            "OpticCell2",
+            "Aperture",
+            "Cooling0",
+            "Cooling1",
+            "Service"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-N01": {
+      "assembly": "Blocks/MA-N01/assembly.json",
+      "source": "Blocks/MA-N01/MA-N01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.5
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Chassis",
+            "Support",
+            "Aperture",
+            "Service"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-R01": {
+      "assembly": "Blocks/MA-R01/assembly.json",
+      "source": "Blocks/MA-R01/MA-R01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -2.0,
+        -2.0,
+        2.0,
+        2.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        2.0
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Foundation",
+            "Core",
+            "Shield0",
+            "Thermal0",
+            "Shield1",
+            "Thermal1",
+            "Shield2",
+            "Thermal2",
+            "Shield3",
+            "Thermal3",
+            "Service"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-S01": {
+      "assembly": "Blocks/MA-S01/assembly.json",
+      "source": "Blocks/MA-S01/MA-S01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "height_range_bu": [
+        0.0,
+        1.0
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "TradeRoutingFrame",
+            "TransactionCore",
+            "PortLeft",
+            "PortRight",
+            "PortRear",
+            "ServiceCollector"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-SP01": {
+      "assembly": "Blocks/MA-SP01/assembly.json",
+      "source": "Blocks/MA-SP01/MA-SP01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.0,
+        0.5,
+        1.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        0.5
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Solar-truss",
+            "Photovoltaic-field"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-SP02": {
+      "assembly": "Blocks/MA-SP02/assembly.json",
+      "source": "Blocks/MA-SP02/MA-SP02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -1.5,
+        1.0,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        0.5
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "WidePVField",
+            "SupportQuadrant-0",
+            "SupportQuadrant-1"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-SP03": {
+      "assembly": "Blocks/MA-SP03/assembly.json",
+      "source": "Blocks/MA-SP03/MA-SP03.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.5,
+        -2.5,
+        1.5,
+        2.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        0.5
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "LargePVField",
+            "Support-0",
+            "Support-1",
+            "Support-2",
+            "Support-3",
+            "Support-4",
+            "Support-5"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-SP04": {
+      "assembly": "Blocks/MA-SP04/assembly.json",
+      "source": "Blocks/MA-SP04/MA-SP04.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -2.0,
+        -3.0,
+        2.0,
+        3.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        0.5
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "LargePVField",
+            "Support-0",
+            "Support-1",
+            "Support-2",
+            "Support-3",
+            "Support-4",
+            "Support-5"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {},
+      "use_author_animation": false
+    },
+    "MA-T01": {
+      "assembly": "Blocks/MA-T01/assembly.json",
+      "source": "Blocks/MA-T01/MA-T01.blend",
+      "bu_per_cell": 2.4,
+      "footprint_bu": [
+        -2.4,
+        -3.5999999999999996,
+        2.4,
+        3.5999999999999996
+      ],
+      "height_range_bu": [
+        -0.1,
+        3.3
+      ],
+      "layers": [
+        {
+          "id": "base",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Foundation",
+            "TieDown.-1.52.-1.05",
+            "TieDown.-1.52.1.05",
+            "TieDown.1.52.-1.05",
+            "TieDown.1.52.1.05"
+          ]
+        },
+        {
+          "id": "turret",
+          "draw_order": 1,
+          "rotates": true,
+          "pivot_bu": [
+            0.0,
+            0.0
+          ],
+          "instances": [
+            "Bearing",
+            "TurretArmor",
+            "Mantlet",
+            "Barrel.L",
+            "Barrel.R",
+            "RoofHatch",
+            "RoofOptics"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "fire": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-W01": {
+      "assembly": "Blocks/MA-W01/assembly.json",
+      "source": "Blocks/MA-W01/MA-W01.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -2.0,
+        -2.0,
+        2.0,
+        2.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        3.2
+      ],
+      "layers": [
+        {
+          "id": "base",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Foundation"
+          ]
+        },
+        {
+          "id": "turret",
+          "draw_order": 1,
+          "rotates": true,
+          "pivot_bu": [
+            0.0,
+            0.0
+          ],
+          "instances": [
+            "AzimuthDrive",
+            "Capsule",
+            "TripleCradle",
+            "Accelerator0",
+            "Accelerator1",
+            "Accelerator2",
+            "ServiceCartridge",
+            "LidarBlade"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "fire": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-W02": {
+      "assembly": "Blocks/MA-W02/assembly.json",
+      "source": "Blocks/MA-W02/MA-W02.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.5,
+        0.5,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        2.9
+      ],
+      "layers": [
+        {
+          "id": "base",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "LaserFoundation",
+            "ServiceCartridge"
+          ]
+        },
+        {
+          "id": "turret",
+          "draw_order": 1,
+          "rotates": true,
+          "pivot_bu": [
+            0.0,
+            -0.41999998688697815
+          ],
+          "instances": [
+            "OpticalFork",
+            "OpticalChamber",
+            "ContinuousEmitter",
+            "LeftRadiator",
+            "RightRadiator",
+            "LidarBlade"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "fire": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-W03": {
+      "assembly": "Blocks/MA-W03/assembly.json",
+      "source": "Blocks/MA-W03/MA-W03.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -1.0,
+        1.0,
+        1.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.9
+      ],
+      "layers": [
+        {
+          "id": "base",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Foundation"
+          ]
+        },
+        {
+          "id": "turret",
+          "draw_order": 1,
+          "rotates": true,
+          "pivot_bu": [
+            0.0,
+            0.0
+          ],
+          "instances": [
+            "Receiver",
+            "ElevationBridge",
+            "BarrelLeft",
+            "BarrelRight",
+            "ServiceCartridge",
+            "Lidar"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "fire": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-W04": {
+      "assembly": "Blocks/MA-W04/assembly.json",
+      "source": "Blocks/MA-W04/MA-W04.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.5,
+        -1.5,
+        1.5,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        2.4
+      ],
+      "layers": [
+        {
+          "id": "base",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "DiamondFoundation"
+          ]
+        },
+        {
+          "id": "turret",
+          "draw_order": 1,
+          "rotates": true,
+          "pivot_bu": [
+            0.0,
+            0.0
+          ],
+          "instances": [
+            "LaunchSpine",
+            "TransverseBeam",
+            "LaunchCell0",
+            "LaunchCell1",
+            "LaunchCell2",
+            "LaunchCell3",
+            "Lidar",
+            "ServiceCartridge"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "fire": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-W05": {
+      "assembly": "Blocks/MA-W05/assembly.json",
+      "source": "Blocks/MA-W05/MA-W05.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -1.0,
+        -0.5,
+        1.0,
+        0.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        2.3
+      ],
+      "layers": [
+        {
+          "id": "base",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Hardpoint"
+          ]
+        },
+        {
+          "id": "turret",
+          "draw_order": 1,
+          "rotates": true,
+          "pivot_bu": [
+            0.0,
+            0.0
+          ],
+          "instances": [
+            "FanCradle",
+            "ScatterAperture",
+            "LeftFeed",
+            "RightFeed",
+            "Service",
+            "Lidar"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "fire": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-W06": {
+      "assembly": "Blocks/MA-W06/assembly.json",
+      "source": "Blocks/MA-W06/MA-W06.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.0,
+        0.5,
+        1.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        2.5
+      ],
+      "layers": [
+        {
+          "id": "base",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Hardpoint"
+          ]
+        },
+        {
+          "id": "turret",
+          "draw_order": 1,
+          "rotates": true,
+          "pivot_bu": [
+            0.0,
+            0.0
+          ],
+          "instances": [
+            "SpearCradle",
+            "SplitRail",
+            "AftCapacitor",
+            "Service",
+            "Lidar"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "fire": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-W07": {
+      "assembly": "Blocks/MA-W07/assembly.json",
+      "source": "Blocks/MA-W07/MA-W07.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -0.5,
+        0.5,
+        0.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.8
+      ],
+      "layers": [
+        {
+          "id": "base",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Pedestal"
+          ]
+        },
+        {
+          "id": "turret",
+          "draw_order": 1,
+          "rotates": true,
+          "pivot_bu": [
+            0.0,
+            0.0
+          ],
+          "instances": [
+            "TrackingSaddle",
+            "SingleMachinegun",
+            "ServiceCartridge"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "fire": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-W08": {
+      "assembly": "Blocks/MA-W08/assembly.json",
+      "source": "Blocks/MA-W08/MA-W08.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.5,
+        0.5,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        2.2
+      ],
+      "layers": [
+        {
+          "id": "base",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "HullKeel"
+          ]
+        },
+        {
+          "id": "turret",
+          "draw_order": 1,
+          "rotates": true,
+          "pivot_bu": [
+            0.0,
+            0.46000000834465027
+          ],
+          "instances": [
+            "SingleLauncher",
+            "SpareLeft",
+            "SpareRight",
+            "Service",
+            "Lidar"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "fire": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-W09": {
+      "assembly": "Blocks/MA-W09/assembly.json",
+      "source": "Blocks/MA-W09/MA-W09.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.0,
+        0.5,
+        1.0
+      ],
+      "height_range_bu": [
+        -0.1,
+        2.6
+      ],
+      "layers": [
+        {
+          "id": "base",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "Hardpoint"
+          ]
+        },
+        {
+          "id": "turret",
+          "draw_order": 1,
+          "rotates": true,
+          "pivot_bu": [
+            0.0,
+            0.0
+          ],
+          "instances": [
+            "Cradle",
+            "Gun",
+            "Magazine",
+            "Optic"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "fire": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-W10": {
+      "assembly": "Blocks/MA-W10/assembly.json",
+      "source": "Blocks/MA-W10/MA-W10.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.5,
+        0.5,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        2.4
+      ],
+      "layers": [
+        {
+          "id": "base",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "LaserFoundation",
+            "ServiceCartridge"
+          ]
+        },
+        {
+          "id": "turret",
+          "draw_order": 1,
+          "rotates": true,
+          "pivot_bu": [
+            0.0,
+            -0.41999998688697815
+          ],
+          "instances": [
+            "PulseFork",
+            "OpticalBench",
+            "FocusAperture",
+            "PulseFeed"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "fire": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-W11": {
+      "assembly": "Blocks/MA-W11/assembly.json",
+      "source": "Blocks/MA-W11/MA-W11.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.5,
+        0.5,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        1.7
+      ],
+      "layers": [
+        {
+          "id": "body",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "FixedFrame",
+            "FixedLauncher",
+            "ReserveLeft",
+            "ReserveRight",
+            "Service"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "fire": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    },
+    "MA-W12": {
+      "assembly": "Blocks/MA-W12/assembly.json",
+      "source": "Blocks/MA-W12/MA-W12.blend",
+      "bu_per_cell": 1.0,
+      "footprint_bu": [
+        -0.5,
+        -1.5,
+        0.5,
+        1.5
+      ],
+      "height_range_bu": [
+        -0.1,
+        2.9
+      ],
+      "layers": [
+        {
+          "id": "base",
+          "draw_order": 0,
+          "rotates": false,
+          "pivot_bu": [
+            0,
+            0
+          ],
+          "instances": [
+            "HullKeel"
+          ]
+        },
+        {
+          "id": "turret",
+          "draw_order": 1,
+          "rotates": true,
+          "pivot_bu": [
+            0.0,
+            0.46000000834465027
+          ],
+          "instances": [
+            "SingleLauncher",
+            "SpareLeft",
+            "SpareRight",
+            "Guidance",
+            "Lidar",
+            "Service"
+          ]
+        }
+      ],
+      "states": {
+        "damage0": {
+          "frame": 1
+        },
+        "damage33": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "damage66": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        },
+        "destroyed": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "clips": {
+        "fire": {
+          "alias": "damage0",
+          "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+        }
+      },
+      "use_author_animation": false
+    }
+  },
+  "device": "OPTIX"
+}

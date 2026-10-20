@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="sniper-turret" Category="Оружие" Type="Turret" MaxHealth="2800" BlockMass="5">
+    <Resources>
+        <Resource StoreInStorage="true" Id="1" Capacity="100" WorkingThreshold="20" TargetStorage="70" InitialStorage="70" MaxInput="60" UsePerShot="5" Priority="30"/>
+    </Resources>
+    <!-- Initial tunable balance; the GDD does not specify per-block numerical prices. -->
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="16"/>
+        <Point Id="weapon-load" Sum="16"/>
+        <DesignCost><Item Ref="11" Amount="160"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="16"/></BuildCost>
+    </Construction>
+    <Size X="1" Y="2"/>
+    <Turret Ref="sniper-turret"/>
+    <WeaponDefinition Ref="sniper-railgun"/>
+    <Colliders>
+        <ConvexCollider Data="0 0 1 0 1 2 0 2"/>
+    </Colliders>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="sniper-turret"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

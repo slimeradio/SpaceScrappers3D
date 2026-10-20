@@ -1,0 +1,475 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W08",
+  "version": "1.0+states1",
+  "title": "Ракетная турель 1×3",
+  "catalog_id": "rocket-turret",
+  "catalog_grid": [
+    1,
+    3
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "HullKeel",
+      "part_id": "MA-W08-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-W08-P01/MA-W08-P01.blend",
+      "parent": "MA-W08",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "SingleLauncher",
+      "part_id": "MA-W08-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-W08-P02/MA-W08-P02.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "SpareLeft",
+      "part_id": "MA-W08-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-W08-P03/MA-W08-P03.blend",
+      "parent": "Yaw",
+      "translation": [
+        -0.74,
+        0.33,
+        0.48
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "SpareRight",
+      "part_id": "MA-W08-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-W08-P03/MA-W08-P03.blend",
+      "parent": "Yaw",
+      "translation": [
+        0.74,
+        0.33,
+        0.48
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Service",
+      "part_id": "MA-P06",
+      "version": "1.3",
+      "source": "../../Parts/MA-P06/MA-P06.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        1.74,
+        1.14
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Lidar",
+      "part_id": "MA-P07",
+      "version": "1.3",
+      "source": "../../Parts/MA-P07/MA-P07.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        -1.7,
+        1.17
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MA-W08",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "HullKeel",
+      "parent": "MA-W08",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Yaw",
+      "parent": "MA-W08",
+      "translation": [
+        0.0,
+        0.46000000834465027,
+        0.7200000286102295
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "SingleLauncher",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "SpareLeft",
+      "parent": "Yaw",
+      "translation": [
+        -0.7400000095367432,
+        0.33000001311302185,
+        0.47999998927116394
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "SpareRight",
+      "parent": "Yaw",
+      "translation": [
+        0.7400000095367432,
+        0.33000001311302185,
+        0.47999998927116394
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Service",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        1.7400000095367432,
+        1.1399999856948853
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Lidar",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        -1.7000000476837158,
+        1.1699999570846558
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "HullKeel",
+      "parent_socket": "yaw",
+      "child_instance": "SingleLauncher",
+      "child_socket": "root",
+      "motion_node": "Yaw",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "range_degrees": [
+        0,
+        360
+      ]
+    },
+    {
+      "parent_instance": "SingleLauncher",
+      "parent_socket": "reserve-left",
+      "child_instance": "SpareLeft",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "SingleLauncher",
+      "parent_socket": "reserve-right",
+      "child_instance": "SpareRight",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "SingleLauncher",
+      "parent_socket": "service",
+      "child_instance": "Service",
+      "child_socket": "bottom"
+    },
+    {
+      "parent_instance": "SingleLauncher",
+      "parent_socket": "optic",
+      "child_instance": "Lidar",
+      "child_socket": "bottom"
+    }
+  ],
+  "animations": {
+    "controller": "MA-W08",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      },
+      "aim_yaw": {
+        "default": 0,
+        "min": 0,
+        "max": 360
+      }
+    },
+    "channels": [
+      {
+        "node": "Yaw",
+        "path": "rotation_euler",
+        "axis": 2,
+        "parameter": "aim_yaw",
+        "expression": "0.0+t*0.017453292519943295"
+      }
+    ],
+    "clips": [
+      {
+        "name": "MA-W08::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W08::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W08::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W08::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W08::fire",
+        "parameters": [
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "functional_contract": {
+    "active_barrel_count": 1,
+    "projectiles_per_shot": 1,
+    "muzzle_instance": "SingleLauncher",
+    "muzzle_point": "shoot",
+    "yaw_arc_degrees": 360,
+    "yaw_speed_degrees_per_second": 90,
+    "elevation": "none; catalog does not establish 3D elevation",
+    "reserve_cassettes": "closed visual stores; no independent firing points",
+    "xml_pivot": [
+      0.5,
+      0.5
+    ],
+    "xml_to_BU_mapping": "unspecified; yaw BU pivot is authoring only"
+  },
+  "exports": [],
+  "notes": "Procedural authoring source. No GLB, game installation, collider or LOD; physical scale unspecified. Central launch bore is open; spare cassettes are visibly closed.",
+  "state_authoring": "state-authoring.json"
+}

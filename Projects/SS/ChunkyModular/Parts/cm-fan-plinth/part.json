@@ -1,0 +1,164 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-fan-plinth",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-fan-plinth.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "sockets": [
+    {
+      "id": "bearing",
+      "position": [
+        0,
+        0,
+        0.5
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "mount",
+      "space": "local"
+    }
+  ],
+  "functional_points": [],
+  "mount_regions": [
+    {
+      "id": "deck",
+      "shape": "rectangle",
+      "size": [
+        2.4,
+        1.3
+      ],
+      "position": [
+        0,
+        0,
+        0.5
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root"
+    }
+  ],
+  "animations": [],
+  "animation_tracks": [],
+  "materials": [
+    "CM.graphite",
+    "CM.orange",
+    "CM.rubber",
+    "CM.steel"
+  ],
+  "images": {
+    "graphite_basecolor": [
+      768,
+      768
+    ],
+    "graphite_roughness": [
+      768,
+      768
+    ],
+    "graphite_metallic": [
+      768,
+      768
+    ],
+    "graphite_normal": [
+      768,
+      768
+    ],
+    "orange_basecolor": [
+      768,
+      768
+    ],
+    "orange_roughness": [
+      768,
+      768
+    ],
+    "orange_metallic": [
+      768,
+      768
+    ],
+    "orange_normal": [
+      768,
+      768
+    ],
+    "steel_basecolor": [
+      768,
+      768
+    ],
+    "steel_roughness": [
+      768,
+      768
+    ],
+    "steel_metallic": [
+      768,
+      768
+    ],
+    "steel_normal": [
+      768,
+      768
+    ],
+    "rubber_basecolor": [
+      768,
+      768
+    ],
+    "rubber_roughness": [
+      768,
+      768
+    ],
+    "rubber_metallic": [
+      768,
+      768
+    ],
+    "rubber_normal": [
+      768,
+      768
+    ]
+  },
+  "material_library": "../../Materials/CM-T01/materials.json",
+  "scale_policy": "positive uniform instance scaling",
+  "bounds": {
+    "min": [
+      -1.3599998950958252,
+      -0.7699999809265137,
+      0.0
+    ],
+    "max": [
+      1.3599998950958252,
+      0.7699999809265137,
+      0.5049999952316284
+    ],
+    "dimensions": [
+      2.7199997901916504,
+      1.5399999618530273,
+      0.5049999952316284
+    ]
+  },
+  "emissive_regions": [],
+  "logical_only": "sockets and regions are invisible metadata, not physical fastening geometry"
+}

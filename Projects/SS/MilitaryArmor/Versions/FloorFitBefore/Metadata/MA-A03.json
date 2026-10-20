@@ -1,0 +1,2313 @@
+{
+  "schema": "SpriteBake.BlockMetadata/1",
+  "id": "MA-A03",
+  "catalog_id": "armor-wedge",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "bu_per_cell": 1.0,
+  "footprint_bu": [
+    -0.5,
+    -0.5,
+    0.5,
+    0.5
+  ],
+  "layers": [
+    {
+      "id": "body",
+      "draw_order": 0,
+      "rotates": false,
+      "pivot_bu": [
+        0,
+        0
+      ],
+      "instances": [
+        "shell"
+      ]
+    }
+  ],
+  "states": {
+    "damage0": {
+      "frame": 1
+    },
+    "damage33": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "damage66": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "destroyed": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "clips": {},
+  "frames": {
+    "damage0": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "shell/mounts/root",
+          "role": "structural-bottom",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": "unit scale; bottom at z0",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "shell/mounts/edge-0",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0.0,
+            0.0,
+            0.08
+          ],
+          "forward": [
+            0.7071067690849304,
+            -0.7071067690849304,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.4142135623730951,
+            "wall_height_BU": 0.16
+          },
+          "forward_block": [
+            0.7071067690849304,
+            -0.7071067690849304,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.07999999821186066
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "edge-0",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.07999999821186066
+          ]
+        },
+        {
+          "id": "shell/mounts/edge-1",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0.0,
+            0.5,
+            0.08
+          ],
+          "forward": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.0,
+            "wall_height_BU": 0.16
+          },
+          "forward_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.5,
+            0.07999999821186066
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "edge-1",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.07999999821186066
+          ]
+        },
+        {
+          "id": "shell/mounts/edge-2",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            -0.5,
+            0.0,
+            0.08
+          ],
+          "forward": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.0,
+            "wall_height_BU": 0.16
+          },
+          "forward_block": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.5,
+            0.0,
+            0.07999999821186066
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "edge-2",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.0,
+            0.5,
+            0.07999999821186066
+          ]
+        },
+        {
+          "id": "shell/attachment_areas/bottom-footprint",
+          "role": "structural-mount",
+          "parent": "MA-A03.faceted-shell",
+          "shape": "polygon",
+          "vertices_local": [
+            [
+              -0.5,
+              -0.5,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              -0.5,
+              0.5,
+              0
+            ]
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "allowed_rotation_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": "nominal triangular footprint; authoring only, not engine socket contract",
+          "up_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "normal_block": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom-footprint",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-A03": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "damage33": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "shell/mounts/root",
+          "role": "structural-bottom",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": "unit scale; bottom at z0",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "shell/mounts/edge-0",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0.0,
+            0.0,
+            0.08
+          ],
+          "forward": [
+            0.7071067690849304,
+            -0.7071067690849304,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.4142135623730951,
+            "wall_height_BU": 0.16
+          },
+          "forward_block": [
+            0.7071067690849304,
+            -0.7071067690849304,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.07999999821186066
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "edge-0",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.07999999821186066
+          ]
+        },
+        {
+          "id": "shell/mounts/edge-1",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0.0,
+            0.5,
+            0.08
+          ],
+          "forward": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.0,
+            "wall_height_BU": 0.16
+          },
+          "forward_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.5,
+            0.07999999821186066
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "edge-1",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.07999999821186066
+          ]
+        },
+        {
+          "id": "shell/mounts/edge-2",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            -0.5,
+            0.0,
+            0.08
+          ],
+          "forward": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.0,
+            "wall_height_BU": 0.16
+          },
+          "forward_block": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.5,
+            0.0,
+            0.07999999821186066
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "edge-2",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.0,
+            0.5,
+            0.07999999821186066
+          ]
+        },
+        {
+          "id": "shell/attachment_areas/bottom-footprint",
+          "role": "structural-mount",
+          "parent": "MA-A03.faceted-shell",
+          "shape": "polygon",
+          "vertices_local": [
+            [
+              -0.5,
+              -0.5,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              -0.5,
+              0.5,
+              0
+            ]
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "allowed_rotation_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": "nominal triangular footprint; authoring only, not engine socket contract",
+          "up_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "normal_block": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom-footprint",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-A03": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "damage66": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "shell/mounts/root",
+          "role": "structural-bottom",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": "unit scale; bottom at z0",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "shell/mounts/edge-0",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0.0,
+            0.0,
+            0.08
+          ],
+          "forward": [
+            0.7071067690849304,
+            -0.7071067690849304,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.4142135623730951,
+            "wall_height_BU": 0.16
+          },
+          "forward_block": [
+            0.7071067690849304,
+            -0.7071067690849304,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.07999999821186066
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "edge-0",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.07999999821186066
+          ]
+        },
+        {
+          "id": "shell/mounts/edge-1",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0.0,
+            0.5,
+            0.08
+          ],
+          "forward": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.0,
+            "wall_height_BU": 0.16
+          },
+          "forward_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.5,
+            0.07999999821186066
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "edge-1",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.07999999821186066
+          ]
+        },
+        {
+          "id": "shell/mounts/edge-2",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            -0.5,
+            0.0,
+            0.08
+          ],
+          "forward": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.0,
+            "wall_height_BU": 0.16
+          },
+          "forward_block": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.5,
+            0.0,
+            0.07999999821186066
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "edge-2",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.0,
+            0.5,
+            0.07999999821186066
+          ]
+        },
+        {
+          "id": "shell/attachment_areas/bottom-footprint",
+          "role": "structural-mount",
+          "parent": "MA-A03.faceted-shell",
+          "shape": "polygon",
+          "vertices_local": [
+            [
+              -0.5,
+              -0.5,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              -0.5,
+              0.5,
+              0
+            ]
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "allowed_rotation_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": "nominal triangular footprint; authoring only, not engine socket contract",
+          "up_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "normal_block": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom-footprint",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-A03": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "destroyed": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "shell/mounts/root",
+          "role": "structural-bottom",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": "unit scale; bottom at z0",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "shell/mounts/edge-0",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0.0,
+            0.0,
+            0.08
+          ],
+          "forward": [
+            0.7071067690849304,
+            -0.7071067690849304,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.4142135623730951,
+            "wall_height_BU": 0.16
+          },
+          "forward_block": [
+            0.7071067690849304,
+            -0.7071067690849304,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.07999999821186066
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "edge-0",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.07999999821186066
+          ]
+        },
+        {
+          "id": "shell/mounts/edge-1",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0.0,
+            0.5,
+            0.08
+          ],
+          "forward": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.0,
+            "wall_height_BU": 0.16
+          },
+          "forward_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.5,
+            0.07999999821186066
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "edge-1",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.07999999821186066
+          ]
+        },
+        {
+          "id": "shell/mounts/edge-2",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            -0.5,
+            0.0,
+            0.08
+          ],
+          "forward": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.0,
+            "wall_height_BU": 0.16
+          },
+          "forward_block": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.5,
+            0.0,
+            0.07999999821186066
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "edge-2",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.0,
+            0.5,
+            0.07999999821186066
+          ]
+        },
+        {
+          "id": "shell/attachment_areas/bottom-footprint",
+          "role": "structural-mount",
+          "parent": "MA-A03.faceted-shell",
+          "shape": "polygon",
+          "vertices_local": [
+            [
+              -0.5,
+              -0.5,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              -0.5,
+              0.5,
+              0
+            ]
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "allowed_rotation_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": "nominal triangular footprint; authoring only, not engine socket contract",
+          "up_block": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "normal_block": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom-footprint",
+          "instance": "shell",
+          "part": "MA-A03-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-A03": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    }
+  },
+  "assembly": {
+    "schema": "MilitaryArmor.BlenderAuthoring/1",
+    "id": "MA-A03",
+    "version": "1.0",
+    "title": "Faceted spacecraft wedge armor",
+    "catalog_id": "armor-wedge",
+    "catalog_grid": [
+      1,
+      1
+    ],
+    "axes": {
+      "handedness": "right",
+      "up": "+Z",
+      "forward": "-Y",
+      "units": "BU; physical scale unspecified"
+    },
+    "instances": [
+      {
+        "id": "shell",
+        "part_id": "MA-A03-P01",
+        "version": "1.0",
+        "source": "../../Parts/MA-A03-P01/MA-A03-P01.blend",
+        "parent": "MA-A03",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "id": "MA-A03",
+        "parent": null,
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "shell",
+        "parent": "MA-A03",
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "animations": [],
+    "exports": [
+      "Exports/MA-A03.glb"
+    ],
+    "notes": "Single standalone faceted shell. Catalog footprint 1x1; physical scale unspecified. Static armor; no animation."
+  },
+  "parts": {
+    "shell": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-A03-P01",
+      "version": "1.0",
+      "name": "Faceted spacecraft wedge armor 1x1",
+      "source": "MA-A03-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.5,
+          -0.5,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.5,
+          0.2800000011920929
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "MA-A03.faceted-shell"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "MA-A03.faceted-shell"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "structural-bottom",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": "unit scale; bottom at z0"
+        },
+        {
+          "id": "edge-0",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0.0,
+            0.0,
+            0.08
+          ],
+          "forward": [
+            0.7071067690849304,
+            -0.7071067690849304,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.4142135623730951,
+            "wall_height_BU": 0.16
+          }
+        },
+        {
+          "id": "edge-1",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            0.0,
+            0.5,
+            0.08
+          ],
+          "forward": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.0,
+            "wall_height_BU": 0.16
+          }
+        },
+        {
+          "id": "edge-2",
+          "role": "coplanar-armor-join",
+          "parent": "MA-A03.faceted-shell",
+          "position": [
+            -0.5,
+            0.0,
+            0.08
+          ],
+          "forward": [
+            -1.0,
+            -0.0,
+            0.0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": {
+            "edge_length_BU": 1.0,
+            "wall_height_BU": 0.16
+          }
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "bottom-footprint",
+          "role": "structural-mount",
+          "parent": "MA-A03.faceted-shell",
+          "shape": "polygon",
+          "vertices_local": [
+            [
+              -0.5,
+              -0.5,
+              0
+            ],
+            [
+              0.5,
+              0.5,
+              0
+            ],
+            [
+              -0.5,
+              0.5,
+              0
+            ]
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "allowed_rotation_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor"
+          ],
+          "constraints": "nominal triangular footprint; authoring only, not engine socket contract"
+        }
+      ],
+      "animations": [],
+      "notes": "Armor wedge catalog 1x1; 1 BU visual pitch only. Exact triangular structural skirt. Quiet inset cap. No emission, textures, hardware, animation or functional points."
+    }
+  },
+  "material_slots": {
+    "shell": {
+      "MA-A03.faceted-shell": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        },
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "assembly": "Blocks/MA-A03/assembly.json",
+    "source": "Blocks/MA-A03/MA-A03.blend",
+    "bu_per_cell": 1.0,
+    "footprint_bu": [
+      -0.5,
+      -0.5,
+      0.5,
+      0.5
+    ],
+    "height_range_bu": [
+      -0.1,
+      0.4
+    ],
+    "layers": [
+      {
+        "id": "body",
+        "draw_order": 0,
+        "rotates": false,
+        "pivot_bu": [
+          0,
+          0
+        ],
+        "instances": [
+          "shell"
+        ]
+      }
+    ],
+    "states": {
+      "damage0": {
+        "frame": 1
+      },
+      "damage33": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "damage66": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "destroyed": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "clips": {},
+    "use_author_animation": false
+  },
+  "inputs": {
+    "Blocks/MA-A03/assembly.json": "e74fb3042184ff3760a3477255016ada0beac2f1dbfb11d8538df6d2b85f7900",
+    "Blocks/MA-A03/MA-A03.blend": "38587722ba32de717c41e8d59e5aa5e962a14238a0ab2d244ee54bbdaa5b510c",
+    "Parts/MA-A03-P01/MA-A03-P01.blend": "0073ad4be5432490f425fae18e88262318722fc780da27d69eb4ba0b5ab7ac1e",
+    "Parts/MA-A03-P01/part.json": "794978c5ad22c79c8892d692ca08f8264f2bfc6595790b651e53b23d125be048"
+  },
+  "dependencies": [
+    "Blocks/MA-A03/assembly.json",
+    "Blocks/MA-A03/MA-A03.blend",
+    "Parts/MA-A03-P01/MA-A03-P01.blend",
+    "Parts/MA-A03-P01/part.json"
+  ]
+}

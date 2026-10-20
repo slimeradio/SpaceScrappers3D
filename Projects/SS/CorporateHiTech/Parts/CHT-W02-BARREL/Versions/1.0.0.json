@@ -1,0 +1,863 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W02-BARREL",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Один ускоритель с двумя разделёнными рельсами",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "accelerator-breech",
+      "shape": "loft",
+      "position": [
+        0,
+        0.15,
+        0
+      ],
+      "outline": [
+        [
+          -0.09000000000000001,
+          -0.245
+        ],
+        [
+          0.09000000000000001,
+          -0.245
+        ],
+        [
+          0.17,
+          -0.16499999999999998
+        ],
+        [
+          0.17,
+          0.16499999999999998
+        ],
+        [
+          0.09000000000000001,
+          0.245
+        ],
+        [
+          -0.09000000000000001,
+          0.245
+        ],
+        [
+          -0.17,
+          0.16499999999999998
+        ],
+        [
+          -0.17,
+          -0.16499999999999998
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.135,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.117,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.117,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.135,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "breech-top",
+      "shape": "loft",
+      "position": [
+        0,
+        0.13,
+        0.146
+      ],
+      "outline": [
+        [
+          -0.08499999999999999,
+          -0.195
+        ],
+        [
+          0.08499999999999999,
+          -0.195
+        ],
+        [
+          0.145,
+          -0.135
+        ],
+        [
+          0.145,
+          0.135
+        ],
+        [
+          0.08499999999999999,
+          0.195
+        ],
+        [
+          -0.08499999999999999,
+          0.195
+        ],
+        [
+          -0.145,
+          0.135
+        ],
+        [
+          -0.145,
+          -0.135
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.025,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.007000000000000003,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.007000000000000003,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.025,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "central-vacuum-channel",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.83,
+        -0.06
+      ],
+      "size": [
+        0.075,
+        1.27,
+        0.07
+      ],
+      "radius": 0.005,
+      "material": "rubber"
+    },
+    {
+      "id": "rail-metal--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.108,
+        0.93,
+        0
+      ],
+      "size": [
+        0.075,
+        1.52,
+        0.13
+      ],
+      "radius": 0.012,
+      "material": "edge"
+    },
+    {
+      "id": "rail-armor--1",
+      "shape": "loft",
+      "position": [
+        -0.145,
+        0.77,
+        0.07
+      ],
+      "outline": [
+        [
+          -0.019999999999999997,
+          -0.56
+        ],
+        [
+          0.019999999999999997,
+          -0.56
+        ],
+        [
+          0.06,
+          -0.52
+        ],
+        [
+          0.06,
+          0.52
+        ],
+        [
+          0.019999999999999997,
+          0.56
+        ],
+        [
+          -0.019999999999999997,
+          0.56
+        ],
+        [
+          -0.06,
+          0.52
+        ],
+        [
+          -0.06,
+          -0.52
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.05,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.032,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.032,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.05,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "rail-blue--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.066,
+        0.96,
+        0.045
+      ],
+      "size": [
+        0.013,
+        1.3,
+        0.018
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "muzzle-prong--1",
+      "shape": "loft",
+      "position": [
+        -0.11,
+        1.68,
+        0.015
+      ],
+      "outline": [
+        [
+          -0.022499999999999992,
+          -0.12
+        ],
+        [
+          0.022499999999999992,
+          -0.12
+        ],
+        [
+          0.0725,
+          -0.06999999999999999
+        ],
+        [
+          0.0725,
+          0.06999999999999999
+        ],
+        [
+          0.022499999999999992,
+          0.12
+        ],
+        [
+          -0.022499999999999992,
+          0.12
+        ],
+        [
+          -0.0725,
+          0.06999999999999999
+        ],
+        [
+          -0.0725,
+          -0.06999999999999999
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.1,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.082,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.082,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.1,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "muzzle-tip--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.11,
+        1.805,
+        0.015
+      ],
+      "size": [
+        0.1,
+        0.012,
+        0.11
+      ],
+      "radius": 0.012,
+      "material": "graphite"
+    },
+    {
+      "id": "coil--1-0",
+      "shape": "roundedBox",
+      "position": [
+        -0.154,
+        0.36,
+        -0.035
+      ],
+      "size": [
+        0.065,
+        0.075,
+        0.18
+      ],
+      "radius": 0.004,
+      "material": "graphite"
+    },
+    {
+      "id": "coil--1-1",
+      "shape": "roundedBox",
+      "position": [
+        -0.154,
+        0.65,
+        -0.035
+      ],
+      "size": [
+        0.065,
+        0.075,
+        0.18
+      ],
+      "radius": 0.004,
+      "material": "graphite"
+    },
+    {
+      "id": "coil--1-2",
+      "shape": "roundedBox",
+      "position": [
+        -0.154,
+        0.94,
+        -0.035
+      ],
+      "size": [
+        0.065,
+        0.075,
+        0.18
+      ],
+      "radius": 0.004,
+      "material": "graphite"
+    },
+    {
+      "id": "coil--1-3",
+      "shape": "roundedBox",
+      "position": [
+        -0.154,
+        1.23,
+        -0.035
+      ],
+      "size": [
+        0.065,
+        0.075,
+        0.18
+      ],
+      "radius": 0.004,
+      "material": "graphite"
+    },
+    {
+      "id": "rail-metal-1",
+      "shape": "roundedBox",
+      "position": [
+        0.108,
+        0.93,
+        0
+      ],
+      "size": [
+        0.075,
+        1.52,
+        0.13
+      ],
+      "radius": 0.012,
+      "material": "edge"
+    },
+    {
+      "id": "rail-armor-1",
+      "shape": "loft",
+      "position": [
+        0.145,
+        0.77,
+        0.07
+      ],
+      "outline": [
+        [
+          -0.019999999999999997,
+          -0.56
+        ],
+        [
+          0.019999999999999997,
+          -0.56
+        ],
+        [
+          0.06,
+          -0.52
+        ],
+        [
+          0.06,
+          0.52
+        ],
+        [
+          0.019999999999999997,
+          0.56
+        ],
+        [
+          -0.019999999999999997,
+          0.56
+        ],
+        [
+          -0.06,
+          0.52
+        ],
+        [
+          -0.06,
+          -0.52
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.05,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.032,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.032,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.05,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "rail-blue-1",
+      "shape": "roundedBox",
+      "position": [
+        0.066,
+        0.96,
+        0.045
+      ],
+      "size": [
+        0.013,
+        1.3,
+        0.018
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "muzzle-prong-1",
+      "shape": "loft",
+      "position": [
+        0.11,
+        1.68,
+        0.015
+      ],
+      "outline": [
+        [
+          -0.022499999999999992,
+          -0.12
+        ],
+        [
+          0.022499999999999992,
+          -0.12
+        ],
+        [
+          0.0725,
+          -0.06999999999999999
+        ],
+        [
+          0.0725,
+          0.06999999999999999
+        ],
+        [
+          0.022499999999999992,
+          0.12
+        ],
+        [
+          -0.022499999999999992,
+          0.12
+        ],
+        [
+          -0.0725,
+          0.06999999999999999
+        ],
+        [
+          -0.0725,
+          -0.06999999999999999
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.1,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.082,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.082,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.1,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "muzzle-tip-1",
+      "shape": "roundedBox",
+      "position": [
+        0.11,
+        1.805,
+        0.015
+      ],
+      "size": [
+        0.1,
+        0.012,
+        0.11
+      ],
+      "radius": 0.012,
+      "material": "graphite"
+    },
+    {
+      "id": "coil-1-0",
+      "shape": "roundedBox",
+      "position": [
+        0.154,
+        0.36,
+        -0.035
+      ],
+      "size": [
+        0.065,
+        0.075,
+        0.18
+      ],
+      "radius": 0.004,
+      "material": "graphite"
+    },
+    {
+      "id": "coil-1-1",
+      "shape": "roundedBox",
+      "position": [
+        0.154,
+        0.65,
+        -0.035
+      ],
+      "size": [
+        0.065,
+        0.075,
+        0.18
+      ],
+      "radius": 0.004,
+      "material": "graphite"
+    },
+    {
+      "id": "coil-1-2",
+      "shape": "roundedBox",
+      "position": [
+        0.154,
+        0.94,
+        -0.035
+      ],
+      "size": [
+        0.065,
+        0.075,
+        0.18
+      ],
+      "radius": 0.004,
+      "material": "graphite"
+    },
+    {
+      "id": "coil-1-3",
+      "shape": "roundedBox",
+      "position": [
+        0.154,
+        1.23,
+        -0.035
+      ],
+      "size": [
+        0.065,
+        0.075,
+        0.18
+      ],
+      "radius": 0.004,
+      "material": "graphite"
+    },
+    {
+      "id": "rear-bridge",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.28,
+        0.1
+      ],
+      "size": [
+        0.3,
+        0.1,
+        0.065
+      ],
+      "radius": 0.012,
+      "material": "armor"
+    },
+    {
+      "id": "forward-bridge",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        1.36,
+        -0.082
+      ],
+      "size": [
+        0.3,
+        0.1,
+        0.04
+      ],
+      "radius": 0.012,
+      "material": "armor"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; model-unit box projection",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "rail-blue--1",
+      "geometry": "rail-blue--1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    },
+    {
+      "id": "rail-blue-1",
+      "geometry": "rail-blue-1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "base",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible": "CHT-W02-HEAD.barrel-*",
+      "parentNode": "root"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [
+    {
+      "id": "muzzle",
+      "role": "projectile-origin",
+      "parentNode": "root",
+      "coordinateSystem": "local",
+      "position": [
+        0,
+        1.82,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.205,
+      -0.095,
+      -0.135
+    ],
+    "max": [
+      0.205,
+      1.811,
+      0.17099999999999999
+    ],
+    "size": [
+      0.41,
+      1.906,
+      0.306
+    ]
+  }
+}

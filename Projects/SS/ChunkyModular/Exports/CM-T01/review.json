@@ -1,0 +1,250 @@
+{
+  "native": {
+    "part_files_verified": 24,
+    "instances": 22,
+    "packed_textures": {
+      "graphite_basecolor": [
+        768,
+        768
+      ],
+      "graphite_roughness": [
+        768,
+        768
+      ],
+      "graphite_metallic": [
+        768,
+        768
+      ],
+      "graphite_normal": [
+        768,
+        768
+      ],
+      "steel_basecolor": [
+        768,
+        768
+      ],
+      "steel_roughness": [
+        768,
+        768
+      ],
+      "steel_metallic": [
+        768,
+        768
+      ],
+      "steel_normal": [
+        768,
+        768
+      ],
+      "orange_basecolor": [
+        768,
+        768
+      ],
+      "orange_roughness": [
+        768,
+        768
+      ],
+      "orange_metallic": [
+        768,
+        768
+      ],
+      "orange_normal": [
+        768,
+        768
+      ],
+      "ivory_basecolor": [
+        768,
+        768
+      ],
+      "ivory_roughness": [
+        768,
+        768
+      ],
+      "ivory_metallic": [
+        768,
+        768
+      ],
+      "ivory_normal": [
+        768,
+        768
+      ],
+      "rubber_basecolor": [
+        768,
+        768
+      ],
+      "rubber_roughness": [
+        768,
+        768
+      ],
+      "rubber_metallic": [
+        768,
+        768
+      ],
+      "rubber_normal": [
+        768,
+        768
+      ],
+      "weld_basecolor": [
+        768,
+        768
+      ],
+      "weld_roughness": [
+        768,
+        768
+      ],
+      "weld_metallic": [
+        768,
+        768
+      ],
+      "weld_normal": [
+        768,
+        768
+      ]
+    },
+    "poses": [
+      {
+        "frame": 1,
+        "muzzles": {
+          "left": [
+            -0.7540000081062317,
+            -4.803999900817871,
+            2.4040000438690186
+          ],
+          "right": [
+            0.7540000081062317,
+            -4.803999900817871,
+            2.4040000438690186
+          ]
+        }
+      },
+      {
+        "frame": 31,
+        "muzzles": {
+          "left": [
+            1.1793421506881714,
+            -3.55068039894104,
+            5.486336708068848
+          ],
+          "right": [
+            2.4853084087371826,
+            -2.796680450439453,
+            5.486336708068848
+          ]
+        }
+      },
+      {
+        "frame": 44,
+        "muzzles": {
+          "left": [
+            -0.2976614832878113,
+            -4.407125473022461,
+            4.056494235992432
+          ],
+          "right": [
+            1.2157771587371826,
+            -4.380618572235107,
+            4.106144428253174
+          ]
+        }
+      },
+      {
+        "frame": 53,
+        "muzzles": {
+          "left": [
+            -2.307859182357788,
+            -4.264524936676025,
+            2.4390766620635986
+          ],
+          "right": [
+            -0.8440399765968323,
+            -4.648247718811035,
+            2.4381518363952637
+          ]
+        }
+      },
+      {
+        "frame": 61,
+        "muzzles": {
+          "left": [
+            -3.0332770347595215,
+            -3.7457902431488037,
+            1.7351789474487305
+          ],
+          "right": [
+            -1.7171704769134521,
+            -4.482226371765137,
+            1.7380292415618896
+          ]
+        }
+      },
+      {
+        "frame": 91,
+        "muzzles": {
+          "left": [
+            -0.7540000081062317,
+            -4.561459541320801,
+            3.887342929840088
+          ],
+          "right": [
+            0.7540000081062317,
+            -4.561459541320801,
+            3.887342929840088
+          ]
+        }
+      },
+      {
+        "frame": 120,
+        "muzzles": {
+          "left": [
+            -0.7540000081062317,
+            -4.803999900817871,
+            2.4040000438690186
+          ],
+          "right": [
+            0.7540000081062317,
+            -4.803999900817871,
+            2.4040000438690186
+          ]
+        }
+      }
+    ],
+    "hierarchy": "verified",
+    "recoil_endpoints": "verified"
+  },
+  "glb": {
+    "reimport_meshes": 388,
+    "embedded_images": 18,
+    "materials": 7,
+    "animations": [
+      {
+        "name": "CM-T01 Demo",
+        "channels": 4
+      },
+      {
+        "name": "joint_yaw",
+        "channels": 1
+      },
+      {
+        "name": "joint_elevation",
+        "channels": 1
+      },
+      {
+        "name": "barrel_left",
+        "channels": 1
+      },
+      {
+        "name": "barrel_right",
+        "channels": 1
+      }
+    ],
+    "rest_bounds_match_native": true,
+    "self_contained": true,
+    "bytes": 24037796
+  },
+  "part_checks": {
+    "folding_handle": "hinge reaches 75 degrees while mounting feet stay fixed",
+    "barrel_ports": "ray passes through side vent, adjacent structural wall remains solid"
+  },
+  "notes": [
+    "Source/GLB checks and rendered poses; no live game acceptance."
+  ]
+}

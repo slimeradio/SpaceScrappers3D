@@ -1,0 +1,243 @@
+{
+  "id": "MA-W03",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 7,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-W03::work_loop",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W03::start",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W03::stop",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W03::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W03::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W03::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W03::cool_down",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W03::fire",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [
+    {
+      "node": "RotorLeft",
+      "parameter": "cycle_turns",
+      "sampled_values": [
+        0.0,
+        0.7853981852531433,
+        1.5707963705062866,
+        3.1415927410125732,
+        6.2831854820251465
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RotorRight",
+      "parameter": "cycle_turns",
+      "sampled_values": [
+        0.0,
+        0.7853981852531433,
+        1.5707963705062866,
+        3.1415927410125732,
+        6.2831854820251465
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Azimuth",
+      "parameter": "aim_yaw",
+      "sampled_values": [
+        -0.6108652353286743,
+        0.0,
+        0.6108652353286743
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Elevation",
+      "parameter": "aim_pitch",
+      "sampled_values": [
+        -0.6981316804885864,
+        -0.3490658402442932,
+        0.0
+      ],
+      "driver_valid": true
+    }
+  ],
+  "materials": [
+    {
+      "object": "Foundation::Dock state index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Foundation::Dock state index.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Foundation::Dock state index.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Receiver::Elevation encoder",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Receiver::Fork diagnostic strip",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Receiver::Elevation encoder.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Receiver::Fork diagnostic strip.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ElevationBridge::Rotor encoding ring",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ElevationBridge::Rotor encoding ring.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "BarrelLeft::Induction blade status insert",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "BarrelLeft::Induction blade status insert.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "BarrelLeft::Induction blade status insert.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "BarrelLeft::Induction blade status insert.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "BarrelLeft::Induction blade status insert.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "BarrelLeft::Induction blade status insert.005",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "BarrelRight::Induction blade status insert",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "BarrelRight::Induction blade status insert.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "BarrelRight::Induction blade status insert.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "BarrelRight::Induction blade status insert.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "BarrelRight::Induction blade status insert.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "BarrelRight::Induction blade status insert.005",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ServiceCartridge::Cartridge status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.001",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.002",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    }
+  ],
+  "stopped_phase_retained": true,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

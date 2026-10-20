@@ -1,0 +1,86 @@
+{
+  "schema": "MilitaryArmor.LargeIndustrialAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-D03",
+      "title": "Heavy three-spindle mechanical drill 3x5",
+      "version": "1.0",
+      "catalog_id": "rotary-drill-3x5",
+      "catalog_grid": [
+        3,
+        5
+      ],
+      "source": "Blocks/MA-D03/MA-D03.blend",
+      "assembly": "Blocks/MA-D03/assembly.json",
+      "parts": [
+        "MA-D01-P02",
+        "MA-D01-P03",
+        "MA-D03-P01"
+      ],
+      "instance_count": 7,
+      "validation": "Blocks/MA-D03/validation.json",
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-D03/Previews/perspective.png",
+        "Blocks/MA-D03/Previews/top.png",
+        "Blocks/MA-D03/Previews/top-grayscale.png"
+      ],
+      "checks_passed": true
+    },
+    {
+      "id": "MA-FT03",
+      "title": "Бак топлива 3×3",
+      "version": "1.0",
+      "catalog_id": "fuel-tank-3x3",
+      "catalog_grid": [
+        3,
+        3
+      ],
+      "source": "Blocks/MA-FT03/MA-FT03.blend",
+      "assembly": "Blocks/MA-FT03/assembly.json",
+      "parts": [
+        "MA-FT01-P02",
+        "MA-FT01-P03",
+        "MA-FT03-P01"
+      ],
+      "instance_count": 19,
+      "validation": "Blocks/MA-FT03/validation.json",
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-FT03/Previews/perspective.png",
+        "Blocks/MA-FT03/Previews/top.png",
+        "Blocks/MA-FT03/Previews/top-grayscale.png"
+      ],
+      "checks_passed": true
+    },
+    {
+      "id": "MA-HS03",
+      "title": "Накопитель тепла 3×3 — визуальная заготовка",
+      "version": "2.0",
+      "catalog_id": "heat-store-3x3",
+      "catalog_grid": [
+        3,
+        3
+      ],
+      "source": "Blocks/MA-HS03/MA-HS03.blend",
+      "assembly": "Blocks/MA-HS03/assembly.json",
+      "parts": [
+        "MA-HS01-R2-P02",
+        "MA-HS03-P01",
+        "MA-HS03-P02"
+      ],
+      "instance_count": 26,
+      "validation": "Blocks/MA-HS03/validation.json",
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-HS03/Previews/perspective.png",
+        "Blocks/MA-HS03/Previews/top.png",
+        "Blocks/MA-HS03/Previews/top-grayscale.png"
+      ],
+      "checks_passed": true
+    }
+  ],
+  "new_part_sources": 4,
+  "glb_generated": false,
+  "game_validation": false
+}

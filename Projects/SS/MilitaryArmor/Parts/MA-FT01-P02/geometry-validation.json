@@ -1,0 +1,50 @@
+{
+  "checks_passed": true,
+  "meshes": [
+    {
+      "mesh": "Monolithic sealed tank",
+      "source_nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 2.849196041298899,
+      "evaluated_triangles": 364,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true,
+      "pass": true
+    },
+    {
+      "mesh": "Protected dorsal spine",
+      "source_nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.03387996761441238,
+      "evaluated_triangles": 220,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true,
+      "pass": true
+    },
+    {
+      "mesh": "Inset longitudinal seam",
+      "source_nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.001068696285088476,
+      "evaluated_triangles": 220,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true,
+      "pass": true
+    },
+    {
+      "mesh": "Inset longitudinal seam.001",
+      "source_nonmanifold_edges": 0,
+      "source_zero_area_faces": 0,
+      "signed_volume": 0.0010686962850884765,
+      "evaluated_triangles": 220,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true,
+      "pass": true
+    }
+  ],
+  "validated_before_assembly": true
+}

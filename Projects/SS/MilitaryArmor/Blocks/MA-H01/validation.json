@@ -1,0 +1,1038 @@
+{
+  "id": "MA-H01",
+  "version": "2.0",
+  "checks_passed": true,
+  "verification": "Independent process reopened every standalone source and final assembly; source manifold/face orientation/positive volume, evaluated zero-area triangles/finite/materials, metadata surfaces, saved sockets and full world socket poses plus semantic compatibility; dependency versions, parents, unit scales and axes checked.",
+  "standalone_parts": [
+    {
+      "id": "MA-H01-R2-P01",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Collector keel",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.36753067471694945,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 220,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Upper closed manifold",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.12208001988172522,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 220,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Return header",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.05993999588012636,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 220,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Closed return coupling",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.0015521637923594344,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 188,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Closed return coupling.001",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.0015521637923594344,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 188,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Return header.001",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.05993999588012636,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 220,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Closed return coupling.002",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.0015521637923594344,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 188,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Closed return coupling.003",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.0015521637923594344,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 188,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Underframe hull shoe",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.02361700124627339,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 220,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Underframe hull shoe.001",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.023617001246273382,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 220,
+          "finite": true,
+          "materials": true
+        }
+      ]
+    },
+    {
+      "id": "MA-H01-R2-P02",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Two sided radiative blade",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.1263439982647896,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 204,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Vertical radiation rib",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.0014040000164955834,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 108,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Vertical radiation rib.001",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.0014040000164955834,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 108,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Vertical radiation rib.002",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.0014040000164955834,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 108,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Vertical radiation rib.003",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.0014040000164955834,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 108,
+          "finite": true,
+          "materials": true
+        },
+        {
+          "mesh": "Collector interface",
+          "source_nonmanifold": 0,
+          "inconsistent_edges": 0,
+          "zero_area_faces": 0,
+          "signed_volume": 0.019836000648021688,
+          "evaluated_zero_area_triangles": 0,
+          "evaluated_triangles": 220,
+          "finite": true,
+          "materials": true
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "connection": {
+        "parent_instance": "Collector",
+        "parent_socket": "Fin-0",
+        "child_instance": "Fin-0",
+        "child_socket": "root"
+      },
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "Collector",
+        "parent_socket": "Fin-1",
+        "child_instance": "Fin-1",
+        "child_socket": "root"
+      },
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "Collector",
+        "parent_socket": "Fin-2",
+        "child_instance": "Fin-2",
+        "child_socket": "root"
+      },
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "Collector",
+        "parent_socket": "Fin-3",
+        "child_instance": "Fin-3",
+        "child_socket": "root"
+      },
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "Collector",
+        "parent_socket": "Fin-4",
+        "child_instance": "Fin-4",
+        "child_socket": "root"
+      },
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "Collector",
+        "parent_socket": "Fin-5",
+        "child_instance": "Fin-5",
+        "child_socket": "root"
+      },
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "Collector",
+        "parent_socket": "Fin-6",
+        "child_instance": "Fin-6",
+        "child_socket": "root"
+      },
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "Collector",
+        "parent_socket": "Fin-7",
+        "child_instance": "Fin-7",
+        "child_socket": "root"
+      },
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    },
+    {
+      "connection": {
+        "parent_instance": "Collector",
+        "parent_socket": "Fin-8",
+        "child_instance": "Fin-8",
+        "child_socket": "root"
+      },
+      "position_error": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "semantic_compatibility": true
+    }
+  ],
+  "assembly_meshes": [
+    {
+      "mesh": "Collector::Collector keel",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.36753067471694945,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Collector::Upper closed manifold",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.12208001988172522,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Collector::Return header",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.05993999588012636,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Collector::Closed return coupling",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0015521637923594344,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 188,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Collector::Closed return coupling.001",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0015521637923594344,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 188,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Collector::Return header.001",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.05993999588012636,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Collector::Closed return coupling.002",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0015521637923594344,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 188,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Collector::Closed return coupling.003",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0015521637923594344,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 188,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Collector::Underframe hull shoe",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.02361700124627339,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Collector::Underframe hull shoe.001",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.023617001246273382,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-0::Two sided radiative blade",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.1263439982647896,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 204,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-0::Vertical radiation rib",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-0::Vertical radiation rib.001",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-0::Vertical radiation rib.002",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-0::Vertical radiation rib.003",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-0::Collector interface",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.019836000648021688,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-1::Two sided radiative blade",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.1263439982647896,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 204,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-1::Vertical radiation rib",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-1::Vertical radiation rib.001",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-1::Vertical radiation rib.002",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-1::Vertical radiation rib.003",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-1::Collector interface",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.019836000648021688,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-2::Two sided radiative blade",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.1263439982647896,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 204,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-2::Vertical radiation rib",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-2::Vertical radiation rib.001",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-2::Vertical radiation rib.002",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-2::Vertical radiation rib.003",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-2::Collector interface",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.019836000648021688,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-3::Two sided radiative blade",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.1263439982647896,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 204,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-3::Vertical radiation rib",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-3::Vertical radiation rib.001",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-3::Vertical radiation rib.002",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-3::Vertical radiation rib.003",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-3::Collector interface",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.019836000648021688,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-4::Two sided radiative blade",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.1263439982647896,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 204,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-4::Vertical radiation rib",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-4::Vertical radiation rib.001",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-4::Vertical radiation rib.002",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-4::Vertical radiation rib.003",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-4::Collector interface",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.019836000648021688,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-5::Two sided radiative blade",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.1263439982647896,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 204,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-5::Vertical radiation rib",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-5::Vertical radiation rib.001",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-5::Vertical radiation rib.002",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-5::Vertical radiation rib.003",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-5::Collector interface",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.019836000648021688,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-6::Two sided radiative blade",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.1263439982647896,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 204,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-6::Vertical radiation rib",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-6::Vertical radiation rib.001",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-6::Vertical radiation rib.002",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-6::Vertical radiation rib.003",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-6::Collector interface",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.019836000648021688,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-7::Two sided radiative blade",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.1263439982647896,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 204,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-7::Vertical radiation rib",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-7::Vertical radiation rib.001",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-7::Vertical radiation rib.002",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-7::Vertical radiation rib.003",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-7::Collector interface",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.019836000648021688,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-8::Two sided radiative blade",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.1263439982647896,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 204,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-8::Vertical radiation rib",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-8::Vertical radiation rib.001",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-8::Vertical radiation rib.002",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-8::Vertical radiation rib.003",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014040000164955834,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 108,
+      "finite": true,
+      "materials": true
+    },
+    {
+      "mesh": "Fin-8::Collector interface",
+      "source_nonmanifold": 0,
+      "inconsistent_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.019836000648021688,
+      "evaluated_zero_area_triangles": 0,
+      "evaluated_triangles": 220,
+      "finite": true,
+      "materials": true
+    }
+  ],
+  "instance_count": 10,
+  "resolved_parts": [
+    "MA-H01-R2-P01",
+    "MA-H01-R2-P02"
+  ],
+  "bounds_BU": {
+    "min": [
+      -0.8999999761581421,
+      -1.7999999523162842,
+      0.0
+    ],
+    "max": [
+      0.8999999761581421,
+      1.7999999523162842,
+      0.6499999761581421
+    ]
+  },
+  "preview_views": [
+    "top",
+    "perspective",
+    "top-grayscale"
+  ],
+  "glb_generated": false,
+  "game_validation": false,
+  "collision_LOD_validation": false,
+  "notes": "All static: no animated poses. Designed nested enclosure surfaces, cell laminates and seated supports intentionally contact or overlap. No BU-to-metre conversion. Source material override is absent; grayscale is review only."
+}

@@ -1,0 +1,7788 @@
+{
+  "schema": "SpriteBake.BlockMetadata/1",
+  "id": "MA-W08",
+  "catalog_id": "rocket-turret",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "bu_per_cell": 1.0,
+  "footprint_bu": [
+    -0.5,
+    -1.5,
+    0.5,
+    1.5
+  ],
+  "layers": [
+    {
+      "id": "base",
+      "draw_order": 0,
+      "rotates": false,
+      "pivot_bu": [
+        0,
+        0
+      ],
+      "instances": [
+        "HullKeel"
+      ]
+    },
+    {
+      "id": "turret",
+      "draw_order": 1,
+      "rotates": true,
+      "pivot_bu": [
+        0.0,
+        0.46000000834465027
+      ],
+      "instances": [
+        "SingleLauncher",
+        "SpareLeft",
+        "SpareRight",
+        "Service",
+        "Lidar"
+      ]
+    }
+  ],
+  "states": {
+    "damage0": {
+      "frame": 1
+    },
+    "damage33": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "damage66": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "destroyed": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "clips": {
+    "fire": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "frames": {
+    "damage0": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "HullKeel/mounts/hull",
+          "parent": "part",
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "hull",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "HullKeel",
+          "part": "MA-W08-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "HullKeel/mounts/yaw",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0.46,
+            0.72
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.46000000834465027,
+            0.7200000286102295
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "yaw",
+          "instance": "HullKeel",
+          "part": "MA-W08-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.9600000083446503,
+            0.7200000286102295
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/root",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.46000000834465027,
+            0.7200000286102295
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            1.9600000083446503,
+            0.7200000286102295
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/reserve-left",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            -0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-left",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            -0.24000000953674316,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/reserve-right",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-right",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.2400000095367432,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/service",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            1.74,
+            1.14
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            2.200000047683716,
+            1.8600000143051147
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            3.700000047683716,
+            1.8600000143051147
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/optic",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            -1.7,
+            1.17
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.2400000095367432,
+            1.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optic",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.25999999046325684,
+            1.8899999856948853
+          ]
+        },
+        {
+          "id": "SingleLauncher/functional_points/shoot",
+          "role": "muzzle",
+          "parent": "part",
+          "node": "point.shoot",
+          "position": [
+            0,
+            -2.86,
+            0.56
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.3999998569488525,
+            1.2799999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shoot",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "functional_points",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.8999998569488525,
+            1.2799999713897705
+          ]
+        },
+        {
+          "id": "SpareLeft/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.7900000214576721
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2000000476837158
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SpareLeft",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            -0.24000000953674316,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SpareRight/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.7900000214576721
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2000000476837158
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SpareRight",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.2400000095367432,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            2.200000047683716,
+            1.8600000143051147
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.8600000143051147
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            3.700000047683716,
+            1.8600000143051147
+          ]
+        },
+        {
+          "id": "Lidar/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.2400000095367432,
+            1.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.2400000095367432
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Lidar",
+          "part": "MA-P07",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.25999999046325684,
+            1.8899999856948853
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W08": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "HullKeel": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Yaw": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.46000000834465027
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.7200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SingleLauncher": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.46000000834465027
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.7200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SpareLeft": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.7900000214576721
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2000000476837158
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SpareRight": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.7900000214576721
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2000000476837158
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            2.200000047683716
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.8600000143051147
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Lidar": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.2400000095367432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.8899999856948853
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "damage33": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "HullKeel/mounts/hull",
+          "parent": "part",
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "hull",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "HullKeel",
+          "part": "MA-W08-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "HullKeel/mounts/yaw",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0.46,
+            0.72
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.46000000834465027,
+            0.7200000286102295
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "yaw",
+          "instance": "HullKeel",
+          "part": "MA-W08-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.9600000083446503,
+            0.7200000286102295
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/root",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.46000000834465027,
+            0.7200000286102295
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            1.9600000083446503,
+            0.7200000286102295
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/reserve-left",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            -0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-left",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            -0.24000000953674316,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/reserve-right",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-right",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.2400000095367432,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/service",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            1.74,
+            1.14
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            2.200000047683716,
+            1.8600000143051147
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            3.700000047683716,
+            1.8600000143051147
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/optic",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            -1.7,
+            1.17
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.2400000095367432,
+            1.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optic",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.25999999046325684,
+            1.8899999856948853
+          ]
+        },
+        {
+          "id": "SingleLauncher/functional_points/shoot",
+          "role": "muzzle",
+          "parent": "part",
+          "node": "point.shoot",
+          "position": [
+            0,
+            -2.86,
+            0.56
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.3999998569488525,
+            1.2799999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shoot",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "functional_points",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.8999998569488525,
+            1.2799999713897705
+          ]
+        },
+        {
+          "id": "SpareLeft/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.7900000214576721
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2000000476837158
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SpareLeft",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            -0.24000000953674316,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SpareRight/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.7900000214576721
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2000000476837158
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SpareRight",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.2400000095367432,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            2.200000047683716,
+            1.8600000143051147
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.8600000143051147
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            3.700000047683716,
+            1.8600000143051147
+          ]
+        },
+        {
+          "id": "Lidar/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.2400000095367432,
+            1.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.2400000095367432
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Lidar",
+          "part": "MA-P07",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.25999999046325684,
+            1.8899999856948853
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W08": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "HullKeel": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Yaw": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.46000000834465027
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.7200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SingleLauncher": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.46000000834465027
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.7200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SpareLeft": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.7900000214576721
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2000000476837158
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SpareRight": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.7900000214576721
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2000000476837158
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            2.200000047683716
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.8600000143051147
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Lidar": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.2400000095367432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.8899999856948853
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "damage66": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "HullKeel/mounts/hull",
+          "parent": "part",
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "hull",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "HullKeel",
+          "part": "MA-W08-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "HullKeel/mounts/yaw",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0.46,
+            0.72
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.46000000834465027,
+            0.7200000286102295
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "yaw",
+          "instance": "HullKeel",
+          "part": "MA-W08-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.9600000083446503,
+            0.7200000286102295
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/root",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.46000000834465027,
+            0.7200000286102295
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            1.9600000083446503,
+            0.7200000286102295
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/reserve-left",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            -0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-left",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            -0.24000000953674316,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/reserve-right",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-right",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.2400000095367432,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/service",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            1.74,
+            1.14
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            2.200000047683716,
+            1.8600000143051147
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            3.700000047683716,
+            1.8600000143051147
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/optic",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            -1.7,
+            1.17
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.2400000095367432,
+            1.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optic",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.25999999046325684,
+            1.8899999856948853
+          ]
+        },
+        {
+          "id": "SingleLauncher/functional_points/shoot",
+          "role": "muzzle",
+          "parent": "part",
+          "node": "point.shoot",
+          "position": [
+            0,
+            -2.86,
+            0.56
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.3999998569488525,
+            1.2799999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shoot",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "functional_points",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.8999998569488525,
+            1.2799999713897705
+          ]
+        },
+        {
+          "id": "SpareLeft/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.7900000214576721
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2000000476837158
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SpareLeft",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            -0.24000000953674316,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SpareRight/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.7900000214576721
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2000000476837158
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SpareRight",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.2400000095367432,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            2.200000047683716,
+            1.8600000143051147
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.8600000143051147
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            3.700000047683716,
+            1.8600000143051147
+          ]
+        },
+        {
+          "id": "Lidar/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.2400000095367432,
+            1.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.2400000095367432
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Lidar",
+          "part": "MA-P07",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.25999999046325684,
+            1.8899999856948853
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W08": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "HullKeel": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Yaw": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.46000000834465027
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.7200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SingleLauncher": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.46000000834465027
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.7200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SpareLeft": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.7900000214576721
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2000000476837158
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SpareRight": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.7900000214576721
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2000000476837158
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            2.200000047683716
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.8600000143051147
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Lidar": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.2400000095367432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.8899999856948853
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "destroyed": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "HullKeel/mounts/hull",
+          "parent": "part",
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "hull",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "HullKeel",
+          "part": "MA-W08-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "HullKeel/mounts/yaw",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0.46,
+            0.72
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.46000000834465027,
+            0.7200000286102295
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "yaw",
+          "instance": "HullKeel",
+          "part": "MA-W08-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.9600000083446503,
+            0.7200000286102295
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/root",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.46000000834465027,
+            0.7200000286102295
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            1.9600000083446503,
+            0.7200000286102295
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/reserve-left",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            -0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-left",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            -0.24000000953674316,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/reserve-right",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-right",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.2400000095367432,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/service",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            1.74,
+            1.14
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            2.200000047683716,
+            1.8600000143051147
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            3.700000047683716,
+            1.8600000143051147
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/optic",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            -1.7,
+            1.17
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.2400000095367432,
+            1.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optic",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.25999999046325684,
+            1.8899999856948853
+          ]
+        },
+        {
+          "id": "SingleLauncher/functional_points/shoot",
+          "role": "muzzle",
+          "parent": "part",
+          "node": "point.shoot",
+          "position": [
+            0,
+            -2.86,
+            0.56
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.3999998569488525,
+            1.2799999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shoot",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "functional_points",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.8999998569488525,
+            1.2799999713897705
+          ]
+        },
+        {
+          "id": "SpareLeft/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.7900000214576721
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2000000476837158
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SpareLeft",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            -0.24000000953674316,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SpareRight/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.7900000214576721
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2000000476837158
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SpareRight",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.2400000095367432,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            2.200000047683716,
+            1.8600000143051147
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.8600000143051147
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            3.700000047683716,
+            1.8600000143051147
+          ]
+        },
+        {
+          "id": "Lidar/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.2400000095367432,
+            1.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.2400000095367432
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Lidar",
+          "part": "MA-P07",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.25999999046325684,
+            1.8899999856948853
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W08": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "HullKeel": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Yaw": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.46000000834465027
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.7200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SingleLauncher": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.46000000834465027
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.7200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SpareLeft": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.7900000214576721
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2000000476837158
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SpareRight": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.7900000214576721
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2000000476837158
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            2.200000047683716
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.8600000143051147
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Lidar": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.2400000095367432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.8899999856948853
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "clip-fire": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "HullKeel/mounts/hull",
+          "parent": "part",
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "hull",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "HullKeel",
+          "part": "MA-W08-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "HullKeel/mounts/yaw",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0.46,
+            0.72
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.46000000834465027,
+            0.7200000286102295
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "yaw",
+          "instance": "HullKeel",
+          "part": "MA-W08-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.9600000083446503,
+            0.7200000286102295
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/root",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.46000000834465027,
+            0.7200000286102295
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            1.9600000083446503,
+            0.7200000286102295
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/reserve-left",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            -0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-left",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            -0.24000000953674316,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/reserve-right",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "reserve-right",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.2400000095367432,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/service",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            1.74,
+            1.14
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            2.200000047683716,
+            1.8600000143051147
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            3.700000047683716,
+            1.8600000143051147
+          ]
+        },
+        {
+          "id": "SingleLauncher/mounts/optic",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            -1.7,
+            1.17
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.2400000095367432,
+            1.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optic",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.25999999046325684,
+            1.8899999856948853
+          ]
+        },
+        {
+          "id": "SingleLauncher/functional_points/shoot",
+          "role": "muzzle",
+          "parent": "part",
+          "node": "point.shoot",
+          "position": [
+            0,
+            -2.86,
+            0.56
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.3999998569488525,
+            1.2799999713897705
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.46000000834465027
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.7200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shoot",
+          "instance": "SingleLauncher",
+          "part": "MA-W08-P02",
+          "category": "functional_points",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.8999998569488525,
+            1.2799999713897705
+          ]
+        },
+        {
+          "id": "SpareLeft/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            -0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.7900000214576721
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2000000476837158
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SpareLeft",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            -0.24000000953674316,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "SpareRight/mounts/root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.7400000095367432,
+            0.7900000214576721,
+            1.2000000476837158
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.7400000095367432
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.7900000214576721
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2000000476837158
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "SpareRight",
+          "part": "MA-W08-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.2400000095367432,
+            2.290000021457672,
+            1.2000000476837158
+          ]
+        },
+        {
+          "id": "Service/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            2.200000047683716,
+            1.8600000143051147
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              2.200000047683716
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.8600000143051147
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Service",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            3.700000047683716,
+            1.8600000143051147
+          ]
+        },
+        {
+          "id": "Lidar/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.2400000095367432,
+            1.8899999856948853
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.2400000095367432
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.8899999856948853
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "Lidar",
+          "part": "MA-P07",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.25999999046325684,
+            1.8899999856948853
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W08": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "HullKeel": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Yaw": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.46000000834465027
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.7200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SingleLauncher": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.46000000834465027
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.7200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SpareLeft": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.7900000214576721
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2000000476837158
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "SpareRight": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.7400000095367432
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.7900000214576721
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2000000476837158
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Service": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            2.200000047683716
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.8600000143051147
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Lidar": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.2400000095367432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.8899999856948853
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    }
+  },
+  "assembly": {
+    "schema": "MilitaryArmor.BlenderAuthoring/1",
+    "id": "MA-W08",
+    "version": "1.0+states1",
+    "title": "Ракетная турель 1×3",
+    "catalog_id": "rocket-turret",
+    "catalog_grid": [
+      1,
+      3
+    ],
+    "axes": {
+      "handedness": "right",
+      "up": "+Z",
+      "forward": "-Y",
+      "units": "BU; physical scale unspecified"
+    },
+    "instances": [
+      {
+        "id": "HullKeel",
+        "part_id": "MA-W08-P01",
+        "version": "1.0",
+        "source": "../../Parts/MA-W08-P01/MA-W08-P01.blend",
+        "parent": "MA-W08",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "SingleLauncher",
+        "part_id": "MA-W08-P02",
+        "version": "1.0",
+        "source": "../../Parts/MA-W08-P02/MA-W08-P02.blend",
+        "parent": "Yaw",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "SpareLeft",
+        "part_id": "MA-W08-P03",
+        "version": "1.0",
+        "source": "../../Parts/MA-W08-P03/MA-W08-P03.blend",
+        "parent": "Yaw",
+        "translation": [
+          -0.74,
+          0.33,
+          0.48
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "SpareRight",
+        "part_id": "MA-W08-P03",
+        "version": "1.0",
+        "source": "../../Parts/MA-W08-P03/MA-W08-P03.blend",
+        "parent": "Yaw",
+        "translation": [
+          0.74,
+          0.33,
+          0.48
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "Service",
+        "part_id": "MA-P06",
+        "version": "1.3",
+        "source": "../../Parts/MA-P06/MA-P06.blend",
+        "parent": "Yaw",
+        "translation": [
+          0,
+          1.74,
+          1.14
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "Lidar",
+        "part_id": "MA-P07",
+        "version": "1.3",
+        "source": "../../Parts/MA-P07/MA-P07.blend",
+        "parent": "Yaw",
+        "translation": [
+          0,
+          -1.7,
+          1.17
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "id": "MA-W08",
+        "parent": null,
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "HullKeel",
+        "parent": "MA-W08",
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "Yaw",
+        "parent": "MA-W08",
+        "translation": [
+          0.0,
+          0.46000000834465027,
+          0.7200000286102295
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "SingleLauncher",
+        "parent": "Yaw",
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "SpareLeft",
+        "parent": "Yaw",
+        "translation": [
+          -0.7400000095367432,
+          0.33000001311302185,
+          0.47999998927116394
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "SpareRight",
+        "parent": "Yaw",
+        "translation": [
+          0.7400000095367432,
+          0.33000001311302185,
+          0.47999998927116394
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "Service",
+        "parent": "Yaw",
+        "translation": [
+          0.0,
+          1.7400000095367432,
+          1.1399999856948853
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "Lidar",
+        "parent": "Yaw",
+        "translation": [
+          0.0,
+          -1.7000000476837158,
+          1.1699999570846558
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "parent_instance": "HullKeel",
+        "parent_socket": "yaw",
+        "child_instance": "SingleLauncher",
+        "child_socket": "root",
+        "motion_node": "Yaw",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "range_degrees": [
+          0,
+          360
+        ]
+      },
+      {
+        "parent_instance": "SingleLauncher",
+        "parent_socket": "reserve-left",
+        "child_instance": "SpareLeft",
+        "child_socket": "root"
+      },
+      {
+        "parent_instance": "SingleLauncher",
+        "parent_socket": "reserve-right",
+        "child_instance": "SpareRight",
+        "child_socket": "root"
+      },
+      {
+        "parent_instance": "SingleLauncher",
+        "parent_socket": "service",
+        "child_instance": "Service",
+        "child_socket": "bottom"
+      },
+      {
+        "parent_instance": "SingleLauncher",
+        "parent_socket": "optic",
+        "child_instance": "Lidar",
+        "child_socket": "bottom"
+      }
+    ],
+    "animations": {
+      "controller": "MA-W08",
+      "controls": {
+        "power": {
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "description": "Electrical availability; independent from retained heat/fill"
+        },
+        "activity": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Actual work/load; zero means idle"
+        },
+        "fault": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Externally supplied fault, not inferred"
+        },
+        "heat": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Retained normalized heat; independent from power"
+        },
+        "aim_yaw": {
+          "default": 0,
+          "min": 0,
+          "max": 360
+        }
+      },
+      "channels": [
+        {
+          "node": "Yaw",
+          "path": "rotation_euler",
+          "axis": 2,
+          "parameter": "aim_yaw",
+          "expression": "0.0+t*0.017453292519943295"
+        }
+      ],
+      "clips": [
+        {
+          "name": "MA-W08::activate",
+          "parameters": [
+            "power",
+            "activity"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-W08::deactivate",
+          "parameters": [
+            "activity",
+            "power"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-W08::heat_up",
+          "parameters": [
+            "heat"
+          ],
+          "frames": [
+            1,
+            49
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-W08::cool_down",
+          "parameters": [
+            "heat"
+          ],
+          "frames": [
+            1,
+            97
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-W08::fire",
+          "parameters": [
+            "activity"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        }
+      ],
+      "independent_controls": true,
+      "demonstration_only": false,
+      "game_integration": false
+    },
+    "functional_contract": {
+      "active_barrel_count": 1,
+      "projectiles_per_shot": 1,
+      "muzzle_instance": "SingleLauncher",
+      "muzzle_point": "shoot",
+      "yaw_arc_degrees": 360,
+      "yaw_speed_degrees_per_second": 90,
+      "elevation": "none; catalog does not establish 3D elevation",
+      "reserve_cassettes": "closed visual stores; no independent firing points",
+      "xml_pivot": [
+        0.5,
+        0.5
+      ],
+      "xml_to_BU_mapping": "unspecified; yaw BU pivot is authoring only"
+    },
+    "exports": [],
+    "notes": "Procedural authoring source. No GLB, game installation, collider or LOD; physical scale unspecified. Central launch bore is open; spare cassettes are visibly closed.",
+    "state_authoring": "state-authoring.json"
+  },
+  "parts": {
+    "HullKeel": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-W08-P01",
+      "version": "1.0",
+      "name": "Narrow split rocket-turret support keel",
+      "source": "MA-W08-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.8299999833106995,
+          -2.619999885559082,
+          0.019999999552965164
+        ],
+        "max": [
+          0.8299999833106995,
+          2.7200000286102295,
+          0.7050000429153442
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Separated hull anchor spar",
+            "Separated hull anchor spar.001"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Low ceramic anchor pad",
+            "Low ceramic anchor pad.001",
+            "Low ceramic anchor pad.002",
+            "Low ceramic anchor pad.003"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Protected azimuth drive"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Continuous 360 degree bearing"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Recessed transverse tie",
+            "Recessed transverse tie.001",
+            "Sealed bearing crown"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "hull",
+          "parent": "part",
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "hull",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "yaw",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0.46,
+            0.72
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": [],
+      "notes": "MilitaryArmor single-channel rocket authoring; editable procedural PBR, no file textures, no UV dependency; static source part, no GLB."
+    },
+    "SingleLauncher": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-W08-P02",
+      "version": "1.0",
+      "name": "Single open polygonal rocket launch canister",
+      "source": "MA-W08-P02.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.8149999976158142,
+          -2.8399999141693115,
+          0.009999987669289112
+        ],
+        "max": [
+          0.8149999976158142,
+          2.3499999046325684,
+          1.1699999570846558
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "External canister reinforcing collar",
+            "External canister reinforcing collar.001",
+            "External canister reinforcing collar.002",
+            "External canister reinforcing collar.003",
+            "External canister reinforcing collar.004",
+            "Tapered rear locking breech"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Bright open muzzle seal",
+            "Rear service shelf",
+            "Segmented upper canister armor",
+            "Segmented upper canister armor.001",
+            "Segmented upper canister armor.002",
+            "Segmented upper canister armor.003",
+            "Segmented upper canister armor.004",
+            "Segmented upper canister armor.005"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Closed rear rocket chamber",
+            "Lower launch support",
+            "Lower launch support.001"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Optic",
+          "surfaces": [
+            "Small chamber state index"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.18000000715255737,
+            0.25,
+            1.0
+          ],
+          "metalness": 0.6499999761581421,
+          "roughness": 0.18000000715255737,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Reserve cassette coupling",
+            "Reserve cassette coupling.001"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Long octagonal launch tube",
+            "Forward optic seat"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Optic",
+          "regions": [
+            "Small chamber state index"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.18000000715255737,
+            0.25
+          ],
+          "strength": 0.699999988079071,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "root",
+          "parent": "part",
+          "role": "yaw",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "yaw",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "reserve-left",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            -0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "reserve-right",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0.74,
+            0.33,
+            0.48
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "service",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            1.74,
+            1.14
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "optic",
+          "parent": "part",
+          "role": "accessory",
+          "position": [
+            0,
+            -1.7,
+            1.17
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [
+        {
+          "id": "shoot",
+          "role": "muzzle",
+          "parent": "part",
+          "node": "point.shoot",
+          "position": [
+            0,
+            -2.86,
+            0.56
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "attachment_areas": [],
+      "animations": [],
+      "notes": "MilitaryArmor single-channel rocket authoring; editable procedural PBR, no file textures, no UV dependency; static source part, no GLB."
+    },
+    "SpareLeft": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-W08-P03",
+      "version": "1.0",
+      "name": "Sealed elongated reserve rocket cassette",
+      "source": "MA-W08-P03.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.20000000298023224,
+          -1.9249999523162842,
+          -0.1850000023841858
+        ],
+        "max": [
+          0.20000000298023224,
+          1.7000000476837158,
+          0.4000000059604645
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Closed spare rocket cassette"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Spare cassette ceramic shell",
+            "Spare cassette ceramic shell.001",
+            "Spare cassette ceramic shell.002"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Recessed cassette division",
+            "Recessed cassette division.001",
+            "Recessed cassette division.002"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Blind faceted nose cap"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Rear release lock"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": [],
+      "notes": "MilitaryArmor single-channel rocket authoring; editable procedural PBR, no file textures, no UV dependency; static source part, no GLB."
+    },
+    "SpareRight": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-W08-P03",
+      "version": "1.0",
+      "name": "Sealed elongated reserve rocket cassette",
+      "source": "MA-W08-P03.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.20000000298023224,
+          -1.9249999523162842,
+          -0.1850000023841858
+        ],
+        "max": [
+          0.20000000298023224,
+          1.7000000476837158,
+          0.4000000059604645
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Closed spare rocket cassette"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Spare cassette ceramic shell",
+            "Spare cassette ceramic shell.001",
+            "Spare cassette ceramic shell.002"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Recessed cassette division",
+            "Recessed cassette division.001",
+            "Recessed cassette division.002"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Blind faceted nose cap"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Rear release lock"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "parent": "part",
+          "role": "reserve",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "reserve",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": [],
+      "notes": "MilitaryArmor single-channel rocket authoring; editable procedural PBR, no file textures, no UV dependency; static source part, no GLB."
+    },
+    "Service": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-P06",
+      "version": "1.3",
+      "name": "Flush service cartridge",
+      "source": "MA-P06.blend",
+      "units": "BU, physical scale unspecified",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "bounds_local": {
+        "min": [
+          -0.3700000047683716,
+          -0.30000001192092896,
+          0.0005000000237487257
+        ],
+        "max": [
+          0.3700000047683716,
+          0.30000001192092896,
+          0.08000000566244125
+        ]
+      },
+      "scale_policy": "unit scale only",
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Hexagonal service cartridge"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Flush pressure seal"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Cartridge status"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Inset cartridge center",
+            "Flush quarter turn lock",
+            "Flush quarter turn lock.001"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal",
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "regions": [
+            "Cartridge status"
+          ],
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": []
+    },
+    "Lidar": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-P07",
+      "version": "1.3",
+      "name": "Flush lidar blade",
+      "source": "MA-P07.blend",
+      "units": "BU, physical scale unspecified",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "bounds_local": {
+        "min": [
+          -0.39692145586013794,
+          -0.36899998784065247,
+          0.0021278318017721176
+        ],
+        "max": [
+          0.39692145586013794,
+          0.30000001192092896,
+          0.27000001072883606
+        ]
+      },
+      "scale_policy": "unit scale only",
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Lidar armored visor"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Lidar aperture recess"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        },
+        {
+          "id": "Optic",
+          "surfaces": [
+            "Lidar independent optical cell",
+            "Lidar independent optical cell.001",
+            "Lidar independent optical cell.002"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Flush lidar blade"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Optic",
+          "color_linear": [
+            0.014999999664723873,
+            0.18000000715255737,
+            0.25
+          ],
+          "strength": 0.699999988079071,
+          "units": "Blender shader strength",
+          "regions": [
+            "Lidar independent optical cell",
+            "Lidar independent optical cell.001",
+            "Lidar independent optical cell.002"
+          ],
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": []
+    }
+  },
+  "material_slots": {
+    "HullKeel": {
+      "Separated hull anchor spar.001": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Separated hull anchor spar": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Sealed bearing crown": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed transverse tie.001": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed transverse tie": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Protected azimuth drive": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Low ceramic anchor pad.003": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Low ceramic anchor pad.002": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Low ceramic anchor pad.001": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Low ceramic anchor pad": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Continuous 360 degree bearing": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "SingleLauncher": {
+      "Tapered rear locking breech": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "Small chamber state index": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Segmented upper canister armor.005": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Segmented upper canister armor.004": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Segmented upper canister armor.003": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Segmented upper canister armor.002": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Segmented upper canister armor.001": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Segmented upper canister armor": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Reserve cassette coupling.001": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Reserve cassette coupling": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Rear service shelf": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Lower launch support.001": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Lower launch support": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Long octagonal launch tube": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Forward optic seat": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "External canister reinforcing collar.004": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "External canister reinforcing collar.003": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "External canister reinforcing collar.002": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "External canister reinforcing collar.001": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "External canister reinforcing collar": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "Closed rear rocket chamber": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Bright open muzzle seal": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ]
+    },
+    "SpareLeft": {
+      "Spare cassette ceramic shell.002": [
+        {
+          "id": "Ceramic.002",
+          "role": "Color1"
+        }
+      ],
+      "Spare cassette ceramic shell.001": [
+        {
+          "id": "Ceramic.002",
+          "role": "Color1"
+        }
+      ],
+      "Spare cassette ceramic shell": [
+        {
+          "id": "Ceramic.002",
+          "role": "Color1"
+        }
+      ],
+      "Recessed cassette division.002": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed cassette division.001": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed cassette division": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ],
+      "Rear release lock": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Closed spare rocket cassette": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Blind faceted nose cap": [
+        {
+          "id": "Steel.002",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "SpareRight": {
+      "Spare cassette ceramic shell.002": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ],
+      "Spare cassette ceramic shell.001": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ],
+      "Spare cassette ceramic shell": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ],
+      "Recessed cassette division.002": [
+        {
+          "id": "Dark.003",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed cassette division.001": [
+        {
+          "id": "Dark.003",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed cassette division": [
+        {
+          "id": "Dark.003",
+          "role": "Fixed"
+        }
+      ],
+      "Rear release lock": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Closed spare rocket cassette": [
+        {
+          "id": "Armor.003",
+          "role": "Color2"
+        }
+      ],
+      "Blind faceted nose cap": [
+        {
+          "id": "Steel.003",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "Service": {
+      "Inset cartridge center": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal service cartridge": [
+        {
+          "id": "Ceramic.004",
+          "role": "Color1"
+        }
+      ],
+      "Flush quarter turn lock.001": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Flush quarter turn lock": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Flush pressure seal": [
+        {
+          "id": "Dark.004",
+          "role": "Fixed"
+        }
+      ],
+      "Cartridge status": [
+        {
+          "id": "Signal",
+          "role": "Emissive"
+        }
+      ]
+    },
+    "Lidar": {
+      "Lidar independent optical cell.002": [
+        {
+          "id": "Optic.001",
+          "role": "Emissive"
+        }
+      ],
+      "Lidar independent optical cell.001": [
+        {
+          "id": "Optic.001",
+          "role": "Emissive"
+        }
+      ],
+      "Lidar independent optical cell": [
+        {
+          "id": "Optic.001",
+          "role": "Emissive"
+        }
+      ],
+      "Lidar armored visor": [
+        {
+          "id": "Ceramic.005",
+          "role": "Color1"
+        }
+      ],
+      "Lidar aperture recess": [
+        {
+          "id": "Dark.005",
+          "role": "Fixed"
+        }
+      ],
+      "Flush lidar blade": [
+        {
+          "id": "Titanium.005",
+          "role": "Fixed"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "assembly": "Blocks/MA-W08/assembly.json",
+    "source": "Blocks/MA-W08/MA-W08.blend",
+    "bu_per_cell": 1.0,
+    "footprint_bu": [
+      -0.5,
+      -1.5,
+      0.5,
+      1.5
+    ],
+    "height_range_bu": [
+      -0.1,
+      2.2
+    ],
+    "layers": [
+      {
+        "id": "base",
+        "draw_order": 0,
+        "rotates": false,
+        "pivot_bu": [
+          0,
+          0
+        ],
+        "instances": [
+          "HullKeel"
+        ]
+      },
+      {
+        "id": "turret",
+        "draw_order": 1,
+        "rotates": true,
+        "pivot_bu": [
+          0.0,
+          0.46000000834465027
+        ],
+        "instances": [
+          "SingleLauncher",
+          "SpareLeft",
+          "SpareRight",
+          "Service",
+          "Lidar"
+        ]
+      }
+    ],
+    "states": {
+      "damage0": {
+        "frame": 1
+      },
+      "damage33": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "damage66": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "destroyed": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "clips": {
+      "fire": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "use_author_animation": false
+  },
+  "inputs": {
+    "Blocks/MA-W08/assembly.json": "cbf2ea909ad60ce49f475bfc14a93bc4844bf8acd0c07fcc14a7056648b50b90",
+    "Blocks/MA-W08/MA-W08.blend": "21a478c9320bb87475b6eac5028ec7f3ea6655989eb139735fbb2ea6bf267e1a",
+    "Parts/MA-P06/MA-P06.blend": "48dfec4c5340ed6316552d1c333ecb4b6113c29e901a7a66dffe56037c283c00",
+    "Parts/MA-P06/part.json": "bf321ae51346e168376a0566f7b7fd8be3fdf74432f73267f00314be8fce4cba",
+    "Parts/MA-P07/MA-P07.blend": "b5eb646b1622a54454f08ff642a6fc3a29a6b4e2bec652f9c11cce4ae54c99af",
+    "Parts/MA-P07/part.json": "299569ee26389a2f31d117f44d727784e8c1c5dfbd2455e82c4a5fe6c5bee9f3",
+    "Parts/MA-W08-P01/MA-W08-P01.blend": "fbd4bd769960b8a2c1d3f5fea2f2b1aed89b9534387442a7f6e82e2f6796e014",
+    "Parts/MA-W08-P01/part.json": "732455ef0460364c2f65e719154661b0cdb4ce1690974175e8c323767187a837",
+    "Parts/MA-W08-P02/MA-W08-P02.blend": "a6f0f15a80c5f2bd322b884abfdeb3ec938b6ed4e562913660bd4ee6354248ab",
+    "Parts/MA-W08-P02/part.json": "f24a799e66337633bd25c4cbad012396fccba059287fc19e8834cfba77e40925",
+    "Parts/MA-W08-P03/MA-W08-P03.blend": "b0edb8be650195a38878c5744134205da67a3147a36b26b9b5a68d3e4ad8d167",
+    "Parts/MA-W08-P03/part.json": "94dafab7a567efbe4226a8cf8897fa83daad4c805d9f5085b27e2fc1113010b1"
+  },
+  "dependencies": [
+    "Blocks/MA-W08/assembly.json",
+    "Blocks/MA-W08/MA-W08.blend",
+    "Parts/MA-P06/MA-P06.blend",
+    "Parts/MA-P06/part.json",
+    "Parts/MA-P07/MA-P07.blend",
+    "Parts/MA-P07/part.json",
+    "Parts/MA-W08-P01/MA-W08-P01.blend",
+    "Parts/MA-W08-P01/part.json",
+    "Parts/MA-W08-P02/MA-W08-P02.blend",
+    "Parts/MA-W08-P02/part.json",
+    "Parts/MA-W08-P03/MA-W08-P03.blend",
+    "Parts/MA-W08-P03/part.json"
+  ]
+}

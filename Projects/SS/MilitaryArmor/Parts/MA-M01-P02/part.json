@@ -1,0 +1,242 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-M01-P02",
+  "version": "1.0",
+  "name": "Recessed work optic with protected aperture",
+  "source": "MA-M01-P02.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.5,
+      -0.4700000286102295,
+      -0.48984837532043457
+    ],
+    "max": [
+      0.5,
+      0.14999999105930328,
+      0.48984837532043457
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Protected emitter side shoe",
+        "Protected emitter side shoe.001"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Outer faceted protective bezel"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Dark optical backing"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Optic",
+      "surfaces": [
+        "Recessed blue work lens"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25,
+        1.0
+      ],
+      "metalness": 0.6499999761581421,
+      "roughness": 0.18000000715255737,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Lens retainer"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Titanium internal aperture"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Optic",
+      "regions": [
+        "Recessed blue work lens"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25
+      ],
+      "strength": 0.699999988079071,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "root",
+      "node": "socket.root",
+      "parent": null,
+      "role": "optic",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.mining-small.optic"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "authoring-emitter",
+      "node": null,
+      "parent": null,
+      "role": "mining-beam-origin",
+      "space": "part-local",
+      "position": [
+        0,
+        -0.49,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "notes": "Authoring only; no established conversion to catalog MuzzleX/MuzzleY; no beam geometry."
+    }
+  ],
+  "attachment_areas": [
+    {
+      "id": "root-plane",
+      "parent": null,
+      "role": "optic",
+      "shape": "logical-plane",
+      "dimensions": [
+        0.08,
+        0.08
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.mining-small.optic"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Static mining optical equipment. Editable separate solids; uniform procedural PBR, no file texture or UV dependency. No beam mesh."
+}

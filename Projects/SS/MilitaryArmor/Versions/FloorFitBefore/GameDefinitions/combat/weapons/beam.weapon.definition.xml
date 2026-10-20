@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weapon Name="laser-beam" ProjectileKind="Beam" DamagePerProjectile="300" ProjectileSpeed="300" MaxRange="120" HitReaction="Damage" AmmoItemId="31" MagazineCharge="10">
+    <Barrels>
+        <Barrel Ref="beam-emitter"/>
+    </Barrels>
+</Weapon>

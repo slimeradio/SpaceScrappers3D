@@ -1,0 +1,149 @@
+{
+  "id": "MA-B01",
+  "checks_passed": true,
+  "source_reopened": true,
+  "new_parts_geometry_checked_before_assembly": true,
+  "part_sources_reopened": {
+    "MA-B01-P01": {
+      "meshes": 4,
+      "triangles": 880,
+      "zero_area_triangles": 0,
+      "nonmanifold_edges": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    "MA-B01-P02": {
+      "meshes": 8,
+      "triangles": 1528,
+      "zero_area_triangles": 0,
+      "nonmanifold_edges": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    "MA-B01-P03": {
+      "meshes": 4,
+      "triangles": 880,
+      "zero_area_triangles": 0,
+      "nonmanifold_edges": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    "MA-B01-P04": {
+      "meshes": 7,
+      "triangles": 820,
+      "zero_area_triangles": 0,
+      "nonmanifold_edges": 0,
+      "finite": true,
+      "materials_resolved": true
+    },
+    "MA-R01-P05": {
+      "meshes": 6,
+      "triangles": 1608,
+      "zero_area_triangles": 0,
+      "nonmanifold_edges": 0,
+      "finite": true,
+      "materials_resolved": true
+    }
+  },
+  "assembly_geometry": {
+    "meshes": 64,
+    "triangles": 12000,
+    "zero_area_triangles": 0,
+    "nonmanifold_edges": 0,
+    "finite": true,
+    "materials_resolved": true
+  },
+  "socket_alignment": [
+    {
+      "parent": "Cassette",
+      "socket": "cell0",
+      "child": "Cell0",
+      "child_socket": "root",
+      "aligned": true,
+      "position_error_BU": 0.0
+    },
+    {
+      "parent": "Cassette",
+      "socket": "cell1",
+      "child": "Cell1",
+      "child_socket": "root",
+      "aligned": true,
+      "position_error_BU": 0.0
+    },
+    {
+      "parent": "Cassette",
+      "socket": "cell2",
+      "child": "Cell2",
+      "child_socket": "root",
+      "aligned": true,
+      "position_error_BU": 0.0
+    },
+    {
+      "parent": "Cassette",
+      "socket": "cell3",
+      "child": "Cell3",
+      "child_socket": "root",
+      "aligned": true,
+      "position_error_BU": 0.0
+    },
+    {
+      "parent": "Cassette",
+      "socket": "sideR",
+      "child": "ShoulderR",
+      "child_socket": "root",
+      "aligned": true,
+      "position_error_BU": 0.0
+    },
+    {
+      "parent": "Cassette",
+      "socket": "sideL",
+      "child": "ShoulderL",
+      "child_socket": "root",
+      "aligned": true,
+      "position_error_BU": 0.0
+    },
+    {
+      "parent": "Cassette",
+      "socket": "busF",
+      "child": "BusF",
+      "child_socket": "root",
+      "aligned": true,
+      "position_error_BU": 0.0
+    },
+    {
+      "parent": "Cassette",
+      "socket": "busB",
+      "child": "BusB",
+      "child_socket": "root",
+      "aligned": true,
+      "position_error_BU": 0.0
+    },
+    {
+      "parent": "Cassette",
+      "socket": "service",
+      "child": "Service",
+      "child_socket": "bottom",
+      "aligned": true,
+      "position_error_BU": 0.0
+    }
+  ],
+  "instance_count": 10,
+  "new_unique_parts": 4,
+  "reused_parts": [
+    "MA-R01-P05 v1.0 (compatible repaired variant of MA-P06 v1.3)"
+  ],
+  "source_links_resolved": true,
+  "unit_scale": true,
+  "static_no_animations": true,
+  "no_GLB_generated": true,
+  "visual_review": [
+    "Previews/perspective.png",
+    "Previews/top.png"
+  ],
+  "intersections": "Module bodies seat on cassette; armored lids and shoulders clear at visible seams. Intended bedding overlaps only, visual review. No boolean assembly union.",
+  "game_validation": false,
+  "limits": [
+    "Authoring BU physical scale unspecified",
+    "No game integration, LOD or collision contract"
+  ]
+}

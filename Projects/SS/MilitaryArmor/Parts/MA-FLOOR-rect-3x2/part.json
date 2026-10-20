@@ -1,0 +1,157 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-FLOOR-rect-3x2",
+  "version": "1.0",
+  "name": "Floor with fixed corners",
+  "source": "MA-FLOOR-rect-3x2.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "1 BU = 1 gameplay cell"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only; rebuild parameterized variant to change footprint",
+  "bounds_local": {
+    "min": [
+      -1.5,
+      -1.0,
+      0.0
+    ],
+    "max": [
+      1.5,
+      1.0,
+      0.07000000029802322
+    ]
+  },
+  "materials": [
+    {
+      "id": "FloorSurface",
+      "surfaces": [
+        "Floor continuous surface"
+      ],
+      "role": "Color1",
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.25,
+      "roughness": 0.5,
+      "texture_source": "uniform procedural PBR; no UV stretch"
+    },
+    {
+      "id": "FloorArmor",
+      "surfaces": [
+        "Floor fixed corner 0",
+        "Floor straight border 0",
+        "Floor fixed corner 1",
+        "Floor straight border 1",
+        "Floor fixed corner 2",
+        "Floor straight border 2",
+        "Floor fixed corner 3",
+        "Floor straight border 3"
+      ],
+      "role": "Color2",
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform procedural PBR; no UV stretch"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "body",
+      "role": "body-platform",
+      "position": [
+        0,
+        0,
+        0.075
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "occupied-area",
+      "shape": "polygon",
+      "vertices": [
+        [
+          -1.5,
+          -1.0,
+          0
+        ],
+        [
+          1.5,
+          -1.0,
+          0
+        ],
+        [
+          1.5,
+          1.0,
+          0
+        ],
+        [
+          -1.5,
+          1.0,
+          0
+        ]
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "animations": [],
+  "floor_parameters": {
+    "corner_cells": 0.12,
+    "frame_cells": 0.06,
+    "polygon": [
+      [
+        -1.5,
+        -1.0
+      ],
+      [
+        1.5,
+        -1.0
+      ],
+      [
+        1.5,
+        1.0
+      ],
+      [
+        -1.5,
+        1.0
+      ]
+    ]
+  }
+}

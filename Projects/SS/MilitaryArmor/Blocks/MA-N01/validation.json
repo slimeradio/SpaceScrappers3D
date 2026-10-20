@@ -1,0 +1,1004 @@
+{
+  "id": "MA-N01",
+  "catalog_id": "antenna-1x1",
+  "catalog_grid": [
+    1,
+    1
+  ],
+  "independent_verifier": "Tools/verify_MA_N01.py",
+  "source_reopened": true,
+  "parts_reopened": {
+    "MA-N01-P01": {
+      "mesh_count": 6,
+      "triangles": 1320,
+      "zero_area_triangles": 0,
+      "checks_passed": true,
+      "objects": [
+        {
+          "name": "Hull pressure seal",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.24802200671410538,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Graphite electronics housing",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.49363998849213064,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Cold armor crown",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.15587598984050682,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Inset flank",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.003574999956786407,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Inset flank.001",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0035749999567864085,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Service recess",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.011528007643461156,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        }
+      ]
+    },
+    "MA-N01-P02": {
+      "mesh_count": 24,
+      "triangles": 5280,
+      "zero_area_triangles": 0,
+      "checks_passed": true,
+      "objects": [
+        {
+          "name": "Faceted panel back",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.17069800590956208,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Cold ceramic aperture bezel",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.10255000550188131,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Recessed radio aperture",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.014047599441814357,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 0 0",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641608030899,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 0 1",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.000524464131954439,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 0 2",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244640971453211,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 0 3",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641319544392,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 0 4",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641608030899,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 1 0",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641460211387,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 1 1",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641171724849,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 1 2",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244640823633662,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 1 3",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641171724849,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 1 4",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641460211387,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 2 0",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.000524464146021139,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 2 1",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641171724849,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 2 2",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244640823633662,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 2 3",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641171724849,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 2 4",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641460211387,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 3 0",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641608030896,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 3 1",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641319544391,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 3 2",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.000524464097145321,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 3 3",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641319544388,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Radio ceramic cell 3 4",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0005244641608030899,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Diagnostic index",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 2.7899985668064094e-05,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        }
+      ]
+    },
+    "MA-N01-P03": {
+      "mesh_count": 5,
+      "triangles": 1180,
+      "zero_area_triangles": 0,
+      "checks_passed": true,
+      "objects": [
+        {
+          "name": "Closed swept support",
+          "triangles": 268,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.049904003155549444,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Faceted support armor",
+          "triangles": 268,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.033335003367488666,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Closed swept support.001",
+          "triangles": 268,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.04990400315554945,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Faceted support armor.001",
+          "triangles": 268,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.03333500336748864,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Protected transverse hinge",
+          "triangles": 108,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.03420000143945217,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        }
+      ]
+    },
+    "MA-R01-P05": {
+      "mesh_count": 6,
+      "triangles": 1608,
+      "zero_area_triangles": 0,
+      "checks_passed": true,
+      "objects": [
+        {
+          "name": "Flush pressure seal.001",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.013272000975389052,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Hexagonal service cartridge.001",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.010070784395519613,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Inset cartridge center.001",
+          "triangles": 220,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 0.0016776003010153817,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Flush quarter turn lock.002",
+          "triangles": 380,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 1.3033392208021095e-05,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Flush quarter turn lock.003",
+          "triangles": 380,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 1.3033392208021095e-05,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        },
+        {
+          "name": "Cartridge status.001",
+          "triangles": 188,
+          "zero_area_triangles": 0,
+          "nonmanifold_source_edges": 0,
+          "signed_volume": 2.2100000194460142e-05,
+          "finite": true,
+          "materials": true,
+          "unit_scale": true,
+          "passed": true
+        }
+      ]
+    }
+  },
+  "part_sha256": {
+    "MA-N01-P01": "db8e988cd6ee92f06d88b7968782bbb72ce4ab77c14ac6ddfb0dce494eb5edfc",
+    "MA-N01-P02": "297668e6eecb1725357ff8c4f590d2bcbbe5a20df84a054d066697184e9b0ef0",
+    "MA-N01-P03": "c20d3d1ad0e28da50ced4975e381d8305ed536df061ca40bec2c6ab8f9fa1d65",
+    "MA-R01-P05": "99300dd21296583fa8e00db97ebad5974726a2e73ffc3ab5eaea7590eee3b8ed"
+  },
+  "assembly_geometry": {
+    "mesh_count": 41,
+    "triangles": 9388,
+    "zero_area_triangles": 0,
+    "checks_passed": true,
+    "objects": [
+      {
+        "name": "Chassis::Hull pressure seal",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.24802200671410538,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Chassis::Graphite electronics housing",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.49363998849213064,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Chassis::Cold armor crown",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.15587598984050682,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Chassis::Inset flank",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.003574999956786407,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Chassis::Inset flank.001",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0035749999567864085,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Chassis::Service recess",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.011528007643461156,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Support::Closed swept support",
+        "triangles": 268,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.049904003155549444,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Support::Faceted support armor",
+        "triangles": 268,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.033335003367488666,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Support::Closed swept support.001",
+        "triangles": 268,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.04990400315554945,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Support::Faceted support armor.001",
+        "triangles": 268,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.03333500336748864,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Support::Protected transverse hinge",
+        "triangles": 108,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.03420000143945217,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Faceted panel back",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.17069800590956208,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Cold ceramic aperture bezel",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.10255000550188131,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Recessed radio aperture",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.014047599441814357,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 0 0",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641608030899,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 0 1",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.000524464131954439,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 0 2",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244640971453211,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 0 3",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641319544392,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 0 4",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641608030899,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 1 0",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641460211387,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 1 1",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641171724849,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 1 2",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244640823633662,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 1 3",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641171724849,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 1 4",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641460211387,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 2 0",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.000524464146021139,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 2 1",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641171724849,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 2 2",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244640823633662,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 2 3",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641171724849,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 2 4",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641460211387,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 3 0",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641608030896,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 3 1",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641319544391,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 3 2",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.000524464097145321,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 3 3",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641319544388,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Radio ceramic cell 3 4",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0005244641608030899,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Aperture::Diagnostic index",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 2.7899985668064094e-05,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Service::Flush pressure seal.001",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.013272000975389052,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Service::Hexagonal service cartridge.001",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.010070784395519613,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Service::Inset cartridge center.001",
+        "triangles": 220,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 0.0016776003010153817,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Service::Flush quarter turn lock.002",
+        "triangles": 380,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 1.3033392208021095e-05,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Service::Flush quarter turn lock.003",
+        "triangles": 380,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 1.3033392208021095e-05,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      },
+      {
+        "name": "Service::Cartridge status.001",
+        "triangles": 188,
+        "zero_area_triangles": 0,
+        "nonmanifold_source_edges": 0,
+        "signed_volume": 2.2100000194460142e-05,
+        "finite": true,
+        "materials": true,
+        "unit_scale": true,
+        "passed": true
+      }
+    ]
+  },
+  "socket_alignment": [
+    {
+      "parent": "Chassis",
+      "socket": "support",
+      "child": "Support",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "checks_passed": true
+    },
+    {
+      "parent": "Support",
+      "socket": "aperture",
+      "child": "Aperture",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "checks_passed": true
+    },
+    {
+      "parent": "Chassis",
+      "socket": "service",
+      "child": "Service",
+      "child_socket": "bottom",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "checks_passed": true
+    }
+  ],
+  "preassembly_checks_verified": true,
+  "instance_count": 4,
+  "new_parts": 3,
+  "reused_parts": [
+    "MA-R01-P05 v1.0"
+  ],
+  "static_no_animation": true,
+  "no_glb_created": true,
+  "physical_scale": "BU unspecified",
+  "overlap_policy": "Separate manifold solids. Intended pressure-seal, bezel, radio-cell seating and support contact; no claim of boolean-unioned assembly.",
+  "game_validation": false,
+  "checks_passed": true
+}

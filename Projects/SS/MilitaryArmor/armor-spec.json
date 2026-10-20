@@ -1,0 +1,18 @@
+{
+  "schema": "MilitaryArmor.ArmorAuthoringBrief/1",
+  "style": "MilitaryArmor",
+  "ids": {"MA-A01":"armor-1x1", "MA-A02":"armor-2x1", "MA-A03":"armor-wedge", "MA-A04":"armor-1x2-wedge"},
+  "axes": {"handedness":"right", "up":"+Z", "forward":"-Y"},
+  "visual_cell_pitch_BU": 1.0,
+  "physical_scale": "Unspecified. One visual authoring pitch is 1 BU, not a meter conversion.",
+  "origin": "Center of nominal XY catalog footprint, bottom z=0",
+  "thickness_BU": 0.28,
+  "load_bearing_edge_height_BU": 0.16,
+  "shape_boundaries": {"armor-1x1":[[-0.5,-0.5],[0.5,-0.5],[0.5,0.5],[-0.5,0.5]],"armor-2x1":[[-1,-0.5],[1,-0.5],[1,0.5],[-1,0.5]],"armor-wedge":[[-0.5,-0.5],[0.5,0.5],[-0.5,0.5]],"armor-1x2-wedge":[[-0.5,-1],[0.5,1],[-0.5,1]]},
+  "art_direction": "Broad planar chamfers, layered silhouette, a quiet inset armor face; credible spacecraft skin. Seam repetition should remain calm in large fields. No lamps, exposed bolts, handles, vents, decals or small floating hardware.",
+  "geometry_budget": {"target_evaluated_triangles_per_block":160,"hard_limit_evaluated_triangles_per_block":240,"max_mesh_objects":2,"max_material_slots":3},
+  "materials": "Reuse current style palette Armor, Ceramic, Titanium/Dark; no emission or images. Prefer two materials, restrained contrast.",
+  "edge_contract": "Retain exact catalog polygon at bottom structural envelope. Coplanar straight join walls for z=0..0.16. Only the exposed upper face may have chamfers/corner cuts/insets; no geometry outside nominal XY boundary. Consistent top z=0.28. No scales other than one.",
+  "deliverables": "Standalone editable Parts/<ID>/blend + part.json; assembled Blocks/<ID>/blend + assembly.json + final Exports/<ID>.glb + validation.json + short composition plan/README. No intermediate variants, archives, user comparison renders. Internal final review renders in TEMP only.",
+  "validation": "Reopen source, GLB roundtrip, embedded materials, no emission, finite transforms, evaluated triangle count, no zero-area faces, no boundary overshoot. Inspect final oblique/top plus tiled/neighbouring final instances in TEMP; no display props in final export."
+}

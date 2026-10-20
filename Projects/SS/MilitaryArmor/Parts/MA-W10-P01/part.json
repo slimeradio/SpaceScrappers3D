@@ -1,0 +1,200 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W10-P01",
+  "version": "1.0",
+  "name": "Light asymmetric pulse-laser fork",
+  "source": "MA-W10-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -1.0399999618530273,
+      -0.7599999904632568,
+      0.0
+    ],
+    "max": [
+      1.6299999952316284,
+      1.3700000047683716,
+      1.206421136856079
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Gimbal dielectric lid",
+        "Gimbal dielectric lid.001"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Swept pulse trunnion",
+        "Swept pulse trunnion.001"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Sealed pulse azimuth",
+        "Pulse cassette shoe"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Azimuth datum",
+        "Narrow optical fork sill",
+        "Gimbal bearing",
+        "Gimbal bearing.001",
+        "Protected power bridge"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "bottom",
+      "role": "structural",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "structural",
+      "compatibility": [
+        "structural"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "node": "socket.bottom"
+    },
+    {
+      "id": "elevation",
+      "role": "elevation",
+      "position": [
+        0,
+        -0.28,
+        0.92
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "elevation",
+      "compatibility": [
+        "elevation"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "node": "socket.elevation"
+    },
+    {
+      "id": "pulse-feed",
+      "role": "energy",
+      "position": [
+        1.22,
+        0.49,
+        0.59
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "energy",
+      "compatibility": [
+        "energy"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "node": "socket.pulse-feed"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": "Independent static editable part; unit scale; uniform procedural PBR. No file textures, UV dependency or local moving mechanism."
+}

@@ -1,0 +1,216 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W02-P04",
+  "version": "1.0",
+  "name": "Single-aperture continuous laser emitter",
+  "source": "MA-W02-P04.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.7599999904632568,
+      -0.42249998450279236,
+      -0.7599999904632568
+    ],
+    "max": [
+      0.7599999904632568,
+      0.14000000059604645,
+      0.7599999904632568
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Emitter lateral shield",
+        "Emitter lateral shield.001"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Hexadecagonal armored aperture"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Isolated focusing suspension"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Optic",
+      "surfaces": [
+        "Continuous beam focusing lens",
+        "Inner active lens"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25,
+        1.0
+      ],
+      "metalness": 0.6499999761581421,
+      "roughness": 0.18000000715255737,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Signal",
+      "surfaces": [
+        "Lens perimeter glow",
+        "Central focusing zone"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705,
+        1.0
+      ],
+      "metalness": 0.3499999940395355,
+      "roughness": 0.25,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Nested optical conductor",
+        "Iris actuator",
+        "Iris actuator.001",
+        "Iris actuator.002",
+        "Iris actuator.003",
+        "Iris actuator.004",
+        "Iris actuator.005",
+        "Iris actuator.006",
+        "Iris actuator.007"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Optic",
+      "regions": [
+        "Continuous beam focusing lens",
+        "Inner active lens"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25
+      ],
+      "strength": 0.699999988079071,
+      "units": "Blender shader strength",
+      "default": "on"
+    },
+    {
+      "slot": "Signal",
+      "regions": [
+        "Lens perimeter glow",
+        "Central focusing zone"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "optical-input",
+      "role": "structural",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "continuous-emitter",
+      "position": [
+        0,
+        -0.425,
+        0
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": "One broad optical aperture; no ballistic bore, recoil or projectile barrels."
+}

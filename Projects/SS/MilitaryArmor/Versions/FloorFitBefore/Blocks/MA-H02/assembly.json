@@ -1,0 +1,4065 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-H02",
+  "version": "2.0+states1",
+  "title": "Радиатор 2×3 — визуальная заготовка",
+  "catalog_id": "radiator-2x3",
+  "catalog_grid": [
+    2,
+    3
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "DualCollector",
+      "part_id": "MA-H02-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-H02-P01/MA-H02-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-0.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        -2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-0.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        -2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-1.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        -2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-1.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        -2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-2.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        -1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-2.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        -1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-3.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        -1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-3.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        -1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-4.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        -1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-4.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        -1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-5.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        -0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-5.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        -0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-6.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        -0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-6.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        -0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-7.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        0.0,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-7.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        0.0,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-8.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-8.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-9.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-9.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-10.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-10.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-11.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-11.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-12.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-12.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-13.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-13.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-14.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -1.16,
+        2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B0-14.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        -0.8,
+        2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-0.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        -2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-0.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        -2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-1.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        -2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-1.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        -2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-2.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        -1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-2.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        -1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-3.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        -1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-3.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        -1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-4.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        -1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-4.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        -1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-5.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        -0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-5.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        -0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-6.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        -0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-6.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        -0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-7.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        0.0,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-7.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        0.0,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-8.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-8.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-9.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-9.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-10.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-10.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-11.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-11.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-12.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-12.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-13.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-13.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-14.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        0.8,
+        2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RadiatingBlade-B1-14.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H02",
+      "translation": [
+        1.16,
+        2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-0.L",
+      "child_instance": "RadiatingBlade-B0-0.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-0.R",
+      "child_instance": "RadiatingBlade-B0-0.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-1.L",
+      "child_instance": "RadiatingBlade-B0-1.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-1.R",
+      "child_instance": "RadiatingBlade-B0-1.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-2.L",
+      "child_instance": "RadiatingBlade-B0-2.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-2.R",
+      "child_instance": "RadiatingBlade-B0-2.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-3.L",
+      "child_instance": "RadiatingBlade-B0-3.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-3.R",
+      "child_instance": "RadiatingBlade-B0-3.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-4.L",
+      "child_instance": "RadiatingBlade-B0-4.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-4.R",
+      "child_instance": "RadiatingBlade-B0-4.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-5.L",
+      "child_instance": "RadiatingBlade-B0-5.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-5.R",
+      "child_instance": "RadiatingBlade-B0-5.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-6.L",
+      "child_instance": "RadiatingBlade-B0-6.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-6.R",
+      "child_instance": "RadiatingBlade-B0-6.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-7.L",
+      "child_instance": "RadiatingBlade-B0-7.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-7.R",
+      "child_instance": "RadiatingBlade-B0-7.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-8.L",
+      "child_instance": "RadiatingBlade-B0-8.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-8.R",
+      "child_instance": "RadiatingBlade-B0-8.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-9.L",
+      "child_instance": "RadiatingBlade-B0-9.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-9.R",
+      "child_instance": "RadiatingBlade-B0-9.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-10.L",
+      "child_instance": "RadiatingBlade-B0-10.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-10.R",
+      "child_instance": "RadiatingBlade-B0-10.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-11.L",
+      "child_instance": "RadiatingBlade-B0-11.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-11.R",
+      "child_instance": "RadiatingBlade-B0-11.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-12.L",
+      "child_instance": "RadiatingBlade-B0-12.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-12.R",
+      "child_instance": "RadiatingBlade-B0-12.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-13.L",
+      "child_instance": "RadiatingBlade-B0-13.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-13.R",
+      "child_instance": "RadiatingBlade-B0-13.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-14.L",
+      "child_instance": "RadiatingBlade-B0-14.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B0-14.R",
+      "child_instance": "RadiatingBlade-B0-14.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-0.L",
+      "child_instance": "RadiatingBlade-B1-0.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-0.R",
+      "child_instance": "RadiatingBlade-B1-0.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-1.L",
+      "child_instance": "RadiatingBlade-B1-1.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-1.R",
+      "child_instance": "RadiatingBlade-B1-1.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-2.L",
+      "child_instance": "RadiatingBlade-B1-2.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-2.R",
+      "child_instance": "RadiatingBlade-B1-2.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-3.L",
+      "child_instance": "RadiatingBlade-B1-3.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-3.R",
+      "child_instance": "RadiatingBlade-B1-3.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-4.L",
+      "child_instance": "RadiatingBlade-B1-4.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-4.R",
+      "child_instance": "RadiatingBlade-B1-4.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-5.L",
+      "child_instance": "RadiatingBlade-B1-5.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-5.R",
+      "child_instance": "RadiatingBlade-B1-5.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-6.L",
+      "child_instance": "RadiatingBlade-B1-6.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-6.R",
+      "child_instance": "RadiatingBlade-B1-6.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-7.L",
+      "child_instance": "RadiatingBlade-B1-7.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-7.R",
+      "child_instance": "RadiatingBlade-B1-7.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-8.L",
+      "child_instance": "RadiatingBlade-B1-8.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-8.R",
+      "child_instance": "RadiatingBlade-B1-8.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-9.L",
+      "child_instance": "RadiatingBlade-B1-9.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-9.R",
+      "child_instance": "RadiatingBlade-B1-9.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-10.L",
+      "child_instance": "RadiatingBlade-B1-10.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-10.R",
+      "child_instance": "RadiatingBlade-B1-10.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-11.L",
+      "child_instance": "RadiatingBlade-B1-11.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-11.R",
+      "child_instance": "RadiatingBlade-B1-11.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-12.L",
+      "child_instance": "RadiatingBlade-B1-12.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-12.R",
+      "child_instance": "RadiatingBlade-B1-12.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-13.L",
+      "child_instance": "RadiatingBlade-B1-13.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-13.R",
+      "child_instance": "RadiatingBlade-B1-13.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-14.L",
+      "child_instance": "RadiatingBlade-B1-14.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "DualCollector",
+      "parent_socket": "hinge-RadiatingBlade-B1-14.R",
+      "child_instance": "RadiatingBlade-B1-14.R",
+      "child_socket": "root",
+      "adapter": true
+    }
+  ],
+  "animations": {
+    "controller": "MA-H02",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      },
+      "deployment": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "0 closed, 1 open; reversible at any point"
+      }
+    },
+    "channels": [
+      {
+        "node": "RadiatingBlade-B0-0.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-0.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-1.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-1.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-2.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-2.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-3.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-3.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-4.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-4.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-5.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-5.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-6.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-6.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-7.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-7.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-8.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-8.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-9.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-9.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-10.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-10.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-11.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-11.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-12.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-12.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-13.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-13.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-14.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B0-14.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-0.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-0.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-1.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-1.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-2.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-2.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-3.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-3.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-4.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-4.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-5.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-5.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-6.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-6.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-7.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-7.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-8.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-8.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-9.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-9.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-10.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-10.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-11.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-11.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-12.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-12.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-13.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-13.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-14.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "RadiatingBlade-B1-14.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      }
+    ],
+    "clips": [
+      {
+        "name": "MA-H02::open",
+        "parameters": [
+          "deployment"
+        ],
+        "frames": [
+          1,
+          31
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-H02::close",
+        "parameters": [
+          "deployment"
+        ],
+        "frames": [
+          1,
+          31
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-H02::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-H02::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-H02::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-H02::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Open dual-comb radiator: thirty unchanged deep R2 blades on two narrow collectors. No emission, animation, temperatures, dissipation figures, physical metric scale or gameplay mechanics.",
+  "mount_adapters": [
+    {
+      "id": "hinge-RadiatingBlade-B0-0.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-0",
+      "position": [
+        -1.16,
+        -2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-0.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-0",
+      "position": [
+        -0.8,
+        -2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-1.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-1",
+      "position": [
+        -1.16,
+        -2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-1.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-1",
+      "position": [
+        -0.8,
+        -2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-2.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-2",
+      "position": [
+        -1.16,
+        -1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-2.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-2",
+      "position": [
+        -0.8,
+        -1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-3.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-3",
+      "position": [
+        -1.16,
+        -1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-3.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-3",
+      "position": [
+        -0.8,
+        -1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-4.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-4",
+      "position": [
+        -1.16,
+        -1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-4.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-4",
+      "position": [
+        -0.8,
+        -1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-5.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-5",
+      "position": [
+        -1.16,
+        -0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-5.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-5",
+      "position": [
+        -0.8,
+        -0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-6.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-6",
+      "position": [
+        -1.16,
+        -0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-6.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-6",
+      "position": [
+        -0.8,
+        -0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-7.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-7",
+      "position": [
+        -1.16,
+        0.0,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-7.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-7",
+      "position": [
+        -0.8,
+        0.0,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-8.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-8",
+      "position": [
+        -1.16,
+        0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-8.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-8",
+      "position": [
+        -0.8,
+        0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-9.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-9",
+      "position": [
+        -1.16,
+        0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-9.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-9",
+      "position": [
+        -0.8,
+        0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-10.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-10",
+      "position": [
+        -1.16,
+        1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-10.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-10",
+      "position": [
+        -0.8,
+        1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-11.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-11",
+      "position": [
+        -1.16,
+        1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-11.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-11",
+      "position": [
+        -0.8,
+        1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-12.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-12",
+      "position": [
+        -1.16,
+        1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-12.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-12",
+      "position": [
+        -0.8,
+        1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-13.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-13",
+      "position": [
+        -1.16,
+        2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-13.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-13",
+      "position": [
+        -0.8,
+        2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-14.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-14",
+      "position": [
+        -1.16,
+        2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B0-14.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-0-fin-14",
+      "position": [
+        -0.8,
+        2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-0.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-0",
+      "position": [
+        0.8,
+        -2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-0.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-0",
+      "position": [
+        1.16,
+        -2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-1.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-1",
+      "position": [
+        0.8,
+        -2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-1.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-1",
+      "position": [
+        1.16,
+        -2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-2.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-2",
+      "position": [
+        0.8,
+        -1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-2.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-2",
+      "position": [
+        1.16,
+        -1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-3.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-3",
+      "position": [
+        0.8,
+        -1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-3.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-3",
+      "position": [
+        1.16,
+        -1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-4.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-4",
+      "position": [
+        0.8,
+        -1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-4.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-4",
+      "position": [
+        1.16,
+        -1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-5.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-5",
+      "position": [
+        0.8,
+        -0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-5.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-5",
+      "position": [
+        1.16,
+        -0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-6.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-6",
+      "position": [
+        0.8,
+        -0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-6.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-6",
+      "position": [
+        1.16,
+        -0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-7.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-7",
+      "position": [
+        0.8,
+        0.0,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-7.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-7",
+      "position": [
+        1.16,
+        0.0,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-8.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-8",
+      "position": [
+        0.8,
+        0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-8.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-8",
+      "position": [
+        1.16,
+        0.34,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-9.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-9",
+      "position": [
+        0.8,
+        0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-9.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-9",
+      "position": [
+        1.16,
+        0.68,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-10.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-10",
+      "position": [
+        0.8,
+        1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-10.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-10",
+      "position": [
+        1.16,
+        1.02,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-11.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-11",
+      "position": [
+        0.8,
+        1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-11.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-11",
+      "position": [
+        1.16,
+        1.36,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-12.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-12",
+      "position": [
+        0.8,
+        1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-12.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-12",
+      "position": [
+        1.16,
+        1.7,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-13.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-13",
+      "position": [
+        0.8,
+        2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-13.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-13",
+      "position": [
+        1.16,
+        2.04,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-14.L",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-14",
+      "position": [
+        0.8,
+        2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-RadiatingBlade-B1-14.R",
+      "parent_instance": "DualCollector",
+      "source_socket": "bank-1-fin-14",
+      "position": [
+        1.16,
+        2.38,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    }
+  ],
+  "state_authoring": "state-authoring.json"
+}

@@ -1,0 +1,4878 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring.DestructionDemo/1",
+  "id": "MA-W01",
+  "fps": 30,
+  "duration_seconds": 1.2,
+  "frame_range": [
+    1,
+    37
+  ],
+  "loop": false,
+  "geometry_modified": false,
+  "mesh_count": 162,
+  "tracks": [
+    {
+      "object": "Foundation::Sealed hardpoint keel",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Sealed hardpoint keel",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        5.960464477539063e-08,
+        -0.02499997615814209,
+        0.14000000059604645
+      ],
+      "displacement_BU": [
+        1.7881394143159923e-08,
+        0.44980958104133606,
+        -2.5731093883514404
+      ],
+      "direction": [
+        6.845523703447043e-09,
+        0.17220033705234528,
+        -0.9850620031356812
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Faceted load spreader",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Faceted load spreader",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        5.960464477539063e-08,
+        -0.024500012397766113,
+        0.4700000286102295
+      ],
+      "displacement_BU": [
+        1.7881394143159923e-08,
+        0.44995957612991333,
+        -2.6127092838287354
+      ],
+      "direction": [
+        6.7447127882758195e-09,
+        0.16972100734710693,
+        -0.9854921698570251
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Upper interface deck",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Upper interface deck",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        0.0,
+        -0.02174997329711914,
+        0.7200000286102295
+      ],
+      "displacement_BU": [
+        0.0,
+        0.4507845938205719,
+        -2.642709255218506
+      ],
+      "direction": [
+        0.0,
+        0.1681479662656784,
+        -0.9857617020606995
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Swept ceramic outrigger",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Swept ceramic outrigger",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        -2.302676200866699,
+        -1.515886664390564,
+        0.6800000071525574
+      ],
+      "displacement_BU": [
+        -0.6908028721809387,
+        0.002543556736782193,
+        -2.637909412384033
+      ],
+      "direction": [
+        -0.2533324658870697,
+        0.0009327776497229934,
+        -0.9673788547515869
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Rear docking wing",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Rear docking wing",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        -2.0275256633758545,
+        1.5744602680206299,
+        0.6349999904632568
+      ],
+      "displacement_BU": [
+        -0.6082577109336853,
+        0.92964768409729,
+        -2.632509231567383
+      ],
+      "direction": [
+        -0.2128763645887375,
+        0.32535552978515625,
+        -0.9213183522224426
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Hardpoint diagnostic",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Hardpoint diagnostic",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        -2.4549999237060547,
+        -1.9299999475479126,
+        0.8600000143051147
+      ],
+      "displacement_BU": [
+        -0.7365000247955322,
+        -0.12169042974710464,
+        -2.6595091819763184
+      ],
+      "direction": [
+        -0.26662689447402954,
+        -0.04405422881245613,
+        -0.9627924561500549
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Recessed power connector",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Recessed power connector",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        -2.8399996757507324,
+        -0.23000000417232513,
+        0.8299999833106995
+      ],
+      "displacement_BU": [
+        -0.8519999384880066,
+        0.3883095681667328,
+        -2.655909299850464
+      ],
+      "direction": [
+        -0.3025436997413635,
+        0.13788805902004242,
+        -0.9431087970733643
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Recessed power connector.001",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Recessed power connector.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        -2.8399996757507324,
+        0.07999999821186066,
+        0.8299999833106995
+      ],
+      "displacement_BU": [
+        -0.8519999384880066,
+        0.48130959272384644,
+        -2.655909299850464
+      ],
+      "direction": [
+        -0.3010127544403076,
+        0.1700473427772522,
+        -0.9383364319801331
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Recessed power connector.002",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Recessed power connector.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        -2.8399996757507324,
+        0.38999998569488525,
+        0.8299999833106995
+      ],
+      "displacement_BU": [
+        -0.8519999384880066,
+        0.5743095874786377,
+        -2.655909299850464
+      ],
+      "direction": [
+        -0.299185186624527,
+        0.20167246460914612,
+        -0.9326394200325012
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Recessed power connector.003",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Recessed power connector.003",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        -2.8399996757507324,
+        0.7000000476837158,
+        0.8299999833106995
+      ],
+      "displacement_BU": [
+        -0.8519999384880066,
+        0.667309582233429,
+        -2.655909299850464
+      ],
+      "direction": [
+        -0.29707765579223633,
+        0.2326793223619461,
+        -0.9260697364807129
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Swept ceramic outrigger.001",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Swept ceramic outrigger.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        2.302676200866699,
+        -1.515886664390564,
+        0.6800000071525574
+      ],
+      "displacement_BU": [
+        0.6908028721809387,
+        0.002543556736782193,
+        -2.637909412384033
+      ],
+      "direction": [
+        0.2533324658870697,
+        0.0009327776497229934,
+        -0.9673788547515869
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Rear docking wing.001",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Rear docking wing.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        2.0275256633758545,
+        1.5744602680206299,
+        0.6349999904632568
+      ],
+      "displacement_BU": [
+        0.6082577109336853,
+        0.92964768409729,
+        -2.632509231567383
+      ],
+      "direction": [
+        0.2128763645887375,
+        0.32535552978515625,
+        -0.9213183522224426
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Hardpoint diagnostic.001",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Hardpoint diagnostic.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        2.4549999237060547,
+        -1.9299999475479126,
+        0.8600000143051147
+      ],
+      "displacement_BU": [
+        0.7365000247955322,
+        -0.12169042974710464,
+        -2.6595091819763184
+      ],
+      "direction": [
+        0.26662689447402954,
+        -0.04405422881245613,
+        -0.9627924561500549
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Recessed power connector.004",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Recessed power connector.004",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        2.8399996757507324,
+        -0.23000000417232513,
+        0.8299999833106995
+      ],
+      "displacement_BU": [
+        0.8519999384880066,
+        0.3883095681667328,
+        -2.655909299850464
+      ],
+      "direction": [
+        0.3025436997413635,
+        0.13788805902004242,
+        -0.9431087970733643
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Recessed power connector.005",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Recessed power connector.005",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        2.8399996757507324,
+        0.07999999821186066,
+        0.8299999833106995
+      ],
+      "displacement_BU": [
+        0.8519999384880066,
+        0.48130959272384644,
+        -2.655909299850464
+      ],
+      "direction": [
+        0.3010127544403076,
+        0.1700473427772522,
+        -0.9383364319801331
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Recessed power connector.006",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Recessed power connector.006",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        2.8399996757507324,
+        0.38999998569488525,
+        0.8299999833106995
+      ],
+      "displacement_BU": [
+        0.8519999384880066,
+        0.5743095874786377,
+        -2.655909299850464
+      ],
+      "direction": [
+        0.299185186624527,
+        0.20167246460914612,
+        -0.9326394200325012
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Recessed power connector.007",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Recessed power connector.007",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        2.8399996757507324,
+        0.7000000476837158,
+        0.8299999833106995
+      ],
+      "displacement_BU": [
+        0.8519999384880066,
+        0.667309582233429,
+        -2.655909299850464
+      ],
+      "direction": [
+        0.29707765579223633,
+        0.2326793223619461,
+        -0.9260697364807129
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Foundation::Bearing foundation seal",
+      "source_instance": "Foundation",
+      "controller": "Destruction.Foundation::Bearing foundation seal",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 6,
+      "end_frame": 36,
+      "start_position": [
+        -5.960464477539063e-08,
+        0.0,
+        0.8399999737739563
+      ],
+      "displacement_BU": [
+        -1.7881394143159923e-08,
+        0.4573095738887787,
+        -2.657109260559082
+      ],
+      "direction": [
+        -6.6321335090435696e-09,
+        0.16961418092250824,
+        -0.9855105876922607
+      ],
+      "rotation_degrees_xyz": [
+        8,
+        5,
+        12
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Sealed annular direct drive",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Sealed annular direct drive",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        2.9802322387695312e-08,
+        0.0,
+        1.0700000524520874
+      ],
+      "displacement_BU": [
+        0.823952853679657,
+        1.830564260482788,
+        3.9069130420684814
+      ],
+      "direction": [
+        0.1875828355550766,
+        0.41675010323524475,
+        0.889456033706665
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Lower precision race",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Lower precision race",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        0.0,
+        0.0,
+        0.9399999976158142
+      ],
+      "displacement_BU": [
+        0.823952853679657,
+        1.830564260482788,
+        3.922513008117676
+      ],
+      "direction": [
+        0.18699190020561218,
+        0.415437251329422,
+        0.8901943564414978
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Upper torque seat",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Upper torque seat",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -2.9802322387695312e-08,
+        0.0,
+        1.2799999713897705
+      ],
+      "displacement_BU": [
+        0.823952853679657,
+        1.830564260482788,
+        3.8817131519317627
+      ],
+      "direction": [
+        0.18854428827762604,
+        0.4188861548900604,
+        0.8882484436035156
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.8600000143051147,
+        0.0,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        1.3819528818130493,
+        1.830564260482788,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.30531734228134155,
+        0.4044298529624939,
+        0.8621008396148682
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.9759999513626099,
+        0.0,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        1.416752815246582,
+        1.830564260482788,
+        3.903313159942627
+      ],
+      "direction": [
+        0.3121933341026306,
+        0.4033801555633545,
+        0.8601277470588684
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.001",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.315218448638916,
+        1.3152186870574951,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        1.2185183763504028,
+        2.2251298427581787,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.26180508732795715,
+        0.4780808389186859,
+        0.8383894562721252
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.001",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.825585961341858,
+        0.7561824917793274,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        1.3716286420822144,
+        2.0574188232421875,
+        3.903313159942627
+      ],
+      "direction": [
+        0.2968490719795227,
+        0.4452683925628662,
+        0.8447584509849548
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.002",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -5.960464477539063e-08,
+        1.8599998950958252,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        0.823952853679657,
+        2.388564109802246,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.17724284529685974,
+        0.5138108134269714,
+        0.8393946290016174
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.002",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.3972430229187012,
+        1.3972430229187012,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        1.2431257963180542,
+        2.24973726272583,
+        3.903313159942627
+      ],
+      "direction": [
+        0.26598891615867615,
+        0.4813714027404785,
+        0.8351834416389465
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.003",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.003",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.3152190446853638,
+        1.315218210220337,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        0.4293871223926544,
+        2.2251296043395996,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.09515643119812012,
+        0.493110716342926,
+        0.8647468090057373
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.003",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.003",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        0.7561824917793274,
+        1.825585961341858,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        1.0508075952529907,
+        2.3782401084899902,
+        3.903313159942627
+      ],
+      "direction": [
+        0.22405289113521576,
+        0.5070877075195312,
+        0.8322633504867554
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.004",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.004",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.8599998950958252,
+        1.367007911312612e-07,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        0.2659528851509094,
+        1.830564260482788,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.06158663332462311,
+        0.423903226852417,
+        0.9036111831665039
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.004",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.004",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.2099510956481018e-16,
+        1.9759999513626099,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        0.823952853679657,
+        2.4233641624450684,
+        3.903313159942627
+      ],
+      "direction": [
+        0.1765221655368805,
+        0.5191771388053894,
+        0.8362387418746948
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.005",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.005",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.3152189254760742,
+        -1.3152185678482056,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        0.4293871521949768,
+        1.4359986782073975,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.10272257030010223,
+        0.343534916639328,
+        0.9335050582885742
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.005",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.005",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -0.7561824917793274,
+        1.825585961341858,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        0.5970981121063232,
+        2.3782401084899902,
+        3.903313159942627
+      ],
+      "direction": [
+        0.12953363358974457,
+        0.5159320831298828,
+        0.8467792868614197
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.006",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.006",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -5.960464477539063e-08,
+        -1.8599998950958252,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        0.823952853679657,
+        1.2725642919540405,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.19682298600673676,
+        0.30398571491241455,
+        0.9321231245994568
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.006",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.006",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.3972430229187012,
+        1.3972430229187012,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        0.40477994084358215,
+        2.24973726272583,
+        3.903313159942627
+      ],
+      "direction": [
+        0.08948606252670288,
+        0.49735698103904724,
+        0.8629185557365417
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.007",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.007",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.315218448638916,
+        -1.3152186870574951,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        1.2185183763504028,
+        1.435998558998108,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.28122958540916443,
+        0.33142322301864624,
+        0.9005934596061707
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.007",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.007",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.825585961341858,
+        0.7561824917793274,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        0.2762770652770996,
+        2.0574188232421875,
+        3.903313159942627
+      ],
+      "direction": [
+        0.062492117285728455,
+        0.46537506580352783,
+        0.8829046487808228
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.008",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.008",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.8600001335144043,
+        2.808522197028651e-07,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        1.3819530010223389,
+        1.830564260482788,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.30531737208366394,
+        0.4044298529624939,
+        0.8621008396148682
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.008",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.008",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.9759999513626099,
+        2.4199021912962035e-16,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        0.23115283250808716,
+        1.830564260482788,
+        3.903313159942627
+      ],
+      "direction": [
+        0.05353938043117523,
+        0.42399340867996216,
+        0.904081404209137
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.009",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.009",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.3152183294296265,
+        1.3152186870574951,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        1.2185183763504028,
+        2.2251298427581787,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.26180508732795715,
+        0.4780808389186859,
+        0.8383894562721252
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.009",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.009",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.825585961341858,
+        -0.7561824917793274,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        0.2762770652770996,
+        1.6037094593048096,
+        3.903313159942627
+      ],
+      "direction": [
+        0.06532985717058182,
+        0.3792211413383484,
+        0.9229969382286072
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.010",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.010",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        3.5762786865234375e-07,
+        1.8599998950958252,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        0.8239529728889465,
+        2.388564109802246,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.17724287509918213,
+        0.5138108134269714,
+        0.8393946290016174
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.010",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.010",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.3972430229187012,
+        -1.3972430229187012,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        0.40477994084358215,
+        1.411391258239746,
+        3.903313159942627
+      ],
+      "direction": [
+        0.0970616489648819,
+        0.33843564987182617,
+        0.9359703063964844
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.011",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.011",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.3152186870574951,
+        1.3152188062667847,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        0.42938724160194397,
+        2.2251298427581787,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.0951564610004425,
+        0.4931107759475708,
+        0.8647468090057373
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.011",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.011",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -0.7561824917793274,
+        -1.825585961341858,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        0.5970981121063232,
+        1.282888412475586,
+        3.903313159942627
+      ],
+      "direction": [
+        0.1438136100769043,
+        0.30898910760879517,
+        0.9401295185089111
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.012",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.012",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.8599998950958252,
+        -1.367007911312612e-07,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        0.2659528851509094,
+        1.830564260482788,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.06158663332462311,
+        0.423903226852417,
+        0.9036111831665039
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.012",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.012",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -3.6298530222465093e-16,
+        -1.9759999513626099,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        0.823952853679657,
+        1.2377642393112183,
+        3.903313159942627
+      ],
+      "direction": [
+        0.19726240634918213,
+        0.2963329255580902,
+        0.9344915151596069
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.013",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.013",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.3152186870574951,
+        -1.3152189254760742,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        0.42938724160194397,
+        1.435998558998108,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.10272259265184402,
+        0.3435348868370056,
+        0.9335050582885742
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.013",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.013",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        0.7561824917793274,
+        -1.825585961341858,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        1.0508075952529907,
+        1.282888412475586,
+        3.903313159942627
+      ],
+      "direction": [
+        0.2477751225233078,
+        0.30249860882759094,
+        0.9203815460205078
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.014",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.014",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -2.384185791015625e-07,
+        -1.8599998950958252,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        0.8239527940750122,
+        1.2725642919540405,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.19682297110557556,
+        0.30398571491241455,
+        0.9321231245994568
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.014",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.014",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.3972430229187012,
+        -1.3972430229187012,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        1.2431257963180542,
+        1.411391258239746,
+        3.903313159942627
+      ],
+      "direction": [
+        0.2869098484516144,
+        0.32574501633644104,
+        0.9008734226226807
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Motor shield.015",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Motor shield.015",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.3152185678482056,
+        -1.3152186870574951,
+        1.1100000143051147
+      ],
+      "displacement_BU": [
+        1.2185184955596924,
+        1.435998558998108,
+        3.9021129608154297
+      ],
+      "direction": [
+        0.2812296152114868,
+        0.33142322301864624,
+        0.9005934596061707
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "AzimuthDrive::Index window.015",
+      "source_instance": "AzimuthDrive",
+      "controller": "Destruction.AzimuthDrive::Index window.015",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.825585961341858,
+        -0.7561824917793274,
+        1.100000023841858
+      ],
+      "displacement_BU": [
+        1.3716286420822144,
+        1.6037094593048096,
+        3.903313159942627
+      ],
+      "direction": [
+        0.30911746621131897,
+        0.3614204227924347,
+        0.8796712756156921
+      ],
+      "rotation_degrees_xyz": [
+        18,
+        -12,
+        25
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Sealed central pressure frame",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Sealed central pressure frame",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        -5.960464477539063e-08,
+        0.23499995470046997,
+        2.0625
+      ],
+      "displacement_BU": [
+        5.767669200897217,
+        4.098271369934082,
+        6.9235734939575195
+      ],
+      "direction": [
+        0.582629382610321,
+        0.4139927923679352,
+        0.6993947625160217
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Swept armored shoulder",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Swept armored shoulder",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        -1.8510242700576782,
+        0.0,
+        2.2100000381469727
+      ],
+      "displacement_BU": [
+        5.212361812591553,
+        4.027771472930908,
+        6.941273212432861
+      ],
+      "direction": [
+        0.5446919798851013,
+        0.4209022521972656,
+        0.7253632545471191
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Shoulder dorsal spine",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Shoulder dorsal spine",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        -1.9212714433670044,
+        -0.04000002145767212,
+        2.6874823570251465
+      ],
+      "displacement_BU": [
+        5.191287994384766,
+        4.015771389007568,
+        6.998571395874023
+      ],
+      "direction": [
+        0.5410648584365845,
+        0.41854599118232727,
+        0.7294299602508545
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Recessed shoulder index",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Recessed shoulder index",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        -2.1700000762939453,
+        0.5900000333786011,
+        2.3600001335144043
+      ],
+      "displacement_BU": [
+        5.116669178009033,
+        4.204771518707275,
+        6.959273338317871
+      ],
+      "direction": [
+        0.5326054096221924,
+        0.43768396973609924,
+        0.7244061231613159
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Closed thermal tile",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Closed thermal tile",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        -1.100000023841858,
+        0.10000000149011612,
+        2.700000047683716
+      ],
+      "displacement_BU": [
+        5.437669277191162,
+        4.057771682739258,
+        7.000073432922363
+      ],
+      "direction": [
+        0.5577909350395203,
+        0.4162423610687256,
+        0.7180609107017517
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Closed thermal tile.001",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Closed thermal tile.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        -1.100000023841858,
+        0.5,
+        2.700000047683716
+      ],
+      "displacement_BU": [
+        5.437669277191162,
+        4.17777156829834,
+        7.000073432922363
+      ],
+      "direction": [
+        0.5549131631851196,
+        0.42634084820747375,
+        0.7143562436103821
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Closed thermal tile.002",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Closed thermal tile.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        -1.100000023841858,
+        0.9000000357627869,
+        2.700000047683716
+      ],
+      "displacement_BU": [
+        5.437669277191162,
+        4.297771453857422,
+        7.000073432922363
+      ],
+      "direction": [
+        0.5519975423812866,
+        0.4362823963165283,
+        0.710602879524231
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Closed thermal tile.003",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Closed thermal tile.003",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        -1.100000023841858,
+        1.2999999523162842,
+        2.700000047683716
+      ],
+      "displacement_BU": [
+        5.437669277191162,
+        4.417771339416504,
+        7.000073432922363
+      ],
+      "direction": [
+        0.5490467548370361,
+        0.446066677570343,
+        0.7068042755126953
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Swept armored shoulder.001",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Swept armored shoulder.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.8510243892669678,
+        0.0,
+        2.2100000381469727
+      ],
+      "displacement_BU": [
+        6.322976589202881,
+        4.027771472930908,
+        6.941273212432861
+      ],
+      "direction": [
+        0.6188766360282898,
+        0.39422789216041565,
+        0.6793938875198364
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Shoulder dorsal spine.001",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Shoulder dorsal spine.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.9212714433670044,
+        -0.04000002145767212,
+        2.6874823570251465
+      ],
+      "displacement_BU": [
+        6.344050407409668,
+        4.015771389007568,
+        6.998571395874023
+      ],
+      "direction": [
+        0.6180766820907593,
+        0.39124131202697754,
+        0.681844174861908
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Recessed shoulder index.001",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Recessed shoulder index.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        2.1700000762939453,
+        0.5900000333786011,
+        2.3600001335144043
+      ],
+      "displacement_BU": [
+        6.4186692237854,
+        4.204771518707275,
+        6.959273338317871
+      ],
+      "direction": [
+        0.6196166276931763,
+        0.40590134263038635,
+        0.6718030571937561
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Closed thermal tile.004",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Closed thermal tile.004",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.100000023841858,
+        0.10000000149011612,
+        2.700000047683716
+      ],
+      "displacement_BU": [
+        6.0976691246032715,
+        4.057771682739258,
+        7.000073432922363
+      ],
+      "direction": [
+        0.601850152015686,
+        0.4005088806152344,
+        0.6909189820289612
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Closed thermal tile.005",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Closed thermal tile.005",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.100000023841858,
+        0.5,
+        2.700000047683716
+      ],
+      "displacement_BU": [
+        6.0976691246032715,
+        4.17777156829834,
+        7.000073432922363
+      ],
+      "direction": [
+        0.5989736914634705,
+        0.4103822708129883,
+        0.6876168251037598
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Closed thermal tile.006",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Closed thermal tile.006",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.100000023841858,
+        0.9000000357627869,
+        2.700000047683716
+      ],
+      "displacement_BU": [
+        6.0976691246032715,
+        4.297771453857422,
+        7.000073432922363
+      ],
+      "direction": [
+        0.5960560441017151,
+        0.4201134443283081,
+        0.6842674016952515
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Closed thermal tile.007",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Closed thermal tile.007",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.100000023841858,
+        1.2999999523162842,
+        2.700000047683716
+      ],
+      "displacement_BU": [
+        6.0976691246032715,
+        4.417771339416504,
+        7.000073432922363
+      ],
+      "direction": [
+        0.59309983253479,
+        0.4297018349170685,
+        0.680873692035675
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Roof armored bridge",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Roof armored bridge",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        0.0,
+        0.6299999952316284,
+        2.666323184967041
+      ],
+      "displacement_BU": [
+        5.767669200897217,
+        4.216771602630615,
+        6.996032238006592
+      ],
+      "direction": [
+        0.576790988445282,
+        0.4216947555541992,
+        0.6996324062347412
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Rear energy interface",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Rear energy interface",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        -1.4901161193847656e-08,
+        1.8899998664855957,
+        2.049999952316284
+      ],
+      "displacement_BU": [
+        5.767669200897217,
+        4.594771385192871,
+        6.9220733642578125
+      ],
+      "direction": [
+        0.5702657699584961,
+        0.4542980194091797,
+        0.6844049692153931
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Sealed rear transfer",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Sealed rear transfer",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        -0.5600000023841858,
+        2.003000020980835,
+        2.0900001525878906
+      ],
+      "displacement_BU": [
+        5.599668979644775,
+        4.628671646118164,
+        6.926873207092285
+      ],
+      "direction": [
+        0.5578442811965942,
+        0.4611126184463501,
+        0.690061628818512
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Sealed rear transfer.001",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Sealed rear transfer.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        3.725290298461914e-09,
+        2.003000020980835,
+        2.0900001525878906
+      ],
+      "displacement_BU": [
+        5.767669200897217,
+        4.628671646118164,
+        6.926873207092285
+      ],
+      "direction": [
+        0.5692118406295776,
+        0.4568040668964386,
+        0.6836138367652893
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Capsule::Sealed rear transfer.002",
+      "source_instance": "Capsule",
+      "controller": "Destruction.Capsule::Sealed rear transfer.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        0.5600000023841858,
+        2.003000020980835,
+        2.0900001525878906
+      ],
+      "displacement_BU": [
+        5.935669422149658,
+        4.628671646118164,
+        6.926873207092285
+      ],
+      "direction": [
+        0.5802621245384216,
+        0.45249199867248535,
+        0.6771607398986816
+      ],
+      "rotation_degrees_xyz": [
+        25,
+        -32,
+        35
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "TripleCradle::Cross-axis elevation bridge",
+      "source_instance": "TripleCradle",
+      "controller": "Destruction.TripleCradle::Cross-axis elevation bridge",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        0.0,
+        -0.894291877746582,
+        2.2315776348114014
+      ],
+      "displacement_BU": [
+        -3.8451130390167236,
+        -2.8321382999420166,
+        3.3734006881713867
+      ],
+      "direction": [
+        -0.6576376557350159,
+        -0.48438647389411926,
+        0.5769597291946411
+      ],
+      "rotation_degrees_xyz": [
+        -25,
+        15,
+        -20
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "TripleCradle::Independent recoil sleeve",
+      "source_instance": "TripleCradle",
+      "controller": "Destruction.TripleCradle::Independent recoil sleeve",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.1500000953674316,
+        -0.9935464859008789,
+        2.243764638900757
+      ],
+      "displacement_BU": [
+        -4.190113067626953,
+        -2.86191463470459,
+        3.3748631477355957
+      ],
+      "direction": [
+        -0.6875756978988647,
+        -0.4696252942085266,
+        0.5537974834442139
+      ],
+      "rotation_degrees_xyz": [
+        -25,
+        15,
+        -20
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "TripleCradle::Recoil sleeve seal",
+      "source_instance": "TripleCradle",
+      "controller": "Destruction.TripleCradle::Recoil sleeve seal",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.149999976158142,
+        -1.5146331787109375,
+        2.307745933532715
+      ],
+      "displacement_BU": [
+        -4.190113067626953,
+        -3.0182406902313232,
+        3.3825409412384033
+      ],
+      "direction": [
+        -0.6787586212158203,
+        -0.48892638087272644,
+        0.5479395985603333
+      ],
+      "rotation_degrees_xyz": [
+        -25,
+        15,
+        -20
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "TripleCradle::Independent recoil sleeve.001",
+      "source_instance": "TripleCradle",
+      "controller": "Destruction.TripleCradle::Independent recoil sleeve.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -7.450580596923828e-09,
+        -0.9935464859008789,
+        2.243764638900757
+      ],
+      "displacement_BU": [
+        -3.8451130390167236,
+        -2.86191463470459,
+        3.3748631477355957
+      ],
+      "direction": [
+        -0.6559186577796936,
+        -0.48819974064826965,
+        0.5757010579109192
+      ],
+      "rotation_degrees_xyz": [
+        -25,
+        15,
+        -20
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "TripleCradle::Recoil sleeve seal.001",
+      "source_instance": "TripleCradle",
+      "controller": "Destruction.TripleCradle::Recoil sleeve seal.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        0.0,
+        -1.5146331787109375,
+        2.307745933532715
+      ],
+      "displacement_BU": [
+        -3.8451130390167236,
+        -3.0182406902313232,
+        3.3825409412384033
+      ],
+      "direction": [
+        -0.6468429565429688,
+        -0.5077425837516785,
+        0.5690268874168396
+      ],
+      "rotation_degrees_xyz": [
+        -25,
+        15,
+        -20
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "TripleCradle::Independent recoil sleeve.002",
+      "source_instance": "TripleCradle",
+      "controller": "Destruction.TripleCradle::Independent recoil sleeve.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.149999976158142,
+        -0.9935464859008789,
+        2.243764638900757
+      ],
+      "displacement_BU": [
+        -3.500113010406494,
+        -2.86191463470459,
+        3.3748631477355957
+      ],
+      "direction": [
+        -0.620378315448761,
+        -0.5072607398033142,
+        0.5981783866882324
+      ],
+      "rotation_degrees_xyz": [
+        -25,
+        15,
+        -20
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "TripleCradle::Recoil sleeve seal.002",
+      "source_instance": "TripleCradle",
+      "controller": "Destruction.TripleCradle::Recoil sleeve seal.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.149999976158142,
+        -1.5146331787109375,
+        2.307745933532715
+      ],
+      "displacement_BU": [
+        -3.500113010406494,
+        -3.0182406902313232,
+        3.3825409412384033
+      ],
+      "direction": [
+        -0.611126184463501,
+        -0.5269903540611267,
+        0.5905978679656982
+      ],
+      "rotation_degrees_xyz": [
+        -25,
+        15,
+        -20
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "TripleCradle::Trunnion enclosed joint",
+      "source_instance": "TripleCradle",
+      "controller": "Destruction.TripleCradle::Trunnion enclosed joint",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -1.9800000190734863,
+        -0.800000011920929,
+        2.2200000286102295
+      ],
+      "displacement_BU": [
+        -4.439113140106201,
+        -2.8038508892059326,
+        3.372011423110962
+      ],
+      "direction": [
+        -0.7113948464393616,
+        -0.44933414459228516,
+        0.5403853058815002
+      ],
+      "rotation_degrees_xyz": [
+        -25,
+        15,
+        -20
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "TripleCradle::Elevation position encoder",
+      "source_instance": "TripleCradle",
+      "controller": "Destruction.TripleCradle::Elevation position encoder",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        -2.1087000370025635,
+        -0.800000011920929,
+        2.2200000286102295
+      ],
+      "displacement_BU": [
+        -4.477723121643066,
+        -2.8038508892059326,
+        3.372011423110962
+      ],
+      "direction": [
+        -0.7144308686256409,
+        -0.4473607540130615,
+        0.5380120277404785
+      ],
+      "rotation_degrees_xyz": [
+        -25,
+        15,
+        -20
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "TripleCradle::Trunnion enclosed joint.001",
+      "source_instance": "TripleCradle",
+      "controller": "Destruction.TripleCradle::Trunnion enclosed joint.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        1.9800000190734863,
+        -0.800000011920929,
+        2.2200000286102295
+      ],
+      "displacement_BU": [
+        -3.251112937927246,
+        -2.8038508892059326,
+        3.372011423110962
+      ],
+      "direction": [
+        -0.5955401062965393,
+        -0.5136104822158813,
+        0.6176863312721252
+      ],
+      "rotation_degrees_xyz": [
+        -25,
+        15,
+        -20
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "TripleCradle::Elevation position encoder.001",
+      "source_instance": "TripleCradle",
+      "controller": "Destruction.TripleCradle::Elevation position encoder.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 4,
+      "end_frame": 34,
+      "start_position": [
+        2.1087000370025635,
+        -0.800000011920929,
+        2.2200000286102295
+      ],
+      "displacement_BU": [
+        -3.212502956390381,
+        -2.8038508892059326,
+        3.372011423110962
+      ],
+      "direction": [
+        -0.5909469723701477,
+        -0.5157745480537415,
+        0.6202889084815979
+      ],
+      "rotation_degrees_xyz": [
+        -25,
+        15,
+        -20
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Recoil barrel spine",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Recoil barrel spine",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -3.2317380905151367,
+        2.5185799598693848
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.301041603088379,
+        3.1331899166107178
+      ],
+      "direction": [
+        -0.4348483681678772,
+        -0.8533844351768494,
+        0.2874748408794403
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Breech casing",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Breech casing",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -1.7677325010299683,
+        2.338822603225708
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -8.86184024810791,
+        3.111618995666504
+      ],
+      "direction": [
+        -0.4505024552345276,
+        -0.842357337474823,
+        0.2957732379436493
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Octagonal accelerator segment",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Octagonal accelerator segment",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -2.462514877319336,
+        2.424131155014038
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.070274353027344,
+        3.121856212615967
+      ],
+      "direction": [
+        -0.44295933842658997,
+        -0.8477339148521423,
+        0.29177767038345337
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Accelerator upper conductor",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Accelerator upper conductor",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -2.4040651321411133,
+        2.6950271129608154
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.052740097045898,
+        3.1543636322021484
+      ],
+      "direction": [
+        -0.44317957758903503,
+        -0.8465158343315125,
+        0.29496249556541443
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Accelerator index",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Accelerator index",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -2.4916882514953613,
+        2.71989107131958
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.07902717590332,
+        3.1573472023010254
+      ],
+      "direction": [
+        -0.4422226548194885,
+        -0.8471407890319824,
+        0.29460400342941284
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Octagonal accelerator segment.001",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Octagonal accelerator segment.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -3.0679678916931152,
+        2.49847149848938
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.251910209655762,
+        3.130776882171631
+      ],
+      "direction": [
+        -0.436554491519928,
+        -0.8522071242332458,
+        0.2883804738521576
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Accelerator upper conductor.001",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Accelerator upper conductor.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -3.0095181465148926,
+        2.7693674564361572
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.234375953674316,
+        3.1632845401763916
+      ],
+      "direction": [
+        -0.43677598237991333,
+        -0.8510236144065857,
+        0.29152265191078186
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Accelerator index.001",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Accelerator index.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -3.0971412658691406,
+        2.794231414794922
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.260663032531738,
+        3.1662681102752686
+      ],
+      "direction": [
+        -0.43584221601486206,
+        -0.8516215682029724,
+        0.2911737859249115
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Octagonal accelerator segment.002",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Octagonal accelerator segment.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -3.6734213829040527,
+        2.5728118419647217
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.433547019958496,
+        3.139697790145874
+      ],
+      "direction": [
+        -0.430302232503891,
+        -0.8564931750297546,
+        0.285060316324234
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Accelerator upper conductor.002",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Accelerator upper conductor.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -3.614971399307251,
+        2.843707799911499
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.416011810302734,
+        3.1722052097320557
+      ],
+      "direction": [
+        -0.4305247366428375,
+        -0.8553431630134583,
+        0.28816065192222595
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Accelerator index.002",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Accelerator index.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -3.702594518661499,
+        2.8685717582702637
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.442298889160156,
+        3.1751890182495117
+      ],
+      "direction": [
+        -0.4296134412288666,
+        -0.8559154868125916,
+        0.2878211736679077
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Octagonal accelerator segment.003",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Octagonal accelerator segment.003",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -4.278874397277832,
+        2.6471519470214844
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.615182876586914,
+        3.148618698120117
+      ],
+      "direction": [
+        -0.42419877648353577,
+        -0.8606017827987671,
+        0.28181543946266174
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Accelerator upper conductor.003",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Accelerator upper conductor.003",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -4.220424652099609,
+        2.9180479049682617
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.597647666931152,
+        3.181126117706299
+      ],
+      "direction": [
+        -0.4244217574596405,
+        -0.8594838976860046,
+        0.28487467765808105
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Accelerator index.003",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Accelerator index.003",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -4.308047771453857,
+        2.9429121017456055
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.623934745788574,
+        3.184109926223755
+      ],
+      "direction": [
+        -0.4235323965549469,
+        -0.8600319623947144,
+        0.28454434871673584
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Octagonal accelerator segment.004",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Octagonal accelerator segment.004",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -4.884326934814453,
+        2.721492290496826
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.796818733215332,
+        3.1575393676757812
+      ],
+      "direction": [
+        -0.41824012994766235,
+        -0.8645418882369995,
+        0.27864402532577515
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Accelerator upper conductor.004",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Accelerator upper conductor.004",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -4.825878143310547,
+        2.9923882484436035
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.77928352355957,
+        3.190047025680542
+      ],
+      "direction": [
+        -0.4184632897377014,
+        -0.8634549975395203,
+        0.2816629707813263
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Accelerator index.004",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Accelerator index.004",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -4.913500785827637,
+        3.017252206802368
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.805570602416992,
+        3.193030595779419
+      ],
+      "direction": [
+        -0.41759514808654785,
+        -0.8639798760414124,
+        0.2813415229320526
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Longitudinal rail",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Longitudinal rail",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.3700000047683716,
+        -3.7382006645202637,
+        2.701666831970215
+      ],
+      "displacement_BU": [
+        -4.805415153503418,
+        -9.452980041503906,
+        3.155160427093506
+      ],
+      "direction": [
+        -0.4343399405479431,
+        -0.8544124960899353,
+        0.28518080711364746
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Longitudinal rail.001",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Longitudinal rail.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -0.9299999475479126,
+        -3.7382006645202637,
+        2.701666831970215
+      ],
+      "displacement_BU": [
+        -4.673414707183838,
+        -9.452980041503906,
+        3.155160427093506
+      ],
+      "direction": [
+        -0.4245845675468445,
+        -0.8588130474090576,
+        0.286649614572525
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Muzzle annulus",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Muzzle annulus",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -5.40541410446167,
+        2.7854738235473633
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.953144073486328,
+        3.165217161178589
+      ],
+      "direction": [
+        -0.4132247865200043,
+        -0.8678045868873596,
+        0.2759720981121063
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Muzzle armor lip",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Muzzle armor lip",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -5.61384916305542,
+        2.8110663890838623
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -10.015674591064453,
+        3.168288230895996
+      ],
+      "direction": [
+        -0.4112473130226135,
+        -0.8690776228904724,
+        0.2749179005622864
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator0::Muzzle deep throat",
+      "source_instance": "Accelerator0",
+      "controller": "Destruction.Accelerator0::Muzzle deep throat",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        -1.149999976158142,
+        -5.196979522705078,
+        2.7598812580108643
+      ],
+      "displacement_BU": [
+        -4.739414691925049,
+        -9.89061450958252,
+        3.1621460914611816
+      ],
+      "direction": [
+        -0.4152185022830963,
+        -0.8665133118629456,
+        0.2770345211029053
+      ],
+      "rotation_degrees_xyz": [
+        15,
+        -22,
+        -28
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Recoil barrel spine",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Recoil barrel spine",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        0.0,
+        -3.2317380905151367,
+        2.5185799598693848
+      ],
+      "displacement_BU": [
+        0.0,
+        -10.674296379089355,
+        5.055746078491211
+      ],
+      "direction": [
+        0.0,
+        -0.9037541747093201,
+        0.42805179953575134
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Breech casing",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Breech casing",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        7.450580596923828e-09,
+        -1.7677325010299683,
+        2.338822603225708
+      ],
+      "displacement_BU": [
+        2.2351742678949904e-09,
+        -10.235095024108887,
+        5.034175395965576
+      ],
+      "direction": [
+        1.95962315818754e-10,
+        -0.8973318338394165,
+        0.44135650992393494
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Octagonal accelerator segment",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Octagonal accelerator segment",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        7.450580596923828e-09,
+        -2.462514877319336,
+        2.424131155014038
+      ],
+      "displacement_BU": [
+        2.2351742678949904e-09,
+        -10.44352912902832,
+        5.044412136077881
+      ],
+      "direction": [
+        1.9272081153154375e-10,
+        -0.9004601836204529,
+        0.4349384307861328
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Accelerator upper conductor",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Accelerator upper conductor",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        1.862645149230957e-09,
+        -2.4040651321411133,
+        2.6950271129608154
+      ],
+      "displacement_BU": [
+        5.587935669737476e-10,
+        -10.425994873046875,
+        5.0769195556640625
+      ],
+      "direction": [
+        4.818681564877636e-11,
+        -0.8990716934204102,
+        0.4378013610839844
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Accelerator index",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Accelerator index",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        9.313225746154785e-10,
+        -2.4916882514953613,
+        2.71989107131958
+      ],
+      "displacement_BU": [
+        2.793967834868738e-10,
+        -10.452281951904297,
+        5.079903602600098
+      ],
+      "direction": [
+        2.4041693982845835e-11,
+        -0.8994039297103882,
+        0.4371184706687927
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Octagonal accelerator segment.001",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Octagonal accelerator segment.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        7.450580596923828e-09,
+        -3.0679678916931152,
+        2.49847149848938
+      ],
+      "displacement_BU": [
+        2.2351742678949904e-09,
+        -10.625164985656738,
+        5.053333282470703
+      ],
+      "direction": [
+        1.8997471651349684e-10,
+        -0.9030672311782837,
+        0.42949917912483215
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Accelerator upper conductor.001",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Accelerator upper conductor.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        1.862645149230957e-09,
+        -3.0095181465148926,
+        2.7693674564361572
+      ],
+      "displacement_BU": [
+        5.587935669737476e-10,
+        -10.607630729675293,
+        5.085840702056885
+      ],
+      "direction": [
+        4.750100660033674e-11,
+        -0.9017160534858704,
+        0.4323287904262543
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Accelerator index.001",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Accelerator index.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        9.313225746154785e-10,
+        -3.0971412658691406,
+        2.794231414794922
+      ],
+      "displacement_BU": [
+        2.793967834868738e-10,
+        -10.633917808532715,
+        5.088824272155762
+      ],
+      "direction": [
+        2.3700142542937286e-11,
+        -0.9020339250564575,
+        0.43166518211364746
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Octagonal accelerator segment.002",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Octagonal accelerator segment.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        7.450580596923828e-09,
+        -3.6734213829040527,
+        2.5728118419647217
+      ],
+      "displacement_BU": [
+        2.2351742678949904e-09,
+        -10.806801795959473,
+        5.062253952026367
+      ],
+      "direction": [
+        1.872992178020283e-10,
+        -0.9055694341659546,
+        0.42419788241386414
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Accelerator upper conductor.002",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Accelerator upper conductor.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        1.862645149230957e-09,
+        -3.614971399307251,
+        2.843707799911499
+      ],
+      "displacement_BU": [
+        5.587935669737476e-10,
+        -10.789266586303711,
+        5.094761371612549
+      ],
+      "direction": [
+        4.683278417849657e-11,
+        -0.904254138469696,
+        0.426994651556015
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Accelerator index.002",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Accelerator index.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        9.313225746154785e-10,
+        -3.702594518661499,
+        2.8685717582702637
+      ],
+      "displacement_BU": [
+        2.793967834868738e-10,
+        -10.815553665161133,
+        5.097744941711426
+      ],
+      "direction": [
+        2.336733757879461e-11,
+        -0.9045583605766296,
+        0.4263496696949005
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Octagonal accelerator segment.003",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Octagonal accelerator segment.003",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        7.450580596923828e-09,
+        -4.278874397277832,
+        2.6471519470214844
+      ],
+      "displacement_BU": [
+        2.2351742678949904e-09,
+        -10.98843765258789,
+        5.071174621582031
+      ],
+      "direction": [
+        1.846919978065742e-10,
+        -0.9079723954200745,
+        0.4190301299095154
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Accelerator upper conductor.003",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Accelerator upper conductor.003",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        1.862645149230957e-09,
+        -4.220424652099609,
+        2.9180479049682617
+      ],
+      "displacement_BU": [
+        5.587935669737476e-10,
+        -10.970902442932129,
+        5.103682518005371
+      ],
+      "direction": [
+        4.6181555107827066e-11,
+        -0.9066914319992065,
+        0.42179441452026367
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Accelerator index.003",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Accelerator index.003",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        9.313225746154785e-10,
+        -4.308047771453857,
+        2.9429121017456055
+      ],
+      "displacement_BU": [
+        2.793967834868738e-10,
+        -10.99718952178955,
+        5.106666088104248
+      ],
+      "direction": [
+        2.3042987656873848e-11,
+        -0.9069828987121582,
+        0.4211674928665161
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Octagonal accelerator segment.004",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Octagonal accelerator segment.004",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        7.450580596923828e-09,
+        -4.884326934814453,
+        2.721492290496826
+      ],
+      "displacement_BU": [
+        2.2351742678949904e-09,
+        -11.170073509216309,
+        5.0800957679748535
+      ],
+      "direction": [
+        1.821506695476316e-10,
+        -0.9102808833122253,
+        0.41399136185646057
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Accelerator upper conductor.004",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Accelerator upper conductor.004",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        1.862645149230957e-09,
+        -4.825878143310547,
+        2.9923882484436035
+      ],
+      "displacement_BU": [
+        5.587935669737476e-10,
+        -11.152538299560547,
+        5.112603187561035
+      ],
+      "direction": [
+        4.554675039902811e-11,
+        -0.9090331792831421,
+        0.4167236089706421
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Accelerator index.004",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Accelerator index.004",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        9.313225746154785e-10,
+        -4.913500785827637,
+        3.017252206802368
+      ],
+      "displacement_BU": [
+        2.793967834868738e-10,
+        -11.178825378417969,
+        5.115586757659912
+      ],
+      "direction": [
+        2.2726803078354507e-11,
+        -0.90931236743927,
+        0.41611406207084656
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Longitudinal rail",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Longitudinal rail",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        -0.2199999988079071,
+        -3.7382006645202637,
+        2.701666831970215
+      ],
+      "displacement_BU": [
+        -0.06599999964237213,
+        -10.826234817504883,
+        5.07771635055542
+      ],
+      "direction": [
+        -0.005519295576959848,
+        -0.9053513407707214,
+        0.42462754249572754
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Longitudinal rail.001",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Longitudinal rail.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        0.2199999988079071,
+        -3.7382006645202637,
+        2.701666831970215
+      ],
+      "displacement_BU": [
+        0.06599999964237213,
+        -10.826234817504883,
+        5.07771635055542
+      ],
+      "direction": [
+        0.005519295576959848,
+        -0.9053513407707214,
+        0.42462754249572754
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Muzzle annulus",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Muzzle annulus",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        0.0,
+        -5.40541410446167,
+        2.7854738235473633
+      ],
+      "displacement_BU": [
+        0.0,
+        -11.326398849487305,
+        5.087773323059082
+      ],
+      "direction": [
+        0.0,
+        -0.9121958017349243,
+        0.4097547233104706
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Muzzle armor lip",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Muzzle armor lip",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        7.450580596923828e-09,
+        -5.61384916305542,
+        2.8110663890838623
+      ],
+      "displacement_BU": [
+        2.2351742678949904e-09,
+        -11.38892936706543,
+        5.090844631195068
+      ],
+      "direction": [
+        1.7917298200664789e-10,
+        -0.9129437804222107,
+        0.40808531641960144
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator1::Muzzle deep throat",
+      "source_instance": "Accelerator1",
+      "controller": "Destruction.Accelerator1::Muzzle deep throat",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 2,
+      "end_frame": 32,
+      "start_position": [
+        -3.725290298461914e-09,
+        -5.196979522705078,
+        2.7598812580108643
+      ],
+      "displacement_BU": [
+        -1.1175871339474952e-09,
+        -11.263869285583496,
+        5.084702491760254
+      ],
+      "direction": [
+        -9.043169685307717e-11,
+        -0.9114375114440918,
+        0.4114384353160858
+      ],
+      "rotation_degrees_xyz": [
+        -18,
+        12,
+        8
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Recoil barrel spine",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Recoil barrel spine",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -3.2317380905151367,
+        2.5185799598693848
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.301041603088379,
+        3.4078409671783447
+      ],
+      "direction": [
+        0.431596964597702,
+        -0.8470036387443542,
+        0.3103365898132324
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Breech casing",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Breech casing",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -1.7677325010299683,
+        2.338822603225708
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -8.86184024810791,
+        3.386270046234131
+      ],
+      "direction": [
+        0.44691359996795654,
+        -0.8356468677520752,
+        0.3193158209323883
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Octagonal accelerator segment",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Octagonal accelerator segment",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -2.462514877319336,
+        2.424131155014038
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.070274353027344,
+        3.3965072631835938
+      ],
+      "direction": [
+        0.43953579664230347,
+        -0.8411819934844971,
+        0.31499385833740234
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Accelerator upper conductor",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Accelerator upper conductor",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -2.4040651321411133,
+        2.6950271129608154
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.052740097045898,
+        3.4290146827697754
+      ],
+      "direction": [
+        0.439717173576355,
+        -0.8399023413658142,
+        0.31813985109329224
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Accelerator index",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Accelerator index",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -2.4916882514953613,
+        2.71989107131958
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.07902717590332,
+        3.4319982528686523
+      ],
+      "direction": [
+        0.43877938389778137,
+        -0.8405447006225586,
+        0.31773754954338074
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Octagonal accelerator segment.001",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Octagonal accelerator segment.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -3.0679678916931152,
+        2.49847149848938
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.251910209655762,
+        3.405427932739258
+      ],
+      "direction": [
+        0.43326735496520996,
+        -0.8457902073860168,
+        0.3113170862197876
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Accelerator upper conductor.001",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Accelerator upper conductor.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -3.0095181465148926,
+        2.7693674564361572
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.234375953674316,
+        3.4379355907440186
+      ],
+      "direction": [
+        0.4334515631198883,
+        -0.8445461988449097,
+        0.31442248821258545
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Accelerator index.001",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Accelerator index.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -3.0971412658691406,
+        2.794231414794922
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.260663032531738,
+        3.4409191608428955
+      ],
+      "direction": [
+        0.43253591656684875,
+        -0.8451611399650574,
+        0.31403055787086487
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Octagonal accelerator segment.002",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Octagonal accelerator segment.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -3.6734213829040527,
+        2.5728118419647217
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.433547019958496,
+        3.414348840713501
+      ],
+      "direction": [
+        0.4271447956562042,
+        -0.8502085208892822,
+        0.3077218234539032
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Accelerator upper conductor.002",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Accelerator upper conductor.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -3.614971399307251,
+        2.843707799911499
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.416011810302734,
+        3.4468562602996826
+      ],
+      "direction": [
+        0.4273313879966736,
+        -0.8489987850189209,
+        0.31078729033470154
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Accelerator index.002",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Accelerator index.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -3.702594518661499,
+        2.8685717582702637
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.442298889160156,
+        3.4498400688171387
+      ],
+      "direction": [
+        0.4264373779296875,
+        -0.8495878577232361,
+        0.31040558218955994
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Octagonal accelerator segment.003",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Octagonal accelerator segment.003",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -4.278874397277832,
+        2.6471519470214844
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.615182876586914,
+        3.423269748687744
+      ],
+      "direction": [
+        0.42116475105285645,
+        -0.8544464707374573,
+        0.3042064607143402
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Accelerator upper conductor.003",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Accelerator upper conductor.003",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -4.220424652099609,
+        2.9180479049682617
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.597647666931152,
+        3.455777168273926
+      ],
+      "direction": [
+        0.4213532507419586,
+        -0.8532699346542358,
+        0.30723264813423157
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Accelerator index.003",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Accelerator index.003",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -4.308047771453857,
+        2.9429121017456055
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.623934745788574,
+        3.458760976791382
+      ],
+      "direction": [
+        0.42048025131225586,
+        -0.8538342118263245,
+        0.3068608045578003
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Octagonal accelerator segment.004",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Octagonal accelerator segment.004",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -4.884326934814453,
+        2.721492290496826
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.796818733215332,
+        3.432190418243408
+      ],
+      "direction": [
+        0.4153234660625458,
+        -0.8585129380226135,
+        0.30076906085014343
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Accelerator upper conductor.004",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Accelerator upper conductor.004",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -4.825878143310547,
+        2.9923882484436035
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.77928352355957,
+        3.464698076248169
+      ],
+      "direction": [
+        0.41551345586776733,
+        -0.8573682904243469,
+        0.30375662446022034
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Accelerator index.004",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Accelerator index.004",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -4.913500785827637,
+        3.017252206802368
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.805570602416992,
+        3.467681646347046
+      ],
+      "direction": [
+        0.4146609604358673,
+        -0.8579091429710388,
+        0.30339446663856506
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Longitudinal rail",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Longitudinal rail",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        0.9299999475479126,
+        -3.7382006645202637,
+        2.701666831970215
+      ],
+      "displacement_BU": [
+        4.673414707183838,
+        -9.452980041503906,
+        3.429811477661133
+      ],
+      "direction": [
+        0.42145055532455444,
+        -0.8524738550186157,
+        0.30930188298225403
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Longitudinal rail.001",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Longitudinal rail.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.3700000047683716,
+        -3.7382006645202637,
+        2.701666831970215
+      ],
+      "displacement_BU": [
+        4.805415153503418,
+        -9.452980041503906,
+        3.429811477661133
+      ],
+      "direction": [
+        0.43116632103919983,
+        -0.8481695055961609,
+        0.30774015188217163
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Muzzle annulus",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Muzzle annulus",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -5.40541410446167,
+        2.7854738235473633
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.953144073486328,
+        3.439868211746216
+      ],
+      "direction": [
+        0.41040459275245667,
+        -0.8618819713592529,
+        0.29787173867225647
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Muzzle armor lip",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Muzzle armor lip",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -5.61384916305542,
+        2.8110663890838623
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -10.015674591064453,
+        3.442939281463623
+      ],
+      "direction": [
+        0.40846458077430725,
+        -0.8631969690322876,
+        0.29672837257385254
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "Accelerator2::Muzzle deep throat",
+      "source_instance": "Accelerator2",
+      "controller": "Destruction.Accelerator2::Muzzle deep throat",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 3,
+      "end_frame": 33,
+      "start_position": [
+        1.149999976158142,
+        -5.196979522705078,
+        2.7598812580108643
+      ],
+      "displacement_BU": [
+        4.739414691925049,
+        -9.89061450958252,
+        3.4367971420288086
+      ],
+      "direction": [
+        0.4123602509498596,
+        -0.8605484962463379,
+        0.29902395606040955
+      ],
+      "rotation_degrees_xyz": [
+        22,
+        24,
+        30
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "ServiceCartridge::Flush pressure seal",
+      "source_instance": "ServiceCartridge",
+      "controller": "Destruction.ServiceCartridge::Flush pressure seal",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 5,
+      "end_frame": 35,
+      "start_position": [
+        0.0,
+        1.0499999523162842,
+        2.7279999256134033
+      ],
+      "displacement_BU": [
+        -3.295811414718628,
+        5.166724681854248,
+        5.080876350402832
+      ],
+      "direction": [
+        -0.41401031613349915,
+        0.6490290760993958,
+        0.6382450461387634
+      ],
+      "rotation_degrees_xyz": [
+        20,
+        30,
+        -15
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "ServiceCartridge::Hexagonal service cartridge",
+      "source_instance": "ServiceCartridge",
+      "controller": "Destruction.ServiceCartridge::Hexagonal service cartridge",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 5,
+      "end_frame": 35,
+      "start_position": [
+        7.450580596923828e-09,
+        1.0499999523162842,
+        2.753000020980835
+      ],
+      "displacement_BU": [
+        -3.295811414718628,
+        5.166724681854248,
+        5.083876609802246
+      ],
+      "direction": [
+        -0.41391077637672424,
+        0.648872971534729,
+        0.6384683847427368
+      ],
+      "rotation_degrees_xyz": [
+        20,
+        30,
+        -15
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "ServiceCartridge::Inset cartridge center",
+      "source_instance": "ServiceCartridge",
+      "controller": "Destruction.ServiceCartridge::Inset cartridge center",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 5,
+      "end_frame": 35,
+      "start_position": [
+        3.725290298461914e-09,
+        1.0499999523162842,
+        2.7720000743865967
+      ],
+      "displacement_BU": [
+        -3.295811414718628,
+        5.166724681854248,
+        5.086156368255615
+      ],
+      "direction": [
+        -0.4138351082801819,
+        0.648754358291626,
+        0.638637900352478
+      ],
+      "rotation_degrees_xyz": [
+        20,
+        30,
+        -15
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "ServiceCartridge::Flush quarter turn lock",
+      "source_instance": "ServiceCartridge",
+      "controller": "Destruction.ServiceCartridge::Flush quarter turn lock",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 5,
+      "end_frame": 35,
+      "start_position": [
+        -0.23999999463558197,
+        1.0499999523162842,
+        2.7780001163482666
+      ],
+      "displacement_BU": [
+        -3.367811441421509,
+        5.166724681854248,
+        5.086876392364502
+      ],
+      "direction": [
+        -0.42126116156578064,
+        0.6462774276733398,
+        0.636289656162262
+      ],
+      "rotation_degrees_xyz": [
+        20,
+        30,
+        -15
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "ServiceCartridge::Flush quarter turn lock.001",
+      "source_instance": "ServiceCartridge",
+      "controller": "Destruction.ServiceCartridge::Flush quarter turn lock.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 5,
+      "end_frame": 35,
+      "start_position": [
+        0.23999999463558197,
+        1.0499999523162842,
+        2.7780001163482666
+      ],
+      "displacement_BU": [
+        -3.223811388015747,
+        5.166724681854248,
+        5.086876392364502
+      ],
+      "direction": [
+        -0.4062771499156952,
+        0.6511305570602417,
+        0.6410678029060364
+      ],
+      "rotation_degrees_xyz": [
+        20,
+        30,
+        -15
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "ServiceCartridge::Cartridge status",
+      "source_instance": "ServiceCartridge",
+      "controller": "Destruction.ServiceCartridge::Cartridge status",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 5,
+      "end_frame": 35,
+      "start_position": [
+        1.862645149230957e-09,
+        0.8799999356269836,
+        2.7850000858306885
+      ],
+      "displacement_BU": [
+        -3.295811414718628,
+        5.115724563598633,
+        5.087716579437256
+      ],
+      "direction": [
+        -0.4155041575431824,
+        0.6449412703514099,
+        0.6414102911949158
+      ],
+      "rotation_degrees_xyz": [
+        20,
+        30,
+        -15
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "LidarBlade::Flush lidar blade",
+      "source_instance": "LidarBlade",
+      "controller": "Destruction.LidarBlade::Flush lidar blade",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 5,
+      "end_frame": 35,
+      "start_position": [
+        -7.450580596923828e-09,
+        0.019999999552965164,
+        3.0278661251068115
+      ],
+      "displacement_BU": [
+        -3.295811414718628,
+        4.857724666595459,
+        5.116860389709473
+      ],
+      "direction": [
+        -0.42322874069213867,
+        0.6238004565238953,
+        0.6570771336555481
+      ],
+      "rotation_degrees_xyz": [
+        20,
+        30,
+        -15
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "LidarBlade::Lidar armored visor",
+      "source_instance": "LidarBlade",
+      "controller": "Destruction.LidarBlade::Lidar armored visor",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 5,
+      "end_frame": 35,
+      "start_position": [
+        7.450580596923828e-09,
+        0.05000000074505806,
+        3.111861228942871
+      ],
+      "displacement_BU": [
+        -3.295811414718628,
+        4.866724491119385,
+        5.12693977355957
+      ],
+      "direction": [
+        -0.4225645959377289,
+        0.6239754557609558,
+        0.6573383808135986
+      ],
+      "rotation_degrees_xyz": [
+        20,
+        30,
+        -15
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "LidarBlade::Lidar aperture recess",
+      "source_instance": "LidarBlade",
+      "controller": "Destruction.LidarBlade::Lidar aperture recess",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 5,
+      "end_frame": 35,
+      "start_position": [
+        0.0,
+        -0.2939999997615814,
+        2.990000009536743
+      ],
+      "displacement_BU": [
+        -3.295811414718628,
+        4.763524532318115,
+        5.112316608428955
+      ],
+      "direction": [
+        -0.4265933036804199,
+        0.6165667176246643,
+        0.661712646484375
+      ],
+      "rotation_degrees_xyz": [
+        20,
+        30,
+        -15
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell",
+      "source_instance": "LidarBlade",
+      "controller": "Destruction.LidarBlade::Lidar independent optical cell",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 5,
+      "end_frame": 35,
+      "start_position": [
+        -0.18000000715255737,
+        -0.31199997663497925,
+        2.990000009536743
+      ],
+      "displacement_BU": [
+        -3.349811315536499,
+        4.758124351501465,
+        5.112316608428955
+      ],
+      "direction": [
+        -0.4324704110622406,
+        0.6142877340316772,
+        0.6600149869918823
+      ],
+      "rotation_degrees_xyz": [
+        20,
+        30,
+        -15
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell.001",
+      "source_instance": "LidarBlade",
+      "controller": "Destruction.LidarBlade::Lidar independent optical cell.001",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 5,
+      "end_frame": 35,
+      "start_position": [
+        9.313225746154785e-10,
+        -0.31199997663497925,
+        2.990000009536743
+      ],
+      "displacement_BU": [
+        -3.295811414718628,
+        4.758124351501465,
+        5.112316608428955
+      ],
+      "direction": [
+        -0.426777184009552,
+        0.6161332130432129,
+        0.6619978547096252
+      ],
+      "rotation_degrees_xyz": [
+        20,
+        30,
+        -15
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell.002",
+      "source_instance": "LidarBlade",
+      "controller": "Destruction.LidarBlade::Lidar independent optical cell.002",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 5,
+      "end_frame": 35,
+      "start_position": [
+        0.18000000715255737,
+        -0.31199997663497925,
+        2.990000009536743
+      ],
+      "displacement_BU": [
+        -3.241811513900757,
+        4.758124351501465,
+        5.112316608428955
+      ],
+      "direction": [
+        -0.42103269696235657,
+        0.6179649829864502,
+        0.6639659404754639
+      ],
+      "rotation_degrees_xyz": [
+        20,
+        30,
+        -15
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    }
+  ],
+  "runtime_contract": false,
+  "end_behavior": "hold separated parts; runtime debris lifetime is unspecified",
+  "armor_limitation": null
+}

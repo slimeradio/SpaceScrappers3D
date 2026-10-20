@@ -1,0 +1,107 @@
+{
+  "schema": "MilitaryArmor.StateAuthoring/1",
+  "id": "MA-N01",
+  "game_validated": false,
+  "authoring_units": "BU; normalized controls; not game timings",
+  "controls": {
+    "power": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "Electrical availability; independent from retained heat/fill"
+    },
+    "activity": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Actual work/load; zero means idle"
+    },
+    "fault": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Externally supplied fault, not inferred"
+    },
+    "transmit": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "0 receive/ready, 1 transmit"
+    }
+  },
+  "motion": [],
+  "materials": [
+    {
+      "object": "Aperture::Diagnostic index",
+      "slot": 0,
+      "material": "MA-N01::Aperture::Diagnostic index::radio",
+      "kind": "radio",
+      "expression": "p*(.25+2.8*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault",
+        "t": "transmit"
+      }
+    },
+    {
+      "object": "Service::Cartridge status.001",
+      "slot": 0,
+      "material": "MA-N01::Service::Cartridge status.001::radio",
+      "kind": "radio",
+      "expression": "p*(.25+2.8*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault",
+        "t": "transmit"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "name": "MA-N01::activate",
+      "parameters": [
+        "power",
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-N01::deactivate",
+      "parameters": [
+        "activity",
+        "power"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    }
+  ],
+  "events": [],
+  "presets": {
+    "off": {
+      "power": 0,
+      "activity": 0
+    },
+    "idle": {
+      "power": 1,
+      "activity": 0
+    },
+    "working": {
+      "power": 1,
+      "activity": 1
+    }
+  },
+  "phase_policy": "cycle_turns is integrated phase, not speed. Stop retains phase. NLA cycle repetition must use cyclic extrapolation/REPEAT_OFFSET for spin; never reset turns on start. Clips start from relative phase 0; apply current phase offset when sequencing.",
+  "controller": "MA-N01",
+  "legacy_animation_metadata": []
+}

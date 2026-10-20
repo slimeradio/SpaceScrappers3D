@@ -1,0 +1,285 @@
+{
+  "schema": "cht-authoring-assembly/1",
+  "id": "CHT-W05",
+  "version": "1.0.0",
+  "title": "Bastion / четырёхкассетная ракетная башня",
+  "catalogId": "fleet-rocket-bastion",
+  "catalogReference": "../../../Catalog/blocks.csv",
+  "catalogGrid": [
+    3,
+    3
+  ],
+  "catalogRotationPivot": [
+    1.5,
+    1.5
+  ],
+  "units": "model-unit",
+  "up": "+Z",
+  "forward": "+Y",
+  "scaleNote": "Catalogue grid cells are not metres; visual dimensions are authoring model units. Muzzle XY offsets relative to catalogue pivot are preserved.",
+  "instances": [
+    {
+      "id": "foundation",
+      "partId": "CHT-W05-BASE",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W05-BASE/part.json",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": null
+    },
+    {
+      "id": "yaw",
+      "partId": "CHT-W05-YAW",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W05-YAW/part.json",
+      "parent": "foundation",
+      "translation": [
+        0,
+        0,
+        0.4
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "yaw",
+        "childSocket": "base"
+      },
+      "joint": {
+        "type": "revolute",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rangeDegrees": [
+          0,
+          360
+        ],
+        "speedDegreesPerSecond": 45
+      }
+    },
+    {
+      "id": "launcher-0",
+      "partId": "CHT-W05-CASSETTE",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W05-CASSETTE/part.json",
+      "parent": "yaw",
+      "translation": [
+        -0.731,
+        -0.15,
+        0.34
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "launcher-0",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "launcher-1",
+      "partId": "CHT-W05-CASSETTE",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W05-CASSETTE/part.json",
+      "parent": "yaw",
+      "translation": [
+        -0.244,
+        -0.15,
+        0.34
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "launcher-1",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "launcher-2",
+      "partId": "CHT-W05-CASSETTE",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W05-CASSETTE/part.json",
+      "parent": "yaw",
+      "translation": [
+        0.244,
+        -0.15,
+        0.34
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "launcher-2",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "launcher-3",
+      "partId": "CHT-W05-CASSETTE",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W05-CASSETTE/part.json",
+      "parent": "yaw",
+      "translation": [
+        0.731,
+        -0.15,
+        0.34
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "launcher-3",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "sensor",
+      "partId": "CHT-W05-SENSOR",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W05-SENSOR/part.json",
+      "parent": "yaw",
+      "translation": [
+        0,
+        -0.63,
+        0.55
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "sensor",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "power",
+      "partId": "CHT-W05-POWER",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W05-POWER/part.json",
+      "parent": "yaw",
+      "translation": [
+        0,
+        -0.9,
+        0.18
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "power",
+        "childSocket": "base"
+      }
+    }
+  ],
+  "animations": [
+    {
+      "id": "yaw-demo",
+      "node": "yaw",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "rangeDegrees": [
+        0,
+        360
+      ],
+      "durationSeconds": 8.0,
+      "loop": true,
+      "interpolation": "LINEAR",
+      "gameplaySource": "catalog RotateSpeedDegreesPerSecond=45",
+      "restDegrees": 0
+    }
+  ],
+  "catalogSnapshot": {
+    "ID": "fleet-rocket-bastion",
+    "Название_пояснительное": "Ракетная установка Fleet bastion",
+    "Тип_XML": "Turret",
+    "Ширина_клеток": "3",
+    "Высота_клеток": "3",
+    "Размер_сетки_без_поворота": "3x3",
+    "Описание_и_назначение": "Запускает самонаводящиеся ракеты с взрывным поражением. Поворотная установка с собственной дугой наведения. Урон из Weapon=850; дальность=420.",
+    "Прочность_MaxHealth": "7200",
+    "Масса_BlockMass_единицы_игры": "17",
+    "Особенности_и_ограничения": "Урон указан из XML Weapon без пересчёта в DPS. Итоговый залп зависит от числа стволов, ProjectilesPerShot, интервалов, магазина и нагрева. Энергия и боеприпасы заданы отдельно.",
+    "Параметры_механики_XML": "<Heat Capacity=\"480\" Input=\"0\" Output=\"12\" EnergyFraction=\"0.8\" Background=\"0\" WorkHeat=\"0\" Radiator=\"0\" Shutdown=\"0.9\" Resume=\"0.5\" DamagePerSecond=\"0\" Action=\"Disable\" />",
+    "Ресурсы_XML_1_энергия_МДж_2_топливо": "<Resource StoreInStorage=\"true\" Id=\"1\" Capacity=\"240\" WorkingThreshold=\"1\" TargetStorage=\"240\" InitialStorage=\"240\" MaxInput=\"120\" UsePerShot=\"10\" Priority=\"30\" />",
+    "Оружие_XML": "<Weapon Name=\"fleet-rocket-bastion-weapon\" ProjectileKind=\"SeekMissile\" DamagePerProjectile=\"850\" ProjectileSpeed=\"55\" MaxRange=\"420\" HitReaction=\"Damage\" AmmoItemId=\"33\" MagazineCharge=\"1\" ExplosionRadius=\"6\" SeekArcDegrees=\"90\" SeekSpeedDegrees=\"40\"><Barrels><Barrel Ref=\"fleet-rocket-bastion-barrel-0\" /><Barrel Ref=\"fleet-rocket-bastion-barrel-1\" /><Barrel Ref=\"fleet-rocket-bastion-barrel-2\" /><Barrel Ref=\"fleet-rocket-bastion-barrel-3\" /></Barrels></Weapon>",
+    "Наведение_XML": "<Turret Name=\"fleet-rocket-bastion-mount\" FiringArcDegrees=\"360\" RotateSpeedDegreesPerSecond=\"45\"><RotationPivot X=\"1.5\" Y=\"1.5\" /></Turret>",
+    "Стволы_XML": "<Barrel Name=\"fleet-rocket-bastion-barrel-0\" MaxHeat=\"100\" HeatPerShot=\"10\" HeatPerSeconds=\"8\" ShootIntervalInSeconds=\"4\" ReloadIntervalInSeconds=\"4\" MaxMagazineCapacity=\"1\" ProjectilesPerShot=\"1\" ShotSpread=\"0\"><ShootPosition X=\"-0.731\" Y=\"2.05\" /></Barrel> <Barrel Name=\"fleet-rocket-bastion-barrel-1\" MaxHeat=\"100\" HeatPerShot=\"10\" HeatPerSeconds=\"8\" ShootIntervalInSeconds=\"4\" ReloadIntervalInSeconds=\"4\" MaxMagazineCapacity=\"1\" ProjectilesPerShot=\"1\" ShotSpread=\"0\"><ShootPosition X=\"-0.244\" Y=\"2.05\" /></Barrel> <Barrel Name=\"fleet-rocket-bastion-barrel-2\" MaxHeat=\"100\" HeatPerShot=\"10\" HeatPerSeconds=\"8\" ShootIntervalInSeconds=\"4\" ReloadIntervalInSeconds=\"4\" MaxMagazineCapacity=\"1\" ProjectilesPerShot=\"1\" ShotSpread=\"0\"><ShootPosition X=\"0.244\" Y=\"2.05\" /></Barrel> <Barrel Name=\"fleet-rocket-bastion-barrel-3\" MaxHeat=\"100\" HeatPerShot=\"10\" HeatPerSeconds=\"8\" ShootIntervalInSeconds=\"4\" ReloadIntervalInSeconds=\"4\" MaxMagazineCapacity=\"1\" ProjectilesPerShot=\"1\" ShotSpread=\"0\"><ShootPosition X=\"0.731\" Y=\"2.05\" /></Barrel>",
+    "Источник_от_корня_проекта": "Assets/Definitions/FleetWeapons/fleet-rocket-bastion.definition.xml",
+    "Основание_описания": "Пояснение по текущим XML и исходному коду; название пояснительное, не локализованное имя UI. Размер — Size в клетках до поворота, не габарит рисунка или коллайдера. Игровой запуск не проверялся.",
+    "Дата_среза": "2026-10-15"
+  }
+}

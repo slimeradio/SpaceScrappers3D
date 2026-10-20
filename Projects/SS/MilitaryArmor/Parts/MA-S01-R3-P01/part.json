@@ -1,0 +1,465 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-S01-R3-P01",
+  "version": "3.0",
+  "name": "Three-arm protected trade routing frame",
+  "source": "MA-S01-R3-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.8349999785423279,
+      -0.8600000143051147,
+      0.03999999910593033
+    ],
+    "max": [
+      0.8349999785423279,
+      0.8550000190734863,
+      0.3100000023841858
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Front inward routing keel",
+        "Angled interface seat",
+        "Angled interface seat.001",
+        "Rear interface seat"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Triangular central chassis",
+        "Service spine root"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "hull",
+      "role": "hull",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r3.auction.hull"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "core",
+      "role": "core",
+      "parent": "part",
+      "position": [
+        0,
+        -0.18,
+        0.28
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r3.auction.core"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "left",
+      "role": "interface",
+      "parent": "part",
+      "position": [
+        -0.58,
+        -0.19,
+        0.29
+      ],
+      "forward": [
+        1.0,
+        -6.123233995736766e-17,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r3.auction.interface"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "right",
+      "role": "interface",
+      "parent": "part",
+      "position": [
+        0.58,
+        -0.19,
+        0.29
+      ],
+      "forward": [
+        -1.0,
+        -6.123233995736766e-17,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r3.auction.interface"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "rear",
+      "role": "interface",
+      "parent": "part",
+      "position": [
+        0,
+        0.58,
+        0.29
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r3.auction.interface"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "service",
+      "role": "service",
+      "parent": "part",
+      "position": [
+        -0.63,
+        0.48,
+        0.25
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r3.auction.service"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "hull-seat",
+      "role": "hull",
+      "parent": "part",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r3.auction.hull"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "core-seat",
+      "role": "core",
+      "parent": "part",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        0,
+        -0.18,
+        0.28
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r3.auction.core"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "left-seat",
+      "role": "interface",
+      "parent": "part",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        -0.58,
+        -0.19,
+        0.29
+      ],
+      "forward": [
+        1.0,
+        -6.123233995736766e-17,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r3.auction.interface"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "right-seat",
+      "role": "interface",
+      "parent": "part",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        0.58,
+        -0.19,
+        0.29
+      ],
+      "forward": [
+        -1.0,
+        -6.123233995736766e-17,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r3.auction.interface"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "rear-seat",
+      "role": "interface",
+      "parent": "part",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        0,
+        0.58,
+        0.29
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r3.auction.interface"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "service-seat",
+      "role": "service",
+      "parent": "part",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        -0.63,
+        0.48,
+        0.25
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r3.auction.service"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Static closed protected trading infrastructure; v3.0. Blender authoring only. No textures/UV dependency; no animation. Unit scale only; physical BU unspecified. No GLB."
+}

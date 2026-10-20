@@ -1,0 +1,413 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W01-BARREL",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Длинный артиллерийский ствол с дульным тормозом",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "forged-breech",
+      "shape": "lathe",
+      "profile": [
+        [
+          0.047,
+          0
+        ],
+        [
+          0.116,
+          0
+        ],
+        [
+          0.137,
+          0.045
+        ],
+        [
+          0.137,
+          0.26
+        ],
+        [
+          0.116,
+          0.33
+        ],
+        [
+          0.08,
+          0.4
+        ],
+        [
+          0.047,
+          0.4
+        ],
+        [
+          0.047,
+          0
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "white-recoil-jacket",
+      "shape": "lathe",
+      "profile": [
+        [
+          0.138,
+          0.06
+        ],
+        [
+          0.156,
+          0.1
+        ],
+        [
+          0.156,
+          0.26
+        ],
+        [
+          0.133,
+          0.34
+        ],
+        [
+          0.118,
+          0.34
+        ],
+        [
+          0.138,
+          0.25
+        ],
+        [
+          0.138,
+          0.06
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "tapered-steel-tube",
+      "shape": "lathe",
+      "profile": [
+        [
+          0.048,
+          0.32
+        ],
+        [
+          0.077,
+          0.32
+        ],
+        [
+          0.078,
+          0.4
+        ],
+        [
+          0.066,
+          0.52
+        ],
+        [
+          0.061,
+          1.31
+        ],
+        [
+          0.081,
+          1.36
+        ],
+        [
+          0.081,
+          1.42
+        ],
+        [
+          0.048,
+          1.42
+        ],
+        [
+          0.048,
+          0.32
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "profiled-open-muzzle-brake",
+      "shape": "lathe",
+      "profile": [
+        [
+          0.049,
+          1.31
+        ],
+        [
+          0.084,
+          1.31
+        ],
+        [
+          0.113,
+          1.37
+        ],
+        [
+          0.113,
+          1.42
+        ],
+        [
+          0.085,
+          1.45
+        ],
+        [
+          0.085,
+          1.51
+        ],
+        [
+          0.125,
+          1.55
+        ],
+        [
+          0.125,
+          1.61
+        ],
+        [
+          0.106,
+          1.654
+        ],
+        [
+          0.049,
+          1.654
+        ],
+        [
+          0.049,
+          1.31
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "muzzle-armored-rim",
+      "shape": "lathe",
+      "profile": [
+        [
+          0.107,
+          1.59
+        ],
+        [
+          0.129,
+          1.59
+        ],
+        [
+          0.129,
+          1.625
+        ],
+        [
+          0.109,
+          1.65
+        ],
+        [
+          0.107,
+          1.65
+        ],
+        [
+          0.107,
+          1.59
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "breech-charge--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.157,
+        0.18,
+        0
+      ],
+      "size": [
+        0.009,
+        0.12,
+        0.024
+      ],
+      "material": "cyan",
+      "radius": 0.002
+    },
+    {
+      "id": "breech-charge-1",
+      "shape": "roundedBox",
+      "position": [
+        0.157,
+        0.18,
+        0
+      ],
+      "size": [
+        0.009,
+        0.12,
+        0.024
+      ],
+      "material": "cyan",
+      "radius": 0.002
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; model-unit box projection",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "breech-charge--1",
+      "geometry": "breech-charge--1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    },
+    {
+      "id": "breech-charge-1",
+      "geometry": "breech-charge-1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "base",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible": "CHT-W01-HEAD.barrel-*",
+      "parentNode": "root"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [
+    {
+      "id": "muzzle",
+      "role": "projectile-origin",
+      "parentNode": "root",
+      "coordinateSystem": "local",
+      "position": [
+        0,
+        1.654,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.1615,
+      0,
+      -0.156
+    ],
+    "max": [
+      0.1615,
+      1.654,
+      0.156
+    ],
+    "size": [
+      0.323,
+      1.654,
+      0.312
+    ]
+  },
+  "revisionNotes": "Прежние прямоугольные казённик и ствол заменены профилированными телами вращения: коническая переходная часть, длинная труба, ступенчатый дульный тормоз и открытый сквозной канал радиуса .047–.049. Дульная точка [0,1.654,0] сохранена; внутренних чёрных заглушек нет."
+}

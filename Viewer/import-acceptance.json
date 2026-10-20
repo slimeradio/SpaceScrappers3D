@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checks": [
+    "GLB file picker",
+    "blend file picker and Blender conversion",
+    "object selection and isolation",
+    "animation playback",
+    "painting and appearance JSON",
+    "binary GLB export",
+    "standalone object and reload",
+    "source hashes unchanged",
+    "invalid GLB rejected",
+    "return to catalog",
+    "GLB drag and drop"
+  ],
+  "models": [
+    {
+      "name": "cm-handle-folding.glb",
+      "meshes": 15,
+      "parts": 15,
+      "animations": 1,
+      "format": ".glb",
+      "sourceUnchanged": true
+    },
+    {
+      "name": "cm-handle-folding.blend",
+      "meshes": 15,
+      "parts": 15,
+      "animations": 1,
+      "format": ".blend",
+      "sourceUnchanged": true
+    }
+  ],
+  "browserErrors": []
+}

@@ -1,0 +1,138 @@
+{
+  "id": "CHT-W05",
+  "catalogId": "fleet-rocket-bastion",
+  "instances": 8,
+  "parts": [
+    {
+      "id": "CHT-W05-BASE",
+      "version": "1.0.0",
+      "meshes": 11,
+      "triangles": 6228
+    },
+    {
+      "id": "CHT-W05-YAW",
+      "version": "1.0.0",
+      "meshes": 7,
+      "triangles": 3204
+    },
+    {
+      "id": "CHT-W05-CASSETTE",
+      "version": "1.0.0",
+      "meshes": 18,
+      "triangles": 15000
+    },
+    {
+      "id": "CHT-W05-SENSOR",
+      "version": "1.0.0",
+      "meshes": 4,
+      "triangles": 3024
+    },
+    {
+      "id": "CHT-W05-POWER",
+      "version": "1.0.0",
+      "meshes": 12,
+      "triangles": 14640
+    }
+  ],
+  "links": [
+    {
+      "instance": "yaw",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "launcher-0",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "launcher-1",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "launcher-2",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "launcher-3",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "sensor",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "power",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    }
+  ],
+  "extent": [
+    2.299999952316284,
+    2.016999976210296,
+    1.469500001296401
+  ],
+  "clipChecks": [
+    {
+      "name": "yaw-demo",
+      "duration": 8,
+      "poses": [
+        {
+          "fraction": 0,
+          "finite": true
+        },
+        {
+          "fraction": 0.25,
+          "finite": true
+        },
+        {
+          "fraction": 0.5,
+          "finite": true
+        },
+        {
+          "fraction": 0.75,
+          "finite": true
+        },
+        {
+          "fraction": 1,
+          "finite": true
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "export": {
+    "path": "Exports/CHT-W05.gltf",
+    "meshes": 106,
+    "nodes": 116,
+    "animations": [
+      "yaw-demo"
+    ],
+    "sha256": "092e163caa59383d00cabc73c1a772c9f942a0512d52384abe203928cd59329a"
+  },
+  "browserErrors": [],
+  "failedRequests": [],
+  "sourceSHA256": {
+    "Parts/CHT-W05-CASSETTE/part.json": "df510c1e5c198370d0ea141bc772cc28dbf3285ff2898f612d63f1f74ba43c56",
+    "Parts/CHT-W05-BASE/part.json": "d4fa86275e4d9d9b358b2681a51dab5dd729ed16704da1e357916e24c6d9a224",
+    "Parts/CHT-W05-SENSOR/part.json": "9d607af973d5bac866a79c4776781afc0c1ed5346dac680243209aa8731a45f5",
+    "Blocks/CHT-W05/assembly.json": "954492bcb19bc15cbc30cae21de1ca8fa289a667181af4de4ef430028d6d49c0",
+    "Parts/CHT-W05-POWER/part.json": "11844d49c919480d92e68d60d65397132dd79b5081ddde3bbd2746085bf4df54",
+    "Parts/CHT-W05-YAW/part.json": "56723e4a91c814a5e1563aed97cc6b651568a2c2c05d3da17c6c31de86413f4f"
+  },
+  "formRevision": "1.1.0",
+  "geometryBounds": "exact transformed mesh vertices from Viewer/geometry.js",
+  "functionalInterfaces": "unchanged: same sockets, muzzle count/poses, yaw axis and range",
+  "geometryAttributes": "all primitive positions, normals and UVs finite"
+}

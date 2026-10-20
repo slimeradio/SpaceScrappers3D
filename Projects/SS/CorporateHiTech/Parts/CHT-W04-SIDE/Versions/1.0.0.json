@@ -1,0 +1,417 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W04-SIDE",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Assault: широкая бронещека",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "wing-underlay",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.09
+      ],
+      "outline": [
+        [
+          -0.085,
+          -0.4
+        ],
+        [
+          0.085,
+          -0.4
+        ],
+        [
+          0.165,
+          -0.32
+        ],
+        [
+          0.165,
+          0.32
+        ],
+        [
+          0.085,
+          0.4
+        ],
+        [
+          -0.085,
+          0.4
+        ],
+        [
+          -0.165,
+          0.32
+        ],
+        [
+          -0.165,
+          -0.32
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.09,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": -0.078,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.078,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.09,
+          "scale": [
+            0.87,
+            0.87
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "swept-wing",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.22
+      ],
+      "outline": [
+        [
+          -0.1,
+          -0.385
+        ],
+        [
+          0.1,
+          -0.385
+        ],
+        [
+          0.195,
+          -0.29000000000000004
+        ],
+        [
+          0.195,
+          0.29000000000000004
+        ],
+        [
+          0.1,
+          0.385
+        ],
+        [
+          -0.1,
+          0.385
+        ],
+        [
+          -0.195,
+          0.29000000000000004
+        ],
+        [
+          -0.195,
+          -0.29000000000000004
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.1,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": -0.08800000000000001,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.08800000000000001,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.1,
+          "scale": [
+            0.7,
+            0.7
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "wing-cap",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.14,
+        0.34
+      ],
+      "outline": [
+        [
+          -0.05,
+          -0.18
+        ],
+        [
+          0.05,
+          -0.18
+        ],
+        [
+          0.115,
+          -0.11499999999999999
+        ],
+        [
+          0.115,
+          0.11499999999999999
+        ],
+        [
+          0.05,
+          0.18
+        ],
+        [
+          -0.05,
+          0.18
+        ],
+        [
+          -0.115,
+          0.11499999999999999
+        ],
+        [
+          -0.115,
+          -0.11499999999999999
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.045,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": -0.033,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.033,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.045,
+          "scale": [
+            0.86,
+            0.86
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "wing-index",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.12,
+        0.389
+      ],
+      "size": [
+        0.025,
+        0.21,
+        0.008
+      ],
+      "radius": 0.0016,
+      "material": "cyan"
+    },
+    {
+      "id": "cooling-slit-0",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.08,
+        0.326
+      ],
+      "size": [
+        0.17,
+        0.018,
+        0.009
+      ],
+      "radius": 0.0018,
+      "material": "rubber"
+    },
+    {
+      "id": "cooling-slit-1",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.15000000000000002,
+        0.326
+      ],
+      "size": [
+        0.17,
+        0.018,
+        0.009
+      ],
+      "radius": 0.0018,
+      "material": "rubber"
+    },
+    {
+      "id": "cooling-slit-2",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.22000000000000003,
+        0.326
+      ],
+      "size": [
+        0.17,
+        0.018,
+        0.009
+      ],
+      "radius": 0.0018,
+      "material": "rubber"
+    },
+    {
+      "id": "cooling-slit-3",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.29000000000000004,
+        0.326
+      ],
+      "size": [
+        0.17,
+        0.018,
+        0.009
+      ],
+      "radius": 0.0018,
+      "material": "rubber"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; optional SharedTextures via existing viewer box-projection UV",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "wing-index",
+      "geometry": "wing-index",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-W04-HULL.side-L|CHT-W04-HULL.side-R",
+      "role": "mechanical",
+      "parentNode": "root"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.195,
+      -0.4,
+      0
+    ],
+    "max": [
+      0.195,
+      0.4,
+      0.394
+    ],
+    "size": [
+      0.39,
+      0.8,
+      0.394
+    ]
+  }
+}

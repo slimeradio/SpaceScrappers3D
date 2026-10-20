@@ -1,0 +1,150 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W02-P05",
+  "version": "1.0",
+  "name": "Closed-loop radiative cooling wing",
+  "source": "MA-W02-P05.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.44999998807907104,
+      -0.550000011920929,
+      -0.5699999928474426
+    ],
+    "max": [
+      0.44999998807907104,
+      1.0,
+      0.44999998807907104
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Radiative ceramic lamella",
+        "Radiative ceramic lamella.001",
+        "Radiative ceramic lamella.002",
+        "Radiative ceramic lamella.003",
+        "Radiative ceramic lamella.004",
+        "Radiative ceramic lamella.005"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Thermal lamella edge",
+        "Thermal lamella edge.001",
+        "Thermal lamella edge.002",
+        "Thermal lamella edge.003",
+        "Thermal lamella edge.004",
+        "Thermal lamella edge.005"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Optic",
+      "surfaces": [
+        "Coolant loop indicator"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25,
+        1.0
+      ],
+      "metalness": 0.6499999761581421,
+      "roughness": 0.18000000715255737,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Radiator thermal manifold"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Optic",
+      "regions": [
+        "Coolant loop indicator"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25
+      ],
+      "strength": 0.699999988079071,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "thermal-root",
+      "role": "structural",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": ""
+}

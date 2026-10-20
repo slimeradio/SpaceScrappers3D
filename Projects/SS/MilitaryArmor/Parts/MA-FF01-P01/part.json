@@ -1,0 +1,478 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-FF01-P01",
+  "version": "1.0",
+  "name": "Открытая рама технологической линии",
+  "source": "MA-FF01-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -2.265000104904175,
+      -3.9000000953674316,
+      0.0
+    ],
+    "max": [
+      2.265000104904175,
+      3.9000000953674316,
+      0.3799999952316284
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Long structural runner",
+        "Long structural runner.001",
+        "Specific process saddle",
+        "Specific process saddle.001",
+        "Specific process saddle.002",
+        "Specific process saddle.003"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Transverse support",
+        "Transverse support.001",
+        "Transverse support.002",
+        "Transverse support.003",
+        "Transverse support.004"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "MilitaryArmor.fuel-factory.frame",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-factory.frame"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "tower",
+      "role": "MilitaryArmor.fuel-factory.tower",
+      "parent": "part",
+      "position": [
+        -0.55,
+        2.35,
+        0.38
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-factory.tower"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "chamber",
+      "role": "MilitaryArmor.fuel-factory.chamber",
+      "parent": "part",
+      "position": [
+        0,
+        -0.35,
+        0.38
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-factory.chamber"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "drum",
+      "role": "MilitaryArmor.engine-room.drum",
+      "parent": "part",
+      "position": [
+        -0.7,
+        -2.55,
+        0.38
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.engine-room.drum"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "pumpF",
+      "role": "MilitaryArmor.engine-room.pump",
+      "parent": "part",
+      "position": [
+        1.3,
+        -3.0,
+        0.38
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.engine-room.pump"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "pumpB",
+      "role": "MilitaryArmor.engine-room.pump",
+      "parent": "part",
+      "position": [
+        1.3,
+        -2.0,
+        0.38
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.engine-room.pump"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "routes",
+      "role": "MilitaryArmor.fuel-factory.routes",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-factory.routes"
+      ],
+      "restrictions": "unit scale; full pose"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-area",
+      "role": "MilitaryArmor.fuel-factory.frame",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-factory.frame"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "tower-area",
+      "role": "MilitaryArmor.fuel-factory.tower",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        -0.55,
+        2.35,
+        0.38
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-factory.tower"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "chamber-area",
+      "role": "MilitaryArmor.fuel-factory.chamber",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        -0.35,
+        0.38
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-factory.chamber"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "drum-area",
+      "role": "MilitaryArmor.engine-room.drum",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        -0.7,
+        -2.55,
+        0.38
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.engine-room.drum"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "pumpF-area",
+      "role": "MilitaryArmor.engine-room.pump",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        1.3,
+        -3.0,
+        0.38
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.engine-room.pump"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "pumpB-area",
+      "role": "MilitaryArmor.engine-room.pump",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        1.3,
+        -2.0,
+        0.38
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.engine-room.pump"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "routes-area",
+      "role": "MilitaryArmor.fuel-factory.routes",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-factory.routes"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    }
+  ],
+  "animations": [],
+  "notes": "Static fuel factory art candidate. Uniform procedural PBR. No file textures, UV dependency or animations. No recipe, output or capacity claims; BU physical scale unspecified."
+}

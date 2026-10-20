@@ -1,0 +1,86 @@
+{
+  "schema": "MilitaryArmor.PropulsionVariantsAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-EF02",
+      "title": "Топливный двигатель 1×2",
+      "version": "1.0",
+      "catalog_id": "fuel-thruster-1x2",
+      "catalog_grid": [
+        1,
+        2
+      ],
+      "source": "Blocks/MA-EF02/MA-EF02.blend",
+      "assembly": "Blocks/MA-EF02/assembly.json",
+      "parts": [
+        "MA-E01-P03",
+        "MA-E01-P05",
+        "MA-EF02-P01"
+      ],
+      "instance_count": 3,
+      "validation": "Blocks/MA-EF02/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-EF02/Previews/perspective.png",
+        "Blocks/MA-EF02/Previews/top.png",
+        "Blocks/MA-EF02/Previews/top-grayscale.png"
+      ]
+    },
+    {
+      "id": "MA-EF03",
+      "title": "Топливный двигатель 3×4",
+      "version": "1.0",
+      "catalog_id": "fuel-thruster-3x4",
+      "catalog_grid": [
+        3,
+        4
+      ],
+      "source": "Blocks/MA-EF03/MA-EF03.blend",
+      "assembly": "Blocks/MA-EF03/assembly.json",
+      "parts": [
+        "MA-E01-P05",
+        "MA-EF01-P02",
+        "MA-EF03-P01"
+      ],
+      "instance_count": 4,
+      "validation": "Blocks/MA-EF03/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-EF03/Previews/perspective.png",
+        "Blocks/MA-EF03/Previews/top.png",
+        "Blocks/MA-EF03/Previews/top-grayscale.png"
+      ]
+    },
+    {
+      "id": "MA-EI02",
+      "title": "Ионный двигатель 3×4",
+      "version": "2.0",
+      "catalog_id": "ion-thruster-3x4",
+      "catalog_grid": [
+        3,
+        4
+      ],
+      "source": "Blocks/MA-EI02/MA-EI02.blend",
+      "assembly": "Blocks/MA-EI02/assembly.json",
+      "parts": [
+        "MA-E01-P05",
+        "MA-EI01-P02",
+        "MA-EI02-P01"
+      ],
+      "instance_count": 4,
+      "validation": "Blocks/MA-EI02/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-EI02/Previews/perspective.png",
+        "Blocks/MA-EI02/Previews/top.png",
+        "Blocks/MA-EI02/Previews/top-grayscale.png"
+      ]
+    }
+  ],
+  "new_part_sources": 3,
+  "glb_generated": false,
+  "game_validation": false
+}

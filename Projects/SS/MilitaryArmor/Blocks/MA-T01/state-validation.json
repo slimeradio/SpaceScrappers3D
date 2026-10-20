@@ -1,0 +1,377 @@
+{
+  "id": "MA-T01",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 12,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-T01::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-T01::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-T01::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-T01::cool_down",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-T01::fire",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [
+    {
+      "node": "Azimuth",
+      "parameter": "aim_yaw",
+      "sampled_values": [
+        0.0,
+        3.1415927410125732,
+        6.2831854820251465
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Elevation",
+      "parameter": "aim_pitch",
+      "sampled_values": [
+        -0.13962633907794952,
+        0.1483529806137085,
+        0.4363323152065277
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Barrel.L",
+      "parameter": "recoil_Barrel_L",
+      "sampled_values": [
+        -0.7699999809265137,
+        -0.6850000023841858,
+        -0.5999999642372131
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Barrel.R",
+      "parameter": "recoil_Barrel_R",
+      "sampled_values": [
+        -0.7699999809265137,
+        -0.6850000023841858,
+        -0.5999999642372131
+      ],
+      "driver_valid": true
+    }
+  ],
+  "materials": [
+    {
+      "object": "Foundation::Capacitor interface luminous insert",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Foundation::Capacitor interface luminous insert.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Foundation::Diagonal interface indicator",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Foundation::Capacitor interface luminous insert.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Foundation::Capacitor interface luminous insert.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Foundation::Diagonal interface indicator.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Foundation::Forward status segment",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Foundation::Forward status segment.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "TurretArmor::Coolant channel light",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "TurretArmor::Shoulder ranging lens",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "TurretArmor::Coolant channel light.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "TurretArmor::Shoulder ranging lens.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "TurretArmor::Spine recessed signal",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "TurretArmor::Spine recessed signal.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "RoofOptics::Lidar independent optical cell",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "RoofOptics::Lidar independent optical cell.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "RoofOptics::Lidar independent optical cell.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "RoofHatch::Cartridge status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Mantlet::Breech status insert",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Mantlet::Breech status insert.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Mantlet::Breech status insert.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Mantlet::Breech status insert.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.R::Induction energized core",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.R::Induction energized core.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.R::Induction energized core.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.R::Induction energized core.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.R::Induction energized core.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.R::Induction energized core.005",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.R::Induction energized core.006",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.R::Induction energized core.007",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.L::Induction energized core",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.L::Induction energized core.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.L::Induction energized core.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.L::Induction energized core.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.L::Induction energized core.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.L::Induction energized core.005",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.L::Induction energized core.006",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Barrel.L::Induction energized core.007",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Bearing::Azimuth index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Bearing::Azimuth index.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Bearing::Azimuth index.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Bearing::Azimuth index.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Bearing::Azimuth index.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Bearing::Azimuth index.005",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Bearing::Azimuth index.006",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Bearing::Azimuth index.007",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Bearing::Azimuth index.008",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Bearing::Azimuth index.009",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Bearing::Azimuth index.010",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Bearing::Azimuth index.011",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

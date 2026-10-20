@@ -1,0 +1,103 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-EF02",
+  "version": "1.0",
+  "title": "Топливный двигатель 1×2",
+  "catalog_id": "fuel-thruster-1x2",
+  "catalog_grid": [
+    1,
+    2
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "PressureHousing",
+      "part_id": "MA-EF02-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-EF02-P01/MA-EF02-P01.blend",
+      "parent": "MA-EF02",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ExpansionBell",
+      "part_id": "MA-E01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-E01-P03/MA-E01-P03.blend",
+      "parent": "MA-EF02",
+      "translation": [
+        0,
+        -0.28,
+        0.49
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "part_id": "MA-E01-P05",
+      "version": "1.0",
+      "source": "../../Parts/MA-E01-P05/MA-E01-P05.blend",
+      "parent": "MA-EF02",
+      "translation": [
+        0,
+        0.19,
+        0.9405
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "PressureHousing",
+      "parent_socket": "bell",
+      "child_instance": "ExpansionBell",
+      "child_socket": "chamber"
+    },
+    {
+      "parent_instance": "PressureHousing",
+      "parent_socket": "service",
+      "child_instance": "ServiceCartridge",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Compact fuel pressure chamber with reused hollow bell; exhaust -Y / thrust +Y; authoring metadata only."
+}

@@ -1,0 +1,85 @@
+{
+  "schema": "MilitaryArmor.SupportAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-N01",
+      "title": "Антенна",
+      "version": "1.0",
+      "catalog_id": "antenna-1x1",
+      "catalog_grid": [
+        1,
+        1
+      ],
+      "source": "Blocks/MA-N01/MA-N01.blend",
+      "assembly": "Blocks/MA-N01/assembly.json",
+      "parts": [
+        "MA-N01-P01",
+        "MA-N01-P02",
+        "MA-N01-P03",
+        "MA-R01-P05"
+      ],
+      "instance_count": 4,
+      "validation": "Blocks/MA-N01/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-N01/Previews/perspective.png",
+        "Blocks/MA-N01/Previews/top.png"
+      ],
+      "functional_redesign": false
+    },
+    {
+      "id": "MA-C01",
+      "title": "Программируемый блок",
+      "version": "2.0",
+      "catalog_id": "programmable-2x1",
+      "catalog_grid": [
+        2,
+        1
+      ],
+      "source": "Blocks/MA-C01/MA-C01.blend",
+      "assembly": "Blocks/MA-C01/assembly.json",
+      "parts": [
+        "MA-C01-R2-P01",
+        "MA-C01-R2-P02",
+        "MA-C01-R2-P03"
+      ],
+      "instance_count": 8,
+      "validation": "Blocks/MA-C01/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-C01/Previews/perspective.png",
+        "Blocks/MA-C01/Previews/top.png"
+      ],
+      "functional_redesign": true
+    },
+    {
+      "id": "MA-I01",
+      "title": "Грузовой отсек с верфью 2×1",
+      "version": "2.0",
+      "catalog_id": "cargo-2x1",
+      "catalog_grid": [
+        2,
+        1
+      ],
+      "source": "Blocks/MA-I01/MA-I01.blend",
+      "assembly": "Blocks/MA-I01/assembly.json",
+      "parts": [
+        "MA-I01-R2-P01",
+        "MA-I01-R2-P02",
+        "MA-I01-R2-P03"
+      ],
+      "instance_count": 4,
+      "validation": "Blocks/MA-I01/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-I01/Previews/perspective.png",
+        "Blocks/MA-I01/Previews/top.png"
+      ],
+      "functional_redesign": true
+    }
+  ],
+  "physical_scale": "BU unspecified",
+  "glb_generated": false,
+  "game_validation": false,
+  "revision_note": "Functional identity redesign v2.0; see FunctionalIdentity.md for revised models and prior versions."
+}

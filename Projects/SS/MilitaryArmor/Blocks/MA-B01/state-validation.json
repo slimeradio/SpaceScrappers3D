@@ -1,0 +1,112 @@
+{
+  "id": "MA-B01",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 10,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-B01::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-B01::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-B01::fill",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [],
+  "materials": [
+    {
+      "object": "EnergyBlade0::Diagnostic notch",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "EnergyBlade0::Diagnostic notch.001",
+      "kind": "flow",
+      "off": 0.0,
+      "on": 0.15000000596046448
+    },
+    {
+      "object": "EnergyBlade1::Diagnostic notch",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "EnergyBlade1::Diagnostic notch.001",
+      "kind": "flow",
+      "off": 0.0,
+      "on": 0.15000000596046448
+    },
+    {
+      "object": "EnergyBlade2::Diagnostic notch",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "EnergyBlade2::Diagnostic notch.001",
+      "kind": "flow",
+      "off": 0.0,
+      "on": 0.15000000596046448
+    },
+    {
+      "object": "EnergyBlade3::Diagnostic notch",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "EnergyBlade3::Diagnostic notch.001",
+      "kind": "flow",
+      "off": 0.0,
+      "on": 0.15000000596046448
+    },
+    {
+      "object": "EnergyBlade4::Diagnostic notch",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "EnergyBlade4::Diagnostic notch.001",
+      "kind": "flow",
+      "off": 0.0,
+      "on": 0.15000000596046448
+    },
+    {
+      "object": "EnergyBlade5::Diagnostic notch",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "EnergyBlade5::Diagnostic notch.001",
+      "kind": "flow",
+      "off": 0.0,
+      "on": 0.15000000596046448
+    },
+    {
+      "object": "EnergyBlade6::Diagnostic notch",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "EnergyBlade6::Diagnostic notch.001",
+      "kind": "flow",
+      "off": 0.0,
+      "on": 0.15000000596046448
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

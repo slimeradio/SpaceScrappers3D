@@ -1,0 +1,569 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W06-OPTIC",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Helion: один мощный непрерывный излучатель",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "optic-body",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.08,
+        0.15
+      ],
+      "outline": [
+        [
+          -0.15999999999999998,
+          -0.23
+        ],
+        [
+          0.15999999999999998,
+          -0.23
+        ],
+        [
+          0.24,
+          -0.15000000000000002
+        ],
+        [
+          0.24,
+          0.15000000000000002
+        ],
+        [
+          0.15999999999999998,
+          0.23
+        ],
+        [
+          -0.15999999999999998,
+          0.23
+        ],
+        [
+          -0.24,
+          0.15000000000000002
+        ],
+        [
+          -0.24,
+          -0.15000000000000002
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.21,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.19799999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.194,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.21,
+          "scale": [
+            0.84,
+            0.84
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "optic-dorsal",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.03,
+        0.38
+      ],
+      "outline": [
+        [
+          -0.12000000000000001,
+          -0.245
+        ],
+        [
+          0.12000000000000001,
+          -0.245
+        ],
+        [
+          0.2,
+          -0.16499999999999998
+        ],
+        [
+          0.2,
+          0.16499999999999998
+        ],
+        [
+          0.12000000000000001,
+          0.245
+        ],
+        [
+          -0.12000000000000001,
+          0.245
+        ],
+        [
+          -0.2,
+          0.16499999999999998
+        ],
+        [
+          -0.2,
+          -0.16499999999999998
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.035,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.023000000000000003,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.019000000000000003,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.035,
+          "scale": [
+            0.8,
+            0.8
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "lens-jaw--1",
+      "shape": "loft",
+      "position": [
+        -0.243,
+        0.16,
+        0.15
+      ],
+      "outline": [
+        [
+          -0.022000000000000002,
+          -0.21
+        ],
+        [
+          0.022000000000000002,
+          -0.21
+        ],
+        [
+          0.04,
+          -0.192
+        ],
+        [
+          0.04,
+          0.192
+        ],
+        [
+          0.022000000000000002,
+          0.21
+        ],
+        [
+          -0.022000000000000002,
+          0.21
+        ],
+        [
+          -0.04,
+          0.192
+        ],
+        [
+          -0.04,
+          -0.192
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.22,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.208,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.20400000000000001,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.22,
+          "scale": [
+            0.8,
+            0.8
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "jaw-light--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.275,
+        0.13,
+        0.15
+      ],
+      "size": [
+        0.012,
+        0.22,
+        0.15
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "lens-jaw-1",
+      "shape": "loft",
+      "position": [
+        0.243,
+        0.16,
+        0.15
+      ],
+      "outline": [
+        [
+          -0.022000000000000002,
+          -0.21
+        ],
+        [
+          0.022000000000000002,
+          -0.21
+        ],
+        [
+          0.04,
+          -0.192
+        ],
+        [
+          0.04,
+          0.192
+        ],
+        [
+          0.022000000000000002,
+          0.21
+        ],
+        [
+          -0.022000000000000002,
+          0.21
+        ],
+        [
+          -0.04,
+          0.192
+        ],
+        [
+          -0.04,
+          -0.192
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.22,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.208,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.20400000000000001,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.22,
+          "scale": [
+            0.8,
+            0.8
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "jaw-light-1",
+      "shape": "roundedBox",
+      "position": [
+        0.275,
+        0.13,
+        0.15
+      ],
+      "size": [
+        0.012,
+        0.22,
+        0.15
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "aperture-frame--0.055",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.315,
+        -0.055
+      ],
+      "size": [
+        0.49,
+        0.05,
+        0.07
+      ],
+      "radius": 0.008,
+      "material": "armor"
+    },
+    {
+      "id": "aperture-frame-0.355",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.315,
+        0.355
+      ],
+      "size": [
+        0.49,
+        0.05,
+        0.07
+      ],
+      "radius": 0.008,
+      "material": "armor"
+    },
+    {
+      "id": "lens-inset",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.282,
+        0.15
+      ],
+      "size": [
+        0.35,
+        0.015,
+        0.32
+      ],
+      "radius": 0.008,
+      "material": "glass"
+    },
+    {
+      "id": "lens-core",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.296,
+        0.15
+      ],
+      "size": [
+        0.24,
+        0.012,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "lens-split",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.305,
+        0.15
+      ],
+      "size": [
+        0.012,
+        0.007,
+        0.22
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "glass",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; viewer box-projected UV for optional SharedTextures",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "jaw-light--1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "jaw-light-1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "lens-inset",
+      "material": "glass",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#1686bf",
+      "intensity": 0.65
+    },
+    {
+      "id": "lens-core",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W06-YAW.optic"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [
+    {
+      "id": "muzzle",
+      "role": "continuous-beam",
+      "parentNode": "root",
+      "position": [
+        0,
+        0.34,
+        0.15
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "coordinateSpace": "part-local"
+    }
+  ],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.283,
+      -0.31,
+      -0.09
+    ],
+    "max": [
+      0.283,
+      0.37,
+      0.41500000000000004
+    ],
+    "size": [
+      0.566,
+      0.6799999999999999,
+      0.505
+    ]
+  }
+}

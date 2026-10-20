@@ -1,0 +1,471 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W11",
+  "version": "1.0+states1+floor1",
+  "title": "Курсовая ракетная установка 1×3",
+  "catalog_id": "rocket-launcher",
+  "catalog_grid": [
+    1,
+    3
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "Assembly: 1 BU = 1 gameplay cell; native part units transformed by ModelFit"
+  },
+  "instances": [
+    {
+      "id": "FixedFrame",
+      "part_id": "MA-W11-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-W11-P01/MA-W11-P01.blend",
+      "parent": "MA-W11",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "FixedLauncher",
+      "part_id": "MA-W08-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-W08-P02/MA-W08-P02.blend",
+      "parent": "MA-W11",
+      "translation": [
+        0,
+        0,
+        0.4
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ReserveLeft",
+      "part_id": "MA-W08-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-W08-P03/MA-W08-P03.blend",
+      "parent": "FixedLauncher",
+      "translation": [
+        -0.74,
+        0.33,
+        0.48
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ReserveRight",
+      "part_id": "MA-W08-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-W08-P03/MA-W08-P03.blend",
+      "parent": "FixedLauncher",
+      "translation": [
+        0.74,
+        0.33,
+        0.48
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Service",
+      "part_id": "MA-P06",
+      "version": "1.3",
+      "source": "../../Parts/MA-P06/MA-P06.blend",
+      "parent": "FixedLauncher",
+      "translation": [
+        0,
+        1.74,
+        1.14
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Floor",
+      "part_id": "MA-FLOOR-rect-1x3",
+      "version": "1.0",
+      "source": "../../Parts/MA-FLOOR-rect-1x3/MA-FLOOR-rect-1x3.blend",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MA-W11",
+      "parent": "ModelFit",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "FixedFrame",
+      "parent": "MA-W11",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "FixedLauncher",
+      "parent": "MA-W11",
+      "translation": [
+        0.0,
+        0.0,
+        0.4000000059604645
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "ReserveLeft",
+      "parent": "FixedLauncher",
+      "translation": [
+        -0.7400000095367432,
+        0.33000001311302185,
+        0.47999998927116394
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "ReserveRight",
+      "parent": "FixedLauncher",
+      "translation": [
+        0.7400000095367432,
+        0.33000001311302185,
+        0.47999998927116394
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Service",
+      "parent": "FixedLauncher",
+      "translation": [
+        0.0,
+        1.7400000095367432,
+        1.1399999856948853
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "ModelFit",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.03788235679107286,
+        0.07005882354745815
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.32941177086571655,
+        0.32941177086571655,
+        0.32941177086571655
+      ]
+    },
+    {
+      "id": "Floor",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "FixedFrame",
+      "parent_socket": "fixed-launcher",
+      "child_instance": "FixedLauncher",
+      "child_socket": "root",
+      "constraint": "fixed; no rotational DOF"
+    },
+    {
+      "parent_instance": "FixedLauncher",
+      "parent_socket": "reserve-left",
+      "child_instance": "ReserveLeft",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "FixedLauncher",
+      "parent_socket": "reserve-right",
+      "child_instance": "ReserveRight",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "FixedLauncher",
+      "parent_socket": "service",
+      "child_instance": "Service",
+      "child_socket": "bottom"
+    }
+  ],
+  "animations": {
+    "controller": "MA-W11",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      }
+    },
+    "channels": [],
+    "clips": [
+      {
+        "name": "MA-W11::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W11::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W11::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W11::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W11::fire",
+        "parameters": [
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "functional_contract": {
+    "active_barrel_count": 1,
+    "projectiles_per_shot": 1,
+    "muzzle_instance": "FixedLauncher",
+    "muzzle_point": "shoot",
+    "yaw_arc_degrees": 0,
+    "yaw_speed_degrees_per_second": 0,
+    "elevation": "none",
+    "aiming": "ship rotation only",
+    "reserve_cassettes": "sealed visual stores; no independent firing points",
+    "xml_pivot": [
+      0.5,
+      2.5
+    ],
+    "xml_to_BU_mapping": "unspecified; BU placement is authoring only"
+  },
+  "exports": [],
+  "reused_source_sha256": {
+    "MA-W08-P02": "a6f0f15a80c5f2bd322b884abfdeb3ec938b6ed4e562913660bd4ee6354248ab",
+    "MA-W08-P03": "b0edb8be650195a38878c5744134205da67a3147a36b26b9b5a68d3e4ad8d167",
+    "MA-P06": "48dfec4c5340ed6316552d1c333ecb4b6113c29e901a7a66dffe56037c283c00"
+  },
+  "notes": "Static fixed-hull launcher. Root socket role yaw belongs to reused source interface, not a movable bearing. No game XML edits, GLB, physical scale, colliders or LOD.",
+  "state_authoring": "state-authoring.json",
+  "floor_fit": {
+    "floor": "MA-FLOOR-rect-1x3",
+    "margin_cells": 0.08,
+    "uniform_scale": 0.32941177086571655,
+    "translation": [
+      0.0,
+      0.03788235679107286,
+      0.07005882354745815
+    ],
+    "body_instances": [
+      "FixedFrame",
+      "FixedLauncher",
+      "ReserveLeft",
+      "ReserveRight",
+      "Service"
+    ],
+    "protrusion_instances": []
+  }
+}

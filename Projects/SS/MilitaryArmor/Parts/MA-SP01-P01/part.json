@@ -1,0 +1,217 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-SP01-P01",
+  "version": "1.0",
+  "name": "Protected photovoltaic cassette with discrete collecting cells",
+  "source": "MA-SP01-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.30000001192092896,
+      -0.2800000011920929,
+      0.0
+    ],
+    "max": [
+      0.30000001192092896,
+      0.2800000011920929,
+      0.10400000214576721
+    ]
+  },
+  "materials": [
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Pale lateral protector",
+        "Pale lateral protector.001",
+        "Pale transverse protector",
+        "Pale transverse protector.001"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Insulating collector field"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Photovoltaic",
+      "surfaces": [
+        "PV-cell-0-0",
+        "PV-cell-0-1",
+        "PV-cell-0-2",
+        "PV-cell-1-0",
+        "PV-cell-1-1",
+        "PV-cell-1-2",
+        "PV-cell-2-0",
+        "PV-cell-2-1",
+        "PV-cell-2-2"
+      ],
+      "base_color_linear": [
+        0.01600000075995922,
+        0.0430000014603138,
+        0.10499999672174454,
+        1.0
+      ],
+      "metalness": 0.44999998807907104,
+      "roughness": 0.25999999046325684,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Cell contact track",
+        "Cell contact track.001",
+        "Cell contact track.002",
+        "Cell contact track.003",
+        "Cell contact track.004",
+        "Cell contact track.005",
+        "Cell contact track.006",
+        "Cell contact track.007",
+        "Cell contact track.008",
+        "Cell contact track.009",
+        "Cell contact track.010",
+        "Cell contact track.011",
+        "Cell contact track.012",
+        "Cell contact track.013",
+        "Cell contact track.014",
+        "Cell contact track.015",
+        "Cell contact track.016",
+        "Cell contact track.017"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Cassette substrate",
+        "Protected collector bus",
+        "Protected collector bus.001"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "tile",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.tile"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-seat",
+      "parent": "part",
+      "role": "tile",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.tile"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Static photovoltaic cassette authoring part; uniform procedural PBR. No file textures, UV dependency or animated mechanism. BU are not metres.",
+  "mechanical_interface_note": "radiator.tile denotes reuse of the existing cassette seat, not thermal gameplay; photovoltaic part provides no invented electricity values"
+}

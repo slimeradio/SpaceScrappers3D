@@ -1,0 +1,103 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-SP02",
+  "version": "2.0",
+  "title": "Солнечная панель 2×3 — визуальная заготовка",
+  "catalog_id": "solar-2x3",
+  "catalog_grid": [
+    2,
+    3
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "WidePVField",
+      "part_id": "MA-SP02-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-SP02-P01/MA-SP02-P01.blend",
+      "parent": "MA-SP02",
+      "translation": [
+        0,
+        0,
+        0.3
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "SupportQuadrant-0",
+      "part_id": "MA-SP01-R2-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-SP01-R2-P01/MA-SP01-R2-P01.blend",
+      "parent": "MA-SP02",
+      "translation": [
+        0,
+        -1.55,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        1.5707963267948966
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "SupportQuadrant-1",
+      "part_id": "MA-SP01-R2-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-SP01-R2-P01/MA-SP01-R2-P01.blend",
+      "parent": "MA-SP02",
+      "translation": [
+        0,
+        1.55,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        1.5707963267948966
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "SupportQuadrant-0",
+      "parent_socket": "Photovoltaic-field",
+      "child_instance": "WidePVField",
+      "child_socket": "support-0"
+    },
+    {
+      "parent_instance": "SupportQuadrant-1",
+      "parent_socket": "Photovoltaic-field",
+      "child_instance": "WidePVField",
+      "child_socket": "support-1"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "One new wide passive field; two unmodified support sources at unit scale. No emission, deployment mechanism or gameplay parameters."
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="garage-base" Category="Инфраструктура" Type="Garage" MaxHealth="3000" BlockMass="100">
+    <!-- Initial tunable balance; the GDD does not specify per-block numerical prices. -->
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="3"/>
+        <DesignCost><Item Ref="11" Amount="30"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="3"/></BuildCost>
+    </Construction>
+    <Size X="1" Y="1"/>
+    <Shipyard/>
+    <Garage Base="true" Capacity="4096" EntrySeconds="5" ReleaseSeconds="10" SecondsPerVolume="0.1" Range="12"/>
+    <Colliders><ConvexCollider Data="0 0 1 0 1 1 0 1"/></Colliders>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="garage-base"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

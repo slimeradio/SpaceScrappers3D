@@ -1,0 +1,103 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-EI03",
+  "version": "2.0",
+  "title": "Ионный двигатель 1×2",
+  "catalog_id": "ion-thruster-1x2",
+  "catalog_grid": [
+    1,
+    2
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "CompactPowerHousing",
+      "part_id": "MA-EI03-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-EI03-P01/MA-EI03-P01.blend",
+      "parent": "MA-EI03",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ElectrodeAperture",
+      "part_id": "MA-EI03-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-EI03-P02/MA-EI03-P02.blend",
+      "parent": "MA-EI03",
+      "translation": [
+        0,
+        -1.12,
+        0.91
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "part_id": "MA-E01-P05",
+      "version": "1.0",
+      "source": "../../Parts/MA-E01-P05/MA-E01-P05.blend",
+      "parent": "MA-EI03",
+      "translation": [
+        0,
+        1.19,
+        0.89
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "CompactPowerHousing",
+      "parent_socket": "aperture",
+      "child_instance": "ElectrodeAperture",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "CompactPowerHousing",
+      "parent_socket": "service",
+      "child_instance": "ServiceCartridge",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Compact 4x4 flat electrode aperture; unchanged cell pitch, unit scales. +Y thrust/-Y exhaust authoring only. Physical BU unspecified."
+}

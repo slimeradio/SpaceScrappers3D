@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="mining-laser-small" Category="Добыча" Type="MiningLaser" MaxHealth="4000" BlockMass="6">
+    <Resources>
+        <Resource StoreInStorage="true" Id="1" Capacity="100" WorkingThreshold="20" TargetStorage="70" InitialStorage="70" MaxInput="60" Priority="30"/>
+    </Resources>
+    <!-- Initial tunable balance; the GDD does not specify per-block numerical prices. -->
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="18"/>
+        <DesignCost><Item Ref="11" Amount="180"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="18"/></BuildCost>
+    </Construction>
+    <Size X="1" Y="3"/>
+    <MiningLaser Range="35" SpeedMultiplier="1" PowerPerSecond="4" MuzzleX="0.5" MuzzleY="-0.69"/>
+    <Colliders>
+        <ConvexCollider Data="0 0 1 0 1 3 0 3"/>
+        <CircleCollider X="0.5" Y="0.5" Radius="0.46"/>
+    </Colliders>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="mining-laser-small"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

@@ -1,0 +1,1449 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-H01",
+  "version": "2.0+states1+floor1",
+  "title": "Радиатор 1×2 — визуальная заготовка",
+  "catalog_id": "radiator-1x2",
+  "catalog_grid": [
+    1,
+    2
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "Assembly: 1 BU = 1 gameplay cell; native part units transformed by ModelFit"
+  },
+  "instances": [
+    {
+      "id": "Collector",
+      "part_id": "MA-H01-R2-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-H01-R2-P01/MA-H01-R2-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-0.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        -0.18,
+        -1.2,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-0.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0.18,
+        -1.2,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-1.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        -0.18,
+        -0.8999999999999999,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-1.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0.18,
+        -0.8999999999999999,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-2.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        -0.18,
+        -0.6,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-2.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0.18,
+        -0.6,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-3.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        -0.18,
+        -0.30000000000000004,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-3.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0.18,
+        -0.30000000000000004,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-4.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        -0.18,
+        0.0,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-4.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0.18,
+        0.0,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-5.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        -0.18,
+        0.30000000000000004,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-5.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0.18,
+        0.30000000000000004,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-6.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        -0.18,
+        0.5999999999999999,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-6.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0.18,
+        0.5999999999999999,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-7.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        -0.18,
+        0.9000000000000001,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-7.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0.18,
+        0.9000000000000001,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-8.L",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        -0.18,
+        1.2,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Fin-8.R",
+      "part_id": "MA-H-AN1-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-H-AN1-P01/MA-H-AN1-P01.blend",
+      "parent": "MA-H01",
+      "translation": [
+        0.18,
+        1.2,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Floor",
+      "part_id": "MA-FLOOR-rect-1x2",
+      "version": "1.0",
+      "source": "../../Parts/MA-FLOOR-rect-1x2/MA-FLOOR-rect-1x2.blend",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-0.L",
+      "child_instance": "Fin-0.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-0.R",
+      "child_instance": "Fin-0.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-1.L",
+      "child_instance": "Fin-1.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-1.R",
+      "child_instance": "Fin-1.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-2.L",
+      "child_instance": "Fin-2.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-2.R",
+      "child_instance": "Fin-2.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-3.L",
+      "child_instance": "Fin-3.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-3.R",
+      "child_instance": "Fin-3.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-4.L",
+      "child_instance": "Fin-4.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-4.R",
+      "child_instance": "Fin-4.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-5.L",
+      "child_instance": "Fin-5.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-5.R",
+      "child_instance": "Fin-5.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-6.L",
+      "child_instance": "Fin-6.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-6.R",
+      "child_instance": "Fin-6.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-7.L",
+      "child_instance": "Fin-7.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-7.R",
+      "child_instance": "Fin-7.R",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-8.L",
+      "child_instance": "Fin-8.L",
+      "child_socket": "root",
+      "adapter": true
+    },
+    {
+      "parent_instance": "Collector",
+      "parent_socket": "hinge-Fin-8.R",
+      "child_instance": "Fin-8.R",
+      "child_socket": "root",
+      "adapter": true
+    }
+  ],
+  "animations": {
+    "controller": "MA-H01",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      },
+      "deployment": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "0 closed, 1 open; reversible at any point"
+      }
+    },
+    "channels": [
+      {
+        "node": "Fin-0.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-0.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-1.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-1.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-2.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-2.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-3.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-3.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-4.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-4.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-5.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-5.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-6.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-6.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-7.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-7.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-8.L::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      },
+      {
+        "node": "Fin-8.R::Deployment",
+        "path": "rotation_euler",
+        "axis": 1,
+        "parameter": "deployment",
+        "expression": "-1.5707963267948966*(1-d)"
+      }
+    ],
+    "clips": [
+      {
+        "name": "MA-H01::open",
+        "parameters": [
+          "deployment"
+        ],
+        "frames": [
+          1,
+          31
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-H01::close",
+        "parameters": [
+          "deployment"
+        ],
+        "frames": [
+          1,
+          31
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-H01::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-H01::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-H01::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-H01::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Радиатор: открытая гребёнка девяти высоких поперечных излучающих лопастей и узкий продольный коллектор. Зубчатый контур и глубокие сквозные промежутки отличают его от сплошного тонкого солнечного поля. Без эмиссии. Визуальная заготовка без игрового XML; параметры теплоотвода не задавались.",
+  "catalog_status": "visual concept; no game XML",
+  "mount_adapters": [
+    {
+      "id": "hinge-Fin-0.L",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-0",
+      "position": [
+        -0.18,
+        -1.2,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-0.R",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-0",
+      "position": [
+        0.18,
+        -1.2,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-1.L",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-1",
+      "position": [
+        -0.18,
+        -0.8999999999999999,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-1.R",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-1",
+      "position": [
+        0.18,
+        -0.8999999999999999,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-2.L",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-2",
+      "position": [
+        -0.18,
+        -0.6,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-2.R",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-2",
+      "position": [
+        0.18,
+        -0.6,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-3.L",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-3",
+      "position": [
+        -0.18,
+        -0.30000000000000004,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-3.R",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-3",
+      "position": [
+        0.18,
+        -0.30000000000000004,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-4.L",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-4",
+      "position": [
+        -0.18,
+        0.0,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-4.R",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-4",
+      "position": [
+        0.18,
+        0.0,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-5.L",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-5",
+      "position": [
+        -0.18,
+        0.30000000000000004,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-5.R",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-5",
+      "position": [
+        0.18,
+        0.30000000000000004,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-6.L",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-6",
+      "position": [
+        -0.18,
+        0.5999999999999999,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-6.R",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-6",
+      "position": [
+        0.18,
+        0.5999999999999999,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-7.L",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-7",
+      "position": [
+        -0.18,
+        0.9000000000000001,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-7.R",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-7",
+      "position": [
+        0.18,
+        0.9000000000000001,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-8.L",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-8",
+      "position": [
+        -0.18,
+        1.2,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "forward": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    },
+    {
+      "id": "hinge-Fin-8.R",
+      "parent_instance": "Collector",
+      "source_socket": "Fin-8",
+      "position": [
+        0.18,
+        1.2,
+        0.5900000000000001
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.radiator.hinge"
+      ],
+      "reason": "Explicit local hinge adapter above existing collector fin seat; collector geometry unchanged"
+    }
+  ],
+  "state_authoring": "state-authoring.json",
+  "nodes": [
+    {
+      "id": "MA-H01",
+      "parent": "ModelFit",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ModelFit",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.511111124650932,
+        0.511111124650932,
+        0.511111124650932
+      ]
+    },
+    {
+      "id": "Floor",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "floor_fit": {
+    "floor": "MA-FLOOR-rect-1x2",
+    "margin_cells": 0.08,
+    "uniform_scale": 0.511111124650932,
+    "translation": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "body_instances": [
+      "Collector"
+    ],
+    "protrusion_instances": [
+      "Fin-0.L",
+      "Fin-0.R",
+      "Fin-1.L",
+      "Fin-1.R",
+      "Fin-2.L",
+      "Fin-2.R",
+      "Fin-3.L",
+      "Fin-3.R",
+      "Fin-4.L",
+      "Fin-4.R",
+      "Fin-5.L",
+      "Fin-5.R",
+      "Fin-6.L",
+      "Fin-6.R",
+      "Fin-7.L",
+      "Fin-7.R",
+      "Fin-8.L",
+      "Fin-8.R"
+    ]
+  }
+}

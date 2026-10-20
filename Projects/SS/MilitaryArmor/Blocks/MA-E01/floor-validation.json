@@ -1,0 +1,66 @@
+{
+  "id": "MA-E01",
+  "passed": true,
+  "scale": 0.84,
+  "translation": [
+    0.0,
+    -0.1547699975967407,
+    0.075
+  ],
+  "body_instances": [
+    "HullCassette",
+    "Chamber",
+    "Thermal.R",
+    "Thermal.L",
+    "ServiceCartridge"
+  ],
+  "body_bounds_cells": [
+    [
+      -0.42,
+      -0.6755700016021728,
+      0.075
+    ],
+    [
+      0.42,
+      0.6755700016021728,
+      0.899879994392395
+    ]
+  ],
+  "floor_polygon": [
+    [
+      -0.5,
+      -1.0
+    ],
+    [
+      0.5,
+      -1.0
+    ],
+    [
+      0.5,
+      1.0
+    ],
+    [
+      -0.5,
+      1.0
+    ]
+  ],
+  "geometry": {
+    "objects": 40,
+    "triangles": 6684,
+    "degenerate_triangles": 0,
+    "nonmanifold_edges": 0,
+    "bounds_bu": [
+      [
+        -0.5,
+        -1.2197849750518799,
+        0.0
+      ],
+      [
+        0.5,
+        1.0,
+        0.8998799920082092
+      ]
+    ]
+  },
+  "baseline_nonmanifold_edges": 0
+}

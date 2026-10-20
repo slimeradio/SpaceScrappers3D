@@ -1,0 +1,237 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W10-P02",
+  "version": "1.0",
+  "name": "Open pulse optical bench",
+  "source": "MA-W10-P02.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.7950000166893005,
+      -1.375,
+      -0.2948707044124603
+    ],
+    "max": [
+      0.7950000166893005,
+      1.350000023841858,
+      0.4099999964237213
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Cooling vane",
+        "Cooling vane.001",
+        "Cooling vane.002",
+        "Cooling vane.003",
+        "Cooling vane.004",
+        "Cooling vane.005",
+        "Aft pulse resonator"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Floating ceramic rail cover",
+        "Floating ceramic rail cover.001",
+        "Resonator ceramic lid"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Recessed optical path"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Optic",
+      "surfaces": [
+        "Rear optical window"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25,
+        1.0
+      ],
+      "metalness": 0.6499999761581421,
+      "roughness": 0.18000000715255737,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Signal",
+      "surfaces": [
+        "Bench alignment index",
+        "Bench alignment index.001"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705,
+        1.0
+      ],
+      "metalness": 0.3499999940395355,
+      "roughness": 0.25,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Open optical bench rail",
+        "Open optical bench rail.001",
+        "Optical bench crossmember",
+        "Optical bench crossmember.001",
+        "Aperture coupling"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Optic",
+      "regions": [
+        "Rear optical window"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25
+      ],
+      "strength": 0.699999988079071,
+      "units": "Blender shader strength",
+      "default": "on"
+    },
+    {
+      "slot": "Signal",
+      "regions": [
+        "Bench alignment index",
+        "Bench alignment index.001"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "elevation",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "elevation",
+      "compatibility": [
+        "elevation"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "node": "socket.root"
+    },
+    {
+      "id": "focus",
+      "role": "structural",
+      "position": [
+        0,
+        -1.24,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "structural",
+      "compatibility": [
+        "structural"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "node": "socket.focus"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": "Independent static editable part; unit scale; uniform procedural PBR. No file textures, UV dependency or local moving mechanism."
+}

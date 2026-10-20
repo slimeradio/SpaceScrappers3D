@@ -1,0 +1,85 @@
+{
+  "schema": "MilitaryArmor.DrillStorageAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-D01",
+      "title": "Mechanical mining drill 1x3",
+      "version": "1.0",
+      "catalog_id": "rotary-drill-1x3",
+      "catalog_grid": [
+        1,
+        3
+      ],
+      "source": "Blocks/MA-D01/MA-D01.blend",
+      "assembly": "Blocks/MA-D01/assembly.json",
+      "parts": [
+        "MA-D01-P01",
+        "MA-D01-P02",
+        "MA-D01-P03"
+      ],
+      "instance_count": 3,
+      "validation": "Blocks/MA-D01/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-D01/Previews/perspective.png",
+        "Blocks/MA-D01/Previews/top.png",
+        "Blocks/MA-D01/Previews/top-grayscale.png"
+      ]
+    },
+    {
+      "id": "MA-I02",
+      "title": "Грузовой контейнер 2×2",
+      "version": "1.0",
+      "catalog_id": "cargo-2x2",
+      "catalog_grid": [
+        2,
+        2
+      ],
+      "source": "Blocks/MA-I02/MA-I02.blend",
+      "assembly": "Blocks/MA-I02/assembly.json",
+      "parts": [
+        "MA-I01-R2-P02",
+        "MA-I01-R2-P03",
+        "MA-I02-P01"
+      ],
+      "instance_count": 5,
+      "validation": "Blocks/MA-I02/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-I02/Previews/perspective.png",
+        "Blocks/MA-I02/Previews/top.png",
+        "Blocks/MA-I02/Previews/top-grayscale.png"
+      ]
+    },
+    {
+      "id": "MA-FT02",
+      "title": "Бак топлива 2×2",
+      "version": "1.0",
+      "catalog_id": "fuel-tank-2x2",
+      "catalog_grid": [
+        2,
+        2
+      ],
+      "source": "Blocks/MA-FT02/MA-FT02.blend",
+      "assembly": "Blocks/MA-FT02/assembly.json",
+      "parts": [
+        "MA-FT01-P02",
+        "MA-FT01-P03",
+        "MA-FT02-P01"
+      ],
+      "instance_count": 7,
+      "validation": "Blocks/MA-FT02/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-FT02/Previews/perspective.png",
+        "Blocks/MA-FT02/Previews/top.png",
+        "Blocks/MA-FT02/Previews/top-grayscale.png"
+      ]
+    }
+  ],
+  "glb_generated": false,
+  "game_validation": false
+}

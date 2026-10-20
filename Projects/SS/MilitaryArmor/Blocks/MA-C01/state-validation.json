@@ -1,0 +1,66 @@
+{
+  "id": "MA-C01",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 8,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-C01::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-C01::deactivate",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [],
+  "materials": [
+    {
+      "object": "ComputeBlade-0::Compute status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ComputeBlade-1::Compute status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ComputeBlade-2::Compute status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ComputeBlade-3::Compute status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ComputeBlade-4::Compute status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ComputeBlade-5::Compute status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Diagnostics::Program link indicator",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

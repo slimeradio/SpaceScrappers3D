@@ -1,0 +1,384 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-I02-P01",
+  "version": "1.0",
+  "name": "Квадратный силовой корпус контейнера",
+  "source": "MA-I02-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -1.8300000429153442,
+      -1.809999942779541,
+      0.0
+    ],
+    "max": [
+      1.8300000429153442,
+      1.809999942779541,
+      1.3799999952316284
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Continuous square cargo volume"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Reinforced cargo corner",
+        "Reinforced cargo corner.001",
+        "Reinforced cargo corner.002",
+        "Reinforced cargo corner.003"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Large hatch gasket",
+        "Large hatch gasket.001",
+        "Recessed side handling channel",
+        "Recessed side handling channel.001"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Cargo transverse stiffener",
+        "Cargo transverse stiffener.001",
+        "Cargo transverse stiffener.002",
+        "Cargo transverse stiffener.003",
+        "Cargo transverse stiffener.004",
+        "Cargo transverse stiffener.005",
+        "Structural roof divider"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "MilitaryArmor.cargo.hull",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.hull"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "hatchF",
+      "role": "MilitaryArmor.cargo.wide-hatch",
+      "parent": "part",
+      "position": [
+        0,
+        -0.83,
+        1.335
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.wide-hatch"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "hatchB",
+      "role": "MilitaryArmor.cargo.wide-hatch",
+      "parent": "part",
+      "position": [
+        0,
+        0.83,
+        1.335
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.wide-hatch"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "railF",
+      "role": "MilitaryArmor.cargo.rail",
+      "parent": "part",
+      "position": [
+        0,
+        -1.78,
+        0.16
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.rail"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "railB",
+      "role": "MilitaryArmor.cargo.rail",
+      "parent": "part",
+      "position": [
+        0,
+        1.78,
+        0.16
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.rail"
+      ],
+      "restrictions": "unit scale; full pose"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-area",
+      "role": "MilitaryArmor.cargo.hull",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.hull"
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "hatchF-area",
+      "role": "MilitaryArmor.cargo.wide-hatch",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        -0.83,
+        1.335
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.wide-hatch"
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "hatchB-area",
+      "role": "MilitaryArmor.cargo.wide-hatch",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        0.83,
+        1.335
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.wide-hatch"
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "railF-area",
+      "role": "MilitaryArmor.cargo.rail",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        -1.78,
+        0.16
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.rail"
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "railB-area",
+      "role": "MilitaryArmor.cargo.rail",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        1.78,
+        0.16
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.cargo.rail"
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    }
+  ],
+  "animations": [],
+  "notes": "Static MilitaryArmor authoring concept. Procedural PBR, no file textures or UV dependency. No animation or game mechanics. BU physical scale unspecified."
+}

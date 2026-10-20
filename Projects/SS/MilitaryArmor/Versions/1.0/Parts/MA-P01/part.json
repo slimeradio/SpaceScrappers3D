@@ -1,0 +1,158 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-P01",
+  "version": "1.0",
+  "name": "Armored foundation",
+  "source": "MA-P01.blend",
+  "units": "BU, physical scale unspecified",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "bounds_local": {
+    "min": [
+      -2.4149999618530273,
+      -2.1050000190734863,
+      0.0
+    ],
+    "max": [
+      2.4149999618530273,
+      2.1050000190734863,
+      1.0499999523162842
+    ]
+  },
+  "scale_policy": "unit scale only",
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Armored deck",
+        "Segmented perimeter armor",
+        "Segmented perimeter armor.001",
+        "Segmented perimeter armor.002",
+        "Segmented perimeter armor.003",
+        "Segmented perimeter armor.004",
+        "Segmented perimeter armor.005",
+        "Service panel",
+        "Service panel.001"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Lower structural chassis",
+        "Deck light bezel",
+        "Deck light bezel.001",
+        "Deck light bezel.002",
+        "Deck light bezel.003",
+        "Cooling louvre",
+        "Cooling louvre.001",
+        "Cooling louvre.002",
+        "Cooling louvre.003",
+        "Cooling louvre.004",
+        "Cooling louvre.005",
+        "Cooling louvre.006",
+        "Cooling louvre.007",
+        "Cooling louvre.008",
+        "Cooling louvre.009",
+        "Cooling louvre.010",
+        "Cooling louvre.011",
+        "Cooling louvre.012",
+        "Cooling louvre.013"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Mark",
+      "surfaces": [
+        "Stencil SPACE SCRAPPERS",
+        "Stencil MA / 03"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Upper deck inset",
+        "Retainer strap",
+        "Retainer strap.001",
+        "Retainer strap.002",
+        "Retainer strap.003",
+        "Retainer strap.004",
+        "Retainer strap.005",
+        "Captive hex bolt",
+        "Captive hex bolt.001",
+        "Captive hex bolt.002",
+        "Captive hex bolt.003"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Warm",
+      "surfaces": [
+        "Deck light",
+        "Deck light.001",
+        "Deck light.002",
+        "Deck light.003"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Warm",
+      "color_linear": [
+        0.95,
+        0.7,
+        0.32
+      ],
+      "strength": 3,
+      "units": "Blender shader strength",
+      "default": "on",
+      "regions": [
+        "Deck light",
+        "Deck light.001",
+        "Deck light.002",
+        "Deck light.003"
+      ]
+    }
+  ],
+  "mounts": [
+    {
+      "id": "deck",
+      "node": "mount.deck",
+      "role": "bearing",
+      "position": [
+        0,
+        0,
+        1.0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "bearing",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": []
+}

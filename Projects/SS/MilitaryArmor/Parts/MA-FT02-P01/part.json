@@ -1,0 +1,262 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-FT02-P01",
+  "version": "1.0",
+  "name": "Парные опоры ёмкостей с защищённым коллектором",
+  "source": "MA-FT02-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -1.75,
+      -1.7300000190734863,
+      0.0
+    ],
+    "max": [
+      1.75,
+      1.2999999523162842,
+      0.6684839129447937
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Independent transverse load bearer",
+        "Independent transverse load bearer.001",
+        "Protected front transfer header"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Narrow longitudinal tie",
+        "Narrow longitudinal tie.001",
+        "Sealed transfer cap",
+        "Sealed transfer cap.001"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Tank saddle",
+        "Tank saddle.001",
+        "Tank saddle.002",
+        "Tank saddle.003",
+        "Recessed end coupling",
+        "Recessed end coupling.001",
+        "Small central inspection cover"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "MilitaryArmor.fuel-tank.hull",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.hull"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "leftVessel",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "parent": "part",
+      "position": [
+        -0.87,
+        0,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "rightVessel",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "parent": "part",
+      "position": [
+        0.87,
+        0,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "restrictions": "unit scale; full pose"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-area",
+      "role": "MilitaryArmor.fuel-tank.hull",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.hull"
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "leftVessel-area",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        -0.87,
+        0,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "rightVessel-area",
+      "role": "MilitaryArmor.fuel-tank.vessel",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0.87,
+        0,
+        0.31
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.fuel-tank.vessel"
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    }
+  ],
+  "animations": [],
+  "notes": "Static MilitaryArmor authoring concept. Procedural PBR, no file textures or UV dependency. No animation or game mechanics. BU physical scale unspecified."
+}

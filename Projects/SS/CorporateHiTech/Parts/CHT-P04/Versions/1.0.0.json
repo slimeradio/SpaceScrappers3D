@@ -1,0 +1,175 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-P04",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Боковая бронекапсула",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "gasket",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.16,
+        0.71,
+        0.25
+      ],
+      "radius": 0.045,
+      "material": "rubber"
+    },
+    {
+      "id": "cheek",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0,
+        0.035
+      ],
+      "size": [
+        0.18,
+        0.69,
+        0.27
+      ],
+      "radius": 0.065,
+      "material": "armor"
+    },
+    {
+      "id": "light-spine",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.015,
+        0.177
+      ],
+      "size": [
+        0.025,
+        0.43,
+        0.01
+      ],
+      "radius": 0.004,
+      "material": "cyan"
+    },
+    {
+      "id": "front-tip",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.323,
+        0.018
+      ],
+      "size": [
+        0.11,
+        0.025,
+        0.13
+      ],
+      "radius": 0.012,
+      "material": "edge"
+    }
+  ],
+  "materialLibrary": "../../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "light-spine",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "cheek-in",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P03.cheek-*"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.09,
+      -0.355,
+      -0.125
+    ],
+    "max": [
+      0.09,
+      0.355,
+      0.182
+    ],
+    "size": [
+      0.18,
+      0.71,
+      0.307
+    ]
+  }
+}

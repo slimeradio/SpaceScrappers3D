@@ -1,0 +1,441 @@
+{
+  "schema": "SS3D.authoring.block/1",
+  "id": "sniper-turret",
+  "catalog_id": "sniper-turret",
+  "title": "Снайперская рельсовая турель",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "units": "design_unit",
+  "up": "+Z",
+  "forward": "-Y",
+  "handedness": "right",
+  "catalog_grid_cells": [
+    1,
+    2
+  ],
+  "cell_scale": "not defined; grid footprint is reference metadata, not meters",
+  "instances": [
+    {
+      "id": "bed",
+      "part": "cm-sniper-bed",
+      "version": "1.0.0",
+      "parent": "sniper-turret",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "bearing",
+      "part": "cm-bearing",
+      "version": "2.0.0",
+      "parent": "sniper-turret",
+      "translation": [
+        0,
+        0,
+        0.45
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    {
+      "id": "breech",
+      "part": "cm-sniper-breech",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "rail_accelerator",
+      "part": "cm-sniper-rails",
+      "version": "1.0.0",
+      "parent": "recoil",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "capacitor_left",
+      "part": "cm-sniper-capacitor",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        -0.94,
+        0.3,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "capacitor_right",
+      "part": "cm-sniper-capacitor",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        0.94,
+        0.3,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "precision_sight",
+      "part": "cm-sniper-sight",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        0,
+        0.12,
+        0.82
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "status",
+      "part": "cm-lamp",
+      "version": "2.0.0",
+      "parent": "pitch",
+      "translation": [
+        0,
+        1.2,
+        0.27
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "sniper_exit",
+      "position": [
+        0,
+        -3.85,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "recoil",
+      "role": "projectile_origin",
+      "space": "local",
+      "barrel_ref": "sniper-barrel"
+    }
+  ],
+  "animation_tracks": [
+    {
+      "node": "yaw",
+      "path": "rotation_euler",
+      "component": 2,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          35,
+          -0.7853981633974483
+        ],
+        [
+          70,
+          0.7853981633974483
+        ],
+        [
+          105,
+          0
+        ]
+      ]
+    },
+    {
+      "node": "pitch",
+      "path": "rotation_euler",
+      "component": 0,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          35,
+          0.13962634015954636
+        ],
+        [
+          70,
+          -0.20943951023931956
+        ],
+        [
+          105,
+          0
+        ]
+      ]
+    },
+    {
+      "node": "recoil",
+      "path": "location",
+      "component": 1,
+      "keys": [
+        [
+          1,
+          -0.83
+        ],
+        [
+          42,
+          -0.83
+        ],
+        [
+          45,
+          -0.66
+        ],
+        [
+          56,
+          -0.83
+        ],
+        [
+          105,
+          -0.83
+        ]
+      ]
+    }
+  ],
+  "rest_bounds": {
+    "min": [
+      -1.1799999475479126,
+      -4.664999961853027,
+      0.0
+    ],
+    "max": [
+      1.1799999475479126,
+      1.9500000476837158,
+      2.445000171661377
+    ],
+    "dimensions": [
+      2.359999895095825,
+      6.614999771118164,
+      2.445000171661377
+    ]
+  },
+  "materials": [
+    "CM.amber.001",
+    "CM.cyan.001",
+    "CM.graphite.001",
+    "CM.orange.001",
+    "CM.rubber.001",
+    "CM.steel.001"
+  ],
+  "sampled_poses": [
+    {
+      "frame": 1,
+      "muzzles": [
+        {
+          "id": "sniper_exit",
+          "position": [
+            0.0,
+            -4.679999828338623,
+            1.3799999952316284
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "muzzles": [
+        {
+          "id": "sniper_exit",
+          "position": [
+            -1.486217975616455,
+            -4.42957067489624,
+            1.1108144521713257
+          ],
+          "direction": [
+            -0.31756794452667236,
+            -0.9464894533157349,
+            -0.05751827731728554
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "muzzles": [
+        {
+          "id": "sniper_exit",
+          "position": [
+            -3.179440975189209,
+            -3.376533031463623,
+            0.7534406781196594
+          ],
+          "direction": [
+            -0.6793677806854248,
+            -0.721481442451477,
+            -0.13388019800186157
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 46,
+      "muzzles": [
+        {
+          "id": "sniper_exit",
+          "position": [
+            -1.8270612955093384,
+            -4.119409561157227,
+            1.1189613342285156
+          ],
+          "direction": [
+            -0.404758095741272,
+            -0.9125934839248657,
+            -0.05782921612262726
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 61,
+      "muzzles": [
+        {
+          "id": "sniper_exit",
+          "position": [
+            2.3274874687194824,
+            -3.99782657623291,
+            2.0889317989349365
+          ],
+          "direction": [
+            0.49732649326324463,
+            -0.8542364835739136,
+            0.15148119628429413
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 91,
+      "muzzles": [
+        {
+          "id": "sniper_exit",
+          "position": [
+            1.2739455699920654,
+            -4.490059852600098,
+            1.7247098684310913
+          ],
+          "direction": [
+            0.27221062779426575,
+            -0.9594144821166992,
+            0.07365596294403076
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 120,
+      "muzzles": [
+        {
+          "id": "sniper_exit",
+          "position": [
+            0.0,
+            -4.679999828338623,
+            1.3799999952316284
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "game_import": "not performed; local authoring metadata only"
+}

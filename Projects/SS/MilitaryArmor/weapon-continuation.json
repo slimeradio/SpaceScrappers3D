@@ -1,0 +1,94 @@
+{
+  "schema": "MilitaryArmor.WeaponContinuationAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-W07",
+      "title": "Пулемётная турель ближней обороны",
+      "version": "1.0",
+      "catalog_id": "point-defense-turret",
+      "catalog_grid": [
+        1,
+        1
+      ],
+      "source": "Blocks/MA-W07/MA-W07.blend",
+      "assembly": "Blocks/MA-W07/assembly.json",
+      "parts": [
+        "MA-P06",
+        "MA-W07-P01",
+        "MA-W07-P02",
+        "MA-W07-P03"
+      ],
+      "instance_count": 4,
+      "validation": "Blocks/MA-W07/validation.json",
+      "checks_passed": true,
+      "visual_only": false,
+      "game_validation": false,
+      "previews": [
+        "Blocks/MA-W07/Previews/grayscale-top.png",
+        "Blocks/MA-W07/Previews/perspective.png",
+        "Blocks/MA-W07/Previews/top.png"
+      ]
+    },
+    {
+      "id": "MA-W08",
+      "title": "Ракетная турель",
+      "version": "1.0",
+      "catalog_id": "rocket-turret",
+      "catalog_grid": [
+        1,
+        3
+      ],
+      "source": "Blocks/MA-W08/MA-W08.blend",
+      "assembly": "Blocks/MA-W08/assembly.json",
+      "parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W08-P01",
+        "MA-W08-P02",
+        "MA-W08-P03"
+      ],
+      "instance_count": 6,
+      "validation": "Blocks/MA-W08/validation.json",
+      "checks_passed": true,
+      "visual_only": false,
+      "game_validation": false,
+      "previews": [
+        "Blocks/MA-W08/Previews/perspective.png",
+        "Blocks/MA-W08/Previews/top-grayscale.png",
+        "Blocks/MA-W08/Previews/top.png"
+      ]
+    },
+    {
+      "id": "MA-W09",
+      "title": "Турель-дробовик",
+      "version": "1.0",
+      "catalog_id": "shotgun-turret",
+      "catalog_grid": [
+        1,
+        2
+      ],
+      "source": "Blocks/MA-W09/MA-W09.blend",
+      "assembly": "Blocks/MA-W09/assembly.json",
+      "parts": [
+        "MA-P07",
+        "MA-W06-P01",
+        "MA-W09-P01",
+        "MA-W09-P02",
+        "MA-W09-P03"
+      ],
+      "instance_count": 5,
+      "validation": "Blocks/MA-W09/validation.json",
+      "checks_passed": true,
+      "visual_only": false,
+      "game_validation": false,
+      "previews": [
+        "Blocks/MA-W09/Previews/perspective.png",
+        "Blocks/MA-W09/Previews/top-grayscale.png",
+        "Blocks/MA-W09/Previews/top.png"
+      ]
+    }
+  ],
+  "new_parts": 9,
+  "existing_sources_unchanged": true,
+  "glb_generated": false
+}

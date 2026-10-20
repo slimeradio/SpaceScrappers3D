@@ -1,0 +1,260 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-I03",
+  "version": "1.0+states1",
+  "title": "Грузовой контейнер 3×3",
+  "catalog_id": "cargo-3x3",
+  "catalog_grid": [
+    3,
+    3
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Structure",
+      "part_id": "MA-I03-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-I03-P01/MA-I03-P01.blend",
+      "parent": "MA-I03",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchF",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I03",
+      "translation": [
+        0,
+        -1.65,
+        1.84
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchM",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I03",
+      "translation": [
+        0,
+        0,
+        1.84
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchB",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I03",
+      "translation": [
+        0,
+        1.65,
+        1.84
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "CargoRailF",
+      "part_id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+      "parent": "MA-I03",
+      "translation": [
+        0,
+        -2.67,
+        0.16
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "CargoRailB",
+      "part_id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+      "parent": "MA-I03",
+      "translation": [
+        0,
+        2.67,
+        0.16
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchF",
+      "child_instance": "LoadingHatchF",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchM",
+      "child_instance": "LoadingHatchM",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchB",
+      "child_instance": "LoadingHatchB",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "railF",
+      "child_instance": "CargoRailF",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "railB",
+      "child_instance": "CargoRailB",
+      "child_socket": "root"
+    }
+  ],
+  "animations": {
+    "controller": "MA-I03",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "fill": {
+        "default": 0.5,
+        "min": 0,
+        "max": 1,
+        "description": "Stored amount/charge; independent from power"
+      }
+    },
+    "channels": [],
+    "clips": [
+      {
+        "name": "MA-I03::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-I03::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-I03::fill",
+        "parameters": [
+          "fill"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Broad stepped cargo volume, central triple loading access and diagonal side buttresses. Static authoring concept; no capacity or mechanisms specified.",
+  "state_authoring": "state-authoring.json"
+}

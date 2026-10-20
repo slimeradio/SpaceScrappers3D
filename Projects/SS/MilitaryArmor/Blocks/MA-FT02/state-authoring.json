@@ -1,0 +1,151 @@
+{
+  "schema": "MilitaryArmor.StateAuthoring/1",
+  "id": "MA-FT02",
+  "game_validated": false,
+  "authoring_units": "BU; normalized controls; not game timings",
+  "controls": {
+    "power": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "Electrical availability; independent from retained heat/fill"
+    },
+    "activity": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Actual work/load; zero means idle"
+    },
+    "fault": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Externally supplied fault, not inferred"
+    },
+    "fill": {
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "Stored amount/charge; independent from power"
+    }
+  },
+  "motion": [],
+  "materials": [
+    {
+      "object": "leftVessel::Inset longitudinal seam",
+      "slot": 0,
+      "material": "MA-FT02::leftVessel::Inset longitudinal seam::fill",
+      "kind": "fill",
+      "expression": "p*(.06+2.8*q)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault",
+        "q": "fill"
+      }
+    },
+    {
+      "object": "leftVessel::Inset longitudinal seam.001",
+      "slot": 0,
+      "material": "MA-FT02::leftVessel::Inset longitudinal seam.001::fill",
+      "kind": "fill",
+      "expression": "p*(.06+2.8*q)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault",
+        "q": "fill"
+      }
+    },
+    {
+      "object": "rightVessel::Inset longitudinal seam",
+      "slot": 0,
+      "material": "MA-FT02::rightVessel::Inset longitudinal seam::fill",
+      "kind": "fill",
+      "expression": "p*(.06+2.8*q)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault",
+        "q": "fill"
+      }
+    },
+    {
+      "object": "rightVessel::Inset longitudinal seam.001",
+      "slot": 0,
+      "material": "MA-FT02::rightVessel::Inset longitudinal seam.001::fill",
+      "kind": "fill",
+      "expression": "p*(.06+2.8*q)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault",
+        "q": "fill"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "name": "MA-FT02::activate",
+      "parameters": [
+        "power",
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-FT02::deactivate",
+      "parameters": [
+        "activity",
+        "power"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-FT02::fill",
+      "parameters": [
+        "fill"
+      ],
+      "frames": [
+        1,
+        97
+      ],
+      "loop": false,
+      "authoring_only": true
+    }
+  ],
+  "events": [],
+  "presets": {
+    "off": {
+      "power": 0,
+      "activity": 0
+    },
+    "idle": {
+      "power": 1,
+      "activity": 0
+    },
+    "working": {
+      "power": 1,
+      "activity": 1
+    },
+    "empty": {
+      "fill": 0
+    },
+    "full": {
+      "fill": 1
+    }
+  },
+  "phase_policy": "cycle_turns is integrated phase, not speed. Stop retains phase. NLA cycle repetition must use cyclic extrapolation/REPEAT_OFFSET for spin; never reset turns on start. Clips start from relative phase 0; apply current phase offset when sequencing.",
+  "controller": "MA-FT02",
+  "legacy_animation_metadata": []
+}

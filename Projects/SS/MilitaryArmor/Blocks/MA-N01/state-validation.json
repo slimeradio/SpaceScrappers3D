@@ -1,0 +1,36 @@
+{
+  "id": "MA-N01",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 4,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-N01::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-N01::deactivate",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [],
+  "materials": [
+    {
+      "object": "Aperture::Diagnostic index",
+      "kind": "radio",
+      "off": 0.0,
+      "on": 3.049999952316284
+    },
+    {
+      "object": "Service::Cartridge status.001",
+      "kind": "radio",
+      "off": 0.0,
+      "on": 3.049999952316284
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

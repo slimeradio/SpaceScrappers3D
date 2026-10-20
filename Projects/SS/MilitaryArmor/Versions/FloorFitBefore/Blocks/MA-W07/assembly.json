@@ -1,0 +1,429 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W07",
+  "version": "1.0+states1",
+  "catalog_id": "point-defense-turret",
+  "catalog_grid": [
+    1,
+    1
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Pedestal",
+      "part_id": "MA-W07-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-W07-P01/MA-W07-P01.blend",
+      "parent": "MA-W07",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "TrackingSaddle",
+      "part_id": "MA-W07-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-W07-P02/MA-W07-P02.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "SingleMachinegun",
+      "part_id": "MA-W07-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-W07-P03/MA-W07-P03.blend",
+      "parent": "Recoil",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "part_id": "MA-P06",
+      "version": "1.3",
+      "source": "../../Parts/MA-P06/MA-P06.blend",
+      "parent": "Yaw",
+      "translation": [
+        0,
+        0.53,
+        0.66
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MA-W07",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Pedestal",
+      "parent": "MA-W07",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Yaw",
+      "parent": "MA-W07",
+      "translation": [
+        0.0,
+        0.0,
+        0.47999998927116394
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "TrackingSaddle",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Elevation",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        0.0,
+        0.7900000214576721
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Recoil",
+      "parent": "Elevation",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "SingleMachinegun",
+      "parent": "Recoil",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "parent": "Yaw",
+      "translation": [
+        0.0,
+        0.5299999713897705,
+        0.6600000262260437
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Pedestal",
+      "parent_socket": "yaw",
+      "child_instance": "TrackingSaddle",
+      "child_socket": "root",
+      "node_chain": [
+        "Yaw"
+      ]
+    },
+    {
+      "parent_instance": "TrackingSaddle",
+      "parent_socket": "elevation",
+      "child_instance": "SingleMachinegun",
+      "child_socket": "pivot",
+      "node_chain": [
+        "Elevation",
+        "Recoil"
+      ]
+    },
+    {
+      "parent_instance": "TrackingSaddle",
+      "parent_socket": "service",
+      "child_instance": "ServiceCartridge",
+      "child_socket": "bottom",
+      "node_chain": []
+    }
+  ],
+  "animations": {
+    "controller": "MA-W07",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      },
+      "aim_yaw": {
+        "default": 0,
+        "min": -60,
+        "max": 60
+      },
+      "aim_pitch": {
+        "default": 0,
+        "min": -18,
+        "max": 8
+      },
+      "recoil_Recoil": {
+        "default": 0,
+        "min": 0,
+        "max": 1
+      }
+    },
+    "channels": [
+      {
+        "node": "Yaw",
+        "path": "rotation_euler",
+        "axis": 2,
+        "parameter": "aim_yaw",
+        "expression": "0.0+t*0.017453292519943295"
+      },
+      {
+        "node": "Elevation",
+        "path": "rotation_euler",
+        "axis": 0,
+        "parameter": "aim_pitch",
+        "expression": "0.0+t*0.017453292519943295"
+      },
+      {
+        "node": "Recoil",
+        "path": "location",
+        "axis": 1,
+        "parameter": "recoil_Recoil",
+        "expression": "0.0+t*0.05"
+      }
+    ],
+    "clips": [
+      {
+        "name": "MA-W07::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W07::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W07::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W07::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-W07::fire",
+        "parameters": [
+          "activity",
+          "recoil_Recoil"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Catalog yaw arc 120 degrees. Single bullet bore and single muzzle. Elevation/recoil are visual demonstration. No GLB, collider/LOD, engine import or game validation.",
+  "reused_source_sha256": {
+    "MA-P06": "48dfec4c5340ed6316552d1c333ecb4b6113c29e901a7a66dffe56037c283c00"
+  },
+  "state_authoring": "state-authoring.json"
+}

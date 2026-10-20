@@ -1,0 +1,97 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-foot",
+  "version": "2.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-foot.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "scale_policy": "positive uniform instance scale; nonuniform requires explicit parametric variant and revalidation",
+  "sockets": [
+    {
+      "id": "mount",
+      "role": "mount",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "space": "local"
+    }
+  ],
+  "mount_regions": [],
+  "functional_points": [],
+  "animations": [],
+  "bind_pose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotation_euler_xyz_radians": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "materials": [
+    "CM.graphite",
+    "CM.orange",
+    "CM.rubber",
+    "CM.steel"
+  ],
+  "emissive_regions": [],
+  "dependencies": [
+    "../../Materials/CM-T01/materials.json"
+  ],
+  "compatibility": "authoring metadata only; game mapping pending",
+  "revision_note": "Revision 2: no typography; sharp structural chamfers retain 8 segments. Prior revision archived in Revisions/CM-T01-v1.0.0.zip.",
+  "bounds": {
+    "min": [
+      -0.40320003032684326,
+      -0.4400000274181366,
+      0.0
+    ],
+    "max": [
+      0.40320003032684326,
+      0.4400000274181366,
+      0.7202000617980957
+    ],
+    "dimensions": [
+      0.8064000606536865,
+      0.8800000548362732,
+      0.7202000617980957
+    ]
+  }
+}

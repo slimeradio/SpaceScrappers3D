@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Ships>
+  <Ship Name="Стартовый корабль" Starter="true">
+    <Block Ref="antenna-1x1" X="-2" Y="-3" />
+    <Block Ref="reactor-4x4-aaaa" X="-2" Y="-2" />
+    <Block Ref="engine-room" X="-2" Y="4" />
+    <Block Ref="cargo-2x1" X="-2" Y="7" />
+    <Block Ref="cargo-2x1" X="0" Y="7" />
+    <Block Ref="thruster-med" X="-1" Y="2" />
+    <Block Ref="thruster-med" X="1" Y="2" />
+    <Block Ref="thruster-med" X="-1" Y="-4" Rotation="2" />
+    <Block Ref="thruster-med" X="1" Y="-4" Rotation="2" />
+    <Block Ref="thruster-med" X="2" Y="-1" Rotation="1" />
+    <Block Ref="thruster-med" X="2" Y="1" Rotation="1" />
+    <Block Ref="thruster-med" X="-4" Y="-1" Rotation="3" />
+    <Block Ref="thruster-med" X="-4" Y="1" Rotation="3" />
+    <Block Ref="mining-laser-small" X="0" Y="8" />
+  </Ship>
+  <Ship Name="Аварийный добытчик">
+    <Block Ref="reactor-4x4-aaaa" X="-2" Y="-2" />
+    <Block Ref="engine-room" X="-2" Y="4" />
+    <Block Ref="cargo-2x1" X="-2" Y="7" />
+    <Block Ref="cargo-2x1" X="0" Y="7" />
+    <Block Ref="thruster-med" X="-1" Y="2" />
+    <Block Ref="thruster-med" X="1" Y="2" />
+    <Block Ref="thruster-med" X="-1" Y="-4" Rotation="2" />
+    <Block Ref="thruster-med" X="1" Y="-4" Rotation="2" />
+    <Block Ref="thruster-med" X="2" Y="-1" Rotation="1" />
+    <Block Ref="thruster-med" X="2" Y="1" Rotation="1" />
+    <Block Ref="thruster-med" X="-4" Y="-1" Rotation="3" />
+    <Block Ref="thruster-med" X="-4" Y="1" Rotation="3" />
+    <Block Ref="mining-laser-small" X="0" Y="8" />
+  </Ship>
+  <Ship Name="Патрульный бот MVP">
+    <Block Ref="reactor-4x4-aaaa" X="-2" Y="-2" />
+    <Block Ref="engine-room" X="-2" Y="4" />
+    <Block Ref="cargo-2x1" X="-2" Y="7" />
+    <Block Ref="cargo-2x1" X="0" Y="7" />
+    <Block Ref="thruster-med" X="-1" Y="2" />
+    <Block Ref="thruster-med" X="1" Y="2" />
+    <Block Ref="thruster-med" X="-1" Y="-4" Rotation="2" />
+    <Block Ref="thruster-med" X="1" Y="-4" Rotation="2" />
+    <Block Ref="thruster-med" X="2" Y="-1" Rotation="1" />
+    <Block Ref="thruster-med" X="2" Y="1" Rotation="1" />
+    <Block Ref="thruster-med" X="-4" Y="-1" Rotation="3" />
+    <Block Ref="thruster-med" X="-4" Y="1" Rotation="3" />
+    <Block Ref="sniper-turret" X="0" Y="8" />
+  </Ship>
+</Ships>

@@ -1,0 +1,289 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-EF02",
+  "version": "1.0+states1+floor1",
+  "title": "Топливный двигатель 1×2",
+  "catalog_id": "fuel-thruster-1x2",
+  "catalog_grid": [
+    1,
+    2
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "Assembly: 1 BU = 1 gameplay cell; native part units transformed by ModelFit"
+  },
+  "instances": [
+    {
+      "id": "PressureHousing",
+      "part_id": "MA-EF02-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-EF02-P01/MA-EF02-P01.blend",
+      "parent": "MA-EF02",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ExpansionBell",
+      "part_id": "MA-E01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-E01-P03/MA-E01-P03.blend",
+      "parent": "MA-EF02",
+      "translation": [
+        0,
+        -0.28,
+        0.49
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "part_id": "MA-E01-P05",
+      "version": "1.0",
+      "source": "../../Parts/MA-E01-P05/MA-E01-P05.blend",
+      "parent": "MA-EF02",
+      "translation": [
+        0,
+        0.19,
+        0.9405
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Floor",
+      "part_id": "MA-FLOOR-rect-1x2",
+      "version": "1.0",
+      "source": "../../Parts/MA-FLOOR-rect-1x2/MA-FLOOR-rect-1x2.blend",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "PressureHousing",
+      "parent_socket": "bell",
+      "child_instance": "ExpansionBell",
+      "child_socket": "chamber"
+    },
+    {
+      "parent_instance": "PressureHousing",
+      "parent_socket": "service",
+      "child_instance": "ServiceCartridge",
+      "child_socket": "root"
+    }
+  ],
+  "animations": {
+    "controller": "MA-EF02",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      }
+    },
+    "channels": [],
+    "clips": [
+      {
+        "name": "MA-EF02::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-EF02::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-EF02::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-EF02::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Compact fuel pressure chamber with reused hollow bell; exhaust -Y / thrust +Y; authoring metadata only.",
+  "state_authoring": "state-authoring.json",
+  "nodes": [
+    {
+      "id": "MA-EF02",
+      "parent": "ModelFit",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ModelFit",
+      "parent": null,
+      "translation": [
+        0.0,
+        -0.3957692208939046,
+        0.075
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0769231164243813,
+        1.0769231164243813,
+        1.0769231164243813
+      ]
+    },
+    {
+      "id": "Floor",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "floor_fit": {
+    "floor": "MA-FLOOR-rect-1x2",
+    "margin_cells": 0.08,
+    "uniform_scale": 1.0769231164243813,
+    "translation": [
+      0.0,
+      -0.3957692208939046,
+      0.075
+    ],
+    "body_instances": [
+      "PressureHousing",
+      "ServiceCartridge"
+    ],
+    "protrusion_instances": [
+      "ExpansionBell"
+    ],
+    "thruster_point_order": [
+      "ExpansionBell/functional_points/thrust"
+    ]
+  }
+}

@@ -1,0 +1,620 @@
+{
+  "schema": "SS3D.authoring.block/1",
+  "id": "CM-T01",
+  "version": "2.0.0",
+  "catalog_id": null,
+  "project": "SS",
+  "style": "ChunkyModular",
+  "units": "design_unit",
+  "up": "+Z",
+  "forward": "-Y",
+  "handedness": "right",
+  "instances": [
+    {
+      "id": "deck",
+      "part": "cm-deck",
+      "version": "2.0.0",
+      "parent": "CM-T01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "foot_1",
+      "part": "cm-foot",
+      "version": "2.0.0",
+      "parent": "CM-T01",
+      "translation": [
+        -1.75,
+        -1.36,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "foot_2",
+      "part": "cm-foot",
+      "version": "2.0.0",
+      "parent": "CM-T01",
+      "translation": [
+        1.75,
+        -1.36,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "foot_3",
+      "part": "cm-foot",
+      "version": "2.0.0",
+      "parent": "CM-T01",
+      "translation": [
+        -1.75,
+        1.36,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "foot_4",
+      "part": "cm-foot",
+      "version": "2.0.0",
+      "parent": "CM-T01",
+      "translation": [
+        1.75,
+        1.36,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "bearing",
+      "part": "cm-bearing",
+      "version": "2.0.0",
+      "parent": "joint_yaw",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "yoke",
+      "part": "cm-yoke",
+      "version": "2.0.0",
+      "parent": "joint_yaw",
+      "translation": [
+        0,
+        0,
+        0.55
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "receiver",
+      "part": "cm-receiver",
+      "version": "2.0.0",
+      "parent": "joint_elevation",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "cheek_left",
+      "part": "cm-cheek-left",
+      "version": "2.0.0",
+      "parent": "joint_elevation",
+      "translation": [
+        -1.53,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "cheek_right",
+      "part": "cm-cheek-right",
+      "version": "2.0.0",
+      "parent": "joint_elevation",
+      "translation": [
+        1.53,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "barrel_left",
+      "part": "cm-barrel",
+      "version": "2.0.0",
+      "parent": "joint_elevation",
+      "translation": [
+        -0.754,
+        -1.404,
+        0.024
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "barrel_right",
+      "part": "cm-barrel",
+      "version": "2.0.0",
+      "parent": "joint_elevation",
+      "translation": [
+        0.754,
+        -1.404,
+        0.024
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "trunnion_-1",
+      "part": "cm-trunnion-armored",
+      "version": "2.0.0",
+      "parent": "joint_yaw",
+      "translation": [
+        -1.84,
+        0,
+        1.73
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "handle_-1",
+      "part": "cm-handle",
+      "version": "2.0.0",
+      "parent": "joint_elevation",
+      "translation": [
+        -1.03,
+        0.25,
+        1.058
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "lamp_-1",
+      "part": "cm-lamp",
+      "version": "2.0.0",
+      "parent": "CM-T01",
+      "translation": [
+        -1.2,
+        -1.55,
+        0.59
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "trunnion_1",
+      "part": "cm-trunnion-armored",
+      "version": "2.0.0",
+      "parent": "joint_yaw",
+      "translation": [
+        1.84,
+        0,
+        1.73
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "handle_1",
+      "part": "cm-handle",
+      "version": "2.0.0",
+      "parent": "joint_elevation",
+      "translation": [
+        1.03,
+        0.25,
+        1.058
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "lamp_1",
+      "part": "cm-lamp",
+      "version": "2.0.0",
+      "parent": "CM-T01",
+      "translation": [
+        1.2,
+        -1.55,
+        0.59
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "radiator",
+      "part": "cm-radiator",
+      "version": "2.0.0",
+      "parent": "joint_elevation",
+      "translation": [
+        0,
+        1.352,
+        0.12
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "roof_hatch",
+      "part": "cm-access-hatch",
+      "version": "2.0.0",
+      "parent": "joint_elevation",
+      "translation": [
+        0,
+        0.2,
+        1.056
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "collar_left",
+      "part": "cm-breech-collar",
+      "version": "2.0.0",
+      "parent": "barrel_left",
+      "translation": [
+        0,
+        -0.7,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "collar_right",
+      "part": "cm-breech-collar",
+      "version": "2.0.0",
+      "parent": "barrel_right",
+      "translation": [
+        0,
+        -0.7,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "joints": [
+    {
+      "id": "joint_yaw",
+      "parent": "CM-T01",
+      "position": [
+        0,
+        0,
+        0.65
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "range_degrees": [
+        -180,
+        180
+      ]
+    },
+    {
+      "id": "joint_elevation",
+      "parent": "joint_yaw",
+      "position": [
+        0,
+        0,
+        1.73
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "range_degrees": [
+        -40,
+        8
+      ]
+    }
+  ],
+  "animations": {
+    "aim_demo": {
+      "duration_frames": 120,
+      "fps": 30,
+      "yaw_degrees": [
+        -30,
+        30
+      ],
+      "elevation_degrees": [
+        -40,
+        8
+      ]
+    },
+    "recoil_left": {
+      "frames": 18,
+      "distance": 0.14
+    },
+    "recoil_right": {
+      "frames": 18,
+      "distance": 0.14
+    }
+  },
+  "mount_regions": [
+    {
+      "id": "hull_mount",
+      "parent": "deck",
+      "shape": "rectangle",
+      "size": [
+        3.905,
+        3.0975
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        -1,
+        0
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "muzzle_left",
+      "parent": "barrel_left",
+      "position": [
+        0,
+        -3.4,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "muzzle_right",
+      "parent": "barrel_right",
+      "position": [
+        0,
+        -3.4,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "note": "Art asset. GLB converts Blender Z-up to glTF Y-up. No game import/scale/collider/LOD contract.",
+  "rest_bounds": {
+    "min": [
+      -2.153200149536133,
+      -4.793999671936035,
+      0.0
+    ],
+    "max": [
+      2.153200149536133,
+      1.8000000715255737,
+      3.9240002632141113
+    ],
+    "dimensions": [
+      4.306400299072266,
+      6.593999862670898,
+      3.9240002632141113
+    ]
+  }
+}

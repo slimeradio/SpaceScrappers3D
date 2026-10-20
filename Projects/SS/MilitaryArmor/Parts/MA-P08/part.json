@@ -1,0 +1,81 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-P08",
+  "version": "1.3",
+  "name": "Flush magnetic tie down",
+  "source": "MA-P08.blend",
+  "units": "BU, physical scale unspecified",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "bounds_local": {
+    "min": [
+      -0.23999999463558197,
+      -0.15000000596046448,
+      0.0005000000237487257
+    ],
+    "max": [
+      0.23999999463558197,
+      0.15000000596046448,
+      0.04800000041723251
+    ]
+  },
+  "scale_policy": "unit scale only",
+  "materials": [
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Tie down recessed socket"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Flush magnetic tie down",
+        "Flush quarter turn lock",
+        "Flush quarter turn lock.001"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "bottom",
+      "node": "mount.bottom",
+      "role": "accessory",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "accessory",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": []
+}

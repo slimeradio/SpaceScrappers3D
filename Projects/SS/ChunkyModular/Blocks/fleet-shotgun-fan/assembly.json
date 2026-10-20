@@ -1,0 +1,524 @@
+{
+  "schema": "SS3D.authoring.block/1",
+  "id": "fleet-shotgun-fan",
+  "catalog_id": "fleet-shotgun-fan",
+  "title": "Fleet Fan single-bore wide shotgun",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "units": "design_unit",
+  "up": "+Z",
+  "forward": "-Y",
+  "handedness": "right",
+  "catalog_grid_cells": [
+    2,
+    1
+  ],
+  "cell_scale": "not defined; grid footprint is reference metadata, not meters",
+  "instances": [
+    {
+      "id": "deck",
+      "part": "cm-fan-plinth",
+      "version": "1.0.0",
+      "parent": "fleet-shotgun-fan",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "bearing",
+      "part": "cm-bearing",
+      "version": "2.0.0",
+      "parent": "yaw",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.52,
+        0.52,
+        0.52
+      ]
+    },
+    {
+      "id": "trunnion-left",
+      "part": "cm-trunnion-armored",
+      "version": "2.0.0",
+      "parent": "support",
+      "translation": [
+        -1.01,
+        0.15,
+        0.29
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ]
+    },
+    {
+      "id": "trunnion-right",
+      "part": "cm-trunnion-armored",
+      "version": "2.0.0",
+      "parent": "support",
+      "translation": [
+        1.01,
+        0.15,
+        0.29
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ]
+    },
+    {
+      "id": "recoil-guide",
+      "part": "cm-fan-slide",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        0,
+        -0.1,
+        -0.33
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "receiver",
+      "part": "cm-fan-breech",
+      "version": "1.0.0",
+      "parent": "recoil",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "single-barrel",
+      "part": "cm-fan-muzzle",
+      "version": "1.0.0",
+      "parent": "recoil",
+      "translation": [
+        0,
+        -0.68,
+        0.02
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "top-armor",
+      "part": "cm-fan-carapace",
+      "version": "1.0.0",
+      "parent": "recoil",
+      "translation": [
+        0,
+        0.14,
+        0.46
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "drum-left",
+      "part": "cm-fan-drum",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        -1.12,
+        0.48,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "drum-right",
+      "part": "cm-fan-drum",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        1.12,
+        0.48,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "diagnostic",
+      "part": "cm-lamp",
+      "version": "2.0.0",
+      "parent": "pitch",
+      "translation": [
+        0,
+        -0.58,
+        0.43
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    {
+      "id": "rear-cooling",
+      "part": "cm-vent-cassette",
+      "version": "2.0.0",
+      "parent": "pitch",
+      "translation": [
+        0,
+        0.55,
+        0.64
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "muzzle-0",
+      "position": [
+        0,
+        -1.8,
+        0.02
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "recoil",
+      "role": "projectile_origin",
+      "space": "local",
+      "barrel_ref": "fleet-shotgun-fan-barrel-0"
+    }
+  ],
+  "animation_tracks": [
+    {
+      "node": "yaw",
+      "path": "rotation_euler",
+      "component": 2,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          40,
+          0.8
+        ],
+        [
+          80,
+          -0.8
+        ],
+        [
+          120,
+          0
+        ]
+      ]
+    },
+    {
+      "node": "pitch",
+      "path": "rotation_euler",
+      "component": 0,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          40,
+          0.17453292519943295
+        ],
+        [
+          80,
+          -0.3839724354387525
+        ],
+        [
+          120,
+          0
+        ]
+      ]
+    },
+    {
+      "node": "recoil",
+      "path": "location",
+      "component": 1,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          14,
+          0.13
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          120,
+          0
+        ]
+      ]
+    }
+  ],
+  "rest_bounds": {
+    "min": [
+      -1.5125000476837158,
+      -1.6689999103546143,
+      0.0
+    ],
+    "max": [
+      1.5125000476837158,
+      1.2675000429153442,
+      1.917481541633606
+    ],
+    "dimensions": [
+      3.0250000953674316,
+      2.936500072479248,
+      1.917481541633606
+    ]
+  },
+  "materials": [
+    "CM.amber.001",
+    "CM.graphite.001",
+    "CM.orange.001",
+    "CM.rubber.001",
+    "CM.steel.001"
+  ],
+  "sampled_poses": [
+    {
+      "frame": 1,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            0.0,
+            -1.649999976158142,
+            1.159999966621399
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            0.40048134326934814,
+            -1.4815889596939087,
+            1.0628918409347534
+          ],
+          "direction": [
+            0.26050785183906555,
+            -0.9637542366981506,
+            -0.05756324157118797
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            1.0415045022964478,
+            -1.2571641206741333,
+            0.8891132473945618
+          ],
+          "direction": [
+            0.6307114362716675,
+            -0.7613101005554199,
+            -0.15036633610725403
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 46,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            1.0568188428878784,
+            -1.2475931644439697,
+            0.9075490236282349
+          ],
+          "direction": [
+            0.6399782299995422,
+            -0.7555054426193237,
+            -0.14014090597629547
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 61,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            -0.09785816818475723,
+            -1.6303699016571045,
+            1.3854111433029175
+          ],
+          "direction": [
+            -0.059441931545734406,
+            -0.9903346300125122,
+            0.12531597912311554
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 91,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            -0.9441613554954529,
+            -1.237418293952942,
+            1.7129831314086914
+          ],
+          "direction": [
+            -0.5771582126617432,
+            -0.756423830986023,
+            0.30775216221809387
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 120,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            0.0,
+            -1.649999976158142,
+            1.159999966621399
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "game_import": "not performed; local authoring metadata only"
+}

@@ -1,0 +1,144 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-vent-cassette",
+  "version": "2.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-vent-cassette.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "scale_policy": "positive uniform instance scale; nonuniform requires explicit parametric variant and revalidation",
+  "sockets": [
+    {
+      "id": "mount",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "space": "local"
+    }
+  ],
+  "mount_regions": [
+    {
+      "id": "base_plate",
+      "shape": "rectangle",
+      "size": [
+        1.15,
+        0.76
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        -1,
+        0
+      ],
+      "parent": "root",
+      "space": "local"
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "airflow",
+      "role": "exhaust",
+      "position": [
+        0,
+        0,
+        0.22
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parent": "root",
+      "space": "local"
+    }
+  ],
+  "animations": [],
+  "bind_pose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotation_euler_xyz_radians": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "materials": [
+    "CM.graphite",
+    "CM.rubber",
+    "CM.steel"
+  ],
+  "emissive_regions": [],
+  "dependencies": [
+    "../../Materials/CM-T01/materials.json"
+  ],
+  "compatibility": "authoring metadata only; game mapping pending",
+  "revision_note": "Revision 2: no typography; sharp structural chamfers retain 8 segments. Prior revision archived in Revisions/CM-T01-v1.0.0.zip.",
+  "bounds": {
+    "min": [
+      -0.574999988079071,
+      -0.3799999952316284,
+      0.0
+    ],
+    "max": [
+      0.574999988079071,
+      0.3799999952316284,
+      0.24996639788150787
+    ],
+    "dimensions": [
+      1.149999976158142,
+      0.7599999904632568,
+      0.24996639788150787
+    ]
+  }
+}

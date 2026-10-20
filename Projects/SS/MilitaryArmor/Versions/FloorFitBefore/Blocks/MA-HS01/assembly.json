@@ -1,0 +1,244 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-HS01",
+  "version": "2.0+states1",
+  "title": "Накопитель тепла 1×1 — визуальная заготовка",
+  "catalog_id": "heat-store-1x1",
+  "catalog_grid": [
+    1,
+    1
+  ],
+  "catalog_status": "visual concept; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "ThermalBed",
+      "part_id": "MA-HS01-R2-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P01/MA-HS01-R2-P01.blend",
+      "parent": "MA-HS01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalSection-0",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS01",
+      "translation": [
+        0,
+        -0.57,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalSection-1",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS01",
+      "translation": [
+        0,
+        0,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalSection-2",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS01",
+      "translation": [
+        0,
+        0.57,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "HeatCollector",
+      "part_id": "MA-HS01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P03/MA-HS01-R2-P03.blend",
+      "parent": "MA-HS01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "ThermalBed",
+      "parent_socket": "section-0",
+      "child_instance": "ThermalSection-0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "ThermalBed",
+      "parent_socket": "section-1",
+      "child_instance": "ThermalSection-1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "ThermalBed",
+      "parent_socket": "section-2",
+      "child_instance": "ThermalSection-2",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "ThermalBed",
+      "parent_socket": "collector",
+      "child_instance": "HeatCollector",
+      "child_socket": "root"
+    }
+  ],
+  "animations": {
+    "controller": "MA-HS01",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      }
+    },
+    "channels": [],
+    "clips": [
+      {
+        "name": "MA-HS01::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-HS01::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-HS01::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-HS01::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Functional silhouette redesign v2.0. Static authoring interpretation only; no new mechanics or gameplay parameters. Old source archived. No GLB.",
+  "state_authoring": "state-authoring.json"
+}

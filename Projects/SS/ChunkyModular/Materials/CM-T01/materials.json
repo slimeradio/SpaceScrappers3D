@@ -1,0 +1,121 @@
+{
+  "version": "2.0.0",
+  "textures": "768x768 PNG; sRGB albedo, non-color roughness / metallic / tangent normal",
+  "materials": {
+    "orange": {
+      "base_color_srgb": [
+        0.7,
+        0.29,
+        0.065
+      ],
+      "base_color": "orange_basecolor.png",
+      "roughness_source": "orange_roughness.png",
+      "metallic_source": "orange_metallic.png",
+      "normal": "orange_normal.png",
+      "finish": "chipped matte paint over steel"
+    },
+    "ivory": {
+      "base_color_srgb": [
+        0.59,
+        0.565,
+        0.48
+      ],
+      "base_color": "ivory_basecolor.png",
+      "roughness_source": "ivory_roughness.png",
+      "metallic_source": "ivory_metallic.png",
+      "normal": "ivory_normal.png",
+      "finish": "chipped matte paint over steel"
+    },
+    "graphite": {
+      "base_color_srgb": [
+        0.2,
+        0.22,
+        0.24
+      ],
+      "base_color": "graphite_basecolor.png",
+      "roughness_source": "graphite_roughness.png",
+      "metallic_source": "graphite_metallic.png",
+      "normal": "graphite_normal.png",
+      "finish": "exposed rough metal"
+    },
+    "steel": {
+      "base_color_srgb": [
+        0.43,
+        0.46,
+        0.48
+      ],
+      "base_color": "steel_basecolor.png",
+      "roughness_source": "steel_roughness.png",
+      "metallic_source": "steel_metallic.png",
+      "normal": "steel_normal.png",
+      "finish": "exposed rough metal"
+    },
+    "rubber": {
+      "base_color_srgb": [
+        0.033,
+        0.037,
+        0.038
+      ],
+      "base_color": "rubber_basecolor.png",
+      "roughness_source": "rubber_roughness.png",
+      "metallic_source": "rubber_metallic.png",
+      "normal": "rubber_normal.png",
+      "finish": "nonmetal"
+    },
+    "marking": {
+      "base_color_srgb": [
+        0.5,
+        0.5,
+        0.46
+      ],
+      "base_color": "marking_basecolor.png",
+      "roughness_source": "marking_roughness.png",
+      "metallic_source": "marking_metallic.png",
+      "normal": "marking_normal.png",
+      "finish": "nonmetal"
+    },
+    "weld": {
+      "base_color_srgb": [
+        0.29,
+        0.29,
+        0.26
+      ],
+      "base_color": "weld_basecolor.png",
+      "roughness_source": "weld_roughness.png",
+      "metallic_source": "weld_metallic.png",
+      "normal": "weld_normal.png",
+      "finish": "exposed rough metal"
+    },
+    "oxide": {
+      "base_color_srgb": [
+        0.22,
+        0.095,
+        0.035
+      ],
+      "base_color": "oxide_basecolor.png",
+      "roughness_source": "oxide_roughness.png",
+      "metallic_source": "oxide_metallic.png",
+      "normal": "oxide_normal.png",
+      "finish": "nonmetal"
+    }
+  },
+  "emission": {
+    "amber": {
+      "linear_rgb": [
+        1,
+        0.29,
+        0.025
+      ],
+      "blender_strength": 1.7
+    },
+    "cyan": {
+      "linear_rgb": [
+        0.03,
+        0.4,
+        0.7
+      ],
+      "blender_strength": 1.4
+    }
+  },
+  "note": "Independent roughness and metallic maps per finish. Authoring contract, not a game shader."
+}

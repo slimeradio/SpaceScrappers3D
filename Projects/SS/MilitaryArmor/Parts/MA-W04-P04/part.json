@@ -1,0 +1,201 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W04-P04",
+  "version": "1.0",
+  "name": "Bastion / armored single missile launch cell",
+  "source": "MA-W04-P04.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.4704976975917816,
+      -1.350000023841858,
+      -0.33000001311302185
+    ],
+    "max": [
+      0.4704976975917816,
+      0.8100000023841858,
+      0.5475000143051147
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Swept launch cell sidewall",
+        "Swept launch cell sidewall.001",
+        "Cell roof armor"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Ceramic side shell",
+        "Ceramic side shell.001",
+        "Dorsal launch shield"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Recessed missile body"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Signal",
+      "surfaces": [
+        "Cell side status trace",
+        "Cell side status trace.001",
+        "Readiness optical slit"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705,
+        1.0
+      ],
+      "metalness": 0.3499999940395355,
+      "roughness": 0.25,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Cell rear pressure bulkhead",
+        "Independent guide rail",
+        "Independent guide rail.001",
+        "Launch cradle floor",
+        "Armored missile nose"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Warning",
+      "surfaces": [
+        "Rear cell identification strip"
+      ],
+      "base_color_linear": [
+        0.550000011920929,
+        0.25999999046325684,
+        0.04500000178813934,
+        1.0
+      ],
+      "metalness": 0.30000001192092896,
+      "roughness": 0.4000000059604645,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Signal",
+      "regions": [
+        "Cell side status trace",
+        "Cell side status trace.001",
+        "Readiness optical slit"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "mount.root",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "role": "missile-cell",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "launch",
+      "position": [
+        0,
+        -1.4,
+        0.05
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": "One genuine open launch channel with recessed inert missile; four instances create the four catalogue barrels."
+}

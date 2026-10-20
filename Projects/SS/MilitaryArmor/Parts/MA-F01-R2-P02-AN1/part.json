@@ -1,0 +1,227 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-F01-R2-P02-AN1",
+  "version": "3.0",
+  "name": "Circular protected processing chamber with nested pressure shells",
+  "source": "MA-F01-R2-P02-AN1.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.7549999952316284,
+      -0.6899999976158142,
+      0.009999990463256836
+    ],
+    "max": [
+      0.7549999952316284,
+      0.6899999976158142,
+      0.7000000476837158
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Heavy lower shielding",
+        "Process throat",
+        "Process throat.001"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Faceted chamber shielding"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Inset working cover"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Protected process rim",
+        "Rotor index 0",
+        "Rotor index 1",
+        "Rotor index 2"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Pressure vessel",
+        "Central process seal"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "chamber",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.production.chamber"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-seat",
+      "parent": "part",
+      "role": "chamber",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.production.chamber"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "controller": "PartState",
+      "parameter": "cycle_turns",
+      "units": "turns; caller integrates work speed",
+      "motion_nodes": [
+        {
+          "node": "WorkRotor",
+          "kind": "spin",
+          "axis": "Z",
+          "pivot_local": [
+            0.0,
+            0.0,
+            0.6200000047683716
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Animation variant: moving internals separated; original source unchanged. BU authoring only. No GLB.",
+  "derived_from": {
+    "id": "MA-F01-R2-P02",
+    "version": "2.0",
+    "sha256": "0981ba2e2808c7a3087ae7e2f7f5729fa4eb1a7ac04820cd046e7bd5e85fb168"
+  },
+  "motion_nodes": [
+    {
+      "node": "WorkRotor",
+      "kind": "spin",
+      "axis": "Z",
+      "pivot_local": [
+        0.0,
+        0.0,
+        0.6200000047683716
+      ]
+    }
+  ]
+}

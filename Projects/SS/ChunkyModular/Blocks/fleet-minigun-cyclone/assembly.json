@@ -1,0 +1,632 @@
+{
+  "schema": "SS3D.authoring.block/1",
+  "id": "fleet-minigun-cyclone",
+  "catalog_id": "fleet-minigun-cyclone",
+  "title": "Cyclone twin rotary battery",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "units": "design_unit",
+  "up": "+Z",
+  "forward": "-Y",
+  "handedness": "right",
+  "catalog_grid_cells": [
+    2,
+    2
+  ],
+  "cell_scale": "not defined; grid footprint is reference metadata, not meters",
+  "instances": [
+    {
+      "id": "foundation",
+      "part": "cm-cyclone-deck",
+      "version": "1.0.0",
+      "parent": "fleet-minigun-cyclone",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "bearing",
+      "part": "cm-bearing",
+      "version": "2.0.0",
+      "parent": "fleet-minigun-cyclone",
+      "translation": [
+        0,
+        0,
+        0.46
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.92,
+        0.92,
+        0.92
+      ]
+    },
+    {
+      "id": "receiver",
+      "part": "cm-cyclone-receiver",
+      "version": "1.0.0",
+      "parent": "yaw",
+      "translation": [
+        0,
+        0,
+        0.47
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "rotating_cluster_left",
+      "part": "cm-cyclone-rotor",
+      "version": "1.0.0",
+      "parent": "rotor_left",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "motor_left",
+      "part": "cm-cyclone-motor",
+      "version": "1.0.0",
+      "parent": "elevation",
+      "translation": [
+        -0.78,
+        0.94,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "drum_left",
+      "part": "cm-cyclone-drum",
+      "version": "1.0.0",
+      "parent": "yaw",
+      "translation": [
+        -1.45,
+        0.35,
+        0.37
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "cheek_left",
+      "part": "cm-cyclone-cheek",
+      "version": "1.0.0",
+      "parent": "yaw",
+      "translation": [
+        -1.13,
+        0,
+        0.52
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "rotating_cluster_right",
+      "part": "cm-cyclone-rotor",
+      "version": "1.0.0",
+      "parent": "rotor_right",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "motor_right",
+      "part": "cm-cyclone-motor",
+      "version": "1.0.0",
+      "parent": "elevation",
+      "translation": [
+        0.78,
+        0.94,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "drum_right",
+      "part": "cm-cyclone-drum",
+      "version": "1.0.0",
+      "parent": "yaw",
+      "translation": [
+        1.45,
+        0.35,
+        0.37
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "cheek_right",
+      "part": "cm-cyclone-cheek",
+      "version": "1.0.0",
+      "parent": "yaw",
+      "translation": [
+        1.13,
+        0,
+        0.52
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "status",
+      "part": "cm-lamp",
+      "version": "2.0.0",
+      "parent": "yaw",
+      "translation": [
+        0,
+        -0.91,
+        0.84
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "muzzle_left",
+      "position": [
+        0,
+        -2.32,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "rotor_left",
+      "role": "projectile_origin",
+      "space": "local",
+      "barrel_ref": "fleet-minigun-cyclone-barrel-0"
+    },
+    {
+      "id": "muzzle_right",
+      "position": [
+        0,
+        -2.32,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "rotor_right",
+      "role": "projectile_origin",
+      "space": "local",
+      "barrel_ref": "fleet-minigun-cyclone-barrel-1"
+    }
+  ],
+  "animation_tracks": [
+    {
+      "node": "rotor_left",
+      "path": "rotation_euler",
+      "component": 1,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          121,
+          -25.132741228718345
+        ]
+      ]
+    },
+    {
+      "node": "rotor_right",
+      "path": "rotation_euler",
+      "component": 1,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          121,
+          -25.132741228718345
+        ]
+      ]
+    },
+    {
+      "node": "yaw",
+      "path": "rotation_euler",
+      "component": 2,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          61,
+          0.55
+        ],
+        [
+          121,
+          0
+        ]
+      ]
+    },
+    {
+      "node": "elevation",
+      "path": "rotation_euler",
+      "component": 0,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          61,
+          -0.28
+        ],
+        [
+          121,
+          0
+        ]
+      ]
+    }
+  ],
+  "rest_bounds": {
+    "min": [
+      -1.9400001764297485,
+      -3.1750001907348633,
+      0.0
+    ],
+    "max": [
+      1.9400001764297485,
+      1.4600000381469727,
+      2.195000171661377
+    ],
+    "dimensions": [
+      3.880000352859497,
+      4.635000228881836,
+      2.195000171661377
+    ]
+  },
+  "materials": [
+    "CM.amber.001",
+    "CM.graphite.001",
+    "CM.orange.001",
+    "CM.rubber.001",
+    "CM.steel.001"
+  ],
+  "sampled_poses": [
+    {
+      "frame": 1,
+      "muzzles": [
+        {
+          "id": "muzzle_left",
+          "position": [
+            -0.7799999713897705,
+            -3.179999828338623,
+            1.4600000381469727
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "muzzle_right",
+          "position": [
+            0.7799999713897705,
+            -3.179999828338623,
+            1.4600000381469727
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "muzzles": [
+        {
+          "id": "muzzle_left",
+          "position": [
+            -0.5044376850128174,
+            -3.2321815490722656,
+            1.5990806818008423
+          ],
+          "direction": [
+            0.08574964851140976,
+            -0.9953563809394836,
+            0.043736059218645096
+          ]
+        },
+        {
+          "id": "muzzle_right",
+          "position": [
+            1.0498052835464478,
+            -3.0982842445373535,
+            1.5990806818008423
+          ],
+          "direction": [
+            0.08574964851140976,
+            -0.9953563809394836,
+            0.043736059218645096
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "muzzles": [
+        {
+          "id": "muzzle_left",
+          "position": [
+            0.10437893867492676,
+            -3.2423746585845947,
+            1.9037470817565918
+          ],
+          "direction": [
+            0.2688900828361511,
+            -0.9530088901519775,
+            0.1395430862903595
+          ]
+        },
+        {
+          "id": "muzzle_right",
+          "position": [
+            1.6057621240615845,
+            -2.8187613487243652,
+            1.9037470817565918
+          ],
+          "direction": [
+            0.2688900828361511,
+            -0.9530088901519775,
+            0.1395430862903595
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 46,
+      "muzzles": [
+        {
+          "id": "muzzle_left",
+          "position": [
+            0.6862744092941284,
+            -3.113813638687134,
+            2.20430588722229
+          ],
+          "direction": [
+            0.4351518452167511,
+            -0.8694018125534058,
+            0.23405838012695312
+          ]
+        },
+        {
+          "id": "muzzle_right",
+          "position": [
+            2.0812911987304688,
+            -2.415581703186035,
+            2.20430588722229
+          ],
+          "direction": [
+            0.4351518452167511,
+            -0.8694018125534058,
+            0.23405838012695312
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 61,
+      "muzzles": [
+        {
+          "id": "muzzle_left",
+          "position": [
+            0.9324448108673096,
+            -3.0131442546844482,
+            2.338810920715332
+          ],
+          "direction": [
+            0.5023313164710999,
+            -0.8193234205245972,
+            0.2763556241989136
+          ]
+        },
+        {
+          "id": "muzzle_right",
+          "position": [
+            2.262382984161377,
+            -2.1977522373199463,
+            2.338810920715332
+          ],
+          "direction": [
+            0.5023313164710999,
+            -0.8193234205245972,
+            0.2763556241989136
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 91,
+      "muzzles": [
+        {
+          "id": "muzzle_left",
+          "position": [
+            0.10437893867492676,
+            -3.2423746585845947,
+            1.9037470817565918
+          ],
+          "direction": [
+            0.2688900828361511,
+            -0.9530088305473328,
+            0.13954311609268188
+          ]
+        },
+        {
+          "id": "muzzle_right",
+          "position": [
+            1.6057621240615845,
+            -2.8187613487243652,
+            1.9037470817565918
+          ],
+          "direction": [
+            0.2688900828361511,
+            -0.9530088305473328,
+            0.13954311609268188
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 120,
+      "muzzles": [
+        {
+          "id": "muzzle_left",
+          "position": [
+            -0.7785577774047852,
+            -3.1803531646728516,
+            1.4607340097427368
+          ],
+          "direction": [
+            0.0004534721956588328,
+            -0.9999999403953552,
+            0.00023078921367414296
+          ]
+        },
+        {
+          "id": "muzzle_right",
+          "position": [
+            0.7814419269561768,
+            -3.1796460151672363,
+            1.4607340097427368
+          ],
+          "direction": [
+            0.0004534721956588328,
+            -0.9999999403953552,
+            0.00023078921367414296
+          ]
+        }
+      ]
+    }
+  ],
+  "game_import": "not performed; local authoring metadata only"
+}

@@ -1,0 +1,417 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W06-OPTIC",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Helion: один мощный непрерывный излучатель",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "conical-optical-shroud",
+      "shape": "lathe",
+      "position": [
+        0,
+        0,
+        0.15
+      ],
+      "profile": [
+        [
+          0.14,
+          -0.29
+        ],
+        [
+          0.18,
+          -0.29
+        ],
+        [
+          0.205,
+          -0.21
+        ],
+        [
+          0.245,
+          0.12
+        ],
+        [
+          0.278,
+          0.255
+        ],
+        [
+          0.278,
+          0.31
+        ],
+        [
+          0.26,
+          0.34
+        ],
+        [
+          0.224,
+          0.34
+        ],
+        [
+          0.224,
+          0.3
+        ],
+        [
+          0.227,
+          0.255
+        ],
+        [
+          0.2,
+          0.12
+        ],
+        [
+          0.15,
+          -0.21
+        ],
+        [
+          0.14,
+          -0.29
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "material": "armor"
+    },
+    {
+      "id": "dark-inner-optical-barrel",
+      "shape": "lathe",
+      "position": [
+        0,
+        0,
+        0.15
+      ],
+      "profile": [
+        [
+          0.15,
+          -0.23
+        ],
+        [
+          0.19,
+          -0.23
+        ],
+        [
+          0.213,
+          0.245
+        ],
+        [
+          0.213,
+          0.305
+        ],
+        [
+          0.192,
+          0.305
+        ],
+        [
+          0.17,
+          0.2
+        ],
+        [
+          0.135,
+          -0.23
+        ],
+        [
+          0.15,
+          -0.23
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "material": "graphite"
+    },
+    {
+      "id": "front-metal-optical-bezel",
+      "shape": "lathe",
+      "position": [
+        0,
+        0,
+        0.15
+      ],
+      "profile": [
+        [
+          0.213,
+          0.285
+        ],
+        [
+          0.228,
+          0.285
+        ],
+        [
+          0.24,
+          0.305
+        ],
+        [
+          0.24,
+          0.325
+        ],
+        [
+          0.226,
+          0.337
+        ],
+        [
+          0.213,
+          0.337
+        ],
+        [
+          0.213,
+          0.285
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "material": "edge"
+    },
+    {
+      "id": "convex-emitting-lens",
+      "shape": "lathe",
+      "position": [
+        0,
+        0,
+        0.15
+      ],
+      "profile": [
+        [
+          0,
+          0.29
+        ],
+        [
+          0.19,
+          0.29
+        ],
+        [
+          0.19,
+          0.308
+        ],
+        [
+          0.17,
+          0.317
+        ],
+        [
+          0.13,
+          0.326
+        ],
+        [
+          0.075,
+          0.333
+        ],
+        [
+          0,
+          0.337
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "material": "glass"
+    },
+    {
+      "id": "cyan-optical-annulus",
+      "shape": "lathe",
+      "position": [
+        0,
+        0,
+        0.15
+      ],
+      "profile": [
+        [
+          0.193,
+          0.308
+        ],
+        [
+          0.202,
+          0.308
+        ],
+        [
+          0.202,
+          0.321
+        ],
+        [
+          0.193,
+          0.321
+        ],
+        [
+          0.193,
+          0.308
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "material": "cyan"
+    },
+    {
+      "id": "lens-emitting-center",
+      "shape": "lathe",
+      "position": [
+        0,
+        0,
+        0.15
+      ],
+      "profile": [
+        [
+          0,
+          0.336
+        ],
+        [
+          0.07,
+          0.332
+        ],
+        [
+          0.075,
+          0.334
+        ],
+        [
+          0.04,
+          0.338
+        ],
+        [
+          0,
+          0.339
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "material": "cyan"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "glass",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; viewer box-projected UV for optional SharedTextures",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "convex-emitting-lens",
+      "material": "glass",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#1686bf",
+      "intensity": 0.65
+    },
+    {
+      "id": "cyan-optical-annulus",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "lens-emitting-center",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W06-YAW.optic"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [
+    {
+      "id": "muzzle",
+      "role": "continuous-beam",
+      "parentNode": "root",
+      "position": [
+        0,
+        0.34,
+        0.15
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "coordinateSpace": "part-local"
+    }
+  ],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.27799999713897705,
+      -0.28999999165534973,
+      -0.12799999713897706
+    ],
+    "max": [
+      0.27799999713897705,
+      0.3400000035762787,
+      0.4279999971389771
+    ],
+    "size": [
+      0.5559999942779541,
+      0.6299999952316284,
+      0.5559999942779541
+    ]
+  }
+}

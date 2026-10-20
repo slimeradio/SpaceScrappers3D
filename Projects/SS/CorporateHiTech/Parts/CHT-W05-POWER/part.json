@@ -1,0 +1,422 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W05-POWER",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Bastion: задний силовой коллектор",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "power",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.19
+      ],
+      "outline": [
+        [
+          -0.645,
+          -0.19
+        ],
+        [
+          0.645,
+          -0.19
+        ],
+        [
+          0.725,
+          -0.11
+        ],
+        [
+          0.725,
+          0.11
+        ],
+        [
+          0.645,
+          0.19
+        ],
+        [
+          -0.645,
+          0.19
+        ],
+        [
+          -0.725,
+          0.11
+        ],
+        [
+          -0.725,
+          -0.11
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.19,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.178,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.174,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.19,
+          "scale": [
+            0.86,
+            0.86
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "power-cap",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.38
+      ],
+      "outline": [
+        [
+          -0.5950000000000001,
+          -0.17
+        ],
+        [
+          0.5950000000000001,
+          -0.17
+        ],
+        [
+          0.675,
+          -0.09000000000000001
+        ],
+        [
+          0.675,
+          0.09000000000000001
+        ],
+        [
+          0.5950000000000001,
+          0.17
+        ],
+        [
+          -0.5950000000000001,
+          0.17
+        ],
+        [
+          -0.675,
+          0.09000000000000001
+        ],
+        [
+          -0.675,
+          -0.09000000000000001
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.04,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.028,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.024,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.04,
+          "scale": [
+            0.88,
+            0.88
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "vent-0",
+      "shape": "roundedBox",
+      "position": [
+        -0.54,
+        -0.198,
+        0.2
+      ],
+      "size": [
+        0.055,
+        0.022,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "vent-1",
+      "shape": "roundedBox",
+      "position": [
+        -0.405,
+        -0.198,
+        0.2
+      ],
+      "size": [
+        0.055,
+        0.022,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "vent-2",
+      "shape": "roundedBox",
+      "position": [
+        -0.27,
+        -0.198,
+        0.2
+      ],
+      "size": [
+        0.055,
+        0.022,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "vent-3",
+      "shape": "roundedBox",
+      "position": [
+        -0.135,
+        -0.198,
+        0.2
+      ],
+      "size": [
+        0.055,
+        0.022,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "vent-4",
+      "shape": "roundedBox",
+      "position": [
+        0.0,
+        -0.198,
+        0.2
+      ],
+      "size": [
+        0.055,
+        0.022,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "vent-5",
+      "shape": "roundedBox",
+      "position": [
+        0.135,
+        -0.198,
+        0.2
+      ],
+      "size": [
+        0.055,
+        0.022,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "vent-6",
+      "shape": "roundedBox",
+      "position": [
+        0.27,
+        -0.198,
+        0.2
+      ],
+      "size": [
+        0.055,
+        0.022,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "vent-7",
+      "shape": "roundedBox",
+      "position": [
+        0.405,
+        -0.198,
+        0.2
+      ],
+      "size": [
+        0.055,
+        0.022,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "vent-8",
+      "shape": "roundedBox",
+      "position": [
+        0.54,
+        -0.198,
+        0.2
+      ],
+      "size": [
+        0.055,
+        0.022,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "rear-index",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.211,
+        0.33
+      ],
+      "size": [
+        0.63,
+        0.012,
+        0.025
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; viewer box-projected UV for optional SharedTextures",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "rear-index",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W05-YAW.power"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.725,
+      -0.217,
+      0.0
+    ],
+    "max": [
+      0.725,
+      0.19,
+      0.42
+    ],
+    "size": [
+      1.45,
+      0.40700000000000003,
+      0.42
+    ]
+  }
+}

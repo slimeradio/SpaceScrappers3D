@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="antenna-1x1" Category="Управление" Type="Antenna" MaxHealth="750" BlockMass="1.5">
+    <Size X="1" Y="1"/>
+    <Antenna MaximumRange="5000" ReceivePower="0.05" TransmitPower="0.5" RangePower="20" ReceiveEnabled="true" TransmitEnabled="false"/>
+    <Resources><Resource StoreInStorage="true" Id="1" Capacity="30" WorkingThreshold="0.01" TargetStorage="30" InitialStorage="0" MaxInput="30" Priority="30"/></Resources>
+    <Construction BaseCreationSeconds="2">
+        <Point Id="complexity" Sum="5"/>
+        <DesignCost><Item Ref="11" Amount="50"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="5"/></BuildCost>
+    </Construction>
+    <Colliders><ConvexCollider Data="0 0 1 0 1 1 0 1"/></Colliders>
+    <!-- Reuses the existing service-block casing; no new art pack or texture replacement. -->
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="antenna-1x1"/>
+</Block>

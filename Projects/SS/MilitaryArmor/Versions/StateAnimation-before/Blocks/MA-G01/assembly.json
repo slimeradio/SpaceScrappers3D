@@ -1,0 +1,130 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-G01",
+  "version": "1.0",
+  "title": "Корабельный гараж 1×1",
+  "catalog_id": "garage-ship",
+  "catalog_grid": [
+    1,
+    1
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Foundation",
+      "part_id": "MA-G01-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-G01-P01/MA-G01-P01.blend",
+      "parent": "MA-G01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Portal",
+      "part_id": "MA-G01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-G01-P02/MA-G01-P02.blend",
+      "parent": "MA-G01",
+      "translation": [
+        0,
+        -0.4,
+        0.22
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Housing",
+      "part_id": "MA-G01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-G01-P03/MA-G01-P03.blend",
+      "parent": "MA-G01",
+      "translation": [
+        0,
+        0.2,
+        0.22
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Diagnostic",
+      "part_id": "MA-R01-P05",
+      "version": "1.0",
+      "source": "../../Parts/MA-R01-P05/MA-R01-P05.blend",
+      "parent": "MA-G01",
+      "translation": [
+        0,
+        0.44,
+        1.03
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Foundation",
+      "parent_socket": "portal",
+      "child_instance": "Portal",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Foundation",
+      "parent_socket": "housing",
+      "child_instance": "Housing",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Housing",
+      "parent_socket": "service",
+      "child_instance": "Diagnostic",
+      "child_socket": "bottom"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Compact garage node; Capacity512 means storage capacity, not ship count. No invented ship scale or animations."
+}

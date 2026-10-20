@@ -1,0 +1,48 @@
+{
+  "id": "MA-W11",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 5,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-W11::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W11::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W11::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W11::cool_down",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W11::fire",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [],
+  "materials": [
+    {
+      "object": "FixedLauncher::Small chamber state index",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "Service::Cartridge status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

@@ -1,0 +1,900 @@
+{
+  "schema": "SS3D.authoring.block/1",
+  "id": "fleet-rocket-bastion",
+  "catalog_id": "fleet-rocket-bastion",
+  "title": "Fleet Bastion four-cell missile turret",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "units": "design_unit",
+  "up": "+Z",
+  "forward": "-Y",
+  "handedness": "right",
+  "catalog_grid_cells": [
+    3,
+    3
+  ],
+  "cell_scale": "not defined; grid footprint is reference metadata, not meters",
+  "instances": [
+    {
+      "id": "deck",
+      "part": "cm-bastion-plinth",
+      "version": "1.0.0",
+      "parent": "fleet-rocket-bastion",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "bearing",
+      "part": "cm-bearing",
+      "version": "2.0.0",
+      "parent": "yaw",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.86,
+        0.86,
+        0.86
+      ]
+    },
+    {
+      "id": "cradle",
+      "part": "cm-bastion-cradle",
+      "version": "1.0.0",
+      "parent": "yaw",
+      "translation": [
+        0,
+        0,
+        0.49
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "central-spine",
+      "part": "cm-bastion-spine",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        0,
+        0.03,
+        0.05
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "pod-left",
+      "part": "cm-bastion-pod",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        -0.76,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "shield-left",
+      "part": "cm-bastion-shield",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        -1.31,
+        0.08,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "cell-0",
+      "part": "cm-bastion-cell",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        -0.76,
+        0,
+        -0.43
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "cell-1",
+      "part": "cm-bastion-cell",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        -0.76,
+        0,
+        0.43
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "pod-right",
+      "part": "cm-bastion-pod",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        0.76,
+        0,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "shield-right",
+      "part": "cm-bastion-shield",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        1.31,
+        0.08,
+        0
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        3.141592653589793
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "cell-2",
+      "part": "cm-bastion-cell",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        0.76,
+        0,
+        -0.43
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "cell-3",
+      "part": "cm-bastion-cell",
+      "version": "1.0.0",
+      "parent": "pitch",
+      "translation": [
+        0.76,
+        0,
+        0.43
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "rear-vent-left",
+      "part": "cm-vent-cassette",
+      "version": "2.0.0",
+      "parent": "pitch",
+      "translation": [
+        -0.76,
+        0.73,
+        1.005
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "rear-vent-right",
+      "part": "cm-vent-cassette",
+      "version": "2.0.0",
+      "parent": "pitch",
+      "translation": [
+        0.76,
+        0.73,
+        1.005
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    {
+      "id": "deck-status",
+      "part": "cm-lamp",
+      "version": "2.0.0",
+      "parent": "yaw",
+      "translation": [
+        0,
+        -1.12,
+        0.13
+      ],
+      "rotation_xyz_radians": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "muzzle-0",
+      "position": [
+        -0.76,
+        -1.34,
+        -0.43
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "pitch",
+      "role": "projectile_origin",
+      "space": "local",
+      "barrel_ref": "fleet-rocket-bastion-barrel-0"
+    },
+    {
+      "id": "muzzle-1",
+      "position": [
+        -0.76,
+        -1.34,
+        0.43
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "pitch",
+      "role": "projectile_origin",
+      "space": "local",
+      "barrel_ref": "fleet-rocket-bastion-barrel-1"
+    },
+    {
+      "id": "muzzle-2",
+      "position": [
+        0.76,
+        -1.34,
+        -0.43
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "pitch",
+      "role": "projectile_origin",
+      "space": "local",
+      "barrel_ref": "fleet-rocket-bastion-barrel-2"
+    },
+    {
+      "id": "muzzle-3",
+      "position": [
+        0.76,
+        -1.34,
+        0.43
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "pitch",
+      "role": "projectile_origin",
+      "space": "local",
+      "barrel_ref": "fleet-rocket-bastion-barrel-3"
+    }
+  ],
+  "animation_tracks": [
+    {
+      "node": "yaw",
+      "path": "rotation_euler",
+      "component": 2,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          40,
+          0.85
+        ],
+        [
+          80,
+          -0.85
+        ],
+        [
+          120,
+          0
+        ]
+      ]
+    },
+    {
+      "node": "pitch",
+      "path": "rotation_euler",
+      "component": 0,
+      "keys": [
+        [
+          1,
+          0
+        ],
+        [
+          40,
+          0.10471975511965978
+        ],
+        [
+          80,
+          -0.6632251157578453
+        ],
+        [
+          120,
+          0
+        ]
+      ]
+    }
+  ],
+  "rest_bounds": {
+    "min": [
+      -1.774999976158142,
+      -1.524999976158142,
+      0.0
+    ],
+    "max": [
+      1.774999976158142,
+      1.524999976158142,
+      3.11997652053833
+    ],
+    "dimensions": [
+      3.549999952316284,
+      3.049999952316284,
+      3.11997652053833
+    ]
+  },
+  "materials": [
+    "CM.amber.001",
+    "CM.cyan.001",
+    "CM.graphite.001",
+    "CM.orange.001",
+    "CM.rubber.001",
+    "CM.steel.001"
+  ],
+  "sampled_poses": [
+    {
+      "frame": 1,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            -0.7599999904632568,
+            -1.340000033378601,
+            1.5099999904632568
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "muzzle-1",
+          "position": [
+            -0.7599999904632568,
+            -1.340000033378601,
+            2.369999885559082
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "muzzle-2",
+          "position": [
+            0.7599999904632568,
+            -1.340000033378601,
+            1.5099999904632568
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "muzzle-3",
+          "position": [
+            0.7599999904632568,
+            -1.340000033378601,
+            2.369999885559082
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            -0.36367660760879517,
+            -1.4829782247543335,
+            1.4639594554901123
+          ],
+          "direction": [
+            0.27666717767715454,
+            -0.9603445529937744,
+            -0.034550171345472336
+          ]
+        },
+        {
+          "id": "muzzle-1",
+          "position": [
+            -0.3554510474205017,
+            -1.5115300416946411,
+            2.3234457969665527
+          ],
+          "direction": [
+            0.27666717767715454,
+            -0.9603445529937744,
+            -0.034550171345472336
+          ]
+        },
+        {
+          "id": "muzzle-2",
+          "position": [
+            1.0969189405441284,
+            -1.0621930360794067,
+            1.4639594554901123
+          ],
+          "direction": [
+            0.27666717767715454,
+            -0.9603445529937744,
+            -0.034550171345472336
+          ]
+        },
+        {
+          "id": "muzzle-3",
+          "position": [
+            1.1051446199417114,
+            -1.0907448530197144,
+            2.3234457969665527
+          ],
+          "direction": [
+            0.27666717767715454,
+            -0.9603445529937744,
+            -0.034550171345472336
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            0.30517178773880005,
+            -1.4707483053207397,
+            1.3905731439590454
+          ],
+          "direction": [
+            0.6679079532623291,
+            -0.7387284636497498,
+            -0.09043954312801361
+          ]
+        },
+        {
+          "id": "muzzle-1",
+          "position": [
+            0.35733407735824585,
+            -1.5284415483474731,
+            2.247048854827881
+          ],
+          "direction": [
+            0.6679079532623291,
+            -0.7387284636497498,
+            -0.09043954312801361
+          ]
+        },
+        {
+          "id": "muzzle-2",
+          "position": [
+            1.432659387588501,
+            -0.45135051012039185,
+            1.3905731439590454
+          ],
+          "direction": [
+            0.6679079532623291,
+            -0.7387284636497498,
+            -0.09043954312801361
+          ]
+        },
+        {
+          "id": "muzzle-3",
+          "position": [
+            1.4848217964172363,
+            -0.5090437531471252,
+            2.247048854827881
+          ],
+          "direction": [
+            0.6679079532623291,
+            -0.7387284636497498,
+            -0.09043954312801361
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 46,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            0.33391860127449036,
+            -1.4796985387802124,
+            1.4329584836959839
+          ],
+          "direction": [
+            0.6780940890312195,
+            -0.7326802611351013,
+            -0.058034464716911316
+          ]
+        },
+        {
+          "id": "muzzle-1",
+          "position": [
+            0.3678191602230072,
+            -1.516327977180481,
+            2.291508913040161
+          ],
+          "direction": [
+            0.6780940890312195,
+            -0.7326802611351013,
+            -0.058034464716911316
+          ]
+        },
+        {
+          "id": "muzzle-2",
+          "position": [
+            1.4494730234146118,
+            -0.44725537300109863,
+            1.4329584836959839
+          ],
+          "direction": [
+            0.6780940890312195,
+            -0.7326802611351013,
+            -0.058034464716911316
+          ]
+        },
+        {
+          "id": "muzzle-3",
+          "position": [
+            1.4833735227584839,
+            -0.48388493061065674,
+            2.291508913040161
+          ],
+          "direction": [
+            0.6780940890312195,
+            -0.7326802611351013,
+            -0.058034464716911316
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 61,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            -0.8480387330055237,
+            -1.3560670614242554,
+            1.9364979267120361
+          ],
+          "direction": [
+            -0.06065796688199043,
+            -0.9510012269020081,
+            0.3031787574291229
+          ]
+        },
+        {
+          "id": "muzzle-1",
+          "position": [
+            -0.8314420580863953,
+            -1.0958620309829712,
+            2.756021022796631
+          ],
+          "direction": [
+            -0.06065796688199043,
+            -0.9510012269020081,
+            0.3031787574291229
+          ]
+        },
+        {
+          "id": "muzzle-2",
+          "position": [
+            0.6688787341117859,
+            -1.452820897102356,
+            1.9364979267120361
+          ],
+          "direction": [
+            -0.06065796688199043,
+            -0.9510012269020081,
+            0.3031787574291229
+          ]
+        },
+        {
+          "id": "muzzle-3",
+          "position": [
+            0.6854754090309143,
+            -1.1926158666610718,
+            2.756021022796631
+          ],
+          "direction": [
+            -0.06065796688199043,
+            -0.9510012269020081,
+            0.3031787574291229
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 91,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            -1.4598273038864136,
+            -0.5694053173065186,
+            2.2605960369110107
+          ],
+          "direction": [
+            -0.5475104451179504,
+            -0.6599960923194885,
+            0.5144292116165161
+          ]
+        },
+        {
+          "id": "muzzle-1",
+          "position": [
+            -1.1773616075515747,
+            -0.22890721261501312,
+            2.9980742931365967
+          ],
+          "direction": [
+            -0.5475104451179504,
+            -0.6599960923194885,
+            0.5144292116165161
+          ]
+        },
+        {
+          "id": "muzzle-2",
+          "position": [
+            -0.28996652364730835,
+            -1.5398823022842407,
+            2.2605960369110107
+          ],
+          "direction": [
+            -0.5475104451179504,
+            -0.6599960923194885,
+            0.5144292116165161
+          ]
+        },
+        {
+          "id": "muzzle-3",
+          "position": [
+            -0.007500812411308289,
+            -1.199384093284607,
+            2.9980742931365967
+          ],
+          "direction": [
+            -0.5475104451179504,
+            -0.6599960923194885,
+            0.5144292116165161
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 120,
+      "muzzles": [
+        {
+          "id": "muzzle-0",
+          "position": [
+            -0.7599999904632568,
+            -1.340000033378601,
+            1.5099999904632568
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "muzzle-1",
+          "position": [
+            -0.7599999904632568,
+            -1.340000033378601,
+            2.369999885559082
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "muzzle-2",
+          "position": [
+            0.7599999904632568,
+            -1.340000033378601,
+            1.5099999904632568
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "muzzle-3",
+          "position": [
+            0.7599999904632568,
+            -1.340000033378601,
+            2.369999885559082
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "game_import": "not performed; local authoring metadata only"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="fuel-thruster-2x3" Category="Движение" Type="Thruster" MaxHealth="6000" BlockMass="12">
+    <!-- Initial balance scaled by footprint from the current functional analogues. -->
+    <Size X="2" Y="3"/>
+    <Colliders><ConvexCollider Data="0 0 2 0 2 3 0 3"/></Colliders>
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="18"/>
+        <DesignCost><Item Ref="11" Amount="180"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="18"/></BuildCost>
+    </Construction>
+    <Resources><Resource Id="2" StoreInStorage="true" Capacity="30" WorkingThreshold="3.0" TargetStorage="30" InitialStorage="24" MaxInput="12" UsePerSecond="6" Priority="80"/></Resources>
+    <Thrusters><Thruster><Position X="1.000000" Y="1.250000"/><Direction X="0.000000" Y="-1.000000"/><Force>3900</Force></Thruster></Thrusters>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="fuel-thruster-2x3"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

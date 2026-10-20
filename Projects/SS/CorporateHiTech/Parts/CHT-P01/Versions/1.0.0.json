@@ -1,0 +1,249 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-P01",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Опорная платформа",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "foot",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0,
+        0.075
+      ],
+      "radius": 0.67,
+      "radiusTop": 0.67,
+      "depth": 0.15,
+      "axis": "Z",
+      "material": "graphite"
+    },
+    {
+      "id": "ceramic-plinth",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0,
+        0.16
+      ],
+      "radius": 0.64,
+      "radiusTop": 0.59,
+      "depth": 0.13,
+      "axis": "Z",
+      "material": "armor"
+    },
+    {
+      "id": "seam",
+      "shape": "torus",
+      "position": [
+        0,
+        0,
+        0.215
+      ],
+      "radius": 0.568,
+      "tube": 0.012,
+      "axis": "Z",
+      "material": "rubber"
+    },
+    {
+      "id": "status-halo",
+      "shape": "torus",
+      "position": [
+        0,
+        0,
+        0.211
+      ],
+      "radius": 0.605,
+      "tube": 0.009,
+      "axis": "Z",
+      "material": "cyan"
+    },
+    {
+      "id": "anchor-0",
+      "shape": "roundedBox",
+      "position": [
+        -0.46,
+        -0.46,
+        0.07
+      ],
+      "size": [
+        0.2,
+        0.21,
+        0.12
+      ],
+      "radius": 0.025,
+      "material": "armor"
+    },
+    {
+      "id": "anchor-1",
+      "shape": "roundedBox",
+      "position": [
+        0.46,
+        -0.46,
+        0.07
+      ],
+      "size": [
+        0.2,
+        0.21,
+        0.12
+      ],
+      "radius": 0.025,
+      "material": "armor"
+    },
+    {
+      "id": "anchor-2",
+      "shape": "roundedBox",
+      "position": [
+        -0.46,
+        0.46,
+        0.07
+      ],
+      "size": [
+        0.2,
+        0.21,
+        0.12
+      ],
+      "radius": 0.025,
+      "material": "armor"
+    },
+    {
+      "id": "anchor-3",
+      "shape": "roundedBox",
+      "position": [
+        0.46,
+        0.46,
+        0.07
+      ],
+      "size": [
+        0.2,
+        0.21,
+        0.12
+      ],
+      "radius": 0.025,
+      "material": "armor"
+    }
+  ],
+  "materialLibrary": "../../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "status-halo",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "deck",
+      "role": "deck-in",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "deck"
+    },
+    {
+      "id": "bearing",
+      "role": "bearing-out",
+      "position": [
+        0,
+        0,
+        0.23
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P02.base"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.67,
+      -0.67,
+      0.0
+    ],
+    "max": [
+      0.67,
+      0.67,
+      0.227
+    ],
+    "size": [
+      1.34,
+      1.34,
+      0.227
+    ]
+  }
+}

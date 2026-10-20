@@ -1,0 +1,158 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-G02",
+  "version": "1.0",
+  "title": "Базовый гараж с верфью 1×1",
+  "catalog_id": "garage-base",
+  "catalog_grid": [
+    1,
+    1
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Foundation",
+      "part_id": "MA-G01-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-G01-P01/MA-G01-P01.blend",
+      "parent": "MA-G02",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Portal",
+      "part_id": "MA-G01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-G01-P02/MA-G01-P02.blend",
+      "parent": "MA-G02",
+      "translation": [
+        0,
+        -0.4,
+        0.22
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "BaseSuperstructure",
+      "part_id": "MA-G02-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-G02-P01/MA-G02-P01.blend",
+      "parent": "MA-G02",
+      "translation": [
+        0,
+        0.2,
+        0.22
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ShipyardBridge",
+      "part_id": "MA-G02-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-G02-P02/MA-G02-P02.blend",
+      "parent": "MA-G02",
+      "translation": [
+        0,
+        0.49,
+        1.22
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Diagnostic",
+      "part_id": "MA-R01-P05",
+      "version": "1.0",
+      "source": "../../Parts/MA-R01-P05/MA-R01-P05.blend",
+      "parent": "MA-G02",
+      "translation": [
+        0,
+        0.61,
+        1.34
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Foundation",
+      "parent_socket": "portal",
+      "child_instance": "Portal",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Foundation",
+      "parent_socket": "housing",
+      "child_instance": "BaseSuperstructure",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "BaseSuperstructure",
+      "parent_socket": "shipyard",
+      "child_instance": "ShipyardBridge",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "ShipyardBridge",
+      "parent_socket": "service",
+      "child_instance": "Diagnostic",
+      "child_socket": "bottom"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Base garage with shipyard. Capacity4096 is capacity, not ship count. BU and ship scale unspecified. Static authoring; no invented motion."
+}

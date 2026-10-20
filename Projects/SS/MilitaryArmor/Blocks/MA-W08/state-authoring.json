@@ -1,0 +1,245 @@
+{
+  "schema": "MilitaryArmor.StateAuthoring/1",
+  "id": "MA-W08",
+  "game_validated": false,
+  "authoring_units": "BU; normalized controls; not game timings",
+  "controls": {
+    "power": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "Electrical availability; independent from retained heat/fill"
+    },
+    "activity": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Actual work/load; zero means idle"
+    },
+    "fault": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Externally supplied fault, not inferred"
+    },
+    "heat": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Retained normalized heat; independent from power"
+    },
+    "aim_yaw": {
+      "default": 0,
+      "min": 0,
+      "max": 360
+    }
+  },
+  "motion": [
+    {
+      "node": "Yaw",
+      "path": "rotation_euler",
+      "axis": 2,
+      "parameter": "aim_yaw",
+      "expression": "0.0+t*0.017453292519943295"
+    }
+  ],
+  "materials": [
+    {
+      "object": "SingleLauncher::Small chamber state index",
+      "slot": 0,
+      "material": "MA-W08::SingleLauncher::Small chamber state index::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Service::Cartridge status",
+      "slot": 0,
+      "material": "MA-W08::Service::Cartridge status::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell",
+      "slot": 0,
+      "material": "MA-W08::Lidar::Lidar independent optical cell::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.001",
+      "slot": 0,
+      "material": "MA-W08::Lidar::Lidar independent optical cell.001::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.002",
+      "slot": 0,
+      "material": "MA-W08::Lidar::Lidar independent optical cell.002::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "name": "MA-W08::activate",
+      "parameters": [
+        "power",
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W08::deactivate",
+      "parameters": [
+        "activity",
+        "power"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W08::heat_up",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W08::cool_down",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        97
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W08::fire",
+      "parameters": [
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    }
+  ],
+  "events": [
+    {
+      "name": "fire",
+      "frame": 2,
+      "source": "authoring cue; external projectile/beam effect"
+    }
+  ],
+  "presets": {
+    "off": {
+      "power": 0,
+      "activity": 0
+    },
+    "idle": {
+      "power": 1,
+      "activity": 0
+    },
+    "working": {
+      "power": 1,
+      "activity": 1
+    },
+    "hot_off": {
+      "power": 0,
+      "activity": 0,
+      "heat": 1
+    },
+    "cold": {
+      "heat": 0
+    },
+    "hot": {
+      "heat": 1
+    }
+  },
+  "phase_policy": "cycle_turns is integrated phase, not speed. Stop retains phase. NLA cycle repetition must use cyclic extrapolation/REPEAT_OFFSET for spin; never reset turns on start. Clips start from relative phase 0; apply current phase offset when sequencing.",
+  "controller": "MA-W08",
+  "legacy_animation_metadata": {
+    "fps": 30,
+    "frame_range": [
+      1,
+      121
+    ],
+    "channels": [
+      {
+        "node": "Yaw",
+        "channel": "rotation_euler",
+        "axis": "Z",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            0
+          ],
+          [
+            31,
+            90
+          ],
+          [
+            61,
+            180
+          ],
+          [
+            91,
+            270
+          ],
+          [
+            121,
+            360
+          ]
+        ]
+      }
+    ],
+    "interpolation": "LINEAR",
+    "demonstration_only": true
+  }
+}

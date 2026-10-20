@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="fleet-shotgun-fan" Category="Оружие" Type="Turret" MaxHealth="2880" BlockMass="5">
+  <Resources>
+    <Resource StoreInStorage="true" Id="1" Capacity="100" WorkingThreshold="1" TargetStorage="100" InitialStorage="100" MaxInput="50" UsePerShot="4" Priority="30" />
+  </Resources>
+  <Construction BaseCreationSeconds="1">
+    <Point Id="complexity" Sum="24" />
+    <Point Id="weapon-load" Sum="24" />
+    <DesignCost>
+      <Item Ref="11" Amount="240" />
+    </DesignCost>
+    <BuildCost>
+      <Item Ref="11" Amount="24" />
+    </BuildCost>
+  </Construction>
+  <Heat Capacity="48" Input="0" Output="12" EnergyFraction="0.8" Background="0" WorkHeat="0" Radiator="0" Shutdown="0.9" Resume="0.5" DamagePerSecond="0" Action="Disable" />
+  <Size X="2" Y="1" />
+  <Turret Ref="fleet-shotgun-fan-mount" />
+  <WeaponDefinition Ref="fleet-shotgun-fan-weapon" />
+  <Colliders>
+    <ConvexCollider Data="0 0 2 0 2 1 0 1" />
+  </Colliders>
+  <Repair Version="2">
+    <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33" />
+    <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33" />
+  </Repair>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="fleet-shotgun-fan"/>
+</Block>

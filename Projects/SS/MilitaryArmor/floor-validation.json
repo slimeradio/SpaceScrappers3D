@@ -1,0 +1,4322 @@
+{
+  "passed": true,
+  "parts": 15,
+  "blocks": [
+    {
+      "id": "MA-A01",
+      "passed": true,
+      "scale": 0.84,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "armor-shell"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.42,
+          0.075
+        ],
+        [
+          0.42,
+          0.42,
+          0.31020000100135803
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 10,
+        "triangles": 168,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.5,
+            0.3101999759674072
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-A02",
+      "passed": true,
+      "scale": 0.84,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "armor-shell"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.84,
+          -0.42,
+          0.075
+        ],
+        [
+          0.84,
+          0.42,
+          0.31020000100135803
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          -1.0,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 10,
+        "triangles": 168,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -0.5,
+            0.0
+          ],
+          [
+            1.0,
+            0.5,
+            0.3101999759674072
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-A03",
+      "passed": true,
+      "scale": 0.7268629150101522,
+      "translation": [
+        -0.05656854249492388,
+        0.05656854249492388,
+        0.075
+      ],
+      "body_instances": [
+        "shell"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.3068629150101522,
+          0.075
+        ],
+        [
+          0.3068629150101522,
+          0.42,
+          0.2785216170693307
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 8,
+        "triangles": 112,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.5,
+            0.2785215973854065
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-A04",
+      "passed": true,
+      "scale": 0.7905572809000084,
+      "translation": [
+        -0.02472135954999577,
+        0.1294427190999916,
+        0.075
+      ],
+      "body_instances": [
+        "armor-shell"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.6611145618000168,
+          0.075
+        ],
+        [
+          0.37055728090000845,
+          0.92,
+          0.2963560395944201
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 8,
+        "triangles": 124,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.0,
+            0.0
+          ],
+          [
+            0.5,
+            1.0,
+            0.2963560223579407
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-B01",
+      "passed": true,
+      "scale": 1.032258056577113,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Structure",
+        "EnergyBlade0",
+        "EnergyBlade1",
+        "EnergyBlade2",
+        "EnergyBlade3",
+        "EnergyBlade4",
+        "EnergyBlade5",
+        "EnergyBlade6",
+        "FrontPowerBus",
+        "RearPowerBus"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.92,
+          -1.7806451722064696,
+          0.075
+        ],
+        [
+          1.92,
+          1.7806451722064696,
+          1.3498388376940538
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          -2.0,
+          2.0
+        ]
+      ],
+      "geometry": {
+        "objects": 105,
+        "triangles": 18188,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -2.0,
+            -2.0,
+            0.0
+          ],
+          [
+            2.0,
+            2.0,
+            1.3498387336730957
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-C01",
+      "passed": true,
+      "scale": 0.5257142857142857,
+      "translation": [
+        0.0,
+        -0.01708571365901402,
+        0.05397142904145377
+      ],
+      "body_instances": [
+        "Backplane",
+        "ComputeBlade-0",
+        "ComputeBlade-1",
+        "ComputeBlade-2",
+        "ComputeBlade-3",
+        "ComputeBlade-4",
+        "ComputeBlade-5",
+        "Diagnostics"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.9199999999999999,
+          -0.4008571522576468,
+          0.075
+        ],
+        [
+          0.9199999999999999,
+          0.40085715225764684,
+          0.5846800145081111
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          -1.0,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 61,
+        "triangles": 1036,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -0.5,
+            0.0
+          ],
+          [
+            1.0,
+            0.5,
+            0.5846799612045288
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-D01",
+      "passed": true,
+      "scale": 0.5316455551799038,
+      "translation": [
+        0.0,
+        -0.41734174307063954,
+        0.069683544567033
+      ],
+      "body_instances": [
+        "load-frame",
+        "reduction-drive"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.9489872982505433,
+          0.075
+        ],
+        [
+          0.42,
+          0.9489872982505433,
+          0.8884176792634163
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 64,
+        "triangles": 10892,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.8634175062179565,
+            0.0
+          ],
+          [
+            0.5,
+            1.5,
+            0.980015754699707
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-D02",
+      "passed": true,
+      "scale": 0.4791666773768765,
+      "translation": [
+        0.0,
+        -0.385729164435373,
+        0.07020833333333333
+      ],
+      "body_instances": [
+        "twin-load-frame",
+        "drive-left",
+        "drive-right"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.92,
+          -0.8409375022312937,
+          0.075
+        ],
+        [
+          0.92,
+          0.8409375022312936,
+          0.808124998214965
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          1.5
+        ],
+        [
+          -1.0,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 117,
+        "triangles": 20884,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -1.689062476158142,
+            0.0
+          ],
+          [
+            1.0,
+            1.5,
+            0.8906814455986023
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-D03",
+      "passed": true,
+      "scale": 0.4671052690192934,
+      "translation": [
+        0.0,
+        -0.7193421521543472,
+        0.075
+      ],
+      "body_instances": [
+        "heavy-load-frame",
+        "drive-port",
+        "drive-center",
+        "drive-starboard"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.42,
+          -1.980526400779754,
+          0.075
+        ],
+        [
+          1.42,
+          1.9805264007797545,
+          0.7943420964710598
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          2.5
+        ],
+        [
+          -1.5,
+          2.5
+        ]
+      ],
+      "geometry": {
+        "objects": 192,
+        "triangles": 33764,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.5,
+            -2.6671712398529053,
+            0.0
+          ],
+          [
+            1.5,
+            2.5,
+            0.8748204112052917
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-E01",
+      "passed": true,
+      "scale": 0.84,
+      "translation": [
+        0.0,
+        -0.1547699975967407,
+        0.075
+      ],
+      "body_instances": [
+        "HullCassette",
+        "Chamber",
+        "Thermal.R",
+        "Thermal.L",
+        "ServiceCartridge"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.6755700016021728,
+          0.075
+        ],
+        [
+          0.42,
+          0.6755700016021728,
+          0.899879994392395
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 40,
+        "triangles": 6684,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.2197849750518799,
+            0.0
+          ],
+          [
+            0.5,
+            1.0,
+            0.8998799920082092
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-E02",
+      "passed": true,
+      "scale": 0.9599753458686439,
+      "translation": [
+        0.0,
+        -0.15191607376510943,
+        0.075
+      ],
+      "body_instances": [
+        "FuelManifold",
+        "Chamber0",
+        "Chamber1",
+        "Chamber2",
+        "ServiceCartridge"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.42,
+          -0.7854998272147697,
+          0.075
+        ],
+        [
+          1.42,
+          0.7854998272147697,
+          0.865727182437026
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.5,
+          -1.0
+        ],
+        [
+          1.5,
+          -1.0
+        ],
+        [
+          1.5,
+          1.0
+        ],
+        [
+          -1.5,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 59,
+        "triangles": 13416,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.5,
+            -1.2410801649093628,
+            0.0
+          ],
+          [
+            1.5,
+            1.0,
+            0.8657271862030029
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-EF01",
+      "passed": true,
+      "scale": 1.1151515312650209,
+      "translation": [
+        0.0,
+        -0.6635151431562705,
+        0.075
+      ],
+      "body_instances": [
+        "PressureHousing",
+        "ServiceCartridge"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.92,
+          -1.1764848568437296,
+          0.075
+        ],
+        [
+          0.92,
+          1.1764848568437296,
+          2.067775853370549
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          1.5
+        ],
+        [
+          -1.0,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 33,
+        "triangles": 6532,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.048242449760437,
+            -2.601091146469116,
+            0.0
+          ],
+          [
+            1.048242449760437,
+            1.5,
+            2.238394021987915
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-EF02",
+      "passed": true,
+      "scale": 1.0769231164243813,
+      "translation": [
+        0.0,
+        -0.3957692208939046,
+        0.075
+      ],
+      "body_instances": [
+        "PressureHousing",
+        "ServiceCartridge"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.7242307791060953,
+          0.075
+        ],
+        [
+          0.42,
+          0.7242307791060953,
+          1.1330769798600482
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 34,
+        "triangles": 6408,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.4165576696395874,
+            0.0
+          ],
+          [
+            0.5,
+            1.0,
+            1.1330771446228027
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-EF03",
+      "passed": true,
+      "scale": 0.8328445538171197,
+      "translation": [
+        0.0,
+        -0.5536334501118224,
+        0.075
+      ],
+      "body_instances": [
+        "TwinPressureHousing",
+        "ServiceCartridge"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.42,
+          -1.0783255150452955,
+          0.075
+        ],
+        [
+          1.42,
+          1.0783255150452957,
+          1.5803665349957563
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.5,
+          -2.0
+        ],
+        [
+          1.5,
+          -2.0
+        ],
+        [
+          1.5,
+          2.0
+        ],
+        [
+          -1.5,
+          2.0
+        ]
+      ],
+      "geometry": {
+        "objects": 46,
+        "triangles": 11256,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.624046802520752,
+            -2.1089706420898438,
+            0.0
+          ],
+          [
+            1.624046802520752,
+            2.0,
+            1.749017596244812
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-EF04",
+      "passed": true,
+      "scale": 1.052054767032394,
+      "translation": [
+        0.0,
+        -1.729315035850968,
+        0.075
+      ],
+      "body_instances": [
+        "TriplePressureHousing",
+        "ServiceCartridge"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.9199999999999997,
+          -2.413150609339084,
+          0.075
+        ],
+        [
+          1.9199999999999997,
+          2.413150609339084,
+          3.976545007221143
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          -2.0,
+          3.0
+        ]
+      ],
+      "geometry": {
+        "objects": 60,
+        "triangles": 16152,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -2.125150680541992,
+            -3.609862804412842,
+            0.0
+          ],
+          [
+            2.125150680541992,
+            3.0,
+            4.1674933433532715
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-EI01",
+      "passed": true,
+      "scale": 0.5317919016513726,
+      "translation": [
+        0.0,
+        -0.06315027564219354,
+        0.0537283244094041
+      ],
+      "body_instances": [
+        "SplitPowerHousing",
+        "ElectrodeAperture",
+        "ServiceCartridge"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.9200000000000002,
+          -1.1812427285779532,
+          0.075
+        ],
+        [
+          0.9200000000000002,
+          1.1812427285779532,
+          1.0215896133084974
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          1.5
+        ],
+        [
+          -1.0,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 112,
+        "triangles": 5120,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -1.5,
+            0.0
+          ],
+          [
+            1.0,
+            1.5,
+            1.0215896368026733
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-EI02",
+      "passed": true,
+      "scale": 0.6454545314646952,
+      "translation": [
+        0.0,
+        -0.2089659938169394,
+        0.026590908216543453
+      ],
+      "body_instances": [
+        "SplitPowerHousing",
+        "ElectrodeApertureLow",
+        "ElectrodeApertureHigh",
+        "ServiceCartridge"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.42,
+          -1.8758521551250944,
+          0.075
+        ],
+        [
+          1.42,
+          1.8758521551250942,
+          2.3050453858203155
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.5,
+          -2.0
+        ],
+        [
+          1.5,
+          -2.0
+        ],
+        [
+          1.5,
+          2.0
+        ],
+        [
+          -1.5,
+          2.0
+        ]
+      ],
+      "geometry": {
+        "objects": 192,
+        "triangles": 8752,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.5,
+            -2.0,
+            0.0
+          ],
+          [
+            1.5,
+            2.0,
+            2.3050453662872314
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-EI03",
+      "passed": true,
+      "scale": 0.4352331724502012,
+      "translation": [
+        0.0,
+        -0.014145064614833848,
+        0.051062175644948526
+      ],
+      "body_instances": [
+        "CompactPowerHousing",
+        "ElectrodeAperture",
+        "ServiceCartridge"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.7116062587472907,
+          0.075
+        ],
+        [
+          0.42,
+          0.7116062587472906,
+          0.8018394603821504
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 70,
+        "triangles": 3032,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.0,
+            0.0
+          ],
+          [
+            0.5,
+            1.0,
+            0.8018394112586975
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-EI04",
+      "passed": true,
+      "scale": 0.5059288435838452,
+      "translation": [
+        0.0,
+        -0.017075006797599403,
+        0.019347827507334117
+      ],
+      "body_instances": [
+        "OpenPowerTract",
+        "ElectrodeLeftLow",
+        "ElectrodeRightLow",
+        "ElectrodeLeftHigh",
+        "ElectrodeRightHigh",
+        "ServiceCartridge"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.92,
+          -2.4366798363349154,
+          0.075
+        ],
+        [
+          1.92,
+          2.436679836334915,
+          1.888754870775248
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          -2.0,
+          3.0
+        ]
+      ],
+      "geometry": {
+        "objects": 370,
+        "triangles": 16616,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -2.0,
+            -3.0,
+            0.0
+          ],
+          [
+            2.0,
+            3.0,
+            1.8887547254562378
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-F01",
+      "passed": true,
+      "scale": 0.4772727298588792,
+      "translation": [
+        -0.003579542060221011,
+        0.0,
+        0.06545454561617994
+      ],
+      "body_instances": [
+        "ProductionBed",
+        "ProcessChamber",
+        "TechnologicalBridge"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.8364204579397789,
+          -0.42,
+          0.07499999999999998
+        ],
+        [
+          0.8364204579397789,
+          0.42,
+          0.6847159194355168
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          -1.0,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 40,
+        "triangles": 1340,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -0.5,
+            0.0
+          ],
+          [
+            1.0,
+            0.5,
+            0.6847158670425415
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-F02",
+      "passed": true,
+      "scale": 0.4772727298588792,
+      "translation": [
+        -0.003579542060221011,
+        0.0,
+        0.06545454561617994
+      ],
+      "body_instances": [
+        "ProductionBed",
+        "ProcessChamber",
+        "TechnologicalBridge",
+        "BaseServiceTower"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.8364204579397789,
+          -0.42,
+          0.07499999999999998
+        ],
+        [
+          0.8364204579397789,
+          0.42,
+          0.6966477831982633
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          -1.0,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 49,
+        "triangles": 1496,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -0.5,
+            0.0
+          ],
+          [
+            1.0,
+            0.5,
+            0.6966477036476135
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-FF01",
+      "passed": true,
+      "scale": 0.6205128053393044,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "LineStructure",
+        "TallWorkingStage",
+        "CrossProcessChamber",
+        "FinalProcessDrum",
+        "FrontTransferHead",
+        "RearTransferHead",
+        "ShieldedRouting"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.4054615691879082,
+          -2.42,
+          0.075
+        ],
+        [
+          1.4054615691879082,
+          2.42,
+          1.9396409031148834
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          2.5
+        ],
+        [
+          -1.5,
+          2.5
+        ]
+      ],
+      "geometry": {
+        "objects": 79,
+        "triangles": 13056,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.5,
+            -2.5,
+            0.0
+          ],
+          [
+            1.5,
+            2.5,
+            1.9396408796310425
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-FG01",
+      "passed": true,
+      "scale": 1.040293033024903,
+      "translation": [
+        0.005201460204620779,
+        0.07021977476867722,
+        0.075
+      ],
+      "body_instances": [
+        "Structure",
+        "MainMachineDrum",
+        "ForwardPump",
+        "RearPump",
+        "ProtectedTransferLines"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.42,
+          -1.4069962874821513,
+          0.075
+        ],
+        [
+          1.4200000000000002,
+          1.4069962874821513,
+          1.7311465165124513
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          1.5
+        ],
+        [
+          -1.5,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 54,
+        "triangles": 7608,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.5,
+            -1.5,
+            0.0
+          ],
+          [
+            1.5,
+            1.5,
+            1.7311464548110962
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-FT01",
+      "passed": true,
+      "scale": 0.4666666790291118,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Frame",
+        "Vessel",
+        "Hoop-front",
+        "Hoop-rear",
+        "Service"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.84,
+          0.075
+        ],
+        [
+          0.42,
+          0.84,
+          0.7330000574853699
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 30,
+        "triangles": 5824,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.0,
+            0.0
+          ],
+          [
+            0.5,
+            1.0,
+            0.7330000400543213
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-FT02",
+      "passed": true,
+      "scale": 0.5257142857142857,
+      "translation": [
+        0.0,
+        0.11040002005440848,
+        0.075
+      ],
+      "body_instances": [
+        "Structure",
+        "leftVessel",
+        "leftHoopfront",
+        "leftHooprear",
+        "rightVessel",
+        "rightHoopfront",
+        "rightHooprear"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.9199999999999999,
+          -0.79908570425851,
+          0.075
+        ],
+        [
+          0.9199999999999999,
+          0.79908570425851,
+          0.8478000150408063
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 35,
+        "triangles": 6692,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -1.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            0.8478000164031982
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-FT03",
+      "passed": true,
+      "scale": 0.48464164690118294,
+      "translation": [
+        0.0,
+        0.009692881468004247,
+        0.075
+      ],
+      "body_instances": [
+        "CradleAndTransferHeader",
+        "Vessel-L0-R0",
+        "Vessel-L0-R0-Hoop-front",
+        "Vessel-L0-R0-Hoop-rear",
+        "Vessel-L0-R1",
+        "Vessel-L0-R1-Hoop-front",
+        "Vessel-L0-R1-Hoop-rear",
+        "Vessel-L1-R0",
+        "Vessel-L1-R0-Hoop-front",
+        "Vessel-L1-R0-Hoop-rear",
+        "Vessel-L1-R1",
+        "Vessel-L1-R1-Hoop-front",
+        "Vessel-L1-R1-Hoop-rear",
+        "Vessel-L2-R0",
+        "Vessel-L2-R0-Hoop-front",
+        "Vessel-L2-R0-Hoop-rear",
+        "Vessel-L2-R1",
+        "Vessel-L2-R1-Hoop-front",
+        "Vessel-L2-R1-Hoop-rear"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.170409558778745,
+          -1.4200000000000002,
+          0.075
+        ],
+        [
+          1.170409558778745,
+          1.42,
+          0.7874232348104476
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          1.5
+        ],
+        [
+          -1.5,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 80,
+        "triangles": 18832,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.5,
+            -1.5,
+            0.0
+          ],
+          [
+            1.5,
+            1.5,
+            0.7874232530593872
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-FT04",
+      "passed": true,
+      "scale": 0.5925925908483323,
+      "translation": [
+        0.0,
+        0.011851911156701714,
+        0.075
+      ],
+      "body_instances": [
+        "CradleAndTransferHeader",
+        "Vessel-L0-R0",
+        "Vessel-L0-R0-Hoop-front",
+        "Vessel-L0-R0-Hoop-rear",
+        "Vessel-L0-R1",
+        "Vessel-L0-R1-Hoop-front",
+        "Vessel-L0-R1-Hoop-rear",
+        "Vessel-L1-R0",
+        "Vessel-L1-R0-Hoop-front",
+        "Vessel-L1-R0-Hoop-rear",
+        "Vessel-L1-R1",
+        "Vessel-L1-R1-Hoop-front",
+        "Vessel-L1-R1-Hoop-rear",
+        "Vessel-L2-R0",
+        "Vessel-L2-R0-Hoop-front",
+        "Vessel-L2-R0-Hoop-rear",
+        "Vessel-L2-R1",
+        "Vessel-L2-R1-Hoop-front",
+        "Vessel-L2-R1-Hoop-rear",
+        "Vessel-L3-R0",
+        "Vessel-L3-R0-Hoop-front",
+        "Vessel-L3-R0-Hoop-rear",
+        "Vessel-L3-R1",
+        "Vessel-L3-R1-Hoop-front",
+        "Vessel-L3-R1-Hoop-rear"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.92,
+          -1.8548148065295784,
+          0.075
+        ],
+        [
+          1.92,
+          1.8548148065295784,
+          0.9461111255012584
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          -2.0,
+          2.0
+        ]
+      ],
+      "geometry": {
+        "objects": 102,
+        "triangles": 24712,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -2.0,
+            -2.0,
+            0.0
+          ],
+          [
+            2.0,
+            2.0,
+            0.9461110830307007
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-G01",
+      "passed": true,
+      "scale": 0.4666666790291118,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Foundation",
+        "Portal",
+        "Housing",
+        "Diagnostic"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.42,
+          0.075
+        ],
+        [
+          0.42,
+          0.42,
+          0.5930000203980345
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 41,
+        "triangles": 7500,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.5,
+            0.593000054359436
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-G02",
+      "passed": true,
+      "scale": 0.4640883971787442,
+      "translation": [
+        0.0,
+        -0.0023204536038598255,
+        0.075
+      ],
+      "body_instances": [
+        "Foundation",
+        "Portal",
+        "BaseSuperstructure",
+        "ShipyardBridge",
+        "Diagnostic"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.4176795463961402,
+          -0.42000000000000004,
+          0.075
+        ],
+        [
+          0.4176795463961402,
+          0.42,
+          0.8657374724620779
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 62,
+        "triangles": 12120,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.5,
+            0.8657374382019043
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-H01",
+      "passed": true,
+      "scale": 0.511111124650932,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Collector"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.1840000121858388,
+          -0.92,
+          0.075
+        ],
+        [
+          0.1840000121858388,
+          0.92,
+          0.3407777750698136
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 127,
+        "triangles": 21316,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.0,
+            0.0
+          ],
+          [
+            0.5,
+            1.0,
+            0.4031333327293396
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-H02",
+      "passed": true,
+      "scale": 0.5107913721632584,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "DualCollector"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.6180575798026872,
+          -1.4200000000000002,
+          0.075
+        ],
+        [
+          0.6180575798026872,
+          1.4200000000000002,
+          0.30485611138435864
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          1.5
+        ],
+        [
+          -1.0,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 381,
+        "triangles": 64268,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -1.5,
+            0.0
+          ],
+          [
+            1.0,
+            1.5,
+            0.40292808413505554
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-H03",
+      "passed": true,
+      "scale": 0.5193133217255202,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "TripleCollector"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.1658583478430997,
+          -2.42,
+          0.075
+        ],
+        [
+          1.1658583478430997,
+          2.42,
+          0.31388413232722734
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          2.5
+        ],
+        [
+          -1.5,
+          2.5
+        ]
+      ],
+      "geometry": {
+        "objects": 825,
+        "triangles": 141212,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.5,
+            -2.5,
+            0.0
+          ],
+          [
+            1.5,
+            2.5,
+            0.40839916467666626
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-HS01",
+      "passed": true,
+      "scale": 0.45405404820243667,
+      "translation": [
+        0.0,
+        -0.0022702680759137633,
+        0.06591891923892924
+      ],
+      "body_instances": [
+        "ThermalBed",
+        "ThermalSection-0",
+        "ThermalSection-1",
+        "ThermalSection-2",
+        "HeatCollector"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.4018378283289596,
+          0.075
+        ],
+        [
+          0.42,
+          0.40183782832895965,
+          0.801486479491975
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 39,
+        "triangles": 1992,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.5,
+            0.8014864921569824
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-HS02",
+      "passed": true,
+      "scale": 0.5333333443904271,
+      "translation": [
+        0.0,
+        -0.045333322829094275,
+        0.05900000002591506
+      ],
+      "body_instances": [
+        "DualThermalBed",
+        "ThermalRing-B0-0",
+        "ThermalRing-B0-1",
+        "ThermalRing-B0-2",
+        "ThermalRing-B0-3",
+        "ThermalRing-B0-4",
+        "ThermalRing-B1-0",
+        "ThermalRing-B1-1",
+        "ThermalRing-B1-2",
+        "ThermalRing-B1-3",
+        "ThermalRing-B1-4",
+        "DualCollector"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.9066667108950417,
+          -0.92,
+          0.075
+        ],
+        [
+          0.9066667108950417,
+          0.92,
+          0.9230000204815386
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 92,
+        "triangles": 6648,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -1.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            0.9230000376701355
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-HS03",
+      "passed": true,
+      "scale": 0.5440612748505682,
+      "translation": [
+        0.0,
+        -0.07752875501478286,
+        0.05867816211930446
+      ],
+      "body_instances": [
+        "TripleThermalBed",
+        "ThermalRing-B0-0",
+        "ThermalRing-B0-1",
+        "ThermalRing-B0-2",
+        "ThermalRing-B0-3",
+        "ThermalRing-B0-4",
+        "ThermalRing-B0-5",
+        "ThermalRing-B0-6",
+        "ThermalRing-B0-7",
+        "ThermalRing-B1-0",
+        "ThermalRing-B1-1",
+        "ThermalRing-B1-2",
+        "ThermalRing-B1-3",
+        "ThermalRing-B1-4",
+        "ThermalRing-B1-5",
+        "ThermalRing-B1-6",
+        "ThermalRing-B1-7",
+        "ThermalRing-B2-0",
+        "ThermalRing-B2-1",
+        "ThermalRing-B2-2",
+        "ThermalRing-B2-3",
+        "ThermalRing-B2-4",
+        "ThermalRing-B2-5",
+        "ThermalRing-B2-6",
+        "ThermalRing-B2-7",
+        "TripleCollector"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.4200000000000002,
+          -1.3669539141477578,
+          0.075
+        ],
+        [
+          1.4200000000000002,
+          1.3669539141477578,
+          1.1141570664608427
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          1.5
+        ],
+        [
+          -1.5,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 171,
+        "triangles": 12908,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.5,
+            -1.5,
+            0.0
+          ],
+          [
+            1.5,
+            1.5,
+            1.1141570806503296
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-HS04",
+      "passed": true,
+      "scale": 0.5235173796904427,
+      "translation": [
+        0.0,
+        -0.07721883347494346,
+        0.05929447896033248
+      ],
+      "body_instances": [
+        "QuadThermalBed",
+        "ThermalRing-B0-0",
+        "ThermalRing-B0-1",
+        "ThermalRing-B0-2",
+        "ThermalRing-B0-3",
+        "ThermalRing-B0-4",
+        "ThermalRing-B0-5",
+        "ThermalRing-B0-6",
+        "ThermalRing-B0-7",
+        "ThermalRing-B0-8",
+        "ThermalRing-B0-9",
+        "ThermalRing-B0-10",
+        "ThermalRing-B0-11",
+        "ThermalRing-B1-0",
+        "ThermalRing-B1-1",
+        "ThermalRing-B1-2",
+        "ThermalRing-B1-3",
+        "ThermalRing-B1-4",
+        "ThermalRing-B1-5",
+        "ThermalRing-B1-6",
+        "ThermalRing-B1-7",
+        "ThermalRing-B1-8",
+        "ThermalRing-B1-9",
+        "ThermalRing-B1-10",
+        "ThermalRing-B1-11",
+        "ThermalRing-B2-0",
+        "ThermalRing-B2-1",
+        "ThermalRing-B2-2",
+        "ThermalRing-B2-3",
+        "ThermalRing-B2-4",
+        "ThermalRing-B2-5",
+        "ThermalRing-B2-6",
+        "ThermalRing-B2-7",
+        "ThermalRing-B2-8",
+        "ThermalRing-B2-9",
+        "ThermalRing-B2-10",
+        "ThermalRing-B2-11",
+        "ThermalRing-B3-0",
+        "ThermalRing-B3-1",
+        "ThermalRing-B3-2",
+        "ThermalRing-B3-3",
+        "ThermalRing-B3-4",
+        "ThermalRing-B3-5",
+        "ThermalRing-B3-6",
+        "ThermalRing-B3-7",
+        "ThermalRing-B3-8",
+        "ThermalRing-B3-9",
+        "ThermalRing-B3-10",
+        "ThermalRing-B3-11",
+        "QuadCollector"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.8427811665250566,
+          -1.9200000000000002,
+          0.075
+        ],
+        [
+          1.8427811665250566,
+          1.92,
+          1.074918225515696
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          -2.0,
+          2.0
+        ]
+      ],
+      "geometry": {
+        "objects": 307,
+        "triangles": 26452,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -2.0,
+            -2.0,
+            0.0
+          ],
+          [
+            2.0,
+            2.0,
+            1.0749181509017944
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-I01",
+      "passed": true,
+      "scale": 0.4421052409671361,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Structure",
+        "LoadingHatch",
+        "FrontCargoRail",
+        "RearCargoRail"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.8554736159739436,
+          -0.42,
+          0.075
+        ],
+        [
+          0.8554736159739436,
+          0.42,
+          0.6800210197337793
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          -1.0,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 38,
+        "triangles": 4792,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -0.5,
+            0.0
+          ],
+          [
+            1.0,
+            0.5,
+            0.6800210475921631
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-I02",
+      "passed": true,
+      "scale": 0.4754522104421673,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Structure",
+        "LoadingHatchF",
+        "LoadingHatchB",
+        "CargoRailF",
+        "CargoRailB"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.92,
+          -0.9176227412149219,
+          0.075
+        ],
+        [
+          0.92,
+          0.9176227412149219,
+          0.8231240708143861
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 57,
+        "triangles": 7404,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -1.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            0.8231241106987
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-I03",
+      "passed": true,
+      "scale": 0.5035460686385065,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Structure",
+        "LoadingHatchF",
+        "LoadingHatchM",
+        "LoadingHatchB",
+        "CargoRailF",
+        "CargoRailB"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.4159419097394659,
+          -1.4199999999999997,
+          0.075
+        ],
+        [
+          1.4159419097394659,
+          1.4199999999999997,
+          1.1216205199925802
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          1.5
+        ],
+        [
+          -1.5,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 80,
+        "triangles": 11344,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.5,
+            -1.5,
+            0.0
+          ],
+          [
+            1.5,
+            1.5,
+            1.121620535850525
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-I04",
+      "passed": true,
+      "scale": 0.5150832345666536,
+      "translation": [
+        0.0,
+        0.0,
+        0.08264176685648204
+      ],
+      "body_instances": [
+        "Structure",
+        "LoadingHatchL0",
+        "LoadingHatchL1",
+        "LoadingHatchL2",
+        "LoadingHatchR0",
+        "LoadingHatchR1",
+        "LoadingHatchR2",
+        "CargoRailF",
+        "CargoRailB"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.9200000000000002,
+          -1.910958819891151,
+          0.075
+        ],
+        [
+          1.9200000000000002,
+          1.910958819891151,
+          1.3335214923863843
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          -2.0,
+          2.0
+        ]
+      ],
+      "geometry": {
+        "objects": 124,
+        "triangles": 18448,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -2.0,
+            -2.0,
+            0.0
+          ],
+          [
+            2.0,
+            2.0,
+            1.3335213661193848
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-I05",
+      "passed": true,
+      "scale": 0.5249457548616443,
+      "translation": [
+        0.0,
+        0.0,
+        0.08231758247482175
+      ],
+      "body_instances": [
+        "Structure",
+        "LoadingHatchL0",
+        "LoadingHatchL1",
+        "LoadingHatchL2",
+        "LoadingHatchL3",
+        "LoadingHatchR0",
+        "LoadingHatchR1",
+        "LoadingHatchR2",
+        "LoadingHatchR3",
+        "CargoRailLF",
+        "CargoRailLB",
+        "CargoRailRF",
+        "CargoRailRB"
+      ],
+      "body_bounds_cells": [
+        [
+          -2.3923566129502554,
+          -2.42,
+          0.075
+        ],
+        [
+          2.3923566129502554,
+          2.42,
+          1.6361570368903802
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -2.5,
+          -2.5
+        ],
+        [
+          2.5,
+          -2.5
+        ],
+        [
+          2.5,
+          2.5
+        ],
+        [
+          -2.5,
+          2.5
+        ]
+      ],
+      "geometry": {
+        "objects": 165,
+        "triangles": 25228,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -2.5,
+            -2.5,
+            0.0
+          ],
+          [
+            2.5,
+            2.5,
+            1.6361570358276367
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-L01",
+      "passed": true,
+      "scale": 0.4565217308488822,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Deck",
+        "Shell",
+        "FrontCollar",
+        "RearCollar"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.41543478704524167,
+          0.075
+        ],
+        [
+          0.42,
+          0.41543478704524167,
+          0.7917390869566315
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 29,
+        "triangles": 2204,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.5,
+            0.7917391061782837
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-M01",
+      "passed": true,
+      "scale": 0.5060240702214491,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Chassis",
+        "Optic",
+        "LeftThermal",
+        "RightThermal",
+        "Service"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.41999999999999993,
+          -1.2954215908119802,
+          0.075
+        ],
+        [
+          0.41999999999999993,
+          1.2954215908119802,
+          0.9098629732375157
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 41,
+        "triangles": 8904,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.5,
+            0.0
+          ],
+          [
+            0.5,
+            1.5,
+            0.9098629951477051
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-M02",
+      "passed": true,
+      "scale": 0.48,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Chassis",
+        "OpticCell0",
+        "OpticCell1",
+        "OpticCell2",
+        "Aperture",
+        "Cooling0",
+        "Cooling1",
+        "Service"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -1.3320000457763672,
+          0.075
+        ],
+        [
+          0.42,
+          1.3320000457763672,
+          0.8238000297546386
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 91,
+        "triangles": 22388,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.5,
+            0.0
+          ],
+          [
+            0.5,
+            1.5,
+            0.8238000273704529
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-N01",
+      "passed": true,
+      "scale": 0.4827586180437098,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Chassis",
+        "Support",
+        "Aperture",
+        "Service"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.39827585413112937,
+          0.075
+        ],
+        [
+          0.42,
+          0.39827585413112937,
+          0.7579716957411727
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 50,
+        "triangles": 9480,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.5,
+            0.7579717636108398
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-R01",
+      "passed": true,
+      "scale": 1.0726257211829184,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Foundation",
+        "Core",
+        "Shield0",
+        "Thermal0",
+        "Shield1",
+        "Thermal1",
+        "Shield2",
+        "Thermal2",
+        "Shield3",
+        "Thermal3",
+        "Service"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.92,
+          -1.92,
+          0.075
+        ],
+        [
+          1.92,
+          1.92,
+          2.1108436208510506
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          -2.0,
+          2.0
+        ]
+      ],
+      "geometry": {
+        "objects": 95,
+        "triangles": 18344,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -2.0,
+            -2.0,
+            0.0
+          ],
+          [
+            2.0,
+            2.0,
+            2.1108436584472656
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-S01",
+      "passed": true,
+      "scale": 0.4897959088345759,
+      "translation": [
+        0.0,
+        0.0012244886043219934,
+        0.05540816408452863
+      ],
+      "body_instances": [
+        "TradeRoutingFrame",
+        "TransactionCore",
+        "PortLeft",
+        "PortRight",
+        "PortRear",
+        "ServiceCollector"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.40897957336699087,
+          -0.41999999999999993,
+          0.075
+        ],
+        [
+          0.40897957336699087,
+          0.42,
+          0.5344285556846042
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 46,
+        "triangles": 896,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -0.5,
+            0.0
+          ],
+          [
+            0.5,
+            0.5,
+            0.534428596496582
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-SP01",
+      "passed": true,
+      "scale": 0.4666666790291118,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Solar-truss",
+        "Photovoltaic-field"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.84,
+          0.075
+        ],
+        [
+          0.42,
+          0.84,
+          0.26213334897182644
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 198,
+        "triangles": 25880,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.0,
+            0.0
+          ],
+          [
+            0.5,
+            1.0,
+            0.26213333010673523
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-SP02",
+      "passed": true,
+      "scale": 0.511111124650932,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "WidePVField",
+        "SupportQuadrant-0",
+        "SupportQuadrant-1"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.92,
+          -1.380000060929194,
+          0.075
+        ],
+        [
+          0.92,
+          1.380000060929194,
+          0.27101113653212483
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          1.5
+        ],
+        [
+          -1.0,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 454,
+        "triangles": 9880,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -1.5,
+            0.0
+          ],
+          [
+            1.0,
+            1.5,
+            0.2710111439228058
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-SP03",
+      "passed": true,
+      "scale": 0.52592591663774,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "LargePVField",
+        "Support-0",
+        "Support-1",
+        "Support-2",
+        "Support-3",
+        "Support-4",
+        "Support-5"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.42,
+          -2.36666662486983,
+          0.075
+        ],
+        [
+          1.42,
+          2.36666662486983,
+          0.2766926098453979
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          2.5
+        ],
+        [
+          -1.5,
+          2.5
+        ]
+      ],
+      "geometry": {
+        "objects": 1138,
+        "triangles": 25896,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.5,
+            -2.5,
+            0.0
+          ],
+          [
+            1.5,
+            2.5,
+            0.27669259905815125
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-SP04",
+      "passed": true,
+      "scale": 0.5333333474618421,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "LargePVField",
+        "Support-0",
+        "Support-1",
+        "Support-2",
+        "Support-3",
+        "Support-4",
+        "Support-5"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.9200000000000002,
+          -2.880000127156579,
+          0.075
+        ],
+        [
+          1.9200000000000002,
+          2.880000127156579,
+          0.2795333439650362
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          -2.0,
+          3.0
+        ]
+      ],
+      "geometry": {
+        "objects": 142,
+        "triangles": 37336,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -2.0,
+            -3.0,
+            0.0
+          ],
+          [
+            2.0,
+            3.0,
+            0.27953335642814636
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-T01",
+      "passed": true,
+      "scale": 0.384133614750216,
+      "translation": [
+        0.0,
+        0.026313122936982437,
+        0.075
+      ],
+      "body_instances": [
+        "Foundation",
+        "Bearing",
+        "TurretArmor",
+        "Mantlet",
+        "RoofHatch",
+        "RoofOptics",
+        "TieDown.-1.52.-1.05",
+        "TieDown.-1.52.1.05",
+        "TieDown.1.52.-1.05",
+        "TieDown.1.52.1.05"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.9200000000000002,
+          -0.7830563549850589,
+          0.075
+        ],
+        [
+          0.9200000000000002,
+          0.7830563549850588,
+          1.3080689180017278
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          1.5
+        ],
+        [
+          -1.0,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 209,
+        "triangles": 60152,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 6844,
+        "bounds_bu": [
+          [
+            -1.0,
+            -1.752225399017334,
+            0.0
+          ],
+          [
+            1.0,
+            1.5,
+            1.3080689907073975
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 6844
+    },
+    {
+      "id": "MA-W01",
+      "passed": true,
+      "scale": 0.6001258130381052,
+      "translation": [
+        0.0,
+        0.015003131017838267,
+        0.075
+      ],
+      "body_instances": [
+        "Foundation",
+        "AzimuthDrive",
+        "Capsule",
+        "TripleCradle",
+        "ServiceCartridge",
+        "LidarBlade"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.9199999999999997,
+          -1.6053365928012746,
+          0.075
+        ],
+        [
+          1.9199999999999997,
+          1.6053365928012744,
+          1.9773988731167593
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          -2.0,
+          2.0
+        ]
+      ],
+      "geometry": {
+        "objects": 171,
+        "triangles": 44376,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -2.0,
+            -3.404510974884033,
+            0.0
+          ],
+          [
+            2.0,
+            2.0,
+            1.9773988723754883
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-W02",
+      "passed": true,
+      "scale": 0.27631579294099046,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "LaserFoundation",
+        "ServiceCartridge",
+        "OpticalFork",
+        "OpticalChamber",
+        "LeftRadiator",
+        "RightRadiator",
+        "LidarBlade"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.6631579294099046,
+          0.075
+        ],
+        [
+          0.42,
+          0.6631579294099046,
+          0.8317269332374639
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 94,
+        "triangles": 22996,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.5,
+            0.0
+          ],
+          [
+            0.5,
+            1.5,
+            0.8380473256111145
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-W03",
+      "passed": true,
+      "scale": 0.6529403613765192,
+      "translation": [
+        0.0,
+        0.1012057762508652,
+        0.075
+      ],
+      "body_instances": [
+        "Foundation",
+        "Receiver",
+        "ElevationBridge",
+        "ServiceCartridge",
+        "Lidar"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.92,
+          -0.8716753684270729,
+          0.075
+        ],
+        [
+          0.92,
+          0.871675368427073,
+          1.2633514141167932
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 107,
+        "triangles": 24512,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -1.5376745462417603,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.2633514404296875
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-W04",
+      "passed": true,
+      "scale": 0.7137519461893038,
+      "translation": [
+        0.0,
+        -0.05686181828248314,
+        0.075
+      ],
+      "body_instances": [
+        "DiamondFoundation",
+        "LaunchSpine",
+        "TransverseBeam",
+        "LaunchCell0",
+        "LaunchCell1",
+        "LaunchCell2",
+        "LaunchCell3",
+        "Lidar",
+        "ServiceCartridge"
+      ],
+      "body_bounds_cells": [
+        [
+          -1.42,
+          -1.0654579746544794,
+          0.075
+        ],
+        [
+          1.42,
+          1.0654579746544794,
+          1.6849894134012868
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          1.5
+        ],
+        [
+          -1.5,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 121,
+        "triangles": 26580,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.5,
+            -1.5,
+            0.0
+          ],
+          [
+            1.5,
+            1.5,
+            1.6849894523620605
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-W05",
+      "passed": true,
+      "scale": 0.27999999999999997,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Hardpoint",
+        "FanCradle",
+        "LeftFeed",
+        "RightFeed",
+        "Service",
+        "Lidar"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.876400032043457,
+          -0.41999999999999993,
+          0.075
+        ],
+        [
+          0.876400032043457,
+          0.41999999999999993,
+          0.7022000026702879
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          -1.0,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 98,
+        "triangles": 18716,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -1.0,
+            -0.7503999471664429,
+            0.0
+          ],
+          [
+            1.0,
+            0.5,
+            0.7022000551223755
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-W06",
+      "passed": true,
+      "scale": 0.2847457581092421,
+      "translation": [
+        0.0,
+        -0.03986440206197315,
+        0.075
+      ],
+      "body_instances": [
+        "Hardpoint",
+        "SpearCradle",
+        "AftCapacitor",
+        "Service",
+        "Lidar"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.8941016763896994,
+          0.075
+        ],
+        [
+          0.42,
+          0.8941016763896994,
+          0.7569660852405404
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 111,
+        "triangles": 20448,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.799593210220337,
+            0.0
+          ],
+          [
+            0.5,
+            1.0,
+            0.7569660544395447
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-W07",
+      "passed": true,
+      "scale": 0.29996450197144575,
+      "translation": [
+        0.0,
+        -0.08399005196995157,
+        0.075
+      ],
+      "body_instances": [
+        "Pedestal",
+        "TrackingSaddle",
+        "ServiceCartridge"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.3839545539413973,
+          0.075
+        ],
+        [
+          0.42,
+          0.3839545539413973,
+          0.5722735940693925
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "geometry": {
+        "objects": 51,
+        "triangles": 13324,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -0.7304134964942932,
+            0.0
+          ],
+          [
+            0.5,
+            0.5,
+            0.579738438129425
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-W08",
+      "passed": true,
+      "scale": 0.4468085117715686,
+      "translation": [
+        0.0,
+        -0.04244682140159308,
+        0.0660638299643076
+      ],
+      "body_instances": [
+        "HullKeel",
+        "SingleLauncher",
+        "SpareLeft",
+        "SpareRight",
+        "Service",
+        "Lidar"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -1.2130850711099266,
+          0.075
+        ],
+        [
+          0.42,
+          1.2130850711099266,
+          1.031170253740778
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 72,
+        "triangles": 5072,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.5,
+            0.0
+          ],
+          [
+            0.5,
+            1.5,
+            1.031170129776001
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-W09",
+      "passed": true,
+      "scale": 0.2234636763223438,
+      "translation": [
+        -0.09039107209675366,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "Hardpoint",
+        "Cradle",
+        "Magazine",
+        "Optic"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.6703910289670314,
+          0.075
+        ],
+        [
+          0.41999999999999993,
+          0.6703910289670314,
+          0.6358938254379671
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "geometry": {
+        "objects": 76,
+        "triangles": 15756,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.0,
+            0.0
+          ],
+          [
+            0.5,
+            1.0,
+            0.6358938813209534
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-W10",
+      "passed": true,
+      "scale": 0.293706292237237,
+      "translation": [
+        -0.05874125494619555,
+        0.0,
+        0.075
+      ],
+      "body_instances": [
+        "LaserFoundation",
+        "ServiceCartridge",
+        "PulseFork",
+        "OpticalBench",
+        "PulseFeed"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.7048951293793835,
+          0.075
+        ],
+        [
+          0.42000000000000004,
+          0.7048951293793835,
+          0.6653496445958448
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 82,
+        "triangles": 19604,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.5,
+            0.0
+          ],
+          [
+            0.5,
+            1.5,
+            0.7681468725204468
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-W11",
+      "passed": true,
+      "scale": 0.32941177086571655,
+      "translation": [
+        0.0,
+        0.03788235679107286,
+        0.07005882354745815
+      ],
+      "body_instances": [
+        "FixedFrame",
+        "FixedLauncher",
+        "ReserveLeft",
+        "ReserveRight",
+        "Service"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42,
+          -0.897647044193923,
+          0.075
+        ],
+        [
+          0.42,
+          0.897647044193923,
+          0.6037058939206768
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 74,
+        "triangles": 3268,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.5,
+            0.0
+          ],
+          [
+            0.5,
+            1.5,
+            0.603705883026123
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    },
+    {
+      "id": "MA-W12",
+      "passed": true,
+      "scale": 0.39999997275216426,
+      "translation": [
+        0.0,
+        -0.04400005040849615,
+        0.06700000072377063
+      ],
+      "body_instances": [
+        "HullKeel",
+        "SingleLauncher",
+        "SpareLeft",
+        "SpareRight",
+        "Guidance",
+        "Lidar",
+        "Service"
+      ],
+      "body_bounds_cells": [
+        [
+          -0.42000000000000004,
+          -1.0919999332428023,
+          0.075
+        ],
+        [
+          0.42000000000000004,
+          1.0919999332428025,
+          1.2049999346477689
+        ]
+      ],
+      "floor_polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "geometry": {
+        "objects": 87,
+        "triangles": 5752,
+        "degenerate_triangles": 0,
+        "nonmanifold_edges": 0,
+        "bounds_bu": [
+          [
+            -0.5,
+            -1.5,
+            0.0
+          ],
+          [
+            0.5,
+            1.5,
+            1.2050000429153442
+          ]
+        ]
+      },
+      "baseline_nonmanifold_edges": 0
+    }
+  ],
+  "corner_cells": 0.12,
+  "frame_cells": 0.06,
+  "margin_cells": 0.08
+}

@@ -1,0 +1,113 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-P07",
+  "version": "1.0",
+  "name": "Protected optics",
+  "source": "MA-P07.blend",
+  "units": "BU, physical scale unspecified",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "bounds_local": {
+    "min": [
+      -0.3212597072124481,
+      -0.39250001311302185,
+      -0.029999999329447746
+    ],
+    "max": [
+      0.3212597072124481,
+      0.3434997498989105,
+      0.6050000190734863
+    ]
+  },
+  "scale_policy": "unit scale only",
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Optic armor"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Optic face",
+        "Sensor cap"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Sensor guard"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Warm",
+      "surfaces": [
+        "Warm aiming lens",
+        "Warm aiming lens.001",
+        "Warm aiming lens.002"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Warm",
+      "color_linear": [
+        0.95,
+        0.7,
+        0.32
+      ],
+      "strength": 3,
+      "units": "Blender shader strength",
+      "default": "on",
+      "regions": [
+        "Warm aiming lens",
+        "Warm aiming lens.001",
+        "Warm aiming lens.002"
+      ]
+    }
+  ],
+  "mounts": [
+    {
+      "id": "bottom",
+      "node": "mount.bottom",
+      "role": "accessory",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "accessory",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": []
+}

@@ -1,0 +1,298 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-P01",
+  "version": "1.1",
+  "name": "Armored foundation",
+  "source": "MA-P01.blend",
+  "units": "BU, physical scale unspecified",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "bounds_local": {
+    "min": [
+      -2.510499954223633,
+      -2.2074999809265137,
+      0.0
+    ],
+    "max": [
+      2.510499954223633,
+      2.135499954223633,
+      1.1075000762939453
+    ]
+  },
+  "scale_policy": "unit scale only",
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Armored deck",
+        "Segmented perimeter armor",
+        "Segmented perimeter armor.001",
+        "Segmented perimeter armor.002",
+        "Segmented perimeter armor.003",
+        "Segmented perimeter armor.004",
+        "Segmented perimeter armor.005",
+        "Service panel",
+        "Service panel.001",
+        "Door inset",
+        "Door inset.001"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Lower structural chassis",
+        "Deck light bezel",
+        "Deck light bezel.001",
+        "Deck light bezel.002",
+        "Deck light bezel.003",
+        "Cooling louvre",
+        "Cooling louvre.001",
+        "Cooling louvre.002",
+        "Cooling louvre.003",
+        "Cooling louvre.004",
+        "Cooling louvre.005",
+        "Cooling louvre.006",
+        "Cooling louvre.007",
+        "Cooling louvre.008",
+        "Cooling louvre.009",
+        "Cooling louvre.010",
+        "Cooling louvre.011",
+        "Cooling louvre.012",
+        "Cooling louvre.013",
+        "Side vent cavity",
+        "Side vent cavity.001",
+        "Side vent cavity.002",
+        "Side vent cavity.003",
+        "Side vent cavity.004",
+        "Side vent cavity.005"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Mark",
+      "surfaces": [
+        "Stencil SPACE SCRAPPERS",
+        "Stencil MA / 03",
+        "Stencil LIFT / LOCK"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Panel",
+      "surfaces": [
+        "Recessed service door",
+        "Recessed service door.001",
+        "Side louvre",
+        "Side louvre.001",
+        "Side louvre.002",
+        "Side louvre.003",
+        "Side louvre.004",
+        "Side louvre.005",
+        "Side louvre.006",
+        "Side louvre.007",
+        "Side louvre.008",
+        "Side louvre.009",
+        "Side louvre.010",
+        "Side louvre.011",
+        "Side louvre.012",
+        "Side louvre.013",
+        "Side louvre.014",
+        "Side louvre.015",
+        "Side louvre.016",
+        "Side louvre.017",
+        "Side louvre.018",
+        "Side louvre.019",
+        "Side louvre.020",
+        "Corner armor cap",
+        "Corner armor cap.001",
+        "Pipe clamp",
+        "Pipe clamp.001",
+        "Side louvre.021",
+        "Side louvre.022",
+        "Side louvre.023",
+        "Side louvre.024",
+        "Side louvre.025",
+        "Side louvre.026",
+        "Side louvre.027",
+        "Side louvre.028",
+        "Side louvre.029",
+        "Side louvre.030",
+        "Side louvre.031",
+        "Side louvre.032",
+        "Side louvre.033",
+        "Side louvre.034",
+        "Side louvre.035",
+        "Side louvre.036",
+        "Side louvre.037",
+        "Side louvre.038",
+        "Side louvre.039",
+        "Side louvre.040",
+        "Side louvre.041",
+        "Corner armor cap.002",
+        "Corner armor cap.003",
+        "Pipe clamp.002",
+        "Pipe clamp.003"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Rubber",
+      "surfaces": [
+        "Service door gasket",
+        "Service door gasket.001"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Upper deck inset",
+        "Retainer strap",
+        "Retainer strap.001",
+        "Retainer strap.002",
+        "Retainer strap.003",
+        "Retainer strap.004",
+        "Retainer strap.005",
+        "Captive hex bolt",
+        "Captive hex bolt.001",
+        "Captive hex bolt.002",
+        "Captive hex bolt.003",
+        "Door captive screw",
+        "Door captive screw.001",
+        "Door captive screw.002",
+        "Door captive screw.003",
+        "Door latch",
+        "Door captive screw.004",
+        "Door captive screw.005",
+        "Door captive screw.006",
+        "Door captive screw.007",
+        "Door latch.001",
+        "Side vent frame",
+        "Armor side bolt",
+        "Armor side bolt.001",
+        "Side vent frame.001",
+        "Armor side bolt.002",
+        "Armor side bolt.003",
+        "Side vent frame.002",
+        "Armor side bolt.004",
+        "Armor side bolt.005",
+        "Captive hex bolt.004",
+        "Captive hex bolt.005",
+        "Captive hex bolt.006",
+        "Captive hex bolt.007",
+        "Captive hex bolt.008",
+        "Captive hex bolt.009",
+        "Captive hex bolt.010",
+        "Captive hex bolt.011",
+        "Deck protected hydraulic line",
+        "Side vent frame.003",
+        "Armor side bolt.006",
+        "Armor side bolt.007",
+        "Side vent frame.004",
+        "Armor side bolt.008",
+        "Armor side bolt.009",
+        "Side vent frame.005",
+        "Armor side bolt.010",
+        "Armor side bolt.011",
+        "Captive hex bolt.012",
+        "Captive hex bolt.013",
+        "Captive hex bolt.014",
+        "Captive hex bolt.015",
+        "Captive hex bolt.016",
+        "Captive hex bolt.017",
+        "Captive hex bolt.018",
+        "Captive hex bolt.019",
+        "Deck protected hydraulic line.001"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Warm",
+      "surfaces": [
+        "Deck light",
+        "Deck light.001",
+        "Deck light.002",
+        "Deck light.003",
+        "Exposed deck light",
+        "Exposed deck light.001",
+        "Exposed deck light.002",
+        "Exposed deck light.003"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Warning",
+      "surfaces": [
+        "Front safety stripe",
+        "Front safety stripe.001",
+        "Front safety stripe.002",
+        "Front safety stripe.003"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Warm",
+      "color_linear": [
+        0.95,
+        0.7,
+        0.32
+      ],
+      "strength": 3,
+      "units": "Blender shader strength",
+      "default": "on",
+      "regions": [
+        "Deck light",
+        "Deck light.001",
+        "Deck light.002",
+        "Deck light.003",
+        "Exposed deck light",
+        "Exposed deck light.001",
+        "Exposed deck light.002",
+        "Exposed deck light.003"
+      ]
+    }
+  ],
+  "mounts": [
+    {
+      "id": "deck",
+      "node": "mount.deck",
+      "role": "bearing",
+      "position": [
+        0,
+        0,
+        1.0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "bearing",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": [],
+  "geometry_objects": 162
+}

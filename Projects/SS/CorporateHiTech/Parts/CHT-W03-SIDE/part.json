@@ -1,0 +1,296 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W03-SIDE",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Cyclone: бронекассета подачи",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "arched-feed-shell",
+      "shape": "profile",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "outline": [
+        [
+          -0.39,
+          0.065
+        ],
+        [
+          -0.37,
+          0.25
+        ],
+        [
+          -0.29,
+          0.365
+        ],
+        [
+          -0.2,
+          0.405
+        ],
+        [
+          0.14,
+          0.405
+        ],
+        [
+          0.27,
+          0.35
+        ],
+        [
+          0.365,
+          0.2
+        ],
+        [
+          0.39,
+          0.075
+        ],
+        [
+          0.28,
+          0.025
+        ],
+        [
+          0.22,
+          0.18
+        ],
+        [
+          0.13,
+          0.25
+        ],
+        [
+          -0.17,
+          0.25
+        ],
+        [
+          -0.25,
+          0.16
+        ],
+        [
+          -0.27,
+          0.025
+        ]
+      ],
+      "holes": [],
+      "depth": 0.27,
+      "bevel": 0.004,
+      "material": "armor",
+      "rotationEulerXYZ": [
+        1.5707963267948966,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "id": "feed-spindle",
+      "shape": "lathe",
+      "position": [
+        0,
+        -0.015,
+        0.145
+      ],
+      "profile": [
+        [
+          0.075,
+          -0.145
+        ],
+        [
+          0.125,
+          -0.115
+        ],
+        [
+          0.145,
+          -0.07
+        ],
+        [
+          0.145,
+          0.07
+        ],
+        [
+          0.125,
+          0.115
+        ],
+        [
+          0.075,
+          0.145
+        ],
+        [
+          0,
+          0.145
+        ],
+        [
+          0,
+          -0.145
+        ],
+        [
+          0.075,
+          -0.145
+        ]
+      ],
+      "segments": 48,
+      "axis": "X",
+      "material": "graphite"
+    },
+    {
+      "id": "feed-underbridge",
+      "shape": "profile",
+      "position": [
+        0,
+        0,
+        0.025
+      ],
+      "outline": [
+        [
+          -0.12,
+          -0.32
+        ],
+        [
+          0.12,
+          -0.32
+        ],
+        [
+          0.14,
+          0.23
+        ],
+        [
+          0.09,
+          0.32
+        ],
+        [
+          -0.09,
+          0.32
+        ],
+        [
+          -0.14,
+          0.23
+        ]
+      ],
+      "holes": [],
+      "depth": 0.035,
+      "bevel": 0.004,
+      "material": "edge"
+    },
+    {
+      "id": "feed-charge-line",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.025,
+        0.412
+      ],
+      "size": [
+        0.035,
+        0.3,
+        0.008
+      ],
+      "radius": 0.003,
+      "material": "cyan"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; optional SharedTextures via existing viewer box-projection UV",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "feed-charge-line",
+      "geometry": "feed-charge-line",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-W03-HULL.side-L|CHT-W03-HULL.side-R",
+      "role": "mechanical",
+      "parentNode": "root"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.15,
+      -0.4,
+      0
+    ],
+    "max": [
+      0.15,
+      0.4,
+      0.42
+    ],
+    "size": [
+      0.3,
+      0.8,
+      0.42
+    ]
+  }
+}

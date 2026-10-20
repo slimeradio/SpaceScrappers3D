@@ -1,0 +1,624 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-P05",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Лазерный эмиттер",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "hex-core",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0.2,
+        0
+      ],
+      "radius": 0.105,
+      "radiusTop": 0.105,
+      "depth": 0.48,
+      "axis": "Y",
+      "segments": 6,
+      "material": "graphite"
+    },
+    {
+      "id": "rear-receiver",
+      "shape": "loft",
+      "position": [
+        0,
+        0.065,
+        0.055
+      ],
+      "outline": [
+        [
+          -0.095,
+          -0.14
+        ],
+        [
+          0.095,
+          -0.14
+        ],
+        [
+          0.15,
+          -0.08500000000000002
+        ],
+        [
+          0.15,
+          0.08500000000000002
+        ],
+        [
+          0.095,
+          0.14
+        ],
+        [
+          -0.095,
+          0.14
+        ],
+        [
+          -0.15,
+          0.08500000000000002
+        ],
+        [
+          -0.15,
+          -0.08500000000000002
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.12,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.0576,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0384,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.12,
+          "scale": [
+            0.82,
+            0.82
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "forward-shroud",
+      "shape": "loft",
+      "position": [
+        0,
+        0.265,
+        0.035
+      ],
+      "outline": [
+        [
+          -0.065,
+          -0.11
+        ],
+        [
+          0.065,
+          -0.11
+        ],
+        [
+          0.125,
+          -0.05
+        ],
+        [
+          0.125,
+          0.05
+        ],
+        [
+          0.065,
+          0.11
+        ],
+        [
+          -0.065,
+          0.11
+        ],
+        [
+          -0.125,
+          0.05
+        ],
+        [
+          -0.125,
+          -0.05
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.105,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.05039999999999999,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0336,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.105,
+          "scale": [
+            0.72,
+            0.72
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "separation",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.18,
+        0.04
+      ],
+      "size": [
+        0.255,
+        0.018,
+        0.19
+      ],
+      "radius": 0.002,
+      "material": "rubber"
+    },
+    {
+      "id": "upper-rail",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.14,
+        0.185
+      ],
+      "size": [
+        0.12,
+        0.37,
+        0.032
+      ],
+      "radius": 0.003,
+      "material": "graphite"
+    },
+    {
+      "id": "rail-light",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.13,
+        0.204
+      ],
+      "size": [
+        0.027,
+        0.26,
+        0.008
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "hex-muzzle",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0.403,
+        0
+      ],
+      "radius": 0.137,
+      "radiusTop": 0.137,
+      "depth": 0.16,
+      "axis": "Y",
+      "segments": 6,
+      "material": "edge"
+    },
+    {
+      "id": "recess",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0.486,
+        0
+      ],
+      "radius": 0.113,
+      "radiusTop": 0.113,
+      "depth": 0.009,
+      "axis": "Y",
+      "segments": 6,
+      "material": "rubber"
+    },
+    {
+      "id": "optics-bed",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.492,
+        0
+      ],
+      "size": [
+        0.134,
+        0.007,
+        0.109
+      ],
+      "radius": 0.004,
+      "material": "glass"
+    },
+    {
+      "id": "slit-upper",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.498,
+        0.034
+      ],
+      "size": [
+        0.101,
+        0.005,
+        0.013
+      ],
+      "radius": 0.001,
+      "material": "cyan"
+    },
+    {
+      "id": "slit-lower",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.498,
+        -0.034
+      ],
+      "size": [
+        0.101,
+        0.005,
+        0.013
+      ],
+      "radius": 0.001,
+      "material": "cyan"
+    },
+    {
+      "id": "central-iris",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.499,
+        0
+      ],
+      "size": [
+        0.043,
+        0.005,
+        0.035
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "side-rail--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.148,
+        0.12,
+        0.037
+      ],
+      "size": [
+        0.023,
+        0.28,
+        0.07
+      ],
+      "radius": 0.003,
+      "material": "edge"
+    },
+    {
+      "id": "side-slot--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.162,
+        0.08,
+        0.038
+      ],
+      "size": [
+        0.006,
+        0.09,
+        0.021
+      ],
+      "radius": 0.001,
+      "material": "rubber"
+    },
+    {
+      "id": "side-rib--1-0",
+      "shape": "roundedBox",
+      "position": [
+        -0.158,
+        0.2,
+        0.03
+      ],
+      "size": [
+        0.022,
+        0.015,
+        0.105
+      ],
+      "radius": 0.002,
+      "material": "graphite"
+    },
+    {
+      "id": "side-rib--1-1",
+      "shape": "roundedBox",
+      "position": [
+        -0.158,
+        0.24200000000000002,
+        0.03
+      ],
+      "size": [
+        0.022,
+        0.015,
+        0.105
+      ],
+      "radius": 0.002,
+      "material": "graphite"
+    },
+    {
+      "id": "side-rib--1-2",
+      "shape": "roundedBox",
+      "position": [
+        -0.158,
+        0.28400000000000003,
+        0.03
+      ],
+      "size": [
+        0.022,
+        0.015,
+        0.105
+      ],
+      "radius": 0.002,
+      "material": "graphite"
+    },
+    {
+      "id": "side-rail-1",
+      "shape": "roundedBox",
+      "position": [
+        0.148,
+        0.12,
+        0.037
+      ],
+      "size": [
+        0.023,
+        0.28,
+        0.07
+      ],
+      "radius": 0.003,
+      "material": "edge"
+    },
+    {
+      "id": "side-slot-1",
+      "shape": "roundedBox",
+      "position": [
+        0.162,
+        0.08,
+        0.038
+      ],
+      "size": [
+        0.006,
+        0.09,
+        0.021
+      ],
+      "radius": 0.001,
+      "material": "rubber"
+    },
+    {
+      "id": "side-rib-1-0",
+      "shape": "roundedBox",
+      "position": [
+        0.158,
+        0.2,
+        0.03
+      ],
+      "size": [
+        0.022,
+        0.015,
+        0.105
+      ],
+      "radius": 0.002,
+      "material": "graphite"
+    },
+    {
+      "id": "side-rib-1-1",
+      "shape": "roundedBox",
+      "position": [
+        0.158,
+        0.24200000000000002,
+        0.03
+      ],
+      "size": [
+        0.022,
+        0.015,
+        0.105
+      ],
+      "radius": 0.002,
+      "material": "graphite"
+    },
+    {
+      "id": "side-rib-1-2",
+      "shape": "roundedBox",
+      "position": [
+        0.158,
+        0.28400000000000003,
+        0.03
+      ],
+      "size": [
+        0.022,
+        0.015,
+        0.105
+      ],
+      "radius": 0.002,
+      "material": "graphite"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "glass",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "rail-light",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    },
+    {
+      "id": "optics-bed",
+      "material": "glass",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    },
+    {
+      "id": "slit-upper",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    },
+    {
+      "id": "slit-lower",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    },
+    {
+      "id": "central-iris",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "emitter-in",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible": "CHT-P03.emitter-*"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [
+    {
+      "id": "muzzle",
+      "role": "beam-origin",
+      "position": [
+        0,
+        0.501,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "part-root",
+      "space": "part-local"
+    }
+  ],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.169,
+      -0.07500000000000001,
+      -0.137
+    ],
+    "max": [
+      0.169,
+      0.5015,
+      0.208
+    ],
+    "size": [
+      0.338,
+      0.5765,
+      0.345
+    ]
+  }
+}

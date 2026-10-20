@@ -1,0 +1,50 @@
+{
+  "checks_passed": true,
+  "validated_before_assembly": true,
+  "meshes": [
+    {
+      "mesh": "Dense thermal spine",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.6249600082683556,
+      "evaluated_triangles": 12,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true,
+      "pass": true
+    },
+    {
+      "mesh": "Continuous insulated thermal core",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 1.118564150320232,
+      "evaluated_triangles": 92,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true,
+      "pass": true
+    },
+    {
+      "mesh": "Stepped insulated runner",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.16215999531030695,
+      "evaluated_triangles": 60,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true,
+      "pass": true
+    },
+    {
+      "mesh": "Stepped insulated runner.001",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.16215999531030698,
+      "evaluated_triangles": 60,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true,
+      "pass": true
+    }
+  ]
+}

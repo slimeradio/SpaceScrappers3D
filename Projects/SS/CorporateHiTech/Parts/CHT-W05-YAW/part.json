@@ -1,0 +1,649 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W05-YAW",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Bastion: поворотный мост",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "bridge",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.22,
+        0.15
+      ],
+      "outline": [
+        [
+          -0.7749999999999999,
+          -0.625
+        ],
+        [
+          0.7749999999999999,
+          -0.625
+        ],
+        [
+          0.975,
+          -0.425
+        ],
+        [
+          0.975,
+          0.425
+        ],
+        [
+          0.7749999999999999,
+          0.625
+        ],
+        [
+          -0.7749999999999999,
+          0.625
+        ],
+        [
+          -0.975,
+          0.425
+        ],
+        [
+          -0.975,
+          -0.425
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.15,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.13799999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.134,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.15,
+          "scale": [
+            0.9,
+            0.9
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "front-shield",
+      "shape": "loft",
+      "position": [
+        0,
+        0.23,
+        0.19
+      ],
+      "outline": [
+        [
+          -0.86,
+          -0.165
+        ],
+        [
+          0.86,
+          -0.165
+        ],
+        [
+          0.94,
+          -0.085
+        ],
+        [
+          0.94,
+          0.085
+        ],
+        [
+          0.86,
+          0.165
+        ],
+        [
+          -0.86,
+          0.165
+        ],
+        [
+          -0.94,
+          0.085
+        ],
+        [
+          -0.94,
+          -0.085
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.15,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.13799999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.134,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.15,
+          "scale": [
+            0.82,
+            0.82
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "central-spine",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.27,
+        0.42
+      ],
+      "outline": [
+        [
+          -0.033,
+          -0.515
+        ],
+        [
+          0.033,
+          -0.515
+        ],
+        [
+          0.11,
+          -0.438
+        ],
+        [
+          0.11,
+          0.438
+        ],
+        [
+          0.033,
+          0.515
+        ],
+        [
+          -0.033,
+          0.515
+        ],
+        [
+          -0.11,
+          0.438
+        ],
+        [
+          -0.11,
+          -0.438
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.13,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.11800000000000001,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.114,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.13,
+          "scale": [
+            0.75,
+            0.75
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "wing--1",
+      "shape": "loft",
+      "position": [
+        -0.96,
+        -0.32,
+        0.27
+      ],
+      "outline": [
+        [
+          -0.05500000000000001,
+          -0.435
+        ],
+        [
+          0.05500000000000001,
+          -0.435
+        ],
+        [
+          0.135,
+          -0.355
+        ],
+        [
+          0.135,
+          0.355
+        ],
+        [
+          0.05500000000000001,
+          0.435
+        ],
+        [
+          -0.05500000000000001,
+          0.435
+        ],
+        [
+          -0.135,
+          0.355
+        ],
+        [
+          -0.135,
+          -0.355
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.175,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.16299999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.15899999999999997,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.175,
+          "scale": [
+            0.72,
+            0.72
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "wing-light--1",
+      "shape": "roundedBox",
+      "position": [
+        -1.03,
+        -0.29,
+        0.454
+      ],
+      "size": [
+        0.022,
+        0.55,
+        0.012
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "wing-1",
+      "shape": "loft",
+      "position": [
+        0.96,
+        -0.32,
+        0.27
+      ],
+      "outline": [
+        [
+          -0.05500000000000001,
+          -0.435
+        ],
+        [
+          0.05500000000000001,
+          -0.435
+        ],
+        [
+          0.135,
+          -0.355
+        ],
+        [
+          0.135,
+          0.355
+        ],
+        [
+          0.05500000000000001,
+          0.435
+        ],
+        [
+          -0.05500000000000001,
+          0.435
+        ],
+        [
+          -0.135,
+          0.355
+        ],
+        [
+          -0.135,
+          -0.355
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.175,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.16299999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.15899999999999997,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.175,
+          "scale": [
+            0.72,
+            0.72
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "wing-light-1",
+      "shape": "roundedBox",
+      "position": [
+        1.03,
+        -0.29,
+        0.454
+      ],
+      "size": [
+        0.022,
+        0.55,
+        0.012
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; viewer box-projected UV for optional SharedTextures",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "wing-light--1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "wing-light-1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W05-BASE.yaw"
+    },
+    {
+      "id": "launcher-0",
+      "role": "mount",
+      "position": [
+        -0.731,
+        -0.15,
+        0.34
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W05-CASSETTE.base"
+    },
+    {
+      "id": "launcher-1",
+      "role": "mount",
+      "position": [
+        -0.244,
+        -0.15,
+        0.34
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W05-CASSETTE.base"
+    },
+    {
+      "id": "launcher-2",
+      "role": "mount",
+      "position": [
+        0.244,
+        -0.15,
+        0.34
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W05-CASSETTE.base"
+    },
+    {
+      "id": "launcher-3",
+      "role": "mount",
+      "position": [
+        0.731,
+        -0.15,
+        0.34
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W05-CASSETTE.base"
+    },
+    {
+      "id": "sensor",
+      "role": "mount",
+      "position": [
+        0,
+        -0.63,
+        0.55
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W05-SENSOR.base"
+    },
+    {
+      "id": "power",
+      "role": "mount",
+      "position": [
+        0,
+        -0.9,
+        0.18
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W05-POWER.base"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -1.095,
+      -0.845,
+      0.0
+    ],
+    "max": [
+      1.095,
+      0.405,
+      0.55
+    ],
+    "size": [
+      2.19,
+      1.25,
+      0.55
+    ]
+  }
+}

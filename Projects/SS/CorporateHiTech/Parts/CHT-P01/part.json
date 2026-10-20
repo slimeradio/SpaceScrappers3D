@@ -1,0 +1,901 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-P01",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Опорная платформа",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "octagonal-plinth",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.095
+      ],
+      "outline": [
+        [
+          -0.4,
+          -0.67
+        ],
+        [
+          0.4,
+          -0.67
+        ],
+        [
+          0.67,
+          -0.4
+        ],
+        [
+          0.67,
+          0.4
+        ],
+        [
+          0.4,
+          0.67
+        ],
+        [
+          -0.4,
+          0.67
+        ],
+        [
+          -0.67,
+          0.4
+        ],
+        [
+          -0.67,
+          -0.4
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.09,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.043199999999999995,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0288,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.09,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "deck-armor",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.199
+      ],
+      "outline": [
+        [
+          -0.375,
+          -0.635
+        ],
+        [
+          0.375,
+          -0.635
+        ],
+        [
+          0.635,
+          -0.375
+        ],
+        [
+          0.635,
+          0.375
+        ],
+        [
+          0.375,
+          0.635
+        ],
+        [
+          -0.375,
+          0.635
+        ],
+        [
+          -0.635,
+          0.375
+        ],
+        [
+          -0.635,
+          -0.375
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.025,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.012,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.008,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.025,
+          "scale": [
+            0.92,
+            0.92
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "center-bearing-seat",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0,
+        0.219
+      ],
+      "radius": 0.46,
+      "radiusTop": 0.46,
+      "depth": 0.022,
+      "axis": "Z",
+      "segments": 32,
+      "material": "edge"
+    },
+    {
+      "id": "anchor--1_-1",
+      "shape": "loft",
+      "position": [
+        -0.46,
+        -0.46,
+        0.065
+      ],
+      "outline": [
+        [
+          -0.09000000000000001,
+          -0.17
+        ],
+        [
+          0.09000000000000001,
+          -0.17
+        ],
+        [
+          0.17,
+          -0.09000000000000001
+        ],
+        [
+          0.17,
+          0.09000000000000001
+        ],
+        [
+          0.09000000000000001,
+          0.17
+        ],
+        [
+          -0.09000000000000001,
+          0.17
+        ],
+        [
+          -0.17,
+          0.09000000000000001
+        ],
+        [
+          -0.17,
+          -0.09000000000000001
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.065,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.0312,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.020800000000000003,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.065,
+          "scale": [
+            0.75,
+            0.75
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "anchor-bolt--1_-1",
+      "shape": "cylinder",
+      "position": [
+        -0.46,
+        -0.46,
+        0.134
+      ],
+      "radius": 0.025,
+      "radiusTop": 0.025,
+      "depth": 0.012,
+      "axis": "Z",
+      "segments": 6,
+      "material": "graphite"
+    },
+    {
+      "id": "anchor-notch--1_-1",
+      "shape": "roundedBox",
+      "position": [
+        -0.46,
+        -0.55,
+        0.134
+      ],
+      "size": [
+        0.075,
+        0.018,
+        0.007
+      ],
+      "radius": 0.006,
+      "material": "edge"
+    },
+    {
+      "id": "anchor--1_1",
+      "shape": "loft",
+      "position": [
+        -0.46,
+        0.46,
+        0.065
+      ],
+      "outline": [
+        [
+          -0.09000000000000001,
+          -0.17
+        ],
+        [
+          0.09000000000000001,
+          -0.17
+        ],
+        [
+          0.17,
+          -0.09000000000000001
+        ],
+        [
+          0.17,
+          0.09000000000000001
+        ],
+        [
+          0.09000000000000001,
+          0.17
+        ],
+        [
+          -0.09000000000000001,
+          0.17
+        ],
+        [
+          -0.17,
+          0.09000000000000001
+        ],
+        [
+          -0.17,
+          -0.09000000000000001
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.065,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.0312,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.020800000000000003,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.065,
+          "scale": [
+            0.75,
+            0.75
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "anchor-bolt--1_1",
+      "shape": "cylinder",
+      "position": [
+        -0.46,
+        0.46,
+        0.134
+      ],
+      "radius": 0.025,
+      "radiusTop": 0.025,
+      "depth": 0.012,
+      "axis": "Z",
+      "segments": 6,
+      "material": "graphite"
+    },
+    {
+      "id": "anchor-notch--1_1",
+      "shape": "roundedBox",
+      "position": [
+        -0.46,
+        0.55,
+        0.134
+      ],
+      "size": [
+        0.075,
+        0.018,
+        0.007
+      ],
+      "radius": 0.006,
+      "material": "edge"
+    },
+    {
+      "id": "anchor-1_-1",
+      "shape": "loft",
+      "position": [
+        0.46,
+        -0.46,
+        0.065
+      ],
+      "outline": [
+        [
+          -0.09000000000000001,
+          -0.17
+        ],
+        [
+          0.09000000000000001,
+          -0.17
+        ],
+        [
+          0.17,
+          -0.09000000000000001
+        ],
+        [
+          0.17,
+          0.09000000000000001
+        ],
+        [
+          0.09000000000000001,
+          0.17
+        ],
+        [
+          -0.09000000000000001,
+          0.17
+        ],
+        [
+          -0.17,
+          0.09000000000000001
+        ],
+        [
+          -0.17,
+          -0.09000000000000001
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.065,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.0312,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.020800000000000003,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.065,
+          "scale": [
+            0.75,
+            0.75
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "anchor-bolt-1_-1",
+      "shape": "cylinder",
+      "position": [
+        0.46,
+        -0.46,
+        0.134
+      ],
+      "radius": 0.025,
+      "radiusTop": 0.025,
+      "depth": 0.012,
+      "axis": "Z",
+      "segments": 6,
+      "material": "graphite"
+    },
+    {
+      "id": "anchor-notch-1_-1",
+      "shape": "roundedBox",
+      "position": [
+        0.46,
+        -0.55,
+        0.134
+      ],
+      "size": [
+        0.075,
+        0.018,
+        0.007
+      ],
+      "radius": 0.006,
+      "material": "edge"
+    },
+    {
+      "id": "anchor-1_1",
+      "shape": "loft",
+      "position": [
+        0.46,
+        0.46,
+        0.065
+      ],
+      "outline": [
+        [
+          -0.09000000000000001,
+          -0.17
+        ],
+        [
+          0.09000000000000001,
+          -0.17
+        ],
+        [
+          0.17,
+          -0.09000000000000001
+        ],
+        [
+          0.17,
+          0.09000000000000001
+        ],
+        [
+          0.09000000000000001,
+          0.17
+        ],
+        [
+          -0.09000000000000001,
+          0.17
+        ],
+        [
+          -0.17,
+          0.09000000000000001
+        ],
+        [
+          -0.17,
+          -0.09000000000000001
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.065,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.0312,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.020800000000000003,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.065,
+          "scale": [
+            0.75,
+            0.75
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "anchor-bolt-1_1",
+      "shape": "cylinder",
+      "position": [
+        0.46,
+        0.46,
+        0.134
+      ],
+      "radius": 0.025,
+      "radiusTop": 0.025,
+      "depth": 0.012,
+      "axis": "Z",
+      "segments": 6,
+      "material": "graphite"
+    },
+    {
+      "id": "anchor-notch-1_1",
+      "shape": "roundedBox",
+      "position": [
+        0.46,
+        0.55,
+        0.134
+      ],
+      "size": [
+        0.075,
+        0.018,
+        0.007
+      ],
+      "radius": 0.006,
+      "material": "edge"
+    },
+    {
+      "id": "status-sector-0",
+      "shape": "roundedBox",
+      "position": [
+        0.0,
+        0.595,
+        0.227
+      ],
+      "size": [
+        0.19,
+        0.012,
+        0.009
+      ],
+      "radius": 0.002,
+      "material": "cyan",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -0.0
+      ]
+    },
+    {
+      "id": "deck-score-0",
+      "shape": "roundedBox",
+      "position": [
+        0.0,
+        0.47,
+        0.228
+      ],
+      "size": [
+        0.17,
+        0.012,
+        0.006
+      ],
+      "radius": 0.001,
+      "material": "rubber",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -0.0
+      ]
+    },
+    {
+      "id": "status-sector-1",
+      "shape": "roundedBox",
+      "position": [
+        0.595,
+        3.643324227463376e-17,
+        0.227
+      ],
+      "size": [
+        0.19,
+        0.012,
+        0.009
+      ],
+      "radius": 0.002,
+      "material": "cyan",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -1.5707963267948966
+      ]
+    },
+    {
+      "id": "deck-score-1",
+      "shape": "roundedBox",
+      "position": [
+        0.47,
+        2.87791997799628e-17,
+        0.228
+      ],
+      "size": [
+        0.17,
+        0.012,
+        0.006
+      ],
+      "radius": 0.001,
+      "material": "rubber",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -1.5707963267948966
+      ]
+    },
+    {
+      "id": "status-sector-2",
+      "shape": "roundedBox",
+      "position": [
+        7.286648454926751e-17,
+        -0.595,
+        0.227
+      ],
+      "size": [
+        0.19,
+        0.012,
+        0.009
+      ],
+      "radius": 0.002,
+      "material": "cyan",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -3.141592653589793
+      ]
+    },
+    {
+      "id": "deck-score-2",
+      "shape": "roundedBox",
+      "position": [
+        5.75583995599256e-17,
+        -0.47,
+        0.228
+      ],
+      "size": [
+        0.17,
+        0.012,
+        0.006
+      ],
+      "radius": 0.001,
+      "material": "rubber",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -3.141592653589793
+      ]
+    },
+    {
+      "id": "status-sector-3",
+      "shape": "roundedBox",
+      "position": [
+        -0.595,
+        -1.0929972682390126e-16,
+        0.227
+      ],
+      "size": [
+        0.19,
+        0.012,
+        0.009
+      ],
+      "radius": 0.002,
+      "material": "cyan",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -4.71238898038469
+      ]
+    },
+    {
+      "id": "deck-score-3",
+      "shape": "roundedBox",
+      "position": [
+        -0.47,
+        -8.63375993398884e-17,
+        0.228
+      ],
+      "size": [
+        0.17,
+        0.012,
+        0.006
+      ],
+      "radius": 0.001,
+      "material": "rubber",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -4.71238898038469
+      ]
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "status-sector-0",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    },
+    {
+      "id": "status-sector-1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    },
+    {
+      "id": "status-sector-2",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    },
+    {
+      "id": "status-sector-3",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "deck",
+      "role": "deck-in",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "deck"
+    },
+    {
+      "id": "bearing",
+      "role": "bearing-out",
+      "position": [
+        0,
+        0,
+        0.23
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P02.base"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.67,
+      -0.67,
+      0.0
+    ],
+    "max": [
+      0.67,
+      0.67,
+      0.2315
+    ],
+    "size": [
+      1.34,
+      1.34,
+      0.2315
+    ]
+  }
+}

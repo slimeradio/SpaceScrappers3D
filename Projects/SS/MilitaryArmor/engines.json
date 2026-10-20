@@ -1,0 +1,55 @@
+{
+  "schema": "MilitaryArmor.EngineAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-E01",
+      "title": "Средний двигатель",
+      "catalog_id": "thruster-med",
+      "catalog_grid": [
+        1,
+        2
+      ],
+      "source": "Blocks/MA-E01/MA-E01.blend",
+      "viewer_asset": "Blocks/MA-E01/Exports/MA-E01.glb",
+      "thrust_sources": 1,
+      "parts": [
+        "MA-E01-P01",
+        "MA-E01-P02",
+        "MA-E01-P03",
+        "MA-E01-P04",
+        "MA-E01-P05"
+      ],
+      "triangles": 6592,
+      "meshes": 31
+    },
+    {
+      "id": "MA-E02",
+      "title": "Малый тройной двигатель",
+      "catalog_id": "thruster-small-3way",
+      "catalog_grid": [
+        3,
+        2
+      ],
+      "source": "Blocks/MA-E02/MA-E02.blend",
+      "viewer_asset": "Blocks/MA-E02/Exports/MA-E02.glb",
+      "thrust_sources": 3,
+      "parts": [
+        "MA-E01-P05",
+        "MA-E02-P01",
+        "MA-E02-P02",
+        "MA-E02-P03"
+      ],
+      "triangles": 13324,
+      "meshes": 50
+    }
+  ],
+  "catalog_Thruster_coverage_complete": true,
+  "axes": {
+    "exhaust": "-Y",
+    "thrust": "+Y",
+    "up": "+Z"
+  },
+  "physical_scale": "BU unspecified",
+  "game_validation": false,
+  "checks_passed": true
+}

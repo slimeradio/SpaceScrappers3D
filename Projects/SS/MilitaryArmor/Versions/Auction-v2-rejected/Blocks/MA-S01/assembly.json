@@ -1,0 +1,74 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-S01",
+  "version": "2.0",
+  "title": "Блок аукциона базы",
+  "catalog_id": "auction-base",
+  "catalog_grid": [
+    1,
+    1
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Pedestal",
+      "part_id": "MA-S01-R2-P01",
+      "version": "2.0",
+      "source": "../../../../Parts/MA-S01-R2-P01/MA-S01-R2-P01.blend",
+      "parent": "MA-S01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Interface-console",
+      "part_id": "MA-S01-R2-P02",
+      "version": "2.0",
+      "source": "../../../../Parts/MA-S01-R2-P02/MA-S01-R2-P02.blend",
+      "parent": "MA-S01",
+      "translation": [
+        0,
+        -0.08,
+        0.78
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Pedestal",
+      "parent_socket": "Interface-console",
+      "child_instance": "Interface-console",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Блок аукциона базы: широкий наклонный интерфейс доминирует над открытой передней развилкой опор и узкой задней консольной стойкой. Отчётливая направленность -Y и Т-образный силуэт сверху, без грузовой крышки и бронеплеч. Только умеренная эмиссия интерфейса; без надписей и фиктивных торговых данных. Модель не меняет условия появления рынка или игровые правила."
+}

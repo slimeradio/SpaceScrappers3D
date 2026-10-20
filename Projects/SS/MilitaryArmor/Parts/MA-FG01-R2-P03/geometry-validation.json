@@ -1,0 +1,50 @@
+{
+  "checks_passed": true,
+  "meshes": [
+    {
+      "mesh": "Pump body",
+      "nonmanifold": 0,
+      "source_degenerate": 0,
+      "signed_volume": 0.1720319974995966,
+      "finite": true,
+      "triangles": 140,
+      "evaluated_degenerate": 0,
+      "materials": true,
+      "pass": true
+    },
+    {
+      "mesh": "Pump neck",
+      "nonmanifold": 0,
+      "source_degenerate": 0,
+      "signed_volume": 0.018000000660408477,
+      "finite": true,
+      "triangles": 140,
+      "evaluated_degenerate": 0,
+      "materials": true,
+      "pass": true
+    },
+    {
+      "mesh": "Star head",
+      "nonmanifold": 0,
+      "source_degenerate": 0,
+      "signed_volume": 0.035680607233163714,
+      "finite": true,
+      "triangles": 220,
+      "evaluated_degenerate": 0,
+      "materials": true,
+      "pass": true
+    },
+    {
+      "mesh": "Pump side manifold",
+      "nonmanifold": 0,
+      "source_degenerate": 0,
+      "signed_volume": 0.03166799934053415,
+      "finite": true,
+      "triangles": 220,
+      "evaluated_degenerate": 0,
+      "materials": true,
+      "pass": true
+    }
+  ],
+  "validated_before_assembly": true
+}

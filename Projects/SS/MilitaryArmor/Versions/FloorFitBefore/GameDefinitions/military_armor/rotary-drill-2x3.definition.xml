@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="rotary-drill-2x3" Category="Добыча" Type="Drill" MaxHealth="8000" BlockMass="12">
+    <!-- Initial balance scaled by footprint from the current functional analogues. -->
+    <Size X="2" Y="3"/>
+    <Colliders><ConvexCollider Data="0 0 2 0 2 3 0 3"/></Colliders>
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="36"/>
+        <DesignCost><Item Ref="11" Amount="360"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="36"/></BuildCost>
+    </Construction>
+    <Resources><Resource Id="1" StoreInStorage="true" Capacity="200.0" WorkingThreshold="40.0" TargetStorage="140.0" InitialStorage="140.0" MaxInput="120.0" Priority="30"/></Resources>
+    <Drill SpeedMultiplier="2" PowerPerSecond="8"><Head X="0.000000" Y="-1.220000" Radius="0.65"/><Head X="2.000000" Y="-1.220000" Radius="0.65"/></Drill>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="rotary-drill-2x3"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

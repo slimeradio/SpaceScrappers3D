@@ -1,0 +1,171 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-SP01",
+  "version": "2.0+floor1",
+  "title": "Солнечная панель 1×2 — визуальная заготовка",
+  "catalog_id": "solar-1x2",
+  "catalog_grid": [
+    1,
+    2
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "Assembly: 1 BU = 1 gameplay cell; native part units transformed by ModelFit"
+  },
+  "instances": [
+    {
+      "id": "Solar-truss",
+      "part_id": "MA-SP01-R2-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-SP01-R2-P01/MA-SP01-R2-P01.blend",
+      "parent": "MA-SP01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Photovoltaic-field",
+      "part_id": "MA-SP01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-SP01-R2-P02/MA-SP01-R2-P02.blend",
+      "parent": "MA-SP01",
+      "translation": [
+        0,
+        0,
+        0.3
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Floor",
+      "part_id": "MA-FLOOR-rect-1x2",
+      "version": "1.0",
+      "source": "../../Parts/MA-FLOOR-rect-1x2/MA-FLOOR-rect-1x2.blend",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Solar-truss",
+      "parent_socket": "Photovoltaic-field",
+      "child_instance": "Photovoltaic-field",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Солнечная панель: единое тонкое поле пассивных фотоэлементов, скошенные торцы, тонкая кромка и две поперечные опоры под полем. Сплошной спокойный силуэт противопоставлен открытой гребёнке радиатора. Без эмиссии и раскладных механизмов. Визуальная заготовка без игрового XML, мощность не задавалась.",
+  "catalog_status": "visual concept; no game XML",
+  "nodes": [
+    {
+      "id": "MA-SP01",
+      "parent": "ModelFit",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ModelFit",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4666666790291118,
+        0.4666666790291118,
+        0.4666666790291118
+      ]
+    },
+    {
+      "id": "Floor",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "floor_fit": {
+    "floor": "MA-FLOOR-rect-1x2",
+    "margin_cells": 0.08,
+    "uniform_scale": 0.4666666790291118,
+    "translation": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "body_instances": [
+      "Solar-truss",
+      "Photovoltaic-field"
+    ],
+    "protrusion_instances": []
+  }
+}

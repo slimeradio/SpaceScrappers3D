@@ -1,0 +1,118 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-muzzle-brake",
+  "version": "2.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-muzzle-brake.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "scale_policy": "positive uniform instance scale; nonuniform requires explicit parametric variant and revalidation",
+  "sockets": [
+    {
+      "id": "mount",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "space": "local"
+    }
+  ],
+  "mount_regions": [],
+  "functional_points": [
+    {
+      "id": "muzzle",
+      "role": "projectile_origin",
+      "position": [
+        0,
+        -0.64,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "space": "local"
+    }
+  ],
+  "animations": [],
+  "bind_pose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotation_euler_xyz_radians": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "materials": [
+    "CM.graphite",
+    "CM.rubber",
+    "CM.steel"
+  ],
+  "emissive_regions": [],
+  "dependencies": [
+    "../../Materials/CM-T01/materials.json"
+  ],
+  "compatibility": "authoring metadata only; game mapping pending",
+  "revision_note": "Revision 2: no typography; sharp structural chamfers retain 8 segments. Prior revision archived in Revisions/CM-T01-v1.0.0.zip.",
+  "bounds": {
+    "min": [
+      -0.38999998569488525,
+      -0.6399999856948853,
+      -0.38999998569488525
+    ],
+    "max": [
+      0.38999998569488525,
+      0.06000000238418579,
+      0.38999998569488525
+    ],
+    "dimensions": [
+      0.7799999713897705,
+      0.699999988079071,
+      0.7799999713897705
+    ]
+  }
+}

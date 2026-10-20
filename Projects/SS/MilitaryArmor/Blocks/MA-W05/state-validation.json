@@ -1,0 +1,259 @@
+{
+  "id": "MA-W05",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 7,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-W05::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W05::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W05::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W05::cool_down",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W05::fire",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [
+    {
+      "node": "Yaw",
+      "parameter": "aim_yaw",
+      "sampled_values": [
+        0.0,
+        3.1415927410125732,
+        6.2831854820251465
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Elevation",
+      "parameter": "aim_pitch",
+      "sampled_values": [
+        -0.20943951606750488,
+        -0.06981316953897476,
+        0.06981316953897476
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Recoil",
+      "parameter": "recoil_Recoil",
+      "sampled_values": [
+        0.0,
+        0.07999999821186066,
+        0.1599999964237213
+      ],
+      "driver_valid": true
+    }
+  ],
+  "materials": [
+    {
+      "object": "Hardpoint::Hardpoint diagnostic",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Hardpoint::Hardpoint diagnostic.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Hardpoint::Hardpoint diagnostic.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Hardpoint::Hardpoint diagnostic.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Hardpoint::Hardpoint diagnostic.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Hardpoint::Hardpoint diagnostic.005",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "FanCradle::Swept power conduit",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "FanCradle::Swept power conduit.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Aperture field index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Field tile diagnostic",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Aperture field index.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Field tile diagnostic.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Aperture field index.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Field tile diagnostic.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Aperture field index.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Field tile diagnostic.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Aperture field index.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Field tile diagnostic.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Aperture field index.005",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Field tile diagnostic.005",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Aperture field index.006",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ScatterAperture::Field tile diagnostic.006",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "LeftFeed::Capacitor state",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "LeftFeed::Capacitor state.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "LeftFeed::Capacitor state.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "RightFeed::Capacitor state",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "RightFeed::Capacitor state.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "RightFeed::Capacitor state.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Service::Cartridge status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.001",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.002",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

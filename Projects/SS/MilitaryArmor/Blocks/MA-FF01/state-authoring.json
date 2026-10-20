@@ -1,0 +1,219 @@
+{
+  "schema": "MilitaryArmor.StateAuthoring/1",
+  "id": "MA-FF01",
+  "game_validated": false,
+  "authoring_units": "BU; normalized controls; not game timings",
+  "controls": {
+    "power": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "Electrical availability; independent from retained heat/fill"
+    },
+    "activity": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Actual work/load; zero means idle"
+    },
+    "fault": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Externally supplied fault, not inferred"
+    },
+    "heat": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Retained normalized heat; independent from power"
+    },
+    "cycle_turns": {
+      "default": 0,
+      "min": 0,
+      "max": 100000,
+      "description": "Accumulated turns; preserve phase when stopping"
+    }
+  },
+  "motion": [
+    {
+      "node": "FinalProcessDrum::WorkDrum",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "cycle_turns",
+      "expression": "-0.0+t*6.283185307179586"
+    },
+    {
+      "node": "FrontTransferHead::WorkPump",
+      "path": "rotation_euler",
+      "axis": 2,
+      "parameter": "cycle_turns",
+      "expression": "0.0+t*6.283185307179586"
+    },
+    {
+      "node": "RearTransferHead::WorkPump",
+      "path": "rotation_euler",
+      "axis": 2,
+      "parameter": "cycle_turns",
+      "expression": "0.0+t*6.283185307179586"
+    }
+  ],
+  "materials": [
+    {
+      "object": "TallWorkingStage::Small status index",
+      "slot": 0,
+      "material": "MA-FF01::TallWorkingStage::Small status index::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "CrossProcessChamber::Narrow embedded process indicator",
+      "slot": 0,
+      "material": "MA-FF01::CrossProcessChamber::Narrow embedded process indicator::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "FinalProcessDrum::Recessed status slit.001",
+      "slot": 0,
+      "material": "MA-FF01::FinalProcessDrum::Recessed status slit.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "name": "MA-FF01::work_loop",
+      "parameters": [
+        "activity",
+        "cycle_turns"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": true,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-FF01::start",
+      "parameters": [
+        "activity",
+        "cycle_turns"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-FF01::stop",
+      "parameters": [
+        "activity",
+        "cycle_turns"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-FF01::activate",
+      "parameters": [
+        "power",
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-FF01::deactivate",
+      "parameters": [
+        "activity",
+        "power"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-FF01::heat_up",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-FF01::cool_down",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        97
+      ],
+      "loop": false,
+      "authoring_only": true
+    }
+  ],
+  "events": [],
+  "presets": {
+    "off": {
+      "power": 0,
+      "activity": 0
+    },
+    "idle": {
+      "power": 1,
+      "activity": 0
+    },
+    "working": {
+      "power": 1,
+      "activity": 1
+    },
+    "hot_off": {
+      "power": 0,
+      "activity": 0,
+      "heat": 1
+    },
+    "cold": {
+      "heat": 0
+    },
+    "hot": {
+      "heat": 1
+    }
+  },
+  "phase_policy": "cycle_turns is integrated phase, not speed. Stop retains phase. NLA cycle repetition must use cyclic extrapolation/REPEAT_OFFSET for spin; never reset turns on start. Clips start from relative phase 0; apply current phase offset when sequencing.",
+  "controller": "MA-FF01",
+  "legacy_animation_metadata": []
+}

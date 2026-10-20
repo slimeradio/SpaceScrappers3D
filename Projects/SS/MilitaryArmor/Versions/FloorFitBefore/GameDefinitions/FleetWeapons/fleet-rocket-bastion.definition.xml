@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="fleet-rocket-bastion" Category="Оружие" Type="Turret" MaxHealth="7200" BlockMass="17">
+  <Resources>
+    <Resource StoreInStorage="true" Id="1" Capacity="240" WorkingThreshold="1" TargetStorage="240" InitialStorage="240" MaxInput="120" UsePerShot="10" Priority="30" />
+  </Resources>
+  <Construction BaseCreationSeconds="1">
+    <Point Id="complexity" Sum="120" />
+    <Point Id="weapon-load" Sum="120" />
+    <DesignCost>
+      <Item Ref="11" Amount="1200" />
+    </DesignCost>
+    <BuildCost>
+      <Item Ref="11" Amount="120" />
+    </BuildCost>
+  </Construction>
+  <Heat Capacity="480" Input="0" Output="12" EnergyFraction="0.8" Background="0" WorkHeat="0" Radiator="0" Shutdown="0.9" Resume="0.5" DamagePerSecond="0" Action="Disable" />
+  <Size X="3" Y="3" />
+  <Turret Ref="fleet-rocket-bastion-mount" />
+  <WeaponDefinition Ref="fleet-rocket-bastion-weapon" />
+  <Colliders>
+    <ConvexCollider Data="0 0 3 0 3 3 0 3" />
+  </Colliders>
+  <Repair Version="2">
+    <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33" />
+    <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33" />
+  </Repair>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="fleet-rocket-bastion"/>
+</Block>

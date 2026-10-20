@@ -1,0 +1,127 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-bastion-cradle",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-bastion-cradle.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "sockets": [
+    {
+      "id": "elevation",
+      "position": [
+        0,
+        0,
+        0.81
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "mount",
+      "space": "local"
+    }
+  ],
+  "functional_points": [],
+  "mount_regions": [],
+  "animations": [],
+  "animation_tracks": [],
+  "materials": [
+    "CM.graphite",
+    "CM.orange",
+    "CM.steel"
+  ],
+  "images": {
+    "graphite_basecolor": [
+      768,
+      768
+    ],
+    "graphite_roughness": [
+      768,
+      768
+    ],
+    "graphite_metallic": [
+      768,
+      768
+    ],
+    "graphite_normal": [
+      768,
+      768
+    ],
+    "orange_basecolor": [
+      768,
+      768
+    ],
+    "orange_roughness": [
+      768,
+      768
+    ],
+    "orange_metallic": [
+      768,
+      768
+    ],
+    "orange_normal": [
+      768,
+      768
+    ],
+    "steel_basecolor": [
+      768,
+      768
+    ],
+    "steel_roughness": [
+      768,
+      768
+    ],
+    "steel_metallic": [
+      768,
+      768
+    ],
+    "steel_normal": [
+      768,
+      768
+    ]
+  },
+  "material_library": "../../Materials/CM-T01/materials.json",
+  "scale_policy": "positive uniform instance scaling",
+  "bounds": {
+    "min": [
+      -1.4549999237060547,
+      -0.75,
+      0.0
+    ],
+    "max": [
+      1.4549999237060547,
+      0.75,
+      1.100000023841858
+    ],
+    "dimensions": [
+      2.9099998474121094,
+      1.5,
+      1.100000023841858
+    ]
+  },
+  "emissive_regions": [],
+  "logical_only": "sockets and regions are invisible metadata, not physical fastening geometry"
+}

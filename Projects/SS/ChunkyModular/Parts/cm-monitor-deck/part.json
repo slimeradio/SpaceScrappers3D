@@ -1,0 +1,148 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-monitor-deck",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-monitor-deck.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "sockets": [
+    {
+      "id": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "mount",
+      "space": "local"
+    },
+    {
+      "id": "bearing",
+      "position": [
+        0,
+        0,
+        0.6
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "mount",
+      "space": "local"
+    }
+  ],
+  "functional_points": [],
+  "mount_regions": [],
+  "animations": [],
+  "animation_tracks": [],
+  "materials": [
+    "CM.graphite",
+    "CM.orange",
+    "CM.steel"
+  ],
+  "images": {
+    "graphite_basecolor": [
+      768,
+      768
+    ],
+    "graphite_roughness": [
+      768,
+      768
+    ],
+    "graphite_metallic": [
+      768,
+      768
+    ],
+    "graphite_normal": [
+      768,
+      768
+    ],
+    "orange_basecolor": [
+      768,
+      768
+    ],
+    "orange_roughness": [
+      768,
+      768
+    ],
+    "orange_metallic": [
+      768,
+      768
+    ],
+    "orange_normal": [
+      768,
+      768
+    ],
+    "steel_basecolor": [
+      768,
+      768
+    ],
+    "steel_roughness": [
+      768,
+      768
+    ],
+    "steel_metallic": [
+      768,
+      768
+    ],
+    "steel_normal": [
+      768,
+      768
+    ]
+  },
+  "material_library": "../../Materials/CM-T01/materials.json",
+  "scale_policy": "positive uniform instance scaling",
+  "bounds": {
+    "min": [
+      -2.3350000381469727,
+      -1.9199999570846558,
+      0.0
+    ],
+    "max": [
+      2.3350000381469727,
+      1.8250000476837158,
+      0.6599999666213989
+    ],
+    "dimensions": [
+      4.670000076293945,
+      3.744999885559082,
+      0.6599999666213989
+    ]
+  },
+  "emissive_regions": [],
+  "logical_only": "sockets and regions are invisible metadata, not physical fastening geometry"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="armor-1x1" Category="Броня" Type="Armor" MaxHealth="1000" BlockMass="1">
+    <!-- Initial tunable balance; the GDD does not specify per-block numerical prices. -->
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="1"/>
+        <DesignCost><Item Ref="11" Amount="10"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="1"/></BuildCost>
+    </Construction>
+    <Size X="1" Y="1"/>
+    <Colliders>
+        <ConvexCollider Data="0 0 1 0 1 1 0 1"/>
+    </Colliders>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="armor-1x1"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.05" RecreateCostMultiplier="0.15"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.05" RecreateCostMultiplier="0.15"/>
+    </Repair>
+</Block>

@@ -1,0 +1,62 @@
+{
+  "id": "MA-EF03",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 4,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-EF03::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-EF03::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-EF03::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-EF03::cool_down",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [],
+  "materials": [
+    {
+      "object": "TwinPressureHousing::Small chamber diagnostics",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "TwinPressureHousing::Small chamber diagnostics.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ExpansionBellL::Deep annular throat index",
+      "kind": "thrust",
+      "off": 0.0,
+      "on": 7.019999980926514
+    },
+    {
+      "object": "ExpansionBellR::Deep annular throat index",
+      "kind": "thrust",
+      "off": 0.0,
+      "on": 7.019999980926514
+    },
+    {
+      "object": "ServiceCartridge::Service status inset",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

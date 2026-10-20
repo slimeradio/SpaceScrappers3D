@@ -1,0 +1,48 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring.DestructionDemo/1",
+  "id": "MA-A01",
+  "fps": 30,
+  "duration_seconds": 1.2,
+  "frame_range": [
+    1,
+    37
+  ],
+  "loop": false,
+  "geometry_modified": false,
+  "mesh_count": 1,
+  "tracks": [
+    {
+      "object": "armor-shell::MA-A01-P01.shell",
+      "source_instance": "armor-shell",
+      "controller": "Destruction.armor-shell::MA-A01-P01.shell",
+      "coordinate_space": "block local; +X right, -Y forward, +Z up",
+      "start_frame": 1,
+      "end_frame": 31,
+      "start_position": [
+        0.0,
+        0.0,
+        0.14000000059604645
+      ],
+      "displacement_BU": [
+        0.5766662955284119,
+        0.2522914707660675,
+        0.7929161190986633
+      ],
+      "direction": [
+        0.5696151256561279,
+        0.24920658767223358,
+        0.7832207679748535
+      ],
+      "rotation_degrees_xyz": [
+        30,
+        -28,
+        22
+      ],
+      "pivot": "existing object bounding-box center",
+      "scale_unchanged": true
+    }
+  ],
+  "runtime_contract": false,
+  "end_behavior": "hold separated parts; runtime debris lifetime is unspecified",
+  "armor_limitation": "MA-A01 consists of one existing mesh/part; it detaches as one plate, no invented fragments"
+}

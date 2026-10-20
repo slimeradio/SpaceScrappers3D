@@ -1,0 +1,3718 @@
+{
+  "schema": "MilitaryArmor.StateAuthoring/1",
+  "id": "MA-H03",
+  "game_validated": false,
+  "authoring_units": "BU; normalized controls; not game timings",
+  "controls": {
+    "power": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "Electrical availability; independent from retained heat/fill"
+    },
+    "activity": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Actual work/load; zero means idle"
+    },
+    "fault": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Externally supplied fault, not inferred"
+    },
+    "heat": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Retained normalized heat; independent from power"
+    },
+    "deployment": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "0 closed, 1 open; reversible at any point"
+    }
+  },
+  "motion": [
+    {
+      "node": "RadiatingBlade-B0-0.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-0.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-1.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-1.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-2.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-2.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-3.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-3.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-4.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-4.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-5.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-5.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-6.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-6.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-7.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-7.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-8.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-8.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-9.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-9.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-10.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-10.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-11.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-11.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-12.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-12.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-13.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-13.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-14.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-14.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-15.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-15.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-16.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-16.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-17.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-17.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-18.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-18.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-19.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-19.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-20.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B0-20.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-0.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-0.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-1.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-1.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-2.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-2.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-3.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-3.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-4.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-4.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-5.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-5.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-6.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-6.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-7.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-7.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-8.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-8.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-9.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-9.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-10.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-10.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-11.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-11.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-12.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-12.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-13.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-13.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-14.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-14.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-15.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-15.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-16.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-16.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-17.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-17.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-18.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-18.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-19.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-19.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-20.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-20.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-21.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-21.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-22.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-22.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-23.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B1-23.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-0.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-0.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-1.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-1.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-2.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-2.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-3.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-3.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-4.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-4.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-5.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-5.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-6.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-6.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-7.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-7.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-8.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-8.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-9.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-9.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-10.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-10.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-11.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-11.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-12.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-12.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-13.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-13.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-14.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-14.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-15.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-15.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-16.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-16.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-17.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-17.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-18.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-18.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-19.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-19.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-20.L::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    },
+    {
+      "node": "RadiatingBlade-B2-20.R::Deployment",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "deployment",
+      "expression": "-1.5707963267948966*(1-d)"
+    }
+  ],
+  "materials": [
+    {
+      "object": "RadiatingBlade-B0-0.L::Thermal face",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-0.L::Thermal face::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-0.L::Thermal face.001",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-0.L::Thermal face.001::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-0.R::Thermal face.002",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-0.R::Thermal face.002::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-0.R::Thermal face.003",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-0.R::Thermal face.003::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-1.L::Thermal face.004",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-1.L::Thermal face.004::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-1.L::Thermal face.005",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-1.L::Thermal face.005::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-1.R::Thermal face.006",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-1.R::Thermal face.006::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-1.R::Thermal face.007",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-1.R::Thermal face.007::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-2.L::Thermal face.008",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-2.L::Thermal face.008::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-2.L::Thermal face.009",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-2.L::Thermal face.009::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-2.R::Thermal face.010",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-2.R::Thermal face.010::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-2.R::Thermal face.011",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-2.R::Thermal face.011::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-3.L::Thermal face.012",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-3.L::Thermal face.012::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-3.L::Thermal face.013",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-3.L::Thermal face.013::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-3.R::Thermal face.014",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-3.R::Thermal face.014::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-3.R::Thermal face.015",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-3.R::Thermal face.015::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-4.L::Thermal face.016",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-4.L::Thermal face.016::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-4.L::Thermal face.017",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-4.L::Thermal face.017::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-4.R::Thermal face.018",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-4.R::Thermal face.018::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-4.R::Thermal face.019",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-4.R::Thermal face.019::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-5.L::Thermal face.020",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-5.L::Thermal face.020::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-5.L::Thermal face.021",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-5.L::Thermal face.021::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-5.R::Thermal face.022",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-5.R::Thermal face.022::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-5.R::Thermal face.023",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-5.R::Thermal face.023::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-6.L::Thermal face.024",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-6.L::Thermal face.024::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-6.L::Thermal face.025",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-6.L::Thermal face.025::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-6.R::Thermal face.026",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-6.R::Thermal face.026::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-6.R::Thermal face.027",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-6.R::Thermal face.027::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-7.L::Thermal face.028",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-7.L::Thermal face.028::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-7.L::Thermal face.029",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-7.L::Thermal face.029::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-7.R::Thermal face.030",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-7.R::Thermal face.030::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-7.R::Thermal face.031",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-7.R::Thermal face.031::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-8.L::Thermal face.032",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-8.L::Thermal face.032::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-8.L::Thermal face.033",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-8.L::Thermal face.033::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-8.R::Thermal face.034",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-8.R::Thermal face.034::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-8.R::Thermal face.035",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-8.R::Thermal face.035::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-9.L::Thermal face.036",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-9.L::Thermal face.036::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-9.L::Thermal face.037",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-9.L::Thermal face.037::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-9.R::Thermal face.038",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-9.R::Thermal face.038::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-9.R::Thermal face.039",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-9.R::Thermal face.039::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-10.L::Thermal face.040",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-10.L::Thermal face.040::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-10.L::Thermal face.041",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-10.L::Thermal face.041::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-10.R::Thermal face.042",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-10.R::Thermal face.042::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-10.R::Thermal face.043",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-10.R::Thermal face.043::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-11.L::Thermal face.044",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-11.L::Thermal face.044::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-11.L::Thermal face.045",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-11.L::Thermal face.045::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-11.R::Thermal face.046",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-11.R::Thermal face.046::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-11.R::Thermal face.047",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-11.R::Thermal face.047::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-12.L::Thermal face.048",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-12.L::Thermal face.048::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-12.L::Thermal face.049",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-12.L::Thermal face.049::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-12.R::Thermal face.050",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-12.R::Thermal face.050::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-12.R::Thermal face.051",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-12.R::Thermal face.051::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-13.L::Thermal face.052",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-13.L::Thermal face.052::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-13.L::Thermal face.053",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-13.L::Thermal face.053::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-13.R::Thermal face.054",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-13.R::Thermal face.054::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-13.R::Thermal face.055",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-13.R::Thermal face.055::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-14.L::Thermal face.056",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-14.L::Thermal face.056::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-14.L::Thermal face.057",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-14.L::Thermal face.057::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-14.R::Thermal face.058",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-14.R::Thermal face.058::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-14.R::Thermal face.059",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-14.R::Thermal face.059::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-15.L::Thermal face.060",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-15.L::Thermal face.060::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-15.L::Thermal face.061",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-15.L::Thermal face.061::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-15.R::Thermal face.062",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-15.R::Thermal face.062::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-15.R::Thermal face.063",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-15.R::Thermal face.063::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-16.L::Thermal face.064",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-16.L::Thermal face.064::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-16.L::Thermal face.065",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-16.L::Thermal face.065::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-16.R::Thermal face.066",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-16.R::Thermal face.066::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-16.R::Thermal face.067",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-16.R::Thermal face.067::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-17.L::Thermal face.068",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-17.L::Thermal face.068::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-17.L::Thermal face.069",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-17.L::Thermal face.069::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-17.R::Thermal face.070",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-17.R::Thermal face.070::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-17.R::Thermal face.071",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-17.R::Thermal face.071::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-18.L::Thermal face.072",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-18.L::Thermal face.072::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-18.L::Thermal face.073",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-18.L::Thermal face.073::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-18.R::Thermal face.074",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-18.R::Thermal face.074::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-18.R::Thermal face.075",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-18.R::Thermal face.075::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-19.L::Thermal face.076",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-19.L::Thermal face.076::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-19.L::Thermal face.077",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-19.L::Thermal face.077::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-19.R::Thermal face.078",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-19.R::Thermal face.078::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-19.R::Thermal face.079",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-19.R::Thermal face.079::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-20.L::Thermal face.080",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-20.L::Thermal face.080::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-20.L::Thermal face.081",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-20.L::Thermal face.081::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-20.R::Thermal face.082",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-20.R::Thermal face.082::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B0-20.R::Thermal face.083",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B0-20.R::Thermal face.083::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-0.L::Thermal face.084",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-0.L::Thermal face.084::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-0.L::Thermal face.085",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-0.L::Thermal face.085::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-0.R::Thermal face.086",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-0.R::Thermal face.086::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-0.R::Thermal face.087",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-0.R::Thermal face.087::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-1.L::Thermal face.088",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-1.L::Thermal face.088::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-1.L::Thermal face.089",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-1.L::Thermal face.089::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-1.R::Thermal face.090",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-1.R::Thermal face.090::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-1.R::Thermal face.091",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-1.R::Thermal face.091::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-2.L::Thermal face.092",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-2.L::Thermal face.092::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-2.L::Thermal face.093",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-2.L::Thermal face.093::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-2.R::Thermal face.094",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-2.R::Thermal face.094::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-2.R::Thermal face.095",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-2.R::Thermal face.095::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-3.L::Thermal face.096",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-3.L::Thermal face.096::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-3.L::Thermal face.097",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-3.L::Thermal face.097::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-3.R::Thermal face.098",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-3.R::Thermal face.098::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-3.R::Thermal face.099",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-3.R::Thermal face.099::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-4.L::Thermal face.100",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-4.L::Thermal face.100::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-4.L::Thermal face.101",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-4.L::Thermal face.101::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-4.R::Thermal face.102",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-4.R::Thermal face.102::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-4.R::Thermal face.103",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-4.R::Thermal face.103::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-5.L::Thermal face.104",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-5.L::Thermal face.104::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-5.L::Thermal face.105",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-5.L::Thermal face.105::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-5.R::Thermal face.106",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-5.R::Thermal face.106::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-5.R::Thermal face.107",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-5.R::Thermal face.107::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-6.L::Thermal face.108",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-6.L::Thermal face.108::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-6.L::Thermal face.109",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-6.L::Thermal face.109::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-6.R::Thermal face.110",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-6.R::Thermal face.110::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-6.R::Thermal face.111",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-6.R::Thermal face.111::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-7.L::Thermal face.112",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-7.L::Thermal face.112::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-7.L::Thermal face.113",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-7.L::Thermal face.113::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-7.R::Thermal face.114",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-7.R::Thermal face.114::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-7.R::Thermal face.115",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-7.R::Thermal face.115::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-8.L::Thermal face.116",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-8.L::Thermal face.116::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-8.L::Thermal face.117",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-8.L::Thermal face.117::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-8.R::Thermal face.118",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-8.R::Thermal face.118::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-8.R::Thermal face.119",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-8.R::Thermal face.119::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-9.L::Thermal face.120",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-9.L::Thermal face.120::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-9.L::Thermal face.121",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-9.L::Thermal face.121::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-9.R::Thermal face.122",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-9.R::Thermal face.122::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-9.R::Thermal face.123",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-9.R::Thermal face.123::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-10.L::Thermal face.124",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-10.L::Thermal face.124::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-10.L::Thermal face.125",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-10.L::Thermal face.125::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-10.R::Thermal face.126",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-10.R::Thermal face.126::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-10.R::Thermal face.127",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-10.R::Thermal face.127::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-11.L::Thermal face.128",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-11.L::Thermal face.128::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-11.L::Thermal face.129",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-11.L::Thermal face.129::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-11.R::Thermal face.130",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-11.R::Thermal face.130::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-11.R::Thermal face.131",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-11.R::Thermal face.131::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-12.L::Thermal face.132",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-12.L::Thermal face.132::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-12.L::Thermal face.133",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-12.L::Thermal face.133::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-12.R::Thermal face.134",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-12.R::Thermal face.134::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-12.R::Thermal face.135",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-12.R::Thermal face.135::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-13.L::Thermal face.136",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-13.L::Thermal face.136::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-13.L::Thermal face.137",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-13.L::Thermal face.137::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-13.R::Thermal face.138",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-13.R::Thermal face.138::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-13.R::Thermal face.139",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-13.R::Thermal face.139::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-14.L::Thermal face.140",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-14.L::Thermal face.140::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-14.L::Thermal face.141",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-14.L::Thermal face.141::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-14.R::Thermal face.142",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-14.R::Thermal face.142::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-14.R::Thermal face.143",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-14.R::Thermal face.143::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-15.L::Thermal face.144",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-15.L::Thermal face.144::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-15.L::Thermal face.145",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-15.L::Thermal face.145::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-15.R::Thermal face.146",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-15.R::Thermal face.146::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-15.R::Thermal face.147",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-15.R::Thermal face.147::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-16.L::Thermal face.148",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-16.L::Thermal face.148::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-16.L::Thermal face.149",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-16.L::Thermal face.149::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-16.R::Thermal face.150",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-16.R::Thermal face.150::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-16.R::Thermal face.151",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-16.R::Thermal face.151::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-17.L::Thermal face.152",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-17.L::Thermal face.152::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-17.L::Thermal face.153",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-17.L::Thermal face.153::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-17.R::Thermal face.154",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-17.R::Thermal face.154::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-17.R::Thermal face.155",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-17.R::Thermal face.155::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-18.L::Thermal face.156",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-18.L::Thermal face.156::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-18.L::Thermal face.157",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-18.L::Thermal face.157::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-18.R::Thermal face.158",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-18.R::Thermal face.158::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-18.R::Thermal face.159",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-18.R::Thermal face.159::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-19.L::Thermal face.160",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-19.L::Thermal face.160::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-19.L::Thermal face.161",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-19.L::Thermal face.161::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-19.R::Thermal face.162",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-19.R::Thermal face.162::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-19.R::Thermal face.163",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-19.R::Thermal face.163::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-20.L::Thermal face.164",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-20.L::Thermal face.164::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-20.L::Thermal face.165",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-20.L::Thermal face.165::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-20.R::Thermal face.166",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-20.R::Thermal face.166::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-20.R::Thermal face.167",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-20.R::Thermal face.167::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-21.L::Thermal face.168",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-21.L::Thermal face.168::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-21.L::Thermal face.169",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-21.L::Thermal face.169::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-21.R::Thermal face.170",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-21.R::Thermal face.170::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-21.R::Thermal face.171",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-21.R::Thermal face.171::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-22.L::Thermal face.172",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-22.L::Thermal face.172::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-22.L::Thermal face.173",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-22.L::Thermal face.173::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-22.R::Thermal face.174",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-22.R::Thermal face.174::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-22.R::Thermal face.175",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-22.R::Thermal face.175::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-23.L::Thermal face.176",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-23.L::Thermal face.176::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-23.L::Thermal face.177",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-23.L::Thermal face.177::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-23.R::Thermal face.178",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-23.R::Thermal face.178::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B1-23.R::Thermal face.179",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B1-23.R::Thermal face.179::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-0.L::Thermal face.180",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-0.L::Thermal face.180::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-0.L::Thermal face.181",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-0.L::Thermal face.181::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-0.R::Thermal face.182",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-0.R::Thermal face.182::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-0.R::Thermal face.183",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-0.R::Thermal face.183::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-1.L::Thermal face.184",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-1.L::Thermal face.184::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-1.L::Thermal face.185",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-1.L::Thermal face.185::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-1.R::Thermal face.186",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-1.R::Thermal face.186::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-1.R::Thermal face.187",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-1.R::Thermal face.187::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-2.L::Thermal face.188",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-2.L::Thermal face.188::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-2.L::Thermal face.189",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-2.L::Thermal face.189::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-2.R::Thermal face.190",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-2.R::Thermal face.190::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-2.R::Thermal face.191",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-2.R::Thermal face.191::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-3.L::Thermal face.192",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-3.L::Thermal face.192::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-3.L::Thermal face.193",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-3.L::Thermal face.193::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-3.R::Thermal face.194",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-3.R::Thermal face.194::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-3.R::Thermal face.195",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-3.R::Thermal face.195::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-4.L::Thermal face.196",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-4.L::Thermal face.196::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-4.L::Thermal face.197",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-4.L::Thermal face.197::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-4.R::Thermal face.198",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-4.R::Thermal face.198::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-4.R::Thermal face.199",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-4.R::Thermal face.199::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-5.L::Thermal face.200",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-5.L::Thermal face.200::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-5.L::Thermal face.201",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-5.L::Thermal face.201::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-5.R::Thermal face.202",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-5.R::Thermal face.202::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-5.R::Thermal face.203",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-5.R::Thermal face.203::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-6.L::Thermal face.204",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-6.L::Thermal face.204::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-6.L::Thermal face.205",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-6.L::Thermal face.205::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-6.R::Thermal face.206",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-6.R::Thermal face.206::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-6.R::Thermal face.207",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-6.R::Thermal face.207::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-7.L::Thermal face.208",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-7.L::Thermal face.208::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-7.L::Thermal face.209",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-7.L::Thermal face.209::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-7.R::Thermal face.210",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-7.R::Thermal face.210::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-7.R::Thermal face.211",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-7.R::Thermal face.211::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-8.L::Thermal face.212",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-8.L::Thermal face.212::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-8.L::Thermal face.213",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-8.L::Thermal face.213::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-8.R::Thermal face.214",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-8.R::Thermal face.214::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-8.R::Thermal face.215",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-8.R::Thermal face.215::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-9.L::Thermal face.216",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-9.L::Thermal face.216::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-9.L::Thermal face.217",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-9.L::Thermal face.217::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-9.R::Thermal face.218",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-9.R::Thermal face.218::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-9.R::Thermal face.219",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-9.R::Thermal face.219::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-10.L::Thermal face.220",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-10.L::Thermal face.220::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-10.L::Thermal face.221",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-10.L::Thermal face.221::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-10.R::Thermal face.222",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-10.R::Thermal face.222::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-10.R::Thermal face.223",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-10.R::Thermal face.223::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-11.L::Thermal face.224",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-11.L::Thermal face.224::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-11.L::Thermal face.225",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-11.L::Thermal face.225::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-11.R::Thermal face.226",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-11.R::Thermal face.226::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-11.R::Thermal face.227",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-11.R::Thermal face.227::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-12.L::Thermal face.228",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-12.L::Thermal face.228::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-12.L::Thermal face.229",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-12.L::Thermal face.229::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-12.R::Thermal face.230",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-12.R::Thermal face.230::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-12.R::Thermal face.231",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-12.R::Thermal face.231::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-13.L::Thermal face.232",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-13.L::Thermal face.232::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-13.L::Thermal face.233",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-13.L::Thermal face.233::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-13.R::Thermal face.234",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-13.R::Thermal face.234::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-13.R::Thermal face.235",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-13.R::Thermal face.235::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-14.L::Thermal face.236",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-14.L::Thermal face.236::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-14.L::Thermal face.237",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-14.L::Thermal face.237::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-14.R::Thermal face.238",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-14.R::Thermal face.238::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-14.R::Thermal face.239",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-14.R::Thermal face.239::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-15.L::Thermal face.240",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-15.L::Thermal face.240::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-15.L::Thermal face.241",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-15.L::Thermal face.241::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-15.R::Thermal face.242",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-15.R::Thermal face.242::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-15.R::Thermal face.243",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-15.R::Thermal face.243::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-16.L::Thermal face.244",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-16.L::Thermal face.244::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-16.L::Thermal face.245",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-16.L::Thermal face.245::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-16.R::Thermal face.246",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-16.R::Thermal face.246::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-16.R::Thermal face.247",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-16.R::Thermal face.247::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-17.L::Thermal face.248",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-17.L::Thermal face.248::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-17.L::Thermal face.249",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-17.L::Thermal face.249::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-17.R::Thermal face.250",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-17.R::Thermal face.250::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-17.R::Thermal face.251",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-17.R::Thermal face.251::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-18.L::Thermal face.252",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-18.L::Thermal face.252::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-18.L::Thermal face.253",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-18.L::Thermal face.253::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-18.R::Thermal face.254",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-18.R::Thermal face.254::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-18.R::Thermal face.255",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-18.R::Thermal face.255::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-19.L::Thermal face.256",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-19.L::Thermal face.256::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-19.L::Thermal face.257",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-19.L::Thermal face.257::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-19.R::Thermal face.258",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-19.R::Thermal face.258::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-19.R::Thermal face.259",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-19.R::Thermal face.259::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-20.L::Thermal face.260",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-20.L::Thermal face.260::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-20.L::Thermal face.261",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-20.L::Thermal face.261::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-20.R::Thermal face.262",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-20.R::Thermal face.262::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    },
+    {
+      "object": "RadiatingBlade-B2-20.R::Thermal face.263",
+      "slot": 0,
+      "material": "MA-H03::RadiatingBlade-B2-20.R::Thermal face.263::heat",
+      "kind": "heat",
+      "expression": "10*h*h",
+      "variables": {
+        "h": "heat"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "name": "MA-H03::open",
+      "parameters": [
+        "deployment"
+      ],
+      "frames": [
+        1,
+        31
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-H03::close",
+      "parameters": [
+        "deployment"
+      ],
+      "frames": [
+        1,
+        31
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-H03::activate",
+      "parameters": [
+        "power",
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-H03::deactivate",
+      "parameters": [
+        "activity",
+        "power"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-H03::heat_up",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-H03::cool_down",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        97
+      ],
+      "loop": false,
+      "authoring_only": true
+    }
+  ],
+  "events": [],
+  "hinge_design": "Two wings per former fin; Y hinges at x +/-0.18 and z +0.32 from former blade socket. Wings fold upward into separate vertical slots.",
+  "presets": {
+    "off": {
+      "power": 0,
+      "activity": 0
+    },
+    "idle": {
+      "power": 1,
+      "activity": 0
+    },
+    "working": {
+      "power": 1,
+      "activity": 1
+    },
+    "hot_off": {
+      "power": 0,
+      "activity": 0,
+      "heat": 1
+    },
+    "cold": {
+      "heat": 0
+    },
+    "hot": {
+      "heat": 1
+    },
+    "closed": {
+      "deployment": 0
+    },
+    "opened": {
+      "deployment": 1
+    }
+  },
+  "phase_policy": "cycle_turns is integrated phase, not speed. Stop retains phase. NLA cycle repetition must use cyclic extrapolation/REPEAT_OFFSET for spin; never reset turns on start. Clips start from relative phase 0; apply current phase offset when sequencing.",
+  "controller": "MA-H03",
+  "legacy_animation_metadata": []
+}

@@ -1,0 +1,377 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-B01",
+  "version": "2.0+states1",
+  "title": "Батарея 4×4",
+  "catalog_id": "battery-4x4",
+  "catalog_grid": [
+    4,
+    4
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Structure",
+      "part_id": "MA-B01-R2-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-B01-R2-P01/MA-B01-R2-P01.blend",
+      "parent": "MA-B01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "EnergyBlade0",
+      "part_id": "MA-B01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-B01-R2-P02/MA-B01-R2-P02.blend",
+      "parent": "MA-B01",
+      "translation": [
+        -1.38,
+        0,
+        0.26
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "EnergyBlade1",
+      "part_id": "MA-B01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-B01-R2-P02/MA-B01-R2-P02.blend",
+      "parent": "MA-B01",
+      "translation": [
+        -0.92,
+        0,
+        0.26
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "EnergyBlade2",
+      "part_id": "MA-B01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-B01-R2-P02/MA-B01-R2-P02.blend",
+      "parent": "MA-B01",
+      "translation": [
+        -0.46,
+        0,
+        0.26
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "EnergyBlade3",
+      "part_id": "MA-B01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-B01-R2-P02/MA-B01-R2-P02.blend",
+      "parent": "MA-B01",
+      "translation": [
+        0,
+        0,
+        0.26
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "EnergyBlade4",
+      "part_id": "MA-B01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-B01-R2-P02/MA-B01-R2-P02.blend",
+      "parent": "MA-B01",
+      "translation": [
+        0.46,
+        0,
+        0.26
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "EnergyBlade5",
+      "part_id": "MA-B01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-B01-R2-P02/MA-B01-R2-P02.blend",
+      "parent": "MA-B01",
+      "translation": [
+        0.92,
+        0,
+        0.26
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "EnergyBlade6",
+      "part_id": "MA-B01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-B01-R2-P02/MA-B01-R2-P02.blend",
+      "parent": "MA-B01",
+      "translation": [
+        1.38,
+        0,
+        0.26
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "FrontPowerBus",
+      "part_id": "MA-B01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-B01-R2-P03/MA-B01-R2-P03.blend",
+      "parent": "MA-B01",
+      "translation": [
+        0,
+        -1.51,
+        0.26
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RearPowerBus",
+      "part_id": "MA-B01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-B01-R2-P03/MA-B01-R2-P03.blend",
+      "parent": "MA-B01",
+      "translation": [
+        0,
+        1.51,
+        0.26
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "blade0",
+      "child_instance": "EnergyBlade0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "blade1",
+      "child_instance": "EnergyBlade1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "blade2",
+      "child_instance": "EnergyBlade2",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "blade3",
+      "child_instance": "EnergyBlade3",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "blade4",
+      "child_instance": "EnergyBlade4",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "blade5",
+      "child_instance": "EnergyBlade5",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "blade6",
+      "child_instance": "EnergyBlade6",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "front",
+      "child_instance": "FrontPowerBus",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "rear",
+      "child_instance": "RearPowerBus",
+      "child_socket": "root"
+    }
+  ],
+  "animations": {
+    "controller": "MA-B01",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "fill": {
+        "default": 0.5,
+        "min": 0,
+        "max": 1,
+        "description": "Stored amount/charge; independent from power"
+      },
+      "flow": {
+        "default": 0,
+        "min": -1,
+        "max": 1,
+        "description": "Negative discharge, positive charge"
+      }
+    },
+    "channels": [],
+    "clips": [
+      {
+        "name": "MA-B01::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-B01::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-B01::fill",
+        "parameters": [
+          "fill"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Гребенчатый силуэт: семь узких энергомодулей, открытые промежутки и два силовых распределителя. Общего поддона, крупных крышек и сервисного картриджа нет. Static authoring source; no new gameplay mechanics.",
+  "state_authoring": "state-authoring.json"
+}

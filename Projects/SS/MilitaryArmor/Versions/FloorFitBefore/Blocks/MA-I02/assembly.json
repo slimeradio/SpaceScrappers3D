@@ -1,0 +1,232 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-I02",
+  "version": "1.0+states1",
+  "title": "Грузовой контейнер 2×2",
+  "catalog_id": "cargo-2x2",
+  "catalog_grid": [
+    2,
+    2
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Structure",
+      "part_id": "MA-I02-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-I02-P01/MA-I02-P01.blend",
+      "parent": "MA-I02",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchF",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I02",
+      "translation": [
+        0,
+        -0.83,
+        1.335
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchB",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I02",
+      "translation": [
+        0,
+        0.83,
+        1.335
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "CargoRailF",
+      "part_id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+      "parent": "MA-I02",
+      "translation": [
+        0,
+        -1.78,
+        0.16
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "CargoRailB",
+      "part_id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+      "parent": "MA-I02",
+      "translation": [
+        0,
+        1.78,
+        0.16
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchF",
+      "child_instance": "LoadingHatchF",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchB",
+      "child_instance": "LoadingHatchB",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "railF",
+      "child_instance": "CargoRailF",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "railB",
+      "child_instance": "CargoRailB",
+      "child_socket": "root"
+    }
+  ],
+  "animations": {
+    "controller": "MA-I02",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "fill": {
+        "default": 0.5,
+        "min": 0,
+        "max": 1,
+        "description": "Stored amount/charge; independent from power"
+      }
+    },
+    "channels": [],
+    "clips": [
+      {
+        "name": "MA-I02::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-I02::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-I02::fill",
+        "parameters": [
+          "fill"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Квадратный цельный грузовой объём с парой крупных загрузочных люков и двумя внешними направляющими. Семейство MA-I01, без аккумуляторных кассет.",
+  "state_authoring": "state-authoring.json"
+}

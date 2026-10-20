@@ -1,0 +1,135 @@
+{
+  "id": "MA-W10",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 6,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-W10::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W10::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W10::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W10::cool_down",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W10::fire",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [
+    {
+      "node": "Azimuth",
+      "parameter": "aim_yaw",
+      "sampled_values": [
+        0.0,
+        3.1415927410125732,
+        6.2831854820251465
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Elevation",
+      "parameter": "aim_pitch",
+      "sampled_values": [
+        -0.20943951606750488,
+        -0.06108652427792549,
+        0.0872664600610733
+      ],
+      "driver_valid": true
+    }
+  ],
+  "materials": [
+    {
+      "object": "LaserFoundation::Foundation optical index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "LaserFoundation::Foundation optical index.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ServiceCartridge::Cartridge status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "OpticalBench::Bench alignment index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "OpticalBench::Bench alignment index.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "OpticalBench::Rear optical window",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "FocusAperture::Lens perimeter glow",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "FocusAperture::Continuous beam focusing lens",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "FocusAperture::Inner active lens",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "FocusAperture::Central focusing zone",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "PulseFeed::Capacitor state",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "PulseFeed::Capacitor state.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "PulseFeed::Capacitor state.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

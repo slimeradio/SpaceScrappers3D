@@ -1,0 +1,211 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-P04",
+  "version": "1.1",
+  "name": "Twin gun mantlet",
+  "source": "MA-P04.blend",
+  "units": "BU, physical scale unspecified",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "bounds_local": {
+    "min": [
+      -1.308500051498413,
+      -1.0575000047683716,
+      -0.4699999988079071
+    ],
+    "max": [
+      1.308500051498413,
+      0.5099999904632568,
+      0.5590000152587891
+    ]
+  },
+  "scale_policy": "unit scale only",
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Independent armored sleeve",
+        "Mantlet cheek",
+        "Mantlet cheek.001",
+        "Independent armored sleeve.001",
+        "Mantlet cheek.002",
+        "Mantlet cheek.003"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Cradle beam",
+        "Screw driver recess",
+        "Screw driver recess.001",
+        "Screw driver recess.002",
+        "Screw driver recess.003",
+        "Screw driver recess.004",
+        "Screw driver recess.005",
+        "Screw driver recess.006",
+        "Screw driver recess.007"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Panel",
+      "surfaces": [
+        "Mantlet top armor",
+        "Mantlet top armor.001",
+        "Trunnion end cap",
+        "Trunnion end cap.001"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Rubber",
+      "surfaces": [
+        "Gun dust seal",
+        "Gun dust seal.001",
+        "Gun dust seal.002",
+        "Gun dust seal.003",
+        "Gun dust seal.004",
+        "Gun dust seal.005",
+        "Gun dust seal.006",
+        "Gun dust seal.007",
+        "Gun dust seal.008",
+        "Gun dust seal.009",
+        "Gun dust seal.010",
+        "Gun dust seal.011"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Gun port",
+        "Gun port.001",
+        "Elevation trunnion",
+        "Elevation trunnion.001",
+        "Mantlet cover screw",
+        "Mantlet cover screw.001",
+        "Mantlet cover screw.002",
+        "Mantlet cover screw.003",
+        "Gun port lock",
+        "Gun port lock.001",
+        "Gun port lock.002",
+        "Gun port lock.003",
+        "Mantlet cover screw.004",
+        "Mantlet cover screw.005",
+        "Mantlet cover screw.006",
+        "Mantlet cover screw.007",
+        "Gun port lock.004",
+        "Gun port lock.005",
+        "Gun port lock.006",
+        "Gun port lock.007",
+        "Trunnion cap bolt",
+        "Trunnion cap bolt.001",
+        "Trunnion cap bolt.002",
+        "Trunnion cap bolt.003",
+        "Trunnion cap bolt.004",
+        "Trunnion cap bolt.005",
+        "Trunnion cap bolt.006",
+        "Trunnion cap bolt.007",
+        "Trunnion cap bolt.008",
+        "Trunnion cap bolt.009",
+        "Trunnion cap bolt.010",
+        "Trunnion cap bolt.011"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "pivot",
+      "node": "mount.pivot",
+      "role": "cradle",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "cradle",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "barrel-L",
+      "node": "mount.barrel-L",
+      "role": "gun",
+      "position": [
+        -0.58,
+        -0.77,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "gun",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "barrel-R",
+      "node": "mount.barrel-R",
+      "role": "gun",
+      "position": [
+        0.58,
+        -0.77,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "gun",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": [],
+  "geometry_objects": 63
+}

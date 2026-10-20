@@ -1,0 +1,235 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-L01",
+  "version": "1.0+floor1",
+  "title": "Коридор",
+  "catalog_id": "corridor-1x1",
+  "catalog_grid": [
+    1,
+    1
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "Assembly: 1 BU = 1 gameplay cell; native part units transformed by ModelFit"
+  },
+  "instances": [
+    {
+      "id": "Deck",
+      "part_id": "MA-L01-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-L01-P01/MA-L01-P01.blend",
+      "parent": "MA-L01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Shell",
+      "part_id": "MA-L01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-L01-P02/MA-L01-P02.blend",
+      "parent": "MA-L01",
+      "translation": [
+        0,
+        0,
+        0.15
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "FrontCollar",
+      "part_id": "MA-L01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-L01-P03/MA-L01-P03.blend",
+      "parent": "MA-L01",
+      "translation": [
+        0,
+        -0.8,
+        0.15
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RearCollar",
+      "part_id": "MA-L01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-L01-P03/MA-L01-P03.blend",
+      "parent": "MA-L01",
+      "translation": [
+        0,
+        0.8,
+        0.15
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Floor",
+      "part_id": "MA-FLOOR-rect-1x1",
+      "version": "1.0",
+      "source": "../../Parts/MA-FLOOR-rect-1x1/MA-FLOOR-rect-1x1.blend",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent": "Deck",
+      "socket": "shell",
+      "child": "Shell",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Shell",
+      "socket": "front",
+      "child": "FrontCollar",
+      "child_socket": "root"
+    },
+    {
+      "parent": "Shell",
+      "socket": "rear",
+      "child": "RearCollar",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "clear_passage_authoring": {
+    "width": 1.27,
+    "height_above_deck": 1.096,
+    "axis": "Y",
+    "open_ends": true,
+    "units": "BU; physical scale unspecified"
+  },
+  "notes": "Static lightweight hull connector, no crew mechanism, no door, no pressure or gameplay contract. Sources geometry-gated before assembly.",
+  "nodes": [
+    {
+      "id": "MA-L01",
+      "parent": "ModelFit",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ModelFit",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.075
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4565217308488822,
+        0.4565217308488822,
+        0.4565217308488822
+      ]
+    },
+    {
+      "id": "Floor",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "floor_fit": {
+    "floor": "MA-FLOOR-rect-1x1",
+    "margin_cells": 0.08,
+    "uniform_scale": 0.4565217308488822,
+    "translation": [
+      0.0,
+      0.0,
+      0.075
+    ],
+    "body_instances": [
+      "Deck",
+      "Shell",
+      "FrontCollar",
+      "RearCollar"
+    ],
+    "protrusion_instances": []
+  }
+}

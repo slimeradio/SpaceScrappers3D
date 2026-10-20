@@ -1,0 +1,205 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W01-P02",
+  "version": "1.0",
+  "name": "Battleship azimuth direct drive",
+  "source": "MA-W01-P02.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -2.115000009536743,
+      -2.1428427696228027,
+      0.0
+    ],
+    "max": [
+      2.005000114440918,
+      2.1428427696228027,
+      0.4899999797344208
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Motor shield",
+        "Motor shield.001",
+        "Motor shield.002",
+        "Motor shield.003",
+        "Motor shield.004",
+        "Motor shield.005",
+        "Motor shield.006",
+        "Motor shield.007",
+        "Motor shield.008",
+        "Motor shield.009",
+        "Motor shield.010",
+        "Motor shield.011",
+        "Motor shield.012",
+        "Motor shield.013",
+        "Motor shield.014",
+        "Motor shield.015"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Sealed annular direct drive"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Signal",
+      "surfaces": [
+        "Index window",
+        "Index window.001",
+        "Index window.002",
+        "Index window.003",
+        "Index window.004",
+        "Index window.005",
+        "Index window.006",
+        "Index window.007",
+        "Index window.008",
+        "Index window.009",
+        "Index window.010",
+        "Index window.011",
+        "Index window.012",
+        "Index window.013",
+        "Index window.014",
+        "Index window.015"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705,
+        1.0
+      ],
+      "metalness": 0.3499999940395355,
+      "roughness": 0.25,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Lower precision race",
+        "Upper torque seat"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Signal",
+      "regions": [
+        "Index window",
+        "Index window.001",
+        "Index window.002",
+        "Index window.003",
+        "Index window.004",
+        "Index window.005",
+        "Index window.006",
+        "Index window.007",
+        "Index window.008",
+        "Index window.009",
+        "Index window.010",
+        "Index window.011",
+        "Index window.012",
+        "Index window.013",
+        "Index window.014",
+        "Index window.015"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "bottom",
+      "role": "structural",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "capsule",
+      "role": "structural",
+      "position": [
+        0,
+        0,
+        0.48
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": ""
+}

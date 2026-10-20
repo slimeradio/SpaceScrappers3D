@@ -1,0 +1,145 @@
+{
+  "id": "MA-W09",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 5,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-W09::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W09::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W09::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W09::cool_down",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W09::fire",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [
+    {
+      "node": "Yaw",
+      "parameter": "aim_yaw",
+      "sampled_values": [
+        -1.2217304706573486,
+        0.0,
+        1.2217304706573486
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Elevation",
+      "parameter": "aim_pitch",
+      "sampled_values": [
+        -0.1745329201221466,
+        -0.04363323003053665,
+        0.0872664600610733
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Recoil",
+      "parameter": "recoil_Recoil",
+      "sampled_values": [
+        0.0,
+        0.07999999821186066,
+        0.1599999964237213
+      ],
+      "driver_valid": true
+    }
+  ],
+  "materials": [
+    {
+      "object": "Hardpoint::Narrow interface diagnostic",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Hardpoint::Narrow interface diagnostic.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Hardpoint::Narrow interface diagnostic.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Hardpoint::Narrow interface diagnostic.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Cradle::Flush drive index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Cradle::Flush drive index.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Gun::Lock status slit",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Gun::Lock status slit.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Gun::Lock status slit.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Magazine::Magazine diagnostic",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Optic::Lidar independent optical cell",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "Optic::Lidar independent optical cell.001",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "Optic::Lidar independent optical cell.002",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

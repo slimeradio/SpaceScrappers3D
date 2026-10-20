@@ -1,0 +1,394 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-P02",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Поворотный подшипник",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "inner-bearing",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0,
+        0.055
+      ],
+      "radius": 0.4,
+      "radiusTop": 0.4,
+      "depth": 0.11,
+      "axis": "Z",
+      "segments": 48,
+      "material": "graphite"
+    },
+    {
+      "id": "machined-race",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0,
+        0.102
+      ],
+      "radius": 0.44,
+      "radiusTop": 0.44,
+      "depth": 0.046,
+      "axis": "Z",
+      "segments": 32,
+      "material": "edge"
+    },
+    {
+      "id": "faceted-turntable",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.122
+      ],
+      "outline": [
+        [
+          -0.22000000000000003,
+          -0.46
+        ],
+        [
+          0.22000000000000003,
+          -0.46
+        ],
+        [
+          0.46,
+          -0.22000000000000003
+        ],
+        [
+          0.46,
+          0.22000000000000003
+        ],
+        [
+          0.22000000000000003,
+          0.46
+        ],
+        [
+          -0.22000000000000003,
+          0.46
+        ],
+        [
+          -0.46,
+          0.22000000000000003
+        ],
+        [
+          -0.46,
+          -0.22000000000000003
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.018,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.008639999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0057599999999999995,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.018,
+          "scale": [
+            0.96,
+            0.96
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "race-lock-0",
+      "shape": "roundedBox",
+      "position": [
+        0.0,
+        0.37,
+        0.143
+      ],
+      "size": [
+        0.065,
+        0.07,
+        0.018
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -0.0
+      ]
+    },
+    {
+      "id": "race-lock-1",
+      "shape": "roundedBox",
+      "position": [
+        0.2616295090390226,
+        0.2616295090390226,
+        0.143
+      ],
+      "size": [
+        0.065,
+        0.07,
+        0.018
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -0.7853981633974483
+      ]
+    },
+    {
+      "id": "race-lock-2",
+      "shape": "roundedBox",
+      "position": [
+        0.37,
+        2.2655965784226033e-17,
+        0.143
+      ],
+      "size": [
+        0.065,
+        0.07,
+        0.018
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -1.5707963267948966
+      ]
+    },
+    {
+      "id": "race-lock-3",
+      "shape": "roundedBox",
+      "position": [
+        0.2616295090390226,
+        -0.26162950903902255,
+        0.143
+      ],
+      "size": [
+        0.065,
+        0.07,
+        0.018
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -2.356194490192345
+      ]
+    },
+    {
+      "id": "race-lock-4",
+      "shape": "roundedBox",
+      "position": [
+        4.531193156845207e-17,
+        -0.37,
+        0.143
+      ],
+      "size": [
+        0.065,
+        0.07,
+        0.018
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -3.141592653589793
+      ]
+    },
+    {
+      "id": "race-lock-5",
+      "shape": "roundedBox",
+      "position": [
+        -0.26162950903902255,
+        -0.26162950903902266,
+        0.143
+      ],
+      "size": [
+        0.065,
+        0.07,
+        0.018
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -3.9269908169872414
+      ]
+    },
+    {
+      "id": "race-lock-6",
+      "shape": "roundedBox",
+      "position": [
+        -0.37,
+        -6.79678973526781e-17,
+        0.143
+      ],
+      "size": [
+        0.065,
+        0.07,
+        0.018
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -4.71238898038469
+      ]
+    },
+    {
+      "id": "race-lock-7",
+      "shape": "roundedBox",
+      "position": [
+        -0.26162950903902266,
+        0.2616295090390225,
+        0.143
+      ],
+      "size": [
+        0.065,
+        0.07,
+        0.018
+      ],
+      "radius": 0.002,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        0,
+        -5.497787143782138
+      ]
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "edge",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "bearing-in",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P01.bearing"
+    },
+    {
+      "id": "head",
+      "role": "head-out",
+      "position": [
+        0,
+        0,
+        0.14
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P03.base"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.46,
+      -0.46,
+      0.0
+    ],
+    "max": [
+      0.46,
+      0.46,
+      0.152
+    ],
+    "size": [
+      0.92,
+      0.92,
+      0.152
+    ]
+  }
+}

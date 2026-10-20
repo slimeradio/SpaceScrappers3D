@@ -1,0 +1,107 @@
+{
+  "id": "MA-F01-P02",
+  "stage": "immediate part geometry validation before assembly",
+  "checks": [
+    {
+      "mesh": "Lower pressure enclosure",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.5953840107030867,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Faceted process hood",
+      "vertices": 32,
+      "faces": 26,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.6316959421730852,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Dorsal service gasket",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.024297019135714283,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Dorsal service plate",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.015004986276626022,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Enclosed diagnostic recess",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0007343999596953392,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Limited diagnostic slit",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 2.392000206358736e-05,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Enclosed diagnostic recess.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0007343999596953392,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Limited diagnostic slit.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 2.392000206358736e-05,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Top panel seam",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 6.587999928161494e-05,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Top panel seam.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 6.587999928161494e-05,
+      "materials_valid": true,
+      "pass": true
+    }
+  ],
+  "checks_passed": true
+}

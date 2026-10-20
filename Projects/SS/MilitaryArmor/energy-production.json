@@ -1,0 +1,87 @@
+{
+  "schema": "MilitaryArmor.EnergyProductionAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-R01",
+      "title": "Реактор",
+      "version": "1.0",
+      "catalog_id": "reactor-4x4-aaaa",
+      "catalog_grid": [
+        4,
+        4
+      ],
+      "source": "Blocks/MA-R01/MA-R01.blend",
+      "assembly": "Blocks/MA-R01/assembly.json",
+      "parts": [
+        "MA-R01-P01",
+        "MA-R01-P02",
+        "MA-R01-P03",
+        "MA-R01-P04",
+        "MA-R01-P05"
+      ],
+      "instance_count": 11,
+      "validation": "Blocks/MA-R01/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-R01/Previews/perspective.png",
+        "Blocks/MA-R01/Previews/top.png"
+      ],
+      "functional_redesign": false,
+      "restored_original": true
+    },
+    {
+      "id": "MA-B01",
+      "title": "Батарея 4×4",
+      "version": "2.0",
+      "catalog_id": "battery-4x4",
+      "catalog_grid": [
+        4,
+        4
+      ],
+      "source": "Blocks/MA-B01/MA-B01.blend",
+      "assembly": "Blocks/MA-B01/assembly.json",
+      "parts": [
+        "MA-B01-R2-P01",
+        "MA-B01-R2-P02",
+        "MA-B01-R2-P03"
+      ],
+      "instance_count": 10,
+      "validation": "Blocks/MA-B01/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-B01/Previews/perspective.png",
+        "Blocks/MA-B01/Previews/top.png"
+      ],
+      "functional_redesign": true
+    },
+    {
+      "id": "MA-F01",
+      "title": "Производственный блок",
+      "version": "2.0",
+      "catalog_id": "refinery-2x1",
+      "catalog_grid": [
+        2,
+        1
+      ],
+      "source": "Blocks/MA-F01/MA-F01.blend",
+      "assembly": "Blocks/MA-F01/assembly.json",
+      "parts": [
+        "MA-F01-R2-P01",
+        "MA-F01-R2-P02",
+        "MA-F01-R2-P03"
+      ],
+      "instance_count": 3,
+      "validation": "Blocks/MA-F01/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-F01/Previews/perspective.png",
+        "Blocks/MA-F01/Previews/top.png"
+      ],
+      "functional_redesign": true
+    }
+  ],
+  "physical_scale": "BU unspecified",
+  "glb_generated": false,
+  "game_validation": false,
+  "revision_note": "Functional identity redesign v2.0; see FunctionalIdentity.md for revised models and prior versions."
+}

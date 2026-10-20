@@ -1,0 +1,118 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-A01-P01-damage33",
+  "version": "1.0",
+  "name": "Faceted repeatable armor 1x1",
+  "source": "MA-A01-P01-damage33.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.5,
+      -0.5,
+      0.0
+    ],
+    "max": [
+      0.5,
+      0.5,
+      0.2800000011920929
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor_damage33",
+      "ss_role": "Color2",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    },
+    {
+      "id": "Ceramic_damage33",
+      "ss_role": "Color1",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "armor-structural-mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "MA-A01-P01.shell",
+      "compatibility": [
+        "MilitaryArmor.armor.cell"
+      ],
+      "restrictions": "unit scale; align catalog XY boundary"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "structural-bottom",
+      "role": "grid-interface",
+      "parent": "MA-A01-P01.shell",
+      "shape": "rectangle",
+      "size": [
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "allowed_rotations_degrees": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "compatibility": [
+        "MilitaryArmor.armor.cell"
+      ],
+      "restrictions": "Logical catalog footprint only; no physical scale conversion."
+    }
+  ],
+  "animations": [],
+  "notes": "Damage demo variant. Procedural soot and exposed metal scratches; destroyed has continuous buckling and emission off. Original mounts retained. No file textures or game export.",
+  "damage_state": "damage33",
+  "derived_from": "MA-A01-P01"
+}

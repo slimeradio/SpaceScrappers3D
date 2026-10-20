@@ -1,0 +1,274 @@
+{
+  "checks_passed": true,
+  "authoring_only": true,
+  "normalized_points": [
+    {
+      "id": "thrust",
+      "role": "thrust",
+      "parent": "part",
+      "node": "point.thrust",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "exhaust",
+      "role": "exhaust",
+      "parent": "part",
+      "node": "point.exhaust",
+      "position": [
+        0,
+        -0.55,
+        0
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "sampled_clear_exit_rays": [
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        -0.5024999976158142,
+        -1.6800000667572021,
+        0.445000022649765
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        -0.1875,
+        -1.6800000667572021,
+        0.445000022649765
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        0.1274999976158142,
+        -1.6800000667572021,
+        0.445000022649765
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        0.4424999952316284,
+        -1.6800000667572021,
+        0.445000022649765
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        -0.4424999952316284,
+        -1.6800000667572021,
+        0.7549999952316284
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        -0.1274999976158142,
+        -1.6800000667572021,
+        0.7549999952316284
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        0.1875,
+        -1.6800000667572021,
+        0.7549999952316284
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        0.5024999976158142,
+        -1.6800000667572021,
+        0.7549999952316284
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        -0.5024999976158142,
+        -1.6800000667572021,
+        1.065000057220459
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        -0.1875,
+        -1.6800000667572021,
+        1.065000057220459
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        0.1274999976158142,
+        -1.6800000667572021,
+        1.065000057220459
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        0.4424999952316284,
+        -1.6800000667572021,
+        1.065000057220459
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        -0.4424999952316284,
+        -1.6800000667572021,
+        1.375
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        -0.1274999976158142,
+        -1.6800000667572021,
+        1.375
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        0.1875,
+        -1.6800000667572021,
+        1.375
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeAperture",
+      "position": [
+        0.5024999976158142,
+        -1.6800000667572021,
+        1.375
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    }
+  ]
+}

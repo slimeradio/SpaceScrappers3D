@@ -1,0 +1,5285 @@
+{
+  "schema": "SpriteBake.BlockMetadata/1",
+  "id": "MA-L01",
+  "catalog_id": "corridor-1x1",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "bu_per_cell": 1.0,
+  "footprint_bu": [
+    -0.5,
+    -0.5,
+    0.5,
+    0.5
+  ],
+  "layers": [
+    {
+      "id": "body",
+      "draw_order": 0,
+      "rotates": false,
+      "pivot_bu": [
+        0,
+        0
+      ],
+      "instances": [
+        "Deck",
+        "Shell",
+        "FrontCollar",
+        "RearCollar"
+      ]
+    }
+  ],
+  "states": {
+    "damage0": {
+      "frame": 1
+    },
+    "damage33": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "damage66": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "destroyed": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "clips": {},
+  "frames": {
+    "damage0": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Deck/mounts/hull",
+          "node": "socket.hull",
+          "parent": null,
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "Deck",
+          "part": "MA-L01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Deck/mounts/shell",
+          "node": "socket.shell",
+          "parent": null,
+          "role": "shell",
+          "position": [
+            0,
+            0,
+            0.15
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shell",
+          "instance": "Deck",
+          "part": "MA-L01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Deck/attachment_areas/root-plane",
+          "parent": null,
+          "role": "hull",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Deck",
+          "part": "MA-L01-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Shell/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "shell",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Shell/mounts/front",
+          "node": "socket.front",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            -0.8,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "front",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.30000001192092896,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Shell/mounts/rear",
+          "node": "socket.rear",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0.8,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "rear",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.300000011920929,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Shell/attachment_areas/root-plane",
+          "parent": null,
+          "role": "shell",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "FrontCollar/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "FrontCollar",
+          "part": "MA-L01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.30000001192092896,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "FrontCollar/attachment_areas/root-plane",
+          "parent": null,
+          "role": "collar",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "FrontCollar",
+          "part": "MA-L01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.30000001192092896,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "RearCollar/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "RearCollar",
+          "part": "MA-L01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.300000011920929,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "RearCollar/attachment_areas/root-plane",
+          "parent": null,
+          "role": "collar",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "RearCollar",
+          "part": "MA-L01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.300000011920929,
+            0.15000000596046448
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-L01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Deck": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.15000000596046448
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FrontCollar": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.800000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.15000000596046448
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "RearCollar": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.800000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.15000000596046448
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "damage33": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Deck/mounts/hull",
+          "node": "socket.hull",
+          "parent": null,
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "Deck",
+          "part": "MA-L01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Deck/mounts/shell",
+          "node": "socket.shell",
+          "parent": null,
+          "role": "shell",
+          "position": [
+            0,
+            0,
+            0.15
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shell",
+          "instance": "Deck",
+          "part": "MA-L01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Deck/attachment_areas/root-plane",
+          "parent": null,
+          "role": "hull",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Deck",
+          "part": "MA-L01-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Shell/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "shell",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Shell/mounts/front",
+          "node": "socket.front",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            -0.8,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "front",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.30000001192092896,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Shell/mounts/rear",
+          "node": "socket.rear",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0.8,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "rear",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.300000011920929,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Shell/attachment_areas/root-plane",
+          "parent": null,
+          "role": "shell",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "FrontCollar/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "FrontCollar",
+          "part": "MA-L01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.30000001192092896,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "FrontCollar/attachment_areas/root-plane",
+          "parent": null,
+          "role": "collar",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "FrontCollar",
+          "part": "MA-L01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.30000001192092896,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "RearCollar/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "RearCollar",
+          "part": "MA-L01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.300000011920929,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "RearCollar/attachment_areas/root-plane",
+          "parent": null,
+          "role": "collar",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "RearCollar",
+          "part": "MA-L01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.300000011920929,
+            0.15000000596046448
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-L01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Deck": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.15000000596046448
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FrontCollar": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.800000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.15000000596046448
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "RearCollar": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.800000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.15000000596046448
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "damage66": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Deck/mounts/hull",
+          "node": "socket.hull",
+          "parent": null,
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "Deck",
+          "part": "MA-L01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Deck/mounts/shell",
+          "node": "socket.shell",
+          "parent": null,
+          "role": "shell",
+          "position": [
+            0,
+            0,
+            0.15
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shell",
+          "instance": "Deck",
+          "part": "MA-L01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Deck/attachment_areas/root-plane",
+          "parent": null,
+          "role": "hull",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Deck",
+          "part": "MA-L01-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Shell/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "shell",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Shell/mounts/front",
+          "node": "socket.front",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            -0.8,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "front",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.30000001192092896,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Shell/mounts/rear",
+          "node": "socket.rear",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0.8,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "rear",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.300000011920929,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Shell/attachment_areas/root-plane",
+          "parent": null,
+          "role": "shell",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "FrontCollar/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "FrontCollar",
+          "part": "MA-L01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.30000001192092896,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "FrontCollar/attachment_areas/root-plane",
+          "parent": null,
+          "role": "collar",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "FrontCollar",
+          "part": "MA-L01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.30000001192092896,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "RearCollar/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "RearCollar",
+          "part": "MA-L01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.300000011920929,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "RearCollar/attachment_areas/root-plane",
+          "parent": null,
+          "role": "collar",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "RearCollar",
+          "part": "MA-L01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.300000011920929,
+            0.15000000596046448
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-L01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Deck": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.15000000596046448
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FrontCollar": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.800000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.15000000596046448
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "RearCollar": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.800000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.15000000596046448
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "destroyed": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Deck/mounts/hull",
+          "node": "socket.hull",
+          "parent": null,
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "Deck",
+          "part": "MA-L01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Deck/mounts/shell",
+          "node": "socket.shell",
+          "parent": null,
+          "role": "shell",
+          "position": [
+            0,
+            0,
+            0.15
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "shell",
+          "instance": "Deck",
+          "part": "MA-L01-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Deck/attachment_areas/root-plane",
+          "parent": null,
+          "role": "hull",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Deck",
+          "part": "MA-L01-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        },
+        {
+          "id": "Shell/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "shell",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Shell/mounts/front",
+          "node": "socket.front",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            -0.8,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "front",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.30000001192092896,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Shell/mounts/rear",
+          "node": "socket.rear",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0.8,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "rear",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.300000011920929,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "Shell/attachment_areas/root-plane",
+          "parent": null,
+          "role": "shell",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "Shell",
+          "part": "MA-L01-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            0.5,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "FrontCollar/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "FrontCollar",
+          "part": "MA-L01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.30000001192092896,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "FrontCollar/attachment_areas/root-plane",
+          "parent": null,
+          "role": "collar",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "FrontCollar",
+          "part": "MA-L01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            -0.30000001192092896,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "RearCollar/mounts/root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "RearCollar",
+          "part": "MA-L01-P03",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.300000011920929,
+            0.15000000596046448
+          ]
+        },
+        {
+          "id": "RearCollar/attachment_areas/root-plane",
+          "parent": null,
+          "role": "collar",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.800000011920929,
+            0.15000000596046448
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.800000011920929
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.15000000596046448
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-plane",
+          "instance": "RearCollar",
+          "part": "MA-L01-P03",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.300000011920929,
+            0.15000000596046448
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-L01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Deck": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.15000000596046448
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FrontCollar": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.800000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.15000000596046448
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "RearCollar": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.800000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.15000000596046448
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    }
+  },
+  "assembly": {
+    "schema": "MilitaryArmor.BlenderAuthoring/1",
+    "id": "MA-L01",
+    "version": "1.0",
+    "title": "Коридор",
+    "catalog_id": "corridor-1x1",
+    "catalog_grid": [
+      1,
+      1
+    ],
+    "axes": {
+      "handedness": "right",
+      "up": "+Z",
+      "forward": "-Y",
+      "units": "BU; physical scale unspecified"
+    },
+    "instances": [
+      {
+        "id": "Deck",
+        "part_id": "MA-L01-P01",
+        "version": "1.0",
+        "source": "../../Parts/MA-L01-P01/MA-L01-P01.blend",
+        "parent": "MA-L01",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "Shell",
+        "part_id": "MA-L01-P02",
+        "version": "1.0",
+        "source": "../../Parts/MA-L01-P02/MA-L01-P02.blend",
+        "parent": "MA-L01",
+        "translation": [
+          0,
+          0,
+          0.15
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "FrontCollar",
+        "part_id": "MA-L01-P03",
+        "version": "1.0",
+        "source": "../../Parts/MA-L01-P03/MA-L01-P03.blend",
+        "parent": "MA-L01",
+        "translation": [
+          0,
+          -0.8,
+          0.15
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "RearCollar",
+        "part_id": "MA-L01-P03",
+        "version": "1.0",
+        "source": "../../Parts/MA-L01-P03/MA-L01-P03.blend",
+        "parent": "MA-L01",
+        "translation": [
+          0,
+          0.8,
+          0.15
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "parent": "Deck",
+        "socket": "shell",
+        "child": "Shell",
+        "child_socket": "root"
+      },
+      {
+        "parent": "Shell",
+        "socket": "front",
+        "child": "FrontCollar",
+        "child_socket": "root"
+      },
+      {
+        "parent": "Shell",
+        "socket": "rear",
+        "child": "RearCollar",
+        "child_socket": "root"
+      }
+    ],
+    "animations": [],
+    "exports": [],
+    "clear_passage_authoring": {
+      "width": 1.27,
+      "height_above_deck": 1.096,
+      "axis": "Y",
+      "open_ends": true,
+      "units": "BU; physical scale unspecified"
+    },
+    "notes": "Static lightweight hull connector, no crew mechanism, no door, no pressure or gameplay contract. Sources geometry-gated before assembly."
+  },
+  "parts": {
+    "Deck": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-L01-P01",
+      "version": "1.0",
+      "name": "Short connector structural deck",
+      "source": "MA-L01-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.9100000262260437,
+          -0.9100000262260437,
+          0.0
+        ],
+        "max": [
+          0.9100000262260437,
+          0.9100000262260437,
+          0.18199999630451202
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Faceted graphite load deck"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Cold floor edge",
+            "Cold floor edge.001"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Recessed tread seam",
+            "Recessed tread seam.001",
+            "Recessed tread seam.002",
+            "Recessed tread seam.003",
+            "Recessed tread seam.004"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Inset passage tread"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "hull",
+          "node": "socket.hull",
+          "parent": null,
+          "role": "hull",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "shell",
+          "node": "socket.shell",
+          "parent": null,
+          "role": "shell",
+          "position": [
+            0,
+            0,
+            0.15
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-plane",
+          "parent": null,
+          "role": "hull",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Static open hull connector; no door or crew simulation. Procedural PBR; no file texture or UV dependencies."
+    },
+    "Shell": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-L01-P02",
+      "version": "1.0",
+      "name": "Open U section armored connector shell",
+      "source": "MA-L01-P02.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.9002400040626526,
+          -0.8399999737739563,
+          0.0
+        ],
+        "max": [
+          0.9002400040626526,
+          0.8399999737739563,
+          1.3890000581741333
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Continuous graphite U shell"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Cold flank shield",
+            "Cold flank shield.001",
+            "Cold roof armor"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Inset flank field",
+            "Inset flank field.001",
+            "Recessed roof field"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "shell",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "front",
+          "node": "socket.front",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            -0.8,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "rear",
+          "node": "socket.rear",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0.8,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-plane",
+          "parent": null,
+          "role": "shell",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.shell"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Static open hull connector; no door or crew simulation. Procedural PBR; no file texture or UV dependencies."
+    },
+    "FrontCollar": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-L01-P03",
+      "version": "1.0",
+      "name": "Open armored connector end collar",
+      "source": "MA-L01-P03.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.9200000166893005,
+          -0.08699999749660492,
+          0.0
+        ],
+        "max": [
+          0.9200000166893005,
+          0.08699999749660492,
+          1.4199999570846558
+        ]
+      },
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Cold faceted open portal"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Dark inner portal liner"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-plane",
+          "parent": null,
+          "role": "collar",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Static open hull connector; no door or crew simulation. Procedural PBR; no file texture or UV dependencies."
+    },
+    "RearCollar": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-L01-P03",
+      "version": "1.0",
+      "name": "Open armored connector end collar",
+      "source": "MA-L01-P03.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.9200000166893005,
+          -0.08699999749660492,
+          0.0
+        ],
+        "max": [
+          0.9200000166893005,
+          0.08699999749660492,
+          1.4199999570846558
+        ]
+      },
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Cold faceted open portal"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Dark inner portal liner"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "node": "socket.root",
+          "parent": null,
+          "role": "collar",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-plane",
+          "parent": null,
+          "role": "collar",
+          "shape": "logical-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.corridor.collar"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Static open hull connector; no door or crew simulation. Procedural PBR; no file texture or UV dependencies."
+    }
+  },
+  "material_slots": {
+    "Deck": {
+      "Recessed tread seam.004": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed tread seam.003": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed tread seam.002": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed tread seam.001": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Recessed tread seam": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "Inset passage tread": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Faceted graphite load deck": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Cold floor edge.001": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Cold floor edge": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ]
+    },
+    "Shell": {
+      "Recessed roof field": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Inset flank field.001": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Inset flank field": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Continuous graphite U shell": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "Cold roof armor": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Cold flank shield.001": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Cold flank shield": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ]
+    },
+    "FrontCollar": {
+      "Dark inner portal liner": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Cold faceted open portal": [
+        {
+          "id": "Ceramic.002",
+          "role": "Color1"
+        }
+      ]
+    },
+    "RearCollar": {
+      "Dark inner portal liner": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Cold faceted open portal": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "assembly": "Blocks/MA-L01/assembly.json",
+    "source": "Blocks/MA-L01/MA-L01.blend",
+    "bu_per_cell": 1.0,
+    "footprint_bu": [
+      -0.5,
+      -0.5,
+      0.5,
+      0.5
+    ],
+    "height_range_bu": [
+      -0.1,
+      1.6
+    ],
+    "layers": [
+      {
+        "id": "body",
+        "draw_order": 0,
+        "rotates": false,
+        "pivot_bu": [
+          0,
+          0
+        ],
+        "instances": [
+          "Deck",
+          "Shell",
+          "FrontCollar",
+          "RearCollar"
+        ]
+      }
+    ],
+    "states": {
+      "damage0": {
+        "frame": 1
+      },
+      "damage33": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "damage66": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "destroyed": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "clips": {},
+    "use_author_animation": false
+  },
+  "inputs": {
+    "Blocks/MA-L01/assembly.json": "58287311021db69028a836c26f727d4fb4f20919a1a83dd10d83e57142650f8e",
+    "Blocks/MA-L01/MA-L01.blend": "4a66031e341fdf20645c2e13da545c4ba7bba0a27b8b4b5283c46d7171f35fa6",
+    "Parts/MA-L01-P01/MA-L01-P01.blend": "c7712452e8f170e6b24585d3e61256f8dc5500cf4632aa04a65ac1c26ef8b8a2",
+    "Parts/MA-L01-P01/part.json": "420b326cc9bca1d0626ce120fd37458e21bc4bfb3dc987c63508adffb2837b5e",
+    "Parts/MA-L01-P02/MA-L01-P02.blend": "973f44a2756544e7cf30c47239e4736195c87f61c637a74f4631ea7666240012",
+    "Parts/MA-L01-P02/part.json": "b6a028d634c54a04f225153252358b6f9fa579c668a7fd5786e2443dfbfcfc09",
+    "Parts/MA-L01-P03/MA-L01-P03.blend": "1f02a9d08f0853667340fe349db5b9427c8f10fbbe345576455f9ee11dddc16a",
+    "Parts/MA-L01-P03/part.json": "cf03fa65e133a22220da1b4cd98369994ed4f9ee9289330331c608b73cc98914"
+  },
+  "dependencies": [
+    "Blocks/MA-L01/assembly.json",
+    "Blocks/MA-L01/MA-L01.blend",
+    "Parts/MA-L01-P01/MA-L01-P01.blend",
+    "Parts/MA-L01-P01/part.json",
+    "Parts/MA-L01-P02/MA-L01-P02.blend",
+    "Parts/MA-L01-P02/part.json",
+    "Parts/MA-L01-P03/MA-L01-P03.blend",
+    "Parts/MA-L01-P03/part.json"
+  ]
+}

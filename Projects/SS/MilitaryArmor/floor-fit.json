@@ -1,0 +1,2470 @@
+{
+  "schema": "MilitaryArmor.FloorFit/1",
+  "corner_cells": 0.12,
+  "frame_cells": 0.06,
+  "margin_cells": 0.08,
+  "blocks": {
+    "MA-A01": {
+      "floor": "MA-FLOOR-rect-1x1",
+      "polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "body_instances": [
+        "armor-shell"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-A02": {
+      "floor": "MA-FLOOR-rect-2x1",
+      "polygon": [
+        [
+          -1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          -1.0,
+          0.5
+        ]
+      ],
+      "grid": [
+        2,
+        1
+      ],
+      "body_instances": [
+        "armor-shell"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-A03": {
+      "floor": "MA-FLOOR-wedge-1x1",
+      "polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "body_instances": [
+        "shell"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-A04": {
+      "floor": "MA-FLOOR-wedge-1x2",
+      "polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "body_instances": [
+        "armor-shell"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-B01": {
+      "floor": "MA-FLOOR-rect-4x4",
+      "polygon": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          -2.0,
+          2.0
+        ]
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "body_instances": [
+        "Structure",
+        "EnergyBlade0",
+        "EnergyBlade1",
+        "EnergyBlade2",
+        "EnergyBlade3",
+        "EnergyBlade4",
+        "EnergyBlade5",
+        "EnergyBlade6",
+        "FrontPowerBus",
+        "RearPowerBus"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-C01": {
+      "floor": "MA-FLOOR-rect-2x1",
+      "polygon": [
+        [
+          -1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          -1.0,
+          0.5
+        ]
+      ],
+      "grid": [
+        2,
+        1
+      ],
+      "body_instances": [
+        "Backplane",
+        "ComputeBlade-0",
+        "ComputeBlade-1",
+        "ComputeBlade-2",
+        "ComputeBlade-3",
+        "ComputeBlade-4",
+        "ComputeBlade-5",
+        "Diagnostics"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-D01": {
+      "floor": "MA-FLOOR-rect-1x3",
+      "polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "grid": [
+        1,
+        3
+      ],
+      "body_instances": [
+        "load-frame",
+        "reduction-drive"
+      ],
+      "protrusion_instances": [
+        "cutting-head"
+      ]
+    },
+    "MA-D02": {
+      "floor": "MA-FLOOR-rect-2x3",
+      "polygon": [
+        [
+          -1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          1.5
+        ],
+        [
+          -1.0,
+          1.5
+        ]
+      ],
+      "grid": [
+        2,
+        3
+      ],
+      "body_instances": [
+        "twin-load-frame",
+        "drive-left",
+        "drive-right"
+      ],
+      "protrusion_instances": [
+        "cutter-left",
+        "cutter-right"
+      ]
+    },
+    "MA-D03": {
+      "floor": "MA-FLOOR-rect-3x5",
+      "polygon": [
+        [
+          -1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          2.5
+        ],
+        [
+          -1.5,
+          2.5
+        ]
+      ],
+      "grid": [
+        3,
+        5
+      ],
+      "body_instances": [
+        "heavy-load-frame",
+        "drive-port",
+        "drive-center",
+        "drive-starboard"
+      ],
+      "protrusion_instances": [
+        "cutter-port",
+        "cutter-center",
+        "cutter-starboard"
+      ]
+    },
+    "MA-E01": {
+      "floor": "MA-FLOOR-rect-1x2",
+      "polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "body_instances": [
+        "HullCassette",
+        "Chamber",
+        "Thermal.R",
+        "Thermal.L",
+        "ServiceCartridge"
+      ],
+      "protrusion_instances": [
+        "Nozzle"
+      ]
+    },
+    "MA-E02": {
+      "floor": "MA-FLOOR-rect-3x2",
+      "polygon": [
+        [
+          -1.5,
+          -1.0
+        ],
+        [
+          1.5,
+          -1.0
+        ],
+        [
+          1.5,
+          1.0
+        ],
+        [
+          -1.5,
+          1.0
+        ]
+      ],
+      "grid": [
+        3,
+        2
+      ],
+      "body_instances": [
+        "FuelManifold",
+        "Chamber0",
+        "Chamber1",
+        "Chamber2",
+        "ServiceCartridge"
+      ],
+      "protrusion_instances": [
+        "Nozzle0",
+        "Nozzle1",
+        "Nozzle2"
+      ]
+    },
+    "MA-EF01": {
+      "floor": "MA-FLOOR-rect-2x3",
+      "polygon": [
+        [
+          -1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          1.5
+        ],
+        [
+          -1.0,
+          1.5
+        ]
+      ],
+      "grid": [
+        2,
+        3
+      ],
+      "body_instances": [
+        "PressureHousing",
+        "ServiceCartridge"
+      ],
+      "protrusion_instances": [
+        "ExpansionBell"
+      ]
+    },
+    "MA-EF02": {
+      "floor": "MA-FLOOR-rect-1x2",
+      "polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "body_instances": [
+        "PressureHousing",
+        "ServiceCartridge"
+      ],
+      "protrusion_instances": [
+        "ExpansionBell"
+      ]
+    },
+    "MA-EF03": {
+      "floor": "MA-FLOOR-rect-3x4",
+      "polygon": [
+        [
+          -1.5,
+          -2.0
+        ],
+        [
+          1.5,
+          -2.0
+        ],
+        [
+          1.5,
+          2.0
+        ],
+        [
+          -1.5,
+          2.0
+        ]
+      ],
+      "grid": [
+        3,
+        4
+      ],
+      "body_instances": [
+        "TwinPressureHousing",
+        "ServiceCartridge"
+      ],
+      "protrusion_instances": [
+        "ExpansionBellL",
+        "ExpansionBellR"
+      ]
+    },
+    "MA-EF04": {
+      "floor": "MA-FLOOR-rect-4x6",
+      "polygon": [
+        [
+          -2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          -2.0,
+          3.0
+        ]
+      ],
+      "grid": [
+        4,
+        6
+      ],
+      "body_instances": [
+        "TriplePressureHousing",
+        "ServiceCartridge"
+      ],
+      "protrusion_instances": [
+        "ExpansionBellL",
+        "ExpansionBellR",
+        "ExpansionBellU"
+      ]
+    },
+    "MA-EI01": {
+      "floor": "MA-FLOOR-rect-2x3",
+      "polygon": [
+        [
+          -1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          1.5
+        ],
+        [
+          -1.0,
+          1.5
+        ]
+      ],
+      "grid": [
+        2,
+        3
+      ],
+      "body_instances": [
+        "SplitPowerHousing",
+        "ElectrodeAperture",
+        "ServiceCartridge"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-EI02": {
+      "floor": "MA-FLOOR-rect-3x4",
+      "polygon": [
+        [
+          -1.5,
+          -2.0
+        ],
+        [
+          1.5,
+          -2.0
+        ],
+        [
+          1.5,
+          2.0
+        ],
+        [
+          -1.5,
+          2.0
+        ]
+      ],
+      "grid": [
+        3,
+        4
+      ],
+      "body_instances": [
+        "SplitPowerHousing",
+        "ElectrodeApertureLow",
+        "ElectrodeApertureHigh",
+        "ServiceCartridge"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-EI03": {
+      "floor": "MA-FLOOR-rect-1x2",
+      "polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "body_instances": [
+        "CompactPowerHousing",
+        "ElectrodeAperture",
+        "ServiceCartridge"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-EI04": {
+      "floor": "MA-FLOOR-rect-4x6",
+      "polygon": [
+        [
+          -2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          -2.0,
+          3.0
+        ]
+      ],
+      "grid": [
+        4,
+        6
+      ],
+      "body_instances": [
+        "OpenPowerTract",
+        "ElectrodeLeftLow",
+        "ElectrodeRightLow",
+        "ElectrodeLeftHigh",
+        "ElectrodeRightHigh",
+        "ServiceCartridge"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-F01": {
+      "floor": "MA-FLOOR-rect-2x1",
+      "polygon": [
+        [
+          -1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          -1.0,
+          0.5
+        ]
+      ],
+      "grid": [
+        2,
+        1
+      ],
+      "body_instances": [
+        "ProductionBed",
+        "ProcessChamber",
+        "TechnologicalBridge"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-F02": {
+      "floor": "MA-FLOOR-rect-2x1",
+      "polygon": [
+        [
+          -1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          -1.0,
+          0.5
+        ]
+      ],
+      "grid": [
+        2,
+        1
+      ],
+      "body_instances": [
+        "ProductionBed",
+        "ProcessChamber",
+        "TechnologicalBridge",
+        "BaseServiceTower"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-FF01": {
+      "floor": "MA-FLOOR-rect-3x5",
+      "polygon": [
+        [
+          -1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          2.5
+        ],
+        [
+          -1.5,
+          2.5
+        ]
+      ],
+      "grid": [
+        3,
+        5
+      ],
+      "body_instances": [
+        "LineStructure",
+        "TallWorkingStage",
+        "CrossProcessChamber",
+        "FinalProcessDrum",
+        "FrontTransferHead",
+        "RearTransferHead",
+        "ShieldedRouting"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-FG01": {
+      "floor": "MA-FLOOR-rect-3x3",
+      "polygon": [
+        [
+          -1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          1.5
+        ],
+        [
+          -1.5,
+          1.5
+        ]
+      ],
+      "grid": [
+        3,
+        3
+      ],
+      "body_instances": [
+        "Structure",
+        "MainMachineDrum",
+        "ForwardPump",
+        "RearPump",
+        "ProtectedTransferLines"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-FT01": {
+      "floor": "MA-FLOOR-rect-1x2",
+      "polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "body_instances": [
+        "Frame",
+        "Vessel",
+        "Hoop-front",
+        "Hoop-rear",
+        "Service"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-FT02": {
+      "floor": "MA-FLOOR-rect-2x2",
+      "polygon": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "grid": [
+        2,
+        2
+      ],
+      "body_instances": [
+        "Structure",
+        "leftVessel",
+        "leftHoopfront",
+        "leftHooprear",
+        "rightVessel",
+        "rightHoopfront",
+        "rightHooprear"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-FT03": {
+      "floor": "MA-FLOOR-rect-3x3",
+      "polygon": [
+        [
+          -1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          1.5
+        ],
+        [
+          -1.5,
+          1.5
+        ]
+      ],
+      "grid": [
+        3,
+        3
+      ],
+      "body_instances": [
+        "CradleAndTransferHeader",
+        "Vessel-L0-R0",
+        "Vessel-L0-R0-Hoop-front",
+        "Vessel-L0-R0-Hoop-rear",
+        "Vessel-L0-R1",
+        "Vessel-L0-R1-Hoop-front",
+        "Vessel-L0-R1-Hoop-rear",
+        "Vessel-L1-R0",
+        "Vessel-L1-R0-Hoop-front",
+        "Vessel-L1-R0-Hoop-rear",
+        "Vessel-L1-R1",
+        "Vessel-L1-R1-Hoop-front",
+        "Vessel-L1-R1-Hoop-rear",
+        "Vessel-L2-R0",
+        "Vessel-L2-R0-Hoop-front",
+        "Vessel-L2-R0-Hoop-rear",
+        "Vessel-L2-R1",
+        "Vessel-L2-R1-Hoop-front",
+        "Vessel-L2-R1-Hoop-rear"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-FT04": {
+      "floor": "MA-FLOOR-rect-4x4",
+      "polygon": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          -2.0,
+          2.0
+        ]
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "body_instances": [
+        "CradleAndTransferHeader",
+        "Vessel-L0-R0",
+        "Vessel-L0-R0-Hoop-front",
+        "Vessel-L0-R0-Hoop-rear",
+        "Vessel-L0-R1",
+        "Vessel-L0-R1-Hoop-front",
+        "Vessel-L0-R1-Hoop-rear",
+        "Vessel-L1-R0",
+        "Vessel-L1-R0-Hoop-front",
+        "Vessel-L1-R0-Hoop-rear",
+        "Vessel-L1-R1",
+        "Vessel-L1-R1-Hoop-front",
+        "Vessel-L1-R1-Hoop-rear",
+        "Vessel-L2-R0",
+        "Vessel-L2-R0-Hoop-front",
+        "Vessel-L2-R0-Hoop-rear",
+        "Vessel-L2-R1",
+        "Vessel-L2-R1-Hoop-front",
+        "Vessel-L2-R1-Hoop-rear",
+        "Vessel-L3-R0",
+        "Vessel-L3-R0-Hoop-front",
+        "Vessel-L3-R0-Hoop-rear",
+        "Vessel-L3-R1",
+        "Vessel-L3-R1-Hoop-front",
+        "Vessel-L3-R1-Hoop-rear"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-G01": {
+      "floor": "MA-FLOOR-rect-1x1",
+      "polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "body_instances": [
+        "Foundation",
+        "Portal",
+        "Housing",
+        "Diagnostic"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-G02": {
+      "floor": "MA-FLOOR-rect-1x1",
+      "polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "body_instances": [
+        "Foundation",
+        "Portal",
+        "BaseSuperstructure",
+        "ShipyardBridge",
+        "Diagnostic"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-H01": {
+      "floor": "MA-FLOOR-rect-1x2",
+      "polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "body_instances": [
+        "Collector"
+      ],
+      "protrusion_instances": [
+        "Fin-0.L",
+        "Fin-0.R",
+        "Fin-1.L",
+        "Fin-1.R",
+        "Fin-2.L",
+        "Fin-2.R",
+        "Fin-3.L",
+        "Fin-3.R",
+        "Fin-4.L",
+        "Fin-4.R",
+        "Fin-5.L",
+        "Fin-5.R",
+        "Fin-6.L",
+        "Fin-6.R",
+        "Fin-7.L",
+        "Fin-7.R",
+        "Fin-8.L",
+        "Fin-8.R"
+      ]
+    },
+    "MA-H02": {
+      "floor": "MA-FLOOR-rect-2x3",
+      "polygon": [
+        [
+          -1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          1.5
+        ],
+        [
+          -1.0,
+          1.5
+        ]
+      ],
+      "grid": [
+        2,
+        3
+      ],
+      "body_instances": [
+        "DualCollector"
+      ],
+      "protrusion_instances": [
+        "RadiatingBlade-B0-0.L",
+        "RadiatingBlade-B0-0.R",
+        "RadiatingBlade-B0-1.L",
+        "RadiatingBlade-B0-1.R",
+        "RadiatingBlade-B0-2.L",
+        "RadiatingBlade-B0-2.R",
+        "RadiatingBlade-B0-3.L",
+        "RadiatingBlade-B0-3.R",
+        "RadiatingBlade-B0-4.L",
+        "RadiatingBlade-B0-4.R",
+        "RadiatingBlade-B0-5.L",
+        "RadiatingBlade-B0-5.R",
+        "RadiatingBlade-B0-6.L",
+        "RadiatingBlade-B0-6.R",
+        "RadiatingBlade-B0-7.L",
+        "RadiatingBlade-B0-7.R",
+        "RadiatingBlade-B0-8.L",
+        "RadiatingBlade-B0-8.R",
+        "RadiatingBlade-B0-9.L",
+        "RadiatingBlade-B0-9.R",
+        "RadiatingBlade-B0-10.L",
+        "RadiatingBlade-B0-10.R",
+        "RadiatingBlade-B0-11.L",
+        "RadiatingBlade-B0-11.R",
+        "RadiatingBlade-B0-12.L",
+        "RadiatingBlade-B0-12.R",
+        "RadiatingBlade-B0-13.L",
+        "RadiatingBlade-B0-13.R",
+        "RadiatingBlade-B0-14.L",
+        "RadiatingBlade-B0-14.R",
+        "RadiatingBlade-B1-0.L",
+        "RadiatingBlade-B1-0.R",
+        "RadiatingBlade-B1-1.L",
+        "RadiatingBlade-B1-1.R",
+        "RadiatingBlade-B1-2.L",
+        "RadiatingBlade-B1-2.R",
+        "RadiatingBlade-B1-3.L",
+        "RadiatingBlade-B1-3.R",
+        "RadiatingBlade-B1-4.L",
+        "RadiatingBlade-B1-4.R",
+        "RadiatingBlade-B1-5.L",
+        "RadiatingBlade-B1-5.R",
+        "RadiatingBlade-B1-6.L",
+        "RadiatingBlade-B1-6.R",
+        "RadiatingBlade-B1-7.L",
+        "RadiatingBlade-B1-7.R",
+        "RadiatingBlade-B1-8.L",
+        "RadiatingBlade-B1-8.R",
+        "RadiatingBlade-B1-9.L",
+        "RadiatingBlade-B1-9.R",
+        "RadiatingBlade-B1-10.L",
+        "RadiatingBlade-B1-10.R",
+        "RadiatingBlade-B1-11.L",
+        "RadiatingBlade-B1-11.R",
+        "RadiatingBlade-B1-12.L",
+        "RadiatingBlade-B1-12.R",
+        "RadiatingBlade-B1-13.L",
+        "RadiatingBlade-B1-13.R",
+        "RadiatingBlade-B1-14.L",
+        "RadiatingBlade-B1-14.R"
+      ]
+    },
+    "MA-H03": {
+      "floor": "MA-FLOOR-rect-3x5",
+      "polygon": [
+        [
+          -1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          2.5
+        ],
+        [
+          -1.5,
+          2.5
+        ]
+      ],
+      "grid": [
+        3,
+        5
+      ],
+      "body_instances": [
+        "TripleCollector"
+      ],
+      "protrusion_instances": [
+        "RadiatingBlade-B0-0.L",
+        "RadiatingBlade-B0-0.R",
+        "RadiatingBlade-B0-1.L",
+        "RadiatingBlade-B0-1.R",
+        "RadiatingBlade-B0-2.L",
+        "RadiatingBlade-B0-2.R",
+        "RadiatingBlade-B0-3.L",
+        "RadiatingBlade-B0-3.R",
+        "RadiatingBlade-B0-4.L",
+        "RadiatingBlade-B0-4.R",
+        "RadiatingBlade-B0-5.L",
+        "RadiatingBlade-B0-5.R",
+        "RadiatingBlade-B0-6.L",
+        "RadiatingBlade-B0-6.R",
+        "RadiatingBlade-B0-7.L",
+        "RadiatingBlade-B0-7.R",
+        "RadiatingBlade-B0-8.L",
+        "RadiatingBlade-B0-8.R",
+        "RadiatingBlade-B0-9.L",
+        "RadiatingBlade-B0-9.R",
+        "RadiatingBlade-B0-10.L",
+        "RadiatingBlade-B0-10.R",
+        "RadiatingBlade-B0-11.L",
+        "RadiatingBlade-B0-11.R",
+        "RadiatingBlade-B0-12.L",
+        "RadiatingBlade-B0-12.R",
+        "RadiatingBlade-B0-13.L",
+        "RadiatingBlade-B0-13.R",
+        "RadiatingBlade-B0-14.L",
+        "RadiatingBlade-B0-14.R",
+        "RadiatingBlade-B0-15.L",
+        "RadiatingBlade-B0-15.R",
+        "RadiatingBlade-B0-16.L",
+        "RadiatingBlade-B0-16.R",
+        "RadiatingBlade-B0-17.L",
+        "RadiatingBlade-B0-17.R",
+        "RadiatingBlade-B0-18.L",
+        "RadiatingBlade-B0-18.R",
+        "RadiatingBlade-B0-19.L",
+        "RadiatingBlade-B0-19.R",
+        "RadiatingBlade-B0-20.L",
+        "RadiatingBlade-B0-20.R",
+        "RadiatingBlade-B1-0.L",
+        "RadiatingBlade-B1-0.R",
+        "RadiatingBlade-B1-1.L",
+        "RadiatingBlade-B1-1.R",
+        "RadiatingBlade-B1-2.L",
+        "RadiatingBlade-B1-2.R",
+        "RadiatingBlade-B1-3.L",
+        "RadiatingBlade-B1-3.R",
+        "RadiatingBlade-B1-4.L",
+        "RadiatingBlade-B1-4.R",
+        "RadiatingBlade-B1-5.L",
+        "RadiatingBlade-B1-5.R",
+        "RadiatingBlade-B1-6.L",
+        "RadiatingBlade-B1-6.R",
+        "RadiatingBlade-B1-7.L",
+        "RadiatingBlade-B1-7.R",
+        "RadiatingBlade-B1-8.L",
+        "RadiatingBlade-B1-8.R",
+        "RadiatingBlade-B1-9.L",
+        "RadiatingBlade-B1-9.R",
+        "RadiatingBlade-B1-10.L",
+        "RadiatingBlade-B1-10.R",
+        "RadiatingBlade-B1-11.L",
+        "RadiatingBlade-B1-11.R",
+        "RadiatingBlade-B1-12.L",
+        "RadiatingBlade-B1-12.R",
+        "RadiatingBlade-B1-13.L",
+        "RadiatingBlade-B1-13.R",
+        "RadiatingBlade-B1-14.L",
+        "RadiatingBlade-B1-14.R",
+        "RadiatingBlade-B1-15.L",
+        "RadiatingBlade-B1-15.R",
+        "RadiatingBlade-B1-16.L",
+        "RadiatingBlade-B1-16.R",
+        "RadiatingBlade-B1-17.L",
+        "RadiatingBlade-B1-17.R",
+        "RadiatingBlade-B1-18.L",
+        "RadiatingBlade-B1-18.R",
+        "RadiatingBlade-B1-19.L",
+        "RadiatingBlade-B1-19.R",
+        "RadiatingBlade-B1-20.L",
+        "RadiatingBlade-B1-20.R",
+        "RadiatingBlade-B1-21.L",
+        "RadiatingBlade-B1-21.R",
+        "RadiatingBlade-B1-22.L",
+        "RadiatingBlade-B1-22.R",
+        "RadiatingBlade-B1-23.L",
+        "RadiatingBlade-B1-23.R",
+        "RadiatingBlade-B2-0.L",
+        "RadiatingBlade-B2-0.R",
+        "RadiatingBlade-B2-1.L",
+        "RadiatingBlade-B2-1.R",
+        "RadiatingBlade-B2-2.L",
+        "RadiatingBlade-B2-2.R",
+        "RadiatingBlade-B2-3.L",
+        "RadiatingBlade-B2-3.R",
+        "RadiatingBlade-B2-4.L",
+        "RadiatingBlade-B2-4.R",
+        "RadiatingBlade-B2-5.L",
+        "RadiatingBlade-B2-5.R",
+        "RadiatingBlade-B2-6.L",
+        "RadiatingBlade-B2-6.R",
+        "RadiatingBlade-B2-7.L",
+        "RadiatingBlade-B2-7.R",
+        "RadiatingBlade-B2-8.L",
+        "RadiatingBlade-B2-8.R",
+        "RadiatingBlade-B2-9.L",
+        "RadiatingBlade-B2-9.R",
+        "RadiatingBlade-B2-10.L",
+        "RadiatingBlade-B2-10.R",
+        "RadiatingBlade-B2-11.L",
+        "RadiatingBlade-B2-11.R",
+        "RadiatingBlade-B2-12.L",
+        "RadiatingBlade-B2-12.R",
+        "RadiatingBlade-B2-13.L",
+        "RadiatingBlade-B2-13.R",
+        "RadiatingBlade-B2-14.L",
+        "RadiatingBlade-B2-14.R",
+        "RadiatingBlade-B2-15.L",
+        "RadiatingBlade-B2-15.R",
+        "RadiatingBlade-B2-16.L",
+        "RadiatingBlade-B2-16.R",
+        "RadiatingBlade-B2-17.L",
+        "RadiatingBlade-B2-17.R",
+        "RadiatingBlade-B2-18.L",
+        "RadiatingBlade-B2-18.R",
+        "RadiatingBlade-B2-19.L",
+        "RadiatingBlade-B2-19.R",
+        "RadiatingBlade-B2-20.L",
+        "RadiatingBlade-B2-20.R"
+      ]
+    },
+    "MA-HS01": {
+      "floor": "MA-FLOOR-rect-1x1",
+      "polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "body_instances": [
+        "ThermalBed",
+        "ThermalSection-0",
+        "ThermalSection-1",
+        "ThermalSection-2",
+        "HeatCollector"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-HS02": {
+      "floor": "MA-FLOOR-rect-2x2",
+      "polygon": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "grid": [
+        2,
+        2
+      ],
+      "body_instances": [
+        "DualThermalBed",
+        "ThermalRing-B0-0",
+        "ThermalRing-B0-1",
+        "ThermalRing-B0-2",
+        "ThermalRing-B0-3",
+        "ThermalRing-B0-4",
+        "ThermalRing-B1-0",
+        "ThermalRing-B1-1",
+        "ThermalRing-B1-2",
+        "ThermalRing-B1-3",
+        "ThermalRing-B1-4",
+        "DualCollector"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-HS03": {
+      "floor": "MA-FLOOR-rect-3x3",
+      "polygon": [
+        [
+          -1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          1.5
+        ],
+        [
+          -1.5,
+          1.5
+        ]
+      ],
+      "grid": [
+        3,
+        3
+      ],
+      "body_instances": [
+        "TripleThermalBed",
+        "ThermalRing-B0-0",
+        "ThermalRing-B0-1",
+        "ThermalRing-B0-2",
+        "ThermalRing-B0-3",
+        "ThermalRing-B0-4",
+        "ThermalRing-B0-5",
+        "ThermalRing-B0-6",
+        "ThermalRing-B0-7",
+        "ThermalRing-B1-0",
+        "ThermalRing-B1-1",
+        "ThermalRing-B1-2",
+        "ThermalRing-B1-3",
+        "ThermalRing-B1-4",
+        "ThermalRing-B1-5",
+        "ThermalRing-B1-6",
+        "ThermalRing-B1-7",
+        "ThermalRing-B2-0",
+        "ThermalRing-B2-1",
+        "ThermalRing-B2-2",
+        "ThermalRing-B2-3",
+        "ThermalRing-B2-4",
+        "ThermalRing-B2-5",
+        "ThermalRing-B2-6",
+        "ThermalRing-B2-7",
+        "TripleCollector"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-HS04": {
+      "floor": "MA-FLOOR-rect-4x4",
+      "polygon": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          -2.0,
+          2.0
+        ]
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "body_instances": [
+        "QuadThermalBed",
+        "ThermalRing-B0-0",
+        "ThermalRing-B0-1",
+        "ThermalRing-B0-2",
+        "ThermalRing-B0-3",
+        "ThermalRing-B0-4",
+        "ThermalRing-B0-5",
+        "ThermalRing-B0-6",
+        "ThermalRing-B0-7",
+        "ThermalRing-B0-8",
+        "ThermalRing-B0-9",
+        "ThermalRing-B0-10",
+        "ThermalRing-B0-11",
+        "ThermalRing-B1-0",
+        "ThermalRing-B1-1",
+        "ThermalRing-B1-2",
+        "ThermalRing-B1-3",
+        "ThermalRing-B1-4",
+        "ThermalRing-B1-5",
+        "ThermalRing-B1-6",
+        "ThermalRing-B1-7",
+        "ThermalRing-B1-8",
+        "ThermalRing-B1-9",
+        "ThermalRing-B1-10",
+        "ThermalRing-B1-11",
+        "ThermalRing-B2-0",
+        "ThermalRing-B2-1",
+        "ThermalRing-B2-2",
+        "ThermalRing-B2-3",
+        "ThermalRing-B2-4",
+        "ThermalRing-B2-5",
+        "ThermalRing-B2-6",
+        "ThermalRing-B2-7",
+        "ThermalRing-B2-8",
+        "ThermalRing-B2-9",
+        "ThermalRing-B2-10",
+        "ThermalRing-B2-11",
+        "ThermalRing-B3-0",
+        "ThermalRing-B3-1",
+        "ThermalRing-B3-2",
+        "ThermalRing-B3-3",
+        "ThermalRing-B3-4",
+        "ThermalRing-B3-5",
+        "ThermalRing-B3-6",
+        "ThermalRing-B3-7",
+        "ThermalRing-B3-8",
+        "ThermalRing-B3-9",
+        "ThermalRing-B3-10",
+        "ThermalRing-B3-11",
+        "QuadCollector"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-I01": {
+      "floor": "MA-FLOOR-rect-2x1",
+      "polygon": [
+        [
+          -1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          -1.0,
+          0.5
+        ]
+      ],
+      "grid": [
+        2,
+        1
+      ],
+      "body_instances": [
+        "Structure",
+        "LoadingHatch",
+        "FrontCargoRail",
+        "RearCargoRail"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-I02": {
+      "floor": "MA-FLOOR-rect-2x2",
+      "polygon": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "grid": [
+        2,
+        2
+      ],
+      "body_instances": [
+        "Structure",
+        "LoadingHatchF",
+        "LoadingHatchB",
+        "CargoRailF",
+        "CargoRailB"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-I03": {
+      "floor": "MA-FLOOR-rect-3x3",
+      "polygon": [
+        [
+          -1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          1.5
+        ],
+        [
+          -1.5,
+          1.5
+        ]
+      ],
+      "grid": [
+        3,
+        3
+      ],
+      "body_instances": [
+        "Structure",
+        "LoadingHatchF",
+        "LoadingHatchM",
+        "LoadingHatchB",
+        "CargoRailF",
+        "CargoRailB"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-I04": {
+      "floor": "MA-FLOOR-rect-4x4",
+      "polygon": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          -2.0,
+          2.0
+        ]
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "body_instances": [
+        "Structure",
+        "LoadingHatchL0",
+        "LoadingHatchL1",
+        "LoadingHatchL2",
+        "LoadingHatchR0",
+        "LoadingHatchR1",
+        "LoadingHatchR2",
+        "CargoRailF",
+        "CargoRailB"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-I05": {
+      "floor": "MA-FLOOR-rect-5x5",
+      "polygon": [
+        [
+          -2.5,
+          -2.5
+        ],
+        [
+          2.5,
+          -2.5
+        ],
+        [
+          2.5,
+          2.5
+        ],
+        [
+          -2.5,
+          2.5
+        ]
+      ],
+      "grid": [
+        5,
+        5
+      ],
+      "body_instances": [
+        "Structure",
+        "LoadingHatchL0",
+        "LoadingHatchL1",
+        "LoadingHatchL2",
+        "LoadingHatchL3",
+        "LoadingHatchR0",
+        "LoadingHatchR1",
+        "LoadingHatchR2",
+        "LoadingHatchR3",
+        "CargoRailLF",
+        "CargoRailLB",
+        "CargoRailRF",
+        "CargoRailRB"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-L01": {
+      "floor": "MA-FLOOR-rect-1x1",
+      "polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "body_instances": [
+        "Deck",
+        "Shell",
+        "FrontCollar",
+        "RearCollar"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-M01": {
+      "floor": "MA-FLOOR-rect-1x3",
+      "polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "grid": [
+        1,
+        3
+      ],
+      "body_instances": [
+        "Chassis",
+        "Optic",
+        "LeftThermal",
+        "RightThermal",
+        "Service"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-M02": {
+      "floor": "MA-FLOOR-rect-1x3",
+      "polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "grid": [
+        1,
+        3
+      ],
+      "body_instances": [
+        "Chassis",
+        "OpticCell0",
+        "OpticCell1",
+        "OpticCell2",
+        "Aperture",
+        "Cooling0",
+        "Cooling1",
+        "Service"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-N01": {
+      "floor": "MA-FLOOR-rect-1x1",
+      "polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "body_instances": [
+        "Chassis",
+        "Support",
+        "Aperture",
+        "Service"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-R01": {
+      "floor": "MA-FLOOR-rect-4x4",
+      "polygon": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          -2.0,
+          2.0
+        ]
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "body_instances": [
+        "Foundation",
+        "Core",
+        "Shield0",
+        "Thermal0",
+        "Shield1",
+        "Thermal1",
+        "Shield2",
+        "Thermal2",
+        "Shield3",
+        "Thermal3",
+        "Service"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-S01": {
+      "floor": "MA-FLOOR-rect-1x1",
+      "polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "body_instances": [
+        "TradeRoutingFrame",
+        "TransactionCore",
+        "PortLeft",
+        "PortRight",
+        "PortRear",
+        "ServiceCollector"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-SP01": {
+      "floor": "MA-FLOOR-rect-1x2",
+      "polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "body_instances": [
+        "Solar-truss",
+        "Photovoltaic-field"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-SP02": {
+      "floor": "MA-FLOOR-rect-2x3",
+      "polygon": [
+        [
+          -1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          1.5
+        ],
+        [
+          -1.0,
+          1.5
+        ]
+      ],
+      "grid": [
+        2,
+        3
+      ],
+      "body_instances": [
+        "WidePVField",
+        "SupportQuadrant-0",
+        "SupportQuadrant-1"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-SP03": {
+      "floor": "MA-FLOOR-rect-3x5",
+      "polygon": [
+        [
+          -1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          -2.5
+        ],
+        [
+          1.5,
+          2.5
+        ],
+        [
+          -1.5,
+          2.5
+        ]
+      ],
+      "grid": [
+        3,
+        5
+      ],
+      "body_instances": [
+        "LargePVField",
+        "Support-0",
+        "Support-1",
+        "Support-2",
+        "Support-3",
+        "Support-4",
+        "Support-5"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-SP04": {
+      "floor": "MA-FLOOR-rect-4x6",
+      "polygon": [
+        [
+          -2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          -3.0
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          -2.0,
+          3.0
+        ]
+      ],
+      "grid": [
+        4,
+        6
+      ],
+      "body_instances": [
+        "LargePVField",
+        "Support-0",
+        "Support-1",
+        "Support-2",
+        "Support-3",
+        "Support-4",
+        "Support-5"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-T01": {
+      "floor": "MA-FLOOR-rect-2x3",
+      "polygon": [
+        [
+          -1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          -1.5
+        ],
+        [
+          1.0,
+          1.5
+        ],
+        [
+          -1.0,
+          1.5
+        ]
+      ],
+      "grid": [
+        2,
+        3
+      ],
+      "body_instances": [
+        "Foundation",
+        "Bearing",
+        "TurretArmor",
+        "Mantlet",
+        "RoofHatch",
+        "RoofOptics",
+        "TieDown.-1.52.-1.05",
+        "TieDown.-1.52.1.05",
+        "TieDown.1.52.-1.05",
+        "TieDown.1.52.1.05"
+      ],
+      "protrusion_instances": [
+        "Barrel.L",
+        "Barrel.R"
+      ]
+    },
+    "MA-W01": {
+      "floor": "MA-FLOOR-rect-4x4",
+      "polygon": [
+        [
+          -2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          -2.0
+        ],
+        [
+          2.0,
+          2.0
+        ],
+        [
+          -2.0,
+          2.0
+        ]
+      ],
+      "grid": [
+        4,
+        4
+      ],
+      "body_instances": [
+        "Foundation",
+        "AzimuthDrive",
+        "Capsule",
+        "TripleCradle",
+        "ServiceCartridge",
+        "LidarBlade"
+      ],
+      "protrusion_instances": [
+        "Accelerator0",
+        "Accelerator1",
+        "Accelerator2"
+      ]
+    },
+    "MA-W02": {
+      "floor": "MA-FLOOR-rect-1x3",
+      "polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "grid": [
+        1,
+        3
+      ],
+      "body_instances": [
+        "LaserFoundation",
+        "ServiceCartridge",
+        "OpticalFork",
+        "OpticalChamber",
+        "LeftRadiator",
+        "RightRadiator",
+        "LidarBlade"
+      ],
+      "protrusion_instances": [
+        "ContinuousEmitter"
+      ]
+    },
+    "MA-W03": {
+      "floor": "MA-FLOOR-rect-2x2",
+      "polygon": [
+        [
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "grid": [
+        2,
+        2
+      ],
+      "body_instances": [
+        "Foundation",
+        "Receiver",
+        "ElevationBridge",
+        "ServiceCartridge",
+        "Lidar"
+      ],
+      "protrusion_instances": [
+        "BarrelLeft",
+        "BarrelRight"
+      ]
+    },
+    "MA-W04": {
+      "floor": "MA-FLOOR-rect-3x3",
+      "polygon": [
+        [
+          -1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          -1.5
+        ],
+        [
+          1.5,
+          1.5
+        ],
+        [
+          -1.5,
+          1.5
+        ]
+      ],
+      "grid": [
+        3,
+        3
+      ],
+      "body_instances": [
+        "DiamondFoundation",
+        "LaunchSpine",
+        "TransverseBeam",
+        "LaunchCell0",
+        "LaunchCell1",
+        "LaunchCell2",
+        "LaunchCell3",
+        "Lidar",
+        "ServiceCartridge"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-W05": {
+      "floor": "MA-FLOOR-rect-2x1",
+      "polygon": [
+        [
+          -1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          -0.5
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          -1.0,
+          0.5
+        ]
+      ],
+      "grid": [
+        2,
+        1
+      ],
+      "body_instances": [
+        "Hardpoint",
+        "FanCradle",
+        "LeftFeed",
+        "RightFeed",
+        "Service",
+        "Lidar"
+      ],
+      "protrusion_instances": [
+        "ScatterAperture"
+      ]
+    },
+    "MA-W06": {
+      "floor": "MA-FLOOR-rect-1x2",
+      "polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "body_instances": [
+        "Hardpoint",
+        "SpearCradle",
+        "AftCapacitor",
+        "Service",
+        "Lidar"
+      ],
+      "protrusion_instances": [
+        "SplitRail"
+      ]
+    },
+    "MA-W07": {
+      "floor": "MA-FLOOR-rect-1x1",
+      "polygon": [
+        [
+          -0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          -0.5,
+          0.5
+        ]
+      ],
+      "grid": [
+        1,
+        1
+      ],
+      "body_instances": [
+        "Pedestal",
+        "TrackingSaddle",
+        "ServiceCartridge"
+      ],
+      "protrusion_instances": [
+        "SingleMachinegun"
+      ]
+    },
+    "MA-W08": {
+      "floor": "MA-FLOOR-rect-1x3",
+      "polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "grid": [
+        1,
+        3
+      ],
+      "body_instances": [
+        "HullKeel",
+        "SingleLauncher",
+        "SpareLeft",
+        "SpareRight",
+        "Service",
+        "Lidar"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-W09": {
+      "floor": "MA-FLOOR-rect-1x2",
+      "polygon": [
+        [
+          -0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          -1.0
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          -0.5,
+          1.0
+        ]
+      ],
+      "grid": [
+        1,
+        2
+      ],
+      "body_instances": [
+        "Hardpoint",
+        "Cradle",
+        "Magazine",
+        "Optic"
+      ],
+      "protrusion_instances": [
+        "Gun"
+      ]
+    },
+    "MA-W10": {
+      "floor": "MA-FLOOR-rect-1x3",
+      "polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "grid": [
+        1,
+        3
+      ],
+      "body_instances": [
+        "LaserFoundation",
+        "ServiceCartridge",
+        "PulseFork",
+        "OpticalBench",
+        "PulseFeed"
+      ],
+      "protrusion_instances": [
+        "FocusAperture"
+      ]
+    },
+    "MA-W11": {
+      "floor": "MA-FLOOR-rect-1x3",
+      "polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "grid": [
+        1,
+        3
+      ],
+      "body_instances": [
+        "FixedFrame",
+        "FixedLauncher",
+        "ReserveLeft",
+        "ReserveRight",
+        "Service"
+      ],
+      "protrusion_instances": []
+    },
+    "MA-W12": {
+      "floor": "MA-FLOOR-rect-1x3",
+      "polygon": [
+        [
+          -0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          -1.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          -0.5,
+          1.5
+        ]
+      ],
+      "grid": [
+        1,
+        3
+      ],
+      "body_instances": [
+        "HullKeel",
+        "SingleLauncher",
+        "SpareLeft",
+        "SpareRight",
+        "Guidance",
+        "Lidar",
+        "Service"
+      ],
+      "protrusion_instances": []
+    }
+  }
+}

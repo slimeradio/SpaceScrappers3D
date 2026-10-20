@@ -1,0 +1,151 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-deck",
+  "version": "2.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-deck.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "scale_policy": "positive uniform instance scale; nonuniform requires explicit parametric variant and revalidation",
+  "sockets": [
+    {
+      "id": "mount",
+      "role": "mount",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "space": "local"
+    },
+    {
+      "id": "bearing",
+      "role": "mount",
+      "position": [
+        0.0,
+        0.0,
+        0.65
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "space": "local"
+    }
+  ],
+  "mount_regions": [
+    {
+      "id": "hull_mount",
+      "shape": "rectangle",
+      "size": [
+        3.905,
+        3.0975
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        -1,
+        0
+      ],
+      "parent": "root",
+      "space": "local",
+      "allowed_rotation_degrees": [
+        0,
+        90,
+        180,
+        270
+      ]
+    }
+  ],
+  "functional_points": [],
+  "animations": [],
+  "bind_pose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotation_euler_xyz_radians": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "materials": [
+    "CM.graphite",
+    "CM.ivory",
+    "CM.orange",
+    "CM.rubber",
+    "CM.steel"
+  ],
+  "emissive_regions": [],
+  "dependencies": [
+    "../../Materials/CM-T01/materials.json"
+  ],
+  "compatibility": "authoring metadata only; game mapping pending",
+  "revision_note": "Revision 2: no typography; sharp structural chamfers retain 8 segments. Prior revision archived in Revisions/CM-T01-v1.0.0.zip.",
+  "bounds": {
+    "min": [
+      -1.9810000658035278,
+      -1.6660001277923584,
+      0.0
+    ],
+    "max": [
+      1.9810000658035278,
+      1.5540000200271606,
+      0.699999988079071
+    ],
+    "dimensions": [
+      3.9620001316070557,
+      3.2200002670288086,
+      0.699999988079071
+    ]
+  }
+}

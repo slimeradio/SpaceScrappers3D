@@ -1,0 +1,911 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-FT04",
+  "version": "1.0+states1+floor1",
+  "title": "Бак топлива 4×4",
+  "catalog_id": "fuel-tank-4x4",
+  "catalog_grid": [
+    4,
+    4
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "Assembly: 1 BU = 1 gameplay cell; native part units transformed by ModelFit"
+  },
+  "instances": [
+    {
+      "id": "CradleAndTransferHeader",
+      "part_id": "MA-FT04-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT04-P01/MA-FT04-P01.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L0-R0",
+      "part_id": "MA-FT01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P02/MA-FT01-P02.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        -2.475,
+        -1.8,
+        0.31
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L0-R0-Hoop-front",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        -2.475,
+        -2.5,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L0-R0-Hoop-rear",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        -2.475,
+        -1.15,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L0-R1",
+      "part_id": "MA-FT01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P02/MA-FT01-P02.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        -2.475,
+        1.8,
+        0.31
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L0-R1-Hoop-front",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        -2.475,
+        1.1,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L0-R1-Hoop-rear",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        -2.475,
+        2.45,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L1-R0",
+      "part_id": "MA-FT01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P02/MA-FT01-P02.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        -0.825,
+        -1.8,
+        0.31
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L1-R0-Hoop-front",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        -0.825,
+        -2.5,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L1-R0-Hoop-rear",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        -0.825,
+        -1.15,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L1-R1",
+      "part_id": "MA-FT01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P02/MA-FT01-P02.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        -0.825,
+        1.8,
+        0.31
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L1-R1-Hoop-front",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        -0.825,
+        1.1,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L1-R1-Hoop-rear",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        -0.825,
+        2.45,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L2-R0",
+      "part_id": "MA-FT01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P02/MA-FT01-P02.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        0.825,
+        -1.8,
+        0.31
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L2-R0-Hoop-front",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        0.825,
+        -2.5,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L2-R0-Hoop-rear",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        0.825,
+        -1.15,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L2-R1",
+      "part_id": "MA-FT01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P02/MA-FT01-P02.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        0.825,
+        1.8,
+        0.31
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L2-R1-Hoop-front",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        0.825,
+        1.1,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L2-R1-Hoop-rear",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        0.825,
+        2.45,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L3-R0",
+      "part_id": "MA-FT01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P02/MA-FT01-P02.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        2.475,
+        -1.8,
+        0.31
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L3-R0-Hoop-front",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        2.475,
+        -2.5,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L3-R0-Hoop-rear",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        2.475,
+        -1.15,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L3-R1",
+      "part_id": "MA-FT01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P02/MA-FT01-P02.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        2.475,
+        1.8,
+        0.31
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L3-R1-Hoop-front",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        2.475,
+        1.1,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Vessel-L3-R1-Hoop-rear",
+      "part_id": "MA-FT01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-FT01-P03/MA-FT01-P03.blend",
+      "parent": "MA-FT04",
+      "translation": [
+        2.475,
+        2.45,
+        0.87
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Floor",
+      "part_id": "MA-FLOOR-rect-4x4",
+      "version": "1.0",
+      "source": "../../Parts/MA-FLOOR-rect-4x4/MA-FLOOR-rect-4x4.blend",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "CradleAndTransferHeader",
+      "parent_socket": "vessel-0-0",
+      "child_instance": "Vessel-L0-R0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L0-R0",
+      "parent_socket": "band-front",
+      "child_instance": "Vessel-L0-R0-Hoop-front",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L0-R0",
+      "parent_socket": "band-rear",
+      "child_instance": "Vessel-L0-R0-Hoop-rear",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "CradleAndTransferHeader",
+      "parent_socket": "vessel-0-1",
+      "child_instance": "Vessel-L0-R1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L0-R1",
+      "parent_socket": "band-front",
+      "child_instance": "Vessel-L0-R1-Hoop-front",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L0-R1",
+      "parent_socket": "band-rear",
+      "child_instance": "Vessel-L0-R1-Hoop-rear",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "CradleAndTransferHeader",
+      "parent_socket": "vessel-1-0",
+      "child_instance": "Vessel-L1-R0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L1-R0",
+      "parent_socket": "band-front",
+      "child_instance": "Vessel-L1-R0-Hoop-front",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L1-R0",
+      "parent_socket": "band-rear",
+      "child_instance": "Vessel-L1-R0-Hoop-rear",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "CradleAndTransferHeader",
+      "parent_socket": "vessel-1-1",
+      "child_instance": "Vessel-L1-R1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L1-R1",
+      "parent_socket": "band-front",
+      "child_instance": "Vessel-L1-R1-Hoop-front",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L1-R1",
+      "parent_socket": "band-rear",
+      "child_instance": "Vessel-L1-R1-Hoop-rear",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "CradleAndTransferHeader",
+      "parent_socket": "vessel-2-0",
+      "child_instance": "Vessel-L2-R0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L2-R0",
+      "parent_socket": "band-front",
+      "child_instance": "Vessel-L2-R0-Hoop-front",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L2-R0",
+      "parent_socket": "band-rear",
+      "child_instance": "Vessel-L2-R0-Hoop-rear",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "CradleAndTransferHeader",
+      "parent_socket": "vessel-2-1",
+      "child_instance": "Vessel-L2-R1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L2-R1",
+      "parent_socket": "band-front",
+      "child_instance": "Vessel-L2-R1-Hoop-front",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L2-R1",
+      "parent_socket": "band-rear",
+      "child_instance": "Vessel-L2-R1-Hoop-rear",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "CradleAndTransferHeader",
+      "parent_socket": "vessel-3-0",
+      "child_instance": "Vessel-L3-R0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L3-R0",
+      "parent_socket": "band-front",
+      "child_instance": "Vessel-L3-R0-Hoop-front",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L3-R0",
+      "parent_socket": "band-rear",
+      "child_instance": "Vessel-L3-R0-Hoop-rear",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "CradleAndTransferHeader",
+      "parent_socket": "vessel-3-1",
+      "child_instance": "Vessel-L3-R1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L3-R1",
+      "parent_socket": "band-front",
+      "child_instance": "Vessel-L3-R1-Hoop-front",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Vessel-L3-R1",
+      "parent_socket": "band-rear",
+      "child_instance": "Vessel-L3-R1-Hoop-rear",
+      "child_socket": "root"
+    }
+  ],
+  "animations": {
+    "controller": "MA-FT04",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "fill": {
+        "default": 0.5,
+        "min": 0,
+        "max": 1,
+        "description": "Stored amount/charge; independent from power"
+      }
+    },
+    "channels": [],
+    "clips": [
+      {
+        "name": "MA-FT04::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-FT04::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-FT04::fill",
+        "parameters": [
+          "fill"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Eight unchanged longitudinal fuel vessels, sixteen faceted restraint hoops, independent transverse cradles and central protected header. No capacity, pressure or transfer mechanics specified.",
+  "state_authoring": "state-authoring.json",
+  "nodes": [
+    {
+      "id": "MA-FT04",
+      "parent": "ModelFit",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ModelFit",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.011851911156701714,
+        0.075
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5925925908483323,
+        0.5925925908483323,
+        0.5925925908483323
+      ]
+    },
+    {
+      "id": "Floor",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "floor_fit": {
+    "floor": "MA-FLOOR-rect-4x4",
+    "margin_cells": 0.08,
+    "uniform_scale": 0.5925925908483323,
+    "translation": [
+      0.0,
+      0.011851911156701714,
+      0.075
+    ],
+    "body_instances": [
+      "CradleAndTransferHeader",
+      "Vessel-L0-R0",
+      "Vessel-L0-R0-Hoop-front",
+      "Vessel-L0-R0-Hoop-rear",
+      "Vessel-L0-R1",
+      "Vessel-L0-R1-Hoop-front",
+      "Vessel-L0-R1-Hoop-rear",
+      "Vessel-L1-R0",
+      "Vessel-L1-R0-Hoop-front",
+      "Vessel-L1-R0-Hoop-rear",
+      "Vessel-L1-R1",
+      "Vessel-L1-R1-Hoop-front",
+      "Vessel-L1-R1-Hoop-rear",
+      "Vessel-L2-R0",
+      "Vessel-L2-R0-Hoop-front",
+      "Vessel-L2-R0-Hoop-rear",
+      "Vessel-L2-R1",
+      "Vessel-L2-R1-Hoop-front",
+      "Vessel-L2-R1-Hoop-rear",
+      "Vessel-L3-R0",
+      "Vessel-L3-R0-Hoop-front",
+      "Vessel-L3-R0-Hoop-rear",
+      "Vessel-L3-R1",
+      "Vessel-L3-R1-Hoop-front",
+      "Vessel-L3-R1-Hoop-rear"
+    ],
+    "protrusion_instances": []
+  }
+}

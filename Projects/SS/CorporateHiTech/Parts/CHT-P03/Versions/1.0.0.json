@@ -1,0 +1,407 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-P03",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Гладкий бронекорпус",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "shadow-chassis",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.22,
+        0.135
+      ],
+      "size": [
+        1.12,
+        0.91,
+        0.27
+      ],
+      "radius": 0.085,
+      "material": "graphite"
+    },
+    {
+      "id": "main-shell",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.25,
+        0.23
+      ],
+      "size": [
+        1.08,
+        0.85,
+        0.34
+      ],
+      "radius": 0.105,
+      "material": "armor"
+    },
+    {
+      "id": "crown",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.28,
+        0.413
+      ],
+      "size": [
+        0.63,
+        0.65,
+        0.075
+      ],
+      "radius": 0.032,
+      "material": "armor"
+    },
+    {
+      "id": "crown-inlay",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.3,
+        0.454
+      ],
+      "size": [
+        0.026,
+        0.44,
+        0.008
+      ],
+      "radius": 0.003,
+      "material": "cyan"
+    },
+    {
+      "id": "front-mask",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.164,
+        0.22
+      ],
+      "size": [
+        0.85,
+        0.05,
+        0.22
+      ],
+      "radius": 0.018,
+      "material": "rubber"
+    },
+    {
+      "id": "rear-vent-0",
+      "shape": "roundedBox",
+      "position": [
+        -0.21,
+        -0.679,
+        0.25
+      ],
+      "size": [
+        0.045,
+        0.012,
+        0.12
+      ],
+      "radius": 0.007,
+      "material": "graphite"
+    },
+    {
+      "id": "rear-vent-1",
+      "shape": "roundedBox",
+      "position": [
+        -0.126,
+        -0.679,
+        0.25
+      ],
+      "size": [
+        0.045,
+        0.012,
+        0.12
+      ],
+      "radius": 0.007,
+      "material": "graphite"
+    },
+    {
+      "id": "rear-vent-2",
+      "shape": "roundedBox",
+      "position": [
+        -0.04199999999999998,
+        -0.679,
+        0.25
+      ],
+      "size": [
+        0.045,
+        0.012,
+        0.12
+      ],
+      "radius": 0.007,
+      "material": "graphite"
+    },
+    {
+      "id": "rear-vent-3",
+      "shape": "roundedBox",
+      "position": [
+        0.04200000000000001,
+        -0.679,
+        0.25
+      ],
+      "size": [
+        0.045,
+        0.012,
+        0.12
+      ],
+      "radius": 0.007,
+      "material": "graphite"
+    },
+    {
+      "id": "rear-vent-4",
+      "shape": "roundedBox",
+      "position": [
+        0.12600000000000003,
+        -0.679,
+        0.25
+      ],
+      "size": [
+        0.045,
+        0.012,
+        0.12
+      ],
+      "radius": 0.007,
+      "material": "graphite"
+    },
+    {
+      "id": "rear-vent-5",
+      "shape": "roundedBox",
+      "position": [
+        0.21000000000000005,
+        -0.679,
+        0.25
+      ],
+      "size": [
+        0.045,
+        0.012,
+        0.12
+      ],
+      "radius": 0.007,
+      "material": "graphite"
+    }
+  ],
+  "materialLibrary": "../../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "crown-inlay",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "head-in",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P02.head"
+    },
+    {
+      "id": "emitter-L",
+      "role": "emitter-out",
+      "position": [
+        -0.254,
+        0.08,
+        0.23
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible": "CHT-P05.base"
+    },
+    {
+      "id": "emitter-R",
+      "role": "emitter-out",
+      "position": [
+        0.254,
+        0.08,
+        0.23
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible": "CHT-P05.base"
+    },
+    {
+      "id": "cheek-L",
+      "role": "cheek-out",
+      "position": [
+        -0.565,
+        -0.24,
+        0.22
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P04.base"
+    },
+    {
+      "id": "cheek-R",
+      "role": "cheek-out",
+      "position": [
+        0.565,
+        -0.24,
+        0.22
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P04.base"
+    },
+    {
+      "id": "sensor",
+      "role": "sensor-out",
+      "position": [
+        0,
+        0.08,
+        0.39
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P06.base"
+    },
+    {
+      "id": "service",
+      "role": "service-out",
+      "position": [
+        0,
+        -0.58,
+        0.42
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P07.base"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.56,
+      -0.685,
+      0.0
+    ],
+    "max": [
+      0.56,
+      0.23500000000000001,
+      0.458
+    ],
+    "size": [
+      1.12,
+      0.92,
+      0.458
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schema": "MilitaryArmor.ArmorAuthoringIndex/1",
+  "style": "MilitaryArmor",
+  "models": [
+    {
+      "id": "MA-A01",
+      "title": "Броня 1×1",
+      "catalog_id": "armor-1x1",
+      "catalog_grid": [
+        1,
+        1
+      ],
+      "source": "Blocks/MA-A01/MA-A01.blend",
+      "viewer_asset": "Blocks/MA-A01/Exports/MA-A01.glb",
+      "parts": [
+        "MA-A01-P01"
+      ],
+      "triangles": 76,
+      "mesh_count": 1,
+      "material_count": 2,
+      "GLB_bytes": 5768,
+      "GLB_sha256": "bb393214194ee1488e77e679c8e22c239a430dca27d0abae02bc92ff5ed9077b"
+    },
+    {
+      "id": "MA-A02",
+      "title": "Броня 2×1",
+      "catalog_id": "armor-2x1",
+      "catalog_grid": [
+        2,
+        1
+      ],
+      "source": "Blocks/MA-A02/MA-A02.blend",
+      "viewer_asset": "Blocks/MA-A02/Exports/MA-A02.glb",
+      "parts": [
+        "MA-A02-P01"
+      ],
+      "triangles": 76,
+      "mesh_count": 1,
+      "material_count": 2,
+      "GLB_bytes": 5764,
+      "GLB_sha256": "bd007195a3d4424f410a0428931f5159c10929473876bfee3b1c78d346241db1"
+    },
+    {
+      "id": "MA-A03",
+      "title": "Клиновидная броня 1×1",
+      "catalog_id": "armor-wedge",
+      "catalog_grid": [
+        1,
+        1
+      ],
+      "source": "Blocks/MA-A03/MA-A03.blend",
+      "viewer_asset": "Blocks/MA-A03/Exports/MA-A03.glb",
+      "parts": [
+        "MA-A03-P01"
+      ],
+      "triangles": 44,
+      "mesh_count": 1,
+      "material_count": 2,
+      "GLB_bytes": 4636,
+      "GLB_sha256": "db7d2d50f36876e6e2108d08767f4797d998cc4512144ea195d76d8556b2dc25"
+    },
+    {
+      "id": "MA-A04",
+      "title": "Клиновидная броня 1×2",
+      "catalog_id": "armor-1x2-wedge",
+      "catalog_grid": [
+        1,
+        2
+      ],
+      "source": "Blocks/MA-A04/MA-A04.blend",
+      "viewer_asset": "Blocks/MA-A04/Exports/MA-A04.glb",
+      "parts": [
+        "MA-A04-P01"
+      ],
+      "triangles": 56,
+      "mesh_count": 1,
+      "material_count": 2,
+      "GLB_bytes": 4856,
+      "GLB_sha256": "1ba1fee47e8ec13b55c73ab6195da53fb49fd726ca1640a2749af9004914f41a"
+    }
+  ],
+  "catalog_variants": 4,
+  "coverage_complete": true,
+  "checks_passed": true,
+  "errors": [],
+  "edge_contract": "armor-spec.json",
+  "game_validation": false
+}

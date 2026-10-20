@@ -1,0 +1,145 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-P02",
+  "version": "1.0",
+  "name": "Azimuth bearing",
+  "source": "MA-P02.blend",
+  "units": "BU, physical scale unspecified",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "bounds_local": {
+    "min": [
+      -1.7699999809265137,
+      -1.7699999809265137,
+      0.0
+    ],
+    "max": [
+      1.7699999809265137,
+      1.7699999809265137,
+      0.6274999976158142
+    ]
+  },
+  "scale_policy": "unit scale only",
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Segmented race guard",
+        "Segmented race guard.001",
+        "Segmented race guard.002",
+        "Segmented race guard.003",
+        "Segmented race guard.004",
+        "Segmented race guard.005",
+        "Segmented race guard.006",
+        "Segmented race guard.007",
+        "Segmented race guard.008",
+        "Segmented race guard.009",
+        "Segmented race guard.010",
+        "Segmented race guard.011",
+        "Segmented race guard.012",
+        "Segmented race guard.013",
+        "Segmented race guard.014",
+        "Segmented race guard.015",
+        "Segmented race guard.016",
+        "Segmented race guard.017",
+        "Segmented race guard.018",
+        "Segmented race guard.019"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Bearing lower seal",
+        "Turntable"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Machined bearing track",
+        "Upper race",
+        "Race fastener",
+        "Race fastener.001",
+        "Race fastener.002",
+        "Race fastener.003",
+        "Race fastener.004",
+        "Race fastener.005",
+        "Race fastener.006",
+        "Race fastener.007",
+        "Race fastener.008",
+        "Race fastener.009",
+        "Race fastener.010",
+        "Race fastener.011"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "bottom",
+      "node": "mount.bottom",
+      "role": "bearing",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "bearing",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "turret",
+      "node": "mount.turret",
+      "role": "hull",
+      "position": [
+        0,
+        0,
+        0.61
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "hull",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": []
+}

@@ -1,0 +1,341 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-S01",
+  "version": "3.0+states1+floor1",
+  "title": "Блок аукциона базы",
+  "catalog_id": "auction-base",
+  "catalog_grid": [
+    1,
+    1
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "Assembly: 1 BU = 1 gameplay cell; native part units transformed by ModelFit"
+  },
+  "instances": [
+    {
+      "id": "TradeRoutingFrame",
+      "part_id": "MA-S01-R3-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-S01-R3-P01/MA-S01-R3-P01.blend",
+      "parent": "MA-S01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "TransactionCore",
+      "part_id": "MA-S01-R3-P02",
+      "version": "3.0",
+      "source": "../../Parts/MA-S01-R3-P02/MA-S01-R3-P02.blend",
+      "parent": "MA-S01",
+      "translation": [
+        0,
+        -0.18,
+        0.28
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "PortLeft",
+      "part_id": "MA-S01-R3-P03",
+      "version": "3.0",
+      "source": "../../Parts/MA-S01-R3-P03/MA-S01-R3-P03.blend",
+      "parent": "MA-S01",
+      "translation": [
+        -0.58,
+        -0.19,
+        0.29
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        1.5707963267948966
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "PortRight",
+      "part_id": "MA-S01-R3-P03",
+      "version": "3.0",
+      "source": "../../Parts/MA-S01-R3-P03/MA-S01-R3-P03.blend",
+      "parent": "MA-S01",
+      "translation": [
+        0.58,
+        -0.19,
+        0.29
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        -1.5707963267948966
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "PortRear",
+      "part_id": "MA-S01-R3-P03",
+      "version": "3.0",
+      "source": "../../Parts/MA-S01-R3-P03/MA-S01-R3-P03.blend",
+      "parent": "MA-S01",
+      "translation": [
+        0,
+        0.58,
+        0.29
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ServiceCollector",
+      "part_id": "MA-S01-R3-P04",
+      "version": "3.0",
+      "source": "../../Parts/MA-S01-R3-P04/MA-S01-R3-P04.blend",
+      "parent": "MA-S01",
+      "translation": [
+        -0.63,
+        0.48,
+        0.25
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Floor",
+      "part_id": "MA-FLOOR-rect-1x1",
+      "version": "1.0",
+      "source": "../../Parts/MA-FLOOR-rect-1x1/MA-FLOOR-rect-1x1.blend",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "TradeRoutingFrame",
+      "parent_socket": "core",
+      "child_instance": "TransactionCore",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "TradeRoutingFrame",
+      "parent_socket": "left",
+      "child_instance": "PortLeft",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "TradeRoutingFrame",
+      "parent_socket": "right",
+      "child_instance": "PortRight",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "TradeRoutingFrame",
+      "parent_socket": "rear",
+      "child_instance": "PortRear",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "TradeRoutingFrame",
+      "parent_socket": "service",
+      "child_instance": "ServiceCollector",
+      "child_socket": "root"
+    }
+  ],
+  "animations": {
+    "controller": "MA-S01",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      }
+    },
+    "channels": [],
+    "clips": [
+      {
+        "name": "MA-S01::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-S01::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Protected low trading-infrastructure routing hub, inward interface throats and offset service collector. Authoring interpretation only; no market rules or functionality invented.",
+  "state_authoring": "state-authoring.json",
+  "nodes": [
+    {
+      "id": "MA-S01",
+      "parent": "ModelFit",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ModelFit",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0012244886043219934,
+        0.05540816408452863
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4897959088345759,
+        0.4897959088345759,
+        0.4897959088345759
+      ]
+    },
+    {
+      "id": "Floor",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "floor_fit": {
+    "floor": "MA-FLOOR-rect-1x1",
+    "margin_cells": 0.08,
+    "uniform_scale": 0.4897959088345759,
+    "translation": [
+      0.0,
+      0.0012244886043219934,
+      0.05540816408452863
+    ],
+    "body_instances": [
+      "TradeRoutingFrame",
+      "TransactionCore",
+      "PortLeft",
+      "PortRight",
+      "PortRear",
+      "ServiceCollector"
+    ],
+    "protrusion_instances": []
+  }
+}

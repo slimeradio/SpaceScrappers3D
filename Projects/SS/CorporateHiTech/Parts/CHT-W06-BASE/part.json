@@ -1,0 +1,376 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W06-BASE",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Helion: узкий постамент",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "sole",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.06
+      ],
+      "outline": [
+        [
+          -0.30000000000000004,
+          -0.6
+        ],
+        [
+          0.30000000000000004,
+          -0.6
+        ],
+        [
+          0.45,
+          -0.44999999999999996
+        ],
+        [
+          0.45,
+          0.44999999999999996
+        ],
+        [
+          0.30000000000000004,
+          0.6
+        ],
+        [
+          -0.30000000000000004,
+          0.6
+        ],
+        [
+          -0.45,
+          0.44999999999999996
+        ],
+        [
+          -0.45,
+          -0.44999999999999996
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.06,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.048,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.044,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.06,
+          "scale": [
+            0.93,
+            0.93
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "sloped-plinth",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.2
+      ],
+      "outline": [
+        [
+          -0.22,
+          -0.53
+        ],
+        [
+          0.22,
+          -0.53
+        ],
+        [
+          0.39,
+          -0.36
+        ],
+        [
+          0.39,
+          0.36
+        ],
+        [
+          0.22,
+          0.53
+        ],
+        [
+          -0.22,
+          0.53
+        ],
+        [
+          -0.39,
+          0.36
+        ],
+        [
+          -0.39,
+          -0.36
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.115,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.10300000000000001,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.099,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.115,
+          "scale": [
+            0.65,
+            0.65
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "neck",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.37
+      ],
+      "outline": [
+        [
+          -0.15000000000000002,
+          -0.265
+        ],
+        [
+          0.15000000000000002,
+          -0.265
+        ],
+        [
+          0.23,
+          -0.185
+        ],
+        [
+          0.23,
+          0.185
+        ],
+        [
+          0.15000000000000002,
+          0.265
+        ],
+        [
+          -0.15000000000000002,
+          0.265
+        ],
+        [
+          -0.23,
+          0.185
+        ],
+        [
+          -0.23,
+          -0.185
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.09,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.078,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.074,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.09,
+          "scale": [
+            0.88,
+            0.88
+          ]
+        }
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "edge-index--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.31,
+        0.04,
+        0.316
+      ],
+      "size": [
+        0.02,
+        0.48,
+        0.01
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "edge-index-1",
+      "shape": "roundedBox",
+      "position": [
+        0.31,
+        0.04,
+        0.316
+      ],
+      "size": [
+        0.02,
+        0.48,
+        0.01
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; viewer box-projected UV for optional SharedTextures",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "edge-index--1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "edge-index-1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    }
+  ],
+  "attachments": [
+    {
+      "id": "yaw",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0.46
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W06-YAW.base"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.45,
+      -0.6,
+      0.0
+    ],
+    "max": [
+      0.45,
+      0.6,
+      0.45999999999999996
+    ],
+    "size": [
+      0.9,
+      1.2,
+      0.45999999999999996
+    ]
+  }
+}

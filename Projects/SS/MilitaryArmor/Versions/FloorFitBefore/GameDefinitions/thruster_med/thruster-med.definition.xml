@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="thruster-med" Category="Движение" Type="Thruster" MaxHealth="2000" BlockMass="4">
+    <Resources>
+        <Resource Id="2" StoreInStorage="true" Capacity="10" WorkingThreshold="1" TargetStorage="10" InitialStorage="8" MaxInput="4" UsePerSecond="2" Priority="80"/>
+    </Resources>
+    <!-- Initial tunable balance; the GDD does not specify per-block numerical prices. -->
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="8"/>
+        <DesignCost><Item Ref="11" Amount="80"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="8"/></BuildCost>
+    </Construction>
+    <Size X="1" Y="2"/>
+    <Colliders>
+        <ConvexCollider Data="0 0 1 0 1 3 0 3"/>
+    </Colliders>
+    <Thrusters>
+        <Thruster>
+            <Position X="0.5" Y="0.4"/>
+            <Direction X="0" Y="-1"/>
+            <Force>650</Force>
+        </Thruster>
+    </Thrusters>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="thruster-med"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

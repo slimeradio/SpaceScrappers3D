@@ -1,0 +1,235 @@
+{
+  "id": "MA-W06",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 6,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-W06::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W06::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W06::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W06::cool_down",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W06::fire",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [
+    {
+      "node": "Yaw",
+      "parameter": "aim_yaw",
+      "sampled_values": [
+        -0.7853981852531433,
+        0.0,
+        0.7853981852531433
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Elevation",
+      "parameter": "aim_pitch",
+      "sampled_values": [
+        -0.20943951606750488,
+        -0.06981316953897476,
+        0.06981316953897476
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Recoil",
+      "parameter": "recoil_Recoil",
+      "sampled_values": [
+        0.0,
+        0.10999999940395355,
+        0.2199999839067459
+      ],
+      "driver_valid": true
+    }
+  ],
+  "materials": [
+    {
+      "object": "Hardpoint::Narrow interface diagnostic",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Hardpoint::Narrow interface diagnostic.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Hardpoint::Narrow interface diagnostic.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Hardpoint::Narrow interface diagnostic.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "SpearCradle::Cradle state index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "SpearCradle::Cradle state index.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "SplitRail::Rail inner field trace",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "SplitRail::Coil diagnostic",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "SplitRail::Coil diagnostic.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "SplitRail::Coil diagnostic.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "SplitRail::Coil diagnostic.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "SplitRail::Rail inner field trace.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "SplitRail::Coil diagnostic.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "SplitRail::Coil diagnostic.005",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "SplitRail::Coil diagnostic.006",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "SplitRail::Coil diagnostic.007",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AftCapacitor::Capacitor status rail",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AftCapacitor::Capacitor status rail.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AftCapacitor::Capacitor status rail.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AftCapacitor::Capacitor status rail.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AftCapacitor::Capacitor status rail.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AftCapacitor::Capacitor status rail.005",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AftCapacitor::Capacitor status rail.006",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AftCapacitor::Capacitor status rail.007",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Service::Cartridge status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.001",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.002",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

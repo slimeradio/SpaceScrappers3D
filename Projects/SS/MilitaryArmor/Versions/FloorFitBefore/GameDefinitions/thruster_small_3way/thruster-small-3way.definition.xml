@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="thruster-small-3way" Category="Движение" Type="Thruster" MaxHealth="1000" BlockMass="3">
+    <Resources>
+        <Resource Id="2" StoreInStorage="true" Capacity="6" WorkingThreshold="0.6" TargetStorage="6" InitialStorage="4.8" MaxInput="3" UsePerSecond="1.5" Priority="80"/>
+    </Resources>
+    <!-- Initial tunable balance; the GDD does not specify per-block numerical prices. -->
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="24"/>
+        <DesignCost><Item Ref="11" Amount="240"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="24"/></BuildCost>
+    </Construction>
+    <Size X="3" Y="2"/>
+    <Colliders>
+        <ConvexCollider Data="0 0 3 0 3 2 0 2"/>
+    </Colliders>
+    <Thrusters>
+        <Thruster>
+            <Position X="0.5" Y="0.41"/>
+            <Direction X="0" Y="-1"/>
+            <Force>400</Force>
+        </Thruster>
+        <Thruster>
+            <Position X="1.5" Y="0.41"/>
+            <Direction X="0" Y="-1"/>
+            <Force>400</Force>
+        </Thruster>
+        <Thruster>
+            <Position X="2.5" Y="0.41"/>
+            <Direction X="0" Y="-1"/>
+            <Force>400</Force>
+        </Thruster>
+    </Thrusters>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="thruster-small-3way"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

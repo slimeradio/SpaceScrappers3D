@@ -1,0 +1,1579 @@
+{
+  "id": "MA-FF01",
+  "checks_passed": true,
+  "independent_reopen": true,
+  "source_parts": [
+    {
+      "id": "MA-FF01-P01",
+      "version": "1.0",
+      "geometry": {
+        "checks_passed": true,
+        "meshes": [
+          {
+            "mesh": "Long structural runner",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.6275909346847631,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Long structural runner.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.627590934684763,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Transverse support",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.47879988889694347,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Transverse support.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.478799893426897,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Transverse support.002",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.4909599799323071,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Transverse support.003",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.49095988367081245,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Transverse support.004",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.5274398806762659,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Specific process saddle",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.8962399504137037,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Specific process saddle.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.910839985204933,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Specific process saddle.002",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.5687599875527608,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Specific process saddle.003",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.35323997300386445,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          }
+        ],
+        "source_normals_consistent": true,
+        "evaluated_coordinates_finite": true
+      }
+    },
+    {
+      "id": "MA-FF01-P02",
+      "version": "1.0",
+      "geometry": {
+        "checks_passed": true,
+        "meshes": [
+          {
+            "mesh": "Faceted working column",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 4.357152093499786,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Split shielding collar",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.0988650408528494,
+            "finite": true,
+            "triangles": 288,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Split shielding collar.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.10237501947791136,
+            "finite": true,
+            "triangles": 352,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Split shielding collar.002",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.09535501689845333,
+            "finite": true,
+            "triangles": 288,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Shoulder",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.3190560163345114,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Narrow upper stage",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.1814492972172688,
+            "finite": true,
+            "triangles": 276,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Sealed upper head",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.07761998563613888,
+            "finite": true,
+            "triangles": 276,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Vertical protective rib",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.1259033886664214,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Vertical protective rib.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.12590338866642142,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Offset transfer shoulder",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.9196360128788941,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Shoulder inspection face",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.02955546997183726,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Recessed diagnostics",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.0017919999275207523,
+            "finite": true,
+            "triangles": 108,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Small status index",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.00012999999426305294,
+            "finite": true,
+            "triangles": 108,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          }
+        ],
+        "source_normals_consistent": true,
+        "evaluated_coordinates_finite": true
+      }
+    },
+    {
+      "id": "MA-FF01-P03",
+      "version": "1.0",
+      "geometry": {
+        "checks_passed": true,
+        "meshes": [
+          {
+            "mesh": "Transverse stepped chamber",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 4.234447929321812,
+            "finite": true,
+            "triangles": 348,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Raised chamber reinforcement",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.025906988494158425,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Raised chamber reinforcement.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.02590699724039435,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Raised chamber reinforcement.002",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.025906988494158414,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Protected chamber inspection face",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.03907396213156042,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Protected chamber inspection face.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.03907396213156038,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Sealed chamber coupling",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.06559799375053534,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Sealed chamber coupling.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.06559799375053534,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Narrow embedded process indicator",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.0003959496238589249,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          }
+        ],
+        "source_normals_consistent": true,
+        "evaluated_coordinates_finite": true
+      }
+    },
+    {
+      "id": "MA-FF01-P04",
+      "version": "1.0",
+      "geometry": {
+        "checks_passed": true,
+        "meshes": [
+          {
+            "mesh": "Main shielded route",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.30153000084996195,
+            "finite": true,
+            "triangles": 108,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Transverse process link",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.08483499442815791,
+            "finite": true,
+            "triangles": 108,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Closed vertical transfer",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.02382899737625836,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Transverse process link.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.06497999664783483,
+            "finite": true,
+            "triangles": 108,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Closed vertical transfer.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.02382899737625836,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Transverse process link.002",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.018049999547004703,
+            "finite": true,
+            "triangles": 108,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Closed vertical transfer.002",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.02382899737625836,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Transverse process link.003",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.018049999547004703,
+            "finite": true,
+            "triangles": 108,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Closed vertical transfer.003",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.02382899737625836,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Lower drum connection",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.061730999827861746,
+            "finite": true,
+            "triangles": 108,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Armored line bridge",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.01833999385356881,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Armored line bridge.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.01833999886035962,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Armored line bridge.002",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.01833999635696424,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Armored line bridge.003",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.018339998860359634,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Armored line bridge.004",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.018339993853568808,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          }
+        ],
+        "source_normals_consistent": true,
+        "evaluated_coordinates_finite": true
+      }
+    },
+    {
+      "id": "MA-FG01-R2-P02",
+      "version": "2.0",
+      "geometry": {
+        "checks_passed": true,
+        "meshes": [
+          {
+            "mesh": "Main machine vessel",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 1.9608819539805786,
+            "finite": true,
+            "triangles": 188,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Armored circumferential collar",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.17555677274752754,
+            "finite": true,
+            "triangles": 188,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Armored circumferential collar.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.17555677274752754,
+            "finite": true,
+            "triangles": 188,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Armored circumferential collar.002",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.17555677274752754,
+            "finite": true,
+            "triangles": 188,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Armored circumferential collar.003",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.17555677274752754,
+            "finite": true,
+            "triangles": 188,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Protected end head",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.0942990031319518,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Axial coupling",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.014399999634257109,
+            "finite": true,
+            "triangles": 204,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Protected end head.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.0942990031319518,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Axial coupling.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.014399999634257109,
+            "finite": true,
+            "triangles": 204,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Dorsal mechanism cover",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.0840560612087236,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Recessed status slit",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.00032200002057850404,
+            "finite": true,
+            "triangles": 108,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          }
+        ],
+        "source_normals_consistent": true,
+        "evaluated_coordinates_finite": true
+      }
+    },
+    {
+      "id": "MA-FG01-R2-P03",
+      "version": "2.0",
+      "geometry": {
+        "checks_passed": true,
+        "meshes": [
+          {
+            "mesh": "Pump body",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.1720319974995966,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Pump neck",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.018000000660408477,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Star head",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.035680607233163714,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Pump side manifold",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.03166799934053415,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          }
+        ],
+        "source_normals_consistent": true,
+        "evaluated_coordinates_finite": true
+      }
+    }
+  ],
+  "assembly_geometry": {
+    "checks_passed": true,
+    "meshes": [
+      {
+        "mesh": "LineStructure::Long structural runner",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.6275909346847631,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "LineStructure::Long structural runner.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.627590934684763,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "LineStructure::Transverse support",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.47879988889694347,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "LineStructure::Transverse support.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.478799893426897,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "LineStructure::Transverse support.002",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.4909599799323071,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "LineStructure::Transverse support.003",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.49095988367081245,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "LineStructure::Transverse support.004",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.5274398806762659,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "LineStructure::Specific process saddle",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.8962399504137037,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "LineStructure::Specific process saddle.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.910839985204933,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "LineStructure::Specific process saddle.002",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.5687599875527608,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "LineStructure::Specific process saddle.003",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.35323997300386445,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "TallWorkingStage::Faceted working column",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 4.357152093499786,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "TallWorkingStage::Split shielding collar",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.0988650408528494,
+        "finite": true,
+        "triangles": 288,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "TallWorkingStage::Split shielding collar.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.10237501947791136,
+        "finite": true,
+        "triangles": 352,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "TallWorkingStage::Split shielding collar.002",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.09535501689845333,
+        "finite": true,
+        "triangles": 288,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "TallWorkingStage::Shoulder",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.3190560163345114,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "TallWorkingStage::Narrow upper stage",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.1814492972172688,
+        "finite": true,
+        "triangles": 276,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "TallWorkingStage::Sealed upper head",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.07761998563613888,
+        "finite": true,
+        "triangles": 276,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "TallWorkingStage::Vertical protective rib",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.1259033886664214,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "TallWorkingStage::Vertical protective rib.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.12590338866642142,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "TallWorkingStage::Offset transfer shoulder",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.9196360128788941,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "TallWorkingStage::Shoulder inspection face",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.02955546997183726,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "TallWorkingStage::Recessed diagnostics",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.0017919999275207523,
+        "finite": true,
+        "triangles": 108,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "TallWorkingStage::Small status index",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.00012999999426305294,
+        "finite": true,
+        "triangles": 108,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "CrossProcessChamber::Transverse stepped chamber",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 4.234447929321812,
+        "finite": true,
+        "triangles": 348,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "CrossProcessChamber::Raised chamber reinforcement",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.025906988494158425,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "CrossProcessChamber::Raised chamber reinforcement.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.02590699724039435,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "CrossProcessChamber::Raised chamber reinforcement.002",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.025906988494158414,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "CrossProcessChamber::Protected chamber inspection face",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.03907396213156042,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "CrossProcessChamber::Protected chamber inspection face.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.03907396213156038,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "CrossProcessChamber::Sealed chamber coupling",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.06559799375053534,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "CrossProcessChamber::Sealed chamber coupling.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.06559799375053534,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "CrossProcessChamber::Narrow embedded process indicator",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.0003959496238589249,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FinalProcessDrum::Main machine vessel",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 1.9608819539805786,
+        "finite": true,
+        "triangles": 188,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FinalProcessDrum::Armored circumferential collar",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.17555677274752754,
+        "finite": true,
+        "triangles": 188,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FinalProcessDrum::Armored circumferential collar.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.17555677274752754,
+        "finite": true,
+        "triangles": 188,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FinalProcessDrum::Armored circumferential collar.002",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.17555677274752754,
+        "finite": true,
+        "triangles": 188,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FinalProcessDrum::Armored circumferential collar.003",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.17555677274752754,
+        "finite": true,
+        "triangles": 188,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FinalProcessDrum::Protected end head",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.0942990031319518,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FinalProcessDrum::Axial coupling",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.014399999634257109,
+        "finite": true,
+        "triangles": 204,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FinalProcessDrum::Protected end head.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.0942990031319518,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FinalProcessDrum::Axial coupling.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.014399999634257109,
+        "finite": true,
+        "triangles": 204,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FinalProcessDrum::Dorsal mechanism cover",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.0840560612087236,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FinalProcessDrum::Recessed status slit",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.00032200002057850404,
+        "finite": true,
+        "triangles": 108,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FrontTransferHead::Pump body",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.1720319974995966,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FrontTransferHead::Pump neck",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.018000000660408477,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FrontTransferHead::Star head",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.035680607233163714,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "FrontTransferHead::Pump side manifold",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.03166799934053415,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "RearTransferHead::Pump body",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.1720319974995966,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "RearTransferHead::Pump neck",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.018000000660408477,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "RearTransferHead::Star head",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.035680607233163714,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "RearTransferHead::Pump side manifold",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.03166799934053415,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Main shielded route",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.30153000084996195,
+        "finite": true,
+        "triangles": 108,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Transverse process link",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.08483499442815791,
+        "finite": true,
+        "triangles": 108,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Closed vertical transfer",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.02382899737625836,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Transverse process link.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.06497999664783483,
+        "finite": true,
+        "triangles": 108,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Closed vertical transfer.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.02382899737625836,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Transverse process link.002",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.018049999547004703,
+        "finite": true,
+        "triangles": 108,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Closed vertical transfer.002",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.02382899737625836,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Transverse process link.003",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.018049999547004703,
+        "finite": true,
+        "triangles": 108,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Closed vertical transfer.003",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.02382899737625836,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Lower drum connection",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.061730999827861746,
+        "finite": true,
+        "triangles": 108,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Armored line bridge",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.01833999385356881,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Armored line bridge.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.01833999886035962,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Armored line bridge.002",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.01833999635696424,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Armored line bridge.003",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.018339998860359634,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "ShieldedRouting::Armored line bridge.004",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.018339993853568808,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      }
+    ],
+    "source_normals_consistent": true,
+    "evaluated_coordinates_finite": true
+  },
+  "connections": [
+    {
+      "parent_instance": "LineStructure",
+      "parent_socket": "tower",
+      "child_instance": "TallWorkingStage",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "semantic_compatibility": true
+    },
+    {
+      "parent_instance": "LineStructure",
+      "parent_socket": "chamber",
+      "child_instance": "CrossProcessChamber",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "semantic_compatibility": true
+    },
+    {
+      "parent_instance": "LineStructure",
+      "parent_socket": "drum",
+      "child_instance": "FinalProcessDrum",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "semantic_compatibility": true
+    },
+    {
+      "parent_instance": "LineStructure",
+      "parent_socket": "pumpF",
+      "child_instance": "FrontTransferHead",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "semantic_compatibility": true
+    },
+    {
+      "parent_instance": "LineStructure",
+      "parent_socket": "pumpB",
+      "child_instance": "RearTransferHead",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "semantic_compatibility": true
+    },
+    {
+      "parent_instance": "LineStructure",
+      "parent_socket": "routes",
+      "child_instance": "ShieldedRouting",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "semantic_compatibility": true
+    }
+  ],
+  "instance_count": 7,
+  "new_part_count": 4,
+  "reused_source_count": 2,
+  "unit_scale": true,
+  "dependency_paths_resolved": true,
+  "no_glb_generated": true,
+  "game_validation": false
+}

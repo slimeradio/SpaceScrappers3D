@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "validated_before_assembly": true,
+  "meshes": [
+    {
+      "mesh": "Pump body",
+      "source_manifold": true,
+      "positive_volume": true,
+      "evaluated_finite": true,
+      "no_zero_area_triangles": true
+    },
+    {
+      "mesh": "Pump neck",
+      "source_manifold": true,
+      "positive_volume": true,
+      "evaluated_finite": true,
+      "no_zero_area_triangles": true
+    },
+    {
+      "mesh": "Star head",
+      "source_manifold": true,
+      "positive_volume": true,
+      "evaluated_finite": true,
+      "no_zero_area_triangles": true
+    },
+    {
+      "mesh": "Pump side manifold",
+      "source_manifold": true,
+      "positive_volume": true,
+      "evaluated_finite": true,
+      "no_zero_area_triangles": true
+    }
+  ]
+}

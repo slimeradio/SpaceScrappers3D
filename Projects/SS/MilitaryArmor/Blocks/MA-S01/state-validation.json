@@ -1,0 +1,48 @@
+{
+  "id": "MA-S01",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 6,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-S01::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-S01::deactivate",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [],
+  "materials": [
+    {
+      "object": "TransactionCore::Diagnostic link index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "PortLeft::Port diagnostic index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "PortRight::Port diagnostic index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "PortRear::Port diagnostic index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

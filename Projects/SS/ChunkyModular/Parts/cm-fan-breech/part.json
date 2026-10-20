@@ -1,0 +1,207 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-fan-breech",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-fan-breech.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "sockets": [
+    {
+      "id": "muzzle",
+      "position": [
+        0,
+        -0.6,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "mount",
+      "space": "local"
+    },
+    {
+      "id": "carapace",
+      "position": [
+        0,
+        0.14,
+        0.46
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "mount",
+      "space": "local"
+    },
+    {
+      "id": "drum-left",
+      "position": [
+        -1.0,
+        0.38,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "mount",
+      "space": "local"
+    },
+    {
+      "id": "drum-right",
+      "position": [
+        1.0,
+        0.38,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "mount",
+      "space": "local"
+    }
+  ],
+  "functional_points": [],
+  "mount_regions": [],
+  "animations": [],
+  "animation_tracks": [],
+  "materials": [
+    "CM.graphite",
+    "CM.orange",
+    "CM.rubber",
+    "CM.steel"
+  ],
+  "images": {
+    "graphite_basecolor": [
+      768,
+      768
+    ],
+    "graphite_roughness": [
+      768,
+      768
+    ],
+    "graphite_metallic": [
+      768,
+      768
+    ],
+    "graphite_normal": [
+      768,
+      768
+    ],
+    "orange_basecolor": [
+      768,
+      768
+    ],
+    "orange_roughness": [
+      768,
+      768
+    ],
+    "orange_metallic": [
+      768,
+      768
+    ],
+    "orange_normal": [
+      768,
+      768
+    ],
+    "steel_basecolor": [
+      768,
+      768
+    ],
+    "steel_roughness": [
+      768,
+      768
+    ],
+    "steel_metallic": [
+      768,
+      768
+    ],
+    "steel_normal": [
+      768,
+      768
+    ],
+    "rubber_basecolor": [
+      768,
+      768
+    ],
+    "rubber_roughness": [
+      768,
+      768
+    ],
+    "rubber_metallic": [
+      768,
+      768
+    ],
+    "rubber_normal": [
+      768,
+      768
+    ]
+  },
+  "material_library": "../../Materials/CM-T01/materials.json",
+  "scale_policy": "positive uniform instance scaling",
+  "bounds": {
+    "min": [
+      -1.0499999523162842,
+      -0.8100000023841858,
+      -0.3400000035762787
+    ],
+    "max": [
+      1.0499999523162842,
+      1.1175000667572021,
+      0.5349999666213989
+    ],
+    "dimensions": [
+      2.0999999046325684,
+      1.9275000095367432,
+      0.875
+    ]
+  },
+  "emissive_regions": [],
+  "logical_only": "sockets and regions are invisible metadata, not physical fastening geometry"
+}

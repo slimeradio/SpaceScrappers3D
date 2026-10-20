@@ -1,0 +1,100 @@
+{
+  "id": "MA-I04",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 9,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-I04::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-I04::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-I04::fill",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [],
+  "materials": [
+    {
+      "object": "LoadingHatchL0::Cargo latch index",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "LoadingHatchL0::Cargo latch index.001",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "LoadingHatchL1::Cargo latch index",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "LoadingHatchL1::Cargo latch index.001",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "LoadingHatchL2::Cargo latch index",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "LoadingHatchL2::Cargo latch index.001",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "LoadingHatchR0::Cargo latch index",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "LoadingHatchR0::Cargo latch index.001",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "LoadingHatchR1::Cargo latch index",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "LoadingHatchR1::Cargo latch index.001",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "LoadingHatchR2::Cargo latch index",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    },
+    {
+      "object": "LoadingHatchR2::Cargo latch index.001",
+      "kind": "fill",
+      "off": 0.0,
+      "on": 1.4600000381469727
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

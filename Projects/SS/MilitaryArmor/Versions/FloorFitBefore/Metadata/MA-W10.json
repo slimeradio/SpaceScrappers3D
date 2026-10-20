@@ -1,0 +1,7996 @@
+{
+  "schema": "SpriteBake.BlockMetadata/1",
+  "id": "MA-W10",
+  "catalog_id": "laser-blaster-small-turret",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "bu_per_cell": 1.0,
+  "footprint_bu": [
+    -0.5,
+    -1.5,
+    0.5,
+    1.5
+  ],
+  "layers": [
+    {
+      "id": "base",
+      "draw_order": 0,
+      "rotates": false,
+      "pivot_bu": [
+        0,
+        0
+      ],
+      "instances": [
+        "LaserFoundation",
+        "ServiceCartridge"
+      ]
+    },
+    {
+      "id": "turret",
+      "draw_order": 1,
+      "rotates": true,
+      "pivot_bu": [
+        0.0,
+        -0.41999998688697815
+      ],
+      "instances": [
+        "PulseFork",
+        "OpticalBench",
+        "FocusAperture",
+        "PulseFeed"
+      ]
+    }
+  ],
+  "states": {
+    "damage0": {
+      "frame": 1
+    },
+    "damage33": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "damage66": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "destroyed": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "clips": {
+    "fire": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "frames": {
+    "damage0": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "LaserFoundation/mounts/bottom",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "LaserFoundation/mounts/azimuth",
+          "role": "structural",
+          "position": [
+            0,
+            -0.42,
+            0.68
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.41999998688697815,
+            0.6800000071525574
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "azimuth",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.0800000131130219,
+            0.6800000071525574
+          ]
+        },
+        {
+          "id": "LaserFoundation/mounts/service",
+          "role": "accessory",
+          "position": [
+            0,
+            1.22,
+            0.9
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.2200000286102295,
+            0.8999999761581421
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            2.7200000286102295,
+            0.8999999761581421
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.2200000286102295,
+            0.8999999761581421
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.2200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8999999761581421
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "ServiceCartridge",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            2.7200000286102295,
+            0.8999999761581421
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/bottom",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "structural",
+          "compatibility": [
+            "structural"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.bottom",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.41999998688697815,
+            0.6800000071525574
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            1.0800000131130219,
+            0.6800000071525574
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/elevation",
+          "role": "elevation",
+          "position": [
+            0,
+            -0.28,
+            0.92
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "elevation",
+          "compatibility": [
+            "elevation"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.elevation",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.699999988079071,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "elevation",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.800000011920929,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/pulse-feed",
+          "role": "energy",
+          "position": [
+            1.22,
+            0.49,
+            0.59
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "energy",
+          "compatibility": [
+            "energy"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.pulse-feed",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            1.2200000286102295,
+            0.07000002264976501,
+            1.2699999809265137
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "pulse-feed",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.7200000286102295,
+            1.570000022649765,
+            1.2699999809265137
+          ]
+        },
+        {
+          "id": "OpticalBench/mounts/root",
+          "role": "elevation",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "elevation",
+          "compatibility": [
+            "elevation"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.root",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.699999988079071,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.699999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "OpticalBench",
+          "part": "MA-W10-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.800000011920929,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "OpticalBench/mounts/focus",
+          "role": "structural",
+          "position": [
+            0,
+            -1.24,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "structural",
+          "compatibility": [
+            "structural"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.focus",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.940000057220459,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.699999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "focus",
+          "instance": "OpticalBench",
+          "part": "MA-W10-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.440000057220459,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "FocusAperture/mounts/optical-input",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.940000057220459,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.940000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optical-input",
+          "instance": "FocusAperture",
+          "part": "MA-W02-P04",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.440000057220459,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "FocusAperture/functional_points/continuous-emitter",
+          "position": [
+            0,
+            -0.425,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.365000009536743,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.940000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "continuous-emitter",
+          "instance": "FocusAperture",
+          "part": "MA-W02-P04",
+          "category": "functional_points",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.8650000095367432,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "PulseFeed/mounts/root",
+          "role": "energy",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "energy",
+          "compatibility": [
+            "energy"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.root",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            1.2200000286102295,
+            0.07000002264976501,
+            1.2699999809265137
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.2200000286102295
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.07000002264976501
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2699999809265137
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "PulseFeed",
+          "part": "MA-W10-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.7200000286102295,
+            1.570000022649765,
+            1.2699999809265137
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W10": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LaserFoundation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.2200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8999999761581421
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Azimuth": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.41999998688697815
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.6800000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PulseFork": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.41999998688697815
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.6800000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Elevation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.699999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "OpticalBench": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.699999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FocusAperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.940000057220459
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PulseFeed": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.2200000286102295
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.07000002264976501
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2699999809265137
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "damage33": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "LaserFoundation/mounts/bottom",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "LaserFoundation/mounts/azimuth",
+          "role": "structural",
+          "position": [
+            0,
+            -0.42,
+            0.68
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.41999998688697815,
+            0.6800000071525574
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "azimuth",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.0800000131130219,
+            0.6800000071525574
+          ]
+        },
+        {
+          "id": "LaserFoundation/mounts/service",
+          "role": "accessory",
+          "position": [
+            0,
+            1.22,
+            0.9
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.2200000286102295,
+            0.8999999761581421
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            2.7200000286102295,
+            0.8999999761581421
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.2200000286102295,
+            0.8999999761581421
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.2200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8999999761581421
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "ServiceCartridge",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            2.7200000286102295,
+            0.8999999761581421
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/bottom",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "structural",
+          "compatibility": [
+            "structural"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.bottom",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.41999998688697815,
+            0.6800000071525574
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            1.0800000131130219,
+            0.6800000071525574
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/elevation",
+          "role": "elevation",
+          "position": [
+            0,
+            -0.28,
+            0.92
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "elevation",
+          "compatibility": [
+            "elevation"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.elevation",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.699999988079071,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "elevation",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.800000011920929,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/pulse-feed",
+          "role": "energy",
+          "position": [
+            1.22,
+            0.49,
+            0.59
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "energy",
+          "compatibility": [
+            "energy"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.pulse-feed",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            1.2200000286102295,
+            0.07000002264976501,
+            1.2699999809265137
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "pulse-feed",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.7200000286102295,
+            1.570000022649765,
+            1.2699999809265137
+          ]
+        },
+        {
+          "id": "OpticalBench/mounts/root",
+          "role": "elevation",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "elevation",
+          "compatibility": [
+            "elevation"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.root",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.699999988079071,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.699999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "OpticalBench",
+          "part": "MA-W10-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.800000011920929,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "OpticalBench/mounts/focus",
+          "role": "structural",
+          "position": [
+            0,
+            -1.24,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "structural",
+          "compatibility": [
+            "structural"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.focus",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.940000057220459,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.699999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "focus",
+          "instance": "OpticalBench",
+          "part": "MA-W10-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.440000057220459,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "FocusAperture/mounts/optical-input",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.940000057220459,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.940000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optical-input",
+          "instance": "FocusAperture",
+          "part": "MA-W02-P04",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.440000057220459,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "FocusAperture/functional_points/continuous-emitter",
+          "position": [
+            0,
+            -0.425,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.365000009536743,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.940000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "continuous-emitter",
+          "instance": "FocusAperture",
+          "part": "MA-W02-P04",
+          "category": "functional_points",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.8650000095367432,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "PulseFeed/mounts/root",
+          "role": "energy",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "energy",
+          "compatibility": [
+            "energy"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.root",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            1.2200000286102295,
+            0.07000002264976501,
+            1.2699999809265137
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.2200000286102295
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.07000002264976501
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2699999809265137
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "PulseFeed",
+          "part": "MA-W10-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.7200000286102295,
+            1.570000022649765,
+            1.2699999809265137
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W10": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LaserFoundation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.2200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8999999761581421
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Azimuth": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.41999998688697815
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.6800000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PulseFork": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.41999998688697815
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.6800000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Elevation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.699999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "OpticalBench": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.699999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FocusAperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.940000057220459
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PulseFeed": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.2200000286102295
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.07000002264976501
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2699999809265137
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "damage66": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "LaserFoundation/mounts/bottom",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "LaserFoundation/mounts/azimuth",
+          "role": "structural",
+          "position": [
+            0,
+            -0.42,
+            0.68
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.41999998688697815,
+            0.6800000071525574
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "azimuth",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.0800000131130219,
+            0.6800000071525574
+          ]
+        },
+        {
+          "id": "LaserFoundation/mounts/service",
+          "role": "accessory",
+          "position": [
+            0,
+            1.22,
+            0.9
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.2200000286102295,
+            0.8999999761581421
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            2.7200000286102295,
+            0.8999999761581421
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.2200000286102295,
+            0.8999999761581421
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.2200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8999999761581421
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "ServiceCartridge",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            2.7200000286102295,
+            0.8999999761581421
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/bottom",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "structural",
+          "compatibility": [
+            "structural"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.bottom",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.41999998688697815,
+            0.6800000071525574
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            1.0800000131130219,
+            0.6800000071525574
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/elevation",
+          "role": "elevation",
+          "position": [
+            0,
+            -0.28,
+            0.92
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "elevation",
+          "compatibility": [
+            "elevation"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.elevation",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.699999988079071,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "elevation",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.800000011920929,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/pulse-feed",
+          "role": "energy",
+          "position": [
+            1.22,
+            0.49,
+            0.59
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "energy",
+          "compatibility": [
+            "energy"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.pulse-feed",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            1.2200000286102295,
+            0.07000002264976501,
+            1.2699999809265137
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "pulse-feed",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.7200000286102295,
+            1.570000022649765,
+            1.2699999809265137
+          ]
+        },
+        {
+          "id": "OpticalBench/mounts/root",
+          "role": "elevation",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "elevation",
+          "compatibility": [
+            "elevation"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.root",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.699999988079071,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.699999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "OpticalBench",
+          "part": "MA-W10-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.800000011920929,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "OpticalBench/mounts/focus",
+          "role": "structural",
+          "position": [
+            0,
+            -1.24,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "structural",
+          "compatibility": [
+            "structural"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.focus",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.940000057220459,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.699999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "focus",
+          "instance": "OpticalBench",
+          "part": "MA-W10-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.440000057220459,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "FocusAperture/mounts/optical-input",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.940000057220459,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.940000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optical-input",
+          "instance": "FocusAperture",
+          "part": "MA-W02-P04",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.440000057220459,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "FocusAperture/functional_points/continuous-emitter",
+          "position": [
+            0,
+            -0.425,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.365000009536743,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.940000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "continuous-emitter",
+          "instance": "FocusAperture",
+          "part": "MA-W02-P04",
+          "category": "functional_points",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.8650000095367432,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "PulseFeed/mounts/root",
+          "role": "energy",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "energy",
+          "compatibility": [
+            "energy"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.root",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            1.2200000286102295,
+            0.07000002264976501,
+            1.2699999809265137
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.2200000286102295
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.07000002264976501
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2699999809265137
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "PulseFeed",
+          "part": "MA-W10-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.7200000286102295,
+            1.570000022649765,
+            1.2699999809265137
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W10": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LaserFoundation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.2200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8999999761581421
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Azimuth": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.41999998688697815
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.6800000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PulseFork": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.41999998688697815
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.6800000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Elevation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.699999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "OpticalBench": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.699999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FocusAperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.940000057220459
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PulseFeed": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.2200000286102295
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.07000002264976501
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2699999809265137
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "destroyed": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "LaserFoundation/mounts/bottom",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "LaserFoundation/mounts/azimuth",
+          "role": "structural",
+          "position": [
+            0,
+            -0.42,
+            0.68
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.41999998688697815,
+            0.6800000071525574
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "azimuth",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.0800000131130219,
+            0.6800000071525574
+          ]
+        },
+        {
+          "id": "LaserFoundation/mounts/service",
+          "role": "accessory",
+          "position": [
+            0,
+            1.22,
+            0.9
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.2200000286102295,
+            0.8999999761581421
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            2.7200000286102295,
+            0.8999999761581421
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.2200000286102295,
+            0.8999999761581421
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.2200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8999999761581421
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "ServiceCartridge",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            2.7200000286102295,
+            0.8999999761581421
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/bottom",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "structural",
+          "compatibility": [
+            "structural"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.bottom",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.41999998688697815,
+            0.6800000071525574
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            1.0800000131130219,
+            0.6800000071525574
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/elevation",
+          "role": "elevation",
+          "position": [
+            0,
+            -0.28,
+            0.92
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "elevation",
+          "compatibility": [
+            "elevation"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.elevation",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.699999988079071,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "elevation",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.800000011920929,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/pulse-feed",
+          "role": "energy",
+          "position": [
+            1.22,
+            0.49,
+            0.59
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "energy",
+          "compatibility": [
+            "energy"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.pulse-feed",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            1.2200000286102295,
+            0.07000002264976501,
+            1.2699999809265137
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "pulse-feed",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.7200000286102295,
+            1.570000022649765,
+            1.2699999809265137
+          ]
+        },
+        {
+          "id": "OpticalBench/mounts/root",
+          "role": "elevation",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "elevation",
+          "compatibility": [
+            "elevation"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.root",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.699999988079071,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.699999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "OpticalBench",
+          "part": "MA-W10-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.800000011920929,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "OpticalBench/mounts/focus",
+          "role": "structural",
+          "position": [
+            0,
+            -1.24,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "structural",
+          "compatibility": [
+            "structural"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.focus",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.940000057220459,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.699999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "focus",
+          "instance": "OpticalBench",
+          "part": "MA-W10-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.440000057220459,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "FocusAperture/mounts/optical-input",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.940000057220459,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.940000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optical-input",
+          "instance": "FocusAperture",
+          "part": "MA-W02-P04",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.440000057220459,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "FocusAperture/functional_points/continuous-emitter",
+          "position": [
+            0,
+            -0.425,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.365000009536743,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.940000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "continuous-emitter",
+          "instance": "FocusAperture",
+          "part": "MA-W02-P04",
+          "category": "functional_points",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.8650000095367432,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "PulseFeed/mounts/root",
+          "role": "energy",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "energy",
+          "compatibility": [
+            "energy"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.root",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            1.2200000286102295,
+            0.07000002264976501,
+            1.2699999809265137
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.2200000286102295
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.07000002264976501
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2699999809265137
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "PulseFeed",
+          "part": "MA-W10-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.7200000286102295,
+            1.570000022649765,
+            1.2699999809265137
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W10": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LaserFoundation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.2200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8999999761581421
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Azimuth": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.41999998688697815
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.6800000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PulseFork": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.41999998688697815
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.6800000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Elevation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.699999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "OpticalBench": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.699999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FocusAperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.940000057220459
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PulseFeed": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.2200000286102295
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.07000002264976501
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2699999809265137
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "clip-fire": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "LaserFoundation/mounts/bottom",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.5,
+            0.0
+          ]
+        },
+        {
+          "id": "LaserFoundation/mounts/azimuth",
+          "role": "structural",
+          "position": [
+            0,
+            -0.42,
+            0.68
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.41999998688697815,
+            0.6800000071525574
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "azimuth",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            1.0800000131130219,
+            0.6800000071525574
+          ]
+        },
+        {
+          "id": "LaserFoundation/mounts/service",
+          "role": "accessory",
+          "position": [
+            0,
+            1.22,
+            0.9
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.2200000286102295,
+            0.8999999761581421
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "service",
+          "instance": "LaserFoundation",
+          "part": "MA-W02-P01",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            2.7200000286102295,
+            0.8999999761581421
+          ]
+        },
+        {
+          "id": "ServiceCartridge/mounts/bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            1.2200000286102295,
+            0.8999999761581421
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.2200000286102295
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.8999999761581421
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "ServiceCartridge",
+          "part": "MA-P06",
+          "category": "mounts",
+          "layer": "base",
+          "position_cells": [
+            0.5,
+            2.7200000286102295,
+            0.8999999761581421
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/bottom",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "structural",
+          "compatibility": [
+            "structural"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.bottom",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.41999998688697815,
+            0.6800000071525574
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            1.0800000131130219,
+            0.6800000071525574
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/elevation",
+          "role": "elevation",
+          "position": [
+            0,
+            -0.28,
+            0.92
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "elevation",
+          "compatibility": [
+            "elevation"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.elevation",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.699999988079071,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "elevation",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.800000011920929,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "PulseFork/mounts/pulse-feed",
+          "role": "energy",
+          "position": [
+            1.22,
+            0.49,
+            0.59
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "energy",
+          "compatibility": [
+            "energy"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.pulse-feed",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            1.2200000286102295,
+            0.07000002264976501,
+            1.2699999809265137
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.41999998688697815
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.6800000071525574
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "pulse-feed",
+          "instance": "PulseFork",
+          "part": "MA-W10-P01",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.7200000286102295,
+            1.570000022649765,
+            1.2699999809265137
+          ]
+        },
+        {
+          "id": "OpticalBench/mounts/root",
+          "role": "elevation",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "elevation",
+          "compatibility": [
+            "elevation"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.root",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -0.699999988079071,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.699999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "OpticalBench",
+          "part": "MA-W10-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            0.800000011920929,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "OpticalBench/mounts/focus",
+          "role": "structural",
+          "position": [
+            0,
+            -1.24,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "structural",
+          "compatibility": [
+            "structural"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.focus",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.940000057220459,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.699999988079071
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "focus",
+          "instance": "OpticalBench",
+          "part": "MA-W10-P02",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.440000057220459,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "FocusAperture/mounts/optical-input",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -1.940000057220459,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.940000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "optical-input",
+          "instance": "FocusAperture",
+          "part": "MA-W02-P04",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.440000057220459,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "FocusAperture/functional_points/continuous-emitter",
+          "position": [
+            0,
+            -0.425,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "direction_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            -2.365000009536743,
+            1.600000023841858
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -1.940000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.600000023841858
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "continuous-emitter",
+          "instance": "FocusAperture",
+          "part": "MA-W02-P04",
+          "category": "functional_points",
+          "layer": "turret",
+          "position_cells": [
+            0.5,
+            -0.8650000095367432,
+            1.600000023841858
+          ]
+        },
+        {
+          "id": "PulseFeed/mounts/root",
+          "role": "energy",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "energy",
+          "compatibility": [
+            "energy"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.root",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            1.2200000286102295,
+            0.07000002264976501,
+            1.2699999809265137
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              1.2200000286102295
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.07000002264976501
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.2699999809265137
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "PulseFeed",
+          "part": "MA-W10-P03",
+          "category": "mounts",
+          "layer": "turret",
+          "position_cells": [
+            1.7200000286102295,
+            1.570000022649765,
+            1.2699999809265137
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-W10": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "LaserFoundation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "ServiceCartridge": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.2200000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.8999999761581421
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Azimuth": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.41999998688697815
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.6800000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PulseFork": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.41999998688697815
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.6800000071525574
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Elevation": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.699999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "OpticalBench": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.699999988079071
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FocusAperture": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.940000057220459
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.600000023841858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "PulseFeed": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.2200000286102295
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.07000002264976501
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.2699999809265137
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    }
+  },
+  "assembly": {
+    "schema": "MilitaryArmor.BlenderAuthoring/1",
+    "id": "MA-W10",
+    "version": "1.0+states1",
+    "title": "Малая импульсная лазерная турель",
+    "catalog_id": "laser-blaster-small-turret",
+    "catalog_grid": [
+      1,
+      3
+    ],
+    "axes": {
+      "handedness": "right",
+      "up": "+Z",
+      "forward": "-Y",
+      "units": "BU; physical scale unspecified"
+    },
+    "instances": [
+      {
+        "id": "LaserFoundation",
+        "part_id": "MA-W02-P01",
+        "version": "1.0",
+        "source": "../../Parts/MA-W02-P01/MA-W02-P01.blend",
+        "parent": "MA-W10",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "ServiceCartridge",
+        "part_id": "MA-P06",
+        "version": "1.3",
+        "source": "../../Parts/MA-P06/MA-P06.blend",
+        "parent": "MA-W10",
+        "translation": [
+          0,
+          1.22,
+          0.9
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "PulseFork",
+        "part_id": "MA-W10-P01",
+        "version": "1.0",
+        "source": "../../Parts/MA-W10-P01/MA-W10-P01.blend",
+        "parent": "Azimuth",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "OpticalBench",
+        "part_id": "MA-W10-P02",
+        "version": "1.0",
+        "source": "../../Parts/MA-W10-P02/MA-W10-P02.blend",
+        "parent": "Elevation",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "FocusAperture",
+        "part_id": "MA-W02-P04",
+        "version": "1.0",
+        "source": "../../Parts/MA-W02-P04/MA-W02-P04.blend",
+        "parent": "Elevation",
+        "translation": [
+          0,
+          -1.24,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "PulseFeed",
+        "part_id": "MA-W10-P03",
+        "version": "1.0",
+        "source": "../../Parts/MA-W10-P03/MA-W10-P03.blend",
+        "parent": "Azimuth",
+        "translation": [
+          1.22,
+          0.49,
+          0.59
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "id": "MA-W10",
+        "parent": null,
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "LaserFoundation",
+        "parent": "MA-W10",
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "ServiceCartridge",
+        "parent": "MA-W10",
+        "translation": [
+          0.0,
+          1.2200000286102295,
+          0.8999999761581421
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "Azimuth",
+        "parent": "MA-W10",
+        "translation": [
+          0.0,
+          -0.41999998688697815,
+          0.6800000071525574
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "PulseFork",
+        "parent": "Azimuth",
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "Elevation",
+        "parent": "Azimuth",
+        "translation": [
+          0.0,
+          -0.2800000011920929,
+          0.9200000166893005
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "OpticalBench",
+        "parent": "Elevation",
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "FocusAperture",
+        "parent": "Elevation",
+        "translation": [
+          0.0,
+          -1.2400000095367432,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "PulseFeed",
+        "parent": "Azimuth",
+        "translation": [
+          1.2200000286102295,
+          0.49000000953674316,
+          0.5899999737739563
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "parent_instance": "LaserFoundation",
+        "parent_socket": "azimuth",
+        "child_instance": "PulseFork",
+        "child_socket": "bottom"
+      },
+      {
+        "parent_instance": "LaserFoundation",
+        "parent_socket": "service",
+        "child_instance": "ServiceCartridge",
+        "child_socket": "bottom"
+      },
+      {
+        "parent_instance": "PulseFork",
+        "parent_socket": "elevation",
+        "child_instance": "OpticalBench",
+        "child_socket": "root"
+      },
+      {
+        "parent_instance": "OpticalBench",
+        "parent_socket": "focus",
+        "child_instance": "FocusAperture",
+        "child_socket": "optical-input"
+      },
+      {
+        "parent_instance": "PulseFork",
+        "parent_socket": "pulse-feed",
+        "child_instance": "PulseFeed",
+        "child_socket": "root"
+      }
+    ],
+    "animations": {
+      "controller": "MA-W10",
+      "controls": {
+        "power": {
+          "default": 1,
+          "min": 0,
+          "max": 1,
+          "description": "Electrical availability; independent from retained heat/fill"
+        },
+        "activity": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Actual work/load; zero means idle"
+        },
+        "fault": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Externally supplied fault, not inferred"
+        },
+        "heat": {
+          "default": 0,
+          "min": 0,
+          "max": 1,
+          "description": "Retained normalized heat; independent from power"
+        },
+        "aim_yaw": {
+          "default": 0,
+          "min": 0,
+          "max": 360
+        },
+        "aim_pitch": {
+          "default": 0,
+          "min": -12,
+          "max": 5
+        }
+      },
+      "channels": [
+        {
+          "node": "Azimuth",
+          "path": "rotation_euler",
+          "axis": 2,
+          "parameter": "aim_yaw",
+          "expression": "0.0+t*0.017453292519943295"
+        },
+        {
+          "node": "Elevation",
+          "path": "rotation_euler",
+          "axis": 0,
+          "parameter": "aim_pitch",
+          "expression": "0.0+t*0.017453292519943295"
+        }
+      ],
+      "clips": [
+        {
+          "name": "MA-W10::activate",
+          "parameters": [
+            "power",
+            "activity"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-W10::deactivate",
+          "parameters": [
+            "activity",
+            "power"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-W10::heat_up",
+          "parameters": [
+            "heat"
+          ],
+          "frames": [
+            1,
+            49
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-W10::cool_down",
+          "parameters": [
+            "heat"
+          ],
+          "frames": [
+            1,
+            97
+          ],
+          "loop": false,
+          "authoring_only": true
+        },
+        {
+          "name": "MA-W10::fire",
+          "parameters": [
+            "activity"
+          ],
+          "frames": [
+            1,
+            25
+          ],
+          "loop": false,
+          "authoring_only": true
+        }
+      ],
+      "independent_controls": true,
+      "demonstration_only": false,
+      "game_integration": false
+    },
+    "functional_points": [
+      {
+        "id": "shoot",
+        "part_instance": "FocusAperture",
+        "part_point": "continuous-emitter",
+        "semantic_role": "single pulse beam output; optical hardware reused"
+      }
+    ],
+    "catalog_contract": {
+      "barrel_count": 1,
+      "projectiles_per_shot": 1,
+      "firing_arc_degrees": 360,
+      "rotate_speed_degrees_per_second": 90,
+      "pivot_grid": [
+        0.5,
+        0.5
+      ],
+      "projectile_kind": "Beam"
+    },
+    "exports": [],
+    "reused_source_sha256": {
+      "MA-W02-P01": "73495719218e04ab8182d31288dbd615ddc73b07ff6966a6d378ab566129cca7",
+      "MA-W02-P04": "cae9c70f914f57ac58e6db00efd4c990f75be8e725794ab285bfc1fc2de31fb0",
+      "MA-P06": "48dfec4c5340ed6316552d1c333ecb4b6113c29e901a7a66dffe56037c283c00"
+    },
+    "notes": "BU not metres; grid1x3. Single instantaneous beam. 90deg/s full turn demo; elevation artistic. No recoil. No engine integration, colliders/LOD or GLB.",
+    "state_authoring": "state-authoring.json"
+  },
+  "parts": {
+    "LaserFoundation": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-W02-P01",
+      "version": "1.0",
+      "name": "Narrow continuous-laser hardpoint",
+      "source": "MA-W02-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -1.2300000190734863,
+          -2.4000000953674316,
+          0.0
+        ],
+        "max": [
+          1.2300000190734863,
+          2.4000000953674316,
+          0.8774999976158142
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Elongated power spine",
+            "Capacitor dielectric tile",
+            "Capacitor dielectric tile.001",
+            "Capacitor dielectric tile.002",
+            "Capacitor dielectric tile.003"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Diagonal hardpoint wing",
+            "Diagonal hardpoint wing.001"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Laser keel"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Foundation optical index",
+            "Foundation optical index.001"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705,
+            1.0
+          ],
+          "metalness": 0.3499999940395355,
+          "roughness": 0.25,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "High-density capacitor enclosure",
+            "Azimuth foundation"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal",
+          "regions": [
+            "Foundation optical index",
+            "Foundation optical index.001"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "bottom",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "azimuth",
+          "role": "structural",
+          "position": [
+            0,
+            -0.42,
+            0.68
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "service",
+          "role": "accessory",
+          "position": [
+            0,
+            1.22,
+            0.9
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": [],
+      "notes": ""
+    },
+    "ServiceCartridge": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-P06",
+      "version": "1.3",
+      "name": "Flush service cartridge",
+      "source": "MA-P06.blend",
+      "units": "BU, physical scale unspecified",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "bounds_local": {
+        "min": [
+          -0.3700000047683716,
+          -0.30000001192092896,
+          0.0005000000237487257
+        ],
+        "max": [
+          0.3700000047683716,
+          0.30000001192092896,
+          0.08000000566244125
+        ]
+      },
+      "scale_policy": "unit scale only",
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Hexagonal service cartridge"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Flush pressure seal"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Cartridge status"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Inset cartridge center",
+            "Flush quarter turn lock",
+            "Flush quarter turn lock.001"
+          ],
+          "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal",
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "regions": [
+            "Cartridge status"
+          ],
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "bottom",
+          "node": "mount.bottom",
+          "role": "accessory",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "accessory",
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": []
+    },
+    "PulseFork": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-W10-P01",
+      "version": "1.0",
+      "name": "Light asymmetric pulse-laser fork",
+      "source": "MA-W10-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -1.0399999618530273,
+          -0.7599999904632568,
+          0.0
+        ],
+        "max": [
+          1.6299999952316284,
+          1.3700000047683716,
+          1.206421136856079
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Gimbal dielectric lid",
+            "Gimbal dielectric lid.001"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Swept pulse trunnion",
+            "Swept pulse trunnion.001"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Sealed pulse azimuth",
+            "Pulse cassette shoe"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Azimuth datum",
+            "Narrow optical fork sill",
+            "Gimbal bearing",
+            "Gimbal bearing.001",
+            "Protected power bridge"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "bottom",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "structural",
+          "compatibility": [
+            "structural"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.bottom"
+        },
+        {
+          "id": "elevation",
+          "role": "elevation",
+          "position": [
+            0,
+            -0.28,
+            0.92
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "elevation",
+          "compatibility": [
+            "elevation"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.elevation"
+        },
+        {
+          "id": "pulse-feed",
+          "role": "energy",
+          "position": [
+            1.22,
+            0.49,
+            0.59
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "energy",
+          "compatibility": [
+            "energy"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.pulse-feed"
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": [],
+      "notes": "Independent static editable part; unit scale; uniform procedural PBR. No file textures, UV dependency or local moving mechanism."
+    },
+    "OpticalBench": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-W10-P02",
+      "version": "1.0",
+      "name": "Open pulse optical bench",
+      "source": "MA-W10-P02.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.7950000166893005,
+          -1.375,
+          -0.2948707044124603
+        ],
+        "max": [
+          0.7950000166893005,
+          1.350000023841858,
+          0.4099999964237213
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Cooling vane",
+            "Cooling vane.001",
+            "Cooling vane.002",
+            "Cooling vane.003",
+            "Cooling vane.004",
+            "Cooling vane.005",
+            "Aft pulse resonator"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Floating ceramic rail cover",
+            "Floating ceramic rail cover.001",
+            "Resonator ceramic lid"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Recessed optical path"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Optic",
+          "surfaces": [
+            "Rear optical window"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.18000000715255737,
+            0.25,
+            1.0
+          ],
+          "metalness": 0.6499999761581421,
+          "roughness": 0.18000000715255737,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Bench alignment index",
+            "Bench alignment index.001"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705,
+            1.0
+          ],
+          "metalness": 0.3499999940395355,
+          "roughness": 0.25,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Open optical bench rail",
+            "Open optical bench rail.001",
+            "Optical bench crossmember",
+            "Optical bench crossmember.001",
+            "Aperture coupling"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Optic",
+          "regions": [
+            "Rear optical window"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.18000000715255737,
+            0.25
+          ],
+          "strength": 0.699999988079071,
+          "units": "Blender shader strength",
+          "default": "on"
+        },
+        {
+          "slot": "Signal",
+          "regions": [
+            "Bench alignment index",
+            "Bench alignment index.001"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "elevation",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "elevation",
+          "compatibility": [
+            "elevation"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.root"
+        },
+        {
+          "id": "focus",
+          "role": "structural",
+          "position": [
+            0,
+            -1.24,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "structural",
+          "compatibility": [
+            "structural"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.focus"
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": [],
+      "notes": "Independent static editable part; unit scale; uniform procedural PBR. No file textures, UV dependency or local moving mechanism."
+    },
+    "FocusAperture": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-W02-P04",
+      "version": "1.0",
+      "name": "Single-aperture continuous laser emitter",
+      "source": "MA-W02-P04.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.7599999904632568,
+          -0.42249998450279236,
+          -0.7599999904632568
+        ],
+        "max": [
+          0.7599999904632568,
+          0.14000000059604645,
+          0.7599999904632568
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Emitter lateral shield",
+            "Emitter lateral shield.001"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Hexadecagonal armored aperture"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Isolated focusing suspension"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Optic",
+          "surfaces": [
+            "Continuous beam focusing lens",
+            "Inner active lens"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.18000000715255737,
+            0.25,
+            1.0
+          ],
+          "metalness": 0.6499999761581421,
+          "roughness": 0.18000000715255737,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Lens perimeter glow",
+            "Central focusing zone"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705,
+            1.0
+          ],
+          "metalness": 0.3499999940395355,
+          "roughness": 0.25,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Nested optical conductor",
+            "Iris actuator",
+            "Iris actuator.001",
+            "Iris actuator.002",
+            "Iris actuator.003",
+            "Iris actuator.004",
+            "Iris actuator.005",
+            "Iris actuator.006",
+            "Iris actuator.007"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Optic",
+          "regions": [
+            "Continuous beam focusing lens",
+            "Inner active lens"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.18000000715255737,
+            0.25
+          ],
+          "strength": 0.699999988079071,
+          "units": "Blender shader strength",
+          "default": "on"
+        },
+        {
+          "slot": "Signal",
+          "regions": [
+            "Lens perimeter glow",
+            "Central focusing zone"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "optical-input",
+          "role": "structural",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "functional_points": [
+        {
+          "id": "continuous-emitter",
+          "position": [
+            0,
+            -0.425,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "attachment_areas": [],
+      "animations": [],
+      "notes": "One broad optical aperture; no ballistic bore, recoil or projectile barrels."
+    },
+    "PulseFeed": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-W10-P03",
+      "version": "1.0",
+      "name": "Pulse feed cassette - reduced bevel variant of MA-W05-P04",
+      "source": "MA-W10-P03.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.3799999952316284,
+          -0.7799999713897705,
+          0.00044098487705923617
+        ],
+        "max": [
+          0.3799999952316284,
+          0.8199999928474426,
+          0.6200000047683716
+        ]
+      },
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Ceramic energy cassette"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Capacitor separator",
+            "Capacitor separator.001",
+            "Capacitor separator.002"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Signal",
+          "surfaces": [
+            "Capacitor state",
+            "Capacitor state.001",
+            "Capacitor state.002"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705,
+            1.0
+          ],
+          "metalness": 0.3499999940395355,
+          "roughness": 0.25,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Pulsed scatter feed"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [
+        {
+          "slot": "Signal",
+          "regions": [
+            "Capacitor state",
+            "Capacitor state.001",
+            "Capacitor state.002"
+          ],
+          "color_linear": [
+            0.014999999664723873,
+            0.550000011920929,
+            0.7799999713897705
+          ],
+          "strength": 2.5,
+          "units": "Blender shader strength",
+          "default": "on"
+        }
+      ],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "energy",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatible_role": "energy",
+          "compatibility": [
+            "energy"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "node": "socket.root"
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [],
+      "animations": [],
+      "notes": "Independent static editable part; unit scale; uniform procedural PBR. No file textures, UV dependency or local moving mechanism.",
+      "variant_of": {
+        "id": "MA-W05-P04",
+        "source_sha256": "9d406e6f77262952a675c02aa8be146ba7e662ec8c7025686004c178d16f91fe",
+        "version": "1.0",
+        "change": "Separator bevel .002 BU replaces .015 BU to remove evaluated degenerate triangles; dimensions and root socket unchanged."
+      }
+    }
+  },
+  "material_slots": {
+    "LaserFoundation": {
+      "Laser keel": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ],
+      "High-density capacitor enclosure": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Foundation optical index.001": [
+        {
+          "id": "Signal",
+          "role": "Emissive"
+        }
+      ],
+      "Foundation optical index": [
+        {
+          "id": "Signal",
+          "role": "Emissive"
+        }
+      ],
+      "Elongated power spine": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Diagonal hardpoint wing.001": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Diagonal hardpoint wing": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Capacitor dielectric tile.003": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Capacitor dielectric tile.002": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Capacitor dielectric tile.001": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Capacitor dielectric tile": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Azimuth foundation": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "ServiceCartridge": {
+      "Inset cartridge center": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Hexagonal service cartridge": [
+        {
+          "id": "Ceramic.001",
+          "role": "Color1"
+        }
+      ],
+      "Flush quarter turn lock.001": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Flush quarter turn lock": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Flush pressure seal": [
+        {
+          "id": "Dark.001",
+          "role": "Fixed"
+        }
+      ],
+      "Cartridge status": [
+        {
+          "id": "Signal.001",
+          "role": "Emissive"
+        }
+      ]
+    },
+    "PulseFork": {
+      "Swept pulse trunnion.001": [
+        {
+          "id": "Ceramic.002",
+          "role": "Color1"
+        }
+      ],
+      "Swept pulse trunnion": [
+        {
+          "id": "Ceramic.002",
+          "role": "Color1"
+        }
+      ],
+      "Sealed pulse azimuth": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ],
+      "Pulse cassette shoe": [
+        {
+          "id": "Dark.002",
+          "role": "Fixed"
+        }
+      ],
+      "Protected power bridge": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Narrow optical fork sill": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Gimbal dielectric lid.001": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "Gimbal dielectric lid": [
+        {
+          "id": "Armor.001",
+          "role": "Color2"
+        }
+      ],
+      "Gimbal bearing.001": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Gimbal bearing": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ],
+      "Azimuth datum": [
+        {
+          "id": "Titanium.002",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "OpticalBench": {
+      "Resonator ceramic lid": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ],
+      "Recessed optical path": [
+        {
+          "id": "Dark.003",
+          "role": "Fixed"
+        }
+      ],
+      "Rear optical window": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Optical bench crossmember.001": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Optical bench crossmember": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Open optical bench rail.001": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Open optical bench rail": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Floating ceramic rail cover.001": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ],
+      "Floating ceramic rail cover": [
+        {
+          "id": "Ceramic.003",
+          "role": "Color1"
+        }
+      ],
+      "Cooling vane.005": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Cooling vane.004": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Cooling vane.003": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Cooling vane.002": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Cooling vane.001": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Cooling vane": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ],
+      "Bench alignment index.001": [
+        {
+          "id": "Signal.002",
+          "role": "Emissive"
+        }
+      ],
+      "Bench alignment index": [
+        {
+          "id": "Signal.002",
+          "role": "Emissive"
+        }
+      ],
+      "Aperture coupling": [
+        {
+          "id": "Titanium.003",
+          "role": "Fixed"
+        }
+      ],
+      "Aft pulse resonator": [
+        {
+          "id": "Armor.002",
+          "role": "Color2"
+        }
+      ]
+    },
+    "FocusAperture": {
+      "Nested optical conductor": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Lens perimeter glow": [
+        {
+          "id": "Signal.003",
+          "role": "Emissive"
+        }
+      ],
+      "Isolated focusing suspension": [
+        {
+          "id": "Dark.004",
+          "role": "Fixed"
+        }
+      ],
+      "Iris actuator.007": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Iris actuator.006": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Iris actuator.005": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Iris actuator.004": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Iris actuator.003": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Iris actuator.002": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Iris actuator.001": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Iris actuator": [
+        {
+          "id": "Titanium.004",
+          "role": "Fixed"
+        }
+      ],
+      "Inner active lens": [
+        {
+          "id": "Optic.001",
+          "role": "Emissive"
+        }
+      ],
+      "Hexadecagonal armored aperture": [
+        {
+          "id": "Ceramic.004",
+          "role": "Color1"
+        }
+      ],
+      "Emitter lateral shield.001": [
+        {
+          "id": "Armor.003",
+          "role": "Color2"
+        }
+      ],
+      "Emitter lateral shield": [
+        {
+          "id": "Armor.003",
+          "role": "Color2"
+        }
+      ],
+      "Continuous beam focusing lens": [
+        {
+          "id": "Optic.001",
+          "role": "Emissive"
+        }
+      ],
+      "Central focusing zone": [
+        {
+          "id": "Signal.003",
+          "role": "Emissive"
+        }
+      ]
+    },
+    "PulseFeed": {
+      "Pulsed scatter feed": [
+        {
+          "id": "Titanium.005",
+          "role": "Fixed"
+        }
+      ],
+      "Ceramic energy cassette": [
+        {
+          "id": "Ceramic.005",
+          "role": "Color1"
+        }
+      ],
+      "Capacitor state.002": [
+        {
+          "id": "Signal.004",
+          "role": "Emissive"
+        }
+      ],
+      "Capacitor state.001": [
+        {
+          "id": "Signal.004",
+          "role": "Emissive"
+        }
+      ],
+      "Capacitor state": [
+        {
+          "id": "Signal.004",
+          "role": "Emissive"
+        }
+      ],
+      "Capacitor separator.002": [
+        {
+          "id": "Dark.005",
+          "role": "Fixed"
+        }
+      ],
+      "Capacitor separator.001": [
+        {
+          "id": "Dark.005",
+          "role": "Fixed"
+        }
+      ],
+      "Capacitor separator": [
+        {
+          "id": "Dark.005",
+          "role": "Fixed"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "assembly": "Blocks/MA-W10/assembly.json",
+    "source": "Blocks/MA-W10/MA-W10.blend",
+    "bu_per_cell": 1.0,
+    "footprint_bu": [
+      -0.5,
+      -1.5,
+      0.5,
+      1.5
+    ],
+    "height_range_bu": [
+      -0.1,
+      2.4
+    ],
+    "layers": [
+      {
+        "id": "base",
+        "draw_order": 0,
+        "rotates": false,
+        "pivot_bu": [
+          0,
+          0
+        ],
+        "instances": [
+          "LaserFoundation",
+          "ServiceCartridge"
+        ]
+      },
+      {
+        "id": "turret",
+        "draw_order": 1,
+        "rotates": true,
+        "pivot_bu": [
+          0.0,
+          -0.41999998688697815
+        ],
+        "instances": [
+          "PulseFork",
+          "OpticalBench",
+          "FocusAperture",
+          "PulseFeed"
+        ]
+      }
+    ],
+    "states": {
+      "damage0": {
+        "frame": 1
+      },
+      "damage33": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "damage66": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "destroyed": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "clips": {
+      "fire": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "use_author_animation": false
+  },
+  "inputs": {
+    "Blocks/MA-W10/assembly.json": "661f913b39c118093f140d0a252d34ce5382d892599d7e4d388cb44d54c6708a",
+    "Blocks/MA-W10/MA-W10.blend": "56d7057a14f4dd4ff0ae5573e1f83de98d2f3e624b3a86b8893e7c4a5fb6ca77",
+    "Parts/MA-P06/MA-P06.blend": "48dfec4c5340ed6316552d1c333ecb4b6113c29e901a7a66dffe56037c283c00",
+    "Parts/MA-P06/part.json": "bf321ae51346e168376a0566f7b7fd8be3fdf74432f73267f00314be8fce4cba",
+    "Parts/MA-W02-P01/MA-W02-P01.blend": "73495719218e04ab8182d31288dbd615ddc73b07ff6966a6d378ab566129cca7",
+    "Parts/MA-W02-P01/part.json": "1697708837b62e068ca283e85f25934c7883c54f89adee1575d51121fd57cb85",
+    "Parts/MA-W02-P04/MA-W02-P04.blend": "cae9c70f914f57ac58e6db00efd4c990f75be8e725794ab285bfc1fc2de31fb0",
+    "Parts/MA-W02-P04/part.json": "143c33bf3c2a1aa28e6edcd748c382117508a37c4b83fd7a4914ffd9e55c85fa",
+    "Parts/MA-W10-P01/MA-W10-P01.blend": "15488fe7b7daca79f3d19454d633be599e741cbe0599cd29849bb3cf3c11faa0",
+    "Parts/MA-W10-P01/part.json": "408472ce0e77a3177034766996d022557616b6b8229f0573164272f0b8624930",
+    "Parts/MA-W10-P02/MA-W10-P02.blend": "1f81dffb5f7bc017a3164c2fcaa249c6ba76948d7f6230e42f4a166f73c659e8",
+    "Parts/MA-W10-P02/part.json": "64bb9d74cd35cdd32947a7b89eb1082c50acb75692289d18638c118bc86d4bf0",
+    "Parts/MA-W10-P03/MA-W10-P03.blend": "d635baf7fdafbffc23c6216f3801aec9aba223e04edd1dd2d88fb6e433b25173",
+    "Parts/MA-W10-P03/part.json": "ab84afc020d161061737586da5bc733575b807eb92cc7db60cc2a3e89973fb7a"
+  },
+  "dependencies": [
+    "Blocks/MA-W10/assembly.json",
+    "Blocks/MA-W10/MA-W10.blend",
+    "Parts/MA-P06/MA-P06.blend",
+    "Parts/MA-P06/part.json",
+    "Parts/MA-W02-P01/MA-W02-P01.blend",
+    "Parts/MA-W02-P01/part.json",
+    "Parts/MA-W02-P04/MA-W02-P04.blend",
+    "Parts/MA-W02-P04/part.json",
+    "Parts/MA-W10-P01/MA-W10-P01.blend",
+    "Parts/MA-W10-P01/part.json",
+    "Parts/MA-W10-P02/MA-W10-P02.blend",
+    "Parts/MA-W10-P02/part.json",
+    "Parts/MA-W10-P03/MA-W10-P03.blend",
+    "Parts/MA-W10-P03/part.json"
+  ]
+}

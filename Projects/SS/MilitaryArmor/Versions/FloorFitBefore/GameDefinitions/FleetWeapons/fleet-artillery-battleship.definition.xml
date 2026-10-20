@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="fleet-artillery-battleship" Category="Оружие" Type="Turret" MaxHealth="9900" BlockMass="24.5">
+  <Resources>
+    <Resource StoreInStorage="true" Id="1" Capacity="360" WorkingThreshold="1" TargetStorage="360" InitialStorage="360" MaxInput="180" UsePerShot="20" Priority="30" />
+  </Resources>
+  <Construction BaseCreationSeconds="1">
+    <Point Id="complexity" Sum="180" />
+    <Point Id="weapon-load" Sum="180" />
+    <DesignCost>
+      <Item Ref="11" Amount="1800" />
+    </DesignCost>
+    <BuildCost>
+      <Item Ref="11" Amount="180" />
+    </BuildCost>
+  </Construction>
+  <Heat Capacity="720" Input="0" Output="12" EnergyFraction="0.8" Background="0" WorkHeat="0" Radiator="0" Shutdown="0.9" Resume="0.5" DamagePerSecond="0" Action="Disable" />
+  <Size X="4" Y="4" />
+  <Turret Ref="fleet-artillery-battleship-mount" />
+  <WeaponDefinition Ref="fleet-artillery-battleship-weapon" />
+  <Colliders>
+    <ConvexCollider Data="0 0 4 0 4 4 0 4" />
+  </Colliders>
+  <Repair Version="2">
+    <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33" />
+    <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33" />
+  </Repair>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="fleet-artillery-battleship"/>
+</Block>

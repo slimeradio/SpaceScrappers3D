@@ -1,0 +1,86 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-A03",
+  "version": "1.0",
+  "title": "Faceted spacecraft wedge armor",
+  "catalog_id": "armor-wedge",
+  "catalog_grid": [
+    1,
+    1
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "shell",
+      "part_id": "MA-A03-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-A03-P01/MA-A03-P01.blend",
+      "parent": "MA-A03",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MA-A03",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "shell",
+      "parent": "MA-A03",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "animations": [],
+  "exports": [
+    "Exports/MA-A03.glb"
+  ],
+  "notes": "Single standalone faceted shell. Catalog footprint 1x1; physical scale unspecified. Static armor; no animation."
+}

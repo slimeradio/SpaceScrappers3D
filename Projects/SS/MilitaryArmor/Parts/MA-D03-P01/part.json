@@ -1,0 +1,398 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-D03-P01",
+  "version": "1.0",
+  "name": "Heavy three-spindle longitudinal drill frame",
+  "source": "MA-D03-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -3.0399999618530273,
+      -2.700000047683716,
+      0.0
+    ],
+    "max": [
+      3.0399999618530273,
+      5.78000020980835,
+      1.5149025917053223
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Outboard beam -1",
+        "Outboard beam 1",
+        "Rear load bridge",
+        "Protected distribution housing port",
+        "Protected distribution housing center",
+        "Protected distribution housing starboard"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Upper ceramic rail -1",
+        "Upper ceramic rail 1",
+        "Bearing saddle port",
+        "Transmission upper shell port",
+        "Bearing saddle center",
+        "Transmission upper shell center",
+        "Bearing saddle starboard",
+        "Transmission upper shell starboard"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Recessed seam port2.2",
+        "Recessed seam port2.8",
+        "Recessed seam port4.6",
+        "Recessed seam center2.2",
+        "Recessed seam center2.8",
+        "Recessed seam center4.6",
+        "Recessed seam starboard2.2",
+        "Recessed seam starboard2.8",
+        "Recessed seam starboard4.6"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Elevated aft diagonal -1",
+        "Rear hull foot -1",
+        "Elevated aft diagonal 1",
+        "Rear hull foot 1",
+        "Upper distribution bridge",
+        "Forward crosshead",
+        "Middle crossmember",
+        "Longitudinal lower drive bed port",
+        "Drive sole port",
+        "Bearing transverse foot port",
+        "Bearing stay port-1",
+        "Bearing stay port1",
+        "Rear transmission cap port",
+        "Thrust diagonal port-1",
+        "Thrust diagonal port1",
+        "Longitudinal lower drive bed center",
+        "Drive sole center",
+        "Bearing transverse foot center",
+        "Bearing stay center-1",
+        "Bearing stay center1",
+        "Rear transmission cap center",
+        "Thrust diagonal center-1",
+        "Thrust diagonal center1",
+        "Longitudinal lower drive bed starboard",
+        "Drive sole starboard",
+        "Bearing transverse foot starboard",
+        "Bearing stay starboard-1",
+        "Bearing stay starboard1",
+        "Rear transmission cap starboard",
+        "Thrust diagonal starboard-1",
+        "Thrust diagonal starboard1"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "hull",
+      "node": "socket.hull",
+      "parent": null,
+      "role": "hull",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.drill.hull"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "drive-port",
+      "node": "socket.drive-port",
+      "parent": null,
+      "role": "drive",
+      "position": [
+        -1.8,
+        0.2,
+        0.65
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.drill.drive"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "cutter-port",
+      "node": "socket.cutter-port",
+      "parent": null,
+      "role": "cutter",
+      "position": [
+        -1.8,
+        -2.03,
+        0.95
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.drill.cutter"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "drive-center",
+      "node": "socket.drive-center",
+      "parent": null,
+      "role": "drive",
+      "position": [
+        0,
+        -0.25,
+        0.65
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.drill.drive"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "cutter-center",
+      "node": "socket.cutter-center",
+      "parent": null,
+      "role": "cutter",
+      "position": [
+        0,
+        -2.48,
+        0.95
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.drill.cutter"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "drive-starboard",
+      "node": "socket.drive-starboard",
+      "parent": null,
+      "role": "drive",
+      "position": [
+        1.8,
+        0.2,
+        0.65
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.drill.drive"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "cutter-starboard",
+      "node": "socket.cutter-starboard",
+      "parent": null,
+      "role": "cutter",
+      "position": [
+        1.8,
+        -2.03,
+        0.95
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.drill.cutter"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-plane",
+      "parent": null,
+      "role": "hull",
+      "shape": "logical-plane",
+      "dimensions": [
+        0.04,
+        0.04
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.drill.hull"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "MilitaryArmor mechanical drill visual authoring; static rest pose; unit-scale only; procedural PBR, no UV or file textures; no gameplay contract.",
+  "project": "SS",
+  "style": "MilitaryArmor"
+}

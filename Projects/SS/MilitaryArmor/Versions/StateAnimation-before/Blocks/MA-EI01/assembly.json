@@ -1,0 +1,103 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-EI01",
+  "version": "2.0",
+  "title": "Ионный двигатель 2×3",
+  "catalog_id": "ion-thruster-2x3",
+  "catalog_grid": [
+    2,
+    3
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "SplitPowerHousing",
+      "part_id": "MA-EI01-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-EI01-P01/MA-EI01-P01.blend",
+      "parent": "MA-EI01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ElectrodeAperture",
+      "part_id": "MA-EI01-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-EI01-P02/MA-EI01-P02.blend",
+      "parent": "MA-EI01",
+      "translation": [
+        0,
+        -1.62,
+        1
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "part_id": "MA-E01-P05",
+      "version": "1.0",
+      "source": "../../Parts/MA-E01-P05/MA-E01-P05.blend",
+      "parent": "MA-EI01",
+      "translation": [
+        0,
+        1.78,
+        1.16
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "SplitPowerHousing",
+      "parent_socket": "aperture",
+      "child_instance": "ElectrodeAperture",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "SplitPowerHousing",
+      "parent_socket": "service",
+      "child_instance": "ServiceCartridge",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Flat open electrode aperture, split power rails; +Y thrust/-Y exhaust authoring only. Physical BU unspecified; no gameplay tuning or permanent plume."
+}

@@ -1,0 +1,530 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W06-CAPACITOR",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Helion: накопитель и силовой хвост",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "capacitor",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.16
+      ],
+      "outline": [
+        [
+          -0.15999999999999998,
+          -0.25
+        ],
+        [
+          0.15999999999999998,
+          -0.25
+        ],
+        [
+          0.24,
+          -0.16999999999999998
+        ],
+        [
+          0.24,
+          0.16999999999999998
+        ],
+        [
+          0.15999999999999998,
+          0.25
+        ],
+        [
+          -0.15999999999999998,
+          0.25
+        ],
+        [
+          -0.24,
+          0.16999999999999998
+        ],
+        [
+          -0.24,
+          -0.16999999999999998
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.16,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.148,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.14400000000000002,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.16,
+          "scale": [
+            0.88,
+            0.88
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "capacitor-lid",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.02,
+        0.34
+      ],
+      "outline": [
+        [
+          -0.15000000000000002,
+          -0.225
+        ],
+        [
+          0.15000000000000002,
+          -0.225
+        ],
+        [
+          0.23,
+          -0.14500000000000002
+        ],
+        [
+          0.23,
+          0.14500000000000002
+        ],
+        [
+          0.15000000000000002,
+          0.225
+        ],
+        [
+          -0.15000000000000002,
+          0.225
+        ],
+        [
+          -0.23,
+          0.14500000000000002
+        ],
+        [
+          -0.23,
+          -0.14500000000000002
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.045,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.033,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.028999999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.045,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "flank-cap--1",
+      "shape": "loft",
+      "position": [
+        -0.22,
+        0,
+        0.2
+      ],
+      "outline": [
+        [
+          -0.010500000000000002,
+          -0.21
+        ],
+        [
+          0.010500000000000002,
+          -0.21
+        ],
+        [
+          0.035,
+          -0.1855
+        ],
+        [
+          0.035,
+          0.1855
+        ],
+        [
+          0.010500000000000002,
+          0.21
+        ],
+        [
+          -0.010500000000000002,
+          0.21
+        ],
+        [
+          -0.035,
+          0.1855
+        ],
+        [
+          -0.035,
+          -0.1855
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.12,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.108,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.104,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.12,
+          "scale": [
+            0.75,
+            0.75
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "charge--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.263,
+        0,
+        0.2
+      ],
+      "size": [
+        0.008,
+        0.23,
+        0.035
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "flank-cap-1",
+      "shape": "loft",
+      "position": [
+        0.22,
+        0,
+        0.2
+      ],
+      "outline": [
+        [
+          -0.010500000000000002,
+          -0.21
+        ],
+        [
+          0.010500000000000002,
+          -0.21
+        ],
+        [
+          0.035,
+          -0.1855
+        ],
+        [
+          0.035,
+          0.1855
+        ],
+        [
+          0.010500000000000002,
+          0.21
+        ],
+        [
+          -0.010500000000000002,
+          0.21
+        ],
+        [
+          -0.035,
+          0.1855
+        ],
+        [
+          -0.035,
+          -0.1855
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.12,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.108,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.104,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.12,
+          "scale": [
+            0.75,
+            0.75
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "charge-1",
+      "shape": "roundedBox",
+      "position": [
+        0.263,
+        0,
+        0.2
+      ],
+      "size": [
+        0.008,
+        0.23,
+        0.035
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    },
+    {
+      "id": "rear-fin-0",
+      "shape": "roundedBox",
+      "position": [
+        -0.15,
+        -0.26,
+        0.17
+      ],
+      "size": [
+        0.028,
+        0.07,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "rear-fin-1",
+      "shape": "roundedBox",
+      "position": [
+        -0.075,
+        -0.26,
+        0.17
+      ],
+      "size": [
+        0.028,
+        0.07,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "rear-fin-2",
+      "shape": "roundedBox",
+      "position": [
+        0.0,
+        -0.26,
+        0.17
+      ],
+      "size": [
+        0.028,
+        0.07,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "rear-fin-3",
+      "shape": "roundedBox",
+      "position": [
+        0.07499999999999998,
+        -0.26,
+        0.17
+      ],
+      "size": [
+        0.028,
+        0.07,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    },
+    {
+      "id": "rear-fin-4",
+      "shape": "roundedBox",
+      "position": [
+        0.15,
+        -0.26,
+        0.17
+      ],
+      "size": [
+        0.028,
+        0.07,
+        0.21
+      ],
+      "radius": 0.008,
+      "material": "edge"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; viewer box-projected UV for optional SharedTextures",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "charge--1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "charge-1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W06-YAW.power"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.267,
+      -0.29500000000000004,
+      0.0
+    ],
+    "max": [
+      0.267,
+      0.25,
+      0.385
+    ],
+    "size": [
+      0.534,
+      0.545,
+      0.385
+    ]
+  }
+}

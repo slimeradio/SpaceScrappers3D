@@ -1,0 +1,86 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-A04",
+  "version": "1.0",
+  "title": "Faceted long wedge armor 1x2",
+  "catalog_id": "armor-1x2-wedge",
+  "catalog_grid": [
+    1,
+    2
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "armor-shell",
+      "part_id": "MA-A04-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-A04-P01/MA-A04-P01.blend",
+      "parent": "MA-A04",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MA-A04",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "armor-shell",
+      "parent": "MA-A04",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "animations": [],
+  "exports": [
+    "Exports/MA-A04.glb"
+  ],
+  "notes": "Static one-part armor; unit transforms. Catalog grid != physical meter dimensions. No animations, emission, textures or visible sockets."
+}

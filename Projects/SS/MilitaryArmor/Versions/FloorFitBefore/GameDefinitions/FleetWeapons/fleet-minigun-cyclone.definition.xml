@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="fleet-minigun-cyclone" Category="Оружие" Type="Turret" MaxHealth="3420" BlockMass="6.5">
+  <Resources>
+    <Resource StoreInStorage="true" Id="1" Capacity="100" WorkingThreshold="1" TargetStorage="100" InitialStorage="100" MaxInput="50" UsePerShot="1.4" Priority="30" />
+  </Resources>
+  <Construction BaseCreationSeconds="1">
+    <Point Id="complexity" Sum="36" />
+    <Point Id="weapon-load" Sum="36" />
+    <DesignCost>
+      <Item Ref="11" Amount="360" />
+    </DesignCost>
+    <BuildCost>
+      <Item Ref="11" Amount="36" />
+    </BuildCost>
+  </Construction>
+  <Heat Capacity="40" Input="0" Output="12" EnergyFraction="0.8" Background="0" WorkHeat="0" Radiator="0" Shutdown="0.9" Resume="0.5" DamagePerSecond="0" Action="Disable" />
+  <Size X="2" Y="2" />
+  <Turret Ref="fleet-minigun-cyclone-mount" />
+  <WeaponDefinition Ref="fleet-minigun-cyclone-weapon" />
+  <Colliders>
+    <ConvexCollider Data="0 0 2 0 2 2 0 2" />
+  </Colliders>
+  <Repair Version="2">
+    <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33" />
+    <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33" />
+  </Repair>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="fleet-minigun-cyclone"/>
+</Block>

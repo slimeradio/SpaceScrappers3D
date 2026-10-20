@@ -1,0 +1,174 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-P06",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Оптический визир",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "sensor-pedestal",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0,
+        0.012
+      ],
+      "size": [
+        0.16,
+        0.15,
+        0.024
+      ],
+      "radius": 0.01,
+      "material": "graphite"
+    },
+    {
+      "id": "sensor-shell",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.015,
+        0.072
+      ],
+      "size": [
+        0.17,
+        0.22,
+        0.12
+      ],
+      "radius": 0.032,
+      "material": "armor"
+    },
+    {
+      "id": "visor",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.129,
+        0.072
+      ],
+      "size": [
+        0.125,
+        0.012,
+        0.055
+      ],
+      "radius": 0.012,
+      "material": "graphite"
+    },
+    {
+      "id": "visor-glow",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.137,
+        0.072
+      ],
+      "size": [
+        0.09,
+        0.005,
+        0.022
+      ],
+      "radius": 0.006,
+      "material": "cyan"
+    }
+  ],
+  "materialLibrary": "../../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "visor-glow",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "sensor-in",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P03.sensor"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.085,
+      -0.095,
+      0.0
+    ],
+    "max": [
+      0.085,
+      0.1395,
+      0.132
+    ],
+    "size": [
+      0.17,
+      0.23450000000000001,
+      0.132
+    ]
+  }
+}

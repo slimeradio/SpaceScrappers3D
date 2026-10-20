@@ -1,0 +1,1000 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W03-HULL",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Cyclone: узкий составной приёмник",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "receiver-keel",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.16,
+        0.125
+      ],
+      "outline": [
+        [
+          -0.385,
+          -0.515
+        ],
+        [
+          0.385,
+          -0.515
+        ],
+        [
+          0.43,
+          -0.47000000000000003
+        ],
+        [
+          0.43,
+          0.47000000000000003
+        ],
+        [
+          0.385,
+          0.515
+        ],
+        [
+          -0.385,
+          0.515
+        ],
+        [
+          -0.43,
+          0.47000000000000003
+        ],
+        [
+          -0.43,
+          -0.47000000000000003
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.125,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": -0.113,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.113,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.125,
+          "scale": [
+            0.86,
+            0.86
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "raised-spine",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.31,
+        0.46
+      ],
+      "outline": [
+        [
+          -0.05499999999999999,
+          -0.325
+        ],
+        [
+          0.05499999999999999,
+          -0.325
+        ],
+        [
+          0.09,
+          -0.29000000000000004
+        ],
+        [
+          0.09,
+          0.29000000000000004
+        ],
+        [
+          0.05499999999999999,
+          0.325
+        ],
+        [
+          -0.05499999999999999,
+          0.325
+        ],
+        [
+          -0.09,
+          0.29000000000000004
+        ],
+        [
+          -0.09,
+          -0.29000000000000004
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.06,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": -0.048,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.048,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.06,
+          "scale": [
+            0.86,
+            0.86
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "front-split-support",
+      "shape": "loft",
+      "position": [
+        0,
+        0.22,
+        0.25
+      ],
+      "outline": [
+        [
+          -0.37,
+          -0.125
+        ],
+        [
+          0.37,
+          -0.125
+        ],
+        [
+          0.415,
+          -0.08
+        ],
+        [
+          0.415,
+          0.08
+        ],
+        [
+          0.37,
+          0.125
+        ],
+        [
+          -0.37,
+          0.125
+        ],
+        [
+          -0.415,
+          0.08
+        ],
+        [
+          -0.415,
+          -0.08
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.14,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": -0.128,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.128,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.14,
+          "scale": [
+            0.86,
+            0.86
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "roof-step--1",
+      "shape": "loft",
+      "position": [
+        -0.27,
+        -0.25,
+        0.46
+      ],
+      "outline": [
+        [
+          -0.065,
+          -0.355
+        ],
+        [
+          0.065,
+          -0.355
+        ],
+        [
+          0.11,
+          -0.31
+        ],
+        [
+          0.11,
+          0.31
+        ],
+        [
+          0.065,
+          0.355
+        ],
+        [
+          -0.065,
+          0.355
+        ],
+        [
+          -0.11,
+          0.31
+        ],
+        [
+          -0.11,
+          -0.31
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.0375,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": -0.0255,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0255,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0375,
+          "scale": [
+            0.86,
+            0.86
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "roof-light--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.27,
+        -0.25,
+        0.505
+      ],
+      "size": [
+        0.022,
+        0.45,
+        0.009
+      ],
+      "radius": 0.0018,
+      "material": "cyan"
+    },
+    {
+      "id": "front-saddle--1",
+      "shape": "loft",
+      "position": [
+        -0.254,
+        0.17,
+        0.34
+      ],
+      "outline": [
+        [
+          -0.105,
+          -0.145
+        ],
+        [
+          0.105,
+          -0.145
+        ],
+        [
+          0.15,
+          -0.09999999999999999
+        ],
+        [
+          0.15,
+          0.09999999999999999
+        ],
+        [
+          0.105,
+          0.145
+        ],
+        [
+          -0.105,
+          0.145
+        ],
+        [
+          -0.15,
+          0.09999999999999999
+        ],
+        [
+          -0.15,
+          -0.09999999999999999
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.15,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": -0.13799999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.13799999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.15,
+          "scale": [
+            0.86,
+            0.86
+          ]
+        }
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "roof-step-1",
+      "shape": "loft",
+      "position": [
+        0.27,
+        -0.25,
+        0.46
+      ],
+      "outline": [
+        [
+          -0.065,
+          -0.355
+        ],
+        [
+          0.065,
+          -0.355
+        ],
+        [
+          0.11,
+          -0.31
+        ],
+        [
+          0.11,
+          0.31
+        ],
+        [
+          0.065,
+          0.355
+        ],
+        [
+          -0.065,
+          0.355
+        ],
+        [
+          -0.11,
+          0.31
+        ],
+        [
+          -0.11,
+          -0.31
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.0375,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": -0.0255,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0255,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0375,
+          "scale": [
+            0.86,
+            0.86
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "roof-light-1",
+      "shape": "roundedBox",
+      "position": [
+        0.27,
+        -0.25,
+        0.505
+      ],
+      "size": [
+        0.022,
+        0.45,
+        0.009
+      ],
+      "radius": 0.0018,
+      "material": "cyan"
+    },
+    {
+      "id": "front-saddle-1",
+      "shape": "loft",
+      "position": [
+        0.254,
+        0.17,
+        0.34
+      ],
+      "outline": [
+        [
+          -0.105,
+          -0.145
+        ],
+        [
+          0.105,
+          -0.145
+        ],
+        [
+          0.15,
+          -0.09999999999999999
+        ],
+        [
+          0.15,
+          0.09999999999999999
+        ],
+        [
+          0.105,
+          0.145
+        ],
+        [
+          -0.105,
+          0.145
+        ],
+        [
+          -0.15,
+          0.09999999999999999
+        ],
+        [
+          -0.15,
+          -0.09999999999999999
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.15,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": -0.13799999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.13799999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.15,
+          "scale": [
+            0.86,
+            0.86
+          ]
+        }
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "back-vent-0",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.812,
+        0.2
+      ],
+      "size": [
+        0.34,
+        0.016,
+        0.012
+      ],
+      "radius": 0.0024000000000000002,
+      "material": "rubber"
+    },
+    {
+      "id": "back-vent-1",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.812,
+        0.232
+      ],
+      "size": [
+        0.34,
+        0.016,
+        0.012
+      ],
+      "radius": 0.0024000000000000002,
+      "material": "rubber"
+    },
+    {
+      "id": "back-vent-2",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.812,
+        0.264
+      ],
+      "size": [
+        0.34,
+        0.016,
+        0.012
+      ],
+      "radius": 0.0024000000000000002,
+      "material": "rubber"
+    },
+    {
+      "id": "back-vent-3",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.812,
+        0.29600000000000004
+      ],
+      "size": [
+        0.34,
+        0.016,
+        0.012
+      ],
+      "radius": 0.0024000000000000002,
+      "material": "rubber"
+    },
+    {
+      "id": "back-vent-4",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.812,
+        0.328
+      ],
+      "size": [
+        0.34,
+        0.016,
+        0.012
+      ],
+      "radius": 0.0024000000000000002,
+      "material": "rubber"
+    },
+    {
+      "id": "back-vent-5",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.812,
+        0.36
+      ],
+      "size": [
+        0.34,
+        0.016,
+        0.012
+      ],
+      "radius": 0.0024000000000000002,
+      "material": "rubber"
+    },
+    {
+      "id": "swept-receiver-casting",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "outline": [
+        [
+          -0.28,
+          -0.69
+        ],
+        [
+          0.28,
+          -0.69
+        ],
+        [
+          0.39,
+          -0.53
+        ],
+        [
+          0.42,
+          -0.16
+        ],
+        [
+          0.35,
+          0.12
+        ],
+        [
+          0.23,
+          0.25
+        ],
+        [
+          -0.23,
+          0.25
+        ],
+        [
+          -0.35,
+          0.12
+        ],
+        [
+          -0.42,
+          -0.16
+        ],
+        [
+          -0.39,
+          -0.53
+        ]
+      ],
+      "levels": [
+        {
+          "z": 0.13,
+          "scale": [
+            0.92,
+            0.96
+          ]
+        },
+        {
+          "z": 0.2,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.32,
+          "scale": [
+            0.94,
+            0.96
+          ]
+        },
+        {
+          "z": 0.425,
+          "scale": [
+            0.77,
+            0.88
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "rear-service-brow",
+      "shape": "profile",
+      "position": [
+        0,
+        -0.68,
+        0.3
+      ],
+      "outline": [
+        [
+          -0.24,
+          -0.12
+        ],
+        [
+          0.24,
+          -0.12
+        ],
+        [
+          0.26,
+          0.02
+        ],
+        [
+          0.17,
+          0.11
+        ],
+        [
+          -0.17,
+          0.11
+        ],
+        [
+          -0.26,
+          0.02
+        ]
+      ],
+      "holes": [],
+      "depth": 0.1,
+      "bevel": 0.004,
+      "material": "graphite"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; optional SharedTextures via existing viewer box-projection UV",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "roof-light--1",
+      "geometry": "roof-light--1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    },
+    {
+      "id": "roof-light-1",
+      "geometry": "roof-light-1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P02.head",
+      "role": "head-in",
+      "parentNode": "root"
+    },
+    {
+      "id": "sight",
+      "position": [
+        0,
+        -0.17,
+        0.52
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-W03-SIGHT.base",
+      "role": "mechanical",
+      "parentNode": "root"
+    },
+    {
+      "id": "barrel-L",
+      "position": [
+        -0.254,
+        0.25,
+        0.33
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible": "CHT-W03-BARREL.base",
+      "role": "mechanical",
+      "parentNode": "root"
+    },
+    {
+      "id": "side-L",
+      "position": [
+        -0.53,
+        -0.28,
+        0.18
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-W03-SIDE.base",
+      "role": "mechanical",
+      "parentNode": "root"
+    },
+    {
+      "id": "barrel-R",
+      "position": [
+        0.254,
+        0.25,
+        0.33
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible": "CHT-W03-BARREL.base",
+      "role": "mechanical",
+      "parentNode": "root"
+    },
+    {
+      "id": "side-R",
+      "position": [
+        0.53,
+        -0.28,
+        0.18
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-W03-SIDE.base",
+      "role": "mechanical",
+      "parentNode": "root"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.43,
+      -0.83,
+      0
+    ],
+    "max": [
+      0.43,
+      0.36,
+      0.52
+    ],
+    "size": [
+      0.86,
+      1.19,
+      0.52
+    ]
+  },
+  "compatibilityAliases": [
+    "CHT-P03.base"
+  ]
+}

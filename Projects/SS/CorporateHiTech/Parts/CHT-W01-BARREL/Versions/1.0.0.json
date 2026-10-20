@@ -1,0 +1,811 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W01-BARREL",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Длинный артиллерийский ствол с дульным тормозом",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "breech-lower",
+      "shape": "loft",
+      "position": [
+        0,
+        0.18,
+        0
+      ],
+      "outline": [
+        [
+          -0.06,
+          -0.26
+        ],
+        [
+          0.06,
+          -0.26
+        ],
+        [
+          0.13,
+          -0.19
+        ],
+        [
+          0.13,
+          0.19
+        ],
+        [
+          0.06,
+          0.26
+        ],
+        [
+          -0.06,
+          0.26
+        ],
+        [
+          -0.13,
+          0.19
+        ],
+        [
+          -0.13,
+          -0.19
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.115,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.097,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.097,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.115,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "breech-upper",
+      "shape": "loft",
+      "position": [
+        0,
+        0.19,
+        0.14
+      ],
+      "outline": [
+        [
+          -0.085,
+          -0.235
+        ],
+        [
+          0.085,
+          -0.235
+        ],
+        [
+          0.135,
+          -0.185
+        ],
+        [
+          0.135,
+          0.185
+        ],
+        [
+          0.085,
+          0.235
+        ],
+        [
+          -0.085,
+          0.235
+        ],
+        [
+          -0.135,
+          0.185
+        ],
+        [
+          -0.135,
+          -0.185
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.04,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.022000000000000002,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.022000000000000002,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.04,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "steel-barrel",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.86,
+        0
+      ],
+      "size": [
+        0.118,
+        1.36,
+        0.118
+      ],
+      "radius": 0.012,
+      "material": "edge"
+    },
+    {
+      "id": "sleeve-a",
+      "shape": "loft",
+      "position": [
+        0,
+        0.49,
+        0
+      ],
+      "outline": [
+        [
+          -0.05499999999999999,
+          -0.22
+        ],
+        [
+          0.05499999999999999,
+          -0.22
+        ],
+        [
+          0.105,
+          -0.16999999999999998
+        ],
+        [
+          0.105,
+          0.16999999999999998
+        ],
+        [
+          0.05499999999999999,
+          0.22
+        ],
+        [
+          -0.05499999999999999,
+          0.22
+        ],
+        [
+          -0.105,
+          0.16999999999999998
+        ],
+        [
+          -0.105,
+          -0.16999999999999998
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.095,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.077,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.077,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.095,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "sleeve-b",
+      "shape": "loft",
+      "position": [
+        0,
+        0.88,
+        0
+      ],
+      "outline": [
+        [
+          -0.042499999999999996,
+          -0.145
+        ],
+        [
+          0.042499999999999996,
+          -0.145
+        ],
+        [
+          0.0875,
+          -0.09999999999999999
+        ],
+        [
+          0.0875,
+          0.09999999999999999
+        ],
+        [
+          0.042499999999999996,
+          0.145
+        ],
+        [
+          -0.042499999999999996,
+          0.145
+        ],
+        [
+          -0.0875,
+          0.09999999999999999
+        ],
+        [
+          -0.0875,
+          -0.09999999999999999
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.08,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.062,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.062,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.08,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "muzzle-brake",
+      "shape": "loft",
+      "position": [
+        0,
+        1.48,
+        0
+      ],
+      "outline": [
+        [
+          -0.06,
+          -0.16
+        ],
+        [
+          0.06,
+          -0.16
+        ],
+        [
+          0.12,
+          -0.1
+        ],
+        [
+          0.12,
+          0.1
+        ],
+        [
+          0.06,
+          0.16
+        ],
+        [
+          -0.06,
+          0.16
+        ],
+        [
+          -0.12,
+          0.1
+        ],
+        [
+          -0.12,
+          -0.1
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.11,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.092,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.092,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.11,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "muzzle-inset",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        1.644,
+        0
+      ],
+      "size": [
+        0.125,
+        0.012,
+        0.13
+      ],
+      "radius": 0.006,
+      "material": "rubber"
+    },
+    {
+      "id": "brake-jaw--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.09,
+        1.51,
+        0.045
+      ],
+      "size": [
+        0.075,
+        0.27,
+        0.17
+      ],
+      "radius": 0.012,
+      "material": "armor"
+    },
+    {
+      "id": "brake-light--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.094,
+        1.58,
+        0.136
+      ],
+      "size": [
+        0.028,
+        0.11,
+        0.008
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "barrel-charge--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.108,
+        0.4,
+        0.025
+      ],
+      "size": [
+        0.008,
+        0.3,
+        0.025
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "brake-jaw-1",
+      "shape": "roundedBox",
+      "position": [
+        0.09,
+        1.51,
+        0.045
+      ],
+      "size": [
+        0.075,
+        0.27,
+        0.17
+      ],
+      "radius": 0.012,
+      "material": "armor"
+    },
+    {
+      "id": "brake-light-1",
+      "shape": "roundedBox",
+      "position": [
+        0.094,
+        1.58,
+        0.136
+      ],
+      "size": [
+        0.028,
+        0.11,
+        0.008
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "barrel-charge-1",
+      "shape": "roundedBox",
+      "position": [
+        0.108,
+        0.4,
+        0.025
+      ],
+      "size": [
+        0.008,
+        0.3,
+        0.025
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "reinforcing-collar-0.69",
+      "shape": "loft",
+      "position": [
+        0,
+        0.69,
+        0
+      ],
+      "outline": [
+        [
+          -0.052000000000000005,
+          -0.04
+        ],
+        [
+          0.052000000000000005,
+          -0.04
+        ],
+        [
+          0.08,
+          -0.012000000000000004
+        ],
+        [
+          0.08,
+          0.012000000000000004
+        ],
+        [
+          0.052000000000000005,
+          0.04
+        ],
+        [
+          -0.052000000000000005,
+          0.04
+        ],
+        [
+          -0.08,
+          0.012000000000000004
+        ],
+        [
+          -0.08,
+          -0.012000000000000004
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.0775,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.0595,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0595,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0775,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "reinforcing-collar-1.1",
+      "shape": "loft",
+      "position": [
+        0,
+        1.1,
+        0
+      ],
+      "outline": [
+        [
+          -0.052000000000000005,
+          -0.04
+        ],
+        [
+          0.052000000000000005,
+          -0.04
+        ],
+        [
+          0.08,
+          -0.012000000000000004
+        ],
+        [
+          0.08,
+          0.012000000000000004
+        ],
+        [
+          0.052000000000000005,
+          0.04
+        ],
+        [
+          -0.052000000000000005,
+          0.04
+        ],
+        [
+          -0.08,
+          0.012000000000000004
+        ],
+        [
+          -0.08,
+          -0.012000000000000004
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.0775,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.0595,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0595,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0775,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "graphite"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; model-unit box projection",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "brake-light--1",
+      "geometry": "brake-light--1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    },
+    {
+      "id": "barrel-charge--1",
+      "geometry": "barrel-charge--1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    },
+    {
+      "id": "brake-light-1",
+      "geometry": "brake-light-1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    },
+    {
+      "id": "barrel-charge-1",
+      "geometry": "barrel-charge-1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "base",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible": "CHT-W01-HEAD.barrel-*",
+      "parentNode": "root"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [
+    {
+      "id": "muzzle",
+      "role": "projectile-origin",
+      "parentNode": "root",
+      "coordinateSystem": "local",
+      "position": [
+        0,
+        1.654,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.135,
+      -0.08000000000000002,
+      -0.115
+    ],
+    "max": [
+      0.135,
+      1.65,
+      0.18000000000000002
+    ],
+    "size": [
+      0.27,
+      1.73,
+      0.29500000000000004
+    ]
+  }
+}

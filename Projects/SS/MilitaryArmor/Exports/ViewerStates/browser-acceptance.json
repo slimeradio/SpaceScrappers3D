@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "errors": [],
+  "stateResults": {
+    "warm": {
+      "values": {
+        "power": 1,
+        "activity": 0,
+        "fault": 0,
+        "heat": 0.35,
+        "deployment": 1
+      },
+      "angle": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "hot": {
+      "values": {
+        "power": 0,
+        "activity": 0,
+        "fault": 0,
+        "heat": 1,
+        "deployment": 0
+      },
+      "hotSurfaces": 36
+    },
+    "heatDoesNotStopOpening": true,
+    "animatedDeployment": 0.4664,
+    "blendFilePicker": true,
+    "ordinaryBlendAnimation": true
+  },
+  "work": {
+    "before": 0.13325,
+    "after": 0.2915500000000001,
+    "stopped": {
+      "power": 0,
+      "activity": 0,
+      "fault": 0,
+      "heat": 0,
+      "cycle_turns": 0.34985000000000016
+    }
+  },
+  "smoke": [
+    {
+      "id": "MA-H03",
+      "instances": 133,
+      "clips": 4,
+      "drawn": 816
+    },
+    {
+      "id": "MA-W03",
+      "instances": 7,
+      "clips": 6,
+      "drawn": 98
+    },
+    {
+      "id": "MA-E02",
+      "instances": 8,
+      "clips": 4,
+      "drawn": 53
+    },
+    {
+      "id": "MA-HS01",
+      "instances": 5,
+      "clips": 2,
+      "drawn": 30
+    }
+  ]
+}

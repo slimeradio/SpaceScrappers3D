@@ -1,0 +1,78 @@
+{
+  "id": "MA-A04",
+  "source_saved": true,
+  "source_parts_saved_before_assembly": true,
+  "instance_count": 1,
+  "resolved_parts": [
+    "MA-A04-P01"
+  ],
+  "missing_dependencies": [],
+  "glb": {
+    "magic": "glTF",
+    "version": 2,
+    "length_matches": true,
+    "mesh_count": 1,
+    "node_count": 4,
+    "animation_count": 0,
+    "embedded_buffers": true,
+    "external_images": []
+  },
+  "game_validation": false,
+  "checks_passed": true,
+  "geometry_checks": [
+    {
+      "stage": "source-reopened",
+      "evaluated_triangles": 56,
+      "mesh_count": 1,
+      "material_count": 2,
+      "zero_area_triangles": [],
+      "boundary_overshoot": [],
+      "finite_vertices": true,
+      "geometrically_closed_after_coincident_vertex_weld": true,
+      "unit_scales": true,
+      "emission_free": true,
+      "bounds": {
+        "min": [
+          -0.5,
+          -1.0,
+          0.0
+        ],
+        "max": [
+          0.5,
+          1.0,
+          0.2800000011920929
+        ]
+      }
+    },
+    {
+      "stage": "GLB-roundtrip",
+      "evaluated_triangles": 56,
+      "mesh_count": 1,
+      "material_count": 2,
+      "zero_area_triangles": [],
+      "boundary_overshoot": [],
+      "finite_vertices": true,
+      "geometrically_closed_after_coincident_vertex_weld": true,
+      "unit_scales": true,
+      "emission_free": true,
+      "bounds": {
+        "min": [
+          -0.5,
+          -1.0,
+          0.0
+        ],
+        "max": [
+          0.5,
+          1.0,
+          0.2800000011920929
+        ]
+      }
+    }
+  ],
+  "final_review_TEMP": [
+    "C:\\Users\\nebul\\AppData\\Local\\Temp\\MA-A04-final-oblique.png",
+    "C:\\Users\\nebul\\AppData\\Local\\Temp\\MA-A04-final-top.png",
+    "C:\\Users\\nebul\\AppData\\Local\\Temp\\MA-A04-final-neighbours.png"
+  ],
+  "visual_review": "Passed: final oblique, top and 8 neighbouring final instances viewed; straight structural seams, coherent shallow cap, no floating details."
+}

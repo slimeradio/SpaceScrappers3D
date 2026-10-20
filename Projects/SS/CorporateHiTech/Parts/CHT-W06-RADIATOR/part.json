@@ -1,0 +1,576 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W06-RADIATOR",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Helion: разрезная радиаторная гребёнка",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "coolant-rail",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.06
+      ],
+      "outline": [
+        [
+          -0.024999999999999994,
+          -0.605
+        ],
+        [
+          0.024999999999999994,
+          -0.605
+        ],
+        [
+          0.06,
+          -0.57
+        ],
+        [
+          0.06,
+          0.57
+        ],
+        [
+          0.024999999999999994,
+          0.605
+        ],
+        [
+          -0.024999999999999994,
+          0.605
+        ],
+        [
+          -0.06,
+          0.57
+        ],
+        [
+          -0.06,
+          -0.57
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.06,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.048,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.044,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.06,
+          "scale": [
+            0.88,
+            0.88
+          ]
+        }
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "swept-radiator-sail-0",
+      "shape": "profile",
+      "outline": [
+        [
+          -0.56,
+          0.1
+        ],
+        [
+          -0.23,
+          0.1
+        ],
+        [
+          -0.18,
+          0.37
+        ],
+        [
+          -0.31,
+          0.86
+        ],
+        [
+          -0.46,
+          0.95
+        ],
+        [
+          -0.55,
+          0.77
+        ]
+      ],
+      "holes": [],
+      "depth": 0.065,
+      "bevel": 0.004,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "sail-heat-spreader-0",
+      "shape": "profile",
+      "outline": [
+        [
+          -0.5029333333333333,
+          0.20199999999999996
+        ],
+        [
+          -0.2785333333333333,
+          0.20199999999999996
+        ],
+        [
+          -0.24453333333333332,
+          0.4072
+        ],
+        [
+          -0.3329333333333333,
+          0.7796000000000001
+        ],
+        [
+          -0.43493333333333334,
+          0.848
+        ],
+        [
+          -0.49613333333333337,
+          0.7112
+        ]
+      ],
+      "holes": [],
+      "depth": 0.009,
+      "bevel": 0.004,
+      "position": [
+        0.039,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "sail-cyan-tip-0",
+      "shape": "profile",
+      "outline": [
+        [
+          -0.335,
+          0.835
+        ],
+        [
+          -0.47400000000000003,
+          0.9229999999999999
+        ],
+        [
+          -0.446,
+          0.95
+        ],
+        [
+          -0.3,
+          0.86
+        ]
+      ],
+      "holes": [],
+      "depth": 0.069,
+      "bevel": 0.004,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "material": "cyan"
+    },
+    {
+      "id": "swept-radiator-sail-1",
+      "shape": "profile",
+      "outline": [
+        [
+          -0.18,
+          0.1
+        ],
+        [
+          0.13,
+          0.1
+        ],
+        [
+          0.19,
+          0.32
+        ],
+        [
+          0.06,
+          0.71
+        ],
+        [
+          -0.055,
+          0.79
+        ],
+        [
+          -0.16,
+          0.59
+        ]
+      ],
+      "holes": [],
+      "depth": 0.065,
+      "bevel": 0.004,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "sail-heat-spreader-1",
+      "shape": "profile",
+      "outline": [
+        [
+          -0.1232,
+          0.1804
+        ],
+        [
+          0.08760000000000001,
+          0.1804
+        ],
+        [
+          0.12840000000000001,
+          0.3476
+        ],
+        [
+          0.04000000000000001,
+          0.6439999999999999
+        ],
+        [
+          -0.0382,
+          0.7048000000000001
+        ],
+        [
+          -0.10960000000000002,
+          0.5528
+        ]
+      ],
+      "holes": [],
+      "depth": 0.009,
+      "bevel": 0.004,
+      "position": [
+        0.039,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "sail-cyan-tip-1",
+      "shape": "profile",
+      "outline": [
+        [
+          0.034999999999999996,
+          0.6849999999999999
+        ],
+        [
+          -0.069,
+          0.763
+        ],
+        [
+          -0.041,
+          0.79
+        ],
+        [
+          0.06999999999999999,
+          0.71
+        ]
+      ],
+      "holes": [],
+      "depth": 0.069,
+      "bevel": 0.004,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "material": "cyan"
+    },
+    {
+      "id": "swept-radiator-sail-2",
+      "shape": "profile",
+      "outline": [
+        [
+          0.2,
+          0.1
+        ],
+        [
+          0.52,
+          0.1
+        ],
+        [
+          0.58,
+          0.25
+        ],
+        [
+          0.43,
+          0.53
+        ],
+        [
+          0.32,
+          0.6
+        ],
+        [
+          0.22,
+          0.42
+        ]
+      ],
+      "holes": [],
+      "depth": 0.065,
+      "bevel": 0.004,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "sail-heat-spreader-2",
+      "shape": "profile",
+      "outline": [
+        [
+          0.25706666666666667,
+          0.156
+        ],
+        [
+          0.4746666666666667,
+          0.156
+        ],
+        [
+          0.5154666666666666,
+          0.27
+        ],
+        [
+          0.41346666666666665,
+          0.4828
+        ],
+        [
+          0.33866666666666667,
+          0.536
+        ],
+        [
+          0.27066666666666667,
+          0.3992
+        ]
+      ],
+      "holes": [],
+      "depth": 0.009,
+      "bevel": 0.004,
+      "position": [
+        0.039,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "sail-cyan-tip-2",
+      "shape": "profile",
+      "outline": [
+        [
+          0.40499999999999997,
+          0.505
+        ],
+        [
+          0.306,
+          0.573
+        ],
+        [
+          0.334,
+          0.6
+        ],
+        [
+          0.44,
+          0.53
+        ]
+      ],
+      "holes": [],
+      "depth": 0.069,
+      "bevel": 0.004,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "material": "cyan"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; viewer box-projected UV for optional SharedTextures",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "sail-cyan-tip-0",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "sail-cyan-tip-1",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    },
+    {
+      "id": "sail-cyan-tip-2",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W06-YAW.radiator-*"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.05999999865889549,
+      -0.6050000190734863,
+      1.341104505225843e-9
+    ],
+    "max": [
+      0.05999999865889549,
+      0.6050000190734863,
+      0.9554312825202943
+    ],
+    "size": [
+      0.11999999731779099,
+      1.2100000381469727,
+      0.9554312811791899
+    ]
+  }
+}

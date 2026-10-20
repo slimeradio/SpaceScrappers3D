@@ -1,0 +1,186 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-S01",
+  "version": "3.0",
+  "title": "Блок аукциона базы",
+  "catalog_id": "auction-base",
+  "catalog_grid": [
+    1,
+    1
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "TradeRoutingFrame",
+      "part_id": "MA-S01-R3-P01",
+      "version": "3.0",
+      "source": "../../Parts/MA-S01-R3-P01/MA-S01-R3-P01.blend",
+      "parent": "MA-S01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "TransactionCore",
+      "part_id": "MA-S01-R3-P02",
+      "version": "3.0",
+      "source": "../../Parts/MA-S01-R3-P02/MA-S01-R3-P02.blend",
+      "parent": "MA-S01",
+      "translation": [
+        0,
+        -0.18,
+        0.28
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "PortLeft",
+      "part_id": "MA-S01-R3-P03",
+      "version": "3.0",
+      "source": "../../Parts/MA-S01-R3-P03/MA-S01-R3-P03.blend",
+      "parent": "MA-S01",
+      "translation": [
+        -0.58,
+        -0.19,
+        0.29
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        1.5707963267948966
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "PortRight",
+      "part_id": "MA-S01-R3-P03",
+      "version": "3.0",
+      "source": "../../Parts/MA-S01-R3-P03/MA-S01-R3-P03.blend",
+      "parent": "MA-S01",
+      "translation": [
+        0.58,
+        -0.19,
+        0.29
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        -1.5707963267948966
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "PortRear",
+      "part_id": "MA-S01-R3-P03",
+      "version": "3.0",
+      "source": "../../Parts/MA-S01-R3-P03/MA-S01-R3-P03.blend",
+      "parent": "MA-S01",
+      "translation": [
+        0,
+        0.58,
+        0.29
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ServiceCollector",
+      "part_id": "MA-S01-R3-P04",
+      "version": "3.0",
+      "source": "../../Parts/MA-S01-R3-P04/MA-S01-R3-P04.blend",
+      "parent": "MA-S01",
+      "translation": [
+        -0.63,
+        0.48,
+        0.25
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "TradeRoutingFrame",
+      "parent_socket": "core",
+      "child_instance": "TransactionCore",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "TradeRoutingFrame",
+      "parent_socket": "left",
+      "child_instance": "PortLeft",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "TradeRoutingFrame",
+      "parent_socket": "right",
+      "child_instance": "PortRight",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "TradeRoutingFrame",
+      "parent_socket": "rear",
+      "child_instance": "PortRear",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "TradeRoutingFrame",
+      "parent_socket": "service",
+      "child_instance": "ServiceCollector",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Protected low trading-infrastructure routing hub, inward interface throats and offset service collector. Authoring interpretation only; no market rules or functionality invented."
+}

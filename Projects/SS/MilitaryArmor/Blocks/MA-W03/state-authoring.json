@@ -1,0 +1,639 @@
+{
+  "schema": "MilitaryArmor.StateAuthoring/1",
+  "id": "MA-W03",
+  "game_validated": false,
+  "authoring_units": "BU; normalized controls; not game timings",
+  "controls": {
+    "power": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "Electrical availability; independent from retained heat/fill"
+    },
+    "activity": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Actual work/load; zero means idle"
+    },
+    "fault": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Externally supplied fault, not inferred"
+    },
+    "heat": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Retained normalized heat; independent from power"
+    },
+    "cycle_turns": {
+      "default": 0,
+      "min": 0,
+      "max": 100000
+    },
+    "aim_yaw": {
+      "default": 0,
+      "min": -35,
+      "max": 35
+    },
+    "aim_pitch": {
+      "default": 0,
+      "min": -40,
+      "max": 0
+    }
+  },
+  "motion": [
+    {
+      "node": "RotorLeft",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "cycle_turns",
+      "expression": "0.0+t*6.283185307179586"
+    },
+    {
+      "node": "RotorRight",
+      "path": "rotation_euler",
+      "axis": 1,
+      "parameter": "cycle_turns",
+      "expression": "0.0+t*6.283185307179586"
+    },
+    {
+      "node": "Azimuth",
+      "path": "rotation_euler",
+      "axis": 2,
+      "parameter": "aim_yaw",
+      "expression": "0.0+t*0.017453292519943295"
+    },
+    {
+      "node": "Elevation",
+      "path": "rotation_euler",
+      "axis": 0,
+      "parameter": "aim_pitch",
+      "expression": "0.0+t*0.017453292519943295"
+    }
+  ],
+  "materials": [
+    {
+      "object": "Foundation::Dock state index",
+      "slot": 0,
+      "material": "MA-W03::Foundation::Dock state index::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Foundation::Dock state index.001",
+      "slot": 0,
+      "material": "MA-W03::Foundation::Dock state index.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Foundation::Dock state index.002",
+      "slot": 0,
+      "material": "MA-W03::Foundation::Dock state index.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Receiver::Elevation encoder",
+      "slot": 0,
+      "material": "MA-W03::Receiver::Elevation encoder::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Receiver::Fork diagnostic strip",
+      "slot": 0,
+      "material": "MA-W03::Receiver::Fork diagnostic strip::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Receiver::Elevation encoder.001",
+      "slot": 0,
+      "material": "MA-W03::Receiver::Elevation encoder.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Receiver::Fork diagnostic strip.001",
+      "slot": 0,
+      "material": "MA-W03::Receiver::Fork diagnostic strip.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ElevationBridge::Rotor encoding ring",
+      "slot": 0,
+      "material": "MA-W03::ElevationBridge::Rotor encoding ring::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ElevationBridge::Rotor encoding ring.001",
+      "slot": 0,
+      "material": "MA-W03::ElevationBridge::Rotor encoding ring.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "BarrelLeft::Induction blade status insert",
+      "slot": 0,
+      "material": "MA-W03::BarrelLeft::Induction blade status insert::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "BarrelLeft::Induction blade status insert.001",
+      "slot": 0,
+      "material": "MA-W03::BarrelLeft::Induction blade status insert.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "BarrelLeft::Induction blade status insert.002",
+      "slot": 0,
+      "material": "MA-W03::BarrelLeft::Induction blade status insert.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "BarrelLeft::Induction blade status insert.003",
+      "slot": 0,
+      "material": "MA-W03::BarrelLeft::Induction blade status insert.003::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "BarrelLeft::Induction blade status insert.004",
+      "slot": 0,
+      "material": "MA-W03::BarrelLeft::Induction blade status insert.004::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "BarrelLeft::Induction blade status insert.005",
+      "slot": 0,
+      "material": "MA-W03::BarrelLeft::Induction blade status insert.005::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "BarrelRight::Induction blade status insert",
+      "slot": 0,
+      "material": "MA-W03::BarrelRight::Induction blade status insert::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "BarrelRight::Induction blade status insert.001",
+      "slot": 0,
+      "material": "MA-W03::BarrelRight::Induction blade status insert.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "BarrelRight::Induction blade status insert.002",
+      "slot": 0,
+      "material": "MA-W03::BarrelRight::Induction blade status insert.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "BarrelRight::Induction blade status insert.003",
+      "slot": 0,
+      "material": "MA-W03::BarrelRight::Induction blade status insert.003::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "BarrelRight::Induction blade status insert.004",
+      "slot": 0,
+      "material": "MA-W03::BarrelRight::Induction blade status insert.004::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "BarrelRight::Induction blade status insert.005",
+      "slot": 0,
+      "material": "MA-W03::BarrelRight::Induction blade status insert.005::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ServiceCartridge::Cartridge status",
+      "slot": 0,
+      "material": "MA-W03::ServiceCartridge::Cartridge status::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell",
+      "slot": 0,
+      "material": "MA-W03::Lidar::Lidar independent optical cell::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.001",
+      "slot": 0,
+      "material": "MA-W03::Lidar::Lidar independent optical cell.001::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.002",
+      "slot": 0,
+      "material": "MA-W03::Lidar::Lidar independent optical cell.002::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "name": "MA-W03::work_loop",
+      "parameters": [
+        "activity",
+        "cycle_turns"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": true,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W03::start",
+      "parameters": [
+        "activity",
+        "cycle_turns"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W03::stop",
+      "parameters": [
+        "activity",
+        "cycle_turns"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W03::activate",
+      "parameters": [
+        "power",
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W03::deactivate",
+      "parameters": [
+        "activity",
+        "power"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W03::heat_up",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W03::cool_down",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        97
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W03::fire",
+      "parameters": [
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    }
+  ],
+  "events": [
+    {
+      "name": "fire",
+      "frame": 2,
+      "source": "authoring cue; external projectile/beam effect"
+    }
+  ],
+  "presets": {
+    "off": {
+      "power": 0,
+      "activity": 0
+    },
+    "idle": {
+      "power": 1,
+      "activity": 0
+    },
+    "working": {
+      "power": 1,
+      "activity": 1
+    },
+    "hot_off": {
+      "power": 0,
+      "activity": 0,
+      "heat": 1
+    },
+    "cold": {
+      "heat": 0
+    },
+    "hot": {
+      "heat": 1
+    }
+  },
+  "phase_policy": "cycle_turns is integrated phase, not speed. Stop retains phase. NLA cycle repetition must use cyclic extrapolation/REPEAT_OFFSET for spin; never reset turns on start. Clips start from relative phase 0; apply current phase offset when sequencing.",
+  "controller": "MA-W03",
+  "legacy_animation_metadata": {
+    "fps": 24,
+    "frame_range": [
+      1,
+      120
+    ],
+    "channels": [
+      {
+        "node": "RotorLeft",
+        "channel": "rotation_euler",
+        "axis": "Y",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            0
+          ],
+          [
+            30,
+            270
+          ],
+          [
+            60,
+            540
+          ],
+          [
+            90,
+            810
+          ],
+          [
+            120,
+            1080
+          ]
+        ]
+      },
+      {
+        "node": "RotorRight",
+        "channel": "rotation_euler",
+        "axis": "Y",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            0
+          ],
+          [
+            30,
+            270
+          ],
+          [
+            60,
+            540
+          ],
+          [
+            90,
+            810
+          ],
+          [
+            120,
+            1080
+          ]
+        ]
+      },
+      {
+        "node": "Azimuth",
+        "channel": "rotation_euler",
+        "axis": "Z",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            0
+          ],
+          [
+            30,
+            -35
+          ],
+          [
+            60,
+            0
+          ],
+          [
+            90,
+            35
+          ],
+          [
+            120,
+            0
+          ]
+        ]
+      },
+      {
+        "node": "Elevation",
+        "channel": "rotation_euler",
+        "axis": "X",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            0
+          ],
+          [
+            30,
+            -28
+          ],
+          [
+            60,
+            -12
+          ],
+          [
+            90,
+            -40
+          ],
+          [
+            120,
+            0
+          ]
+        ]
+      }
+    ],
+    "demonstration_only": true,
+    "interpolation": "Blender Bezier"
+  }
+}

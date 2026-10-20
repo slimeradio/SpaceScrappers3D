@@ -1,0 +1,77 @@
+{
+  "id": "MA-W08",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 6,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-W08::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W08::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W08::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W08::cool_down",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W08::fire",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [
+    {
+      "node": "Yaw",
+      "parameter": "aim_yaw",
+      "sampled_values": [
+        0.0,
+        3.1415927410125732,
+        6.2831854820251465
+      ],
+      "driver_valid": true
+    }
+  ],
+  "materials": [
+    {
+      "object": "SingleLauncher::Small chamber state index",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "Service::Cartridge status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.001",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.002",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

@@ -1,0 +1,449 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W03-BARREL",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Cyclone: один скорострельный канал",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "profiled-cooling-jacket",
+      "shape": "lathe",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "profile": [
+        [
+          0.099,
+          0.015
+        ],
+        [
+          0.119,
+          0.055
+        ],
+        [
+          0.119,
+          0.17
+        ],
+        [
+          0.092,
+          0.23
+        ],
+        [
+          0.092,
+          0.78
+        ],
+        [
+          0.107,
+          0.84
+        ],
+        [
+          0.107,
+          0.925
+        ],
+        [
+          0.08,
+          0.958
+        ],
+        [
+          0.065,
+          0.958
+        ],
+        [
+          0.065,
+          0.82
+        ],
+        [
+          0.059,
+          0.22
+        ],
+        [
+          0.074,
+          0.015
+        ],
+        [
+          0.099,
+          0.015
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "material": "graphite"
+    },
+    {
+      "id": "white-breech-shroud",
+      "shape": "lathe",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "profile": [
+        [
+          0.121,
+          0.012
+        ],
+        [
+          0.145,
+          0.065
+        ],
+        [
+          0.145,
+          0.145
+        ],
+        [
+          0.123,
+          0.215
+        ],
+        [
+          0.106,
+          0.215
+        ],
+        [
+          0.125,
+          0.14
+        ],
+        [
+          0.125,
+          0.065
+        ],
+        [
+          0.104,
+          0.012
+        ],
+        [
+          0.121,
+          0.012
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "material": "armor"
+    },
+    {
+      "id": "tapered-muzzle-sleeve",
+      "shape": "lathe",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "profile": [
+        [
+          0.112,
+          0.815
+        ],
+        [
+          0.128,
+          0.85
+        ],
+        [
+          0.128,
+          0.92
+        ],
+        [
+          0.103,
+          0.974
+        ],
+        [
+          0.075,
+          0.974
+        ],
+        [
+          0.071,
+          0.946
+        ],
+        [
+          0.089,
+          0.916
+        ],
+        [
+          0.105,
+          0.85
+        ],
+        [
+          0.099,
+          0.815
+        ],
+        [
+          0.112,
+          0.815
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "material": "armor"
+    },
+    {
+      "id": "open-metal-muzzle",
+      "shape": "lathe",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "profile": [
+        [
+          0.103,
+          0.964
+        ],
+        [
+          0.105,
+          0.99
+        ],
+        [
+          0.074,
+          0.99
+        ],
+        [
+          0.074,
+          0.964
+        ],
+        [
+          0.103,
+          0.964
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "material": "edge"
+    },
+    {
+      "id": "recessed-bore-wall",
+      "shape": "lathe",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "profile": [
+        [
+          0.065,
+          0.65
+        ],
+        [
+          0.068,
+          0.974
+        ],
+        [
+          0.06,
+          0.974
+        ],
+        [
+          0.057,
+          0.65
+        ],
+        [
+          0.065,
+          0.65
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "material": "rubber"
+    },
+    {
+      "id": "jacket-rail--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.081,
+        0.51,
+        0.063
+      ],
+      "size": [
+        0.032,
+        0.57,
+        0.046
+      ],
+      "radius": 0.003,
+      "material": "edge"
+    },
+    {
+      "id": "rail-emission--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.083,
+        0.51,
+        0.09
+      ],
+      "size": [
+        0.017,
+        0.43,
+        0.008
+      ],
+      "radius": 0.003,
+      "material": "cyan"
+    },
+    {
+      "id": "jacket-rail-1",
+      "shape": "roundedBox",
+      "position": [
+        0.081,
+        0.51,
+        0.063
+      ],
+      "size": [
+        0.032,
+        0.57,
+        0.046
+      ],
+      "radius": 0.003,
+      "material": "edge"
+    },
+    {
+      "id": "rail-emission-1",
+      "shape": "roundedBox",
+      "position": [
+        0.083,
+        0.51,
+        0.09
+      ],
+      "size": [
+        0.017,
+        0.43,
+        0.008
+      ],
+      "radius": 0.003,
+      "material": "cyan"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; optional SharedTextures via existing viewer box-projection UV",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "rail-emission--1",
+      "geometry": "rail-emission--1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    },
+    {
+      "id": "rail-emission-1",
+      "geometry": "rail-emission-1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible": "CHT-W03-HULL.barrel-L|CHT-W03-HULL.barrel-R",
+      "role": "mechanical",
+      "parentNode": "root"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [
+    {
+      "id": "muzzle",
+      "role": "projectile-muzzle",
+      "parentNode": "root",
+      "position": [
+        0,
+        0.995,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "coordinateSpace": "local"
+    }
+  ],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.15,
+      0,
+      -0.15
+    ],
+    "max": [
+      0.15,
+      0.995,
+      0.15
+    ],
+    "size": [
+      0.3,
+      0.995,
+      0.3
+    ]
+  }
+}

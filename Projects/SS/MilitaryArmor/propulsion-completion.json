@@ -1,0 +1,87 @@
+{
+  "schema": "MilitaryArmor.PropulsionCompletionAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-EF04",
+      "title": "Топливный двигатель 4×6",
+      "version": "1.0",
+      "catalog_id": "fuel-thruster-4x6",
+      "catalog_grid": [
+        4,
+        6
+      ],
+      "source": "Blocks/MA-EF04/MA-EF04.blend",
+      "assembly": "Blocks/MA-EF04/assembly.json",
+      "parts": [
+        "MA-E01-P05",
+        "MA-EF01-P02",
+        "MA-EF04-P01"
+      ],
+      "instance_count": 5,
+      "validation": "Blocks/MA-EF04/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-EF04/Previews/perspective.png",
+        "Blocks/MA-EF04/Previews/top.png",
+        "Blocks/MA-EF04/Previews/top-grayscale.png"
+      ]
+    },
+    {
+      "id": "MA-EI03",
+      "title": "Ионный двигатель 1×2",
+      "version": "2.0",
+      "catalog_id": "ion-thruster-1x2",
+      "catalog_grid": [
+        1,
+        2
+      ],
+      "source": "Blocks/MA-EI03/MA-EI03.blend",
+      "assembly": "Blocks/MA-EI03/assembly.json",
+      "parts": [
+        "MA-E01-P05",
+        "MA-EI03-P01",
+        "MA-EI03-P02"
+      ],
+      "instance_count": 3,
+      "validation": "Blocks/MA-EI03/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-EI03/Previews/perspective.png",
+        "Blocks/MA-EI03/Previews/top.png",
+        "Blocks/MA-EI03/Previews/top-grayscale.png"
+      ]
+    },
+    {
+      "id": "MA-EI04",
+      "title": "Ионный двигатель 4×6",
+      "version": "2.0",
+      "catalog_id": "ion-thruster-4x6",
+      "catalog_grid": [
+        4,
+        6
+      ],
+      "source": "Blocks/MA-EI04/MA-EI04.blend",
+      "assembly": "Blocks/MA-EI04/assembly.json",
+      "parts": [
+        "MA-E01-P05",
+        "MA-EI01-P02",
+        "MA-EI04-P01"
+      ],
+      "instance_count": 6,
+      "validation": "Blocks/MA-EI04/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-EI04/Previews/perspective.png",
+        "Blocks/MA-EI04/Previews/top.png",
+        "Blocks/MA-EI04/Previews/top-grayscale.png"
+      ]
+    }
+  ],
+  "new_part_sources": 4,
+  "fuel_and_ion_catalog_variants_complete": true,
+  "glb_generated": false,
+  "game_validation": false
+}

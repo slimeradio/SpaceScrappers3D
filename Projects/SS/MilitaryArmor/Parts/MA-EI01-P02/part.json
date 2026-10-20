@@ -1,0 +1,304 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-EI01-P02",
+  "version": "2.0",
+  "name": "Shallow broad electric electrode grid with open hexagonal channels",
+  "source": "MA-EI01-P02.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -1.7300000190734863,
+      -0.48249998688697815,
+      -0.8200000524520874
+    ],
+    "max": [
+      1.7300000190734863,
+      0.20000000298023224,
+      0.8200000524520874
+    ]
+  },
+  "materials": [
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Swept side electrode cheek",
+        "Swept side electrode cheek.001"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Optic",
+      "surfaces": [
+        "Field diagnostic index",
+        "Field diagnostic index.001"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25,
+        1.0
+      ],
+      "metalness": 0.6499999761581421,
+      "roughness": 0.18000000715255737,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Hexagonal electrode channel",
+        "Hexagonal electrode channel.001",
+        "Hexagonal electrode channel.002",
+        "Hexagonal electrode channel.003",
+        "Hexagonal electrode channel.004",
+        "Hexagonal electrode channel.005",
+        "Hexagonal electrode channel.006",
+        "Hexagonal electrode channel.007",
+        "Hexagonal electrode channel.008",
+        "Hexagonal electrode channel.009",
+        "Hexagonal electrode channel.010",
+        "Hexagonal electrode channel.011",
+        "Hexagonal electrode channel.012",
+        "Hexagonal electrode channel.013",
+        "Hexagonal electrode channel.014",
+        "Hexagonal electrode channel.015",
+        "Hexagonal electrode channel.016",
+        "Hexagonal electrode channel.017",
+        "Hexagonal electrode channel.018",
+        "Hexagonal electrode channel.019",
+        "Hexagonal electrode channel.020",
+        "Hexagonal electrode channel.021",
+        "Hexagonal electrode channel.022",
+        "Hexagonal electrode channel.023",
+        "Hexagonal electrode channel.024",
+        "Hexagonal electrode channel.025",
+        "Hexagonal electrode channel.026",
+        "Hexagonal electrode channel.027",
+        "Hexagonal electrode channel.028",
+        "Hexagonal electrode channel.029",
+        "Hexagonal electrode channel.030",
+        "Hexagonal electrode channel.031",
+        "Hexagonal electrode channel.032",
+        "Hexagonal electrode channel.033",
+        "Hexagonal electrode channel.034",
+        "Hexagonal electrode channel.035"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Straight aperture frame",
+        "Straight aperture frame.001",
+        "Recessed ceramic cell isolator",
+        "Recessed ceramic cell isolator.001",
+        "Recessed ceramic cell isolator.002",
+        "Recessed ceramic cell isolator.003",
+        "Recessed ceramic cell isolator.004",
+        "Recessed ceramic cell isolator.005",
+        "Recessed ceramic cell isolator.006",
+        "Recessed ceramic cell isolator.007",
+        "Recessed ceramic cell isolator.008",
+        "Recessed ceramic cell isolator.009",
+        "Recessed ceramic cell isolator.010",
+        "Recessed ceramic cell isolator.011",
+        "Recessed ceramic cell isolator.012",
+        "Recessed ceramic cell isolator.013",
+        "Recessed ceramic cell isolator.014",
+        "Recessed ceramic cell isolator.015",
+        "Recessed ceramic cell isolator.016",
+        "Recessed ceramic cell isolator.017",
+        "Recessed ceramic cell isolator.018",
+        "Recessed ceramic cell isolator.019",
+        "Recessed ceramic cell isolator.020",
+        "Recessed ceramic cell isolator.021",
+        "Recessed ceramic cell isolator.022",
+        "Recessed ceramic cell isolator.023",
+        "Recessed ceramic cell isolator.024",
+        "Recessed ceramic cell isolator.025",
+        "Recessed ceramic cell isolator.026",
+        "Recessed ceramic cell isolator.027",
+        "Recessed ceramic cell isolator.028",
+        "Recessed ceramic cell isolator.029",
+        "Recessed ceramic cell isolator.030",
+        "Recessed ceramic cell isolator.031",
+        "Recessed ceramic cell isolator.032",
+        "Recessed ceramic cell isolator.033",
+        "Recessed ceramic cell isolator.034",
+        "Recessed ceramic cell isolator.035"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Optic",
+      "regions": [
+        "Field diagnostic index",
+        "Field diagnostic index.001"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25
+      ],
+      "strength": 0.699999988079071,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "aperture",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.ion.aperture"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "thrust",
+      "role": "thrust",
+      "parent": "part",
+      "node": "point.thrust",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "exhaust",
+      "role": "exhaust",
+      "parent": "part",
+      "node": "point.exhaust",
+      "position": [
+        0,
+        -0.55,
+        0
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "attachment_areas": [
+    {
+      "id": "root-seat",
+      "parent": "part",
+      "role": "aperture",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.1,
+        0.1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.ion.aperture"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Static flat electrode grid; open -Y channels. No plume, animation or gameplay parameters. Shallow cells are not a bell nozzle."
+}

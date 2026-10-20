@@ -1,0 +1,69 @@
+{
+  "id": "MA-M02",
+  "passed": true,
+  "scale": 0.48,
+  "translation": [
+    0.0,
+    0.0,
+    0.075
+  ],
+  "body_instances": [
+    "Chassis",
+    "OpticCell0",
+    "OpticCell1",
+    "OpticCell2",
+    "Aperture",
+    "Cooling0",
+    "Cooling1",
+    "Service"
+  ],
+  "body_bounds_cells": [
+    [
+      -0.42,
+      -1.3320000457763672,
+      0.075
+    ],
+    [
+      0.42,
+      1.3320000457763672,
+      0.8238000297546386
+    ]
+  ],
+  "floor_polygon": [
+    [
+      -0.5,
+      -1.5
+    ],
+    [
+      0.5,
+      -1.5
+    ],
+    [
+      0.5,
+      1.5
+    ],
+    [
+      -0.5,
+      1.5
+    ]
+  ],
+  "geometry": {
+    "objects": 91,
+    "triangles": 22388,
+    "degenerate_triangles": 0,
+    "nonmanifold_edges": 0,
+    "bounds_bu": [
+      [
+        -0.5,
+        -1.5,
+        0.0
+      ],
+      [
+        0.5,
+        1.5,
+        0.8238000273704529
+      ]
+    ]
+  },
+  "baseline_nonmanifold_edges": 0
+}

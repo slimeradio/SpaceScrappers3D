@@ -1,0 +1,400 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-R01-P01",
+  "version": "1.0",
+  "name": "Реактор — диагональное силовое основание",
+  "source": "MA-R01-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -1.7899999618530273,
+      -1.7899999618530273,
+      0.0
+    ],
+    "max": [
+      1.7899999618530273,
+      1.7899999618530273,
+      0.5899999737739563
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Central foundation"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Swept corner structural shoulder",
+        "Swept corner structural shoulder.001",
+        "Swept corner structural shoulder.002",
+        "Swept corner structural shoulder.003"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Graphite lower interface",
+        "Inset edge coupling",
+        "Inset edge coupling.001",
+        "Inset edge coupling.002",
+        "Inset edge coupling.003"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Octagonal load carrier"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "hull",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "role": "hull",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.hull"
+      ],
+      "restrictions": "full-pose alignment; unit scale only",
+      "parent": null,
+      "node": "socket.hull"
+    },
+    {
+      "id": "core",
+      "position": [
+        0,
+        0,
+        0.51
+      ],
+      "role": "core",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.core"
+      ],
+      "restrictions": "full-pose alignment; unit scale only",
+      "parent": null,
+      "node": "socket.core"
+    },
+    {
+      "id": "screen0",
+      "position": [
+        0.0,
+        -1.05,
+        0.42
+      ],
+      "role": "screen",
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.screen"
+      ],
+      "restrictions": "full-pose alignment; unit scale only",
+      "parent": null,
+      "node": "socket.screen0"
+    },
+    {
+      "id": "thermal0",
+      "position": [
+        0.0,
+        -1.2,
+        0.37
+      ],
+      "role": "thermal",
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.thermal"
+      ],
+      "restrictions": "full-pose alignment; unit scale only",
+      "parent": null,
+      "node": "socket.thermal0"
+    },
+    {
+      "id": "screen1",
+      "position": [
+        1.05,
+        -6.429395695523605e-17,
+        0.42
+      ],
+      "role": "screen",
+      "forward": [
+        1.0,
+        -6.123233995736766e-17,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.screen"
+      ],
+      "restrictions": "full-pose alignment; unit scale only",
+      "parent": null,
+      "node": "socket.screen1"
+    },
+    {
+      "id": "thermal1",
+      "position": [
+        1.2,
+        -7.347880794884119e-17,
+        0.37
+      ],
+      "role": "thermal",
+      "forward": [
+        1.0,
+        -6.123233995736766e-17,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.thermal"
+      ],
+      "restrictions": "full-pose alignment; unit scale only",
+      "parent": null,
+      "node": "socket.thermal1"
+    },
+    {
+      "id": "screen2",
+      "position": [
+        1.285879139104721e-16,
+        1.05,
+        0.42
+      ],
+      "role": "screen",
+      "forward": [
+        1.2246467991473532e-16,
+        1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.screen"
+      ],
+      "restrictions": "full-pose alignment; unit scale only",
+      "parent": null,
+      "node": "socket.screen2"
+    },
+    {
+      "id": "thermal2",
+      "position": [
+        1.4695761589768238e-16,
+        1.2,
+        0.37
+      ],
+      "role": "thermal",
+      "forward": [
+        1.2246467991473532e-16,
+        1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.thermal"
+      ],
+      "restrictions": "full-pose alignment; unit scale only",
+      "parent": null,
+      "node": "socket.thermal2"
+    },
+    {
+      "id": "screen3",
+      "position": [
+        -1.05,
+        1.9288187086570813e-16,
+        0.42
+      ],
+      "role": "screen",
+      "forward": [
+        -1.0,
+        1.8369701987210297e-16,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.screen"
+      ],
+      "restrictions": "full-pose alignment; unit scale only",
+      "parent": null,
+      "node": "socket.screen3"
+    },
+    {
+      "id": "thermal3",
+      "position": [
+        -1.2,
+        2.2043642384652356e-16,
+        0.37
+      ],
+      "role": "thermal",
+      "forward": [
+        -1.0,
+        1.8369701987210297e-16,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.thermal"
+      ],
+      "restrictions": "full-pose alignment; unit scale only",
+      "parent": null,
+      "node": "socket.thermal3"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-plane",
+      "role": "hull",
+      "shape": "logical-plane",
+      "dimensions": [
+        0.12,
+        0.12
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": null,
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.reactor.hull"
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Four rotated modular sectors. Foundation is not a physical metre/cell conversion."
+}

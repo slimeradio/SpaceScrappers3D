@@ -1,0 +1,306 @@
+{
+  "schema": "cht-authoring-assembly/1",
+  "id": "CHT-T01",
+  "version": "1.0.0",
+  "catalogId": "fleet-laser-twin",
+  "catalogReference": "../../../../Catalog/blocks.csv",
+  "catalogGrid": [
+    2,
+    2
+  ],
+  "catalogRotationPivot": [
+    1,
+    1
+  ],
+  "units": "model-unit",
+  "scaleNote": "No established metres per cell. XY catalog offsets preserved in visual rest pose except muzzle forward offset +0.02 model-unit for lens cap.",
+  "up": "+Z",
+  "forward": "+Y",
+  "instances": [
+    {
+      "id": "foundation",
+      "partId": "CHT-P01",
+      "partVersion": "1.0.0",
+      "source": "../../../Parts/CHT-P01/Versions/1.0.0.json",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": null
+    },
+    {
+      "id": "yaw",
+      "partId": "CHT-P02",
+      "partVersion": "1.0.0",
+      "source": "../../../Parts/CHT-P02/Versions/1.0.0.json",
+      "parent": "foundation",
+      "translation": [
+        0,
+        0,
+        0.23
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "bearing",
+        "childSocket": "base"
+      },
+      "joint": {
+        "type": "revolute",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "rangeDegrees": [
+          0,
+          360
+        ],
+        "continuous": true,
+        "restDegrees": 0
+      }
+    },
+    {
+      "id": "head",
+      "partId": "CHT-P03",
+      "partVersion": "1.0.0",
+      "source": "../../../Parts/CHT-P03/Versions/1.0.0.json",
+      "parent": "yaw",
+      "translation": [
+        0,
+        0,
+        0.14
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "head",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "cheek-L",
+      "partId": "CHT-P04",
+      "partVersion": "1.0.0",
+      "source": "../../../Parts/CHT-P04/Versions/1.0.0.json",
+      "parent": "head",
+      "translation": [
+        -0.565,
+        -0.24,
+        0.22
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "cheek-L",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "cheek-R",
+      "partId": "CHT-P04",
+      "partVersion": "1.0.0",
+      "source": "../../../Parts/CHT-P04/Versions/1.0.0.json",
+      "parent": "head",
+      "translation": [
+        0.565,
+        -0.24,
+        0.22
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "cheek-R",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "emitter-L",
+      "partId": "CHT-P05",
+      "partVersion": "1.0.0",
+      "source": "../../../Parts/CHT-P05/Versions/1.0.0.json",
+      "parent": "head",
+      "translation": [
+        -0.254,
+        0.08,
+        0.23
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "emitter-L",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "emitter-R",
+      "partId": "CHT-P05",
+      "partVersion": "1.0.0",
+      "source": "../../../Parts/CHT-P05/Versions/1.0.0.json",
+      "parent": "head",
+      "translation": [
+        0.254,
+        0.08,
+        0.23
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "emitter-R",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "sensor",
+      "partId": "CHT-P06",
+      "partVersion": "1.0.0",
+      "source": "../../../Parts/CHT-P06/Versions/1.0.0.json",
+      "parent": "head",
+      "translation": [
+        0,
+        0.08,
+        0.39
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "sensor",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "service",
+      "partId": "CHT-P07",
+      "partVersion": "1.0.0",
+      "source": "../../../Parts/CHT-P07/Versions/1.0.0.json",
+      "parent": "head",
+      "translation": [
+        0,
+        -0.58,
+        0.42
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "service",
+        "childSocket": "base"
+      }
+    }
+  ],
+  "animations": [
+    {
+      "id": "yaw-demo",
+      "node": "yaw",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "rangeDegrees": [
+        0,
+        360
+      ],
+      "durationSeconds": 3,
+      "loop": true,
+      "interpolation": "LINEAR",
+      "gameplaySource": "catalog RotateSpeedDegreesPerSecond=120",
+      "restDegrees": 0
+    }
+  ],
+  "catalogSnapshot": {
+    "ID": "fleet-laser-twin",
+    "Название_пояснительное": "Лазер Fleet twin",
+    "Тип_XML": "Turret",
+    "Ширина_клеток": "2",
+    "Высота_клеток": "2",
+    "Размер_сетки_без_поворота": "2x2",
+    "Описание_и_назначение": "Наносит урон мгновенным импульсным лучом. Поворотная установка с собственной дугой наведения. Урон из Weapon=200; дальность=150.",
+    "Прочность_MaxHealth": "3960",
+    "Масса_BlockMass_единицы_игры": "8",
+    "Особенности_и_ограничения": "Урон указан из XML Weapon без пересчёта в DPS. Итоговый залп зависит от числа стволов, ProjectilesPerShot, интервалов, магазина и нагрева. Энергия и боеприпасы заданы отдельно.",
+    "Параметры_механики_XML": "<Heat Capacity=\"168\" Input=\"0\" Output=\"12\" EnergyFraction=\"0.8\" Background=\"0\" WorkHeat=\"0\" Radiator=\"0\" Shutdown=\"0.9\" Resume=\"0.5\" DamagePerSecond=\"0\" Action=\"Disable\" />",
+    "Ресурсы_XML_1_энергия_МДж_2_топливо": "<Resource StoreInStorage=\"true\" Id=\"1\" Capacity=\"100\" WorkingThreshold=\"1\" TargetStorage=\"100\" InitialStorage=\"100\" MaxInput=\"50\" UsePerShot=\"7\" Priority=\"30\" />",
+    "Оружие_XML": "<Weapon Name=\"fleet-laser-twin-weapon\" ProjectileKind=\"Beam\" DamagePerProjectile=\"200\" ProjectileSpeed=\"300\" MaxRange=\"150\" HitReaction=\"Damage\" AmmoItemId=\"31\" MagazineCharge=\"10\"><Barrels><Barrel Ref=\"fleet-laser-twin-barrel-0\" /><Barrel Ref=\"fleet-laser-twin-barrel-1\" /></Barrels></Weapon>",
+    "Наведение_XML": "<Turret Name=\"fleet-laser-twin-mount\" FiringArcDegrees=\"360\" RotateSpeedDegreesPerSecond=\"120\"><RotationPivot X=\"1\" Y=\"1\" /></Turret>",
+    "Стволы_XML": "<Barrel Name=\"fleet-laser-twin-barrel-0\" MaxHeat=\"100\" HeatPerShot=\"7\" HeatPerSeconds=\"8\" ShootIntervalInSeconds=\"1.1\" ReloadIntervalInSeconds=\"1.5\" MaxMagazineCapacity=\"10\" ProjectilesPerShot=\"1\" ShotSpread=\"0\"><ShootPosition X=\"-0.254\" Y=\"1.55\" /></Barrel> <Barrel Name=\"fleet-laser-twin-barrel-1\" MaxHeat=\"100\" HeatPerShot=\"7\" HeatPerSeconds=\"8\" ShootIntervalInSeconds=\"1.1\" ReloadIntervalInSeconds=\"1.5\" MaxMagazineCapacity=\"10\" ProjectilesPerShot=\"1\" ShotSpread=\"0\"><ShootPosition X=\"0.254\" Y=\"1.55\" /></Barrel>",
+    "Источник_от_корня_проекта": "Assets/Definitions/FleetWeapons/fleet-laser-twin.definition.xml",
+    "Основание_описания": "Пояснение по текущим XML и исходному коду; название пояснительное, не локализованное имя UI. Размер — Size в клетках до поворота, не габарит рисунка или коллайдера. Игровой запуск не проверялся.",
+    "Дата_среза": "2026-10-15"
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-B01-P01",
+  "version": "1.0",
+  "name": "Battery — recessed structural cassette",
+  "source": "MA-B01-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -1.9500000476837158,
+      -1.9500000476837158,
+      0.0
+    ],
+    "max": [
+      1.9500000476837158,
+      1.9500000476837158,
+      0.8399999737739563
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Longitudinal enclosed power spine",
+        "Central service bridge"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Graphite hull interface"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Titanium load deck"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "hull",
+      "role": "hull",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.hull"
+      ],
+      "restrictions": "unit scale; full pose alignment"
+    },
+    {
+      "id": "cell0",
+      "role": "cell",
+      "position": [
+        -0.81,
+        -0.82,
+        0.32
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.cell"
+      ],
+      "restrictions": "unit scale; full pose alignment"
+    },
+    {
+      "id": "cell1",
+      "role": "cell",
+      "position": [
+        0.81,
+        -0.82,
+        0.32
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.cell"
+      ],
+      "restrictions": "unit scale; full pose alignment"
+    },
+    {
+      "id": "cell2",
+      "role": "cell",
+      "position": [
+        -0.81,
+        0.82,
+        0.32
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.cell"
+      ],
+      "restrictions": "unit scale; full pose alignment"
+    },
+    {
+      "id": "cell3",
+      "role": "cell",
+      "position": [
+        0.81,
+        0.82,
+        0.32
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.cell"
+      ],
+      "restrictions": "unit scale; full pose alignment"
+    },
+    {
+      "id": "sideR",
+      "role": "shoulder",
+      "position": [
+        1.67,
+        0,
+        0.32
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.shoulder"
+      ],
+      "restrictions": "unit scale; full pose alignment"
+    },
+    {
+      "id": "sideL",
+      "role": "shoulder",
+      "position": [
+        -1.67,
+        0,
+        0.32
+      ],
+      "forward": [
+        1.2246467991473532E-16,
+        1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.shoulder"
+      ],
+      "restrictions": "unit scale; full pose alignment"
+    },
+    {
+      "id": "busF",
+      "role": "bus",
+      "position": [
+        0,
+        -1.65,
+        0.32
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.bus"
+      ],
+      "restrictions": "unit scale; full pose alignment"
+    },
+    {
+      "id": "busB",
+      "role": "bus",
+      "position": [
+        0,
+        1.65,
+        0.32
+      ],
+      "forward": [
+        1.2246467991473532E-16,
+        1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.bus"
+      ],
+      "restrictions": "unit scale; full pose alignment"
+    },
+    {
+      "id": "service",
+      "role": "accessory",
+      "position": [
+        0,
+        0,
+        0.84
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.accessory",
+        "MilitaryArmor.service-cartridge.v1"
+      ],
+      "restrictions": "unit scale; full pose alignment"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-plane",
+      "shape": "logical-point-plane",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0.0,
+        -1.0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale only; no visible mounting geometry implied"
+    },
+    {
+      "position": [
+        0,
+        0,
+        0.84
+      ],
+      "compatibility": [
+        "MilitaryArmor.service-cartridge.v1"
+      ],
+      "dimensions": [
+        0.74,
+        0.6
+      ],
+      "shape": "logical-plane",
+      "id": "service-cartridge-seat",
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale only; matches service bottom socket",
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Closed authoring cassette; sockets are logical interfaces. No new energy mechanics."
+}

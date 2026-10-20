@@ -1,0 +1,411 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-P06",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Оптический визир",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "sensor-foot",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.02
+      ],
+      "outline": [
+        [
+          -0.05500000000000001,
+          -0.09
+        ],
+        [
+          0.05500000000000001,
+          -0.09
+        ],
+        [
+          0.085,
+          -0.06
+        ],
+        [
+          0.085,
+          0.06
+        ],
+        [
+          0.05500000000000001,
+          0.09
+        ],
+        [
+          -0.05500000000000001,
+          0.09
+        ],
+        [
+          -0.085,
+          0.06
+        ],
+        [
+          -0.085,
+          -0.06
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.02,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.0096,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0064,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.02,
+          "scale": [
+            0.9,
+            0.9
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "angled-hood",
+      "shape": "loft",
+      "position": [
+        0,
+        0.015,
+        0.086
+      ],
+      "outline": [
+        [
+          -0.05,
+          -0.12
+        ],
+        [
+          0.05,
+          -0.12
+        ],
+        [
+          0.095,
+          -0.075
+        ],
+        [
+          0.095,
+          0.075
+        ],
+        [
+          0.05,
+          0.12
+        ],
+        [
+          -0.05,
+          0.12
+        ],
+        [
+          -0.095,
+          0.075
+        ],
+        [
+          -0.095,
+          -0.075
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.06,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.0288,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0192,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.06,
+          "scale": [
+            0.64,
+            0.64
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "optical-recess",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.136,
+        0.081
+      ],
+      "size": [
+        0.143,
+        0.012,
+        0.065
+      ],
+      "radius": 0.002,
+      "material": "rubber"
+    },
+    {
+      "id": "main-optic",
+      "shape": "roundedBox",
+      "position": [
+        -0.027,
+        0.144,
+        0.083
+      ],
+      "size": [
+        0.058,
+        0.005,
+        0.023
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "range-optic",
+      "shape": "roundedBox",
+      "position": [
+        0.047,
+        0.144,
+        0.083
+      ],
+      "size": [
+        0.018,
+        0.005,
+        0.023
+      ],
+      "radius": 0.002,
+      "material": "glass"
+    },
+    {
+      "id": "roof-fin",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.035,
+        0.17
+      ],
+      "outline": [
+        [
+          -0.008500000000000002,
+          -0.0575
+        ],
+        [
+          0.008500000000000002,
+          -0.0575
+        ],
+        [
+          0.0175,
+          -0.0485
+        ],
+        [
+          0.0175,
+          0.0485
+        ],
+        [
+          0.008500000000000002,
+          0.0575
+        ],
+        [
+          -0.008500000000000002,
+          0.0575
+        ],
+        [
+          -0.0175,
+          0.0485
+        ],
+        [
+          -0.0175,
+          -0.0485
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.04,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.0192,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.0128,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.04,
+          "scale": [
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "fin-tip",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.035,
+        0.213
+      ],
+      "size": [
+        0.015,
+        0.055,
+        0.007
+      ],
+      "radius": 0.001,
+      "material": "cyan"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "glass",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "main-optic",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    },
+    {
+      "id": "range-optic",
+      "material": "glass",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    },
+    {
+      "id": "fin-tip",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "sensor-in",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P03.sensor"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.095,
+      -0.105,
+      0.0
+    ],
+    "max": [
+      0.095,
+      0.1465,
+      0.2165
+    ],
+    "size": [
+      0.19,
+      0.2515,
+      0.2165
+    ]
+  }
+}

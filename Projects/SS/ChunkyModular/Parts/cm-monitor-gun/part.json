@@ -1,0 +1,147 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-monitor-gun",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-monitor-gun.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "sockets": [
+    {
+      "id": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "mount",
+      "space": "local"
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "muzzle",
+      "position": [
+        0,
+        -4.61,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "projectile-origin",
+      "space": "local"
+    }
+  ],
+  "mount_regions": [],
+  "animations": [
+    {
+      "id": "recoil",
+      "node": "root",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "range": [
+        0,
+        0.3
+      ],
+      "units": "design_unit"
+    }
+  ],
+  "animation_tracks": [],
+  "materials": [
+    "CM.graphite",
+    "CM.steel"
+  ],
+  "images": {
+    "graphite_basecolor": [
+      768,
+      768
+    ],
+    "graphite_roughness": [
+      768,
+      768
+    ],
+    "graphite_metallic": [
+      768,
+      768
+    ],
+    "graphite_normal": [
+      768,
+      768
+    ],
+    "steel_basecolor": [
+      768,
+      768
+    ],
+    "steel_roughness": [
+      768,
+      768
+    ],
+    "steel_metallic": [
+      768,
+      768
+    ],
+    "steel_normal": [
+      768,
+      768
+    ]
+  },
+  "material_library": "../../Materials/CM-T01/materials.json",
+  "scale_policy": "positive uniform instance scaling",
+  "bounds": {
+    "min": [
+      -0.3700000047683716,
+      -4.605000019073486,
+      -0.37000003457069397
+    ],
+    "max": [
+      0.3700000047683716,
+      0.5699999928474426,
+      0.37000003457069397
+    ],
+    "dimensions": [
+      0.7400000095367432,
+      5.175000190734863,
+      0.7400000691413879
+    ]
+  },
+  "emissive_regions": [],
+  "logical_only": "sockets and regions are invisible metadata, not physical fastening geometry"
+}

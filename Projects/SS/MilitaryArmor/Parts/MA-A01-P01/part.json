@@ -1,0 +1,136 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-A01-P01",
+  "version": "1.0",
+  "name": "Faceted repeatable armor 1x1",
+  "source": "MA-A01-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.5,
+      -0.5,
+      0.0
+    ],
+    "max": [
+      0.5,
+      0.5,
+      0.2800000011920929
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "MA-A01-P01.shell"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "MA-A01-P01.shell"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "armor-structural-mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "MA-A01-P01.shell",
+      "compatibility": [
+        "MilitaryArmor.armor.cell"
+      ],
+      "restrictions": "unit scale; align catalog XY boundary"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "structural-bottom",
+      "role": "grid-interface",
+      "parent": "MA-A01-P01.shell",
+      "shape": "rectangle",
+      "size": [
+        1,
+        1
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "allowed_rotations_degrees": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "compatibility": [
+        "MilitaryArmor.armor.cell"
+      ],
+      "restrictions": "Logical catalog footprint only; no physical scale conversion."
+    }
+  ],
+  "animations": [],
+  "notes": "Exact rectangular structural perimeter z=0..0.16. Broad upper chamfers and a recessed quiet panel. No emission, animations or file textures."
+}

@@ -1,0 +1,476 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-E02",
+  "version": "1.0+states1",
+  "title": "Малый тройной двигатель",
+  "catalog_id": "thruster-small-3way",
+  "catalog_grid": [
+    3,
+    2
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "FuelManifold",
+      "part_id": "MA-E02-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-E02-P01/MA-E02-P01.blend",
+      "parent": "MA-E02",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Chamber0",
+      "part_id": "MA-E02-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-E02-P02/MA-E02-P02.blend",
+      "parent": "MA-E02",
+      "translation": [
+        -1,
+        -0.17,
+        0.46
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Nozzle0",
+      "part_id": "MA-E02-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-E02-P03/MA-E02-P03.blend",
+      "parent": "MA-E02",
+      "translation": [
+        -1,
+        -0.59,
+        0.46
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Chamber1",
+      "part_id": "MA-E02-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-E02-P02/MA-E02-P02.blend",
+      "parent": "MA-E02",
+      "translation": [
+        0,
+        -0.17,
+        0.46
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Nozzle1",
+      "part_id": "MA-E02-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-E02-P03/MA-E02-P03.blend",
+      "parent": "MA-E02",
+      "translation": [
+        0,
+        -0.59,
+        0.46
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Chamber2",
+      "part_id": "MA-E02-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-E02-P02/MA-E02-P02.blend",
+      "parent": "MA-E02",
+      "translation": [
+        1,
+        -0.17,
+        0.46
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Nozzle2",
+      "part_id": "MA-E02-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-E02-P03/MA-E02-P03.blend",
+      "parent": "MA-E02",
+      "translation": [
+        1,
+        -0.59,
+        0.46
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "part_id": "MA-E01-P05",
+      "version": "1.0",
+      "source": "../../Parts/MA-E01-P05/MA-E01-P05.blend",
+      "parent": "MA-E02",
+      "translation": [
+        0,
+        0.6,
+        0.63
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "MA-E02",
+      "parent": null,
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "FuelManifold",
+      "parent": "MA-E02",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Chamber0",
+      "parent": "MA-E02",
+      "translation": [
+        -1.0,
+        -0.17000000178813934,
+        0.46000000834465027
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Nozzle0",
+      "parent": "MA-E02",
+      "translation": [
+        -1.0,
+        -0.5899999737739563,
+        0.46000000834465027
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Chamber1",
+      "parent": "MA-E02",
+      "translation": [
+        0.0,
+        -0.17000000178813934,
+        0.46000000834465027
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Nozzle1",
+      "parent": "MA-E02",
+      "translation": [
+        0.0,
+        -0.5899999737739563,
+        0.46000000834465027
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Chamber2",
+      "parent": "MA-E02",
+      "translation": [
+        1.0,
+        -0.17000000178813934,
+        0.46000000834465027
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "Nozzle2",
+      "parent": "MA-E02",
+      "translation": [
+        1.0,
+        -0.5899999737739563,
+        0.46000000834465027
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "parent": "MA-E02",
+      "translation": [
+        0.0,
+        0.6000000238418579,
+        0.6299999952316284
+      ],
+      "rotation_euler_xyz": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "animations": {
+    "controller": "MA-E02",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      },
+      "thrust_0": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Independent nozzle 0 output"
+      },
+      "thrust_1": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Independent nozzle 1 output"
+      },
+      "thrust_2": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Independent nozzle 2 output"
+      }
+    },
+    "channels": [],
+    "clips": [
+      {
+        "name": "MA-E02::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-E02::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-E02::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-E02::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [
+    "Exports/MA-E02.glb"
+  ],
+  "notes": "Three independent, parallel +Y thrust points. Three -Y exhaust points. 3way does not mean three different directions. Static source and viewer asset.",
+  "state_authoring": "state-authoring.json"
+}

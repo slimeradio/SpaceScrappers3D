@@ -1,0 +1,629 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-B01-R2-P01",
+  "version": "2.0",
+  "name": "Раздельные силовые опоры батареи",
+  "source": "MA-B01-R2-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -1.8600000143051147,
+      -1.6200000047683716,
+      0.0
+    ],
+    "max": [
+      1.8600000143051147,
+      1.6200000047683716,
+      0.25999999046325684
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Narrow foundation beam",
+        "Narrow foundation beam.001"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Transverse tie",
+        "Transverse tie.001"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "MilitaryArmor.battery.hull",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.hull"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "blade0",
+      "role": "MilitaryArmor.battery.blade",
+      "parent": "part",
+      "position": [
+        -1.38,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "blade1",
+      "role": "MilitaryArmor.battery.blade",
+      "parent": "part",
+      "position": [
+        -0.92,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "blade2",
+      "role": "MilitaryArmor.battery.blade",
+      "parent": "part",
+      "position": [
+        -0.46,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "blade3",
+      "role": "MilitaryArmor.battery.blade",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "blade4",
+      "role": "MilitaryArmor.battery.blade",
+      "parent": "part",
+      "position": [
+        0.46,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "blade5",
+      "role": "MilitaryArmor.battery.blade",
+      "parent": "part",
+      "position": [
+        0.92,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "blade6",
+      "role": "MilitaryArmor.battery.blade",
+      "parent": "part",
+      "position": [
+        1.38,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "front",
+      "role": "MilitaryArmor.battery.bus",
+      "parent": "part",
+      "position": [
+        0,
+        -1.51,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.bus"
+      ],
+      "restrictions": "unit scale; full pose"
+    },
+    {
+      "id": "rear",
+      "role": "MilitaryArmor.battery.bus",
+      "parent": "part",
+      "position": [
+        0,
+        1.51,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.bus"
+      ],
+      "restrictions": "unit scale; full pose"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.hull"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "blade0-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        -1.38,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "blade1-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        -0.92,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "blade2-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        -0.46,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "blade3-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "blade4-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0.46,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "blade5-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0.92,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "blade6-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        1.38,
+        0,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.blade"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "front-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        -1.51,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.bus"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    },
+    {
+      "id": "rear-area",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.01,
+        0.01
+      ],
+      "parent": "part",
+      "position": [
+        0,
+        1.51,
+        0.26
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.battery.bus"
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "restrictions": "unit scale, exact full socket pose"
+    }
+  ],
+  "animations": [],
+  "notes": "Functional identity redesign 2.0; static editable part, no gameplay mechanics, procedural PBR; no UV/file texture dependency."
+}

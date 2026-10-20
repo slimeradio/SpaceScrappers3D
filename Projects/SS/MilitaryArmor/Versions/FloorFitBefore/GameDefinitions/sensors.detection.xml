@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Detection Horizon="5" Probability="0.5" Lifetime="60" InitialUncertainty="10" UncertaintyPerSecond="20" HullLeak="0.001" AntennaInterval="1" CellSize="4000">
+  <Sensor Kind="Visual" Guaranteed="100" Search="750" Tracking="3000" Maximum="12000" Interval="0.5" Reference="10" Power="1" SectorDegrees="360" RotationDegreesPerSecond="0" />
+  <Sensor Kind="ActiveEcho" Guaranteed="250" Search="3000" Tracking="6000" Maximum="24000" Interval="1" Reference="10" Power="1" SectorDegrees="30" RotationDegreesPerSecond="45" />
+  <Sensor Kind="Thermal" Guaranteed="100" Search="2000" Tracking="5000" Maximum="20000" Interval="0.5" Reference="1" Power="1" SectorDegrees="360" RotationDegreesPerSecond="0" />
+  <Sensor Kind="PassiveEcho" Guaranteed="0" Search="12000" Tracking="12000" Maximum="48000" Interval="0.5" Reference="1" Power="1" SectorDegrees="360" RotationDegreesPerSecond="0" />
+  <Attenuation>
+    <Point Distance="0" Rate="16" />
+    <Point Distance="0.5" Rate="4" />
+    <Point Distance="1" Rate="1" />
+    <Point Distance="2" Rate="0.25" />
+    <Point Distance="4" Rate="0.0625" />
+    <Point Distance="16" Rate="0.003906" />
+  </Attenuation>
+</Detection>

@@ -1,0 +1,104 @@
+{
+  "schema": "MilitaryArmor.WeaponContinuationAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-W10",
+      "title": "Малая импульсная лазерная турель",
+      "version": "1.0",
+      "catalog_id": "laser-blaster-small-turret",
+      "catalog_grid": [
+        1,
+        3
+      ],
+      "source": "Blocks/MA-W10/MA-W10.blend",
+      "assembly": "Blocks/MA-W10/assembly.json",
+      "parts": [
+        "MA-P06",
+        "MA-W02-P01",
+        "MA-W02-P04",
+        "MA-W10-P01",
+        "MA-W10-P02",
+        "MA-W10-P03"
+      ],
+      "instance_count": 6,
+      "validation": "Blocks/MA-W10/validation.json",
+      "checks_passed": true,
+      "game_validation": false,
+      "previews": [
+        "Blocks/MA-W10/Previews/perspective.png",
+        "Blocks/MA-W10/Previews/top-grayscale.png",
+        "Blocks/MA-W10/Previews/top.png"
+      ]
+    },
+    {
+      "id": "MA-W11",
+      "title": "Курсовая ракетная установка",
+      "version": "1.0",
+      "catalog_id": "rocket-launcher",
+      "catalog_grid": [
+        1,
+        3
+      ],
+      "source": "Blocks/MA-W11/MA-W11.blend",
+      "assembly": "Blocks/MA-W11/assembly.json",
+      "parts": [
+        "MA-P06",
+        "MA-W08-P02",
+        "MA-W08-P03",
+        "MA-W11-P01"
+      ],
+      "instance_count": 5,
+      "validation": "Blocks/MA-W11/validation.json",
+      "checks_passed": true,
+      "game_validation": false,
+      "previews": [
+        "Blocks/MA-W11/Previews/perspective.png",
+        "Blocks/MA-W11/Previews/top-grayscale.png",
+        "Blocks/MA-W11/Previews/top.png"
+      ]
+    },
+    {
+      "id": "MA-W12",
+      "title": "Турель самонаводящихся ракет",
+      "version": "1.0",
+      "catalog_id": "seeking-rocket-turret",
+      "catalog_grid": [
+        1,
+        3
+      ],
+      "source": "Blocks/MA-W12/MA-W12.blend",
+      "assembly": "Blocks/MA-W12/assembly.json",
+      "parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W08-P01",
+        "MA-W08-P03",
+        "MA-W12-P01",
+        "MA-W12-P02"
+      ],
+      "instance_count": 7,
+      "validation": "Blocks/MA-W12/validation.json",
+      "checks_passed": true,
+      "game_validation": false,
+      "previews": [
+        "Blocks/MA-W12/Previews/perspective.png",
+        "Blocks/MA-W12/Previews/top-grayscale.png",
+        "Blocks/MA-W12/Previews/top.png"
+      ]
+    }
+  ],
+  "new_parts": 6,
+  "reused_parts": [
+    "MA-P06",
+    "MA-P07",
+    "MA-W02-P01",
+    "MA-W02-P04",
+    "MA-W08-P01",
+    "MA-W08-P02",
+    "MA-W08-P03"
+  ],
+  "instances": 18.0,
+  "previous_source_count": 238,
+  "existing_sources_unchanged": true,
+  "glb_generated": false
+}

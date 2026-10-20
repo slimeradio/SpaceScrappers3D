@@ -1,0 +1,68 @@
+{
+  "id": "MA-W02",
+  "passed": true,
+  "scale": 0.27631579294099046,
+  "translation": [
+    0.0,
+    0.0,
+    0.075
+  ],
+  "body_instances": [
+    "LaserFoundation",
+    "ServiceCartridge",
+    "OpticalFork",
+    "OpticalChamber",
+    "LeftRadiator",
+    "RightRadiator",
+    "LidarBlade"
+  ],
+  "body_bounds_cells": [
+    [
+      -0.42,
+      -0.6631579294099046,
+      0.075
+    ],
+    [
+      0.42,
+      0.6631579294099046,
+      0.8317269332374639
+    ]
+  ],
+  "floor_polygon": [
+    [
+      -0.5,
+      -1.5
+    ],
+    [
+      0.5,
+      -1.5
+    ],
+    [
+      0.5,
+      1.5
+    ],
+    [
+      -0.5,
+      1.5
+    ]
+  ],
+  "geometry": {
+    "objects": 94,
+    "triangles": 22996,
+    "degenerate_triangles": 0,
+    "nonmanifold_edges": 0,
+    "bounds_bu": [
+      [
+        -0.5,
+        -1.5,
+        0.0
+      ],
+      [
+        0.5,
+        1.5,
+        0.8380473256111145
+      ]
+    ]
+  },
+  "baseline_nonmanifold_edges": 0
+}

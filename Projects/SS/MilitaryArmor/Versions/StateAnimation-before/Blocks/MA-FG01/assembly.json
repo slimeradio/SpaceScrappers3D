@@ -1,0 +1,158 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-FG01",
+  "version": "2.0",
+  "title": "Машинное отделение 3×3",
+  "catalog_id": "engine-room",
+  "catalog_grid": [
+    3,
+    3
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Structure",
+      "part_id": "MA-FG01-R2-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-FG01-R2-P01/MA-FG01-R2-P01.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "MainMachineDrum",
+      "part_id": "MA-FG01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-FG01-R2-P02/MA-FG01-R2-P02.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        -0.73,
+        -0.22,
+        0.26
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ForwardPump",
+      "part_id": "MA-FG01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-FG01-R2-P03/MA-FG01-R2-P03.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        0.72,
+        -0.86,
+        0.24
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "RearPump",
+      "part_id": "MA-FG01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-FG01-R2-P03/MA-FG01-R2-P03.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        0.72,
+        0.13,
+        0.24
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ProtectedTransferLines",
+      "part_id": "MA-FG01-R2-P04",
+      "version": "2.0",
+      "source": "../../Parts/MA-FG01-R2-P04/MA-FG01-R2-P04.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "drum",
+      "child_instance": "MainMachineDrum",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "pumpF",
+      "child_instance": "ForwardPump",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "pumpB",
+      "child_instance": "RearPump",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "pipes",
+      "child_instance": "ProtectedTransferLines",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Асимметричный технологический силуэт: высокий продольный барабан слева, поперечный коллектор сзади и две малые насосные головы справа, защищённые магистрали между ними. Нет сетки одинаковых крышек. Static authoring source; no new gameplay mechanics."
+}

@@ -1,0 +1,66 @@
+const {chromium}=require('C:/Users/nebul/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs'),path=require('path');
+let browser;
+(async()=>{
+ browser=await chromium.launch({channel:'msedge',headless:true,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+ const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ const out=path.resolve('Projects/SS/MilitaryArmor/Exports/ViewerStates');
+ await page.goto('http://127.0.0.1:8769/viewer.html?block=SS/MilitaryArmor/MA-H01');
+ await page.waitForFunction(()=>window.ready||document.querySelector('#error').textContent,{},{timeout:180000});
+ if(!await page.evaluate(()=>!!window.ready))throw Error(await page.locator('#error').textContent());
+ await page.getByRole('button',{name:'Открыт',exact:true}).click();
+ await page.locator('#state-heat').fill('0.35');await page.locator('#state-heat').dispatchEvent('input');
+ const warm=await page.evaluate(()=>{const r=asset.stateRuntime;return {values:r.values(),angle:r.data.motion.map(b=>asset.root.getObjectByName(b.node).rotation.y)}});
+ await page.screenshot({path:path.join(out,'radiator-warm.png')});
+ await page.getByRole('button',{name:'Горячий, без питания',exact:true}).click();
+ await page.getByRole('button',{name:'Закрыт',exact:true}).click();
+ const hot=await page.evaluate(()=>{const a=[];asset.root.traverse(o=>{if(o.isMesh&&o.material.emissiveIntensity>5)a.push(o.material.emissiveIntensity)});return {values:asset.stateRuntime.values(),hotSurfaces:a.length}});
+ if(hot.values.power!==0||hot.values.heat!==1||hot.values.deployment!==0||!hot.hotSurfaces)throw Error('Heat/power/deployment independence failed: '+JSON.stringify(hot)+' '+errors.join(';'));
+ await page.screenshot({path:path.join(out,'radiator-closed-hot.png')});
+ const stateResults={warm,hot};
+ await page.locator('#animation').selectOption('open');await page.locator('#play').click();
+ await page.waitForFunction(()=>asset.stateRuntime.proxy.deployment>.15&&asset.stateRuntime.proxy.deployment<.95);
+ const opening=await page.evaluate(()=>asset.stateRuntime.proxy.deployment);await page.locator('#state-heat').fill('0.25');await page.locator('#state-heat').dispatchEvent('input');
+ await page.waitForFunction(value=>asset.stateRuntime.proxy.deployment>value+.02,opening);stateResults.heatDoesNotStopOpening=true;
+ await page.locator('#play').click();
+ stateResults.animatedDeployment=await page.evaluate(()=>asset.stateRuntime.proxy.deployment);
+ await page.locator('#model-file').setInputFiles(path.resolve('Projects/SS/MilitaryArmor/Blocks/MA-H01/MA-H01.blend'));
+ await page.waitForURL(/import=/,{timeout:180000});
+ await page.waitForFunction(()=>window.ready||document.querySelector('#error').textContent,{},{timeout:180000});
+ if(!await page.evaluate(()=>window.ready&&asset.stateRuntime?.data.id==='MA-H01'))throw Error('Blend file picker import failed');
+ stateResults.blendFilePicker=true;
+ await page.goto('http://127.0.0.1:8769/viewer.html?block=SS/MilitaryArmor/MA-F01');
+ await page.waitForFunction(()=>window.ready||document.querySelector('#error').textContent,{},{timeout:180000});
+ if(!await page.evaluate(()=>!!window.ready))throw Error(await page.locator('#error').textContent());
+ await page.getByRole('button',{name:'Работает',exact:true}).click();
+ await page.waitForFunction(()=>asset.stateRuntime.proxy.cycle_turns>.1);
+ const before=await page.evaluate(()=>asset.stateRuntime.proxy.cycle_turns);await page.waitForTimeout(350);
+ const after=await page.evaluate(()=>asset.stateRuntime.proxy.cycle_turns);if(before===after)throw Error('Working rotor did not advance');
+ await page.getByRole('button',{name:'Выключен',exact:true}).click();
+ const stopped=await page.evaluate(()=>asset.stateRuntime.values());await page.waitForTimeout(250);
+ if(await page.evaluate(()=>asset.stateRuntime.proxy.cycle_turns)!==stopped.cycle_turns)throw Error('Manual state did not stop animation');
+ await page.screenshot({path:path.join(out,'refinery.png')});
+ await page.goto('http://127.0.0.1:8769/viewer.html?block=SS/MilitaryArmor/MA-A01');
+ await page.waitForFunction(()=>window.ready||document.querySelector('#error').textContent,{},{timeout:180000});
+ if(!await page.evaluate(()=>window.ready&&Object.keys(asset.stateRuntime.data.controls).length===0&&document.querySelector('#play').disabled))throw Error('Static block handling failed');
+ const smoke=[];
+ for(const bid of ['MA-H03','MA-W03','MA-E02','MA-HS01']){
+  await page.goto('http://127.0.0.1:8769/viewer.html?block=SS/MilitaryArmor/'+bid);
+  await page.waitForFunction(()=>window.ready||document.querySelector('#error').textContent,{},{timeout:180000});
+  if(!await page.evaluate(()=>!!window.ready))throw Error(bid+': '+await page.locator('#error').textContent());
+  const summary=await page.evaluate(()=>({id:asset.assembly.id,instances:Object.keys(asset.nodes).length,clips:asset.root.animations.length,drawn:viewer.visibleMeshes().length}));
+  if(!summary.drawn)throw Error('Empty model '+bid);smoke.push(summary);
+ }
+ const fixture=path.join(out,'Acceptance/animated.blend');
+ if(fs.existsSync(fixture)){
+  await page.locator('#model-file').setInputFiles(fixture);await page.waitForURL(/import=/,{timeout:180000});
+  await page.waitForFunction(()=>window.ready||document.querySelector('#error').textContent,{},{timeout:180000});
+  if(!await page.evaluate(()=>window.ready&&asset.root.animations.length===1))throw Error('Ordinary blend object animation was lost');
+  await page.locator('#play').click();await page.waitForFunction(()=>asset.nodes.ViewerProbe.position.x>.1);
+  stateResults.ordinaryBlendAnimation=true;
+ }
+ if(errors.length)throw Error(errors.join('\n'));
+ fs.writeFileSync(path.join(out,'browser-acceptance.json'),JSON.stringify({passed:true,errors,stateResults,work:{before,after,stopped},smoke},null,2).replace(/\n/g,'\r\n'));
+ await browser.close();console.log('BROWSER_STATES_PASS');
+})().catch(async e=>{console.error(e);await browser?.close();process.exitCode=1;});

@@ -1,0 +1,99 @@
+{
+  "id": "MA-FF01",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 7,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-FF01::work_loop",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-FF01::start",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-FF01::stop",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-FF01::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-FF01::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-FF01::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-FF01::cool_down",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [
+    {
+      "node": "FinalProcessDrum::WorkDrum",
+      "parameter": "cycle_turns",
+      "sampled_values": [
+        0.0,
+        0.7853981852531433,
+        1.5707963705062866,
+        3.1415927410125732,
+        6.2831854820251465
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "FrontTransferHead::WorkPump",
+      "parameter": "cycle_turns",
+      "sampled_values": [
+        0.0,
+        0.7853981852531433,
+        1.5707963705062866,
+        3.1415927410125732,
+        6.2831854820251465
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "RearTransferHead::WorkPump",
+      "parameter": "cycle_turns",
+      "sampled_values": [
+        0.0,
+        0.7853981852531433,
+        1.5707963705062866,
+        3.1415927410125732,
+        6.2831854820251465
+      ],
+      "driver_valid": true
+    }
+  ],
+  "materials": [
+    {
+      "object": "TallWorkingStage::Small status index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "CrossProcessChamber::Narrow embedded process indicator",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "FinalProcessDrum::Recessed status slit.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    }
+  ],
+  "stopped_phase_retained": true,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

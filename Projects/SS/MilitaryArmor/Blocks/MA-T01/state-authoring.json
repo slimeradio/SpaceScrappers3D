@@ -1,0 +1,820 @@
+{
+  "schema": "MilitaryArmor.StateAuthoring/1",
+  "id": "MA-T01",
+  "game_validated": false,
+  "authoring_units": "BU; normalized controls; not game timings",
+  "controls": {
+    "power": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "Electrical availability; independent from retained heat/fill"
+    },
+    "activity": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Actual work/load; zero means idle"
+    },
+    "fault": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Externally supplied fault, not inferred"
+    },
+    "heat": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Retained normalized heat; independent from power"
+    },
+    "aim_yaw": {
+      "default": 0,
+      "min": 0,
+      "max": 360
+    },
+    "aim_pitch": {
+      "default": 0,
+      "min": -8,
+      "max": 25
+    },
+    "recoil_Barrel_L": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    "recoil_Barrel_R": {
+      "default": 0,
+      "min": 0,
+      "max": 1
+    }
+  },
+  "motion": [
+    {
+      "node": "Azimuth",
+      "path": "rotation_euler",
+      "axis": 2,
+      "parameter": "aim_yaw",
+      "expression": "0.0+t*0.017453292519943295"
+    },
+    {
+      "node": "Elevation",
+      "path": "rotation_euler",
+      "axis": 0,
+      "parameter": "aim_pitch",
+      "expression": "0.0+t*0.017453292519943295"
+    },
+    {
+      "node": "Barrel.L",
+      "path": "location",
+      "axis": 1,
+      "parameter": "recoil_Barrel_L",
+      "expression": "-0.7699999809265137+t*0.17"
+    },
+    {
+      "node": "Barrel.R",
+      "path": "location",
+      "axis": 1,
+      "parameter": "recoil_Barrel_R",
+      "expression": "-0.7699999809265137+t*0.17"
+    }
+  ],
+  "materials": [
+    {
+      "object": "Foundation::Capacitor interface luminous insert",
+      "slot": 0,
+      "material": "MA-T01::Foundation::Capacitor interface luminous insert::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Foundation::Capacitor interface luminous insert.001",
+      "slot": 0,
+      "material": "MA-T01::Foundation::Capacitor interface luminous insert.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Foundation::Diagonal interface indicator",
+      "slot": 0,
+      "material": "MA-T01::Foundation::Diagonal interface indicator::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Foundation::Capacitor interface luminous insert.002",
+      "slot": 0,
+      "material": "MA-T01::Foundation::Capacitor interface luminous insert.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Foundation::Capacitor interface luminous insert.003",
+      "slot": 0,
+      "material": "MA-T01::Foundation::Capacitor interface luminous insert.003::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Foundation::Diagonal interface indicator.001",
+      "slot": 0,
+      "material": "MA-T01::Foundation::Diagonal interface indicator.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Foundation::Forward status segment",
+      "slot": 0,
+      "material": "MA-T01::Foundation::Forward status segment::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Foundation::Forward status segment.001",
+      "slot": 0,
+      "material": "MA-T01::Foundation::Forward status segment.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "TurretArmor::Coolant channel light",
+      "slot": 0,
+      "material": "MA-T01::TurretArmor::Coolant channel light::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "TurretArmor::Shoulder ranging lens",
+      "slot": 0,
+      "material": "MA-T01::TurretArmor::Shoulder ranging lens::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "TurretArmor::Coolant channel light.001",
+      "slot": 0,
+      "material": "MA-T01::TurretArmor::Coolant channel light.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "TurretArmor::Shoulder ranging lens.001",
+      "slot": 0,
+      "material": "MA-T01::TurretArmor::Shoulder ranging lens.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "TurretArmor::Spine recessed signal",
+      "slot": 0,
+      "material": "MA-T01::TurretArmor::Spine recessed signal::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "TurretArmor::Spine recessed signal.001",
+      "slot": 0,
+      "material": "MA-T01::TurretArmor::Spine recessed signal.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "RoofOptics::Lidar independent optical cell",
+      "slot": 0,
+      "material": "MA-T01::RoofOptics::Lidar independent optical cell::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "RoofOptics::Lidar independent optical cell.001",
+      "slot": 0,
+      "material": "MA-T01::RoofOptics::Lidar independent optical cell.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "RoofOptics::Lidar independent optical cell.002",
+      "slot": 0,
+      "material": "MA-T01::RoofOptics::Lidar independent optical cell.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "RoofHatch::Cartridge status",
+      "slot": 0,
+      "material": "MA-T01::RoofHatch::Cartridge status::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Mantlet::Breech status insert",
+      "slot": 0,
+      "material": "MA-T01::Mantlet::Breech status insert::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Mantlet::Breech status insert.001",
+      "slot": 0,
+      "material": "MA-T01::Mantlet::Breech status insert.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Mantlet::Breech status insert.002",
+      "slot": 0,
+      "material": "MA-T01::Mantlet::Breech status insert.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Mantlet::Breech status insert.003",
+      "slot": 0,
+      "material": "MA-T01::Mantlet::Breech status insert.003::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.R::Induction energized core",
+      "slot": 0,
+      "material": "MA-T01::Barrel.R::Induction energized core::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.R::Induction energized core.001",
+      "slot": 0,
+      "material": "MA-T01::Barrel.R::Induction energized core.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.R::Induction energized core.002",
+      "slot": 0,
+      "material": "MA-T01::Barrel.R::Induction energized core.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.R::Induction energized core.003",
+      "slot": 0,
+      "material": "MA-T01::Barrel.R::Induction energized core.003::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.R::Induction energized core.004",
+      "slot": 0,
+      "material": "MA-T01::Barrel.R::Induction energized core.004::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.R::Induction energized core.005",
+      "slot": 0,
+      "material": "MA-T01::Barrel.R::Induction energized core.005::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.R::Induction energized core.006",
+      "slot": 0,
+      "material": "MA-T01::Barrel.R::Induction energized core.006::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.R::Induction energized core.007",
+      "slot": 0,
+      "material": "MA-T01::Barrel.R::Induction energized core.007::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.L::Induction energized core",
+      "slot": 0,
+      "material": "MA-T01::Barrel.L::Induction energized core::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.L::Induction energized core.001",
+      "slot": 0,
+      "material": "MA-T01::Barrel.L::Induction energized core.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.L::Induction energized core.002",
+      "slot": 0,
+      "material": "MA-T01::Barrel.L::Induction energized core.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.L::Induction energized core.003",
+      "slot": 0,
+      "material": "MA-T01::Barrel.L::Induction energized core.003::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.L::Induction energized core.004",
+      "slot": 0,
+      "material": "MA-T01::Barrel.L::Induction energized core.004::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.L::Induction energized core.005",
+      "slot": 0,
+      "material": "MA-T01::Barrel.L::Induction energized core.005::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.L::Induction energized core.006",
+      "slot": 0,
+      "material": "MA-T01::Barrel.L::Induction energized core.006::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Barrel.L::Induction energized core.007",
+      "slot": 0,
+      "material": "MA-T01::Barrel.L::Induction energized core.007::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Bearing::Azimuth index",
+      "slot": 0,
+      "material": "MA-T01::Bearing::Azimuth index::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Bearing::Azimuth index.001",
+      "slot": 0,
+      "material": "MA-T01::Bearing::Azimuth index.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Bearing::Azimuth index.002",
+      "slot": 0,
+      "material": "MA-T01::Bearing::Azimuth index.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Bearing::Azimuth index.003",
+      "slot": 0,
+      "material": "MA-T01::Bearing::Azimuth index.003::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Bearing::Azimuth index.004",
+      "slot": 0,
+      "material": "MA-T01::Bearing::Azimuth index.004::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Bearing::Azimuth index.005",
+      "slot": 0,
+      "material": "MA-T01::Bearing::Azimuth index.005::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Bearing::Azimuth index.006",
+      "slot": 0,
+      "material": "MA-T01::Bearing::Azimuth index.006::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Bearing::Azimuth index.007",
+      "slot": 0,
+      "material": "MA-T01::Bearing::Azimuth index.007::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Bearing::Azimuth index.008",
+      "slot": 0,
+      "material": "MA-T01::Bearing::Azimuth index.008::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Bearing::Azimuth index.009",
+      "slot": 0,
+      "material": "MA-T01::Bearing::Azimuth index.009::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Bearing::Azimuth index.010",
+      "slot": 0,
+      "material": "MA-T01::Bearing::Azimuth index.010::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Bearing::Azimuth index.011",
+      "slot": 0,
+      "material": "MA-T01::Bearing::Azimuth index.011::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "name": "MA-T01::activate",
+      "parameters": [
+        "power",
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-T01::deactivate",
+      "parameters": [
+        "activity",
+        "power"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-T01::heat_up",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-T01::cool_down",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        97
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-T01::fire",
+      "parameters": [
+        "activity",
+        "recoil_Barrel_L",
+        "recoil_Barrel_R"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    }
+  ],
+  "events": [
+    {
+      "name": "fire",
+      "frame": 2,
+      "source": "authoring cue; external projectile/beam effect"
+    }
+  ],
+  "presets": {
+    "off": {
+      "power": 0,
+      "activity": 0
+    },
+    "idle": {
+      "power": 1,
+      "activity": 0
+    },
+    "working": {
+      "power": 1,
+      "activity": 1
+    },
+    "hot_off": {
+      "power": 0,
+      "activity": 0,
+      "heat": 1
+    },
+    "cold": {
+      "heat": 0
+    },
+    "hot": {
+      "heat": 1
+    }
+  },
+  "phase_policy": "cycle_turns is integrated phase, not speed. Stop retains phase. NLA cycle repetition must use cyclic extrapolation/REPEAT_OFFSET for spin; never reset turns on start. Clips start from relative phase 0; apply current phase offset when sequencing.",
+  "controller": "MA-T01",
+  "legacy_animation_metadata": {
+    "fps": 24,
+    "frame_range": [
+      1,
+      140
+    ],
+    "demonstration_only": true,
+    "channels": [
+      {
+        "node": "Azimuth",
+        "axis": "Z",
+        "degrees": [
+          0,
+          360
+        ]
+      },
+      {
+        "node": "Elevation",
+        "axis": "-X",
+        "degrees": [
+          -8,
+          25
+        ]
+      },
+      {
+        "nodes": [
+          "Barrel.L",
+          "Barrel.R"
+        ],
+        "axis": "+Y",
+        "recoil_BU": 0.17
+      }
+    ],
+    "interpolation": "Blender Bezier, rest pose frame 1",
+    "composition": "root > azimuth > hull > elevation > recoil"
+  }
+}

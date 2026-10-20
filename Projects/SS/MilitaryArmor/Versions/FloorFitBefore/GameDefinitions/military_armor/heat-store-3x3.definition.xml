@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="heat-store-3x3" Category="Тепло" Type="HeatStorage" MaxHealth="4500" BlockMass="11.25">
+    <!-- Initial balance scaled by footprint from the current functional analogues. -->
+    <Size X="3" Y="3"/>
+    <Colliders><ConvexCollider Data="0 0 3 0 3 3 0 3"/></Colliders>
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="27"/>
+        <DesignCost><Item Ref="11" Amount="270"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="27"/></BuildCost>
+    </Construction>
+    <Heat Capacity="864" Input="108" Output="108" EnergyFraction="0" Background="0" WorkHeat="0" Radiator="0" Shutdown="0.9" Resume="0.5" DamagePerSecond="0" Action="Disable"/>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="heat-store-3x3"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

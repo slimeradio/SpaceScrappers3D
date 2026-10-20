@@ -1,0 +1,214 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-FG01",
+  "version": "1.0",
+  "title": "Машинное отделение",
+  "catalog_id": "engine-room",
+  "catalog_grid": [
+    3,
+    3
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Foundation",
+      "part_id": "MA-FG01-P01",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-FG01-P01/MA-FG01-P01.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Chamber.Left",
+      "part_id": "MA-FG01-P02",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-FG01-P02/MA-FG01-P02.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        -1.1,
+        0.45,
+        0.4
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Chamber.Right",
+      "part_id": "MA-FG01-P02",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-FG01-P02/MA-FG01-P02.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        1.1,
+        0.45,
+        0.4
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Guard.Left",
+      "part_id": "MA-FG01-P03",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-FG01-P03/MA-FG01-P03.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        -2.4,
+        0,
+        0.32
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Guard.Right",
+      "part_id": "MA-FG01-P03",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-FG01-P03/MA-FG01-P03.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        2.4,
+        0,
+        0.32
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Distribution",
+      "part_id": "MA-FG01-P04",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-FG01-P04/MA-FG01-P04.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        0,
+        -1.95,
+        0.4
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Service",
+      "part_id": "MA-R01-P05",
+      "version": "1.0",
+      "source": "../../../../Parts/MA-R01-P05/MA-R01-P05.blend",
+      "parent": "MA-FG01",
+      "translation": [
+        0,
+        -1.95,
+        0.944
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Foundation",
+      "parent_socket": "chamber-left",
+      "child_instance": "Chamber.Left",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Foundation",
+      "parent_socket": "chamber-right",
+      "child_instance": "Chamber.Right",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Foundation",
+      "parent_socket": "guard-left",
+      "child_instance": "Guard.Left",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Foundation",
+      "parent_socket": "guard-right",
+      "child_instance": "Guard.Right",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Foundation",
+      "parent_socket": "distribution",
+      "child_instance": "Distribution",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Distribution",
+      "parent_socket": "service",
+      "child_instance": "Service",
+      "child_socket": "bottom"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Closed fuel resource production unit. No invented intake reagent, energy consumption or engine mechanism. Seven static unit-scale instances, four new parts and reused corrected service cartridge."
+}

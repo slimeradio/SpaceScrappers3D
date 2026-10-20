@@ -1,0 +1,1010 @@
+{
+  "id": "MA-EI02",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 4,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-EI02::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-EI02::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-EI02::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-EI02::cool_down",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [],
+  "materials": [
+    {
+      "object": "SplitPowerHousing::Cross electrode saddle",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "SplitPowerHousing::Cross electrode saddle.001",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "SplitPowerHousing::Cross electrode saddle.002",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Swept side electrode cheek",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Swept side electrode cheek.001",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.001",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.002",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.003",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.004",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.005",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.006",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.007",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.008",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.009",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.010",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.011",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.012",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.013",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.014",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.015",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.016",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.017",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.018",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.019",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.020",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.021",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.022",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.023",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.024",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.025",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.026",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.027",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.028",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.029",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.030",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.031",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.032",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.033",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.034",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Hexagonal electrode channel.035",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureLow::Field diagnostic index",
+      "kind": "thrust",
+      "off": 0.0,
+      "on": 7.019999980926514
+    },
+    {
+      "object": "ElectrodeApertureLow::Field diagnostic index.001",
+      "kind": "thrust",
+      "off": 0.0,
+      "on": 7.019999980926514
+    },
+    {
+      "object": "ElectrodeApertureHigh::Swept side electrode cheek",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Swept side electrode cheek.001",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.001",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.002",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.003",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.004",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.005",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.006",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.007",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.008",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.009",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.010",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.011",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.012",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.013",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.014",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.015",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.016",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.017",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.018",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.019",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.020",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.021",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.022",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.023",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.024",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.025",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.026",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.027",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.028",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.029",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.030",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.031",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.032",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.033",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.034",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Hexagonal electrode channel.035",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ElectrodeApertureHigh::Field diagnostic index",
+      "kind": "thrust",
+      "off": 0.0,
+      "on": 7.019999980926514
+    },
+    {
+      "object": "ElectrodeApertureHigh::Field diagnostic index.001",
+      "kind": "thrust",
+      "off": 0.0,
+      "on": 7.019999980926514
+    },
+    {
+      "object": "ServiceCartridge::Service status inset",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

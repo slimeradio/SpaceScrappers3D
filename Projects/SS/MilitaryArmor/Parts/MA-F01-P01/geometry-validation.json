@@ -1,0 +1,87 @@
+{
+  "id": "MA-F01-P01",
+  "stage": "immediate part geometry validation before assembly",
+  "checks": [
+    {
+      "mesh": "Recessed hull gasket",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.7120959985332493,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Graphite load deck",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 1.0950119785661099,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Cassette seating bed",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.18982001296341383,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Cassette seating bed.001",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.18982001296341375,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Flush end interface",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.024699999859928913,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Recessed power socket",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0006480000571310534,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Flush end interface.001",
+      "vertices": 16,
+      "faces": 10,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.024699999859928913,
+      "materials_valid": true,
+      "pass": true
+    },
+    {
+      "mesh": "Recessed power socket.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0006480000571310534,
+      "materials_valid": true,
+      "pass": true
+    }
+  ],
+  "checks_passed": true
+}

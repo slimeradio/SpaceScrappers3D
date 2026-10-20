@@ -1,0 +1,207 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-M02-P04",
+  "version": "1.0",
+  "name": "Industrial mining six-section enclosed heat exchanger",
+  "source": "MA-M02-P04.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.17499999701976776,
+      -1.899999976158142,
+      0.0
+    ],
+    "max": [
+      0.17499999701976776,
+      1.899999976158142,
+      0.5170000195503235
+    ]
+  },
+  "materials": [
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Faceted enclosed thermal segment 0",
+        "Faceted enclosed thermal segment 1",
+        "Faceted enclosed thermal segment 2",
+        "Faceted enclosed thermal segment 3",
+        "Faceted enclosed thermal segment 4",
+        "Faceted enclosed thermal segment 5"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Dark thermal ceramic insert 0",
+        "Dark thermal ceramic insert 1",
+        "Dark thermal ceramic insert 2",
+        "Dark thermal ceramic insert 3",
+        "Dark thermal ceramic insert 4",
+        "Dark thermal ceramic insert 5"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Optic",
+      "surfaces": [
+        "Inset thermal diagnostic 0",
+        "Inset thermal diagnostic 1",
+        "Inset thermal diagnostic 2",
+        "Inset thermal diagnostic 3",
+        "Inset thermal diagnostic 4",
+        "Inset thermal diagnostic 5"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25,
+        1.0
+      ],
+      "metalness": 0.6499999761581421,
+      "roughness": 0.18000000715255737,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Closed longitudinal coolant manifold"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Optic",
+      "regions": [
+        "Inset thermal diagnostic 0",
+        "Inset thermal diagnostic 1",
+        "Inset thermal diagnostic 2",
+        "Inset thermal diagnostic 3",
+        "Inset thermal diagnostic 4",
+        "Inset thermal diagnostic 5"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25
+      ],
+      "strength": 0.699999988079071,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "root",
+      "node": "socket.root",
+      "parent": null,
+      "role": "cooling",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.industrial-mining.cooling"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-plane",
+      "parent": null,
+      "role": "cooling",
+      "shape": "logical-plane",
+      "dimensions": [
+        0.08,
+        0.08
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.industrial-mining.cooling"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Static industrial optical process assembly. Procedural PBR; no file texture or UV dependencies. BU physical scale unspecified."
+}

@@ -1,0 +1,168 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W01-P03-damage33",
+  "version": "1.0",
+  "name": "Three-channel orbital armor capsule",
+  "source": "MA-W01-P03-damage33.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -2.575000047683716,
+      -2.1500000953674316,
+      0.07999999821186066
+    ],
+    "max": [
+      2.575000047683716,
+      2.1500000953674316,
+      1.6699999570846558
+    ]
+  },
+  "materials": [
+    {
+      "id": "Dark_damage33",
+      "ss_role": "Fixed",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    },
+    {
+      "id": "Ceramic_damage33",
+      "ss_role": "Color1",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    },
+    {
+      "id": "Armor_damage33",
+      "ss_role": "Color2",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    },
+    {
+      "id": "Signal_damage33",
+      "ss_role": "Emissive",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    },
+    {
+      "id": "Titanium_damage33",
+      "ss_role": "Fixed",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Signal",
+      "regions": [
+        "Recessed shoulder index",
+        "Recessed shoulder index.001",
+        "Sealed rear transfer",
+        "Sealed rear transfer.001",
+        "Sealed rear transfer.002"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "bottom",
+      "role": "structural",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "elevation",
+      "role": "structural",
+      "position": [
+        0,
+        -0.8,
+        0.88
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "service",
+      "role": "accessory",
+      "position": [
+        0,
+        1.05,
+        1.37
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "lidar",
+      "role": "accessory",
+      "position": [
+        0,
+        0.05,
+        1.56
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": "Damage demo variant. Procedural soot and exposed metal scratches; destroyed has continuous buckling and emission off. Original mounts retained. No file textures or game export.",
+  "damage_state": "damage33",
+  "derived_from": "MA-W01-P03"
+}

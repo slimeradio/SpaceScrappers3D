@@ -1,0 +1,236 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-P02",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Поворотный подшипник",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "hub",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0,
+        0.062
+      ],
+      "radius": 0.43,
+      "radiusTop": 0.43,
+      "depth": 0.124,
+      "axis": "Z",
+      "material": "graphite"
+    },
+    {
+      "id": "upper-race",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0,
+        0.115
+      ],
+      "radius": 0.46,
+      "radiusTop": 0.46,
+      "depth": 0.052,
+      "axis": "Z",
+      "material": "edge"
+    },
+    {
+      "id": "light-ring",
+      "shape": "torus",
+      "position": [
+        0,
+        0,
+        0.1
+      ],
+      "radius": 0.433,
+      "tube": 0.01,
+      "axis": "Z",
+      "material": "cyan"
+    },
+    {
+      "id": "race-index-0",
+      "shape": "roundedBox",
+      "position": [
+        -0.32,
+        -0.22,
+        0.13
+      ],
+      "size": [
+        0.04,
+        0.05,
+        0.012
+      ],
+      "radius": 0.004,
+      "material": "rubber"
+    },
+    {
+      "id": "race-index-1",
+      "shape": "roundedBox",
+      "position": [
+        0.32,
+        -0.22,
+        0.13
+      ],
+      "size": [
+        0.04,
+        0.05,
+        0.012
+      ],
+      "radius": 0.004,
+      "material": "rubber"
+    },
+    {
+      "id": "race-index-2",
+      "shape": "roundedBox",
+      "position": [
+        -0.32,
+        0.22,
+        0.13
+      ],
+      "size": [
+        0.04,
+        0.05,
+        0.012
+      ],
+      "radius": 0.004,
+      "material": "rubber"
+    },
+    {
+      "id": "race-index-3",
+      "shape": "roundedBox",
+      "position": [
+        0.32,
+        0.22,
+        0.13
+      ],
+      "size": [
+        0.04,
+        0.05,
+        0.012
+      ],
+      "radius": 0.004,
+      "material": "rubber"
+    }
+  ],
+  "materialLibrary": "../../../Materials/materials.json",
+  "materialSlots": [
+    "cyan",
+    "edge",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "light-ring",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "bearing-in",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P01.bearing"
+    },
+    {
+      "id": "head",
+      "role": "head-out",
+      "position": [
+        0,
+        0,
+        0.14
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P03.base"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.46,
+      -0.46,
+      0.0
+    ],
+    "max": [
+      0.46,
+      0.46,
+      0.14100000000000001
+    ],
+    "size": [
+      0.92,
+      0.92,
+      0.14100000000000001
+    ]
+  }
+}

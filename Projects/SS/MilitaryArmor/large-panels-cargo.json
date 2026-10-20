@@ -1,0 +1,84 @@
+{
+  "schema": "MilitaryArmor.LargePanelsCargoAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-I04",
+      "title": "Грузовой контейнер 4×4",
+      "version": "1.0",
+      "catalog_id": "cargo-4x4",
+      "catalog_grid": [
+        4,
+        4
+      ],
+      "source": "Blocks/MA-I04/MA-I04.blend",
+      "assembly": "Blocks/MA-I04/assembly.json",
+      "parts": [
+        "MA-I01-R2-P02",
+        "MA-I01-R2-P03",
+        "MA-I04-P01"
+      ],
+      "instance_count": 9,
+      "validation": "Blocks/MA-I04/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-I04/Previews/perspective.png",
+        "Blocks/MA-I04/Previews/top.png",
+        "Blocks/MA-I04/Previews/top-grayscale.png"
+      ]
+    },
+    {
+      "id": "MA-H03",
+      "title": "Радиатор 3×5 — визуальная заготовка",
+      "version": "2.0",
+      "catalog_id": "radiator-3x5",
+      "catalog_grid": [
+        3,
+        5
+      ],
+      "source": "Blocks/MA-H03/MA-H03.blend",
+      "assembly": "Blocks/MA-H03/assembly.json",
+      "parts": [
+        "MA-H01-R2-P02",
+        "MA-H03-P01"
+      ],
+      "instance_count": 67,
+      "validation": "Blocks/MA-H03/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-H03/Previews/perspective.png",
+        "Blocks/MA-H03/Previews/top.png",
+        "Blocks/MA-H03/Previews/top-grayscale.png"
+      ]
+    },
+    {
+      "id": "MA-SP03",
+      "title": "Солнечная панель 3×5 — визуальная заготовка",
+      "version": "2.0",
+      "catalog_id": "solar-3x5",
+      "catalog_grid": [
+        3,
+        5
+      ],
+      "source": "Blocks/MA-SP03/MA-SP03.blend",
+      "assembly": "Blocks/MA-SP03/assembly.json",
+      "parts": [
+        "MA-SP01-R2-P01",
+        "MA-SP03-P01"
+      ],
+      "instance_count": 7,
+      "validation": "Blocks/MA-SP03/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-SP03/Previews/perspective.png",
+        "Blocks/MA-SP03/Previews/top.png",
+        "Blocks/MA-SP03/Previews/top-grayscale.png"
+      ]
+    }
+  ],
+  "new_part_sources": 3,
+  "glb_generated": false,
+  "game_validation": false
+}

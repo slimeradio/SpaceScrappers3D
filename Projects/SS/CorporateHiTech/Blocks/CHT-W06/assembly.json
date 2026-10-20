@@ -1,0 +1,233 @@
+{
+  "schema": "cht-authoring-assembly/1",
+  "id": "CHT-W06",
+  "version": "1.1.0",
+  "title": "Helion / непрерывный лазер",
+  "catalogId": "continuous-laser-turret",
+  "catalogReference": "../../../Catalog/blocks.csv",
+  "catalogGrid": [
+    1,
+    3
+  ],
+  "catalogRotationPivot": [
+    0.5,
+    0.5
+  ],
+  "units": "model-unit",
+  "up": "+Z",
+  "forward": "+Y",
+  "scaleNote": "Catalogue grid cells are not metres; visual dimensions are authoring model units. Muzzle XY offsets relative to catalogue pivot are preserved.",
+  "instances": [
+    {
+      "id": "foundation",
+      "partId": "CHT-W06-BASE",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W06-BASE/part.json",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": null
+    },
+    {
+      "id": "yaw",
+      "partId": "CHT-W06-YAW",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W06-YAW/part.json",
+      "parent": "foundation",
+      "translation": [
+        0,
+        0,
+        0.46
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "yaw",
+        "childSocket": "base"
+      },
+      "joint": {
+        "type": "revolute",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "pivot": [
+          0,
+          0,
+          0
+        ],
+        "rangeDegrees": [
+          0,
+          360
+        ],
+        "speedDegreesPerSecond": 90
+      }
+    },
+    {
+      "id": "optic",
+      "partId": "CHT-W06-OPTIC",
+      "partVersion": "1.1.0",
+      "source": "../../Parts/CHT-W06-OPTIC/part.json",
+      "parent": "yaw",
+      "translation": [
+        0,
+        0.16,
+        0.3
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "optic",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "power",
+      "partId": "CHT-W06-CAPACITOR",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W06-CAPACITOR/part.json",
+      "parent": "yaw",
+      "translation": [
+        0,
+        -1.22,
+        0.31
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "power",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "radiator--1",
+      "partId": "CHT-W06-RADIATOR",
+      "partVersion": "1.1.0",
+      "source": "../../Parts/CHT-W06-RADIATOR/part.json",
+      "parent": "yaw",
+      "translation": [
+        -0.28,
+        -0.68,
+        0.21
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "radiator--1",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "radiator-1",
+      "partId": "CHT-W06-RADIATOR",
+      "partVersion": "1.1.0",
+      "source": "../../Parts/CHT-W06-RADIATOR/part.json",
+      "parent": "yaw",
+      "translation": [
+        0.28,
+        -0.68,
+        0.21
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "radiator-1",
+        "childSocket": "base"
+      }
+    }
+  ],
+  "animations": [
+    {
+      "id": "yaw-demo",
+      "node": "yaw",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "rangeDegrees": [
+        0,
+        360
+      ],
+      "durationSeconds": 4.0,
+      "loop": true,
+      "interpolation": "LINEAR",
+      "gameplaySource": "catalog RotateSpeedDegreesPerSecond=90",
+      "restDegrees": 0
+    }
+  ],
+  "catalogSnapshot": {
+    "ID": "continuous-laser-turret",
+    "Название_пояснительное": "Турель непрерывного лазера",
+    "Тип_XML": "Turret",
+    "Ширина_клеток": "1",
+    "Высота_клеток": "3",
+    "Размер_сетки_без_поворота": "1x3",
+    "Описание_и_назначение": "Наносит урон непрерывным лучом во время работы оружия. Поворотная установка с собственной дугой наведения. Урон из Weapon=200; дальность=100.",
+    "Прочность_MaxHealth": "4000",
+    "Масса_BlockMass_единицы_игры": "6",
+    "Особенности_и_ограничения": "Урон указан из XML Weapon без пересчёта в DPS. Итоговый залп зависит от числа стволов, ProjectilesPerShot, интервалов, магазина и нагрева. Энергия и боеприпасы заданы отдельно. Для непрерывного луча величина DamagePerProjectile не означает урон одного обычного выстрела.",
+    "Параметры_механики_XML": "",
+    "Ресурсы_XML_1_энергия_МДж_2_топливо": "<Resource StoreInStorage=\"true\" Id=\"1\" Capacity=\"100\" WorkingThreshold=\"20\" TargetStorage=\"70\" InitialStorage=\"70\" MaxInput=\"60\" UsePerShot=\"20\" Priority=\"30\" />",
+    "Оружие_XML": "<Weapon Name=\"continuous-laser\" ProjectileKind=\"ContinuousBeam\" DamagePerProjectile=\"200\" ProjectileSpeed=\"300\" MaxRange=\"100\" HitReaction=\"Damage\" AmmoItemId=\"31\" MagazineCharge=\"5\"><Barrels><Barrel Ref=\"continuous-emitter\" /></Barrels></Weapon>",
+    "Наведение_XML": "<Turret Name=\"laser-beam-turret\" FiringArcDegrees=\"360\" RotateSpeedDegreesPerSecond=\"90\"><RotationPivot X=\"0.5\" Y=\"0.5\" /></Turret>",
+    "Стволы_XML": "<Barrel Name=\"continuous-emitter\" MaxHeat=\"100\" HeatPerShot=\"0\" HeatPerSeconds=\"25\" ShootIntervalInSeconds=\"0\" ReloadIntervalInSeconds=\"1.5\" MaxMagazineCapacity=\"0\" ProjectilesPerShot=\"1\" ShotSpread=\"0\"><ShootPosition X=\"0\" Y=\"1\" /></Barrel>",
+    "Источник_от_корня_проекта": "Assets/Definitions/weapon_variants/continuous-laser-turret.definition.xml",
+    "Основание_описания": "Пояснение по текущим XML и исходному коду; название пояснительное, не локализованное имя UI. Размер — Size в клетках до поворота, не габарит рисунка или коллайдера. Игровой запуск не проверялся.",
+    "Дата_среза": "2026-10-15"
+  }
+}

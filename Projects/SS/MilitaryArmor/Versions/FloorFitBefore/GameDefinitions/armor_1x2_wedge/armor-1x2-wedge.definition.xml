@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="armor-1x2-wedge" Category="Броня" Type="Armor" MaxHealth="1000" BlockMass="2">
+    <!-- Initial tunable balance; the GDD does not specify per-block numerical prices. -->
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="2"/>
+        <DesignCost><Item Ref="11" Amount="20"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="2"/></BuildCost>
+    </Construction>
+    <Size X="1" Y="2"/>
+    <Colliders>
+        <ConvexCollider Data="0 0 1 2 0 2"/>
+    </Colliders>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="armor-1x2-wedge"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.05" RecreateCostMultiplier="0.15"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.05" RecreateCostMultiplier="0.15"/>
+    </Repair>
+</Block>

@@ -1,0 +1,778 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W02-BARREL",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Один ускоритель с двумя разделёнными рельсами",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "accelerator-breech",
+      "shape": "loft",
+      "position": [
+        0,
+        0.15,
+        0
+      ],
+      "outline": [
+        [
+          -0.09000000000000001,
+          -0.245
+        ],
+        [
+          0.09000000000000001,
+          -0.245
+        ],
+        [
+          0.17,
+          -0.16499999999999998
+        ],
+        [
+          0.17,
+          0.16499999999999998
+        ],
+        [
+          0.09000000000000001,
+          0.245
+        ],
+        [
+          -0.09000000000000001,
+          0.245
+        ],
+        [
+          -0.17,
+          0.16499999999999998
+        ],
+        [
+          -0.17,
+          -0.16499999999999998
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.135,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.117,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.117,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.135,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "central-vacuum-channel",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.83,
+        -0.06
+      ],
+      "size": [
+        0.075,
+        1.27,
+        0.07
+      ],
+      "radius": 0.005,
+      "material": "rubber"
+    },
+    {
+      "id": "rail-metal--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.108,
+        0.93,
+        0
+      ],
+      "size": [
+        0.075,
+        1.52,
+        0.13
+      ],
+      "radius": 0.012,
+      "material": "edge"
+    },
+    {
+      "id": "rail-blue--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.066,
+        0.96,
+        0.045
+      ],
+      "size": [
+        0.013,
+        1.3,
+        0.018
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "muzzle-tip--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.11,
+        1.805,
+        0.015
+      ],
+      "size": [
+        0.1,
+        0.012,
+        0.11
+      ],
+      "radius": 0.012,
+      "material": "graphite"
+    },
+    {
+      "id": "rail-metal-1",
+      "shape": "roundedBox",
+      "position": [
+        0.108,
+        0.93,
+        0
+      ],
+      "size": [
+        0.075,
+        1.52,
+        0.13
+      ],
+      "radius": 0.012,
+      "material": "edge"
+    },
+    {
+      "id": "rail-blue-1",
+      "shape": "roundedBox",
+      "position": [
+        0.066,
+        0.96,
+        0.045
+      ],
+      "size": [
+        0.013,
+        1.3,
+        0.018
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "muzzle-tip-1",
+      "shape": "roundedBox",
+      "position": [
+        0.11,
+        1.805,
+        0.015
+      ],
+      "size": [
+        0.1,
+        0.012,
+        0.11
+      ],
+      "radius": 0.012,
+      "material": "graphite"
+    },
+    {
+      "id": "rear-bridge",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.28,
+        0.1
+      ],
+      "size": [
+        0.3,
+        0.1,
+        0.065
+      ],
+      "radius": 0.012,
+      "material": "armor"
+    },
+    {
+      "id": "forward-bridge",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        1.36,
+        -0.082
+      ],
+      "size": [
+        0.3,
+        0.1,
+        0.04
+      ],
+      "radius": 0.012,
+      "material": "armor"
+    },
+    {
+      "id": "open-tension-frame--1",
+      "shape": "profile",
+      "outline": [
+        [
+          -0.055,
+          0.18
+        ],
+        [
+          0.055,
+          0.18
+        ],
+        [
+          0.065,
+          0.36
+        ],
+        [
+          0.052,
+          1.46
+        ],
+        [
+          0.015,
+          1.78
+        ],
+        [
+          -0.043,
+          1.78
+        ],
+        [
+          -0.06,
+          1.4
+        ]
+      ],
+      "holes": [
+        [
+          [
+            -0.027,
+            0.38
+          ],
+          [
+            0.025,
+            0.38
+          ],
+          [
+            0.02,
+            0.81
+          ],
+          [
+            -0.025,
+            0.81
+          ]
+        ],
+        [
+          [
+            -0.024,
+            0.94
+          ],
+          [
+            0.021,
+            0.94
+          ],
+          [
+            0.012,
+            1.38
+          ],
+          [
+            -0.025,
+            1.47
+          ]
+        ]
+      ],
+      "depth": 0.09,
+      "bevel": 0.004,
+      "position": [
+        -0.166,
+        0,
+        0.095
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "coil-mount--1-0",
+      "shape": "lathe",
+      "profile": [
+        [
+          0,
+          -0.045
+        ],
+        [
+          0.055,
+          -0.045
+        ],
+        [
+          0.064,
+          -0.02
+        ],
+        [
+          0.064,
+          0.02
+        ],
+        [
+          0.055,
+          0.045
+        ],
+        [
+          0,
+          0.045
+        ],
+        [
+          0,
+          -0.045
+        ]
+      ],
+      "segments": 16,
+      "axis": "Z",
+      "position": [
+        -0.14,
+        0.34,
+        0
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "coil-mount--1-1",
+      "shape": "lathe",
+      "profile": [
+        [
+          0,
+          -0.045
+        ],
+        [
+          0.055,
+          -0.045
+        ],
+        [
+          0.064,
+          -0.02
+        ],
+        [
+          0.064,
+          0.02
+        ],
+        [
+          0.055,
+          0.045
+        ],
+        [
+          0,
+          0.045
+        ],
+        [
+          0,
+          -0.045
+        ]
+      ],
+      "segments": 16,
+      "axis": "Z",
+      "position": [
+        -0.14,
+        0.88,
+        0
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "coil-mount--1-2",
+      "shape": "lathe",
+      "profile": [
+        [
+          0,
+          -0.045
+        ],
+        [
+          0.055,
+          -0.045
+        ],
+        [
+          0.064,
+          -0.02
+        ],
+        [
+          0.064,
+          0.02
+        ],
+        [
+          0.055,
+          0.045
+        ],
+        [
+          0,
+          0.045
+        ],
+        [
+          0,
+          -0.045
+        ]
+      ],
+      "segments": 16,
+      "axis": "Z",
+      "position": [
+        -0.14,
+        1.48,
+        0
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "open-tension-frame-1",
+      "shape": "profile",
+      "outline": [
+        [
+          -0.055,
+          0.18
+        ],
+        [
+          0.055,
+          0.18
+        ],
+        [
+          0.065,
+          0.36
+        ],
+        [
+          0.052,
+          1.46
+        ],
+        [
+          0.015,
+          1.78
+        ],
+        [
+          -0.043,
+          1.78
+        ],
+        [
+          -0.06,
+          1.4
+        ]
+      ],
+      "holes": [
+        [
+          [
+            -0.027,
+            0.38
+          ],
+          [
+            0.025,
+            0.38
+          ],
+          [
+            0.02,
+            0.81
+          ],
+          [
+            -0.025,
+            0.81
+          ]
+        ],
+        [
+          [
+            -0.024,
+            0.94
+          ],
+          [
+            0.021,
+            0.94
+          ],
+          [
+            0.012,
+            1.38
+          ],
+          [
+            -0.025,
+            1.47
+          ]
+        ]
+      ],
+      "depth": 0.09,
+      "bevel": 0.004,
+      "position": [
+        0.166,
+        0,
+        0.095
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "coil-mount-1-0",
+      "shape": "lathe",
+      "profile": [
+        [
+          0,
+          -0.045
+        ],
+        [
+          0.055,
+          -0.045
+        ],
+        [
+          0.064,
+          -0.02
+        ],
+        [
+          0.064,
+          0.02
+        ],
+        [
+          0.055,
+          0.045
+        ],
+        [
+          0,
+          0.045
+        ],
+        [
+          0,
+          -0.045
+        ]
+      ],
+      "segments": 16,
+      "axis": "Z",
+      "position": [
+        0.14,
+        0.34,
+        0
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "coil-mount-1-1",
+      "shape": "lathe",
+      "profile": [
+        [
+          0,
+          -0.045
+        ],
+        [
+          0.055,
+          -0.045
+        ],
+        [
+          0.064,
+          -0.02
+        ],
+        [
+          0.064,
+          0.02
+        ],
+        [
+          0.055,
+          0.045
+        ],
+        [
+          0,
+          0.045
+        ],
+        [
+          0,
+          -0.045
+        ]
+      ],
+      "segments": 16,
+      "axis": "Z",
+      "position": [
+        0.14,
+        0.88,
+        0
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "coil-mount-1-2",
+      "shape": "lathe",
+      "profile": [
+        [
+          0,
+          -0.045
+        ],
+        [
+          0.055,
+          -0.045
+        ],
+        [
+          0.064,
+          -0.02
+        ],
+        [
+          0.064,
+          0.02
+        ],
+        [
+          0.055,
+          0.045
+        ],
+        [
+          0,
+          0.045
+        ],
+        [
+          0,
+          -0.045
+        ]
+      ],
+      "segments": 16,
+      "axis": "Z",
+      "position": [
+        0.14,
+        1.48,
+        0
+      ],
+      "material": "graphite"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; model-unit box projection",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "rail-blue--1",
+      "geometry": "rail-blue--1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    },
+    {
+      "id": "rail-blue-1",
+      "geometry": "rail-blue-1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "base",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible": "CHT-W02-HEAD.barrel-*",
+      "parentNode": "root"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [
+    {
+      "id": "muzzle",
+      "role": "projectile-origin",
+      "parentNode": "root",
+      "coordinateSystem": "local",
+      "position": [
+        0,
+        1.82,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.23,
+      -0.095,
+      -0.135
+    ],
+    "max": [
+      0.23500000000000001,
+      1.811,
+      0.14400000000000002
+    ],
+    "size": [
+      0.465,
+      1.906,
+      0.279
+    ]
+  },
+  "revisionNotes": "Внешние прямоугольные кожухи и повторяющиеся коробки заменены двумя открытыми натяжными рамами с большими сквозными окнами; плоские контактные рельсы и центральный свободный канал сохранены. Опоры — гранёные катушки. Это один ускоритель с двумя направляющими, не два ствола. Дульная точка сохранена."
+}

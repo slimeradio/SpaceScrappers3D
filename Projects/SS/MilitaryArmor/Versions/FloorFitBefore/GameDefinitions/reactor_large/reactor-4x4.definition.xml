@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReactorBlock Name="reactor-4x4-aaaa" Category="Энергия" Type="Reactor" MaxHealth="4000" BlockMass="20">
+    <!-- Energy production: MJ per second (MW). -->
+    <Resources>
+        <Resource StoreInStorage="false" Id="1" MaxOutput="13500" ProductionPriority="80"/>
+    </Resources>
+    <!-- Initial tunable balance; the GDD does not specify per-block numerical prices. -->
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="80"/>
+        <DesignCost><Item Ref="11" Amount="800"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="80"/></BuildCost>
+    </Construction>
+    <Size X="4" Y="4"/>
+    <Reactor PowerGeneration="13500" BatteryCapacity="24000" MaxHealth="4000"/>
+    <OnDestroyEffects>
+        <ExplodeEffect Damage="1" Force="250" Radius="50"/>
+    </OnDestroyEffects>
+    <Colliders>
+        <ConvexCollider Data="0 0 4 0 4 4 0 4"/>
+        <CircleCollider X="0.5" Y="0.5" Radius="0.5"/>
+    </Colliders>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="reactor-4x4-aaaa"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</ReactorBlock>

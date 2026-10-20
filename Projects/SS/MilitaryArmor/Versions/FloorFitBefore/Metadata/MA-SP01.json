@@ -1,0 +1,4255 @@
+{
+  "schema": "SpriteBake.BlockMetadata/1",
+  "id": "MA-SP01",
+  "catalog_id": "solar-1x2",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "bu_per_cell": 1.0,
+  "footprint_bu": [
+    -0.5,
+    -1.0,
+    0.5,
+    1.0
+  ],
+  "layers": [
+    {
+      "id": "body",
+      "draw_order": 0,
+      "rotates": false,
+      "pivot_bu": [
+        0,
+        0
+      ],
+      "instances": [
+        "Solar-truss",
+        "Photovoltaic-field"
+      ]
+    }
+  ],
+  "states": {
+    "damage0": {
+      "frame": 1
+    },
+    "damage33": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "damage66": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "destroyed": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "clips": {},
+  "frames": {
+    "damage0": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Solar-truss/mounts/hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Solar-truss/mounts/Photovoltaic-field",
+          "role": "field",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0.3
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "Photovoltaic-field",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        },
+        {
+          "id": "Solar-truss/attachment_areas/hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull-seat",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Solar-truss/attachment_areas/Photovoltaic-field-seat",
+          "parent": "part",
+          "role": "field",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0.3
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "Photovoltaic-field-seat",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        },
+        {
+          "id": "Photovoltaic-field/mounts/root",
+          "role": "field",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30000001192092896
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Photovoltaic-field",
+          "part": "MA-SP01-R2-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        },
+        {
+          "id": "Photovoltaic-field/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "field",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30000001192092896
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "Photovoltaic-field",
+          "part": "MA-SP01-R2-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-SP01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Solar-truss": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Photovoltaic-field": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.30000001192092896
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "damage33": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Solar-truss/mounts/hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Solar-truss/mounts/Photovoltaic-field",
+          "role": "field",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0.3
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "Photovoltaic-field",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        },
+        {
+          "id": "Solar-truss/attachment_areas/hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull-seat",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Solar-truss/attachment_areas/Photovoltaic-field-seat",
+          "parent": "part",
+          "role": "field",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0.3
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "Photovoltaic-field-seat",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        },
+        {
+          "id": "Photovoltaic-field/mounts/root",
+          "role": "field",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30000001192092896
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Photovoltaic-field",
+          "part": "MA-SP01-R2-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        },
+        {
+          "id": "Photovoltaic-field/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "field",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30000001192092896
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "Photovoltaic-field",
+          "part": "MA-SP01-R2-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-SP01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Solar-truss": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Photovoltaic-field": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.30000001192092896
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "damage66": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Solar-truss/mounts/hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Solar-truss/mounts/Photovoltaic-field",
+          "role": "field",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0.3
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "Photovoltaic-field",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        },
+        {
+          "id": "Solar-truss/attachment_areas/hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull-seat",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Solar-truss/attachment_areas/Photovoltaic-field-seat",
+          "parent": "part",
+          "role": "field",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0.3
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "Photovoltaic-field-seat",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        },
+        {
+          "id": "Photovoltaic-field/mounts/root",
+          "role": "field",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30000001192092896
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Photovoltaic-field",
+          "part": "MA-SP01-R2-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        },
+        {
+          "id": "Photovoltaic-field/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "field",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30000001192092896
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "Photovoltaic-field",
+          "part": "MA-SP01-R2-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-SP01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Solar-truss": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Photovoltaic-field": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.30000001192092896
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "destroyed": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "Solar-truss/mounts/hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Solar-truss/mounts/Photovoltaic-field",
+          "role": "field",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0.3
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "Photovoltaic-field",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        },
+        {
+          "id": "Solar-truss/attachment_areas/hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "hull-seat",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "Solar-truss/attachment_areas/Photovoltaic-field-seat",
+          "parent": "part",
+          "role": "field",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0.3
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "Photovoltaic-field-seat",
+          "instance": "Solar-truss",
+          "part": "MA-SP01-R2-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        },
+        {
+          "id": "Photovoltaic-field/mounts/root",
+          "role": "field",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30000001192092896
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root",
+          "instance": "Photovoltaic-field",
+          "part": "MA-SP01-R2-P02",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        },
+        {
+          "id": "Photovoltaic-field/attachment_areas/root-seat",
+          "parent": "part",
+          "role": "field",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.30000001192092896
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "root-seat",
+          "instance": "Photovoltaic-field",
+          "part": "MA-SP01-R2-P02",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.30000001192092896
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-SP01": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Solar-truss": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "Photovoltaic-field": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.30000001192092896
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    }
+  },
+  "assembly": {
+    "schema": "MilitaryArmor.BlenderAuthoring/1",
+    "id": "MA-SP01",
+    "version": "2.0",
+    "title": "Солнечная панель 1×2 — визуальная заготовка",
+    "catalog_id": "solar-1x2",
+    "catalog_grid": [
+      1,
+      2
+    ],
+    "axes": {
+      "handedness": "right",
+      "up": "+Z",
+      "forward": "-Y",
+      "units": "BU; physical scale unspecified"
+    },
+    "instances": [
+      {
+        "id": "Solar-truss",
+        "part_id": "MA-SP01-R2-P01",
+        "version": "2.0",
+        "source": "../../Parts/MA-SP01-R2-P01/MA-SP01-R2-P01.blend",
+        "parent": "MA-SP01",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": "Photovoltaic-field",
+        "part_id": "MA-SP01-R2-P02",
+        "version": "2.0",
+        "source": "../../Parts/MA-SP01-R2-P02/MA-SP01-R2-P02.blend",
+        "parent": "MA-SP01",
+        "translation": [
+          0,
+          0,
+          0.3
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "parent_instance": "Solar-truss",
+        "parent_socket": "Photovoltaic-field",
+        "child_instance": "Photovoltaic-field",
+        "child_socket": "root"
+      }
+    ],
+    "animations": [],
+    "exports": [],
+    "notes": "Солнечная панель: единое тонкое поле пассивных фотоэлементов, скошенные торцы, тонкая кромка и две поперечные опоры под полем. Сплошной спокойный силуэт противопоставлен открытой гребёнке радиатора. Без эмиссии и раскладных механизмов. Визуальная заготовка без игрового XML, мощность не задавалась.",
+    "catalog_status": "visual concept; no game XML"
+  },
+  "parts": {
+    "Solar-truss": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-SP01-R2-P01",
+      "version": "2.0",
+      "name": "Twin solar truss shoes and narrow underside backbone",
+      "source": "MA-SP01-R2-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.7799999713897705,
+          -1.4249999523162842,
+          0.0
+        ],
+        "max": [
+          0.7799999713897705,
+          1.4249999523162842,
+          0.3050000071525574
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "Hull shoe",
+            "Hull shoe.001"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Slender crossbeam",
+            "Slender crossbeam.001"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Underside backbone",
+            "Field support",
+            "Field support.001",
+            "Field support.002",
+            "Field support.003"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "hull",
+          "role": "hull",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "id": "Photovoltaic-field",
+          "role": "field",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0.3
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "hull-seat",
+          "parent": "part",
+          "role": "hull",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.hull"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        },
+        {
+          "id": "Photovoltaic-field-seat",
+          "parent": "part",
+          "role": "field",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0.3
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Functional identity v2.0. Static procedural PBR; no file textures or UV dependency. No animation or gameplay mechanism. BU conditional."
+    },
+    "Photovoltaic-field": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-SP01-R2-P02",
+      "version": "2.0",
+      "name": "Single thin photovoltaic sail with tapered terminals",
+      "source": "MA-SP01-R2-P02.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.8999999761581421,
+          -1.7999999523162842,
+          0.0
+        ],
+        "max": [
+          0.8999999761581421,
+          1.7999999523162842,
+          0.10099999606609344
+        ]
+      },
+      "materials": [
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "Thin edge protection",
+            "Thin edge protection.001"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Dark",
+          "surfaces": [
+            "Continuous dielectric field"
+          ],
+          "base_color_linear": [
+            0.008999999612569809,
+            0.014999999664723873,
+            0.02199999988079071,
+            1.0
+          ],
+          "metalness": 0.4000000059604645,
+          "roughness": 0.47999998927116394,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Optic",
+          "surfaces": [
+            "Nonemissive photovoltaic cell",
+            "Nonemissive photovoltaic cell.001",
+            "Nonemissive photovoltaic cell.002",
+            "Nonemissive photovoltaic cell.003",
+            "Nonemissive photovoltaic cell.004",
+            "Nonemissive photovoltaic cell.005",
+            "Nonemissive photovoltaic cell.006",
+            "Nonemissive photovoltaic cell.007",
+            "Nonemissive photovoltaic cell.008",
+            "Nonemissive photovoltaic cell.009",
+            "Nonemissive photovoltaic cell.010",
+            "Nonemissive photovoltaic cell.011",
+            "Nonemissive photovoltaic cell.012",
+            "Nonemissive photovoltaic cell.013",
+            "Nonemissive photovoltaic cell.014",
+            "Nonemissive photovoltaic cell.015",
+            "Nonemissive photovoltaic cell.016",
+            "Nonemissive photovoltaic cell.017",
+            "Nonemissive photovoltaic cell.018",
+            "Nonemissive photovoltaic cell.019",
+            "Nonemissive photovoltaic cell.020",
+            "Nonemissive photovoltaic cell.021",
+            "Nonemissive photovoltaic cell.022",
+            "Nonemissive photovoltaic cell.023",
+            "Nonemissive photovoltaic cell.024",
+            "Nonemissive photovoltaic cell.025",
+            "Nonemissive photovoltaic cell.026",
+            "Nonemissive photovoltaic cell.027",
+            "Nonemissive photovoltaic cell.028",
+            "Nonemissive photovoltaic cell.029",
+            "Nonemissive photovoltaic cell.030",
+            "Nonemissive photovoltaic cell.031",
+            "Nonemissive photovoltaic cell.032",
+            "Nonemissive photovoltaic cell.033",
+            "Nonemissive photovoltaic cell.034",
+            "Nonemissive photovoltaic cell.035",
+            "Nonemissive photovoltaic cell.036",
+            "Nonemissive photovoltaic cell.037",
+            "Nonemissive photovoltaic cell.038",
+            "Nonemissive photovoltaic cell.039",
+            "Nonemissive photovoltaic cell.040",
+            "Nonemissive photovoltaic cell.041",
+            "Nonemissive photovoltaic cell.042",
+            "Nonemissive photovoltaic cell.043"
+          ],
+          "base_color_linear": [
+            0.014999999664723873,
+            0.18000000715255737,
+            0.25,
+            1.0
+          ],
+          "metalness": 0.6499999761581421,
+          "roughness": 0.18000000715255737,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Steel",
+          "surfaces": [
+            "Fine collector trace",
+            "Fine collector trace.001",
+            "Fine collector trace.002",
+            "Fine collector trace.003",
+            "Fine collector trace.004",
+            "Fine collector trace.005",
+            "Fine collector trace.006",
+            "Fine collector trace.007",
+            "Fine collector trace.008",
+            "Fine collector trace.009",
+            "Fine collector trace.010",
+            "Fine collector trace.011",
+            "Fine collector trace.012",
+            "Fine collector trace.013",
+            "Fine collector trace.014",
+            "Fine collector trace.015",
+            "Fine collector trace.016",
+            "Fine collector trace.017",
+            "Fine collector trace.018",
+            "Fine collector trace.019",
+            "Fine collector trace.020",
+            "Fine collector trace.021",
+            "Fine collector trace.022",
+            "Fine collector trace.023",
+            "Fine collector trace.024",
+            "Fine collector trace.025",
+            "Fine collector trace.026",
+            "Fine collector trace.027",
+            "Fine collector trace.028",
+            "Fine collector trace.029",
+            "Fine collector trace.030",
+            "Fine collector trace.031",
+            "Fine collector trace.032",
+            "Fine collector trace.033",
+            "Fine collector trace.034",
+            "Fine collector trace.035",
+            "Fine collector trace.036",
+            "Fine collector trace.037",
+            "Fine collector trace.038",
+            "Fine collector trace.039",
+            "Fine collector trace.040",
+            "Fine collector trace.041",
+            "Fine collector trace.042",
+            "Fine collector trace.043",
+            "Fine collector trace.044",
+            "Fine collector trace.045",
+            "Fine collector trace.046",
+            "Fine collector trace.047",
+            "Fine collector trace.048",
+            "Fine collector trace.049",
+            "Fine collector trace.050",
+            "Fine collector trace.051",
+            "Fine collector trace.052",
+            "Fine collector trace.053",
+            "Fine collector trace.054",
+            "Fine collector trace.055",
+            "Fine collector trace.056",
+            "Fine collector trace.057",
+            "Fine collector trace.058",
+            "Fine collector trace.059",
+            "Fine collector trace.060",
+            "Fine collector trace.061",
+            "Fine collector trace.062",
+            "Fine collector trace.063",
+            "Fine collector trace.064",
+            "Fine collector trace.065",
+            "Fine collector trace.066",
+            "Fine collector trace.067",
+            "Fine collector trace.068",
+            "Fine collector trace.069",
+            "Fine collector trace.070",
+            "Fine collector trace.071",
+            "Fine collector trace.072",
+            "Fine collector trace.073",
+            "Fine collector trace.074",
+            "Fine collector trace.075",
+            "Fine collector trace.076",
+            "Fine collector trace.077",
+            "Fine collector trace.078",
+            "Fine collector trace.079",
+            "Fine collector trace.080",
+            "Fine collector trace.081",
+            "Fine collector trace.082",
+            "Fine collector trace.083",
+            "Fine collector trace.084",
+            "Fine collector trace.085",
+            "Fine collector trace.086",
+            "Fine collector trace.087",
+            "Fine collector trace.088",
+            "Fine collector trace.089",
+            "Fine collector trace.090",
+            "Fine collector trace.091",
+            "Fine collector trace.092",
+            "Fine collector trace.093",
+            "Fine collector trace.094",
+            "Fine collector trace.095",
+            "Fine collector trace.096",
+            "Fine collector trace.097",
+            "Fine collector trace.098",
+            "Fine collector trace.099",
+            "Fine collector trace.100",
+            "Fine collector trace.101",
+            "Fine collector trace.102",
+            "Fine collector trace.103",
+            "Fine collector trace.104",
+            "Fine collector trace.105",
+            "Fine collector trace.106",
+            "Fine collector trace.107",
+            "Fine collector trace.108",
+            "Fine collector trace.109",
+            "Fine collector trace.110",
+            "Fine collector trace.111",
+            "Fine collector trace.112",
+            "Fine collector trace.113",
+            "Fine collector trace.114",
+            "Fine collector trace.115",
+            "Fine collector trace.116",
+            "Fine collector trace.117",
+            "Fine collector trace.118",
+            "Fine collector trace.119",
+            "Fine collector trace.120",
+            "Fine collector trace.121",
+            "Fine collector trace.122",
+            "Fine collector trace.123",
+            "Fine collector trace.124",
+            "Fine collector trace.125",
+            "Fine collector trace.126",
+            "Fine collector trace.127",
+            "Fine collector trace.128",
+            "Fine collector trace.129",
+            "Fine collector trace.130",
+            "Fine collector trace.131"
+          ],
+          "base_color_linear": [
+            0.23999999463558197,
+            0.2800000011920929,
+            0.3100000023841858,
+            1.0
+          ],
+          "metalness": 0.8500000238418579,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Titanium",
+          "surfaces": [
+            "Thin chamfered substrate"
+          ],
+          "base_color_linear": [
+            0.07500000298023224,
+            0.10499999672174454,
+            0.12999999523162842,
+            1.0
+          ],
+          "metalness": 0.8399999737739563,
+          "roughness": 0.30000001192092896,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "root",
+          "role": "field",
+          "parent": "part",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "root-seat",
+          "parent": "part",
+          "role": "field",
+          "shape": "logical-point-plane",
+          "dimensions": [
+            0.08,
+            0.08
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.r2.solar.field"
+          ],
+          "allowed_scale": [
+            1,
+            1,
+            1
+          ],
+          "allowed_rotations_degrees": [
+            0
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Functional identity v2.0. Static procedural PBR; no file textures or UV dependency. No animation or gameplay mechanism. BU conditional."
+    }
+  },
+  "material_slots": {
+    "Solar-truss": {
+      "Underside backbone": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Slender crossbeam.001": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Slender crossbeam": [
+        {
+          "id": "Steel",
+          "role": "Fixed"
+        }
+      ],
+      "Hull shoe.001": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Hull shoe": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        }
+      ],
+      "Field support.003": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Field support.002": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Field support.001": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ],
+      "Field support": [
+        {
+          "id": "Titanium",
+          "role": "Fixed"
+        }
+      ]
+    },
+    "Photovoltaic-field": {
+      "Thin edge protection.001": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Thin edge protection": [
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ],
+      "Thin chamfered substrate": [
+        {
+          "id": "Titanium.001",
+          "role": "Fixed"
+        }
+      ],
+      "Nonemissive photovoltaic cell.043": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.042": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.041": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.040": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.039": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.038": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.037": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.036": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.035": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.034": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.033": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.032": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.031": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.030": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.029": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.028": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.027": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.026": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.025": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.024": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.023": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.022": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.021": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.020": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.019": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.018": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.017": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.016": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.015": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.014": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.013": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.012": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.011": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.010": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.009": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.008": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.007": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.006": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.005": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.004": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.003": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.002": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell.001": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Nonemissive photovoltaic cell": [
+        {
+          "id": "Optic",
+          "role": "Emissive"
+        }
+      ],
+      "Fine collector trace.131": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.130": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.129": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.128": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.127": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.126": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.125": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.124": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.123": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.122": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.121": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.120": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.119": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.118": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.117": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.116": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.115": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.114": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.113": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.112": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.111": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.110": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.109": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.108": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.107": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.106": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.105": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.104": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.103": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.102": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.101": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.100": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.099": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.098": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.097": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.096": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.095": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.094": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.093": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.092": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.091": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.090": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.089": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.088": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.087": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.086": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.085": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.084": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.083": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.082": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.081": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.080": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.079": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.078": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.077": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.076": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.075": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.074": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.073": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.072": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.071": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.070": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.069": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.068": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.067": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.066": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.065": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.064": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.063": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.062": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.061": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.060": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.059": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.058": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.057": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.056": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.055": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.054": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.053": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.052": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.051": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.050": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.049": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.048": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.047": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.046": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.045": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.044": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.043": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.042": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.041": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.040": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.039": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.038": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.037": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.036": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.035": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.034": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.033": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.032": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.031": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.030": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.029": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.028": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.027": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.026": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.025": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.024": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.023": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.022": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.021": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.020": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.019": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.018": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.017": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.016": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.015": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.014": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.013": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.012": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.011": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.010": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.009": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.008": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.007": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.006": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.005": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.004": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.003": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.002": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace.001": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Fine collector trace": [
+        {
+          "id": "Steel.001",
+          "role": "Fixed"
+        }
+      ],
+      "Continuous dielectric field": [
+        {
+          "id": "Dark",
+          "role": "Fixed"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "assembly": "Blocks/MA-SP01/assembly.json",
+    "source": "Blocks/MA-SP01/MA-SP01.blend",
+    "bu_per_cell": 1.0,
+    "footprint_bu": [
+      -0.5,
+      -1.0,
+      0.5,
+      1.0
+    ],
+    "height_range_bu": [
+      -0.1,
+      0.5
+    ],
+    "layers": [
+      {
+        "id": "body",
+        "draw_order": 0,
+        "rotates": false,
+        "pivot_bu": [
+          0,
+          0
+        ],
+        "instances": [
+          "Solar-truss",
+          "Photovoltaic-field"
+        ]
+      }
+    ],
+    "states": {
+      "damage0": {
+        "frame": 1
+      },
+      "damage33": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "damage66": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "destroyed": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "clips": {},
+    "use_author_animation": false
+  },
+  "inputs": {
+    "Blocks/MA-SP01/assembly.json": "c1cbbf5fb559635064e0f6ea51eded91f21b28fbda17170285f7b242ef959e1c",
+    "Blocks/MA-SP01/MA-SP01.blend": "cebaee8f3fb107bba412d9765e635bb1d70c2843407733ef65c5e68be6755a82",
+    "Parts/MA-SP01-R2-P01/MA-SP01-R2-P01.blend": "73ce06463edf53a9a1285c250715546bd861f08ad0b9c664ed829bd63e4457d4",
+    "Parts/MA-SP01-R2-P01/part.json": "51e7050b0f4375340e3c4c3021c986262192cf9160b395087ab0c84128de41cd",
+    "Parts/MA-SP01-R2-P02/MA-SP01-R2-P02.blend": "a17c954d27df7866e7949715699fe30809a9e1fc30c72858cc492026681e701e",
+    "Parts/MA-SP01-R2-P02/part.json": "af4adcddf39a2793265e1eeb9a2a321110dea1ba516e98c7f348fea5fb7051fd"
+  },
+  "dependencies": [
+    "Blocks/MA-SP01/assembly.json",
+    "Blocks/MA-SP01/MA-SP01.blend",
+    "Parts/MA-SP01-R2-P01/MA-SP01-R2-P01.blend",
+    "Parts/MA-SP01-R2-P01/part.json",
+    "Parts/MA-SP01-R2-P02/MA-SP01-R2-P02.blend",
+    "Parts/MA-SP01-R2-P02/part.json"
+  ]
+}

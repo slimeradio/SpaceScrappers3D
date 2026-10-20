@@ -1,0 +1,468 @@
+{
+  "id": "MA-I01",
+  "checks_passed": true,
+  "verification": "Independent Blender process reopened all three new standalone sources and three reused sources and final assembly. Geometry gates passed before dependent assembly. Mesh manifoldness, positive volume, nondegenerate faces, nondegenerate evaluated triangles and finite coordinates and material assignment checked. Full socket positions and orientations matched. All dependency versions and unit scales resolved.",
+  "standalone_parts": [
+    {
+      "id": "MA-I01-P01",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Pressure shell",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.9400800660514844
+        },
+        {
+          "mesh": "Upper recessed load gasket",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.046157955893516664
+        },
+        {
+          "mesh": "Thick cargo cheek",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.08140002058148411
+        },
+        {
+          "mesh": "Recessed side seam",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.00019872000019758896
+        },
+        {
+          "mesh": "Thick cargo cheek.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.08140002058148413
+        },
+        {
+          "mesh": "Recessed side seam.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.00019872000019758896
+        },
+        {
+          "mesh": "End shoulder armour",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.06147901080731034
+        },
+        {
+          "mesh": "Flush cargo lock strip",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.00029679999933913276
+        },
+        {
+          "mesh": "Cargo access index",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 5.8800002576410794e-06
+        },
+        {
+          "mesh": "Cargo access index.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 5.8800002576410794e-06
+        },
+        {
+          "mesh": "End shoulder armour.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.061479010807310344
+        },
+        {
+          "mesh": "Flush cargo lock strip.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.00029679999933913276
+        },
+        {
+          "mesh": "Cargo access index.002",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 5.8800002576410794e-06
+        },
+        {
+          "mesh": "Cargo access index.003",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 5.8800002576410794e-06
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-I01-P02",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Hatch pressure seal",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.03250200040219722
+        },
+        {
+          "mesh": "Faceted cargo hatch",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.06746599731709059
+        },
+        {
+          "mesh": "Recessed central access strip",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0009193503456294541
+        },
+        {
+          "mesh": "Hatch separation seam",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 3.359999953508374e-05
+        },
+        {
+          "mesh": "Flush handless latch recess",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0002106000707030264
+        },
+        {
+          "mesh": "Flush closed latch",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 6.76160035662643e-05
+        },
+        {
+          "mesh": "Flush handless latch recess.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.00021060007070302646
+        },
+        {
+          "mesh": "Flush closed latch.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 6.761600356626437e-05
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-I01-P03",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Intercell structural beam",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.18174000403851243
+        },
+        {
+          "mesh": "Recessed dorsal service platform",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.064636030980827
+        },
+        {
+          "mesh": "Dorsal socket gasket",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.003530407230091239
+        },
+        {
+          "mesh": "Closed diagonal end cap",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.028287999593257895
+        },
+        {
+          "mesh": "Protected service diagnostic",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 2.8000001866370464e-05
+        },
+        {
+          "mesh": "Closed diagonal end cap.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.028287999593257892
+        },
+        {
+          "mesh": "Protected service diagnostic.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 2.8000001866370464e-05
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-F01-P01",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Recessed hull gasket",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.7120959985332493
+        },
+        {
+          "mesh": "Graphite load deck",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.0950119785661099
+        },
+        {
+          "mesh": "Cassette seating bed",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.18982001296341383
+        },
+        {
+          "mesh": "Cassette seating bed.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.18982001296341375
+        },
+        {
+          "mesh": "Flush end interface",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.024699999859928913
+        },
+        {
+          "mesh": "Recessed power socket",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0006480000571310534
+        },
+        {
+          "mesh": "Flush end interface.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.024699999859928913
+        },
+        {
+          "mesh": "Recessed power socket.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0006480000571310534
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-F01-P03",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Dark inset shoulder structure",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.44778002642706083
+        },
+        {
+          "mesh": "Swept ceramic shoulder",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.04751824774125033
+        },
+        {
+          "mesh": "Diagonal titanium brace",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.005480298251212667
+        },
+        {
+          "mesh": "Flush shoulder end cap",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.007544001632824399
+        },
+        {
+          "mesh": "Swept ceramic shoulder.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.047518247741250325
+        },
+        {
+          "mesh": "Diagonal titanium brace.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.005480298251212667
+        },
+        {
+          "mesh": "Flush shoulder end cap.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.007544001632824401
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-R01-P05",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Flush pressure seal.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.013272000975389052
+        },
+        {
+          "mesh": "Hexagonal service cartridge.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.010070784395519613
+        },
+        {
+          "mesh": "Inset cartridge center.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0016776003010153817
+        },
+        {
+          "mesh": "Flush quarter turn lock.002",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.3033392208021095e-05
+        },
+        {
+          "mesh": "Flush quarter turn lock.003",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.3033392208021095e-05
+        },
+        {
+          "mesh": "Cartridge status.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 2.2100000194460142e-05
+        }
+      ],
+      "previews_present": true
+    }
+  ],
+  "connections": [
+    {
+      "connection": {
+        "parent_instance": "Chassis",
+        "parent_socket": "cassette-L",
+        "child_instance": "Cargo.L",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Chassis",
+        "parent_socket": "cassette-R",
+        "child_instance": "Cargo.R",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Chassis",
+        "parent_socket": "shoulder-front",
+        "child_instance": "Shoulder.Front",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Chassis",
+        "parent_socket": "shoulder-back",
+        "child_instance": "Shoulder.Back",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Chassis",
+        "parent_socket": "bridge",
+        "child_instance": "ServiceBridge",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Cargo.L",
+        "parent_socket": "hatch",
+        "child_instance": "Hatch.L",
+        "child_socket": "root"
+      },
+      "distance": 5.960464477539063e-08,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Cargo.R",
+        "parent_socket": "hatch",
+        "child_instance": "Hatch.R",
+        "child_socket": "root"
+      },
+      "distance": 5.960464477539063e-08,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "ServiceBridge",
+        "parent_socket": "service",
+        "child_instance": "ServiceCartridge",
+        "child_socket": "bottom"
+      },
+      "distance": 1.1920928955078125e-07,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    }
+  ],
+  "instance_count": 9,
+  "resolved_parts": [
+    "MA-F01-P01",
+    "MA-F01-P03",
+    "MA-I01-P01",
+    "MA-I01-P02",
+    "MA-I01-P03",
+    "MA-R01-P05"
+  ],
+  "bounds_BU": {
+    "min": [
+      -1.909999966621399,
+      -0.9500000476837158,
+      0.0
+    ],
+    "max": [
+      1.909999966621399,
+      0.9500001668930054,
+      1.2599999904632568
+    ]
+  },
+  "preview_views": [
+    "top",
+    "perspective"
+  ],
+  "glb_generated": false,
+  "game_validation": false,
+  "collision_LOD_validation": false,
+  "notes": "Overlapping enclosure seats, pressure seals and armour layers are intentional contacts. No moving poses. Physical BU-to-metre conversion unspecified."
+}

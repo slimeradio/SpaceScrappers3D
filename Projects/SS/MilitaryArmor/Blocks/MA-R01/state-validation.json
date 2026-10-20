@@ -1,0 +1,86 @@
+{
+  "id": "MA-R01",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 11,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-R01::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-R01::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-R01::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-R01::cool_down",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [],
+  "materials": [
+    {
+      "object": "Core::Crown diagnostic aperture",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Core::Crown diagnostic aperture.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Core::Crown diagnostic aperture.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Core::Crown diagnostic aperture.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Shield0::Shield diagnostic index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Shield1::Shield diagnostic index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Shield2::Shield diagnostic index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Shield3::Shield diagnostic index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Service::Cartridge status.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

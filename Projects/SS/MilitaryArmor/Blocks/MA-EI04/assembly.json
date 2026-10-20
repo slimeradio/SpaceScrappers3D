@@ -1,0 +1,378 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-EI04",
+  "version": "2.0+states1+floor1",
+  "title": "Ионный двигатель 4×6",
+  "catalog_id": "ion-thruster-4x6",
+  "catalog_grid": [
+    4,
+    6
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "Assembly: 1 BU = 1 gameplay cell; native part units transformed by ModelFit"
+  },
+  "instances": [
+    {
+      "id": "OpenPowerTract",
+      "part_id": "MA-EI04-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-EI04-P01/MA-EI04-P01.blend",
+      "parent": "MA-EI04",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ElectrodeLeftLow",
+      "part_id": "MA-EI01-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-EI01-P02/MA-EI01-P02.blend",
+      "parent": "MA-EI04",
+      "translation": [
+        -1.8,
+        -4.3,
+        1.02
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ElectrodeRightLow",
+      "part_id": "MA-EI01-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-EI01-P02/MA-EI01-P02.blend",
+      "parent": "MA-EI04",
+      "translation": [
+        1.8,
+        -4.3,
+        1.02
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ElectrodeLeftHigh",
+      "part_id": "MA-EI01-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-EI01-P02/MA-EI01-P02.blend",
+      "parent": "MA-EI04",
+      "translation": [
+        -1.8,
+        -4.3,
+        2.82
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ElectrodeRightHigh",
+      "part_id": "MA-EI01-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-EI01-P02/MA-EI01-P02.blend",
+      "parent": "MA-EI04",
+      "translation": [
+        1.8,
+        -4.3,
+        2.82
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ServiceCartridge",
+      "part_id": "MA-E01-P05",
+      "version": "1.0",
+      "source": "../../Parts/MA-E01-P05/MA-E01-P05.blend",
+      "parent": "MA-EI04",
+      "translation": [
+        0,
+        3.66,
+        1.005
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "Floor",
+      "part_id": "MA-FLOOR-rect-4x6",
+      "version": "1.0",
+      "source": "../../Parts/MA-FLOOR-rect-4x6/MA-FLOOR-rect-4x6.blend",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "OpenPowerTract",
+      "parent_socket": "ElectrodeLeftLow",
+      "child_instance": "ElectrodeLeftLow",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "OpenPowerTract",
+      "parent_socket": "ElectrodeRightLow",
+      "child_instance": "ElectrodeRightLow",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "OpenPowerTract",
+      "parent_socket": "ElectrodeLeftHigh",
+      "child_instance": "ElectrodeLeftHigh",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "OpenPowerTract",
+      "parent_socket": "ElectrodeRightHigh",
+      "child_instance": "ElectrodeRightHigh",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "OpenPowerTract",
+      "parent_socket": "service",
+      "child_instance": "ServiceCartridge",
+      "child_socket": "root"
+    }
+  ],
+  "animations": {
+    "controller": "MA-EI04",
+    "controls": {
+      "power": {
+        "default": 1,
+        "min": 0,
+        "max": 1,
+        "description": "Electrical availability; independent from retained heat/fill"
+      },
+      "activity": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Actual work/load; zero means idle"
+      },
+      "fault": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Externally supplied fault, not inferred"
+      },
+      "heat": {
+        "default": 0,
+        "min": 0,
+        "max": 1,
+        "description": "Retained normalized heat; independent from power"
+      }
+    },
+    "channels": [],
+    "clips": [
+      {
+        "name": "MA-EI04::activate",
+        "parameters": [
+          "power",
+          "activity"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-EI04::deactivate",
+        "parameters": [
+          "activity",
+          "power"
+        ],
+        "frames": [
+          1,
+          25
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-EI04::heat_up",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          49
+        ],
+        "loop": false,
+        "authoring_only": true
+      },
+      {
+        "name": "MA-EI04::cool_down",
+        "parameters": [
+          "heat"
+        ],
+        "frames": [
+          1,
+          97
+        ],
+        "loop": false,
+        "authoring_only": true
+      }
+    ],
+    "independent_controls": true,
+    "demonstration_only": false,
+    "game_integration": false
+  },
+  "exports": [],
+  "notes": "Four shallow electrode apertures, open four-lane conversion tract; +Y thrust/-Y exhaust authoring only. Physical BU unspecified. No gameplay tuning or permanent plume.",
+  "state_authoring": "state-authoring.json",
+  "nodes": [
+    {
+      "id": "MA-EI04",
+      "parent": "ModelFit",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ModelFit",
+      "parent": null,
+      "translation": [
+        0.0,
+        -0.017075006797599403,
+        0.019347827507334117
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5059288435838452,
+        0.5059288435838452,
+        0.5059288435838452
+      ]
+    },
+    {
+      "id": "Floor",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "floor_fit": {
+    "floor": "MA-FLOOR-rect-4x6",
+    "margin_cells": 0.08,
+    "uniform_scale": 0.5059288435838452,
+    "translation": [
+      0.0,
+      -0.017075006797599403,
+      0.019347827507334117
+    ],
+    "body_instances": [
+      "OpenPowerTract",
+      "ElectrodeLeftLow",
+      "ElectrodeRightLow",
+      "ElectrodeLeftHigh",
+      "ElectrodeRightHigh",
+      "ServiceCartridge"
+    ],
+    "protrusion_instances": [],
+    "thruster_point_order": [
+      "ElectrodeLeftLow/functional_points/thrust",
+      "ElectrodeRightLow/functional_points/thrust",
+      "ElectrodeLeftHigh/functional_points/thrust",
+      "ElectrodeRightHigh/functional_points/thrust"
+    ]
+  }
+}

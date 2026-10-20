@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SpaceScrappers3D · Просмотрщик</title><link rel="icon" href="data:,"><link rel="stylesheet" href="Viewer/viewer.css"></head>
+<body>
+<main id="viewport" aria-label="Трёхмерная модель"></main>
+<header><small>SpaceScrappers3D / мастерская</small><h1 id="title">Просмотрщик блоков</h1><p id="context">Загрузка…</p></header>
+<aside>
+<button id="open-model">Открыть GLB / blend…</button><input id="model-file" type="file" accept=".glb,.blend" hidden>
+<p id="import-status" class="hint" role="status">Можно открыть или перетащить .blend / .glb. MilitaryArmor загружается из текущих Blender-исходников.</p>
+<label for="project">Проект</label><select id="project"></select>
+<label for="style">Стиль</label><select id="style"></select>
+<label for="block">Блок</label><select id="block"></select>
+<label for="part">Самостоятельная деталь</label><select id="part"><option value="">Вся сборка</option></select>
+<label for="instance">Экземпляр в сборке</label><select id="instance"><option value="">Весь блок</option></select>
+<div class="row"><button id="isolate" aria-pressed="false">Изолировать</button><button id="frame">Вписать</button></div>
+<div class="row"><button id="iso">Объём</button><button id="top">Сверху</button><button id="bottom">Снизу</button></div>
+<label for="explode">Разборка <output id="explode-label">0%</output></label><input id="explode" type="range" min="0" max="1" step="0.01" value="0">
+<details id="block-states" open hidden><summary>Состояния блока</summary><div id="state-presets"></div><div id="state-controls"></div><p id="state-note" class="hint"></p></details>
+<details open><summary>Анимации</summary>
+<select id="animation" aria-label="Анимация"></select>
+<div class="row"><button id="play">▶ Запустить</button><button id="stop">Стоп</button></div>
+<label for="time">Позиция <output id="time-label">0 с</output></label><input id="time" type="range" min="0" max="1" step="0.001" value="0">
+<label for="speed">Скорость</label><select id="speed"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option selected value="1">1×</option><option value="2">2×</option></select>
+</details>
+<details open><summary>Цвет и текстуры</summary>
+<label for="scope">Применять к</label><select id="scope"><option value="all">Всему блоку</option><option value="instance">Выбранному экземпляру</option></select>
+<label for="material">Материал</label><select id="material"></select>
+<label for="color">Цвет покрытия</label><input id="color" type="color" value="#ffffff">
+<label for="emissive">Цвет свечения</label><input id="emissive" type="color" value="#000000">
+<label for="roughness">Шероховатость</label><input id="roughness" type="range" min="0" max="1" step="0.01">
+<label for="metalness">Металличность</label><input id="metalness" type="range" min="0" max="1" step="0.01">
+<button id="textures">▦ Выбрать текстуру</button>
+<label for="repeat">Масштаб рисунка</label><input id="repeat" type="range" min="0.25" max="8" step="0.25" value="1">
+<div class="row"><button id="clear-texture">Без текстуры</button><button id="reset-material">Исходный материал</button></div>
+<p class="hint">Цвет умножается на цвет текстуры. Для исходных цветов карты выберите белый. Карты библиотеки содержат только цвет.</p>
+</details>
+<details><summary>Сохранение</summary><p id="save-notice" class="hint">Правки сохраняются в этом браузере отдельно для блока и деталей. JSON переносит оформление, glTF / GLB — текущую видимую модель с материалами и анимациями.</p><div class="row"><button id="save">Скачать JSON</button><button id="load">Загрузить JSON</button></div><input id="preset-file" type="file" accept=".json" hidden><div class="row"><button id="export">Скачать glTF</button><button id="export-glb">Скачать GLB</button></div></details>
+<p id="selection" class="hint"></p><p class="hint">Перетаскивание — орбита · колесо — масштаб<br>WASD — перемещение · Space — вверх · C — вниз<br>Shift — быстрее · «Вписать» — вернуться к модели<br>Щелчок по модели — выбрать экземпляр</p><p id="status" role="status"></p><p id="error" role="alert"></p>
+</aside>
+<section id="texture-drawer" hidden><div class="row"><strong>Текстуры</strong><button id="close-textures">Закрыть</button></div><select id="texture-group" aria-label="Набор текстур"><option value="">Все наборы</option></select><input id="texture-search" type="search" placeholder="Поиск текстуры" aria-label="Поиск текстуры"><p id="texture-count"></p><div id="texture-grid"></div></section>
+<script type="module" src="Viewer/viewer.js"></script>
+</body></html>

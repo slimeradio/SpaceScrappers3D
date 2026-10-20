@@ -1,0 +1,131 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-F02",
+  "version": "2.0",
+  "title": "Производственный блок базы 2×1",
+  "catalog_id": "refinery-base",
+  "catalog_grid": [
+    2,
+    1
+  ],
+  "catalog_status": "catalog definition; authoring model only",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "ProductionBed",
+      "part_id": "MA-F01-R2-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-F01-R2-P01/MA-F01-R2-P01.blend",
+      "parent": "MA-F02",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ProcessChamber",
+      "part_id": "MA-F01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-F01-R2-P02/MA-F01-R2-P02.blend",
+      "parent": "MA-F02",
+      "translation": [
+        -0.12,
+        0,
+        0.24
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "TechnologicalBridge",
+      "part_id": "MA-F01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-F01-R2-P03/MA-F01-R2-P03.blend",
+      "parent": "MA-F02",
+      "translation": [
+        0.25,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "BaseServiceTower",
+      "part_id": "MA-F02-R2-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-F02-R2-P01/MA-F02-R2-P01.blend",
+      "parent": "MA-F02",
+      "translation": [
+        0.99,
+        0.67,
+        0.2
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "ProductionBed",
+      "parent_socket": "chamber",
+      "child_instance": "ProcessChamber",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "ProductionBed",
+      "parent_socket": "bridge",
+      "child_instance": "TechnologicalBridge",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "ProductionBed",
+      "parent_socket": "base-service",
+      "child_instance": "BaseServiceTower",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Functional silhouette redesign v2.0. Static authoring interpretation only; no new mechanics or gameplay parameters. Old source archived. No GLB."
+}

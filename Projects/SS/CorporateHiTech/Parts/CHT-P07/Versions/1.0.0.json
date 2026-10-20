@@ -1,0 +1,187 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-P07",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Сервисная крышка",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "seam",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.39,
+        0.135,
+        0.018
+      ],
+      "radius": 0.018,
+      "material": "graphite"
+    },
+    {
+      "id": "lid",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0,
+        0.012
+      ],
+      "size": [
+        0.36,
+        0.11,
+        0.018
+      ],
+      "radius": 0.014,
+      "material": "armor"
+    },
+    {
+      "id": "fastener-0",
+      "shape": "cylinder",
+      "position": [
+        -0.145,
+        0,
+        0.024
+      ],
+      "radius": 0.012,
+      "radiusTop": 0.012,
+      "depth": 0.006,
+      "axis": "Z",
+      "material": "edge"
+    },
+    {
+      "id": "fastener-1",
+      "shape": "cylinder",
+      "position": [
+        0.145,
+        0,
+        0.024
+      ],
+      "radius": 0.012,
+      "radiusTop": 0.012,
+      "depth": 0.006,
+      "axis": "Z",
+      "material": "edge"
+    },
+    {
+      "id": "status",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0,
+        0.024
+      ],
+      "size": [
+        0.09,
+        0.012,
+        0.005
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    }
+  ],
+  "materialLibrary": "../../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "status",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "service-in",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-P03.service"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.195,
+      -0.0675,
+      -0.009
+    ],
+    "max": [
+      0.195,
+      0.0675,
+      0.027
+    ],
+    "size": [
+      0.39,
+      0.135,
+      0.036
+    ]
+  }
+}

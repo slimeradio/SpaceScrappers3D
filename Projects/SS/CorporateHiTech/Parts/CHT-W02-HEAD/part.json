@@ -1,0 +1,495 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W02-HEAD",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Стреловидный корпус рельсовой турели",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "rear-spine",
+      "shape": "loft",
+      "position": [
+        0,
+        -0.55,
+        0.44
+      ],
+      "outline": [
+        [
+          -0.039999999999999994,
+          -0.26
+        ],
+        [
+          0.039999999999999994,
+          -0.26
+        ],
+        [
+          0.09,
+          -0.21000000000000002
+        ],
+        [
+          0.09,
+          0.21000000000000002
+        ],
+        [
+          0.039999999999999994,
+          0.26
+        ],
+        [
+          -0.039999999999999994,
+          0.26
+        ],
+        [
+          -0.09,
+          0.21000000000000002
+        ],
+        [
+          -0.09,
+          -0.21000000000000002
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.065,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.047,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.047,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.065,
+          "scale": [
+            0.85,
+            0.85
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "spine-inlay",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        -0.55,
+        0.511
+      ],
+      "size": [
+        0.025,
+        0.36,
+        0.009
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "shoulder-light--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.3,
+        -0.31,
+        0.39
+      ],
+      "size": [
+        0.018,
+        0.36,
+        0.012
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "shoulder-light-1",
+      "shape": "roundedBox",
+      "position": [
+        0.3,
+        -0.31,
+        0.39
+      ],
+      "size": [
+        0.018,
+        0.36,
+        0.012
+      ],
+      "radius": 0.002,
+      "material": "cyan"
+    },
+    {
+      "id": "arrowhead-keel",
+      "shape": "loft",
+      "outline": [
+        [
+          -0.18,
+          -0.86
+        ],
+        [
+          0.18,
+          -0.86
+        ],
+        [
+          0.36,
+          -0.5
+        ],
+        [
+          0.28,
+          -0.12
+        ],
+        [
+          0.115,
+          0.42
+        ],
+        [
+          0,
+          0.52
+        ],
+        [
+          -0.115,
+          0.42
+        ],
+        [
+          -0.28,
+          -0.12
+        ],
+        [
+          -0.36,
+          -0.5
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0.1
+      ],
+      "levels": [
+        {
+          "z": -0.1,
+          "scale": [
+            0.92,
+            0.92
+          ]
+        },
+        {
+          "z": -0.085,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.065,
+          "scale": [
+            0.88,
+            0.88
+          ]
+        },
+        {
+          "z": 0.1,
+          "scale": [
+            0.8448,
+            0.8448
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "swept-bearing-shell",
+      "shape": "loft",
+      "outline": [
+        [
+          -0.18,
+          -0.86
+        ],
+        [
+          0.18,
+          -0.86
+        ],
+        [
+          0.36,
+          -0.5
+        ],
+        [
+          0.28,
+          -0.12
+        ],
+        [
+          0.115,
+          0.42
+        ],
+        [
+          0,
+          0.52
+        ],
+        [
+          -0.115,
+          0.42
+        ],
+        [
+          -0.28,
+          -0.12
+        ],
+        [
+          -0.36,
+          -0.5
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0.26
+      ],
+      "levels": [
+        {
+          "z": -0.12,
+          "scale": [
+            0.92,
+            0.92
+          ]
+        },
+        {
+          "z": -0.105,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.08499999999999999,
+          "scale": [
+            0.68,
+            0.68
+          ]
+        },
+        {
+          "z": 0.12,
+          "scale": [
+            0.6528,
+            0.6528
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "nose-accelerator-cradle",
+      "shape": "lathe",
+      "profile": [
+        [
+          0.08,
+          -0.12
+        ],
+        [
+          0.16,
+          -0.12
+        ],
+        [
+          0.19,
+          -0.06
+        ],
+        [
+          0.17,
+          0.04
+        ],
+        [
+          0.12,
+          0.09
+        ],
+        [
+          0.08,
+          0.09
+        ],
+        [
+          0.08,
+          -0.12
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "position": [
+        0,
+        0.31,
+        0.31
+      ],
+      "material": "graphite"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; model-unit box projection",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "spine-inlay",
+      "geometry": "spine-inlay",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    },
+    {
+      "id": "shoulder-light--1",
+      "geometry": "shoulder-light--1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    },
+    {
+      "id": "shoulder-light-1",
+      "geometry": "shoulder-light-1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "base",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-W02-BASE.bearing",
+      "parentNode": "root"
+    },
+    {
+      "id": "pack",
+      "role": "pack",
+      "position": [
+        0,
+        -0.6,
+        0.5
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-W02-PACK.base",
+      "parentNode": "root"
+    },
+    {
+      "id": "barrel-0",
+      "role": "barrel-0",
+      "position": [
+        0,
+        0.38,
+        0.31
+      ],
+      "normal": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible": "CHT-W02-BARREL.base",
+      "parentNode": "root"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.36,
+      -0.86,
+      0.0
+    ],
+    "max": [
+      0.36,
+      0.52,
+      0.5155
+    ],
+    "size": [
+      0.72,
+      1.38,
+      0.5155
+    ]
+  },
+  "revisionNotes": "Несущий корпус заменён длинным стреловидным клином с острым носом и расширением под казёнником. Тупой прямоугольный воротник заменён конической опорой ускорителя."
+}

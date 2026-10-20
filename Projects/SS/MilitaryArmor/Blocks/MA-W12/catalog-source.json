@@ -1,0 +1,22 @@
+{
+  "ID": "seeking-rocket-turret",
+  "Название_пояснительное": "Турель самонаводящихся ракет",
+  "Статус": "Игровое XML-определение",
+  "Семейство_каталога": "Оружие",
+  "Тип_XML": "Turret",
+  "Ширина_клеток": "1",
+  "Высота_клеток": "3",
+  "Размер_сетки_без_поворота": "1x3",
+  "Описание_и_назначение": "Запускает самонаводящиеся ракеты с взрывным поражением. Поворотная установка с собственной дугой наведения. Урон из Weapon=600; дальность=300.",
+  "Прочность_MaxHealth": "4000",
+  "Масса_BlockMass_единицы_игры": "6",
+  "Особенности_и_ограничения": "Урон указан из XML Weapon без пересчёта в DPS. Итоговый залп зависит от числа стволов, ProjectilesPerShot, интервалов, магазина и нагрева. Энергия и боеприпасы заданы отдельно.",
+  "Параметры_механики_XML": "",
+  "Ресурсы_XML_1_энергия_МДж_2_топливо": "<Resource StoreInStorage=\"true\" Id=\"1\" Capacity=\"100\" WorkingThreshold=\"20\" TargetStorage=\"70\" InitialStorage=\"70\" MaxInput=\"60\" UsePerShot=\"8\" Priority=\"30\" />",
+  "Оружие_XML": "<Weapon Name=\"seeking-rocket\" ProjectileKind=\"SeekMissile\" DamagePerProjectile=\"600\" ProjectileSpeed=\"60\" MaxRange=\"300\" HitReaction=\"Damage\" AmmoItemId=\"33\" MagazineCharge=\"1\" ExplosionRadius=\"4\" SeekArcDegrees=\"90\" SeekSpeedDegrees=\"60\"><Barrels><Barrel Ref=\"seeking-rocket-barrel\" /></Barrels></Weapon>",
+  "Наведение_XML": "<Turret Name=\"laser-beam-turret\" FiringArcDegrees=\"360\" RotateSpeedDegreesPerSecond=\"90\"><RotationPivot X=\"0.5\" Y=\"0.5\" /></Turret>",
+  "Стволы_XML": "<Barrel Name=\"seeking-rocket-barrel\" MaxHeat=\"100\" HeatPerShot=\"0\" HeatPerSeconds=\"25\" ShootIntervalInSeconds=\"3\" ReloadIntervalInSeconds=\"3\" MaxMagazineCapacity=\"1\" ProjectilesPerShot=\"1\" ShotSpread=\"0\"><ShootPosition X=\"0\" Y=\"1\" /></Barrel>",
+  "Источник_от_корня_проекта": "Assets/Definitions/weapon_variants/seeking-rocket-turret.definition.xml",
+  "Основание_описания": "Пояснение по текущим XML и исходному коду; название пояснительное, не локализованное имя UI. Размер — Size в клетках до поворота, не габарит рисунка или коллайдера. Игровой запуск не проверялся.",
+  "Дата_среза": "2026-10-16"
+}

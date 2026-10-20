@@ -1,0 +1,644 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-SP04-P01",
+  "version": "2.0",
+  "name": "Large passive photovoltaic sail, explicit 4x6 size variant",
+  "source": "MA-SP04-P01.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -3.5999999046325684,
+      -5.400000095367432,
+      0.0
+    ],
+    "max": [
+      3.5999999046325684,
+      5.400000095367432,
+      0.08349999785423279
+    ]
+  },
+  "materials": [
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Thin ceramic edge",
+        "Thin ceramic edge.001",
+        "Thin terminal edge",
+        "Thin terminal edge.001"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Single dielectric underlay"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Optic",
+      "surfaces": [
+        "PV-row-00",
+        "PV-row-01",
+        "PV-row-02",
+        "PV-row-03",
+        "PV-row-04",
+        "PV-row-05",
+        "PV-row-06",
+        "PV-row-07",
+        "PV-row-08",
+        "PV-row-09",
+        "PV-row-10",
+        "PV-row-11",
+        "PV-row-12",
+        "PV-row-13",
+        "PV-row-14",
+        "PV-row-15",
+        "PV-row-16",
+        "PV-row-17",
+        "PV-row-18",
+        "PV-row-19",
+        "PV-row-20",
+        "PV-row-21",
+        "PV-row-22",
+        "PV-row-23",
+        "PV-row-24",
+        "PV-row-25",
+        "PV-row-26",
+        "PV-row-27",
+        "PV-row-28",
+        "PV-row-29",
+        "PV-row-30",
+        "PV-row-31",
+        "PV-row-32",
+        "PV-row-33",
+        "PV-row-34",
+        "PV-row-35"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.18000000715255737,
+        0.25,
+        1.0
+      ],
+      "metalness": 0.6499999761581421,
+      "roughness": 0.18000000715255737,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Trace-row-00",
+        "Trace-row-01",
+        "Trace-row-02",
+        "Trace-row-03",
+        "Trace-row-04",
+        "Trace-row-05",
+        "Trace-row-06",
+        "Trace-row-07",
+        "Trace-row-08",
+        "Trace-row-09",
+        "Trace-row-10",
+        "Trace-row-11",
+        "Trace-row-12",
+        "Trace-row-13",
+        "Trace-row-14",
+        "Trace-row-15",
+        "Trace-row-16",
+        "Trace-row-17",
+        "Trace-row-18",
+        "Trace-row-19",
+        "Trace-row-20",
+        "Trace-row-21",
+        "Trace-row-22",
+        "Trace-row-23",
+        "Trace-row-24",
+        "Trace-row-25",
+        "Trace-row-26",
+        "Trace-row-27",
+        "Trace-row-28",
+        "Trace-row-29",
+        "Trace-row-30",
+        "Trace-row-31",
+        "Trace-row-32",
+        "Trace-row-33",
+        "Trace-row-34",
+        "Trace-row-35",
+        "Longitudinal electrical collector"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Thin continuous substrate"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "root",
+      "role": "field",
+      "parent": "part",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "support-0",
+      "role": "field",
+      "parent": "part",
+      "position": [
+        -2.1,
+        -3.9,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "support-1",
+      "role": "field",
+      "parent": "part",
+      "position": [
+        2.1,
+        -3.9,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "support-2",
+      "role": "field",
+      "parent": "part",
+      "position": [
+        -2.1,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "support-3",
+      "role": "field",
+      "parent": "part",
+      "position": [
+        2.1,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "support-4",
+      "role": "field",
+      "parent": "part",
+      "position": [
+        -2.1,
+        3.9,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "support-5",
+      "role": "field",
+      "parent": "part",
+      "position": [
+        2.1,
+        3.9,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "root-seat",
+      "parent": "part",
+      "role": "field",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.08,
+        0.08
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "support-0-seat",
+      "parent": "part",
+      "role": "field",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.08,
+        0.08
+      ],
+      "position": [
+        -2.1,
+        -3.9,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "support-1-seat",
+      "parent": "part",
+      "role": "field",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.08,
+        0.08
+      ],
+      "position": [
+        2.1,
+        -3.9,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "support-2-seat",
+      "parent": "part",
+      "role": "field",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.08,
+        0.08
+      ],
+      "position": [
+        -2.1,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "support-3-seat",
+      "parent": "part",
+      "role": "field",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.08,
+        0.08
+      ],
+      "position": [
+        2.1,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "support-4-seat",
+      "parent": "part",
+      "role": "field",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.08,
+        0.08
+      ],
+      "position": [
+        -2.1,
+        3.9,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    },
+    {
+      "id": "support-5-seat",
+      "parent": "part",
+      "role": "field",
+      "shape": "logical-point-plane",
+      "dimensions": [
+        0.08,
+        0.08
+      ],
+      "position": [
+        2.1,
+        3.9,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.r2.solar.field"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "Functional identity v2.0. Static procedural PBR; no file textures or UV dependency. No animation or gameplay mechanism. BU conditional."
+}

@@ -1,0 +1,103 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-lamp",
+  "version": "2.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-lamp.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "scale_policy": "positive uniform instance scale; nonuniform requires explicit parametric variant and revalidation",
+  "sockets": [
+    {
+      "id": "mount",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "space": "local"
+    }
+  ],
+  "mount_regions": [],
+  "functional_points": [],
+  "animations": [],
+  "bind_pose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotation_euler_xyz_radians": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "materials": [
+    "CM.amber",
+    "CM.graphite",
+    "CM.rubber",
+    "CM.steel"
+  ],
+  "emissive_regions": [
+    {
+      "object": "amber lens",
+      "material": "CM.amber",
+      "settings": "../../Materials/CM-T01/materials.json#emission"
+    }
+  ],
+  "dependencies": [
+    "../../Materials/CM-T01/materials.json"
+  ],
+  "compatibility": "authoring metadata only; game mapping pending",
+  "revision_note": "Revision 2: no typography; sharp structural chamfers retain 8 segments. Prior revision archived in Revisions/CM-T01-v1.0.0.zip.",
+  "bounds": {
+    "min": [
+      -0.2879999876022339,
+      -0.14100000262260437,
+      -0.125
+    ],
+    "max": [
+      0.2879999876022339,
+      0.10000000149011612,
+      0.125
+    ],
+    "dimensions": [
+      0.5759999752044678,
+      0.2409999966621399,
+      0.25
+    ]
+  }
+}

@@ -1,0 +1,1424 @@
+{
+  "schema": "SpriteBake.BlockMetadata/1",
+  "id": "MA-A04",
+  "catalog_id": "armor-1x2-wedge",
+  "axes": {
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "bu_per_cell": 1.0,
+  "footprint_bu": [
+    -0.5,
+    -1.0,
+    0.5,
+    1.0
+  ],
+  "layers": [
+    {
+      "id": "body",
+      "draw_order": 0,
+      "rotates": false,
+      "pivot_bu": [
+        0,
+        0
+      ],
+      "instances": [
+        "armor-shell"
+      ]
+    }
+  ],
+  "states": {
+    "damage0": {
+      "frame": 1
+    },
+    "damage33": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "damage66": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    },
+    "destroyed": {
+      "alias": "damage0",
+      "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+    }
+  },
+  "clips": {},
+  "frames": {
+    "damage0": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "armor-shell/mounts/structural-root",
+          "role": "armor-mount",
+          "parent": "MA-A04-P01.ArmorSkin",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor-edge.v1"
+          ],
+          "constraints": "Unit transform; structural join walls z0..0.16",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "structural-root",
+          "instance": "armor-shell",
+          "part": "MA-A04-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "armor-shell/attachment_areas/bottom-mount",
+          "role": "structural-mount",
+          "parent": "MA-A04-P01.ArmorSkin",
+          "shape": "polygon",
+          "vertices": [
+            [
+              -0.5,
+              -1.0,
+              0
+            ],
+            [
+              0.5,
+              1.0,
+              0
+            ],
+            [
+              -0.5,
+              1.0,
+              0
+            ]
+          ],
+          "local_pose": {
+            "translation": [
+              0,
+              0,
+              0
+            ],
+            "rotation_euler_xyz": [
+              0,
+              0,
+              0
+            ]
+          },
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "allowed_rotations_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "constraints": "Keep exact footprint; no nonuniform scale",
+          "compatibility": [
+            "MilitaryArmor.armor-edge.v1"
+          ],
+          "vertices_bu": [
+            [
+              -0.5,
+              -1.0,
+              0.0
+            ],
+            [
+              0.5,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5,
+              1.0,
+              0.0
+            ]
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "normal_block": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom-mount",
+          "instance": "armor-shell",
+          "part": "MA-A04-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-A04": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "armor-shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "damage33": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "armor-shell/mounts/structural-root",
+          "role": "armor-mount",
+          "parent": "MA-A04-P01.ArmorSkin",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor-edge.v1"
+          ],
+          "constraints": "Unit transform; structural join walls z0..0.16",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "structural-root",
+          "instance": "armor-shell",
+          "part": "MA-A04-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "armor-shell/attachment_areas/bottom-mount",
+          "role": "structural-mount",
+          "parent": "MA-A04-P01.ArmorSkin",
+          "shape": "polygon",
+          "vertices": [
+            [
+              -0.5,
+              -1.0,
+              0
+            ],
+            [
+              0.5,
+              1.0,
+              0
+            ],
+            [
+              -0.5,
+              1.0,
+              0
+            ]
+          ],
+          "local_pose": {
+            "translation": [
+              0,
+              0,
+              0
+            ],
+            "rotation_euler_xyz": [
+              0,
+              0,
+              0
+            ]
+          },
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "allowed_rotations_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "constraints": "Keep exact footprint; no nonuniform scale",
+          "compatibility": [
+            "MilitaryArmor.armor-edge.v1"
+          ],
+          "vertices_bu": [
+            [
+              -0.5,
+              -1.0,
+              0.0
+            ],
+            [
+              0.5,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5,
+              1.0,
+              0.0
+            ]
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "normal_block": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom-mount",
+          "instance": "armor-shell",
+          "part": "MA-A04-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-A04": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "armor-shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "damage66": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "armor-shell/mounts/structural-root",
+          "role": "armor-mount",
+          "parent": "MA-A04-P01.ArmorSkin",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor-edge.v1"
+          ],
+          "constraints": "Unit transform; structural join walls z0..0.16",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "structural-root",
+          "instance": "armor-shell",
+          "part": "MA-A04-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "armor-shell/attachment_areas/bottom-mount",
+          "role": "structural-mount",
+          "parent": "MA-A04-P01.ArmorSkin",
+          "shape": "polygon",
+          "vertices": [
+            [
+              -0.5,
+              -1.0,
+              0
+            ],
+            [
+              0.5,
+              1.0,
+              0
+            ],
+            [
+              -0.5,
+              1.0,
+              0
+            ]
+          ],
+          "local_pose": {
+            "translation": [
+              0,
+              0,
+              0
+            ],
+            "rotation_euler_xyz": [
+              0,
+              0,
+              0
+            ]
+          },
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "allowed_rotations_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "constraints": "Keep exact footprint; no nonuniform scale",
+          "compatibility": [
+            "MilitaryArmor.armor-edge.v1"
+          ],
+          "vertices_bu": [
+            [
+              -0.5,
+              -1.0,
+              0.0
+            ],
+            [
+              0.5,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5,
+              1.0,
+              0.0
+            ]
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "normal_block": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom-mount",
+          "instance": "armor-shell",
+          "part": "MA-A04-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-A04": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "armor-shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    },
+    "destroyed": {
+      "source_frame": 1,
+      "points": [
+        {
+          "id": "armor-shell/mounts/structural-root",
+          "role": "armor-mount",
+          "parent": "MA-A04-P01.ArmorSkin",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor-edge.v1"
+          ],
+          "constraints": "Unit transform; structural join walls z0..0.16",
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "up_block": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "structural-root",
+          "instance": "armor-shell",
+          "part": "MA-A04-P01",
+          "category": "mounts",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "id": "armor-shell/attachment_areas/bottom-mount",
+          "role": "structural-mount",
+          "parent": "MA-A04-P01.ArmorSkin",
+          "shape": "polygon",
+          "vertices": [
+            [
+              -0.5,
+              -1.0,
+              0
+            ],
+            [
+              0.5,
+              1.0,
+              0
+            ],
+            [
+              -0.5,
+              1.0,
+              0
+            ]
+          ],
+          "local_pose": {
+            "translation": [
+              0,
+              0,
+              0
+            ],
+            "rotation_euler_xyz": [
+              0,
+              0,
+              0
+            ]
+          },
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "allowed_rotations_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "constraints": "Keep exact footprint; no nonuniform scale",
+          "compatibility": [
+            "MilitaryArmor.armor-edge.v1"
+          ],
+          "vertices_bu": [
+            [
+              -0.5,
+              -1.0,
+              0.0
+            ],
+            [
+              0.5,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5,
+              1.0,
+              0.0
+            ]
+          ],
+          "forward_block": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "normal_block": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "position_bu": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "matrix_block_from_local": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "local_id": "bottom-mount",
+          "instance": "armor-shell",
+          "part": "MA-A04-P01",
+          "category": "attachment_areas",
+          "layer": "body",
+          "position_cells": [
+            0.5,
+            1.0,
+            0.0
+          ]
+        }
+      ],
+      "nodes": {
+        "MA-A04": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "armor-shell": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "alias_of": "damage0"
+    }
+  },
+  "assembly": {
+    "schema": "MilitaryArmor.BlenderAuthoring/1",
+    "id": "MA-A04",
+    "version": "1.0",
+    "title": "Faceted long wedge armor 1x2",
+    "catalog_id": "armor-1x2-wedge",
+    "catalog_grid": [
+      1,
+      2
+    ],
+    "axes": {
+      "handedness": "right",
+      "up": "+Z",
+      "forward": "-Y",
+      "units": "BU; physical scale unspecified"
+    },
+    "instances": [
+      {
+        "id": "armor-shell",
+        "part_id": "MA-A04-P01",
+        "version": "1.0",
+        "source": "../../Parts/MA-A04-P01/MA-A04-P01.blend",
+        "parent": "MA-A04",
+        "translation": [
+          0,
+          0,
+          0
+        ],
+        "rotation_euler_xyz": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "id": "MA-A04",
+        "parent": null,
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "id": "armor-shell",
+        "parent": "MA-A04",
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_euler_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "animations": [],
+    "exports": [
+      "Exports/MA-A04.glb"
+    ],
+    "notes": "Static one-part armor; unit transforms. Catalog grid != physical meter dimensions. No animations, emission, textures or visible sockets."
+  },
+  "parts": {
+    "armor-shell": {
+      "schema": "MilitaryArmor.BlenderAuthoring/1",
+      "id": "MA-A04-P01",
+      "version": "1.0",
+      "name": "Faceted spacecraft long wedge armor 1x2",
+      "source": "MA-A04-P01.blend",
+      "axes": {
+        "handedness": "right",
+        "up": "+Z",
+        "forward": "-Y",
+        "units": "BU; physical scale unspecified"
+      },
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rest_pose": "identity",
+      "scale_policy": "unit only",
+      "bounds_local": {
+        "min": [
+          -0.5,
+          -1.0,
+          0.0
+        ],
+        "max": [
+          0.5,
+          1.0,
+          0.2800000011920929
+        ]
+      },
+      "materials": [
+        {
+          "id": "Armor",
+          "surfaces": [
+            "MA-A04-P01.ArmorSkin"
+          ],
+          "base_color_linear": [
+            0.0949999988079071,
+            0.11999999731779099,
+            0.14499999582767487,
+            1.0
+          ],
+          "metalness": 0.7200000286102295,
+          "roughness": 0.3700000047683716,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        },
+        {
+          "id": "Ceramic",
+          "surfaces": [
+            "MA-A04-P01.ArmorSkin"
+          ],
+          "base_color_linear": [
+            0.3799999952316284,
+            0.4300000071525574,
+            0.46000000834465027,
+            1.0
+          ],
+          "metalness": 0.3799999952316284,
+          "roughness": 0.3199999928474426,
+          "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+        }
+      ],
+      "emission": [],
+      "mounts": [
+        {
+          "id": "structural-root",
+          "role": "armor-mount",
+          "parent": "MA-A04-P01.ArmorSkin",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "compatibility": [
+            "MilitaryArmor.armor-edge.v1"
+          ],
+          "constraints": "Unit transform; structural join walls z0..0.16"
+        }
+      ],
+      "functional_points": [],
+      "attachment_areas": [
+        {
+          "id": "bottom-mount",
+          "role": "structural-mount",
+          "parent": "MA-A04-P01.ArmorSkin",
+          "shape": "polygon",
+          "vertices": [
+            [
+              -0.5,
+              -1.0,
+              0
+            ],
+            [
+              0.5,
+              1.0,
+              0
+            ],
+            [
+              -0.5,
+              1.0,
+              0
+            ]
+          ],
+          "local_pose": {
+            "translation": [
+              0,
+              0,
+              0
+            ],
+            "rotation_euler_xyz": [
+              0,
+              0,
+              0
+            ]
+          },
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "forward": [
+            0,
+            -1,
+            0
+          ],
+          "allowed_rotations_degrees": [
+            0,
+            90,
+            180,
+            270
+          ],
+          "constraints": "Keep exact footprint; no nonuniform scale",
+          "compatibility": [
+            "MilitaryArmor.armor-edge.v1"
+          ]
+        }
+      ],
+      "animations": [],
+      "notes": "Catalog 1x2 footprint; visual 1BU pitch, not metric. Uniform PBR Armor and Ceramic, no UV/image dependency. One manifold mesh; planar chamfers and recessed face. No visible mounting hardware.",
+      "catalog_id": "armor-1x2-wedge",
+      "catalog_grid": [
+        1,
+        2
+      ],
+      "geometry_parameters": {
+        "nominal_boundary": [
+          [
+            -0.5,
+            -1.0
+          ],
+          [
+            0.5,
+            1.0
+          ],
+          [
+            -0.5,
+            1.0
+          ]
+        ],
+        "structural_wall_height": 0.16,
+        "thickness": 0.28,
+        "top_inset_z": 0.255,
+        "upper_chamfer_corner_cut": 0.105
+      }
+    }
+  },
+  "material_slots": {
+    "armor-shell": {
+      "MA-A04-P01.ArmorSkin": [
+        {
+          "id": "Armor",
+          "role": "Color2"
+        },
+        {
+          "id": "Ceramic",
+          "role": "Color1"
+        }
+      ]
+    }
+  },
+  "profile": {
+    "assembly": "Blocks/MA-A04/assembly.json",
+    "source": "Blocks/MA-A04/MA-A04.blend",
+    "bu_per_cell": 1.0,
+    "footprint_bu": [
+      -0.5,
+      -1.0,
+      0.5,
+      1.0
+    ],
+    "height_range_bu": [
+      -0.1,
+      0.4
+    ],
+    "layers": [
+      {
+        "id": "body",
+        "draw_order": 0,
+        "rotates": false,
+        "pivot_bu": [
+          0,
+          0
+        ],
+        "instances": [
+          "armor-shell"
+        ]
+      }
+    ],
+    "states": {
+      "damage0": {
+        "frame": 1
+      },
+      "damage33": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "damage66": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      },
+      "destroyed": {
+        "alias": "damage0",
+        "reason": "Temporary static replacement; no approved authored damage state or gameplay clip."
+      }
+    },
+    "clips": {},
+    "use_author_animation": false
+  },
+  "inputs": {
+    "Blocks/MA-A04/assembly.json": "2b870a4b3674b206bedefce412e5e71e63b6ee4b0bf98b57e03cec2fdc4f615b",
+    "Blocks/MA-A04/MA-A04.blend": "2bb42662fd9df22e54d46e5b80c7531b912134afc235dca5e7d85e74aeb3ede1",
+    "Parts/MA-A04-P01/MA-A04-P01.blend": "27787ef3590f6159b1df5abec1005ee212dd1fc7c54b60ad9c84e63fc07397e1",
+    "Parts/MA-A04-P01/part.json": "549822a81b9d4c955e0f6ca6a21c1427e7c3c27cf7725b2af180e7bb18c8cc8d"
+  },
+  "dependencies": [
+    "Blocks/MA-A04/assembly.json",
+    "Blocks/MA-A04/MA-A04.blend",
+    "Parts/MA-A04-P01/MA-A04-P01.blend",
+    "Parts/MA-A04-P01/part.json"
+  ]
+}

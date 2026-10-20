@@ -1,0 +1,607 @@
+{
+  "id": "MA-FT02",
+  "checks_passed": true,
+  "independent_reopen": true,
+  "source_parts": [
+    {
+      "id": "MA-FT01-P02",
+      "version": "1.0",
+      "geometry": {
+        "checks_passed": true,
+        "meshes": [
+          {
+            "mesh": "Monolithic sealed tank",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 2.849196041298899,
+            "finite": true,
+            "triangles": 364,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Protected dorsal spine",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.03387996761441238,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Inset longitudinal seam",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.001068696285088476,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Inset longitudinal seam.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.0010686962850884765,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          }
+        ],
+        "source_normals_consistent": true,
+        "evaluated_coordinates_finite": true
+      }
+    },
+    {
+      "id": "MA-FT01-P03",
+      "version": "1.0",
+      "geometry": {
+        "checks_passed": true,
+        "meshes": [
+          {
+            "mesh": "Cold ceramic pressure hoop",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.056784007204293795,
+            "finite": true,
+            "triangles": 448,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          }
+        ],
+        "source_normals_consistent": true,
+        "evaluated_coordinates_finite": true
+      }
+    },
+    {
+      "id": "MA-FT02-P01",
+      "version": "1.0",
+      "geometry": {
+        "checks_passed": true,
+        "meshes": [
+          {
+            "mesh": "Independent transverse load bearer",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.24811195409095427,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Tank saddle",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.11460000034123644,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Tank saddle.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.11460000034123646,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Independent transverse load bearer.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.2481120028713939,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Tank saddle.002",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.114600010623038,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Tank saddle.003",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.11460001062303798,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Narrow longitudinal tie",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.09569998348355306,
+            "finite": true,
+            "triangles": 156,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Narrow longitudinal tie.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.09569998348355306,
+            "finite": true,
+            "triangles": 156,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Protected front transfer header",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.42853806218707735,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Recessed end coupling",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.021384001576518114,
+            "finite": true,
+            "triangles": 204,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Sealed transfer cap",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.002812499886656327,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Recessed end coupling.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.021384001576518114,
+            "finite": true,
+            "triangles": 204,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Sealed transfer cap.001",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.002812499886656327,
+            "finite": true,
+            "triangles": 140,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          },
+          {
+            "mesh": "Small central inspection cover",
+            "nonmanifold": 0,
+            "source_degenerate": 0,
+            "signed_volume": 0.004202996169268932,
+            "finite": true,
+            "triangles": 220,
+            "evaluated_degenerate": 0,
+            "materials": true,
+            "pass": true
+          }
+        ],
+        "source_normals_consistent": true,
+        "evaluated_coordinates_finite": true
+      }
+    }
+  ],
+  "assembly_geometry": {
+    "checks_passed": true,
+    "meshes": [
+      {
+        "mesh": "Structure::Independent transverse load bearer",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.24811195409095427,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "Structure::Tank saddle",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.11460000034123644,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "Structure::Tank saddle.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.11460000034123646,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "Structure::Independent transverse load bearer.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.2481120028713939,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "Structure::Tank saddle.002",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.114600010623038,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "Structure::Tank saddle.003",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.11460001062303798,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "Structure::Narrow longitudinal tie",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.09569998348355306,
+        "finite": true,
+        "triangles": 156,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "Structure::Narrow longitudinal tie.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.09569998348355306,
+        "finite": true,
+        "triangles": 156,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "Structure::Protected front transfer header",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.42853806218707735,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "Structure::Recessed end coupling",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.021384001576518114,
+        "finite": true,
+        "triangles": 204,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "Structure::Sealed transfer cap",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.002812499886656327,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "Structure::Recessed end coupling.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.021384001576518114,
+        "finite": true,
+        "triangles": 204,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "Structure::Sealed transfer cap.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.002812499886656327,
+        "finite": true,
+        "triangles": 140,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "Structure::Small central inspection cover",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.004202996169268932,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "leftVessel::Monolithic sealed tank",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 2.849196041298899,
+        "finite": true,
+        "triangles": 364,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "leftVessel::Protected dorsal spine",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.03387996761441238,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "leftVessel::Inset longitudinal seam",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.001068696285088476,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "leftVessel::Inset longitudinal seam.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.0010686962850884765,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "leftHoopfront::Cold ceramic pressure hoop",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.056784007204293795,
+        "finite": true,
+        "triangles": 448,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "leftHooprear::Cold ceramic pressure hoop",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.056784007204293795,
+        "finite": true,
+        "triangles": 448,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "rightVessel::Monolithic sealed tank",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 2.849196041298899,
+        "finite": true,
+        "triangles": 364,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "rightVessel::Protected dorsal spine",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.03387996761441238,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "rightVessel::Inset longitudinal seam",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.001068696285088476,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "rightVessel::Inset longitudinal seam.001",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.0010686962850884765,
+        "finite": true,
+        "triangles": 220,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "rightHoopfront::Cold ceramic pressure hoop",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.056784007204293795,
+        "finite": true,
+        "triangles": 448,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      },
+      {
+        "mesh": "rightHooprear::Cold ceramic pressure hoop",
+        "nonmanifold": 0,
+        "source_degenerate": 0,
+        "signed_volume": 0.056784007204293795,
+        "finite": true,
+        "triangles": 448,
+        "evaluated_degenerate": 0,
+        "materials": true,
+        "pass": true
+      }
+    ]
+  },
+  "connections": [
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "leftVessel",
+      "child_instance": "leftVessel",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "semantic_compatibility": true
+    },
+    {
+      "parent_instance": "leftVessel",
+      "parent_socket": "band-front",
+      "child_instance": "leftHoopfront",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "semantic_compatibility": true
+    },
+    {
+      "parent_instance": "leftVessel",
+      "parent_socket": "band-rear",
+      "child_instance": "leftHooprear",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "semantic_compatibility": true
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "rightVessel",
+      "child_instance": "rightVessel",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "semantic_compatibility": true
+    },
+    {
+      "parent_instance": "rightVessel",
+      "parent_socket": "band-front",
+      "child_instance": "rightHoopfront",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "semantic_compatibility": true
+    },
+    {
+      "parent_instance": "rightVessel",
+      "parent_socket": "band-rear",
+      "child_instance": "rightHooprear",
+      "child_socket": "root",
+      "position_error": 0.0,
+      "forward_error": 0.0,
+      "up_error": 0.0,
+      "semantic_compatibility": true
+    }
+  ],
+  "instance_count": 7,
+  "unit_scale": true,
+  "dependency_paths_resolved": true,
+  "no_glb_generated": true,
+  "game_validation": false
+}

@@ -1,0 +1,297 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-P05",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Лазерный эмиттер",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "core",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0.195,
+        0
+      ],
+      "radius": 0.105,
+      "radiusTop": 0.105,
+      "depth": 0.47,
+      "axis": "Y",
+      "material": "graphite"
+    },
+    {
+      "id": "ceramic-shroud",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.13,
+        0.065
+      ],
+      "size": [
+        0.285,
+        0.46,
+        0.21
+      ],
+      "radius": 0.055,
+      "material": "armor"
+    },
+    {
+      "id": "rail-seat",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.145,
+        0.177
+      ],
+      "size": [
+        0.077,
+        0.33,
+        0.018
+      ],
+      "radius": 0.008,
+      "material": "graphite"
+    },
+    {
+      "id": "rail-light",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.145,
+        0.188
+      ],
+      "size": [
+        0.026,
+        0.29,
+        0.009
+      ],
+      "radius": 0.003,
+      "material": "cyan"
+    },
+    {
+      "id": "muzzle-sleeve",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0.39,
+        0
+      ],
+      "radius": 0.122,
+      "radiusTop": 0.122,
+      "depth": 0.16,
+      "axis": "Y",
+      "material": "edge"
+    },
+    {
+      "id": "dark-recess",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0.474,
+        0
+      ],
+      "radius": 0.098,
+      "radiusTop": 0.098,
+      "depth": 0.012,
+      "axis": "Y",
+      "material": "rubber"
+    },
+    {
+      "id": "lens-frame",
+      "shape": "torus",
+      "position": [
+        0,
+        0.479,
+        0
+      ],
+      "radius": 0.078,
+      "tube": 0.011,
+      "axis": "Y",
+      "material": "graphite"
+    },
+    {
+      "id": "optical-lens",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0.482,
+        0
+      ],
+      "radius": 0.065,
+      "radiusTop": 0.065,
+      "depth": 0.008,
+      "axis": "Y",
+      "material": "glass"
+    },
+    {
+      "id": "aperture-glow",
+      "shape": "torus",
+      "position": [
+        0,
+        0.489,
+        0
+      ],
+      "radius": 0.058,
+      "tube": 0.007,
+      "axis": "Y",
+      "material": "cyan"
+    },
+    {
+      "id": "iris",
+      "shape": "cylinder",
+      "position": [
+        0,
+        0.49,
+        0
+      ],
+      "radius": 0.026,
+      "radiusTop": 0.026,
+      "depth": 0.003,
+      "axis": "Y",
+      "material": "cyan"
+    }
+  ],
+  "materialLibrary": "../../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "glass",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "rail-light",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    },
+    {
+      "id": "optical-lens",
+      "material": "glass",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    },
+    {
+      "id": "aperture-glow",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    },
+    {
+      "id": "iris",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "emitter-in",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible": "CHT-P03.emitter-*"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [
+    {
+      "id": "muzzle",
+      "role": "beam-origin",
+      "position": [
+        0,
+        0.49,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "part-root",
+      "space": "part-local"
+    }
+  ],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.1425,
+      -0.1,
+      -0.122
+    ],
+    "max": [
+      0.1425,
+      0.496,
+      0.1925
+    ],
+    "size": [
+      0.285,
+      0.596,
+      0.3145
+    ]
+  }
+}

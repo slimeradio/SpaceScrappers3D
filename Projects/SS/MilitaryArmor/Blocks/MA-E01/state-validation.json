@@ -1,0 +1,92 @@
+{
+  "id": "MA-E01",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 6,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-E01::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-E01::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-E01::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-E01::cool_down",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [],
+  "materials": [
+    {
+      "object": "Chamber::Lateral thermal recess",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "Chamber::Chamber diagnostics",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Chamber::Lateral thermal recess.001",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "Chamber::Chamber diagnostics.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Nozzle::Recessed energized throat",
+      "kind": "thrust",
+      "off": 0.0,
+      "on": 7.019999980926514
+    },
+    {
+      "object": "Nozzle::Deep combustion chamber",
+      "kind": "heat",
+      "monotonic_strengths": [
+        0.0,
+        0.625,
+        2.5,
+        5.625,
+        10.0
+      ],
+      "retained_with_power_off": true
+    },
+    {
+      "object": "ServiceCartridge::Service status inset",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

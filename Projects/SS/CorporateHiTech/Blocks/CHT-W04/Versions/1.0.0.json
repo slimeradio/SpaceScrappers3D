@@ -1,0 +1,255 @@
+{
+  "schema": "cht-authoring-assembly/1",
+  "id": "CHT-W04",
+  "version": "1.0.0",
+  "title": "Assault — широкий штурмовой дробовик",
+  "catalogId": "fleet-shotgun-assault",
+  "catalogReference": "../../../Catalog/blocks.csv",
+  "catalogGrid": [
+    2,
+    2
+  ],
+  "catalogRotationPivot": [
+    1,
+    1
+  ],
+  "units": "model-unit",
+  "scaleNote": "Model units are not metres or catalogue cells. Barrel count and catalogue X offsets retained; visual muzzle lengths are authored independently of gameplay ShootPosition Y=1.55. No gameplay integration.",
+  "up": "+Z",
+  "forward": "+Y",
+  "instances": [
+    {
+      "id": "foundation",
+      "partId": "CHT-P01",
+      "partVersion": "1.1.0",
+      "source": "../../Parts/CHT-P01/part.json",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": null
+    },
+    {
+      "id": "yaw",
+      "partId": "CHT-P02",
+      "partVersion": "1.1.0",
+      "source": "../../Parts/CHT-P02/part.json",
+      "parent": "foundation",
+      "translation": [
+        0,
+        0,
+        0.23
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "bearing",
+        "childSocket": "base"
+      },
+      "joint": {
+        "type": "revolute",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "rangeDegrees": [
+          0,
+          360
+        ],
+        "continuous": true,
+        "restDegrees": 0
+      }
+    },
+    {
+      "id": "head",
+      "partId": "CHT-W04-HULL",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W04-HULL/part.json",
+      "parent": "yaw",
+      "translation": [
+        0,
+        0,
+        0.14
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "head",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "barrel",
+      "partId": "CHT-W04-BARREL",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W04-BARREL/part.json",
+      "parent": "head",
+      "translation": [
+        0,
+        0.28,
+        0.27
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "barrel",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "side-L",
+      "partId": "CHT-W04-SIDE",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W04-SIDE/part.json",
+      "parent": "head",
+      "translation": [
+        -0.68,
+        -0.06,
+        0.11
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "side-L",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "side-R",
+      "partId": "CHT-W04-SIDE",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W04-SIDE/part.json",
+      "parent": "head",
+      "translation": [
+        0.68,
+        -0.06,
+        0.11
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "side-R",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "sight",
+      "partId": "CHT-W04-SIGHT",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W04-SIGHT/part.json",
+      "parent": "head",
+      "translation": [
+        0,
+        -0.21,
+        0.48
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "sight",
+        "childSocket": "base"
+      }
+    }
+  ],
+  "animations": [
+    {
+      "id": "yaw-demo",
+      "node": "yaw",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "rangeDegrees": [
+        0,
+        360
+      ],
+      "durationSeconds": 2.0,
+      "loop": true,
+      "interpolation": "LINEAR",
+      "gameplaySource": "catalog RotateSpeedDegreesPerSecond=180",
+      "restDegrees": 0
+    }
+  ],
+  "catalogSnapshot": {
+    "ID": "fleet-shotgun-assault",
+    "Название_пояснительное": "Дробовик Fleet assault",
+    "Тип_XML": "Turret",
+    "Ширина_клеток": "2",
+    "Высота_клеток": "2",
+    "Размер_сетки_без_поворота": "2x2",
+    "Описание_и_назначение": "Стреляет физическими снарядами. Поворотная установка с собственной дугой наведения. Урон из Weapon=40; дальность=55.",
+    "Прочность_MaxHealth": "3690",
+    "Масса_BlockMass_единицы_игры": "7.25",
+    "Особенности_и_ограничения": "Урон указан из XML Weapon без пересчёта в DPS. Итоговый залп зависит от числа стволов, ProjectilesPerShot, интервалов, магазина и нагрева. Энергия и боеприпасы заданы отдельно.",
+    "Параметры_механики_XML": "<Heat Capacity=\"40\" Input=\"0\" Output=\"12\" EnergyFraction=\"0.8\" Background=\"0\" WorkHeat=\"0\" Radiator=\"0\" Shutdown=\"0.9\" Resume=\"0.5\" DamagePerSecond=\"0\" Action=\"Disable\" />",
+    "Ресурсы_XML_1_энергия_МДж_2_топливо": "<Resource StoreInStorage=\"true\" Id=\"1\" Capacity=\"100\" WorkingThreshold=\"1\" TargetStorage=\"100\" InitialStorage=\"100\" MaxInput=\"50\" UsePerShot=\"3\" Priority=\"30\" />",
+    "Оружие_XML": "<Weapon Name=\"fleet-shotgun-assault-weapon\" ProjectileKind=\"Bullet\" DamagePerProjectile=\"40\" ProjectileSpeed=\"190\" MaxRange=\"55\" HitReaction=\"Damage\"><Barrels><Barrel Ref=\"fleet-shotgun-assault-barrel-0\" /></Barrels></Weapon>",
+    "Наведение_XML": "<Turret Name=\"fleet-shotgun-assault-mount\" FiringArcDegrees=\"360\" RotateSpeedDegreesPerSecond=\"180\"><RotationPivot X=\"1\" Y=\"1\" /></Turret>",
+    "Стволы_XML": "<Barrel Name=\"fleet-shotgun-assault-barrel-0\" MaxHeat=\"100\" HeatPerShot=\"3\" HeatPerSeconds=\"8\" ShootIntervalInSeconds=\"0.3\" ReloadIntervalInSeconds=\"2\" MaxMagazineCapacity=\"1\" ProjectilesPerShot=\"8\" ShotSpread=\"18\"><ShootPosition X=\"0\" Y=\"1.55\" /></Barrel>",
+    "Источник_от_корня_проекта": "Assets/Definitions/FleetWeapons/fleet-shotgun-assault.definition.xml",
+    "Основание_описания": "Пояснение по текущим XML и исходному коду; название пояснительное, не локализованное имя UI. Размер — Size в клетках до поворота, не габарит рисунка или коллайдера. Игровой запуск не проверялся.",
+    "Дата_среза": "2026-10-15"
+  }
+}

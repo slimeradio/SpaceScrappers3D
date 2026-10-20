@@ -1,0 +1,574 @@
+{
+  "schema": "SpriteBake.DefinitionSync/1",
+  "coverage": [
+    {
+      "id": "MA-A01",
+      "catalog_id": "armor-1x1",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-A02",
+      "catalog_id": "armor-2x1",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-A03",
+      "catalog_id": "armor-wedge",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-A04",
+      "catalog_id": "armor-1x2-wedge",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-B01",
+      "catalog_id": "battery-4x4",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-C01",
+      "catalog_id": "programmable-2x1",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-D01",
+      "catalog_id": "rotary-drill-1x3",
+      "status": "drill-geometry-synced",
+      "points": [
+        "cutting-head/functional_points/tool-axis"
+      ]
+    },
+    {
+      "id": "MA-D02",
+      "catalog_id": "rotary-drill-2x3",
+      "status": "drill-geometry-synced",
+      "points": [
+        "cutter-left/functional_points/tool-axis",
+        "cutter-right/functional_points/tool-axis"
+      ]
+    },
+    {
+      "id": "MA-D03",
+      "catalog_id": "rotary-drill-3x5",
+      "status": "drill-geometry-synced",
+      "points": [
+        "cutter-port/functional_points/tool-axis",
+        "cutter-center/functional_points/tool-axis",
+        "cutter-starboard/functional_points/tool-axis"
+      ]
+    },
+    {
+      "id": "MA-E01",
+      "catalog_id": "thruster-med",
+      "status": "thrust-geometry-synced",
+      "points": [
+        "Nozzle/functional_points/thrust"
+      ]
+    },
+    {
+      "id": "MA-E02",
+      "catalog_id": "thruster-small-3way",
+      "status": "thrust-geometry-synced",
+      "points": [
+        "Nozzle0/functional_points/thrust",
+        "Nozzle1/functional_points/thrust",
+        "Nozzle2/functional_points/thrust"
+      ]
+    },
+    {
+      "id": "MA-EF01",
+      "catalog_id": "fuel-thruster-2x3",
+      "status": "thrust-geometry-synced",
+      "points": [
+        "ExpansionBell/functional_points/thrust"
+      ]
+    },
+    {
+      "id": "MA-EF02",
+      "catalog_id": "fuel-thruster-1x2",
+      "status": "thrust-geometry-synced",
+      "points": [
+        "ExpansionBell/functional_points/thrust"
+      ]
+    },
+    {
+      "id": "MA-EF03",
+      "catalog_id": "fuel-thruster-3x4",
+      "status": "thrust-geometry-synced",
+      "points": [
+        "ExpansionBellL/functional_points/thrust",
+        "ExpansionBellR/functional_points/thrust"
+      ]
+    },
+    {
+      "id": "MA-EF04",
+      "catalog_id": "fuel-thruster-4x6",
+      "status": "thrust-geometry-synced",
+      "points": [
+        "ExpansionBellL/functional_points/thrust",
+        "ExpansionBellR/functional_points/thrust",
+        "ExpansionBellU/functional_points/thrust"
+      ]
+    },
+    {
+      "id": "MA-EI01",
+      "catalog_id": "ion-thruster-2x3",
+      "status": "thrust-geometry-synced",
+      "points": [
+        "ElectrodeAperture/functional_points/thrust"
+      ]
+    },
+    {
+      "id": "MA-EI02",
+      "catalog_id": "ion-thruster-3x4",
+      "status": "thrust-geometry-synced",
+      "points": [
+        "ElectrodeApertureLow/functional_points/thrust",
+        "ElectrodeApertureHigh/functional_points/thrust"
+      ]
+    },
+    {
+      "id": "MA-EI03",
+      "catalog_id": "ion-thruster-1x2",
+      "status": "thrust-geometry-synced",
+      "points": [
+        "ElectrodeAperture/functional_points/thrust"
+      ]
+    },
+    {
+      "id": "MA-EI04",
+      "catalog_id": "ion-thruster-4x6",
+      "status": "thrust-geometry-synced",
+      "points": [
+        "ElectrodeLeftLow/functional_points/thrust",
+        "ElectrodeRightLow/functional_points/thrust",
+        "ElectrodeLeftHigh/functional_points/thrust",
+        "ElectrodeRightHigh/functional_points/thrust"
+      ]
+    },
+    {
+      "id": "MA-F01",
+      "catalog_id": "refinery-2x1",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-F02",
+      "catalog_id": "refinery-base",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-FF01",
+      "catalog_id": "fuel-factory-3x5",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-FG01",
+      "catalog_id": "engine-room",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-FT01",
+      "catalog_id": "fuel-tank-1x2",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-FT02",
+      "catalog_id": "fuel-tank-2x2",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-FT03",
+      "catalog_id": "fuel-tank-3x3",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-FT04",
+      "catalog_id": "fuel-tank-4x4",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-G01",
+      "catalog_id": "garage-ship",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-G02",
+      "catalog_id": "garage-base",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-H01",
+      "catalog_id": "radiator-1x2",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-H02",
+      "catalog_id": "radiator-2x3",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-H03",
+      "catalog_id": "radiator-3x5",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-HS01",
+      "catalog_id": "heat-store-1x1",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-HS02",
+      "catalog_id": "heat-store-2x2",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-HS03",
+      "catalog_id": "heat-store-3x3",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-HS04",
+      "catalog_id": "heat-store-4x4",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-I01",
+      "catalog_id": "cargo-2x1",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-I02",
+      "catalog_id": "cargo-2x2",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-I03",
+      "catalog_id": "cargo-3x3",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-I04",
+      "catalog_id": "cargo-4x4",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-I05",
+      "catalog_id": "cargo-5x5",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-L01",
+      "catalog_id": "corridor-1x1",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-M01",
+      "catalog_id": "mining-laser-small",
+      "status": "mining-geometry-synced",
+      "point": "Optic/functional_points/authoring-emitter",
+      "muzzle": [
+        0.5,
+        0.39180731773376465
+      ]
+    },
+    {
+      "id": "MA-M02",
+      "catalog_id": "mining-laser-industrial",
+      "status": "mining-geometry-synced",
+      "point": "Aperture/functional_points/mining-emitter",
+      "muzzle": [
+        0.5,
+        0.34080004692077637
+      ]
+    },
+    {
+      "id": "MA-N01",
+      "catalog_id": "antenna-1x1",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-R01",
+      "catalog_id": "reactor-4x4-aaaa",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-S01",
+      "catalog_id": "auction-base",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-SP01",
+      "catalog_id": "solar-1x2",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-SP02",
+      "catalog_id": "solar-2x3",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-SP03",
+      "catalog_id": "solar-3x5",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-SP04",
+      "catalog_id": "solar-4x6",
+      "status": "definition-present"
+    },
+    {
+      "id": "MA-T01",
+      "catalog_id": "fleet-artillery-corvette",
+      "status": "weapon-geometry-synced",
+      "barrels": [
+        {
+          "point": "Barrel.L/functional_points/muzzle",
+          "barrel": "fleet-artillery-corvette-barrel-0",
+          "shoot_position": [
+            -0.2227974832057953,
+            1.7785385219543164
+          ]
+        },
+        {
+          "point": "Barrel.R/functional_points/muzzle",
+          "barrel": "fleet-artillery-corvette-barrel-1",
+          "shoot_position": [
+            0.2227974832057953,
+            1.7785385219543164
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MA-W01",
+      "catalog_id": "fleet-artillery-battleship",
+      "status": "weapon-geometry-synced",
+      "barrels": [
+        {
+          "point": "Accelerator0/functional_points/muzzle",
+          "barrel": "fleet-artillery-battleship-barrel-0",
+          "shoot_position": [
+            -0.6901446580886841,
+            3.398798153982316
+          ]
+        },
+        {
+          "point": "Accelerator1/functional_points/muzzle",
+          "barrel": "fleet-artillery-battleship-barrel-1",
+          "shoot_position": [
+            0.0,
+            3.398798153982316
+          ]
+        },
+        {
+          "point": "Accelerator2/functional_points/muzzle",
+          "barrel": "fleet-artillery-battleship-barrel-2",
+          "shoot_position": [
+            0.6901446580886841,
+            3.398798153982316
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MA-W02",
+      "catalog_id": "continuous-laser-turret",
+      "status": "weapon-geometry-synced",
+      "barrels": [
+        {
+          "point": "ContinuousEmitter/functional_points/continuous-emitter",
+          "barrel": "continuous-emitter",
+          "shoot_position": [
+            0.0,
+            0.40271800571614025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MA-W03",
+      "catalog_id": "fleet-minigun-cyclone",
+      "status": "weapon-geometry-synced",
+      "barrels": [
+        {
+          "point": "BarrelLeft/functional_points/muzzle",
+          "barrel": "fleet-minigun-cyclone-barrel-0",
+          "shoot_position": [
+            -0.2807643413543701,
+            1.6454096536999008
+          ]
+        },
+        {
+          "point": "BarrelRight/functional_points/muzzle",
+          "barrel": "fleet-minigun-cyclone-barrel-1",
+          "shoot_position": [
+            0.2807643413543701,
+            1.6454096536999008
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MA-W04",
+      "catalog_id": "fleet-rocket-bastion",
+      "status": "weapon-geometry-synced",
+      "barrels": [
+        {
+          "point": "LaunchCell0/functional_points/launch",
+          "barrel": "fleet-rocket-bastion-barrel-0",
+          "shoot_position": [
+            -0.9100337624549866,
+            1.01562589362395
+          ]
+        },
+        {
+          "point": "LaunchCell1/functional_points/launch",
+          "barrel": "fleet-rocket-bastion-barrel-1",
+          "shoot_position": [
+            -0.30334460735321045,
+            1.01562589362395
+          ]
+        },
+        {
+          "point": "LaunchCell2/functional_points/launch",
+          "barrel": "fleet-rocket-bastion-barrel-2",
+          "shoot_position": [
+            0.30334460735321045,
+            1.01562589362395
+          ]
+        },
+        {
+          "point": "LaunchCell3/functional_points/launch",
+          "barrel": "fleet-rocket-bastion-barrel-3",
+          "shoot_position": [
+            0.9100337624549866,
+            1.01562589362395
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MA-W05",
+      "catalog_id": "fleet-shotgun-fan",
+      "status": "weapon-geometry-synced",
+      "barrels": [
+        {
+          "point": "ScatterAperture/functional_points/shoot",
+          "barrel": "fleet-shotgun-fan-barrel-0",
+          "shoot_position": [
+            0.0,
+            0.7587999701499939
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MA-W06",
+      "catalog_id": "sniper-turret",
+      "status": "weapon-geometry-synced",
+      "barrels": [
+        {
+          "point": "SplitRail/functional_points/shoot",
+          "barrel": "sniper-barrel",
+          "shoot_position": [
+            0.0,
+            1.7654236743387837
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MA-W07",
+      "catalog_id": "point-defense-turret",
+      "status": "weapon-geometry-synced",
+      "barrels": [
+        {
+          "point": "SingleMachinegun/functional_points/muzzle",
+          "barrel": "machinegun-barrel",
+          "shoot_position": [
+            0.0,
+            0.6479232762008248
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MA-W08",
+      "catalog_id": "rocket-turret",
+      "status": "weapon-geometry-synced",
+      "barrels": [
+        {
+          "point": "SingleLauncher/functional_points/shoot",
+          "barrel": "rocket-barrel-rocket-rocket-turret-model-model",
+          "shoot_position": [
+            0.0,
+            1.2778723186966843
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MA-W09",
+      "catalog_id": "shotgun-turret",
+      "status": "weapon-geometry-synced",
+      "barrels": [
+        {
+          "point": "Gun/functional_points/shoot",
+          "barrel": "shotgun-barrel",
+          "shoot_position": [
+            2.4461036390865942e-09,
+            0.5720669627189636
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MA-W10",
+      "catalog_id": "laser-blaster-small-turret",
+      "status": "weapon-geometry-synced",
+      "barrels": [
+        {
+          "point": "FocusAperture/functional_points/continuous-emitter",
+          "barrel": "beam-emitter",
+          "shoot_position": [
+            -1.6484623457935221e-09,
+            0.5712587847910893
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MA-W11",
+      "catalog_id": "rocket-launcher",
+      "status": "weapon-geometry-synced",
+      "barrels": [
+        {
+          "point": "FixedLauncher/functional_points/shoot",
+          "barrel": "rocket-barrel",
+          "shoot_position": [
+            0.0,
+            1.9042352437973022
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MA-W12",
+      "catalog_id": "seeking-rocket-turret",
+      "status": "weapon-geometry-synced",
+      "barrels": [
+        {
+          "point": "SingleLauncher/functional_points/shoot",
+          "barrel": "seeking-rocket-barrel-seeking-rocket-seeking-rocket-turret-model-model",
+          "shoot_position": [
+            0.0,
+            1.1359999322891277
+          ]
+        }
+      ]
+    }
+  ],
+  "changes": [],
+  "backup": "D:\\Codex\\SpaceScrappers\\SS0111-Floor\\DefinitionBackups\\definitions-f7177d5ae0a84c4c8006d47f633ba6ba"
+}

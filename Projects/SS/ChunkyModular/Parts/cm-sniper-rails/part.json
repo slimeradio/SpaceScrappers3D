@@ -1,0 +1,191 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-sniper-rails",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-sniper-rails.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "sockets": [
+    {
+      "id": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "mount",
+      "space": "local"
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "projectile_exit",
+      "position": [
+        0,
+        -3.85,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "muzzle",
+      "space": "local"
+    }
+  ],
+  "mount_regions": [],
+  "animations": [],
+  "animation_tracks": [],
+  "materials": [
+    "CM.cyan",
+    "CM.graphite",
+    "CM.orange",
+    "CM.steel"
+  ],
+  "images": {
+    "graphite_basecolor": [
+      768,
+      768
+    ],
+    "graphite_roughness": [
+      768,
+      768
+    ],
+    "graphite_metallic": [
+      768,
+      768
+    ],
+    "graphite_normal": [
+      768,
+      768
+    ],
+    "steel_basecolor": [
+      768,
+      768
+    ],
+    "steel_roughness": [
+      768,
+      768
+    ],
+    "steel_metallic": [
+      768,
+      768
+    ],
+    "steel_normal": [
+      768,
+      768
+    ],
+    "orange_basecolor": [
+      768,
+      768
+    ],
+    "orange_roughness": [
+      768,
+      768
+    ],
+    "orange_metallic": [
+      768,
+      768
+    ],
+    "orange_normal": [
+      768,
+      768
+    ]
+  },
+  "material_library": "../../Materials/CM-T01/materials.json",
+  "scale_policy": "positive uniform instance scaling",
+  "bounds": {
+    "min": [
+      -0.4950000047683716,
+      -3.8350000381469727,
+      -0.4050000309944153
+    ],
+    "max": [
+      0.4950000047683716,
+      0.20000004768371582,
+      0.406000018119812
+    ],
+    "dimensions": [
+      0.9900000095367432,
+      4.034999847412109,
+      0.8110000491142273
+    ]
+  },
+  "emissive_regions": [
+    {
+      "object": "magnetic slot",
+      "material": "CM.cyan"
+    },
+    {
+      "object": "magnetic slot.001",
+      "material": "CM.cyan"
+    },
+    {
+      "object": "magnetic slot.002",
+      "material": "CM.cyan"
+    },
+    {
+      "object": "magnetic slot.003",
+      "material": "CM.cyan"
+    },
+    {
+      "object": "magnetic slot.004",
+      "material": "CM.cyan"
+    },
+    {
+      "object": "magnetic slot.005",
+      "material": "CM.cyan"
+    },
+    {
+      "object": "magnetic slot.006",
+      "material": "CM.cyan"
+    },
+    {
+      "object": "magnetic slot.007",
+      "material": "CM.cyan"
+    },
+    {
+      "object": "magnetic slot.008",
+      "material": "CM.cyan"
+    },
+    {
+      "object": "magnetic slot.009",
+      "material": "CM.cyan"
+    }
+  ],
+  "logical_only": "sockets and regions are invisible metadata, not physical fastening geometry"
+}

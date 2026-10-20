@@ -1,0 +1,147 @@
+{
+  "id": "MA-W02",
+  "source_saved": true,
+  "source_parts_saved_before_assembly": true,
+  "instance_count": 8,
+  "resolved_parts": [
+    "MA-P06",
+    "MA-P07",
+    "MA-W02-P01",
+    "MA-W02-P02",
+    "MA-W02-P03",
+    "MA-W02-P04",
+    "MA-W02-P05"
+  ],
+  "missing_dependencies": [],
+  "glb": {
+    "magic": "glTF",
+    "version": 2,
+    "length_matches": true,
+    "mesh_count": 85,
+    "node_count": 111,
+    "animation_count": 2,
+    "embedded_buffers": true,
+    "external_images": []
+  },
+  "game_validation": false,
+  "checks_passed": true,
+  "source_reopened": true,
+  "part_checks": [
+    {
+      "id": "MA-P06",
+      "reopened": true,
+      "mesh_count": 6,
+      "materials_assigned": true,
+      "degenerate_faces": 0,
+      "dependency_libraries": [],
+      "unit_object_scales": true
+    },
+    {
+      "id": "MA-P07",
+      "reopened": true,
+      "mesh_count": 6,
+      "materials_assigned": true,
+      "degenerate_faces": 0,
+      "dependency_libraries": [],
+      "unit_object_scales": true
+    },
+    {
+      "id": "MA-W02-P01",
+      "reopened": true,
+      "mesh_count": 12,
+      "materials_assigned": true,
+      "degenerate_faces": 0,
+      "dependency_libraries": [],
+      "unit_object_scales": true
+    },
+    {
+      "id": "MA-W02-P02",
+      "reopened": true,
+      "mesh_count": 9,
+      "materials_assigned": true,
+      "degenerate_faces": 0,
+      "dependency_libraries": [],
+      "unit_object_scales": true
+    },
+    {
+      "id": "MA-W02-P03",
+      "reopened": true,
+      "mesh_count": 7,
+      "materials_assigned": true,
+      "degenerate_faces": 0,
+      "dependency_libraries": [],
+      "unit_object_scales": true
+    },
+    {
+      "id": "MA-W02-P04",
+      "reopened": true,
+      "mesh_count": 17,
+      "materials_assigned": true,
+      "degenerate_faces": 0,
+      "dependency_libraries": [],
+      "unit_object_scales": true
+    },
+    {
+      "id": "MA-W02-P05",
+      "reopened": true,
+      "mesh_count": 14,
+      "materials_assigned": true,
+      "degenerate_faces": 0,
+      "dependency_libraries": [],
+      "unit_object_scales": true
+    }
+  ],
+  "pose_samples": [
+    {
+      "frame": 1,
+      "elevation_degrees": -9.000000250447817,
+      "azimuth_degrees": 0.0,
+      "mesh_count": 85,
+      "finite": true
+    },
+    {
+      "frame": 35,
+      "elevation_degrees": -27.00000075134345,
+      "azimuth_degrees": 67.48713209441503,
+      "mesh_count": 85,
+      "finite": true
+    },
+    {
+      "frame": 60,
+      "elevation_degrees": -6.595334822949155,
+      "azimuth_degrees": 109.99999850756943,
+      "mesh_count": 85,
+      "finite": true
+    },
+    {
+      "frame": 80,
+      "elevation_degrees": 7.999999938029066,
+      "azimuth_degrees": 81.48147936409747,
+      "mesh_count": 85,
+      "finite": true
+    },
+    {
+      "frame": 120,
+      "elevation_degrees": -9.000000250447817,
+      "azimuth_degrees": 0.0,
+      "mesh_count": 85,
+      "finite": true
+    }
+  ],
+  "glb_imported_in_Blender": true,
+  "imported_mesh_count": 85,
+  "imported_material_count": 32,
+  "imported_action_count": 2,
+  "required_nodes_preserved": [
+    "Azimuth",
+    "Elevation",
+    "ContinuousEmitter"
+  ],
+  "external_images": [],
+  "part_instance_scales_unit": true,
+  "visual_review": [
+    "final hero in TEMP",
+    "top view in TEMP",
+    "elevation extremes frame35 and frame80 in TEMP"
+  ]
+}

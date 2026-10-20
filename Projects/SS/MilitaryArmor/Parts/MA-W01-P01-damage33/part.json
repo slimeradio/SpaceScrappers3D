@@ -1,0 +1,127 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-W01-P01-damage33",
+  "version": "1.0",
+  "name": "Battleship swept foundation",
+  "source": "MA-W01-P01-damage33.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -3.199329137802124,
+      -2.700000047683716,
+      0.0
+    ],
+    "max": [
+      3.199329137802124,
+      2.6500000953674316,
+      0.9099999666213989
+    ]
+  },
+  "materials": [
+    {
+      "id": "Dark_damage33",
+      "ss_role": "Fixed",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    },
+    {
+      "id": "Armor_damage33",
+      "ss_role": "Color2",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    },
+    {
+      "id": "Titanium_damage33",
+      "ss_role": "Fixed",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    },
+    {
+      "id": "Ceramic_damage33",
+      "ss_role": "Color1",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    },
+    {
+      "id": "Signal_damage33",
+      "ss_role": "Emissive",
+      "texture_source": "editable procedural generated-coordinate soot and anisotropic scratches"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Signal",
+      "regions": [
+        "Hardpoint diagnostic",
+        "Hardpoint diagnostic.001"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "bottom",
+      "role": "structural",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "azimuth",
+      "role": "structural",
+      "position": [
+        0,
+        0,
+        0.86
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": [],
+  "notes": "Damage demo variant. Procedural soot and exposed metal scratches; destroyed has continuous buckling and emission off. Original mounts retained. No file textures or game export.",
+  "damage_state": "damage33",
+  "derived_from": "MA-W01-P01"
+}

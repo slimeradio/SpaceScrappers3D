@@ -1,0 +1,77 @@
+{
+  "id": "MA-C01-P01",
+  "stage": "immediate standalone geometry gate before assembly",
+  "checks": [
+    {
+      "mesh": "Pressure seal",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.6422200170180202,
+      "materials_valid": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "pass": true
+    },
+    {
+      "mesh": "Titanium foundation",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 1.067327983147144,
+      "materials_valid": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "pass": true
+    },
+    {
+      "mesh": "Compute cassette seat",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.4491840979285276,
+      "materials_valid": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "pass": true
+    },
+    {
+      "mesh": "Shielded terminal cap",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.03513599852609635,
+      "materials_valid": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "pass": true
+    },
+    {
+      "mesh": "Recessed maintenance blank",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0007301014054893015,
+      "materials_valid": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "pass": true
+    },
+    {
+      "mesh": "Shielded terminal cap.001",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.03513599852609636,
+      "materials_valid": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "pass": true
+    },
+    {
+      "mesh": "Recessed maintenance blank.001",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0007301014054893016,
+      "materials_valid": true,
+      "evaluated_zero_area_triangles": 0,
+      "finite": true,
+      "pass": true
+    }
+  ],
+  "checks_passed": true
+}

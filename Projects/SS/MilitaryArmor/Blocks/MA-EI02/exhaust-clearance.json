@@ -1,0 +1,1058 @@
+{
+  "checks_passed": true,
+  "authoring_only": true,
+  "normalized_points": [
+    {
+      "id": "thrust",
+      "role": "thrust",
+      "parent": "part",
+      "node": "point.thrust",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "exhaust",
+      "role": "exhaust",
+      "parent": "part",
+      "node": "point.exhaust",
+      "position": [
+        0,
+        -0.55,
+        0
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "sampled_clear_exit_rays": [
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -1.2899999618530273,
+        -2.6599998474121094,
+        0.5349999666213989
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.9750000238418579,
+        -2.6599998474121094,
+        0.5349999666213989
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.6600000262260437,
+        -2.6599998474121094,
+        0.5349999666213989
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.3449999988079071,
+        -2.6599998474121094,
+        0.5349999666213989
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.029999999329447746,
+        -2.6599998474121094,
+        0.5349999666213989
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.2849999964237213,
+        -2.6599998474121094,
+        0.5349999666213989
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.6000000238418579,
+        -2.6599998474121094,
+        0.5349999666213989
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.9150000214576721,
+        -2.6599998474121094,
+        0.5349999666213989
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        1.2300000190734863,
+        -2.6599998474121094,
+        0.5349999666213989
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -1.2300000190734863,
+        -2.6599998474121094,
+        0.8450000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.9150000214576721,
+        -2.6599998474121094,
+        0.8450000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.6000000238418579,
+        -2.6599998474121094,
+        0.8450000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.2849999964237213,
+        -2.6599998474121094,
+        0.8450000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.029999999329447746,
+        -2.6599998474121094,
+        0.8450000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.3449999988079071,
+        -2.6599998474121094,
+        0.8450000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.6600000262260437,
+        -2.6599998474121094,
+        0.8450000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.9750000238418579,
+        -2.6599998474121094,
+        0.8450000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        1.2899999618530273,
+        -2.6599998474121094,
+        0.8450000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -1.2899999618530273,
+        -2.6599998474121094,
+        1.1549999713897705
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.9750000238418579,
+        -2.6599998474121094,
+        1.1549999713897705
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.6600000262260437,
+        -2.6599998474121094,
+        1.1549999713897705
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.3449999988079071,
+        -2.6599998474121094,
+        1.1549999713897705
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.029999999329447746,
+        -2.6599998474121094,
+        1.1549999713897705
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.2849999964237213,
+        -2.6599998474121094,
+        1.1549999713897705
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.6000000238418579,
+        -2.6599998474121094,
+        1.1549999713897705
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.9150000214576721,
+        -2.6599998474121094,
+        1.1549999713897705
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        1.2300000190734863,
+        -2.6599998474121094,
+        1.1549999713897705
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -1.2300000190734863,
+        -2.6599998474121094,
+        1.465000033378601
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.9150000214576721,
+        -2.6599998474121094,
+        1.465000033378601
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.6000000238418579,
+        -2.6599998474121094,
+        1.465000033378601
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        -0.2849999964237213,
+        -2.6599998474121094,
+        1.465000033378601
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.029999999329447746,
+        -2.6599998474121094,
+        1.465000033378601
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.3449999988079071,
+        -2.6599998474121094,
+        1.465000033378601
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.6600000262260437,
+        -2.6599998474121094,
+        1.465000033378601
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        0.9750000238418579,
+        -2.6599998474121094,
+        1.465000033378601
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureLow",
+      "position": [
+        1.2899999618530273,
+        -2.6599998474121094,
+        1.465000033378601
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -1.2899999618530273,
+        -2.6599998474121094,
+        2.1650002002716064
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.9750000238418579,
+        -2.6599998474121094,
+        2.1650002002716064
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.6600000262260437,
+        -2.6599998474121094,
+        2.1650002002716064
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.3449999988079071,
+        -2.6599998474121094,
+        2.1650002002716064
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.029999999329447746,
+        -2.6599998474121094,
+        2.1650002002716064
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.2849999964237213,
+        -2.6599998474121094,
+        2.1650002002716064
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.6000000238418579,
+        -2.6599998474121094,
+        2.1650002002716064
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.9150000214576721,
+        -2.6599998474121094,
+        2.1650002002716064
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        1.2300000190734863,
+        -2.6599998474121094,
+        2.1650002002716064
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -1.2300000190734863,
+        -2.6599998474121094,
+        2.4750001430511475
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.9150000214576721,
+        -2.6599998474121094,
+        2.4750001430511475
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.6000000238418579,
+        -2.6599998474121094,
+        2.4750001430511475
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.2849999964237213,
+        -2.6599998474121094,
+        2.4750001430511475
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.029999999329447746,
+        -2.6599998474121094,
+        2.4750001430511475
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.3449999988079071,
+        -2.6599998474121094,
+        2.4750001430511475
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.6600000262260437,
+        -2.6599998474121094,
+        2.4750001430511475
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.9750000238418579,
+        -2.6599998474121094,
+        2.4750001430511475
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        1.2899999618530273,
+        -2.6599998474121094,
+        2.4750001430511475
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -1.2899999618530273,
+        -2.6599998474121094,
+        2.7850000858306885
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.9750000238418579,
+        -2.6599998474121094,
+        2.7850000858306885
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.6600000262260437,
+        -2.6599998474121094,
+        2.7850000858306885
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.3449999988079071,
+        -2.6599998474121094,
+        2.7850000858306885
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.029999999329447746,
+        -2.6599998474121094,
+        2.7850000858306885
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.2849999964237213,
+        -2.6599998474121094,
+        2.7850000858306885
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.6000000238418579,
+        -2.6599998474121094,
+        2.7850000858306885
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.9150000214576721,
+        -2.6599998474121094,
+        2.7850000858306885
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        1.2300000190734863,
+        -2.6599998474121094,
+        2.7850000858306885
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -1.2300000190734863,
+        -2.6599998474121094,
+        3.0950000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.9150000214576721,
+        -2.6599998474121094,
+        3.0950000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.6000000238418579,
+        -2.6599998474121094,
+        3.0950000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        -0.2849999964237213,
+        -2.6599998474121094,
+        3.0950000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.029999999329447746,
+        -2.6599998474121094,
+        3.0950000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.3449999988079071,
+        -2.6599998474121094,
+        3.0950000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.6600000262260437,
+        -2.6599998474121094,
+        3.0950000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        0.9750000238418579,
+        -2.6599998474121094,
+        3.0950000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    },
+    {
+      "instance": "ElectrodeApertureHigh",
+      "position": [
+        1.2899999618530273,
+        -2.6599998474121094,
+        3.0950000286102295
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "clear_BU": 20
+    }
+  ]
+}

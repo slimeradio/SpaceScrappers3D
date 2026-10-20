@@ -1,0 +1,138 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-bastion-cell",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-bastion-cell.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "sockets": [
+    {
+      "id": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "mount",
+      "space": "local"
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "launch-mouth",
+      "position": [
+        0,
+        -1.34,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "role": "muzzle",
+      "space": "local"
+    }
+  ],
+  "mount_regions": [],
+  "animations": [],
+  "animation_tracks": [],
+  "materials": [
+    "CM.amber",
+    "CM.graphite",
+    "CM.steel"
+  ],
+  "images": {
+    "steel_basecolor": [
+      768,
+      768
+    ],
+    "steel_roughness": [
+      768,
+      768
+    ],
+    "steel_metallic": [
+      768,
+      768
+    ],
+    "steel_normal": [
+      768,
+      768
+    ],
+    "graphite_basecolor": [
+      768,
+      768
+    ],
+    "graphite_roughness": [
+      768,
+      768
+    ],
+    "graphite_metallic": [
+      768,
+      768
+    ],
+    "graphite_normal": [
+      768,
+      768
+    ]
+  },
+  "material_library": "../../Materials/CM-T01/materials.json",
+  "scale_policy": "positive uniform instance scaling",
+  "bounds": {
+    "min": [
+      -0.39249998331069946,
+      -1.3394999504089355,
+      -0.39249998331069946
+    ],
+    "max": [
+      0.39249998331069946,
+      1.0999999046325684,
+      0.39249998331069946
+    ],
+    "dimensions": [
+      0.7849999666213989,
+      2.439499855041504,
+      0.7849999666213989
+    ]
+  },
+  "emissive_regions": [
+    {
+      "object": "status amber lens",
+      "material": "CM.amber"
+    }
+  ],
+  "logical_only": "sockets and regions are invisible metadata, not physical fastening geometry"
+}

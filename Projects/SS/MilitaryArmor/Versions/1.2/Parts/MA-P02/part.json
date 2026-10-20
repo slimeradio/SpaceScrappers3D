@@ -1,0 +1,231 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-P02",
+  "version": "1.2",
+  "name": "Azimuth bearing",
+  "source": "MA-P02.blend",
+  "units": "BU, physical scale unspecified",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "bounds_local": {
+    "min": [
+      -1.7699999809265137,
+      -1.7699999809265137,
+      0.0
+    ],
+    "max": [
+      1.7699999809265137,
+      1.7699999809265137,
+      0.6274999976158142
+    ]
+  },
+  "scale_policy": "unit scale only",
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Segmented race guard",
+        "Segmented race guard.001",
+        "Segmented race guard.002",
+        "Segmented race guard.003",
+        "Segmented race guard.004",
+        "Segmented race guard.005",
+        "Segmented race guard.006",
+        "Segmented race guard.007",
+        "Segmented race guard.008",
+        "Segmented race guard.009",
+        "Segmented race guard.010",
+        "Segmented race guard.011",
+        "Segmented race guard.012",
+        "Segmented race guard.013",
+        "Segmented race guard.014",
+        "Segmented race guard.015",
+        "Segmented race guard.016",
+        "Segmented race guard.017",
+        "Segmented race guard.018",
+        "Segmented race guard.019"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Bearing lower seal",
+        "Turntable"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Panel",
+      "surfaces": [
+        "Azimuth drive casing",
+        "Azimuth drive casing.001"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Machined bearing track",
+        "Upper race",
+        "Race fastener",
+        "Race fastener.001",
+        "Race fastener.002",
+        "Race fastener.003",
+        "Race fastener.004",
+        "Race fastener.005",
+        "Race fastener.006",
+        "Race fastener.007",
+        "Race fastener.008",
+        "Race fastener.009",
+        "Race fastener.010",
+        "Race fastener.011",
+        "Ring gear tooth",
+        "Ring gear tooth.001",
+        "Ring gear tooth.002",
+        "Ring gear tooth.003",
+        "Ring gear tooth.004",
+        "Ring gear tooth.005",
+        "Ring gear tooth.006",
+        "Ring gear tooth.007",
+        "Ring gear tooth.008",
+        "Ring gear tooth.009",
+        "Ring gear tooth.010",
+        "Ring gear tooth.011",
+        "Ring gear tooth.012",
+        "Ring gear tooth.013",
+        "Ring gear tooth.014",
+        "Ring gear tooth.015",
+        "Ring gear tooth.016",
+        "Ring gear tooth.017",
+        "Ring gear tooth.018",
+        "Ring gear tooth.019",
+        "Ring gear tooth.020",
+        "Ring gear tooth.021",
+        "Ring gear tooth.022",
+        "Ring gear tooth.023",
+        "Ring gear tooth.024",
+        "Ring gear tooth.025",
+        "Ring gear tooth.026",
+        "Ring gear tooth.027",
+        "Ring gear tooth.028",
+        "Ring gear tooth.029",
+        "Ring gear tooth.030",
+        "Ring gear tooth.031",
+        "Ring gear tooth.032",
+        "Ring gear tooth.033",
+        "Ring gear tooth.034",
+        "Ring gear tooth.035",
+        "Ring gear tooth.036",
+        "Ring gear tooth.037",
+        "Ring gear tooth.038",
+        "Ring gear tooth.039",
+        "Ring gear tooth.040",
+        "Ring gear tooth.041",
+        "Ring gear tooth.042",
+        "Ring gear tooth.043",
+        "Ring gear tooth.044",
+        "Ring gear tooth.045",
+        "Ring gear tooth.046",
+        "Ring gear tooth.047",
+        "Ring gear tooth.048",
+        "Ring gear tooth.049",
+        "Ring gear tooth.050",
+        "Ring gear tooth.051",
+        "Ring gear tooth.052",
+        "Ring gear tooth.053",
+        "Ring gear tooth.054",
+        "Ring gear tooth.055",
+        "Ring gear tooth.056",
+        "Ring gear tooth.057",
+        "Ring gear tooth.058",
+        "Ring gear tooth.059",
+        "Ring gear tooth.060",
+        "Ring gear tooth.061",
+        "Ring gear tooth.062",
+        "Ring gear tooth.063"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    },
+    {
+      "id": "Warning",
+      "surfaces": [
+        "Grease fitting",
+        "Grease fitting.001",
+        "Grease fitting.002",
+        "Grease fitting.003",
+        "Grease fitting.004",
+        "Grease fitting.005",
+        "Grease fitting.006",
+        "Grease fitting.007"
+      ],
+      "source": "Blender procedural nodes; Generated projection; linear shader values; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "bottom",
+      "node": "mount.bottom",
+      "role": "bearing",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "bearing",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "turret",
+      "node": "mount.turret",
+      "role": "hull",
+      "position": [
+        0,
+        0,
+        0.61
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible_role": "hull",
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [],
+  "animations": []
+}

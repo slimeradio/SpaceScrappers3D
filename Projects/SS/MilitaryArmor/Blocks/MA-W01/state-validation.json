@@ -1,0 +1,351 @@
+{
+  "id": "MA-W01",
+  "passed": true,
+  "independent_process_reopen": true,
+  "instances_resolved": 9,
+  "mount_adapters_aligned": [],
+  "clips": [
+    {
+      "name": "MA-W01::activate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W01::deactivate",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W01::heat_up",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W01::cool_down",
+      "reopened_and_evaluated": true
+    },
+    {
+      "name": "MA-W01::fire",
+      "reopened_and_evaluated": true
+    }
+  ],
+  "motion": [
+    {
+      "node": "Recoil0",
+      "parameter": "recoil_Recoil0",
+      "sampled_values": [
+        -0.6000000238418579,
+        -0.45500001311302185,
+        -0.3100000321865082
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Recoil1",
+      "parameter": "recoil_Recoil1",
+      "sampled_values": [
+        -0.6000000238418579,
+        -0.45500001311302185,
+        -0.3100000321865082
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Recoil2",
+      "parameter": "recoil_Recoil2",
+      "sampled_values": [
+        -0.6000000238418579,
+        -0.45500001311302185,
+        -0.3100000321865082
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Azimuth",
+      "parameter": "aim_yaw",
+      "sampled_values": [
+        0.0,
+        0.8726646304130554,
+        1.7453292608261108
+      ],
+      "driver_valid": true
+    },
+    {
+      "node": "Elevation",
+      "parameter": "aim_pitch",
+      "sampled_values": [
+        -0.5585053563117981,
+        -0.296705961227417,
+        -0.03490658476948738
+      ],
+      "driver_valid": true
+    }
+  ],
+  "materials": [
+    {
+      "object": "Foundation::Hardpoint diagnostic",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Foundation::Hardpoint diagnostic.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.005",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.006",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.007",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.008",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.009",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.010",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.011",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.012",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.013",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.014",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "AzimuthDrive::Index window.015",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Capsule::Recessed shoulder index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Capsule::Recessed shoulder index.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Capsule::Sealed rear transfer",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Capsule::Sealed rear transfer.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Capsule::Sealed rear transfer.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "TripleCradle::Elevation position encoder",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "TripleCradle::Elevation position encoder.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator0::Accelerator index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator0::Accelerator index.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator0::Accelerator index.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator0::Accelerator index.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator0::Accelerator index.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator1::Accelerator index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator1::Accelerator index.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator1::Accelerator index.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator1::Accelerator index.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator1::Accelerator index.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator2::Accelerator index",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator2::Accelerator index.001",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator2::Accelerator index.002",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator2::Accelerator index.003",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "Accelerator2::Accelerator index.004",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "ServiceCartridge::Cartridge status",
+      "kind": "status",
+      "off": 0.0,
+      "on": 2.75
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell.001",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    },
+    {
+      "object": "LidarBlade::Lidar independent optical cell.002",
+      "kind": "optic",
+      "off": 0.0,
+      "on": 5.03000020980835
+    }
+  ],
+  "stopped_phase_retained": null,
+  "radiator_sweep": [],
+  "game_validated": false,
+  "limitations": "Existing static joints and internal bearing contacts intentional. Radiator sweep tests unrelated wing and collector triangle surfaces at 21 poses; no engine collision or physical thermal simulation."
+}

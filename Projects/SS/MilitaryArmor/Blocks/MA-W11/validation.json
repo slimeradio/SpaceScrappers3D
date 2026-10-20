@@ -1,0 +1,1480 @@
+{
+  "id": "MA-W11",
+  "checks_passed": true,
+  "source_reopened_in_independent_process": true,
+  "standalone_parts": [
+    {
+      "id": "MA-P06",
+      "version": "1.3",
+      "sha256": "48dfec4c5340ed6316552d1c333ecb4b6113c29e901a7a66dffe56037c283c00",
+      "source_reopened": true,
+      "geometry": {
+        "checks_passed": true,
+        "validated_before_assembly": true,
+        "meshes": [
+          {
+            "mesh": "Flush pressure seal",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.013272000975389052,
+            "evaluated_triangles": 220,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Hexagonal service cartridge",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.010070784395519613,
+            "evaluated_triangles": 220,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Inset cartridge center",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.0016776003010153817,
+            "evaluated_triangles": 172,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Flush quarter turn lock",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 1.3033392208021095e-05,
+            "evaluated_triangles": 316,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Flush quarter turn lock.001",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 1.3033392208021095e-05,
+            "evaluated_triangles": 316,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Cartridge status",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 2.2100000194460142e-05,
+            "evaluated_triangles": 188,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "MA-W08-P02",
+      "version": "1.0",
+      "sha256": "a6f0f15a80c5f2bd322b884abfdeb3ec938b6ed4e562913660bd4ee6354248ab",
+      "source_reopened": true,
+      "geometry": {
+        "checks_passed": true,
+        "validated_before_assembly": true,
+        "meshes": [
+          {
+            "mesh": "Long octagonal launch tube",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 1.2217954899567438,
+            "evaluated_triangles": 64,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "External canister reinforcing collar",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.030440955492328014,
+            "evaluated_triangles": 64,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "External canister reinforcing collar.001",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.030440955492328014,
+            "evaluated_triangles": 64,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "External canister reinforcing collar.002",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.030440955492328014,
+            "evaluated_triangles": 64,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "External canister reinforcing collar.003",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.030440955492328014,
+            "evaluated_triangles": 64,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "External canister reinforcing collar.004",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.030440955492328014,
+            "evaluated_triangles": 64,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Bright open muzzle seal",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.03379263480712134,
+            "evaluated_triangles": 64,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Closed rear rocket chamber",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.08977428586316875,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Tapered rear locking breech",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.6611645603372087,
+            "evaluated_triangles": 44,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Rear service shelf",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.07771198947524993,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Lower launch support",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.07710000220984214,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Segmented upper canister armor",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.026124010678051,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Segmented upper canister armor.001",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.02612401318144747,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Segmented upper canister armor.002",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.02612401325297313,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Lower launch support.001",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.07710000220984214,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Segmented upper canister armor.003",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.02612401067805098,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Segmented upper canister armor.004",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.02612401318144747,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Segmented upper canister armor.005",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.026124013252973134,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Reserve cassette coupling",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.1425600134539608,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Reserve cassette coupling.001",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.1425600134539608,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Forward optic seat",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.05979993411303432,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Small chamber state index",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.0003058999980583786,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "MA-W08-P03",
+      "version": "1.0",
+      "sha256": "b0edb8be650195a38878c5744134205da67a3147a36b26b9b5a68d3e4ad8d167",
+      "source_reopened": true,
+      "geometry": {
+        "checks_passed": true,
+        "validated_before_assembly": true,
+        "meshes": [
+          {
+            "mesh": "Closed spare rocket cassette",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.6310004997307209,
+            "evaluated_triangles": 60,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Spare cassette ceramic shell",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.02769000548839591,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Recessed cassette division",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.0010919999401867396,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Spare cassette ceramic shell.001",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.027690001044869413,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Recessed cassette division.001",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.0010919999401867396,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Spare cassette ceramic shell.002",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.027690001044869416,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Recessed cassette division.002",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.0010919999401867396,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Blind faceted nose cap",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.004929998726546607,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Rear release lock",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.0040859996377229325,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "MA-W11-P01",
+      "version": "1.0",
+      "sha256": "7b1876349534a19f87c0e6643653d4ffcdb2c556263d2ed7ef5577170db73061",
+      "source_reopened": true,
+      "geometry": {
+        "checks_passed": true,
+        "validated_before_assembly": true,
+        "meshes": [
+          {
+            "mesh": "Long fixed exterior cheek",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.8699499555867489,
+            "evaluated_triangles": 60,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Separated ceramic cheek cap",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.03368000864028915,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Separated ceramic cheek cap.001",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.0336800075674055,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Separated ceramic cheek cap.002",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.03368000756740551,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Separated ceramic cheek cap.003",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.033680008640289145,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Diagonal fixed hull brace",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.025271490874670816,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Diagonal fixed hull brace.001",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.025271490874670816,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Recessed inner launch support",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.09611799799346922,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Long fixed exterior cheek.001",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.8699499555867488,
+            "evaluated_triangles": 60,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Separated ceramic cheek cap.004",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.033680008640289145,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Separated ceramic cheek cap.005",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.0336800075674055,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Separated ceramic cheek cap.006",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.03368000756740549,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Separated ceramic cheek cap.007",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.033680008640289145,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Diagonal fixed hull brace.002",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.025271490874670816,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Diagonal fixed hull brace.003",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.025271490874670816,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Recessed inner launch support.001",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.09611799799346922,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Fixed transverse hull tie",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.08208000039696685,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Fixed transverse hull tie.001",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.08208000039696685,
+            "evaluated_triangles": 12,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          },
+          {
+            "mesh": "Rear tapered hardpoint",
+            "nonmanifold_edges": 0,
+            "zero_area_faces": 0,
+            "signed_volume": 0.16853999997198488,
+            "evaluated_triangles": 28,
+            "zero_area_triangles": 0,
+            "finite": true,
+            "materials_resolved": true,
+            "pass": true
+          }
+        ]
+      }
+    }
+  ],
+  "geometry": {
+    "checks_passed": true,
+    "validated_before_assembly": true,
+    "meshes": [
+      {
+        "mesh": "FixedFrame::Long fixed exterior cheek",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.8699499555867489,
+        "evaluated_triangles": 60,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Separated ceramic cheek cap",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.03368000864028915,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Separated ceramic cheek cap.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.0336800075674055,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Separated ceramic cheek cap.002",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.03368000756740551,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Separated ceramic cheek cap.003",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.033680008640289145,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Diagonal fixed hull brace",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.025271490874670816,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Diagonal fixed hull brace.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.025271490874670816,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Recessed inner launch support",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.09611799799346922,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Long fixed exterior cheek.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.8699499555867488,
+        "evaluated_triangles": 60,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Separated ceramic cheek cap.004",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.033680008640289145,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Separated ceramic cheek cap.005",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.0336800075674055,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Separated ceramic cheek cap.006",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.03368000756740549,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Separated ceramic cheek cap.007",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.033680008640289145,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Diagonal fixed hull brace.002",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.025271490874670816,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Diagonal fixed hull brace.003",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.025271490874670816,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Recessed inner launch support.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.09611799799346922,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Fixed transverse hull tie",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.08208000039696685,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Fixed transverse hull tie.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.08208000039696685,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedFrame::Rear tapered hardpoint",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.16853999997198488,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Long octagonal launch tube",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 1.2217954899567438,
+        "evaluated_triangles": 64,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::External canister reinforcing collar",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.030440955492328014,
+        "evaluated_triangles": 64,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::External canister reinforcing collar.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.030440955492328014,
+        "evaluated_triangles": 64,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::External canister reinforcing collar.002",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.030440955492328014,
+        "evaluated_triangles": 64,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::External canister reinforcing collar.003",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.030440955492328014,
+        "evaluated_triangles": 64,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::External canister reinforcing collar.004",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.030440955492328014,
+        "evaluated_triangles": 64,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Bright open muzzle seal",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.03379263480712134,
+        "evaluated_triangles": 64,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Closed rear rocket chamber",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.08977428586316875,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Tapered rear locking breech",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.6611645603372087,
+        "evaluated_triangles": 44,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Rear service shelf",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.07771198947524993,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Lower launch support",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.07710000220984214,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Segmented upper canister armor",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.026124010678051,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Segmented upper canister armor.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.02612401318144747,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Segmented upper canister armor.002",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.02612401325297313,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Lower launch support.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.07710000220984214,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Segmented upper canister armor.003",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.02612401067805098,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Segmented upper canister armor.004",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.02612401318144747,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Segmented upper canister armor.005",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.026124013252973134,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Reserve cassette coupling",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.1425600134539608,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Reserve cassette coupling.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.1425600134539608,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Forward optic seat",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.05979993411303432,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "FixedLauncher::Small chamber state index",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.0003058999980583786,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveLeft::Closed spare rocket cassette",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.6310004997307209,
+        "evaluated_triangles": 60,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveLeft::Spare cassette ceramic shell",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.02769000548839591,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveLeft::Recessed cassette division",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.0010919999401867396,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveLeft::Spare cassette ceramic shell.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.027690001044869413,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveLeft::Recessed cassette division.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.0010919999401867396,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveLeft::Spare cassette ceramic shell.002",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.027690001044869416,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveLeft::Recessed cassette division.002",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.0010919999401867396,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveLeft::Blind faceted nose cap",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.004929998726546607,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveLeft::Rear release lock",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.0040859996377229325,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveRight::Closed spare rocket cassette",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.6310004997307209,
+        "evaluated_triangles": 60,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveRight::Spare cassette ceramic shell",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.02769000548839591,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveRight::Recessed cassette division",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.0010919999401867396,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveRight::Spare cassette ceramic shell.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.027690001044869413,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveRight::Recessed cassette division.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.0010919999401867396,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveRight::Spare cassette ceramic shell.002",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.027690001044869416,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveRight::Recessed cassette division.002",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.0010919999401867396,
+        "evaluated_triangles": 12,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveRight::Blind faceted nose cap",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.004929998726546607,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "ReserveRight::Rear release lock",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.0040859996377229325,
+        "evaluated_triangles": 28,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "Service::Flush pressure seal",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.013272000975389052,
+        "evaluated_triangles": 220,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "Service::Hexagonal service cartridge",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.010070784395519613,
+        "evaluated_triangles": 220,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "Service::Inset cartridge center",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 0.0016776003010153817,
+        "evaluated_triangles": 172,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "Service::Flush quarter turn lock",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 1.3033392208021095e-05,
+        "evaluated_triangles": 316,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "Service::Flush quarter turn lock.001",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 1.3033392208021095e-05,
+        "evaluated_triangles": 316,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      },
+      {
+        "mesh": "Service::Cartridge status",
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0,
+        "signed_volume": 2.2100000194460142e-05,
+        "evaluated_triangles": 188,
+        "zero_area_triangles": 0,
+        "finite": true,
+        "materials_resolved": true,
+        "pass": true
+      }
+    ]
+  },
+  "connections": [
+    {
+      "connection": {
+        "parent_instance": "FixedFrame",
+        "parent_socket": "fixed-launcher",
+        "child_instance": "FixedLauncher",
+        "child_socket": "root",
+        "constraint": "fixed; no rotational DOF"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "roles_match": true
+    },
+    {
+      "connection": {
+        "parent_instance": "FixedLauncher",
+        "parent_socket": "reserve-left",
+        "child_instance": "ReserveLeft",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "roles_match": true
+    },
+    {
+      "connection": {
+        "parent_instance": "FixedLauncher",
+        "parent_socket": "reserve-right",
+        "child_instance": "ReserveRight",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "roles_match": true
+    },
+    {
+      "connection": {
+        "parent_instance": "FixedLauncher",
+        "parent_socket": "service",
+        "child_instance": "Service",
+        "child_socket": "bottom"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0,
+      "roles_match": true
+    }
+  ],
+  "instance_count": 5,
+  "new_parts": 1,
+  "reused_parts": [
+    "MA-W08-P02 v1.0",
+    "MA-W08-P03 v1.0",
+    "MA-P06 v1.3"
+  ],
+  "single_active_muzzle": true,
+  "muzzle_position_BU": [
+    0.0,
+    -2.859999895095825,
+    0.9600000381469727
+  ],
+  "muzzle_forward": [
+    0.0,
+    -1.0,
+    0.0
+  ],
+  "forward_clearance_BU": 20,
+  "bore_clearance_behind_muzzle_BU": 0.5,
+  "reserve_frame_vertical_gap_BU": 0.1549999713897705,
+  "static_no_animations": true,
+  "preview_views": [
+    "top",
+    "perspective",
+    "top-grayscale"
+  ],
+  "top_orientation": "world +Y up; identity camera rotation",
+  "perspective_elevation_degrees": 45,
+  "perspective_azimuth_degrees": 45,
+  "source_unchanged_after_review": true,
+  "reused_source_hashes_unchanged": true,
+  "source_sha256": "dda096a9df510169ecfb34dca5101157f6c3688cb20d27e28f791d28e438526f",
+  "glb_generated": false,
+  "game_validation": false,
+  "collision_LOD_validation": false,
+  "limitations": "BU scale and XML-to-BU mapping unspecified. Intentional shell/collar/support contacts. Fixed source interface role yaw does not imply rotation. No game integration, colliders or LOD."
+}

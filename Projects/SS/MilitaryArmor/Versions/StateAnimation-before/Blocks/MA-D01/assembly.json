@@ -1,0 +1,118 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-D01",
+  "version": "1.0",
+  "title": "Mechanical mining drill 1x3",
+  "catalog_id": "rotary-drill-1x3",
+  "catalog_grid": [
+    1,
+    3
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "load-frame",
+      "part_id": "MA-D01-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-D01-P01/MA-D01-P01.blend",
+      "parent": "MA-D01",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "reduction-drive",
+      "part_id": "MA-D01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-D01-P02/MA-D01-P02.blend",
+      "parent": "MA-D01",
+      "translation": [
+        0,
+        1.2,
+        0.65
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "cutting-head",
+      "part_id": "MA-D01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-D01-P03/MA-D01-P03.blend",
+      "parent": "MA-D01",
+      "translation": [
+        0,
+        -1.03,
+        0.95
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "load-frame",
+      "parent_socket": "drive",
+      "child_instance": "reduction-drive",
+      "child_socket": "root",
+      "position_error": 0,
+      "rotation_error_degrees": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "compatibility": "MilitaryArmor.drill.drive"
+    },
+    {
+      "parent_instance": "load-frame",
+      "parent_socket": "cutter",
+      "child_instance": "cutting-head",
+      "child_socket": "root",
+      "position_error": 0,
+      "rotation_error_degrees": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "compatibility": "MilitaryArmor.drill.cutter"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Static visual-only mechanical mining tool. Grid is not a metre contract; no XML, productivity or effects supplied."
+}

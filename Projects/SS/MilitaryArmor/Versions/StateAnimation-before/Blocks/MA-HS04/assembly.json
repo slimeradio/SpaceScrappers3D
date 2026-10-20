@@ -1,0 +1,1419 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-HS04",
+  "version": "2.0",
+  "title": "Накопитель тепла 4×4 — визуальная заготовка",
+  "catalog_id": "heat-store-4x4",
+  "catalog_grid": [
+    4,
+    4
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "QuadThermalBed",
+      "part_id": "MA-HS04-P01",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS04-P01/MA-HS04-P01.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B0-0",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -2.73,
+        -3.135,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B0-1",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -2.73,
+        -2.565,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B0-2",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -2.73,
+        -1.9949999999999999,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B0-3",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -2.73,
+        -1.4249999999999998,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B0-4",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -2.73,
+        -0.855,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B0-5",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -2.73,
+        -0.285,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B0-6",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -2.73,
+        0.285,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B0-7",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -2.73,
+        0.855,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B0-8",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -2.73,
+        1.4249999999999998,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B0-9",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -2.73,
+        1.9949999999999999,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B0-10",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -2.73,
+        2.565,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B0-11",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -2.73,
+        3.135,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B1-0",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -0.91,
+        -3.135,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B1-1",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -0.91,
+        -2.565,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B1-2",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -0.91,
+        -1.9949999999999999,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B1-3",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -0.91,
+        -1.4249999999999998,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B1-4",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -0.91,
+        -0.855,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B1-5",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -0.91,
+        -0.285,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B1-6",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -0.91,
+        0.285,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B1-7",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -0.91,
+        0.855,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B1-8",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -0.91,
+        1.4249999999999998,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B1-9",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -0.91,
+        1.9949999999999999,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B1-10",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -0.91,
+        2.565,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B1-11",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        -0.91,
+        3.135,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B2-0",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0.91,
+        -3.135,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B2-1",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0.91,
+        -2.565,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B2-2",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0.91,
+        -1.9949999999999999,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B2-3",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0.91,
+        -1.4249999999999998,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B2-4",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0.91,
+        -0.855,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B2-5",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0.91,
+        -0.285,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B2-6",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0.91,
+        0.285,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B2-7",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0.91,
+        0.855,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B2-8",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0.91,
+        1.4249999999999998,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B2-9",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0.91,
+        1.9949999999999999,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B2-10",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0.91,
+        2.565,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B2-11",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0.91,
+        3.135,
+        0.53
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B3-0",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        2.73,
+        -3.135,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B3-1",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        2.73,
+        -2.565,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B3-2",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        2.73,
+        -1.9949999999999999,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B3-3",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        2.73,
+        -1.4249999999999998,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B3-4",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        2.73,
+        -0.855,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B3-5",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        2.73,
+        -0.285,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B3-6",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        2.73,
+        0.285,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B3-7",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        2.73,
+        0.855,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B3-8",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        2.73,
+        1.4249999999999998,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B3-9",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        2.73,
+        1.9949999999999999,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B3-10",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        2.73,
+        2.565,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ThermalRing-B3-11",
+      "part_id": "MA-HS01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS01-R2-P02/MA-HS01-R2-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        2.73,
+        3.135,
+        0.21
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "QuadCollector",
+      "part_id": "MA-HS04-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-HS04-P02/MA-HS04-P02.blend",
+      "parent": "MA-HS04",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-0-section-0",
+      "child_instance": "ThermalRing-B0-0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-0-section-1",
+      "child_instance": "ThermalRing-B0-1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-0-section-2",
+      "child_instance": "ThermalRing-B0-2",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-0-section-3",
+      "child_instance": "ThermalRing-B0-3",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-0-section-4",
+      "child_instance": "ThermalRing-B0-4",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-0-section-5",
+      "child_instance": "ThermalRing-B0-5",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-0-section-6",
+      "child_instance": "ThermalRing-B0-6",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-0-section-7",
+      "child_instance": "ThermalRing-B0-7",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-0-section-8",
+      "child_instance": "ThermalRing-B0-8",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-0-section-9",
+      "child_instance": "ThermalRing-B0-9",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-0-section-10",
+      "child_instance": "ThermalRing-B0-10",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-0-section-11",
+      "child_instance": "ThermalRing-B0-11",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-1-section-0",
+      "child_instance": "ThermalRing-B1-0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-1-section-1",
+      "child_instance": "ThermalRing-B1-1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-1-section-2",
+      "child_instance": "ThermalRing-B1-2",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-1-section-3",
+      "child_instance": "ThermalRing-B1-3",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-1-section-4",
+      "child_instance": "ThermalRing-B1-4",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-1-section-5",
+      "child_instance": "ThermalRing-B1-5",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-1-section-6",
+      "child_instance": "ThermalRing-B1-6",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-1-section-7",
+      "child_instance": "ThermalRing-B1-7",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-1-section-8",
+      "child_instance": "ThermalRing-B1-8",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-1-section-9",
+      "child_instance": "ThermalRing-B1-9",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-1-section-10",
+      "child_instance": "ThermalRing-B1-10",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-1-section-11",
+      "child_instance": "ThermalRing-B1-11",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-2-section-0",
+      "child_instance": "ThermalRing-B2-0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-2-section-1",
+      "child_instance": "ThermalRing-B2-1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-2-section-2",
+      "child_instance": "ThermalRing-B2-2",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-2-section-3",
+      "child_instance": "ThermalRing-B2-3",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-2-section-4",
+      "child_instance": "ThermalRing-B2-4",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-2-section-5",
+      "child_instance": "ThermalRing-B2-5",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-2-section-6",
+      "child_instance": "ThermalRing-B2-6",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-2-section-7",
+      "child_instance": "ThermalRing-B2-7",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-2-section-8",
+      "child_instance": "ThermalRing-B2-8",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-2-section-9",
+      "child_instance": "ThermalRing-B2-9",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-2-section-10",
+      "child_instance": "ThermalRing-B2-10",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-2-section-11",
+      "child_instance": "ThermalRing-B2-11",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-3-section-0",
+      "child_instance": "ThermalRing-B3-0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-3-section-1",
+      "child_instance": "ThermalRing-B3-1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-3-section-2",
+      "child_instance": "ThermalRing-B3-2",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-3-section-3",
+      "child_instance": "ThermalRing-B3-3",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-3-section-4",
+      "child_instance": "ThermalRing-B3-4",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-3-section-5",
+      "child_instance": "ThermalRing-B3-5",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-3-section-6",
+      "child_instance": "ThermalRing-B3-6",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-3-section-7",
+      "child_instance": "ThermalRing-B3-7",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-3-section-8",
+      "child_instance": "ThermalRing-B3-8",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-3-section-9",
+      "child_instance": "ThermalRing-B3-9",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-3-section-10",
+      "child_instance": "ThermalRing-B3-10",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "bank-3-section-11",
+      "child_instance": "ThermalRing-B3-11",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "QuadThermalBed",
+      "parent_socket": "collector",
+      "child_instance": "QuadCollector",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Four stepped thermal banks, 48 unchanged v2 insulation rings. New bed and protected rear collector. No gameplay parameters, emission or physical metric scale."
+}

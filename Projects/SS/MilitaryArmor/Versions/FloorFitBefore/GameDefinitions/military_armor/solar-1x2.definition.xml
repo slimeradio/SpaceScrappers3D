@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="solar-1x2" Category="Энергия" Type="Solar" MaxHealth="1000" BlockMass="2">
+    <!-- Initial balance scaled by footprint from the current functional analogues. -->
+    <Size X="1" Y="2"/>
+    <Colliders><ConvexCollider Data="0 0 1 0 1 2 0 2"/></Colliders>
+    <Construction BaseCreationSeconds="1">
+        <Point Id="complexity" Sum="6"/>
+        <DesignCost><Item Ref="11" Amount="60"/></DesignCost>
+        <BuildCost><Item Ref="11" Amount="6"/></BuildCost>
+    </Construction>
+    <Resources><Resource Id="1" StoreInStorage="false" MaxOutput="100" ProductionPriority="10"/></Resources>
+    <Solar ReferenceDistance="3000"/>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="solar-1x2"/>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+</Block>

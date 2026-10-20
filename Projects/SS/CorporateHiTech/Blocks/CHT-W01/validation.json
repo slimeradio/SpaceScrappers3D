@@ -1,0 +1,102 @@
+{
+  "id": "CHT-W01",
+  "catalogId": "fleet-artillery-cruiser",
+  "instances": 5,
+  "parts": [
+    {
+      "id": "CHT-W01-BASE",
+      "version": "1.0.0",
+      "meshes": 8,
+      "triangles": 3264
+    },
+    {
+      "id": "CHT-W01-HEAD",
+      "version": "1.1.0",
+      "meshes": 20,
+      "triangles": 15808
+    },
+    {
+      "id": "CHT-W01-PACK",
+      "version": "1.0.0",
+      "meshes": 11,
+      "triangles": 13188
+    },
+    {
+      "id": "CHT-W01-BARREL",
+      "version": "1.1.0",
+      "meshes": 7,
+      "triangles": 6360
+    }
+  ],
+  "links": [
+    {
+      "instance": "yaw",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "power-pack",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "barrel-0",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "barrel-1",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    }
+  ],
+  "extent": [
+    1.9500000476837158,
+    3.0740000438690185,
+    1.0909999997615814
+  ],
+  "clipChecks": [
+    {
+      "name": "yaw-demo",
+      "duration": 8,
+      "poses": [
+        {
+          "fraction": 0,
+          "finite": true
+        },
+        {
+          "fraction": 0.25,
+          "finite": true
+        },
+        {
+          "fraction": 0.5,
+          "finite": true
+        },
+        {
+          "fraction": 0.75,
+          "finite": true
+        },
+        {
+          "fraction": 1,
+          "finite": true
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "export": {
+    "path": "Exports/CHT-W01.gltf",
+    "meshes": 53,
+    "nodes": 60,
+    "animations": [
+      "yaw-demo"
+    ],
+    "sha256": "ff12a84a68e038edd33baa1fb16c815a9a9f3cb564c5fe14ca0bfc41150a907d"
+  },
+  "browserErrors": [],
+  "failedRequests": []
+}

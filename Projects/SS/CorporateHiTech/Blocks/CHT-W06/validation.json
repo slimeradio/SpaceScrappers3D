@@ -1,0 +1,126 @@
+{
+  "id": "CHT-W06",
+  "catalogId": "continuous-laser-turret",
+  "instances": 6,
+  "parts": [
+    {
+      "id": "CHT-W06-BASE",
+      "version": "1.0.0",
+      "meshes": 5,
+      "triangles": 3084
+    },
+    {
+      "id": "CHT-W06-YAW",
+      "version": "1.0.0",
+      "meshes": 4,
+      "triangles": 1632
+    },
+    {
+      "id": "CHT-W06-OPTIC",
+      "version": "1.0.0",
+      "meshes": 11,
+      "triangles": 10404
+    },
+    {
+      "id": "CHT-W06-CAPACITOR",
+      "version": "1.0.0",
+      "meshes": 11,
+      "triangles": 10404
+    },
+    {
+      "id": "CHT-W06-RADIATOR",
+      "version": "1.0.0",
+      "meshes": 13,
+      "triangles": 11916
+    }
+  ],
+  "links": [
+    {
+      "instance": "yaw",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "optic",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "power",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "radiator--1",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    },
+    {
+      "instance": "radiator-1",
+      "gap": 0,
+      "normalDot": -1,
+      "upDot": 1
+    }
+  ],
+  "extent": [
+    0.8999999761581421,
+    2.1250000476837156,
+    1.572531643715863
+  ],
+  "clipChecks": [
+    {
+      "name": "yaw-demo",
+      "duration": 4,
+      "poses": [
+        {
+          "fraction": 0,
+          "finite": true
+        },
+        {
+          "fraction": 0.25,
+          "finite": true
+        },
+        {
+          "fraction": 0.5,
+          "finite": true
+        },
+        {
+          "fraction": 0.75,
+          "finite": true
+        },
+        {
+          "fraction": 1,
+          "finite": true
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "export": {
+    "path": "Exports/CHT-W06.gltf",
+    "meshes": 57,
+    "nodes": 65,
+    "animations": [
+      "yaw-demo"
+    ],
+    "sha256": "ad247a22cde9107f80da53c9a03768db26ea2f31de440697229c6eaeb8e65a98"
+  },
+  "browserErrors": [],
+  "failedRequests": [],
+  "sourceSHA256": {
+    "Parts/CHT-W06-YAW/part.json": "774d428ceb460241a25f9dbf852331166e5ed1441cbefbe243c9ccac66124be0",
+    "Parts/CHT-W06-RADIATOR/part.json": "bf541efcfa30ad72e2fb602abf0e4449722c47282f87800ab99249d5d7694f72",
+    "Parts/CHT-W06-OPTIC/part.json": "72dee83835263ce0bb8332dc8ad2ba802a4afb017362e370e1d31dad981d11d2",
+    "Blocks/CHT-W06/assembly.json": "4e2df47f4f463b91afbc0f3c01baca99d05d812d59c65cf8480db6faaf74b8ea",
+    "Parts/CHT-W06-CAPACITOR/part.json": "65fe597ebad8d4e9e2e3698632570429c816ec575208cfe7c1616c95078c66a2",
+    "Parts/CHT-W06-BASE/part.json": "bce0e5ace5e0f53a6e499ec5abd522d82a7418468aee31090914420e2e81db59"
+  },
+  "formRevision": "1.1.0",
+  "geometryBounds": "exact transformed mesh vertices from Viewer/geometry.js",
+  "functionalInterfaces": "unchanged: same sockets, muzzle count/poses, yaw axis and range",
+  "geometryAttributes": "all primitive positions, normals and UVs finite"
+}

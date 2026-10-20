@@ -1,0 +1,561 @@
+{
+  "schema": "MilitaryArmor.StateAuthoring/1",
+  "id": "MA-W04",
+  "game_validated": false,
+  "authoring_units": "BU; normalized controls; not game timings",
+  "controls": {
+    "power": {
+      "default": 1,
+      "min": 0,
+      "max": 1,
+      "description": "Electrical availability; independent from retained heat/fill"
+    },
+    "activity": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Actual work/load; zero means idle"
+    },
+    "fault": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Externally supplied fault, not inferred"
+    },
+    "heat": {
+      "default": 0,
+      "min": 0,
+      "max": 1,
+      "description": "Retained normalized heat; independent from power"
+    },
+    "aim_yaw": {
+      "default": 0,
+      "min": -35,
+      "max": 35
+    },
+    "aim_pitch": {
+      "default": 0,
+      "min": -48,
+      "max": -8
+    }
+  },
+  "motion": [
+    {
+      "node": "Azimuth",
+      "path": "rotation_euler",
+      "axis": 2,
+      "parameter": "aim_yaw",
+      "expression": "0.0+t*0.017453292519943295"
+    },
+    {
+      "node": "Elevation",
+      "path": "rotation_euler",
+      "axis": 0,
+      "parameter": "aim_pitch",
+      "expression": "-0.13962633907794952+t*0.017453292519943295"
+    }
+  ],
+  "materials": [
+    {
+      "object": "DiamondFoundation::Diagonal interface line",
+      "slot": 0,
+      "material": "MA-W04::DiamondFoundation::Diagonal interface line::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "DiamondFoundation::Power connection stripe",
+      "slot": 0,
+      "material": "MA-W04::DiamondFoundation::Power connection stripe::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "DiamondFoundation::Power connection stripe.001",
+      "slot": 0,
+      "material": "MA-W04::DiamondFoundation::Power connection stripe.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "DiamondFoundation::Diagonal interface line.001",
+      "slot": 0,
+      "material": "MA-W04::DiamondFoundation::Diagonal interface line.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "DiamondFoundation::Power connection stripe.002",
+      "slot": 0,
+      "material": "MA-W04::DiamondFoundation::Power connection stripe.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "DiamondFoundation::Power connection stripe.003",
+      "slot": 0,
+      "material": "MA-W04::DiamondFoundation::Power connection stripe.003::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchSpine::Launch elevation encoder",
+      "slot": 0,
+      "material": "MA-W04::LaunchSpine::Launch elevation encoder::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchSpine::Launch elevation encoder.001",
+      "slot": 0,
+      "material": "MA-W04::LaunchSpine::Launch elevation encoder.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "TransverseBeam::Cassette power contact",
+      "slot": 0,
+      "material": "MA-W04::TransverseBeam::Cassette power contact::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "TransverseBeam::Cassette power contact.001",
+      "slot": 0,
+      "material": "MA-W04::TransverseBeam::Cassette power contact.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "TransverseBeam::Cassette power contact.002",
+      "slot": 0,
+      "material": "MA-W04::TransverseBeam::Cassette power contact.002::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "TransverseBeam::Cassette power contact.003",
+      "slot": 0,
+      "material": "MA-W04::TransverseBeam::Cassette power contact.003::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchCell0::Cell side status trace",
+      "slot": 0,
+      "material": "MA-W04::LaunchCell0::Cell side status trace::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchCell0::Cell side status trace.001",
+      "slot": 0,
+      "material": "MA-W04::LaunchCell0::Cell side status trace.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchCell0::Readiness optical slit",
+      "slot": 0,
+      "material": "MA-W04::LaunchCell0::Readiness optical slit::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchCell1::Cell side status trace",
+      "slot": 0,
+      "material": "MA-W04::LaunchCell1::Cell side status trace::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchCell1::Cell side status trace.001",
+      "slot": 0,
+      "material": "MA-W04::LaunchCell1::Cell side status trace.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchCell1::Readiness optical slit",
+      "slot": 0,
+      "material": "MA-W04::LaunchCell1::Readiness optical slit::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchCell2::Cell side status trace",
+      "slot": 0,
+      "material": "MA-W04::LaunchCell2::Cell side status trace::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchCell2::Cell side status trace.001",
+      "slot": 0,
+      "material": "MA-W04::LaunchCell2::Cell side status trace.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchCell2::Readiness optical slit",
+      "slot": 0,
+      "material": "MA-W04::LaunchCell2::Readiness optical slit::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchCell3::Cell side status trace",
+      "slot": 0,
+      "material": "MA-W04::LaunchCell3::Cell side status trace::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchCell3::Cell side status trace.001",
+      "slot": 0,
+      "material": "MA-W04::LaunchCell3::Cell side status trace.001::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "LaunchCell3::Readiness optical slit",
+      "slot": 0,
+      "material": "MA-W04::LaunchCell3::Readiness optical slit::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell",
+      "slot": 0,
+      "material": "MA-W04::Lidar::Lidar independent optical cell::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.001",
+      "slot": 0,
+      "material": "MA-W04::Lidar::Lidar independent optical cell.001::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "Lidar::Lidar independent optical cell.002",
+      "slot": 0,
+      "material": "MA-W04::Lidar::Lidar independent optical cell.002::optic",
+      "kind": "optic",
+      "expression": "p*(.03+5*a)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    },
+    {
+      "object": "ServiceCartridge::Cartridge status",
+      "slot": 0,
+      "material": "MA-W04::ServiceCartridge::Cartridge status::status",
+      "kind": "status",
+      "expression": "p*(.25+2.5*a+2*f)",
+      "variables": {
+        "p": "power",
+        "a": "activity",
+        "f": "fault"
+      }
+    }
+  ],
+  "clips": [
+    {
+      "name": "MA-W04::activate",
+      "parameters": [
+        "power",
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W04::deactivate",
+      "parameters": [
+        "activity",
+        "power"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W04::heat_up",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        49
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W04::cool_down",
+      "parameters": [
+        "heat"
+      ],
+      "frames": [
+        1,
+        97
+      ],
+      "loop": false,
+      "authoring_only": true
+    },
+    {
+      "name": "MA-W04::fire",
+      "parameters": [
+        "activity"
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "loop": false,
+      "authoring_only": true
+    }
+  ],
+  "events": [
+    {
+      "name": "fire",
+      "frame": 2,
+      "source": "authoring cue; external projectile/beam effect"
+    }
+  ],
+  "presets": {
+    "off": {
+      "power": 0,
+      "activity": 0
+    },
+    "idle": {
+      "power": 1,
+      "activity": 0
+    },
+    "working": {
+      "power": 1,
+      "activity": 1
+    },
+    "hot_off": {
+      "power": 0,
+      "activity": 0,
+      "heat": 1
+    },
+    "cold": {
+      "heat": 0
+    },
+    "hot": {
+      "heat": 1
+    }
+  },
+  "phase_policy": "cycle_turns is integrated phase, not speed. Stop retains phase. NLA cycle repetition must use cyclic extrapolation/REPEAT_OFFSET for spin; never reset turns on start. Clips start from relative phase 0; apply current phase offset when sequencing.",
+  "controller": "MA-W04",
+  "legacy_animation_metadata": {
+    "fps": 24,
+    "frame_range": [
+      1,
+      120
+    ],
+    "channels": [
+      {
+        "node": "Azimuth",
+        "channel": "rotation_euler",
+        "axis": "Z",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            0
+          ],
+          [
+            30,
+            -35
+          ],
+          [
+            60,
+            0
+          ],
+          [
+            90,
+            35
+          ],
+          [
+            120,
+            0
+          ]
+        ]
+      },
+      {
+        "node": "Elevation",
+        "channel": "rotation_euler",
+        "axis": "X",
+        "units": "degrees",
+        "keys": [
+          [
+            1,
+            -8
+          ],
+          [
+            30,
+            -35
+          ],
+          [
+            60,
+            -16
+          ],
+          [
+            90,
+            -48
+          ],
+          [
+            120,
+            -8
+          ]
+        ]
+      }
+    ],
+    "demonstration_only": true,
+    "interpolation": "Blender Bezier"
+  }
+}

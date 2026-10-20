@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Recipes>
+  <Recipe Id="iron-smelting" DurationSeconds="2">
+    <Inputs><Item Ref="1" Amount="1" /></Inputs>
+    <Outputs><Item Ref="11" Amount="0.7" /></Outputs>
+  </Recipe>
+  <Recipe Id="copper-smelting" DurationSeconds="2.5">
+    <Inputs><Item Ref="2" Amount="1" /></Inputs>
+    <Outputs><Item Ref="12" Amount="0.65" /></Outputs>
+  </Recipe>
+  <Recipe Id="nickel-smelting" DurationSeconds="3">
+    <Inputs><Item Ref="3" Amount="1" /></Inputs>
+    <Outputs><Item Ref="13" Amount="0.6" /></Outputs>
+  </Recipe>
+  <Recipe Id="cobalt-smelting" DurationSeconds="4">
+    <Inputs><Item Ref="4" Amount="1" /></Inputs>
+    <Outputs><Item Ref="14" Amount="0.55" /></Outputs>
+  </Recipe>
+  <Recipe Id="titanium-smelting" DurationSeconds="5">
+    <Inputs><Item Ref="5" Amount="1" /></Inputs>
+    <Outputs><Item Ref="15" Amount="0.5" /></Outputs>
+  </Recipe>
+  <Recipe Id="uranium-refining" DurationSeconds="8">
+    <Inputs><Item Ref="6" Amount="1" /></Inputs>
+    <Outputs><Item Ref="16" Amount="0.4" /></Outputs>
+  </Recipe>
+</Recipes>

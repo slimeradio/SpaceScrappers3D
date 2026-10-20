@@ -1,0 +1,262 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-D03",
+  "version": "1.0",
+  "title": "Heavy three-spindle mechanical drill 3x5",
+  "catalog_id": "rotary-drill-3x5",
+  "catalog_grid": [
+    3,
+    5
+  ],
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "heavy-load-frame",
+      "part_id": "MA-D03-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-D03-P01/MA-D03-P01.blend",
+      "parent": "MA-D03",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "drive-port",
+      "part_id": "MA-D01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-D01-P02/MA-D01-P02.blend",
+      "parent": "MA-D03",
+      "translation": [
+        -1.8,
+        0.2,
+        0.65
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "cutter-port",
+      "part_id": "MA-D01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-D01-P03/MA-D01-P03.blend",
+      "parent": "MA-D03",
+      "translation": [
+        -1.8,
+        -2.03,
+        0.95
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "drive-center",
+      "part_id": "MA-D01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-D01-P02/MA-D01-P02.blend",
+      "parent": "MA-D03",
+      "translation": [
+        0,
+        -0.25,
+        0.65
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "cutter-center",
+      "part_id": "MA-D01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-D01-P03/MA-D01-P03.blend",
+      "parent": "MA-D03",
+      "translation": [
+        0,
+        -2.48,
+        0.95
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "drive-starboard",
+      "part_id": "MA-D01-P02",
+      "version": "1.0",
+      "source": "../../Parts/MA-D01-P02/MA-D01-P02.blend",
+      "parent": "MA-D03",
+      "translation": [
+        1.8,
+        0.2,
+        0.65
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "cutter-starboard",
+      "part_id": "MA-D01-P03",
+      "version": "1.0",
+      "source": "../../Parts/MA-D01-P03/MA-D01-P03.blend",
+      "parent": "MA-D03",
+      "translation": [
+        1.8,
+        -2.03,
+        0.95
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "heavy-load-frame",
+      "parent_socket": "drive-port",
+      "child_instance": "drive-port",
+      "child_socket": "root",
+      "compatibility": "MilitaryArmor.drill.drive",
+      "position_error": 0,
+      "rotation_error_degrees": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "parent_instance": "heavy-load-frame",
+      "parent_socket": "cutter-port",
+      "child_instance": "cutter-port",
+      "child_socket": "root",
+      "compatibility": "MilitaryArmor.drill.cutter",
+      "position_error": 0,
+      "rotation_error_degrees": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "parent_instance": "heavy-load-frame",
+      "parent_socket": "drive-center",
+      "child_instance": "drive-center",
+      "child_socket": "root",
+      "compatibility": "MilitaryArmor.drill.drive",
+      "position_error": 0,
+      "rotation_error_degrees": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "parent_instance": "heavy-load-frame",
+      "parent_socket": "cutter-center",
+      "child_instance": "cutter-center",
+      "child_socket": "root",
+      "compatibility": "MilitaryArmor.drill.cutter",
+      "position_error": 0,
+      "rotation_error_degrees": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "parent_instance": "heavy-load-frame",
+      "parent_socket": "drive-starboard",
+      "child_instance": "drive-starboard",
+      "child_socket": "root",
+      "compatibility": "MilitaryArmor.drill.drive",
+      "position_error": 0,
+      "rotation_error_degrees": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "parent_instance": "heavy-load-frame",
+      "parent_socket": "cutter-starboard",
+      "child_instance": "cutter-starboard",
+      "child_socket": "root",
+      "compatibility": "MilitaryArmor.drill.cutter",
+      "position_error": 0,
+      "rotation_error_degrees": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Static visual-only authoring; no gameplay XML, scale, speed or performance contract. Three staggered mechanical heads, no beam or muzzle."
+}

@@ -1,0 +1,158 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-barrel",
+  "version": "2.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-barrel.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "scale_policy": "positive uniform instance scale; nonuniform requires explicit parametric variant and revalidation",
+  "sockets": [
+    {
+      "id": "mount",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "space": "local"
+    }
+  ],
+  "mount_regions": [],
+  "functional_points": [
+    {
+      "id": "muzzle",
+      "role": "projectile_origin",
+      "position": [
+        0,
+        -3.4,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "space": "local"
+    },
+    {
+      "id": "eject",
+      "role": "optional_effect",
+      "position": [
+        0.27,
+        -0.12,
+        0
+      ],
+      "forward": [
+        1,
+        0,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "space": "local"
+    }
+  ],
+  "animations": [
+    {
+      "id": "recoil",
+      "node": "root",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "range": [
+        0,
+        0.14
+      ],
+      "unit": "design_unit",
+      "rest": 0,
+      "demo_clip": "recoil_demo",
+      "duration_seconds": 0.6
+    }
+  ],
+  "bind_pose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotation_euler_xyz_radians": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "materials": [
+    "CM.graphite",
+    "CM.orange",
+    "CM.rubber",
+    "CM.steel"
+  ],
+  "emissive_regions": [],
+  "dependencies": [
+    "../../Materials/CM-T01/materials.json"
+  ],
+  "compatibility": "authoring metadata only; game mapping pending",
+  "revision_note": "Revision 2: no typography; sharp structural chamfers retain 8 segments. Prior revision archived in Revisions/CM-T01-v1.0.0.zip.",
+  "bounds": {
+    "min": [
+      -0.4065069854259491,
+      -3.3899998664855957,
+      -0.4065069854259491
+    ],
+    "max": [
+      0.4065069854259491,
+      0.08999998867511749,
+      0.4065069854259491
+    ],
+    "dimensions": [
+      0.8130139708518982,
+      3.4799997806549072,
+      0.8130139708518982
+    ]
+  }
+}

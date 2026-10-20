@@ -1,0 +1,204 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-D01-P03",
+  "version": "1.0",
+  "name": "Tapered three-flute mechanical cutting head",
+  "source": "MA-D01-P03.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.8390844464302063,
+      -1.690000057220459,
+      -0.8838886618614197
+    ],
+    "max": [
+      0.90809166431427,
+      0.3400000035762787,
+      0.763661801815033
+    ]
+  },
+  "materials": [
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Replaceable carbide tooth 0 0",
+        "Replaceable carbide tooth 0 1",
+        "Replaceable carbide tooth 0 2",
+        "Replaceable carbide tooth 0 3",
+        "Replaceable carbide tooth 0 4",
+        "Replaceable carbide tooth 0 5",
+        "Replaceable carbide tooth 1 0",
+        "Replaceable carbide tooth 1 1",
+        "Replaceable carbide tooth 1 2",
+        "Replaceable carbide tooth 1 3",
+        "Replaceable carbide tooth 1 4",
+        "Replaceable carbide tooth 1 5",
+        "Replaceable carbide tooth 2 0",
+        "Replaceable carbide tooth 2 1",
+        "Replaceable carbide tooth 2 2",
+        "Replaceable carbide tooth 2 3",
+        "Replaceable carbide tooth 2 4",
+        "Replaceable carbide tooth 2 5"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Steel",
+      "surfaces": [
+        "Rear mechanical lock ring",
+        "Helical cutting flight 0",
+        "Helical cutting flight 1",
+        "Helical cutting flight 2",
+        "Blunt central breaker"
+      ],
+      "base_color_linear": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.3100000023841858,
+        1.0
+      ],
+      "metalness": 0.8500000238418579,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Titanium",
+      "surfaces": [
+        "Closed tapered tool core",
+        "Rear torque coupling"
+      ],
+      "base_color_linear": [
+        0.07500000298023224,
+        0.10499999672174454,
+        0.12999999523162842,
+        1.0
+      ],
+      "metalness": 0.8399999737739563,
+      "roughness": 0.30000001192092896,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [],
+  "mounts": [
+    {
+      "id": "root",
+      "node": "socket.root",
+      "parent": null,
+      "role": "cutter",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.drill.cutter"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "functional_points": [
+    {
+      "id": "tool-axis",
+      "role": "authoring-tool-axis-only",
+      "parent": null,
+      "position": [
+        0,
+        -1.69,
+        0
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "coordinate_space": "part-local",
+      "gameplay_contract": false
+    }
+  ],
+  "attachment_areas": [
+    {
+      "id": "root-plane",
+      "parent": null,
+      "role": "cutter",
+      "shape": "logical-plane",
+      "dimensions": [
+        0.04,
+        0.04
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.drill.cutter"
+      ],
+      "allowed_scale": [
+        1,
+        1,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "notes": "MilitaryArmor mechanical drill visual authoring; static rest pose; unit-scale only; procedural PBR, no UV or file textures; no gameplay contract.",
+  "project": "SS",
+  "style": "MilitaryArmor"
+}

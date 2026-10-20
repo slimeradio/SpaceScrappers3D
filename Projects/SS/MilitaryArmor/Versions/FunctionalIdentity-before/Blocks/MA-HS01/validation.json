@@ -1,0 +1,231 @@
+{
+  "id": "MA-HS01",
+  "checks_passed": true,
+  "verification": "Independent Blender process reopened both new standalone sources and one reused source and final assembly. Geometry gates passed before dependent assembly. Mesh manifoldness, positive volume, nondegenerate faces, nondegenerate evaluated triangles and finite coordinates and material assignment checked. Full socket positions and orientations matched. All dependency versions and unit scales resolved.",
+  "standalone_parts": [
+    {
+      "id": "MA-HS01-P01",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Foundation",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.5055999627590189
+        },
+        {
+          "mesh": "Recessed insulated bed",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.08812798232459995
+        },
+        {
+          "mesh": "Closed thermal collector",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.08584800560855871
+        },
+        {
+          "mesh": "Swept collector armor",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.02536299765014653
+        },
+        {
+          "mesh": "Inset collector identification",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.000707399625670939
+        },
+        {
+          "mesh": "Closed thermal collector.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.08584800560855871
+        },
+        {
+          "mesh": "Swept collector armor.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.02536299765014652
+        },
+        {
+          "mesh": "Inset collector identification.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.000707399625670939
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-HS01-P02",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Thermal isolation seat",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.02292870041018576
+        },
+        {
+          "mesh": "Closed titanium vessel",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.13274749625969662
+        },
+        {
+          "mesh": "Faceted ceramic cassette shell",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.09110699268188087
+        },
+        {
+          "mesh": "Inset thermal spine",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0007608647090496171
+        },
+        {
+          "mesh": "Collector coupling",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.012429999126642938
+        },
+        {
+          "mesh": "Dark coupling seal",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0006488642006964555
+        },
+        {
+          "mesh": "Collector coupling.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.012429999126642935
+        },
+        {
+          "mesh": "Dark coupling seal.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0006488642006964556
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-E01-P04",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Swept thermal shield",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.03529383410280195
+        },
+        {
+          "mesh": "Recessed radiator tile",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0004031999944210048
+        },
+        {
+          "mesh": "Recessed radiator tile.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0004031999944210048
+        },
+        {
+          "mesh": "Recessed radiator tile.002",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0004031999944210048
+        }
+      ],
+      "previews_present": true
+    }
+  ],
+  "connections": [
+    {
+      "connection": {
+        "parent_instance": "Cradle",
+        "parent_socket": "cassette-0",
+        "child_instance": "Cassette-0",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Cradle",
+        "parent_socket": "cassette-1",
+        "child_instance": "Cassette-1",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Cradle",
+        "parent_socket": "cassette-2",
+        "child_instance": "Cassette-2",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Cradle",
+        "parent_socket": "thermal-0",
+        "child_instance": "Thermal-0",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Cradle",
+        "parent_socket": "thermal-1",
+        "child_instance": "Thermal-1",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    }
+  ],
+  "instance_count": 6,
+  "resolved_parts": [
+    "MA-E01-P04",
+    "MA-HS01-P01",
+    "MA-HS01-P02"
+  ],
+  "bounds_BU": {
+    "min": [
+      -0.8999999761581421,
+      -0.8999999761581421,
+      0.0
+    ],
+    "max": [
+      0.8999999761581421,
+      0.8999999761581421,
+      0.7098215818405151
+    ]
+  },
+  "preview_views": [
+    "top",
+    "perspective"
+  ],
+  "glb_generated": false,
+  "game_validation": false,
+  "collision_LOD_validation": false,
+  "notes": "Overlapping enclosure seats, pressure seals and armour layers are intentional contacts. No moving poses. Physical BU-to-metre conversion unspecified."
+}

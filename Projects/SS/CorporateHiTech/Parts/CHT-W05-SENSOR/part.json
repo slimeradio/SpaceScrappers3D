@@ -1,0 +1,302 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W05-SENSOR",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Bastion: командная оптическая мачта",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "mast",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.2
+      ],
+      "outline": [
+        [
+          -0.02550000000000001,
+          -0.11
+        ],
+        [
+          0.02550000000000001,
+          -0.11
+        ],
+        [
+          0.085,
+          -0.0505
+        ],
+        [
+          0.085,
+          0.0505
+        ],
+        [
+          0.02550000000000001,
+          0.11
+        ],
+        [
+          -0.02550000000000001,
+          0.11
+        ],
+        [
+          -0.085,
+          0.0505
+        ],
+        [
+          -0.085,
+          -0.0505
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.2,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.188,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.184,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.2,
+          "scale": [
+            0.75,
+            0.75
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "sensor-head",
+      "shape": "loft",
+      "position": [
+        0,
+        0,
+        0.42
+      ],
+      "outline": [
+        [
+          -0.075,
+          -0.16
+        ],
+        [
+          0.075,
+          -0.16
+        ],
+        [
+          0.155,
+          -0.08
+        ],
+        [
+          0.155,
+          0.08
+        ],
+        [
+          0.075,
+          0.16
+        ],
+        [
+          -0.075,
+          0.16
+        ],
+        [
+          -0.155,
+          0.08
+        ],
+        [
+          -0.155,
+          -0.08
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.09,
+          "scale": [
+            0.94,
+            0.94
+          ]
+        },
+        {
+          "z": -0.078,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.074,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.09,
+          "scale": [
+            0.84,
+            0.84
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "sensor-window",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0.162,
+        0.43
+      ],
+      "size": [
+        0.19,
+        0.015,
+        0.07
+      ],
+      "radius": 0.008,
+      "material": "glass"
+    },
+    {
+      "id": "roof-line",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0,
+        0.515
+      ],
+      "size": [
+        0.11,
+        0.16,
+        0.009
+      ],
+      "radius": 0.008,
+      "material": "cyan"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "glass",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; viewer box-projected UV for optional SharedTextures",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "sensor-window",
+      "material": "glass",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#1686bf",
+      "intensity": 0.65
+    },
+    {
+      "id": "roof-line",
+      "material": "cyan",
+      "defaultEnabled": true,
+      "intensityUnit": "Three.js multiplier",
+      "color": "#25bfff",
+      "intensity": 2.5
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "parentNode": "root",
+      "compatible": "CHT-W05-YAW.sensor"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.155,
+      -0.16,
+      0.0
+    ],
+    "max": [
+      0.155,
+      0.1695,
+      0.5195
+    ],
+    "size": [
+      0.31,
+      0.3295,
+      0.5195
+    ]
+  }
+}

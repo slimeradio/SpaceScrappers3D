@@ -1,0 +1,268 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-E01-P02",
+  "version": "1.0",
+  "name": "Средний двигатель — камера сгорания",
+  "source": "MA-E01-P02.blend",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "rest_pose": "identity",
+  "scale_policy": "unit only",
+  "bounds_local": {
+    "min": [
+      -0.4710000157356262,
+      -0.47999998927116394,
+      -0.38999998569488525
+    ],
+    "max": [
+      0.4710000157356262,
+      0.800000011920929,
+      0.47999998927116394
+    ]
+  },
+  "materials": [
+    {
+      "id": "Armor",
+      "surfaces": [
+        "Pressurized engine casing"
+      ],
+      "base_color_linear": [
+        0.0949999988079071,
+        0.11999999731779099,
+        0.14499999582767487,
+        1.0
+      ],
+      "metalness": 0.7200000286102295,
+      "roughness": 0.3700000047683716,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Ceramic",
+      "surfaces": [
+        "Dorsal ceramic shell"
+      ],
+      "base_color_linear": [
+        0.3799999952316284,
+        0.4300000071525574,
+        0.46000000834465027,
+        1.0
+      ],
+      "metalness": 0.3799999952316284,
+      "roughness": 0.3199999928474426,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Dark",
+      "surfaces": [
+        "Lateral thermal recess",
+        "Lateral thermal recess.001"
+      ],
+      "base_color_linear": [
+        0.008999999612569809,
+        0.014999999664723873,
+        0.02199999988079071,
+        1.0
+      ],
+      "metalness": 0.4000000059604645,
+      "roughness": 0.47999998927116394,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    },
+    {
+      "id": "Signal",
+      "surfaces": [
+        "Chamber diagnostics",
+        "Chamber diagnostics.001"
+      ],
+      "base_color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705,
+        1.0
+      ],
+      "metalness": 0.3499999940395355,
+      "roughness": 0.25,
+      "texture_source": "uniform Blender PBR nodes; no file textures; no UV dependency"
+    }
+  ],
+  "emission": [
+    {
+      "slot": "Signal",
+      "regions": [
+        "Chamber diagnostics",
+        "Chamber diagnostics.001"
+      ],
+      "color_linear": [
+        0.014999999664723873,
+        0.550000011920929,
+        0.7799999713897705
+      ],
+      "strength": 2.5,
+      "units": "Blender shader strength",
+      "default": "on"
+    }
+  ],
+  "mounts": [
+    {
+      "id": "root",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "role": "chamber",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.engine.chamber"
+      ],
+      "restrictions": "unit scale; local authoring frame"
+    },
+    {
+      "id": "nozzle",
+      "position": [
+        0,
+        -0.48,
+        0
+      ],
+      "role": "nozzle",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.engine.nozzle"
+      ],
+      "restrictions": "unit scale; local authoring frame"
+    },
+    {
+      "id": "thermal-L",
+      "position": [
+        -0.43,
+        0.05,
+        0.05
+      ],
+      "role": "thermal",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        -1
+      ],
+      "compatibility": [
+        "MilitaryArmor.engine.thermal"
+      ],
+      "restrictions": "unit scale; local authoring frame"
+    },
+    {
+      "id": "thermal-R",
+      "position": [
+        0.43,
+        0.05,
+        0.05
+      ],
+      "role": "thermal",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.engine.thermal"
+      ],
+      "restrictions": "unit scale; local authoring frame"
+    },
+    {
+      "id": "service",
+      "position": [
+        0,
+        0.3,
+        0.48
+      ],
+      "role": "accessory",
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatibility": [
+        "MilitaryArmor.engine.accessory"
+      ],
+      "restrictions": "unit scale; local authoring frame"
+    }
+  ],
+  "functional_points": [],
+  "attachment_areas": [
+    {
+      "id": "interface-plane",
+      "role": "chamber",
+      "parent": "MA-E01-P02",
+      "shape": "logical-plane",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "allowed_rotations_degrees": [
+        0
+      ],
+      "compatibility": [
+        "MilitaryArmor.engine.chamber"
+      ],
+      "restrictions": "Align complete socket pose; no nonunit scale"
+    }
+  ],
+  "animations": [],
+  "notes": ""
+}

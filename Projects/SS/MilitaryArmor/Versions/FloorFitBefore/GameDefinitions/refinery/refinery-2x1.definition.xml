@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Block Name="refinery-2x1" Category="Производство" Type="Refinery" MaxHealth="1000" BlockMass="2">
+  <Construction BaseCreationSeconds="1">
+    <Point Id="complexity" Sum="6"/>
+    <DesignCost><Item Ref="11" Amount="60"/></DesignCost>
+    <BuildCost><Item Ref="11" Amount="6"/></BuildCost>
+  </Construction>
+  <Size X="2" Y="1"/>
+  <Refinery Units="10" GoodsTaxPercent="0" PricePerTick="0" PowerPerUnit="1"/>
+  <Colliders><ConvexCollider Data="0 0 2 0 2 1 0 1"/></Colliders>
+    <Repair Version="2">
+        <CurrentHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+        <MaximumHealth RepairTimeMultiplier="0.2" RecreateTimeMultiplier="0.5" RepairCostMultiplier="0.15" RecreateCostMultiplier="0.33"/>
+    </Repair>
+    <Visual Pack="../Visuals/MilitaryArmor/manifest.visual.xml" Id="refinery-2x1"/>
+</Block>

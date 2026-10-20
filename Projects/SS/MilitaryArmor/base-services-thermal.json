@@ -1,0 +1,86 @@
+{
+  "schema": "MilitaryArmor.BaseServicesThermalAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-G02",
+      "title": "Базовый гараж с верфью 1×1",
+      "version": "1.0",
+      "catalog_id": "garage-base",
+      "catalog_grid": [
+        1,
+        1
+      ],
+      "source": "Blocks/MA-G02/MA-G02.blend",
+      "assembly": "Blocks/MA-G02/assembly.json",
+      "parts": [
+        "MA-G01-P01",
+        "MA-G01-P02",
+        "MA-G02-P01",
+        "MA-G02-P02",
+        "MA-R01-P05"
+      ],
+      "instance_count": 5,
+      "validation": "Blocks/MA-G02/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-G02/Previews/perspective.png",
+        "Blocks/MA-G02/Previews/top.png"
+      ],
+      "functional_redesign": false
+    },
+    {
+      "id": "MA-F02",
+      "title": "Производственный блок базы 2×1",
+      "version": "2.0",
+      "catalog_id": "refinery-base",
+      "catalog_grid": [
+        2,
+        1
+      ],
+      "source": "Blocks/MA-F02/MA-F02.blend",
+      "assembly": "Blocks/MA-F02/assembly.json",
+      "parts": [
+        "MA-F01-R2-P01",
+        "MA-F01-R2-P02",
+        "MA-F01-R2-P03",
+        "MA-F02-R2-P01"
+      ],
+      "instance_count": 4,
+      "validation": "Blocks/MA-F02/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-F02/Previews/perspective.png",
+        "Blocks/MA-F02/Previews/top.png"
+      ],
+      "functional_redesign": true
+    },
+    {
+      "id": "MA-H01",
+      "title": "Радиатор 1×2 — визуальная заготовка",
+      "version": "2.0",
+      "catalog_id": "radiator-1x2",
+      "catalog_grid": [
+        1,
+        2
+      ],
+      "source": "Blocks/MA-H01/MA-H01.blend",
+      "assembly": "Blocks/MA-H01/assembly.json",
+      "parts": [
+        "MA-H01-R2-P01",
+        "MA-H01-R2-P02"
+      ],
+      "instance_count": 10,
+      "validation": "Blocks/MA-H01/validation.json",
+      "checks_passed": true,
+      "previews": [
+        "Blocks/MA-H01/Previews/perspective.png",
+        "Blocks/MA-H01/Previews/top.png"
+      ],
+      "functional_redesign": true
+    }
+  ],
+  "physical_scale": "BU unspecified",
+  "glb_generated": false,
+  "game_validation": false,
+  "revision_note": "Functional identity redesign v2.0; see FunctionalIdentity.md for revised models and prior versions."
+}

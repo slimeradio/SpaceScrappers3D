@@ -1,0 +1,138 @@
+{
+  "schema": "SS3D.authoring.part/1",
+  "id": "cm-handle-folding",
+  "version": "2.0.0",
+  "project": "SS",
+  "style": "ChunkyModular",
+  "source": "cm-handle-folding.blend",
+  "units": "design_unit",
+  "coordinate_system": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y"
+  },
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "scale_policy": "positive uniform instance scale; nonuniform requires explicit parametric variant and revalidation",
+  "sockets": [
+    {
+      "id": "mount",
+      "role": "mount",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "parent": "root",
+      "space": "local"
+    }
+  ],
+  "mount_regions": [
+    {
+      "id": "base_plate",
+      "shape": "rectangle",
+      "size": [
+        0.52,
+        1.02
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        -1,
+        0
+      ],
+      "parent": "root",
+      "space": "local"
+    }
+  ],
+  "functional_points": [],
+  "animations": [
+    {
+      "id": "fold",
+      "node": "fold_joint",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "range_degrees": [
+        0,
+        75
+      ],
+      "rest_degrees": 0,
+      "demo_clip": "fold_demo"
+    }
+  ],
+  "bind_pose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotation_euler_xyz_radians": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "materials": [
+    "CM.graphite",
+    "CM.rubber",
+    "CM.steel"
+  ],
+  "emissive_regions": [],
+  "dependencies": [
+    "../../Materials/CM-T01/materials.json"
+  ],
+  "compatibility": "authoring metadata only; game mapping pending",
+  "revision_note": "Revision 2: no typography; sharp structural chamfers retain 8 segments. Prior revision archived in Revisions/CM-T01-v1.0.0.zip.",
+  "bounds": {
+    "min": [
+      -0.25999999046325684,
+      -0.5099999904632568,
+      0.0
+    ],
+    "max": [
+      0.25999999046325684,
+      0.5099999904632568,
+      0.6200606226921082
+    ],
+    "dimensions": [
+      0.5199999809265137,
+      1.0199999809265137,
+      0.6200606226921082
+    ]
+  }
+}

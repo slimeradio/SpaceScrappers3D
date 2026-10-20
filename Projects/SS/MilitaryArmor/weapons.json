@@ -1,0 +1,160 @@
+{
+  "schema": "MilitaryArmor.WeaponAuthoringIndex/1",
+  "style": "MilitaryArmor",
+  "models": [
+    {
+      "id": "MA-W01",
+      "title": "Трёхствольная тяжёлая артиллерия",
+      "catalog_id": "fleet-artillery-battleship",
+      "catalog_grid": [
+        4,
+        4
+      ],
+      "source": "Blocks/MA-W01/MA-W01.blend",
+      "viewer_asset": "Blocks/MA-W01/Exports/MA-W01.glb",
+      "parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W01-P01",
+        "MA-W01-P02",
+        "MA-W01-P03",
+        "MA-W01-P04",
+        "MA-W01-P05"
+      ],
+      "functional_points": 3,
+      "GLB_meshes": 162,
+      "GLB_animations": 5,
+      "GLB_bytes": 1584284,
+      "GLB_sha256": "6769818cebe20788e06e8fa6301fa4df28e577cea3d4627a26ced95343887b96"
+    },
+    {
+      "id": "MA-W02",
+      "title": "Турель непрерывного лазера",
+      "catalog_id": "continuous-laser-turret",
+      "catalog_grid": [
+        1,
+        3
+      ],
+      "source": "Blocks/MA-W02/MA-W02.blend",
+      "viewer_asset": "Blocks/MA-W02/Exports/MA-W02.glb",
+      "parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W02-P01",
+        "MA-W02-P02",
+        "MA-W02-P03",
+        "MA-W02-P04",
+        "MA-W02-P05"
+      ],
+      "functional_points": 1,
+      "GLB_meshes": 85,
+      "GLB_animations": 2,
+      "GLB_bytes": 924860,
+      "GLB_sha256": "7717ca57d93dc75adfebfd4f182b090dcaa193e3d2a186c6519d9a0a26cb55c0"
+    },
+    {
+      "id": "MA-W03",
+      "title": "Двухствольная скорострельная турель Cyclone",
+      "catalog_id": "fleet-minigun-cyclone",
+      "catalog_grid": [
+        2,
+        2
+      ],
+      "source": "Blocks/MA-W03/MA-W03.blend",
+      "viewer_asset": "Blocks/MA-W03/Exports/MA-W03.glb",
+      "parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W03-P01",
+        "MA-W03-P02",
+        "MA-W03-P03",
+        "MA-W03-P04"
+      ],
+      "functional_points": 2,
+      "GLB_meshes": 98,
+      "GLB_animations": 4,
+      "GLB_bytes": 920312,
+      "GLB_sha256": "45e4a216903fd4fe8116121d2360508eda3b39daac874b9b5e4608c806c95dff"
+    },
+    {
+      "id": "MA-W04",
+      "title": "Четырёхканальная ракетная установка Bastion",
+      "catalog_id": "fleet-rocket-bastion",
+      "catalog_grid": [
+        3,
+        3
+      ],
+      "source": "Blocks/MA-W04/MA-W04.blend",
+      "viewer_asset": "Blocks/MA-W04/Exports/MA-W04.glb",
+      "parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W04-P01",
+        "MA-W04-P02",
+        "MA-W04-P03",
+        "MA-W04-P04"
+      ],
+      "functional_points": 4,
+      "GLB_meshes": 112,
+      "GLB_animations": 2,
+      "GLB_bytes": 977728,
+      "GLB_sha256": "ef424ec119c59c38173f71a30ae6a38bfcfdb0fad0010bb637ebde722a5e933b"
+    },
+    {
+      "id": "MA-W05",
+      "title": "Веерный дробовик Fan",
+      "catalog_id": "fleet-shotgun-fan",
+      "catalog_grid": [
+        2,
+        1
+      ],
+      "source": "Blocks/MA-W05/MA-W05.blend",
+      "viewer_asset": "Blocks/MA-W05/Exports/MA-W05.glb",
+      "parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W05-P01",
+        "MA-W05-P02",
+        "MA-W05-P03",
+        "MA-W05-P04"
+      ],
+      "functional_points": 1,
+      "GLB_meshes": 89,
+      "GLB_animations": 3,
+      "GLB_bytes": 769928,
+      "GLB_sha256": "4374de2bd8e7314c3a503ba98a42079a71d3a875408ea9237c0aab796d23e461"
+    },
+    {
+      "id": "MA-W06",
+      "title": "Снайперский рельсотрон",
+      "catalog_id": "sniper-turret",
+      "catalog_grid": [
+        1,
+        2
+      ],
+      "source": "Blocks/MA-W06/MA-W06.blend",
+      "viewer_asset": "Blocks/MA-W06/Exports/MA-W06.glb",
+      "parts": [
+        "MA-P06",
+        "MA-P07",
+        "MA-W06-P01",
+        "MA-W06-P02",
+        "MA-W06-P03",
+        "MA-W06-P04"
+      ],
+      "functional_points": 1,
+      "GLB_meshes": 102,
+      "GLB_animations": 3,
+      "GLB_bytes": 848804,
+      "GLB_sha256": "02d079954f5ee73ab651451d8193cc3944d1f5763d16f116f9232f246da6a7a0"
+    }
+  ],
+  "new_part_count": 26,
+  "shared_part_ids": [
+    "MA-P06",
+    "MA-P07"
+  ],
+  "checked": true,
+  "failures": [],
+  "notes": "Final authoring assets; GLB for viewing, Blender editable sources. BU scale is unspecified. No game installation or acceptance."
+}

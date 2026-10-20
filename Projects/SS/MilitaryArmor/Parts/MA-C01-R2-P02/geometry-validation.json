@@ -1,0 +1,61 @@
+{
+  "checks_passed": true,
+  "validated_before_assembly": true,
+  "meshes": [
+    {
+      "mesh": "Compute cassette shield",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.05179900099648907,
+      "evaluated_triangles": 28,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true,
+      "pass": true
+    },
+    {
+      "mesh": "Backplane contact",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.004320000246763229,
+      "evaluated_triangles": 12,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true,
+      "pass": true
+    },
+    {
+      "mesh": "Recessed compute die",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0014087502957135342,
+      "evaluated_triangles": 28,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true,
+      "pass": true
+    },
+    {
+      "mesh": "Recessed diagnostic slot",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 0.0005399999646842485,
+      "evaluated_triangles": 12,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true,
+      "pass": true
+    },
+    {
+      "mesh": "Compute status",
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_volume": 1.6875000544823694e-05,
+      "evaluated_triangles": 12,
+      "zero_area_triangles": 0,
+      "finite": true,
+      "materials_resolved": true,
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema": "MilitaryArmor.LargestStorageAuthoringIndex/1",
+  "models": [
+    {
+      "id": "MA-I05",
+      "title": "Грузовой контейнер 5×5",
+      "version": "1.0",
+      "catalog_id": "cargo-5x5",
+      "catalog_grid": [
+        5,
+        5
+      ],
+      "source": "Blocks/MA-I05/MA-I05.blend",
+      "assembly": "Blocks/MA-I05/assembly.json",
+      "parts": [
+        "MA-I01-R2-P02",
+        "MA-I01-R2-P03",
+        "MA-I05-P01"
+      ],
+      "instance_count": 13,
+      "validation": "Blocks/MA-I05/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-I05/Previews/perspective.png",
+        "Blocks/MA-I05/Previews/top.png",
+        "Blocks/MA-I05/Previews/top-grayscale.png"
+      ]
+    },
+    {
+      "id": "MA-FT04",
+      "title": "Бак топлива 4×4",
+      "version": "1.0",
+      "catalog_id": "fuel-tank-4x4",
+      "catalog_grid": [
+        4,
+        4
+      ],
+      "source": "Blocks/MA-FT04/MA-FT04.blend",
+      "assembly": "Blocks/MA-FT04/assembly.json",
+      "parts": [
+        "MA-FT01-P02",
+        "MA-FT01-P03",
+        "MA-FT04-P01"
+      ],
+      "instance_count": 25,
+      "validation": "Blocks/MA-FT04/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-FT04/Previews/perspective.png",
+        "Blocks/MA-FT04/Previews/top.png",
+        "Blocks/MA-FT04/Previews/top-grayscale.png"
+      ]
+    },
+    {
+      "id": "MA-HS04",
+      "title": "Накопитель тепла 4×4 — визуальная заготовка",
+      "version": "2.0",
+      "catalog_id": "heat-store-4x4",
+      "catalog_grid": [
+        4,
+        4
+      ],
+      "source": "Blocks/MA-HS04/MA-HS04.blend",
+      "assembly": "Blocks/MA-HS04/assembly.json",
+      "parts": [
+        "MA-HS01-R2-P02",
+        "MA-HS04-P01",
+        "MA-HS04-P02"
+      ],
+      "instance_count": 50,
+      "validation": "Blocks/MA-HS04/validation.json",
+      "checks_passed": true,
+      "visual_only": true,
+      "previews": [
+        "Blocks/MA-HS04/Previews/perspective.png",
+        "Blocks/MA-HS04/Previews/top.png",
+        "Blocks/MA-HS04/Previews/top-grayscale.png"
+      ]
+    }
+  ],
+  "new_part_sources": 4,
+  "glb_generated": false,
+  "game_validation": false
+}

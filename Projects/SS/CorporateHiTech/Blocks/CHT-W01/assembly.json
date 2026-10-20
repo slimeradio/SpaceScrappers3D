@@ -1,0 +1,203 @@
+{
+  "schema": "cht-authoring-assembly/1",
+  "id": "CHT-W01",
+  "version": "1.1.0",
+  "title": "Citadel — крейсерская артиллерия",
+  "catalogId": "fleet-artillery-cruiser",
+  "catalogReference": "../../../Catalog/blocks.csv",
+  "catalogGrid": [
+    3,
+    4
+  ],
+  "catalogRotationPivot": [
+    1.5,
+    2
+  ],
+  "units": "model-unit",
+  "up": "+Z",
+  "forward": "+Y",
+  "scaleNote": "Stylized model units, not metres or grid cells. Barrel count and lateral offsets preserve catalogue; visual long barrels extend forward beyond catalogue ShootPosition. Runtime mapping required.",
+  "instances": [
+    {
+      "id": "foundation",
+      "partId": "CHT-W01-BASE",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W01-BASE/part.json",
+      "parent": null,
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": null
+    },
+    {
+      "id": "yaw",
+      "partId": "CHT-W01-HEAD",
+      "partVersion": "1.1.0",
+      "source": "../../Parts/CHT-W01-HEAD/part.json",
+      "parent": "foundation",
+      "translation": [
+        0,
+        0,
+        0.3
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "bearing",
+        "childSocket": "base"
+      },
+      "joint": {
+        "type": "revolute",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "rangeDegrees": [
+          0,
+          360
+        ],
+        "continuous": true,
+        "restDegrees": 0
+      }
+    },
+    {
+      "id": "power-pack",
+      "partId": "CHT-W01-PACK",
+      "partVersion": "1.0.0",
+      "source": "../../Parts/CHT-W01-PACK/part.json",
+      "parent": "yaw",
+      "translation": [
+        0,
+        -0.74,
+        0.57
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "pack",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "barrel-0",
+      "partId": "CHT-W01-BARREL",
+      "partVersion": "1.1.0",
+      "source": "../../Parts/CHT-W01-BARREL/part.json",
+      "parent": "yaw",
+      "translation": [
+        -0.254,
+        0.44,
+        0.38
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "barrel-0",
+        "childSocket": "base"
+      }
+    },
+    {
+      "id": "barrel-1",
+      "partId": "CHT-W01-BARREL",
+      "partVersion": "1.1.0",
+      "source": "../../Parts/CHT-W01-BARREL/part.json",
+      "parent": "yaw",
+      "translation": [
+        0.254,
+        0.44,
+        0.38
+      ],
+      "rotationEulerXYZ": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "attachment": {
+        "parentSocket": "barrel-1",
+        "childSocket": "base"
+      }
+    }
+  ],
+  "animations": [
+    {
+      "id": "yaw-demo",
+      "node": "yaw",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "rangeDegrees": [
+        0,
+        360
+      ],
+      "durationSeconds": 8,
+      "loop": true,
+      "interpolation": "LINEAR",
+      "restDegrees": 0,
+      "gameplaySource": "catalog RotateSpeedDegreesPerSecond=45"
+    }
+  ],
+  "catalogSnapshot": {
+    "ID": "fleet-artillery-cruiser",
+    "Название_пояснительное": "Артиллерия Fleet cruiser",
+    "Тип_XML": "Turret",
+    "Ширина_клеток": "3",
+    "Высота_клеток": "4",
+    "Размер_сетки_без_поворота": "3x4",
+    "Описание_и_назначение": "Стреляет физическими снарядами. Поворотная установка с собственной дугой наведения. Урон из Weapon=1100; дальность=400.",
+    "Прочность_MaxHealth": "6840",
+    "Масса_BlockMass_единицы_игры": "16",
+    "Особенности_и_ограничения": "Урон указан из XML Weapon без пересчёта в DPS. Итоговый залп зависит от числа стволов, ProjectilesPerShot, интервалов, магазина и нагрева. Энергия и боеприпасы заданы отдельно.",
+    "Параметры_механики_XML": "<Heat Capacity=\"384\" Input=\"0\" Output=\"12\" EnergyFraction=\"0.8\" Background=\"0\" WorkHeat=\"0\" Radiator=\"0\" Shutdown=\"0.9\" Resume=\"0.5\" DamagePerSecond=\"0\" Action=\"Disable\" />",
+    "Ресурсы_XML_1_энергия_МДж_2_топливо": "<Resource StoreInStorage=\"true\" Id=\"1\" Capacity=\"192\" WorkingThreshold=\"1\" TargetStorage=\"192\" InitialStorage=\"192\" MaxInput=\"96\" UsePerShot=\"16\" Priority=\"30\" />",
+    "Оружие_XML": "<Weapon Name=\"fleet-artillery-cruiser-weapon\" ProjectileKind=\"Bullet\" DamagePerProjectile=\"1100\" ProjectileSpeed=\"320\" MaxRange=\"400\" HitReaction=\"Damage\"><Barrels><Barrel Ref=\"fleet-artillery-cruiser-barrel-0\" /><Barrel Ref=\"fleet-artillery-cruiser-barrel-1\" /></Barrels></Weapon>",
+    "Наведение_XML": "<Turret Name=\"fleet-artillery-cruiser-mount\" FiringArcDegrees=\"360\" RotateSpeedDegreesPerSecond=\"45\"><RotationPivot X=\"1.5\" Y=\"2\" /></Turret>",
+    "Стволы_XML": "<Barrel Name=\"fleet-artillery-cruiser-barrel-0\" MaxHeat=\"100\" HeatPerShot=\"16\" HeatPerSeconds=\"8\" ShootIntervalInSeconds=\"3.5\" ReloadIntervalInSeconds=\"5\" MaxMagazineCapacity=\"1\" ProjectilesPerShot=\"1\" ShotSpread=\"0\"><ShootPosition X=\"-0.254\" Y=\"2.95\" /></Barrel> <Barrel Name=\"fleet-artillery-cruiser-barrel-1\" MaxHeat=\"100\" HeatPerShot=\"16\" HeatPerSeconds=\"8\" ShootIntervalInSeconds=\"3.5\" ReloadIntervalInSeconds=\"5\" MaxMagazineCapacity=\"1\" ProjectilesPerShot=\"1\" ShotSpread=\"0\"><ShootPosition X=\"0.254\" Y=\"2.95\" /></Barrel>",
+    "Источник_от_корня_проекта": "Assets/Definitions/FleetWeapons/fleet-artillery-cruiser.definition.xml",
+    "Основание_описания": "Пояснение по текущим XML и исходному коду; название пояснительное, не локализованное имя UI. Размер — Size в клетках до поворота, не габарит рисунка или коллайдера. Игровой запуск не проверялся.",
+    "Дата_среза": "2026-10-15"
+  }
+}

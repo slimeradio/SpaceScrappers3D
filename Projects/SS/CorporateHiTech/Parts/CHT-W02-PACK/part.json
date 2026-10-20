@@ -1,0 +1,435 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W02-PACK",
+  "version": "1.1.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Высоковольтная кассета ускорителя",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "capacitor-saddle",
+      "shape": "loft",
+      "outline": [
+        [
+          -0.2,
+          -0.23
+        ],
+        [
+          0.2,
+          -0.23
+        ],
+        [
+          0.22,
+          -0.16
+        ],
+        [
+          0.17,
+          0.22
+        ],
+        [
+          -0.17,
+          0.22
+        ],
+        [
+          -0.22,
+          -0.16
+        ]
+      ],
+      "position": [
+        0,
+        0,
+        0.025
+      ],
+      "levels": [
+        {
+          "z": -0.025,
+          "scale": [
+            0.92,
+            0.92
+          ]
+        },
+        {
+          "z": -0.010000000000000002,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": -0.010000000000000002,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": 0.025,
+          "scale": [
+            0.9119999999999999,
+            0.9119999999999999
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "ceramic-capacitor--1",
+      "shape": "lathe",
+      "profile": [
+        [
+          0,
+          -0.21
+        ],
+        [
+          0.064,
+          -0.21
+        ],
+        [
+          0.081,
+          -0.17
+        ],
+        [
+          0.081,
+          0.14
+        ],
+        [
+          0.063,
+          0.21
+        ],
+        [
+          0,
+          0.21
+        ],
+        [
+          0,
+          -0.21
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "position": [
+        -0.1,
+        0,
+        0.115
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "capacitor-terminal--1",
+      "shape": "lathe",
+      "profile": [
+        [
+          0,
+          0.14
+        ],
+        [
+          0.084,
+          0.14
+        ],
+        [
+          0.084,
+          0.17
+        ],
+        [
+          0.069,
+          0.22
+        ],
+        [
+          0,
+          0.22
+        ],
+        [
+          0,
+          0.14
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "position": [
+        -0.1,
+        0,
+        0.115
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "capacitor-state--1",
+      "shape": "lathe",
+      "profile": [
+        [
+          0.082,
+          -0.105
+        ],
+        [
+          0.084,
+          -0.105
+        ],
+        [
+          0.084,
+          -0.082
+        ],
+        [
+          0.082,
+          -0.082
+        ],
+        [
+          0.082,
+          -0.105
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "position": [
+        -0.1,
+        0,
+        0.115
+      ],
+      "material": "cyan"
+    },
+    {
+      "id": "ceramic-capacitor-1",
+      "shape": "lathe",
+      "profile": [
+        [
+          0,
+          -0.21
+        ],
+        [
+          0.064,
+          -0.21
+        ],
+        [
+          0.081,
+          -0.17
+        ],
+        [
+          0.081,
+          0.14
+        ],
+        [
+          0.063,
+          0.21
+        ],
+        [
+          0,
+          0.21
+        ],
+        [
+          0,
+          -0.21
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "position": [
+        0.1,
+        0,
+        0.115
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "capacitor-terminal-1",
+      "shape": "lathe",
+      "profile": [
+        [
+          0,
+          0.14
+        ],
+        [
+          0.084,
+          0.14
+        ],
+        [
+          0.084,
+          0.17
+        ],
+        [
+          0.069,
+          0.22
+        ],
+        [
+          0,
+          0.22
+        ],
+        [
+          0,
+          0.14
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "position": [
+        0.1,
+        0,
+        0.115
+      ],
+      "material": "edge"
+    },
+    {
+      "id": "capacitor-state-1",
+      "shape": "lathe",
+      "profile": [
+        [
+          0.082,
+          -0.105
+        ],
+        [
+          0.084,
+          -0.105
+        ],
+        [
+          0.084,
+          -0.082
+        ],
+        [
+          0.082,
+          -0.082
+        ],
+        [
+          0.082,
+          -0.105
+        ]
+      ],
+      "segments": 48,
+      "axis": "Y",
+      "position": [
+        0.1,
+        0,
+        0.115
+      ],
+      "material": "cyan"
+    },
+    {
+      "id": "central-power-bus",
+      "shape": "roundedBox",
+      "position": [
+        0,
+        0,
+        0.058
+      ],
+      "size": [
+        0.035,
+        0.33,
+        0.06
+      ],
+      "material": "graphite",
+      "radius": 0.006
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; model-unit box projection",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "capacitor-state--1",
+      "geometry": "capacitor-state--1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    },
+    {
+      "id": "capacitor-state-1",
+      "geometry": "capacitor-state-1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "role": "base",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "compatible": "CHT-W02-HEAD.pack",
+      "parentNode": "root"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.22,
+      -0.23,
+      0.0
+    ],
+    "max": [
+      0.22,
+      0.22,
+      0.199
+    ],
+    "size": [
+      0.44,
+      0.45,
+      0.199
+    ]
+  },
+  "revisionNotes": "Прямоугольная электронная кассета заменена парой керамических цилиндрических конденсаторов с коническими торцами в стреловидном седле. Голубая индикация — изолирующие кольца накопителей; крепление кассеты сохранено."
+}

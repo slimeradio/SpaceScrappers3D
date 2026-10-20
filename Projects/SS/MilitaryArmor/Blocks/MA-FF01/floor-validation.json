@@ -1,0 +1,68 @@
+{
+  "id": "MA-FF01",
+  "passed": true,
+  "scale": 0.6205128053393044,
+  "translation": [
+    0.0,
+    0.0,
+    0.075
+  ],
+  "body_instances": [
+    "LineStructure",
+    "TallWorkingStage",
+    "CrossProcessChamber",
+    "FinalProcessDrum",
+    "FrontTransferHead",
+    "RearTransferHead",
+    "ShieldedRouting"
+  ],
+  "body_bounds_cells": [
+    [
+      -1.4054615691879082,
+      -2.42,
+      0.075
+    ],
+    [
+      1.4054615691879082,
+      2.42,
+      1.9396409031148834
+    ]
+  ],
+  "floor_polygon": [
+    [
+      -1.5,
+      -2.5
+    ],
+    [
+      1.5,
+      -2.5
+    ],
+    [
+      1.5,
+      2.5
+    ],
+    [
+      -1.5,
+      2.5
+    ]
+  ],
+  "geometry": {
+    "objects": 79,
+    "triangles": 13056,
+    "degenerate_triangles": 0,
+    "nonmanifold_edges": 0,
+    "bounds_bu": [
+      [
+        -1.5,
+        -2.5,
+        0.0
+      ],
+      [
+        1.5,
+        2.5,
+        1.9396408796310425
+      ]
+    ]
+  },
+  "baseline_nonmanifold_edges": 0
+}

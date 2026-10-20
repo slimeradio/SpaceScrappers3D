@@ -1,0 +1,383 @@
+{
+  "schema": "MilitaryArmor.BlenderAuthoring/1",
+  "id": "MA-I05",
+  "version": "1.0",
+  "title": "Грузовой контейнер 5×5",
+  "catalog_id": "cargo-5x5",
+  "catalog_grid": [
+    5,
+    5
+  ],
+  "catalog_status": "visual-only; no game XML",
+  "axes": {
+    "handedness": "right",
+    "up": "+Z",
+    "forward": "-Y",
+    "units": "BU; physical scale unspecified"
+  },
+  "instances": [
+    {
+      "id": "Structure",
+      "part_id": "MA-I05-P01",
+      "version": "1.0",
+      "source": "../../Parts/MA-I05-P01/MA-I05-P01.blend",
+      "parent": "MA-I05",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchL0",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I05",
+      "translation": [
+        -2.05,
+        -3.075,
+        2.59
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchL1",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I05",
+      "translation": [
+        -2.05,
+        -1.025,
+        2.59
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchL2",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I05",
+      "translation": [
+        -2.05,
+        1.025,
+        2.59
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchL3",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I05",
+      "translation": [
+        -2.05,
+        3.075,
+        2.59
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchR0",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I05",
+      "translation": [
+        2.05,
+        -3.075,
+        2.59
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchR1",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I05",
+      "translation": [
+        2.05,
+        -1.025,
+        2.59
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchR2",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I05",
+      "translation": [
+        2.05,
+        1.025,
+        2.59
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "LoadingHatchR3",
+      "part_id": "MA-I01-R2-P02",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P02/MA-I01-R2-P02.blend",
+      "parent": "MA-I05",
+      "translation": [
+        2.05,
+        3.075,
+        2.59
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "CargoRailLF",
+      "part_id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+      "parent": "MA-I05",
+      "translation": [
+        -2.04,
+        -4.46,
+        0.18
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "CargoRailLB",
+      "part_id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+      "parent": "MA-I05",
+      "translation": [
+        -2.04,
+        4.46,
+        0.18
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "CargoRailRF",
+      "part_id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+      "parent": "MA-I05",
+      "translation": [
+        2.04,
+        -4.46,
+        0.18
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "CargoRailRB",
+      "part_id": "MA-I01-R2-P03",
+      "version": "2.0",
+      "source": "../../Parts/MA-I01-R2-P03/MA-I01-R2-P03.blend",
+      "parent": "MA-I05",
+      "translation": [
+        2.04,
+        4.46,
+        0.18
+      ],
+      "rotation_euler_xyz": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchL0",
+      "child_instance": "LoadingHatchL0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchL1",
+      "child_instance": "LoadingHatchL1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchL2",
+      "child_instance": "LoadingHatchL2",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchL3",
+      "child_instance": "LoadingHatchL3",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchR0",
+      "child_instance": "LoadingHatchR0",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchR1",
+      "child_instance": "LoadingHatchR1",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchR2",
+      "child_instance": "LoadingHatchR2",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "hatchR3",
+      "child_instance": "LoadingHatchR3",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "railLF",
+      "child_instance": "CargoRailLF",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "railLB",
+      "child_instance": "CargoRailLB",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "railRF",
+      "child_instance": "CargoRailRF",
+      "child_socket": "root"
+    },
+    {
+      "parent_instance": "Structure",
+      "parent_socket": "railRB",
+      "child_instance": "CargoRailRB",
+      "child_socket": "root"
+    }
+  ],
+  "animations": [],
+  "exports": [],
+  "notes": "Continuous wide cargo volume, twin loading lanes with eight access hatches, raised central spine and diagonal buttresses. Static authoring concept; no capacity or mechanisms specified."
+}

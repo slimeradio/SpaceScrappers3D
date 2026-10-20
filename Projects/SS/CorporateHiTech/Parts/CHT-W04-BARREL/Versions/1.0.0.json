@@ -1,0 +1,944 @@
+{
+  "schema": "cht-authoring-part/1",
+  "id": "CHT-W04-BARREL",
+  "version": "1.0.0",
+  "project": "SS",
+  "style": "CorporateHiTech",
+  "title": "Assault: единый широкий канал",
+  "source": "part.json",
+  "units": "model-unit",
+  "handedness": "right",
+  "up": "+Z",
+  "forward": "+Y",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "pivot": [
+    0,
+    0,
+    0
+  ],
+  "restPose": {
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "rotationEulerXYZ": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "scaling": {
+    "uniformOnly": true,
+    "allowedRange": [
+      1,
+      1
+    ]
+  },
+  "geometry": [
+    {
+      "id": "short-chamber",
+      "shape": "loft",
+      "position": [
+        0,
+        0.18,
+        0
+      ],
+      "outline": [
+        [
+          -0.245,
+          -0.195
+        ],
+        [
+          0.245,
+          -0.195
+        ],
+        [
+          0.315,
+          -0.125
+        ],
+        [
+          0.315,
+          0.125
+        ],
+        [
+          0.245,
+          0.195
+        ],
+        [
+          -0.245,
+          0.195
+        ],
+        [
+          -0.315,
+          0.125
+        ],
+        [
+          -0.315,
+          -0.125
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.18,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": -0.16799999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.16799999999999998,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.18,
+          "scale": [
+            0.9,
+            0.9
+          ]
+        }
+      ],
+      "material": "graphite"
+    },
+    {
+      "id": "upper-cowl",
+      "shape": "loft",
+      "position": [
+        0,
+        0.24,
+        0.17
+      ],
+      "outline": [
+        [
+          -0.255,
+          -0.24
+        ],
+        [
+          0.255,
+          -0.24
+        ],
+        [
+          0.325,
+          -0.16999999999999998
+        ],
+        [
+          0.325,
+          0.16999999999999998
+        ],
+        [
+          0.255,
+          0.24
+        ],
+        [
+          -0.255,
+          0.24
+        ],
+        [
+          -0.325,
+          0.16999999999999998
+        ],
+        [
+          -0.325,
+          -0.16999999999999998
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.05,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": -0.038000000000000006,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.038000000000000006,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.05,
+          "scale": [
+            0.86,
+            0.86
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "lower-cowl",
+      "shape": "loft",
+      "position": [
+        0,
+        0.22,
+        -0.17
+      ],
+      "outline": [
+        [
+          -0.21000000000000002,
+          -0.225
+        ],
+        [
+          0.21000000000000002,
+          -0.225
+        ],
+        [
+          0.28,
+          -0.155
+        ],
+        [
+          0.28,
+          0.155
+        ],
+        [
+          0.21000000000000002,
+          0.225
+        ],
+        [
+          -0.21000000000000002,
+          0.225
+        ],
+        [
+          -0.28,
+          0.155
+        ],
+        [
+          -0.28,
+          -0.155
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.045,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": -0.033,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.033,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.045,
+          "scale": [
+            0.86,
+            0.86
+          ]
+        }
+      ],
+      "material": "armor"
+    },
+    {
+      "id": "muzzle-body-0",
+      "shape": "roundedBox",
+      "position": [
+        0.2603337841309485,
+        0.49,
+        0.06717514421272203
+      ],
+      "size": [
+        0.17333903235188575,
+        0.17,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "armor",
+      "rotationEulerXYZ": [
+        0,
+        -2.157589952728188,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-body-1",
+      "shape": "roundedBox",
+      "position": [
+        0.10783378413094852,
+        0.49,
+        0.16217514421272203
+      ],
+      "size": [
+        0.23473165558207318,
+        0.17,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "armor",
+      "rotationEulerXYZ": [
+        0,
+        -2.889066352891885,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-body-2",
+      "shape": "roundedBox",
+      "position": [
+        -0.10783378413094848,
+        0.49,
+        0.16217514421272203
+      ],
+      "size": [
+        0.2347316555820732,
+        0.17,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "armor",
+      "rotationEulerXYZ": [
+        0,
+        2.889066352891885,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-body-3",
+      "shape": "roundedBox",
+      "position": [
+        -0.2603337841309485,
+        0.49,
+        0.06717514421272204
+      ],
+      "size": [
+        0.17333903235188575,
+        0.17,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "armor",
+      "rotationEulerXYZ": [
+        0,
+        2.1575899527281885,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-body-4",
+      "shape": "roundedBox",
+      "position": [
+        -0.26033378413094854,
+        0.49,
+        -0.067175144212722
+      ],
+      "size": [
+        0.17333903235188575,
+        0.17,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "armor",
+      "rotationEulerXYZ": [
+        0,
+        0.9840027008616051,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-body-5",
+      "shape": "roundedBox",
+      "position": [
+        -0.10783378413094855,
+        0.49,
+        -0.162175144212722
+      ],
+      "size": [
+        0.23473165558207318,
+        0.17,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "armor",
+      "rotationEulerXYZ": [
+        0,
+        0.252526300697908,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-body-6",
+      "shape": "roundedBox",
+      "position": [
+        0.10783378413094843,
+        0.49,
+        -0.16217514421272203
+      ],
+      "size": [
+        0.23473165558207318,
+        0.17,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "armor",
+      "rotationEulerXYZ": [
+        0,
+        -0.2525263006979079,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-body-7",
+      "shape": "roundedBox",
+      "position": [
+        0.26033378413094843,
+        0.49,
+        -0.06717514421272205
+      ],
+      "size": [
+        0.17333903235188575,
+        0.17,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "armor",
+      "rotationEulerXYZ": [
+        0,
+        -0.9840027008616044,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-lip-0",
+      "shape": "roundedBox",
+      "position": [
+        0.23472718241315033,
+        0.585,
+        0.05656854249492381
+      ],
+      "size": [
+        0.15087980179109808,
+        0.035,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        -2.1894839174762084,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-lip-1",
+      "shape": "roundedBox",
+      "position": [
+        0.09722718241315031,
+        0.585,
+        0.1365685424949238
+      ],
+      "size": [
+        0.2120215808437899,
+        0.035,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        -2.9051052031836617,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-lip-2",
+      "shape": "roundedBox",
+      "position": [
+        -0.09722718241315027,
+        0.585,
+        0.1365685424949238
+      ],
+      "size": [
+        0.21202158084378991,
+        0.035,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        2.9051052031836617,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-lip-3",
+      "shape": "roundedBox",
+      "position": [
+        -0.2347271824131503,
+        0.585,
+        0.05656854249492382
+      ],
+      "size": [
+        0.15087980179109808,
+        0.035,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        2.1894839174762084,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-lip-4",
+      "shape": "roundedBox",
+      "position": [
+        -0.23472718241315033,
+        0.585,
+        -0.05656854249492379
+      ],
+      "size": [
+        0.15087980179109806,
+        0.035,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        0.952108736113585,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-lip-5",
+      "shape": "roundedBox",
+      "position": [
+        -0.09722718241315034,
+        0.585,
+        -0.13656854249492378
+      ],
+      "size": [
+        0.2120215808437899,
+        0.035,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        0.23648745040613178,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-lip-6",
+      "shape": "roundedBox",
+      "position": [
+        0.09722718241315025,
+        0.585,
+        -0.1365685424949238
+      ],
+      "size": [
+        0.21202158084378991,
+        0.035,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        -0.23648745040613153,
+        0
+      ]
+    },
+    {
+      "id": "muzzle-lip-7",
+      "shape": "roundedBox",
+      "position": [
+        0.23472718241315027,
+        0.585,
+        -0.05656854249492384
+      ],
+      "size": [
+        0.1508798017910981,
+        0.035,
+        0.025
+      ],
+      "radius": 0.005,
+      "material": "edge",
+      "rotationEulerXYZ": [
+        0,
+        -0.9521087361135845,
+        0
+      ]
+    },
+    {
+      "id": "bore-depth",
+      "shape": "loft",
+      "position": [
+        0,
+        0.485,
+        0
+      ],
+      "outline": [
+        [
+          -0.175,
+          -0.1225
+        ],
+        [
+          0.175,
+          -0.1225
+        ],
+        [
+          0.22,
+          -0.0775
+        ],
+        [
+          0.22,
+          0.0775
+        ],
+        [
+          0.175,
+          0.1225
+        ],
+        [
+          -0.175,
+          0.1225
+        ],
+        [
+          -0.22,
+          0.0775
+        ],
+        [
+          -0.22,
+          -0.0775
+        ]
+      ],
+      "levels": [
+        {
+          "z": -0.004,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "z": 0.008,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": -0.008,
+          "scale": [
+            1,
+            1
+          ]
+        },
+        {
+          "z": 0.004,
+          "scale": [
+            0.95,
+            0.95
+          ]
+        }
+      ],
+      "material": "rubber",
+      "rotationEulerXYZ": [
+        -1.5707963267948966,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "side-skid--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.31,
+        0.23,
+        0
+      ],
+      "size": [
+        0.055,
+        0.36,
+        0.17
+      ],
+      "radius": 0.009,
+      "material": "edge"
+    },
+    {
+      "id": "side-status--1",
+      "shape": "roundedBox",
+      "position": [
+        -0.343,
+        0.24,
+        0.02
+      ],
+      "size": [
+        0.009,
+        0.18,
+        0.025
+      ],
+      "radius": 0.0018,
+      "material": "cyan"
+    },
+    {
+      "id": "chamber-slot--1-0",
+      "shape": "roundedBox",
+      "position": [
+        -0.24,
+        0.12,
+        0.223
+      ],
+      "size": [
+        0.095,
+        0.025,
+        0.009
+      ],
+      "radius": 0.0018,
+      "material": "rubber"
+    },
+    {
+      "id": "chamber-slot--1-1",
+      "shape": "roundedBox",
+      "position": [
+        -0.24,
+        0.22,
+        0.223
+      ],
+      "size": [
+        0.095,
+        0.025,
+        0.009
+      ],
+      "radius": 0.0018,
+      "material": "rubber"
+    },
+    {
+      "id": "chamber-slot--1-2",
+      "shape": "roundedBox",
+      "position": [
+        -0.24,
+        0.32,
+        0.223
+      ],
+      "size": [
+        0.095,
+        0.025,
+        0.009
+      ],
+      "radius": 0.0018,
+      "material": "rubber"
+    },
+    {
+      "id": "side-skid-1",
+      "shape": "roundedBox",
+      "position": [
+        0.31,
+        0.23,
+        0
+      ],
+      "size": [
+        0.055,
+        0.36,
+        0.17
+      ],
+      "radius": 0.009,
+      "material": "edge"
+    },
+    {
+      "id": "side-status-1",
+      "shape": "roundedBox",
+      "position": [
+        0.343,
+        0.24,
+        0.02
+      ],
+      "size": [
+        0.009,
+        0.18,
+        0.025
+      ],
+      "radius": 0.0018,
+      "material": "cyan"
+    },
+    {
+      "id": "chamber-slot-1-0",
+      "shape": "roundedBox",
+      "position": [
+        0.24,
+        0.12,
+        0.223
+      ],
+      "size": [
+        0.095,
+        0.025,
+        0.009
+      ],
+      "radius": 0.0018,
+      "material": "rubber"
+    },
+    {
+      "id": "chamber-slot-1-1",
+      "shape": "roundedBox",
+      "position": [
+        0.24,
+        0.22,
+        0.223
+      ],
+      "size": [
+        0.095,
+        0.025,
+        0.009
+      ],
+      "radius": 0.0018,
+      "material": "rubber"
+    },
+    {
+      "id": "chamber-slot-1-2",
+      "shape": "roundedBox",
+      "position": [
+        0.24,
+        0.32,
+        0.223
+      ],
+      "size": [
+        0.095,
+        0.025,
+        0.009
+      ],
+      "radius": 0.0018,
+      "material": "rubber"
+    }
+  ],
+  "materialLibrary": "../../Materials/materials.json",
+  "materialSlots": [
+    "armor",
+    "cyan",
+    "edge",
+    "graphite",
+    "rubber"
+  ],
+  "texturing": {
+    "method": "uniform procedural PBR; optional SharedTextures via existing viewer box-projection UV",
+    "rasterTextures": [],
+    "uvRequired": false
+  },
+  "emission": [
+    {
+      "id": "side-status--1",
+      "geometry": "side-status--1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    },
+    {
+      "id": "side-status-1",
+      "geometry": "side-status-1",
+      "material": "cyan",
+      "color": "#25bfff",
+      "intensity": 2.5,
+      "intensityUnit": "Three.js multiplier",
+      "defaultEnabled": true
+    }
+  ],
+  "attachments": [
+    {
+      "id": "base",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        -1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "compatible": "CHT-W04-HULL.barrel",
+      "role": "mechanical",
+      "parentNode": "root"
+    }
+  ],
+  "attachmentAreas": [],
+  "functionalPoints": [
+    {
+      "id": "muzzle",
+      "role": "projectile-muzzle",
+      "parentNode": "root",
+      "position": [
+        0,
+        0.61,
+        0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "coordinateSpace": "local"
+    }
+  ],
+  "animations": [],
+  "bounds": {
+    "min": [
+      -0.35,
+      -0.015,
+      -0.215
+    ],
+    "max": [
+      0.35,
+      0.61,
+      0.228
+    ],
+    "size": [
+      0.7,
+      0.625,
+      0.443
+    ]
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "id": "MA-G01",
+  "checks_passed": true,
+  "verification": "Independent Blender process reopened all three new standalone sources and one reused source and final assembly. Geometry gates passed before dependent assembly. Mesh manifoldness, positive volume, nondegenerate faces, nondegenerate evaluated triangles and finite coordinates and material assignment checked. Full socket positions and orientations matched. All dependency versions and unit scales resolved.",
+  "standalone_parts": [
+    {
+      "id": "MA-G01-P01",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Load foundation",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.6985439667577737
+        },
+        {
+          "mesh": "Hull gasket",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.13855999432086935
+        },
+        {
+          "mesh": "Inset apron",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.013195997195124634
+        },
+        {
+          "mesh": "Alignment runner",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0016680004298091182
+        },
+        {
+          "mesh": "Alignment runner.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0016680004298091201
+        },
+        {
+          "mesh": "Entry threshold",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.004750002030283435
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-G01-P02",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Swept portal shoulder",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0825330035863592
+        },
+        {
+          "mesh": "Cold side armour",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.019285503462977815
+        },
+        {
+          "mesh": "Swept portal shoulder.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.08253300358635916
+        },
+        {
+          "mesh": "Cold side armour.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.01928550346297781
+        },
+        {
+          "mesh": "Portal crown",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.07355201267218597
+        },
+        {
+          "mesh": "Pressure backing",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.1236620099131244
+        },
+        {
+          "mesh": "Recessed closed access leaf",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.008380403201619098
+        },
+        {
+          "mesh": "Flush capture pad",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0007393302203775111
+        },
+        {
+          "mesh": "Capture index",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 9.600001293420848e-06
+        },
+        {
+          "mesh": "Recessed closed access leaf.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.008380403201619098
+        },
+        {
+          "mesh": "Flush capture pad.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0007393302203775111
+        },
+        {
+          "mesh": "Capture index.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 9.600001293420848e-06
+        },
+        {
+          "mesh": "Protected sill",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.021584499768162145
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-G01-P03",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Rear shell",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.9983759548764226
+        },
+        {
+          "mesh": "Diagonal reinforcement",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.11331998802729903
+        },
+        {
+          "mesh": "Diagonal reinforcement.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.11331998802729903
+        },
+        {
+          "mesh": "Upper gasket",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.025675188945150088
+        },
+        {
+          "mesh": "Dorsal shield",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.06180999210506698
+        },
+        {
+          "mesh": "Cartridge seat",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.01772322187901123
+        },
+        {
+          "mesh": "Rear closed seam",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0036225096009588394
+        }
+      ],
+      "previews_present": true
+    },
+    {
+      "id": "MA-R01-P05",
+      "source_reopened": true,
+      "meshes": [
+        {
+          "mesh": "Flush pressure seal.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.013272000975389052
+        },
+        {
+          "mesh": "Hexagonal service cartridge.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.010070784395519613
+        },
+        {
+          "mesh": "Inset cartridge center.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 0.0016776003010153817
+        },
+        {
+          "mesh": "Flush quarter turn lock.002",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.3033392208021095e-05
+        },
+        {
+          "mesh": "Flush quarter turn lock.003",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 1.3033392208021095e-05
+        },
+        {
+          "mesh": "Cartridge status.001",
+          "nonmanifold_edges": 0,
+          "zero_area_faces": 0,
+          "volume": 2.2100000194460142e-05
+        }
+      ],
+      "previews_present": true
+    }
+  ],
+  "connections": [
+    {
+      "connection": {
+        "parent_instance": "Foundation",
+        "parent_socket": "portal",
+        "child_instance": "Portal",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Foundation",
+        "parent_socket": "housing",
+        "child_instance": "Housing",
+        "child_socket": "root"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    },
+    {
+      "connection": {
+        "parent_instance": "Housing",
+        "parent_socket": "service",
+        "child_instance": "Diagnostic",
+        "child_socket": "bottom"
+      },
+      "distance": 0.0,
+      "forward_dot": 1.0,
+      "up_dot": 1.0
+    }
+  ],
+  "instance_count": 4,
+  "resolved_parts": [
+    "MA-G01-P01",
+    "MA-G01-P02",
+    "MA-G01-P03",
+    "MA-R01-P05"
+  ],
+  "bounds_BU": {
+    "min": [
+      -0.8999999761581421,
+      -0.8999999761581421,
+      0.0
+    ],
+    "max": [
+      0.8999999761581421,
+      0.8999999761581421,
+      1.1100000143051147
+    ]
+  },
+  "preview_views": [
+    "top",
+    "perspective"
+  ],
+  "glb_generated": false,
+  "game_validation": false,
+  "collision_LOD_validation": false,
+  "notes": "Overlapping enclosure seats, pressure seals and armour layers are intentional contacts. No moving poses. Physical BU-to-metre conversion unspecified.",
+  "visual_review": {
+    "views": [
+      "top",
+      "perspective"
+    ],
+    "standalone_parts": [
+      "MA-G01-P01",
+      "MA-G01-P02",
+      "MA-G01-P03"
+    ],
+    "checked": "All standalone and assembly top/perspective PNG inspected. Protected portal and recessed entry, docking rails, layered armour and restrained emission readable; no unintended intersections visible."
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Construction>
+    <!-- Ship main strip and usage packages are from the GDD. Other strips are initial tunable balance. -->
+    <Profile Kind="Ship" MainPointId="complexity" DesignCostPerLevelMlt="1.25" BuildTimePerLevelMultiplier="1.15">
+        <Point Id="complexity" BaseLevelAmount="100" NextLevelMlt="1" MaxLevels="0"/>
+        <Point Id="weapon-load" BaseLevelAmount="100" NextLevelMlt="1" MaxLevels="5">
+            <OnLevelEffects><Effect Target="Maneuverability" MltSum="-0.1"/></OnLevelEffects>
+        </Point>
+        <Usage Count="5" Mlt="5"/>
+        <Usage Count="25" Mlt="22"/>
+    </Profile>
+    <Profile Kind="Base" MainPointId="complexity" DesignCostPerLevelMlt="1.25" BuildTimePerLevelMultiplier="1.15">
+        <Point Id="complexity" BaseLevelAmount="200" NextLevelMlt="1" MaxLevels="0"/>
+        <Usage Count="5" Mlt="5"/>
+        <Usage Count="25" Mlt="22"/>
+    </Profile>
+    <Profile Kind="Outpost" MainPointId="complexity" DesignCostPerLevelMlt="1.25" BuildTimePerLevelMultiplier="1.15">
+        <Point Id="complexity" BaseLevelAmount="400" NextLevelMlt="1" MaxLevels="0"/>
+        <Usage Count="5" Mlt="5"/>
+        <Usage Count="25" Mlt="22"/>
+    </Profile>
+    <RepairRules BlueprintPolicy="NotRequired" CurrentHealthYardPolicy="AnyYard" MaximumHealthYardPolicy="BaseOnly"/>
+</Construction>
